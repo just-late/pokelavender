@@ -243,6 +243,7 @@ DoEggStep::
 	ret
 
 OverworldHatchEgg::
+	call BackupSprites
 	call RefreshScreen
 	call LoadStandardMenuHeader
 	call HatchEggs

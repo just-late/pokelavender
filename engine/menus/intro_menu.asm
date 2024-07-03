@@ -682,7 +682,7 @@ ElmText2:
 	xor a
 	ld [wStereoPanningMask], a
 	ld [wCryTracks], a
-	ld de, AMPHAROS - 1
+	ld de, AMPHAROS ;- 1
 	call PlayCryHeader
 	call WaitSFX
 	ld hl, ElmText3
