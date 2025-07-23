@@ -460,7 +460,7 @@ WriteTrainerEVs:
 
 	; Otherwise, calculate total and set EV to total/2.
 	push hl
-	farcall _GetEVTotal
+	call _GetEVTotal
 	pop hl
 	srl b
 	rr c

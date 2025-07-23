@@ -12,7 +12,8 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	coord_event  6,  5, 0, PlayerWalksToAnabel2
 	coord_event  5,  4, 0, PickYourMonScript
 	coord_event  6,  4, 0, PickYourMonScript
-	coord_event  5,  4, 1, AnabelChallengeScript1
+	coord_event  5,  4, 1, AnabelChallengeTrigger1
+    coord_event  6,  4, 1, AnabelChallengeTrigger2
 
     def_bg_events
 	bg_event  0, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
@@ -65,39 +66,46 @@ PickYourMonScript:
     applyonemovement PLAYER, step_up
     end
 
-AnabelChallengeScript1:
+GemrootElderGivesMonScript:
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+    turnobject GEMROOT_COMMUNITYCENTER_ELDER, DOWN
+    opentext
+    writetext ElderGemrootTraditionText
+    waitbutton
+    closetext
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    turnobject GEMROOT_COMMUNITYCENTER_ELDER, DOWN
+    end
+
+AnabelChallengeTrigger1:
     playmusic MUSIC_RIVAL_ENCOUNTER
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+    applyonemovement PLAYER, run_step_right
+    turnobject PLAYER, LEFT
     showtext AnabelChallengeText
-    turnobject PLAYER, UP
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+    sjumpfwd AnabelChallengeScript
+
+AnabelChallengeTrigger2:
+    playmusic MUSIC_RIVAL_ENCOUNTER
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+    turnobject PLAYER, LEFT
+    showtext AnabelChallengeText
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+AnabelChallengeScript:
     winlosstext CommunityCenterAnabelWinText, CommunityCenterAnabelLossText
     checkevent EVENT_GOT_TOTODILE_FROM_ELDER
     iftruefwd .Totodile
     checkevent EVENT_GOT_TURTWIG_FROM_ELDER
     iftruefwd .Turtwig
-    loadtrainer RIVAL1, RIVAL1_1
-    loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
-    startbattle
-    dontrestartmapmusic
-    reloadmap
-    special DeleteSavedMusic
-    playmusic MUSIC_RIVAL_AFTER
-    iftruefwd .AfterYourDefeat
-    sjumpfwd .AfterVictorious
-
-.Totodile
-    loadtrainer RIVAL1, RIVAL1_2
-    loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
-    startbattle
-    dontrestartmapmusic
-    reloadmap
-    special DeleteSavedMusic
-    playmusic MUSIC_RIVAL_AFTER
-    iftruefwd .AfterYourDefeat
-    sjumpfwd .AfterVictorious
-
-.Turtwig
     loadtrainer RIVAL1, RIVAL1_3
     loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
     startbattle
@@ -108,10 +116,50 @@ AnabelChallengeScript1:
     iftruefwd .AfterYourDefeat
     sjumpfwd .AfterVictorious
 
-.AfterYourDefeat ; TODO: Complete these scripts
+.Totodile
+    loadtrainer RIVAL1, RIVAL1_1
+    loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+    startbattle
+    dontrestartmapmusic
+    reloadmap
+    special DeleteSavedMusic
+    playmusic MUSIC_RIVAL_AFTER
+    iftruefwd .AfterYourDefeat
+    sjumpfwd .AfterVictorious
+
+.Turtwig
+    loadtrainer RIVAL1, RIVAL1_2
+    loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+    startbattle
+    dontrestartmapmusic
+    reloadmap
+    special DeleteSavedMusic
+    playmusic MUSIC_RIVAL_AFTER
+    iftruefwd .AfterYourDefeat
+    sjumpfwd .AfterVictorious
+
+.AfterYourDefeat
+    showtext AnabelIKnewItText
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+    showtext AnabelThanksForTheMonText
+    applymovement GEMROOT_COMMUNITYCENTER_ANABEL, AnabelLeavesMovement
+    disappear GEMROOT_COMMUNITYCENTER_ANABEL
+    setscene $2
+    setevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    special HealPartyEvenForNuzlocke
+    special RestartMapMusic
     end
 
 .AfterVictorious
+    showtext AnabelGoodJobText
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+    showtext AnabelThanksForTheMonText
+    applymovement GEMROOT_COMMUNITYCENTER_ANABEL, AnabelLeavesMovement
+    disappear GEMROOT_COMMUNITYCENTER_ANABEL
+    setscene $2
+    setevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    special HealPartyEvenForNuzlocke
+    special RestartMapMusic
     end
 
 AnabelChallengeText:
@@ -122,12 +170,6 @@ AnabelChallengeText:
     done
 
 CommunityCenterAnabelWinText:
-    text "I'll training my"
-    line "#MON and get"
-    cont "even stronger!"
-    done
-
-CommunityCenterAnabelLossText:
     text "Wow, <PLAYER>! I'll"
     line "keep training my"
 
@@ -135,19 +177,42 @@ CommunityCenterAnabelLossText:
     line "stronger!"
     done
 
-GemrootElderGivesMonScript:
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
-    turnobject GEMROOT_COMMUNITYCENTER_ELDER, DOWN
-    opentext
-    writetext ElderGemrootTraditionText
-    closetext
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
-    turnobject GEMROOT_COMMUNITYCENTER_ELDER, DOWN
-    end
+CommunityCenterAnabelLossText:
+    text "I'll training my"
+    line "#MON and get"
+    cont "even stronger!"
+    done
+
+AnabelIKnewItText:
+    text "<PLAYER>! I knew"
+    line "I could beat you!"
+    done
+
+AnabelGoodJobText:
+    text "Good job,"
+    line "<PLAYER>! For your"
+    cont "first battle, that"
+
+    para "was intense!"
+    done
+
+AnabelThanksForTheMonText:
+    text "And MR.ELDER?"
+    line "Thanks so much for"
+
+    para "the #MON! I'm"
+    line "sure it'll be"
+    cont "great!"
+    done
+
+AnabelLeavesMovement:
+    step_down
+    step_down
+    step_down
+    step_down
+    step_down
+    step_down
+    step_end
 
 GemrootElderScript:
     faceplayer
@@ -155,12 +220,14 @@ GemrootElderScript:
     iftruefwd .GotMon
     opentext
     writetext ElderPickAMonText
+    waitbutton
     closetext
     end
 
 .GotMon
     opentext
     writetext ElderMagicalWorldText
+    waitbutton
     closetext
     end
 
@@ -197,6 +264,7 @@ FirePokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
     opentext
     writetext AnabelTakesTotodileText
+    waitbutton
     closetext
     disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
     applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
@@ -209,6 +277,7 @@ FirePokeBallScript:
     turnobject GEMROOT_COMMUNITYCENTER_ELDER, UP
     opentext
     writetext ElderAdventureText
+    waitbutton
     closetext
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
@@ -252,6 +321,7 @@ WaterPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
     opentext
     writetext AnabelTakesTurtwigText
+    waitbutton
     closetext
     disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
     applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
@@ -265,6 +335,7 @@ WaterPokeBallScript:
     turnobject GEMROOT_COMMUNITYCENTER_ELDER, UP
     opentext
     writetext ElderAdventureText
+    waitbutton
     closetext
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
@@ -305,16 +376,19 @@ GrassPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
     opentext
     writetext AnabelTakesCyndaquilText
+    waitbutton
+    waitbutton
     closetext
     disappear GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, slow_step_right
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
     turnobject GEMROOT_COMMUNITYCENTER_ELDER, UP
     opentext
     writetext ElderAdventureText
+    waitbutton
     closetext
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up

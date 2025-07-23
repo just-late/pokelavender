@@ -1475,25 +1475,25 @@ SECTION "Rival1Group", ROMX
 Rival1Group:
 
 	; For EV spreads, keep continuity until pre-E4 (need Surf to lose EVs).
-	; RIVAL1
+	; RIVAL1_1
 	db "ANABEL@"
-	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
+	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, TURTWIG
 		db ORAN_BERRY
 	db -1 ; end
 
-	; RIVAL1
+	; RIVAL1_2
 	db "ANABEL@"
-	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS
+	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, CYNDAQUIL
 		db ORAN_BERRY
 	db -1 ; end
 
-	; RIVAL1
+	; RIVAL1_3
 	db "ANABEL@"
-	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS
+	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, TOTODILE
 		db ORAN_BERRY
