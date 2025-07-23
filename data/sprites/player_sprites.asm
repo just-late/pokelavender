@@ -3,6 +3,7 @@ ChrisStateSprites:
 	db PLAYER_BIKE,      SPRITE_CHRIS_BIKE
 	db PLAYER_SURF,      SPRITE_CHRIS_SURF
 	db PLAYER_SURF_PIKA, SPRITE_SURFING_PIKACHU
+	db PLAYER_RUN,		 SPRITE_CHRIS_RUN
 	db -1 ; end
 
 KrisStateSprites:
@@ -10,6 +11,7 @@ KrisStateSprites:
 	db PLAYER_BIKE,      SPRITE_KRIS_BIKE
 	db PLAYER_SURF,      SPRITE_KRIS_SURF
 	db PLAYER_SURF_PIKA, SPRITE_SURFING_PIKACHU
+	db PLAYER_RUN,		 SPRITE_KRIS_RUN
 	db -1 ; end
 
 CrysStateSprites:
@@ -17,4 +19,5 @@ CrysStateSprites:
 	db PLAYER_BIKE,      SPRITE_CRYS_BIKE
 	db PLAYER_SURF,      SPRITE_CRYS_SURF
 	db PLAYER_SURF_PIKA, SPRITE_SURFING_PIKACHU
+	db PLAYER_RUN,       SPRITE_CRYS ; TODO: Make more running shoes sprites
 	db -1 ; end

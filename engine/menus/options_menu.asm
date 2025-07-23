@@ -75,8 +75,6 @@ StringOptions1:
 	next1 "        :"
 	next1 "Battle Style"
 	next1 "        :"
-	next1 "Running Shoes"
-	next1 "        :"
 	next1 "Frame"
 	next1 "        :Type"
 	next1 "Sound"
@@ -117,7 +115,6 @@ GetOptionPointer:
 	dw Options_TextSpeed
 	dw Options_BattleEffects
 	dw Options_BattleStyle
-	dw Options_RunningShoes
 	dw Options_Frame
 	dw Options_Sound
 	dw Options_NextPrevious
@@ -261,35 +258,6 @@ Options_BattleStyle:
 	db "Switch @"
 .Predict:
 	db "Predict@"
-
-Options_RunningShoes:
-	ld hl, wOptions2
-	ldh a, [hJoyPressed]
-	and D_LEFT | D_RIGHT
-	jr nz, .Toggle
-	bit RUNNING_SHOES, [hl]
-	jr z, .SetOff
-	jr .SetOn
-.Toggle
-	bit RUNNING_SHOES, [hl]
-	jr z, .SetOn
-.SetOff:
-	res RUNNING_SHOES, [hl]
-	ld de, .Off
-	jr .Display
-.SetOn:
-	set RUNNING_SHOES, [hl]
-	ld de, .On
-.Display:
-	hlcoord 11, 9
-	rst PlaceString
-	and a
-	ret
-
-.Off:
-	db "Off@"
-.On:
-	db "On @"
 
 Options_Frame:
 	ld hl, wTextboxFrame

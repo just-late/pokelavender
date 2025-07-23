@@ -70,8 +70,7 @@ DEF NUM_FRAMES EQU const_value
 	const USE_BG_MAP_WIDTH_F ; 3
 
 ; wOptions2::
-	const_def 3
-	const RUNNING_SHOES  ; 3
+	const_def 2
 	const CLOCK_FORMAT   ; 4
 	const POKEDEX_UNITS  ; 5
 	const BATTLE_SWITCH  ; 6
@@ -316,6 +315,7 @@ DEF PLAYER_BIKE      EQU 1
 DEF PLAYER_SKATE     EQU 2
 DEF PLAYER_SURF      EQU 4
 DEF PLAYER_SURF_PIKA EQU 8
+DEF PLAYER_RUN       EQU 16
 
 ; wPalFadeMode::
 DEF PALFADE_WHICH        EQU %11

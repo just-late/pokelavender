@@ -216,9 +216,9 @@ DoPlayerMovement::
 ; Surfing actually calls .TrySurf directly instead of passing through here.
 	ld a, [wPlayerState]
 	cp PLAYER_SURF
-	jr z, .TrySurf
+	jp z, .TrySurf
 	cp PLAYER_SURF_PIKA
-	jr z, .TrySurf
+	jp z, .TrySurf
 
 	call .CheckLandPerms
 	jr c, .bump
@@ -241,12 +241,9 @@ DoPlayerMovement::
 	cp COLL_ICE
 	jr z, .ice
 
-	call .RunCheck
-	jr z, .run
-
 ; Downhill riding is slower when not moving down.
 	call .BikeCheck
-	jr nz, .walk
+	jr nz, .HandleWalkAndRun
 
 	ld hl, wOWState
 	bit OWSTATE_BIKING_DOWNHILL, [hl]
@@ -303,6 +300,25 @@ DoPlayerMovement::
 	xor a
 	ld [wSpinning], a
 	ret
+
+.HandleWalkAndRun
+	ld a, [wWalkingDirection]
+	cp STANDING
+	jr z, .ensurewalk
+	ldh a, [hJoypadDown]
+	and B_BUTTON
+	cp B_BUTTON
+	jr nz, .ensurewalk
+	ld a, [wPlayerState]
+	cp PLAYER_RUN
+	call nz, .StartRunning
+	jr .run
+
+.ensurewalk
+	ld a, [wPlayerState]
+	cp PLAYER_NORMAL
+	call nz, .StartWalking
+	jr .walk
 
 .TrySurf:
 
@@ -819,29 +835,6 @@ endc
 	cp PLAYER_SKATE
 	ret
 
-.RunCheck:
-	; Check if we have regular movement active
-	ld a, [wPlayerState]
-	and a ; cp PLAYER_NORMAL
-	ret nz
-
-	; If RUNNING_SHOES is active, invert B button effect.
-	push hl
-	ld hl, wOptions2
-	ldh a, [hJoypadDown]
-	and B_BUTTON
-
-	; We want to return z on success, not nz.
-	cpl
-
-	; B_BUTTON is bit 1, RUNNING_SHOES is bit 3
-	add a
-	add a
-	xor [hl]
-	pop hl
-	and 1 << RUNNING_SHOES
-	ret
-
 .CheckWalkable:
 ; Return 0 if tile a is land. Otherwise, return carry.
 
@@ -890,6 +883,22 @@ endc
 	ld a, PLAYER_NORMAL
 	ld [wPlayerState], a
 	call UpdatePlayerSprite ; UpdateSprites
+	pop bc
+	ret
+
+.StartRunning:
+	push bc
+	ld a, PLAYER_RUN
+	ld [wPlayerState], a
+	call UpdatePlayerSprite
+	pop bc
+	ret
+
+.StartWalking:
+	push bc
+	ld a, PLAYER_NORMAL
+	ld [wPlayerState], a
+	call UpdatePlayerSprite
 	pop bc
 	ret
 
