@@ -1,5 +1,6 @@
 PlayersHouse1F_MapScriptHeader:
 	def_scene_scripts
+	scene_script MomAutoWalk0
 
 	def_callbacks
 
@@ -9,10 +10,6 @@ PlayersHouse1F_MapScriptHeader:
 	warp_event 11,  0, PLAYERS_HOUSE_2F, 1
 
 	def_coord_events
-	coord_event 10,  4, 0, MomTrigger1
-	coord_event 11,  4, 0, MomTrigger2
-	coord_event  9,  1, 0, MomTrigger3
-	coord_event  9,  2, 0, MomTrigger4
 
 	def_bg_events
 	bg_event  1,  1, BGEVENT_JUMPTEXT, PlayersHouse1FFridgeText
@@ -20,48 +17,26 @@ PlayersHouse1F_MapScriptHeader:
 	bg_event  3,  1, BGEVENT_JUMPTEXT, PlayersHouse1FStoveText
 	bg_event  6,  1, BGEVENT_UP, PlayersHouse1FTVScript
 
-	def_object_events
-	object_event  9,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
-	object_event  3,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << MORN), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  9,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << DAY), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  6,  3, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  1,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << NITE), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  6,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, NeighborScript, EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
+	db 5 ; object_events
+	person_event SPRITE_MOM, 4,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
+	person_event SPRITE_MOM, 2,  3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << MORN), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	person_event SPRITE_MOM, 4,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << DAY), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	person_event SPRITE_MOM, 3,  6, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	person_event SPRITE_MOM, 2,  1, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << NITE), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
 
 	object_const_def
 	const PLAYERSHOUSE1F_MOM1
 
-MomTrigger1:
-	playmusic MUSIC_MOM
-	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
-	turnobject PLAYERSHOUSE1F_MOM1, RIGHT
-	turnobject PLAYER, LEFT
-	sjumpfwd MomEventScript
+MomAutoWalk0:
+	sdefer MeetMomScript
+	end
 
-MomTrigger2:
-	playmusic MUSIC_MOM
-	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
-	turnobject PLAYERSHOUSE1F_MOM1, RIGHT
-	applyonemovement PLAYER, slow_step_left
-	sjumpfwd MomEventScript
-
-MomTrigger3:
-	playmusic MUSIC_MOM
-	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
-	turnobject PLAYERSHOUSE1F_MOM1, UP
-	applymovement PLAYER, .two_steps_down
-	sjumpfwd MomEventScript
-
-.two_steps_down
-	step_down
-	step_down
-	step_end
-
-MomTrigger4:
-	playmusic MUSIC_MOM
-	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
-	turnobject PLAYERSHOUSE1F_MOM1, UP
-	applyonemovement PLAYER, slow_step_down
+MeetMomScript:
+	applyonemovement PLAYER, step_down
+	applyonemovement PLAYERSHOUSE1F_MOM1, step_right
+	applyonemovement PLAYERSHOUSE1F_MOM1, step_right
+	applyonemovement PLAYERSHOUSE1F_MOM1, step_up
+	applyonemovement PLAYERSHOUSE1F_MOM1, step_up
 MomEventScript:
 	opentext
 	writetext MomIntroText
@@ -70,7 +45,6 @@ MomEventScript:
 	callstd receiveitem
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
-	setflag ENGINE_MAP_CARD
 	addcellnum PHONE_MOM
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
@@ -102,6 +76,10 @@ MomEventScript:
 	closetext
 	turnobject PLAYERSHOUSE1F_MOM1, LEFT
 	special RestartMapMusic
+	applyonemovement PLAYERSHOUSE1F_MOM1, step_down
+	applyonemovement PLAYERSHOUSE1F_MOM1, step_down
+	applyonemovement PLAYERSHOUSE1F_MOM1, step_left
+	applyonemovement PLAYERSHOUSE1F_MOM1, step_left
 	end
 
 GearName:
@@ -174,22 +152,16 @@ MomScript:
 	sjump MomEventScript
 
 MomIntroText:
-if DEF(DEBUG)
-	text "Don't forget to use"
-	line "your debug radio!"
-	done
-else
 	text "Oh, <PLAYER>!"
 	line "You're awake."
 
-	para "Your friend Lyra"
+	para "Your friend Benny"
 	line "was just here."
 
-	para "She said that our"
-	line "neighbor, Prof."
+	para "He told me he"
+	line "would meet you in"
 
-	para "Elm, was looking"
-	line "for you."
+	para "the Gemroot Woods."
 
 	para "Oh! I almost for-"
 	line "got! Your #mon"
@@ -199,7 +171,6 @@ else
 
 	para "Here you go!"
 	done
-endc
 
 MomPokegearText:
 	text "#mon Gear, or"
@@ -272,69 +243,4 @@ MomDoItText:
 
 	para "I'm behind you all"
 	line "the way!"
-	done
-
-NeighborScript:
-	faceplayer
-	opentext
-	checktime 1 << MORN
-	iftruefwd .MornScript
-	checktime 1 << DAY
-	iftruefwd .DayScript
-	checktime (1 << EVE) | (1 << NITE)
-	iftruefwd .NiteScript
-
-.MornScript:
-	writetext .MornIntroText
-	promptbutton
-	sjumpfwd .Main
-
-.DayScript:
-	writetext .DayIntroText
-	promptbutton
-	sjumpfwd .Main
-
-.NiteScript:
-	writetext .NiteIntroText
-	promptbutton
-	; fallthrough
-
-.Main:
-	writetext .NeighborText
-	waitbutton
-	closetext
-	turnobject LAST_TALKED, RIGHT
-	end
-
-.MornIntroText:
-	text "Good morning,"
-	line "<PLAYER>!"
-
-	para "I'm visiting!"
-	done
-
-.DayIntroText:
-	text "Hello, <PLAYER>!"
-	line "I'm visiting!"
-	done
-
-.NiteIntroText:
-	text "Good evening,"
-	line "<PLAYER>!"
-
-	para "I'm visiting!"
-	done
-
-.NeighborText:
-	text "<PLAYER>, have you"
-	line "heard?"
-
-	para "My daughter is"
-	line "adamant about"
-
-	para "becoming Prof."
-	line "Elm's assistant."
-
-	para "She really loves"
-	line "#mon!"
 	done
