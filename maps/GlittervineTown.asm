@@ -8,6 +8,8 @@ GlittervineTown_MapScriptHeader:
 	warp_event 25,  5, GLITTERVINE_MART, 2
 	warp_event 25, 13, GLITTERVINE_POKECENTER_1F, 1
 	warp_event 11,  5, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, 1
+	warp_event 31,  8, ROUTE_2_GLITTERVINE_GATE, 1
+	warp_event 31,  9, ROUTE_2_GLITTERVINE_GATE, 2
 
 	def_coord_events
 

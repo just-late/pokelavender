@@ -72,6 +72,7 @@ SafariZoneFuchsiaGate_BlockData:
 Route12Gate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate1F.ablk.lz"
 
+Route2GlittervineGate_BlockData:
 Route31VioletGate_BlockData:
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:

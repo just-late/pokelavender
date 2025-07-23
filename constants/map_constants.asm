@@ -585,6 +585,7 @@ ENDM
 	map_const ROUTE_30_BERRY_SPEECH_HOUSE,                 4,  4 ; 10
 	map_const MR_POKEMONS_HOUSE,                           4,  4 ; 11
 	map_const ROUTE_31_VIOLET_GATE,                        5,  4 ; 12
+	map_const ROUTE_2_GLITTERVINE_GATE,					   5,  4 ; 13
 
 	newgroup                                                     ; 27
 	map_const CLIFF_EDGE_GATE,                            10, 11 ;  1
