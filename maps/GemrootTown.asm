@@ -21,7 +21,7 @@ GemrootTown_MapScriptHeader:
 	bg_event 34, 27, BGEVENT_JUMPTEXT, ArisHouseSignText
 	bg_event 14, 13, BGEVENT_JUMPTEXT, GemrootTownSignText
 	bg_event 11,  7, BGEVENT_JUMPTEXT, CommunityCenterSignText
-	bg_event 35, 19, BGEVENT_READ, TrainerTipsSignScript
+	bg_event 35, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
 	
 	db 6 ; object_events, person_events
 	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, NouraTravelerScript, -1
@@ -42,7 +42,8 @@ TrainerTipsSignScript1:
 	showemote EMOTE_SHOCK, PLAYER, 15
 	showtext IrresistibleSignText
 	turnobject PLAYER, UP
-	sjumpfwd TrainerTipsSignScript
+	showtext TrainerTipsSignText
+	applyonemovement PLAYER, step_left
 	end
 
 TrainerTipsSignScript2:
@@ -50,7 +51,8 @@ TrainerTipsSignScript2:
 	showtext IrresistibleSignText
 	turnobject PLAYER, UP
 	applyonemovement PLAYER, step_up
-	sjumpfwd TrainerTipsSignScript
+	showtext TrainerTipsSignText
+	applyonemovement PLAYER, step_left
 	end
 
 TrainerTipsSignScript3:
@@ -59,9 +61,11 @@ TrainerTipsSignScript3:
 	turnobject PLAYER, UP
 	applyonemovement PLAYER, step_up
 	applyonemovement PLAYER, step_up
-TrainerTipsSignScript:
-	jumpthistext
+	showtext TrainerTipsSignText
+	applyonemovement PLAYER, step_left
+	end
 
+TrainerTipsSignText:
 	text "TRAINER TIPS!"
 
 	para "Do not travel on"
