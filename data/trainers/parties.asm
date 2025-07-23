@@ -2179,10 +2179,10 @@ SECTION "YoungsterGroup", ROMX
 YoungsterGroup:
 
 	; YOUNGSTER
-	db "Joey@"
+	db "JIMMY@"
 	db TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY
 	; party
-	dbp 5, RATTATA, MALE
+	dbp 5, SENTRET, MALE
 		db FAKE_PERFECT_DVS, ABIL_RATTATA_GUTS | NAT_ATK_UP_SATK_DOWN
 	db -1 ; end
 
@@ -2226,7 +2226,7 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER
-	db "Mikey@"
+	db "MIKEY@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 2, RATTATA
@@ -2234,11 +2234,10 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER
-	db "Albert@"
+	db "ALBERT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 8, RATTATA
-	dbp 10, ZUBAT
+	dbp 5, PIDGEY, MALE
 	db -1 ; end
 
 	; YOUNGSTER

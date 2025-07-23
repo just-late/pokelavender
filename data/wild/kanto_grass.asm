@@ -308,62 +308,6 @@
 	wildmon 23, SLOWPOKE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_2_NORTH
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 55, BUTTERFREE
-	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
-	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOTTO
-	wildmon 59, PIKACHU
-	; day
-	wildmon 55, BUTTERFREE
-	wildmon 54, PIDGEOTTO
-	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
-	wildmon 56, PIDGEOTTO
-	wildmon 58, PIDGEOTTO
-	wildmon 59, PIKACHU
-	; nite
-	wildmon 55, NOCTOWL
-	wildmon 54, ARIADOS
-	wildmon 57, NOCTOWL
-	wildmon 57, NOCTOWL
-	wildmon 56, ARIADOS
-	wildmon 58, NOCTOWL
-	wildmon 59, NOCTOWL
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_2_SOUTH
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 55, BUTTERFREE
-	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
-	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOTTO
-	wildmon 59, PIKACHU
-	; day
-	wildmon 55, BUTTERFREE
-	wildmon 54, PIDGEOTTO
-	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
-	wildmon 56, PIDGEOTTO
-	wildmon 58, PIDGEOTTO
-	wildmon 59, PIKACHU
-	; nite
-	wildmon 55, NOCTOWL
-	wildmon 54, ARIADOS
-	wildmon 57, NOCTOWL
-	wildmon 57, NOCTOWL
-	wildmon 56, ARIADOS
-	wildmon 58, NOCTOWL
-	wildmon 59, NOCTOWL
-	end_grass_wildmons
-
 	def_grass_wildmons VIRIDIAN_FOREST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

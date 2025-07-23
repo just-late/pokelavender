@@ -666,18 +666,6 @@ TrainerPicnickerLiz1:
 .PhoneFull:
 	jumpstd phonefullf
 
-GenericTrainerYoungsterAlbert:
-	generictrainer YOUNGSTER, ALBERT, EVENT_BEAT_YOUNGSTER_ALBERT, YoungsterAlbertSeenText, YoungsterAlbertBeatenText
-
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
-
-	para "I'm not using the"
-	line "same tough #MON"
-	cont "as everyone else."
-	done
-
 GenericTrainerYoungsterGordon:
 	generictrainer YOUNGSTER, GORDON, EVENT_BEAT_YOUNGSTER_GORDON, YoungsterGordonSeenText, YoungsterGordonBeatenText
 

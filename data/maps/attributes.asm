@@ -15,8 +15,13 @@ ENDM
 	connection north, GlittervineTown, GLITTERVINE_TOWN, 0
 	connection west, GemrootTown, GEMROOT_TOWN, 8
 
-	map_attributes GlittervineTown, GLITTERVINE_TOWN, $5, SOUTH
+	map_attributes GlittervineTown, GLITTERVINE_TOWN, $5, SOUTH | EAST
 	connection south, Route1, ROUTE_1, 0
+	connection east, Route2, ROUTE_2, 0
+
+	map_attributes Route2, ROUTE_2, $5, WEST ; SOUTH
+	connection west, GlittervineTown, GLITTERVINE_TOWN, 0
+;   connection south, MoonflowerCity, MOONFLOWER_CITY, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $5, NORTH | SOUTH | WEST | EAST
 	connection north, VioletOutskirts, VIOLET_OUTSKIRTS, 0
@@ -165,21 +170,10 @@ ENDM
 	map_attributes Route46, ROUTE_46, $5, SOUTH | EAST
 	connection east, Route45, ROUTE_45, -37
 
-	map_attributes PewterCity, PEWTER_CITY, $f, SOUTH | EAST
-	connection south, Route2North, ROUTE_2_NORTH, 5
+	map_attributes PewterCity, PEWTER_CITY, $f, EAST
 	connection east, Route3, ROUTE_3, 5
 
-	map_attributes Route2North, ROUTE_2_NORTH, $f, NORTH | SOUTH
-	connection north, PewterCity, PEWTER_CITY, -5
-	connection south, Route2South, ROUTE_2_SOUTH, 0
-
-	map_attributes Route2South, ROUTE_2_SOUTH, $f, NORTH | SOUTH | EAST
-	connection north, Route2North, ROUTE_2_NORTH, 0
-	connection south, ViridianCity, VIRIDIAN_CITY, -5
-	connection east, Route16West, ROUTE_16_WEST, 8
-
 	map_attributes ViridianCity, VIRIDIAN_CITY, $f, NORTH | WEST
-	connection north, Route2South, ROUTE_2_SOUTH, 5
 	connection west, Route22, ROUTE_22, 4
 
 	map_attributes Route22, ROUTE_22, $2c, EAST
@@ -242,8 +236,7 @@ ENDM
 	connection west, Route16West, ROUTE_16_WEST, 0
 	connection east, CeladonCity, CELADON_CITY, -10
 
-	map_attributes Route16West, ROUTE_16_WEST, $f, WEST | EAST
-	connection west, Route2South, ROUTE_2_SOUTH, -8
+	map_attributes Route16West, ROUTE_16_WEST, $f, EAST
 	connection east, Route16Northwest, ROUTE_16_NORTHWEST, 0
 
 	map_attributes CeladonCity, CELADON_CITY, $f, WEST | EAST

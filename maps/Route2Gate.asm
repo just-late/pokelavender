@@ -4,10 +4,6 @@ Route2Gate_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  4,  0, ROUTE_2_NORTH, 2
-	warp_event  5,  0, ROUTE_2_NORTH, 3
-	warp_event  4,  7, ROUTE_2_SOUTH, 1
-	warp_event  5,  7, ROUTE_2_SOUTH, 1
 
 	def_coord_events
 

@@ -6,6 +6,8 @@ Route2GlittervineGate_MapScriptHeader:
     def_warp_events
     warp_event  0,  4, GLITTERVINE_TOWN, 4
     warp_event  0,  5, GLITTERVINE_TOWN, 5
+    warp_event  9,  4, ROUTE_2, 1
+    warp_event  9,  5, ROUTE_2, 2
 
     def_coord_events
 

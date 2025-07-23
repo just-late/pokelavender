@@ -4,8 +4,6 @@ Route2NuggetSpeechHouse_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, ROUTE_2_NORTH, 1
-	warp_event  3,  7, ROUTE_2_NORTH, 1
 
 	def_coord_events
 

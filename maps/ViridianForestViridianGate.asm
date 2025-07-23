@@ -6,8 +6,6 @@ ViridianForestViridianGate_MapScriptHeader:
 	def_warp_events
 	warp_event  4,  0, VIRIDIAN_FOREST, 2
 	warp_event  5,  0, VIRIDIAN_FOREST, 3
-	warp_event  4,  7, ROUTE_2_SOUTH, 2
-	warp_event  5,  7, ROUTE_2_SOUTH, 2
 
 	def_coord_events
 

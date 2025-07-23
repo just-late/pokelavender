@@ -236,20 +236,21 @@ ENDM
 	map_const LAKE_OF_RAGE,                               20, 18 ;  6
 
 	newgroup                                                     ; 10
-	map_const ROUTE_32,                                   10, 45 ;  1
-	map_const ROUTE_32_COAST,                             15, 35 ;  2
-	map_const VIOLET_CITY,                                20, 18 ;  3
-	map_const VIOLET_MART,                                 6,  4 ;  4
-	map_const VIOLET_GYM,                                  5,  8 ;  5
-	map_const EARLS_POKEMON_ACADEMY,                       4,  8 ;  6
-	map_const VIOLET_NICKNAME_SPEECH_HOUSE,                4,  4 ;  7
-	map_const VIOLET_POKECENTER_1F,                        6,  4 ;  8
-	map_const VIOLET_ONIX_TRADE_HOUSE,                     4,  4 ;  9
-	map_const ROUTE_32_RUINS_OF_ALPH_GATE,                 5,  4 ; 10
-	map_const ROUTE_32_POKECENTER_1F,                      6,  4 ; 11
-	map_const ROUTE_32_COAST_HOUSE,                        4,  4 ; 12
-	map_const MAGNET_TUNNEL_EAST,                         10, 11 ; 13
-	map_const VIOLET_OUTSKIRTS,                           20, 10 ; 14
+	map_const ROUTE_2,									  25, 23 ;  1
+	map_const ROUTE_32,                                   10, 45 ;  2
+	map_const ROUTE_32_COAST,                             15, 35 ;  3
+	map_const VIOLET_CITY,                                20, 18 ;  4
+	map_const VIOLET_MART,                                 6,  4 ;  5
+	map_const VIOLET_GYM,                                  5,  8 ;  6
+	map_const EARLS_POKEMON_ACADEMY,                       4,  8 ;  7
+	map_const VIOLET_NICKNAME_SPEECH_HOUSE,                4,  4 ;  8
+	map_const VIOLET_POKECENTER_1F,                        6,  4 ;  9
+	map_const VIOLET_ONIX_TRADE_HOUSE,                     4,  4 ; 10
+	map_const ROUTE_32_RUINS_OF_ALPH_GATE,                 5,  4 ; 11
+	map_const ROUTE_32_POKECENTER_1F,                      6,  4 ; 12
+	map_const ROUTE_32_COAST_HOUSE,                        4,  4 ; 13
+	map_const MAGNET_TUNNEL_EAST,                         10, 11 ; 14
+	map_const VIOLET_OUTSKIRTS,                           20, 10 ; 15
 
 	newgroup                                                     ; 11
 	map_const ROUTE_34,                                   10, 27 ;  1
@@ -318,7 +319,6 @@ ENDM
 	map_const OAKS_LAB,                                    5,  6 ;  7
 
 	newgroup                                                     ; 14
-	map_const ROUTE_2_NORTH,                              10, 18 ;  1
 	map_const ROUTE_3,                                    36, 11 ;  2
 	map_const ROUTE_3_POKECENTER_1F,                       6,  4 ;  3
 	map_const PEWTER_CITY,                                20, 18 ;  4
@@ -515,7 +515,6 @@ ENDM
 	map_const BATTLE_TOWER_OUTSIDE,                       10, 13 ; 17
 
 	newgroup                                                     ; 23
-	map_const ROUTE_2_SOUTH,                              10, 18 ;  1
 	map_const ROUTE_22,                                   15,  9 ;  2
 	map_const VIRIDIAN_CITY,                              20, 18 ;  3
 	map_const VIRIDIAN_GYM,                                7, 22 ;  4

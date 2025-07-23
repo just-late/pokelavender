@@ -6,8 +6,6 @@ ViridianForestPewterGate_MapScriptHeader:
 	def_warp_events
 	warp_event  4,  7, VIRIDIAN_FOREST, 1
 	warp_event  5,  7, VIRIDIAN_FOREST, 1
-	warp_event  4,  0, ROUTE_2_NORTH, 5
-	warp_event  5,  0, ROUTE_2_NORTH, 6
 
 	def_coord_events
 
