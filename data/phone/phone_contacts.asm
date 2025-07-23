@@ -14,7 +14,7 @@ PhoneContacts:
 	phone TRAINER_NONE, PHONECONTACT_MOM,      PLAYERS_HOUSE_1F,          %1111, MomPhoneScript,      %0000, UnusedPhoneScript
 	phone TRAINER_NONE, PHONECONTACT_BIKESHOP, OAKS_LAB,                  %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
 	phone TRAINER_NONE, PHONECONTACT_BILL,     N_A,                       %1111, BillPhoneScript1,    %0000, BillPhoneScript2
-	phone TRAINER_NONE, PHONECONTACT_ELM,      ELMS_LAB,                  %1111, ElmPhoneScript1,     %0000, ElmPhoneScript2
+	phone TRAINER_NONE, PHONECONTACT_ELM,      N_A,                  %1111, ElmPhoneScript1,     %0000, ElmPhoneScript2
 	phone TRAINER_NONE, PHONECONTACT_LYRA,     N_A,                       %1111, LyraPhoneScript,     %0000, LyraPhoneScript2
 	phone TRAINER_NONE, PHONECONTACT_ARI,      N_A,                       %1111, AriPhoneScript1,     %0000, AriPhoneScript2
 	phone SCHOOLBOY,    JACK1,                 NATIONAL_PARK,             %1111, JackPhoneScript1,    %1111, JackPhoneScript2

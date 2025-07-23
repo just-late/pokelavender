@@ -133,9 +133,7 @@ MrPokemonsHouse_OakScript:
 	clearevent EVENT_PLAYERS_NEIGHBORS_HOUSE_NEIGHBOR
 	setscene $1
 	setmapscene CHERRYGROVE_CITY, $1
-	setmapscene ELMS_LAB, $3
 	specialphonecall SPECIALCALL_ROBBED
-	clearevent EVENT_COP_IN_ELMS_LAB
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .RivalTakesChikorita
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER

@@ -163,7 +163,6 @@ DragonsDenB1FRivalScript:
 	closetext
 	setevent EVENT_GOT_RIVALS_EGG
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
-	setmapscene ELMS_LAB, $7
 	special RestartMapMusic
 	end
 

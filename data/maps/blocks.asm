@@ -217,10 +217,6 @@ SECTION "PlayersHouse2F_BlockData", ROMX
 PlayersHouse2F_BlockData:
 	INCBIN "maps/PlayersHouse2F.ablk.lz"
 
-SECTION "ElmsLab_BlockData", ROMX
-ElmsLab_BlockData:
-	INCBIN "maps/ElmsLab.ablk.lz"
-
 SECTION "GemrootTown_BlockData", ROMX
 GemrootTown_BlockData:
 	INCBIN "maps/GemrootTown.ablk.lz"
@@ -239,10 +235,6 @@ ArisHouse1F_BlockData:
 SECTION "ArisHouse2F_BlockData", ROMX
 ArisHouse2F_BlockData:
 	INCBIN "maps/ArisHouse2F.ablk.lz"
-
-SECTION "ElmsHouse_BlockData", ROMX
-ElmsHouse_BlockData:
-	INCBIN "maps/ElmsHouse.ablk.lz"
 
 SECTION "CherrygroveCity_BlockData", ROMX
 CherrygroveCity_BlockData:

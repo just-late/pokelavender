@@ -799,13 +799,11 @@ ENDM
 	map_attributes Route2NuggetSpeechHouse, ROUTE_2_NUGGET_SPEECH_HOUSE, $0, 0
 	map_attributes Route2Gate, ROUTE_2_GATE, $0, 0
 	map_attributes PokemonLeagueGate, POKEMON_LEAGUE_GATE, $0, 0
-	map_attributes ElmsLab, ELMS_LAB, $0, 0
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
 	map_attributes PlayersNeighborsHouse, PLAYERS_NEIGHBORS_HOUSE, $0, 0
 	map_attributes ArisHouse1F, ARIS_HOUSE_1F, $0, 0
 	map_attributes ArisHouse2F, ARIS_HOUSE_2F, $0, 0
-	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
 	map_attributes GemrootWoods, GEMROOT_WOODS, $0, 0
 	map_attributes GemrootCommunityCenter1F, GEMROOT_COMMUNITY_CENTER_1F, $0, 0
 	map_attributes Route26HealSpeechHouse, ROUTE_26_HEAL_SPEECH_HOUSE, $0, 0
