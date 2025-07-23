@@ -70,6 +70,7 @@ MomEventScript:
 	callstd receiveitem
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
+	setflag ENGINE_MAP_CARD
 	addcellnum PHONE_MOM
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
