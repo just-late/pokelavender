@@ -128,10 +128,12 @@ FuchsiaBillSpeechHouse_BlockData:
 FuchsiaSafariBallHouse_BlockData:
 SaffronRichSpeechHouse_BlockData:
 LavenderTownSpeechHouse_BlockData:
-ViridianNicknameSpeechHouse_BlockData:
 CeladonOldManSpeechHouse_BlockData:
 CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
+
+GemrootNicknameSpeechHouse_BlockData:
+	INCBIN "maps/House3.ablk.lz"
 
 MahoganyRedGyaradosSpeechHouse_BlockData:
 BlackthornDragonSpeechHouse_BlockData:

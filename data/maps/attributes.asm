@@ -788,7 +788,7 @@ ENDM
 	map_attributes CliffEdgeGate, CLIFF_EDGE_GATE, $9, 0
 	map_attributes CliffCave, CLIFF_CAVE, $9, 0
 	map_attributes ViridianGym, VIRIDIAN_GYM, $0, 0
-	map_attributes ViridianNicknameSpeechHouse, VIRIDIAN_NICKNAME_SPEECH_HOUSE, $0, 0
+	map_attributes GemrootNicknameSpeechHouse, GEMROOT_NICKNAME_SPEECH_HOUSE, $0, 0
 	map_attributes ViridianSchoolHouse, VIRIDIAN_SCHOOL_HOUSE, $0, 0
 	map_attributes TrainerHouse1F, TRAINER_HOUSE_1F, $0, 0
 	map_attributes TrainerHouseB1F, TRAINER_HOUSE_B1F, $0, 0

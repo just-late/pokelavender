@@ -519,7 +519,6 @@ ENDM
 	map_const ROUTE_22,                                   15,  9 ;  2
 	map_const VIRIDIAN_CITY,                              20, 18 ;  3
 	map_const VIRIDIAN_GYM,                                7, 22 ;  4
-	map_const VIRIDIAN_NICKNAME_SPEECH_HOUSE,              4,  4 ;  5
 	map_const VIRIDIAN_SCHOOL_HOUSE,                       4,  5 ;  6
 	map_const TRAINER_HOUSE_1F,                            5,  6 ;  7
 	map_const TRAINER_HOUSE_B1F,                           5,  8 ;  8
@@ -540,10 +539,11 @@ ENDM
 	map_const ROUTE_26,                                   10, 54 ;  2
 	map_const ROUTE_27,                                   40,  9 ;  3
 	map_const GEMROOT_TOWN,                               18, 18 ;  4
-	map_const GEMROOT_COMMUNITY_CENTER_1F,                 6,  6 ;  5
-	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  6
-	map_const PLAYERS_HOUSE_2F,                            4,  7 ;  7
-	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  8
+	map_const GEMROOT_NICKNAME_SPEECH_HOUSE,               4,  4 ;  5
+	map_const GEMROOT_COMMUNITY_CENTER_1F,                 6,  6 ;  6
+	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
+	map_const PLAYERS_HOUSE_2F,                            4,  7 ;  8
+	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
 	map_const ARIS_HOUSE_1F,							   5,  4 ; 10
 	map_const ARIS_HOUSE_2F,							   4,  3 ; 11
 	map_const ROUTE_26_HEAL_SPEECH_HOUSE,                  4,  4 ; 12
