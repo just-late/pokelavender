@@ -54,6 +54,7 @@ Tilesets::
 	tileset TilesetPokemonMansion
 	tileset TilesetBattleFactory
 	tileset TilesetSnowtopMountain
+	tileset TilesetBar
 	assert_table_length NUM_TILESETS
 
 
@@ -484,6 +485,16 @@ TilesetSnowtopMountainAttr:: INCBIN "data/tilesets/snowtop_mountain_attributes.b
 TilesetSnowtopMountainColl:: INCBIN "data/tilesets/snowtop_mountain_collision.bin.lz"
 
 
+SECTION "Tileset Data - bar", ROMX
+
+TilesetBarGFX0:: INCBIN "gfx/tilesets/bar.2bpp.vram0.lz"
+TilesetBarGFX1:: INCBIN "gfx/tilesets/bar.2bpp.vram1.lz"
+
+TilesetBarMeta:: INCBIN "data/tilesets/bar_metatiles.bin.lz"
+TilesetBarAttr:: INCBIN "data/tilesets/bar_attributes.bin.lz"
+TilesetBarColl:: INCBIN "data/tilesets/bar_collision.bin.lz"
+
+
 SECTION "Tileset GFX2 Data", ROMX
 
 TilesetJohto1GFX2::
@@ -534,4 +545,5 @@ TilesetAlphGFX2::
 TilesetPokemonMansionGFX2::
 TilesetBattleFactoryGFX2::
 TilesetSnowtopMountainGFX2::
+TilesetBarGFX2::
 	db $ff ; Compressed data is terminated with $ff.
