@@ -30,7 +30,7 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   MALE   ; red
 	db 252, PERFECT_DVS,   FEMALE ; leaf
 	db   0, PERFECT_DVS,   MALE   ; rival0
-	db 144, PERFECT_DVS,   MALE   ; rival1
+	db   0, $BB, $BB, $BB, FEMALE ; rival1
 	db 252, PERFECT_DVS,   MALE   ; rival2
 	db   0, $BB, $BB, $BB, FEMALE ; lyra1
 	db 252, $BB, $BB, $BB, FEMALE ; lyra2
