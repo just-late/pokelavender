@@ -25,13 +25,15 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	bg_event 10, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 	bg_event 11, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 
-    def_object_events
-	object_event  7,  1, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, GemrootElderScript, -1
+    db 7 ; object events
+	object_event  7,  1, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, GemrootElderScript, -1
 	object_event  4,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
 	object_event  5,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
 	object_event  6,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
-	object_event  4,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER 
-    ; SPRITE_LASS is a placeholder
+	object_event  4,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER
+	object_event  9,  6, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CommunityCenterSageText, -1
+	object_event  1,  6, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CommunityCenterLadyText, -1
+
     object_const_def
     const GEMROOT_COMMUNITYCENTER_ELDER
     const GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
@@ -40,16 +42,20 @@ GemrootCommunityCenter1F_MapScriptHeader:
     const GEMROOT_COMMUNITYCENTER_ANABEL
 
 PlayerWalksToAnabel1:
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_up
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     sjumpfwd GemrootElderGivesMonScript
     end
 
 PlayerWalksToAnabel2:
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_left
     turnobject PLAYER, UP
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     sjumpfwd GemrootElderGivesMonScript
     end
 
@@ -366,4 +372,19 @@ GemrootAncientMuralText:
 GemrootHistoryBooksText:
     text "It's full of"
     line "history books."
+    done
+
+CommunityCenterSageText:
+    text "I'm organizing"
+    line "the bookshelf."
+    done
+
+CommunityCenterLadyText:
+    text "This food is"
+    line "available for"
+    cont "the community."
+
+    para "Take what you"
+    line "need, give what"
+    cont "you don't."
     done
