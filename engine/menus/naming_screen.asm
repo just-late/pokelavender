@@ -345,10 +345,8 @@ NamingScreenJoypadLoop:
 	call NamingScreen_TryAddCharacter
 	jr c, .start
 	ld a, [wNamingScreenLetterCase]
-	and a ; already lowercase? (a == 1)
 	ret nz
 	ld a, [wNamingScreenCurNameLength]
-	dec a ; first character uppercase, rest lowercase (by default)
 	jr z, .select
 	ret
 
