@@ -22,7 +22,6 @@ MoonflowerGym_MapScriptHeader:
 	person_event SPRITE_BATTLE_GIRL,  6,  6, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGuitarist_fJanet, -1
 	person_event SPRITE_GYM_GUY,  9,  1, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, -1
 	person_event SPRITE_FAT_GUY, 11,  8, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC1Text, -1
-;	person_event SPRITE_CUTE_GIRL,  7, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerGymWaitressScript, -1
 	person_event SPRITE_FISHER,  7,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC2Text, -1
 ;	person_event SPRITE_COOL_DUDE,  6,  4, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC3Text, -1
 	person_event SPRITE_FAT_GUY,  9,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptext, MoonflowerGymNPC4Text, -1
@@ -42,7 +41,7 @@ MoonflowerGymRancidScript:
 	waitbutton
 	closetext
 	loadtrainer FALKNER, 1
-	winlosstext RancidWinLossText, 0
+	winlosstext FalknerWinLossText, 0
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_RANCID
@@ -97,30 +96,6 @@ MoonflowerGymStatue:
 .JulianToo
 	jumpstd gymstatue3
 
-MoonflowerGymWaitressScript:
-	faceplayer
-	showtext MoonflowerGymWaitressText1
-	yesorno
-	iftruefwd .BoughtSodaPop
-	showtext MoonflowerGymWaitressText2
-	end
-.BoughtSodaPop
-	checkmoney $0, 500
-	ifequalfwd $2, .NotEnoughMoney
-	takemoney $0, 500
-	verbosegiveitem SODA_POP
-	closetext
-	end
-
-.NotEnoughMoney
-	jumpthistext
-
-	text "Sorry!"
-
-	para "You don't have"
-	line "enough money."
-	done
-
 MoonflowerBarFightScript:
 	showtext MoonflowerBarFightText1
 	applymovement MOONFLOWER_BARFIGHT_BIKER, MoonflowerBarFightBikerMovement
@@ -141,17 +116,6 @@ MoonflowerBarFightText2:
 	cont "MILK."
 	done
 
-MoonflowerGymWaitressText1:
-	text "Hiya!"
-
-	para "Want a drink?"
-	line "It'll cost ¥500."
-	done
-
-MoonflowerGymWaitressText2:
-	text "Too strong, huh?"
-	done
-
 MoonflowerGymMicrophoneText:
 	text "It's a microphone."
 	done
@@ -167,22 +131,19 @@ RancidIntroText:
 	cont "sleepin'."
 
 	para "I use POISON-TYPE"
-	line "#MON to bring up"
-	cont "the funk around"
-	cont "here!"
-
-	para "Usually, after the"
-	line "shows, I get paid."
+	line "#MON to bring"
+	cont "up the funk"
+	cont "around here!"
 
 	para "Oh, you want a"
 	line "battle?"
 
-	para "Alright then, let's"
-	line "get this party"
-	cont "started!"
+	para "Alright then!"
+	line "Let's get this"
+	cont "party started!"
 	done
 
-RancidWinLossText:
+FalknerWinLossText:
 	text "OUUCH!"
 
 	para "I haven't had a"
@@ -311,11 +272,11 @@ MoonflowerGymNPC2Text:
 	line "didn't hear that!"
 	done
 
-MoonflowerGymNPC3Text:
-	text "I come here every"
-	line "night, for battles"
-	cont "and beverages!"
-	done
+;MoonflowerGymNPC3Text:
+;	text "I come here every"
+;	line "night, for battles"
+;	cont "and beverages!"
+;	done
 
 MoonflowerGymNPC4Text:
 	text "Yeah, yeah."
@@ -323,22 +284,22 @@ MoonflowerGymNPC4Text:
 	para "Put it on my tab."
 	done
 
-MoonflowerGymNPC5Text:
-	text "I came here for a"
-	line "date."
+;MoonflowerGymNPC5Text:
+;	text "I came here for a"
+;	line "date."
+;
+;	para "I wasn't expecting"
+;	line "this!"
+;	done
 
-	para "I wasn't expecting"
-	line "this!"
-	done
+;MoonflowerGymNPC6Text:
+;	text "I come here every"
+;	line "night with my"
+;	cont "girlfriend."
 
-MoonflowerGymNPC6Text:
-	text "I come here every"
-	line "night with my"
-	cont "girlfriend."
-
-	para "Don't tell her how"
-	line "big my tab is!"
-	done
+;	para "Don't tell her how"
+;	line "big my tab is!"
+;	done
 
 MoonflowerBarFightBikerMovement:
 	fast_step_right

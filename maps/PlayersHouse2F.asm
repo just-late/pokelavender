@@ -6,14 +6,14 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, MOONFLOWER_CITY, 3 ; PLAYERS_HOUSE, 3
+	warp_event  7,  0, MOONFLOWER_CITY, 3
 
 	def_coord_events
 
 	def_bg_events
 	bg_event  2,  1, BGEVENT_UP, PlayersHousePC
 	bg_event  3,  1, BGEVENT_READ, PlayersHouseRadio
-	bg_event  5,  1, BGEVENT_READ, PokemonJournalProfElmScript
+	bg_event  5,  1, BGEVENT_READ, PokemonJournalDrLaventonScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
 	bg_event  2,  8, BGEVENT_READ, SnowtopMountain
 
@@ -83,7 +83,7 @@ SnowtopMountain:
 	text "Snowtop Mountain"
 	done
 
-PokemonJournalProfElmScript:
+PokemonJournalDrLaventonScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL
 	jumpthistext
 

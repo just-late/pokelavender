@@ -4,8 +4,8 @@ MoonflowerPokeCenter1F_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  5,  7, MOONFLOWER_CITY, 5
-	warp_event  6,  7, MOONFLOWER_CITY, 5
+	warp_event  5,  7, MOONFLOWER_CITY, 3
+	warp_event  6,  7, MOONFLOWER_CITY, 3
 	warp_event  0,  7, POKECENTER_2F, 1
 
 	def_coord_events
@@ -14,7 +14,7 @@ MoonflowerPokeCenter1F_MapScriptHeader:
 	bg_event 10,  1, BGEVENT_READ, PokemonJournalFalknerScript
 
 	def_object_events
-	object_event 10,  2, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeCenter1FElmsAideScript, EVENT_ELMS_AIDE_IN_MOONFLOWER_POKEMON_CENTER
+	object_event 10,  2, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeCenter1FElmsAideScript, -1
 	pc_nurse_event  5, 1
 	object_event  9,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerPokeCenter1FGameboyKidText, -1
 	object_event  2,  3	, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerPokeCenter1FGentlemanText, -1

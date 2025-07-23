@@ -102,8 +102,8 @@ MoonflowerCitySignText:
 MoonflowerGymSignText:
 	text "MOONFLOWER CITY"
 	line "#MON GYM"
-	cont "LEADER: JULIA"
+	cont "LEADER: RANCID"
 
-	para "An elegant master"
-	line "of FAIRY #MON."
+	para "The funky POISON"
+	line "TYPE TRAINER!"
 	done

@@ -24,19 +24,24 @@ PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
 	jumpthistext
 
-	text "#MON Journal"
+	text "#MON JOURNAL"
 
-	para "Special Feature:"
-	line "ELDER AARON!"
+	para "SPECIAL FEATURE:"
+	line "MOD CO."
 
-	para "AARON is one of"
-	line "the three ELDERS"
-	cont "of ATTUVA."
+	para "MOD CO. has been"
+	line "working hard for"
+	cont "our sake since"
+	cont "they bought SILPH"
+	cont "CO.'s patent on"
+	cont "the #GEAR."
 
-	para "He lives in"
-	line "GEMROOT TOWN, and"
-	cont "gives #MON"
-	cont "to young TRAINERS."
+	para "Since then, it's"
+	line "been massively"
+	cont "improved!"
+
+	para "We owe MOD CO."
+	line "a big thank you!"
 	done
 
 GlittervinePokeCenter1FNPC1Script:
