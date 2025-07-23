@@ -1,12 +1,12 @@
-NAME := polishedcrystal
+NAME := pokelav
 MODIFIERS :=
-VERSION := 3.0.0-beta
+VERSION := in-progress
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
 EXTENSION := gbc
 
-TITLE := PKPCRYSTAL
-MCODE := PKPC
+TITLE := POKELAV
+MCODE := PKLV
 ROMVERSION := 0x30
 
 FILLER := 0xff

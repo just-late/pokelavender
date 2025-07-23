@@ -155,3 +155,4 @@
 	tilecoll WALL, WALL, WALL, WALL ; 9a
 	tilecoll WALL, WALL, WALL, WALL ; 9b
 	tilecoll WALL, STAIRCASE, FLOOR, FLOOR ; 9c
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 9d

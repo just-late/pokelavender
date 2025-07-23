@@ -2407,5 +2407,8 @@
 	const EVENT_GOT_LOADED_DICE_FROM_GOLDENROD
 	const EVENT_LISTENED_TO_BATON_PASS_INTRO
 
+; pokelavender story events
+	const EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
+
 	const_next $8ff
 DEF NUM_EVENTS EQU const_value ; 2303

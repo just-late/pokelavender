@@ -26,7 +26,7 @@ MapGroupRoofs:
 	db -1            ; 21
 	db ROOF_OLIVINE  ; 22 (Cianwood City)
 	db -1            ; 23
-	db ROOF_NEW_BARK ; 24 (New Bark Town)
+	db ROOF_AZALEA   ; 24 (Gemroot Town)
 	db -1            ; 25
 	db ROOF_NEW_BARK ; 26 (Cherrygrove City)
 	db -1            ; 27
