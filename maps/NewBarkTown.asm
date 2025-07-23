@@ -22,6 +22,7 @@ NewBarkTown_MapScriptHeader:
 	object_event 26, 24, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
 	object_event 20, 19, SPRITE_GRANNY, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
 	object_event 14, 6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
+	object_event 3, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptext, FisherText, -1
 
 	object_const_def
 
@@ -151,4 +152,11 @@ IrresistibleSignText:
 
 PlayersHouseSignText:
 	text "<PLAYER>'s House"
+	done
+
+FisherText:
+	text "… … … …"
+	line "… … … …"
+
+	para "He's ignoring you…"
 	done

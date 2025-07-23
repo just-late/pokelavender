@@ -134,7 +134,7 @@
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 85
 	tilecoll WALL, WALL, BUOY, BUOY ; 86
 	tilecoll WATER, BUOY, WATER, BUOY ; 87
-	tilecoll VOID, VOID, VOID, VOID ; 88
+	tilecoll WALL, WALL, WALL, WALL ; 88
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 89
 	tilecoll WATER, WATER, WALL, WALL ; 8a
 	tilecoll WATER, WATER, WALL, WALL ; 8b
@@ -242,7 +242,7 @@
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; f1
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; f2
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; f3
-	tilecoll WALL, FLOOR, WALL, WALL ; f4
+	tilecoll FLOOR, FLOOR, WALL, WALL ; f4
 	tilecoll FLOOR, WALL, WALL, WALL ; f5
 	tilecoll WALL, WALL, WALL, WALL ; f6
 	tilecoll WALL, FLOOR, WALL, FLOOR ; f7
