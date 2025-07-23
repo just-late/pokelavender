@@ -3634,24 +3634,18 @@ TurtwigEvosAttacks:
 GrotleEvosAttacks:
 	evo_data EVOLVE_LEVEL, 32, MEGANIUM
 	db -1 ; no more evolutions
-	db 1, TACKLE
-	db 1, GROWL
-	db 6, RAZOR_LEAF
-	db 9, POISONPOWDER
-	db 12, HEALINGLIGHT ; Synthesis → similar move
-	db 18, REFLECT
-	db 18, LIGHT_SCREEN
-	db 22, DISARM_VOICE ; Magical Leaf → new move
-	db 26, ENERGY_BALL ; Natural Gift → tutor move
-	db 32, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
-	db 36, DAZZLINGLEAM ; Light Screen → TM move
-	db 40, BODY_SLAM
-	db 43, SAFEGUARD
-	db 47, PLAY_ROUGH ; Aromatherapy → new move
-	db 51, SOLAR_BEAM
-	db 54, HEAL_BELL ; Aromatherapy → similar move
-	db 58, OUTRAGE ; HGSS tutor move
-	db 64, MOONBLAST ; new move
+	db 1, ABSORB
+	db 1, TACKLE,
+	db 1, DEFENSE_CURL ; Withdraw → Similar move
+	db 13, RAZOR_LEAF
+	db 17, CURSE
+	db 22, BITE
+	db 27, MEGA_DRAIN
+	db 32, LEECH_SEED
+	db 37, HEALINGLIGHT ; Synthesis → Similar moce
+	db 42, CRUNCH
+	db 47, GIGA_DRAIN
+	db 52, EARTHQUAKE ; Leaf Storm → Nonexistent move
 	db -1 ; no more level-up moves
 
 MeganiumEvosAttacks:
