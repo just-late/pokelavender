@@ -1536,15 +1536,15 @@ GrotlePokedexEntry::
 	next "grows on its shell"
 	next "is delicious.@"
 
-SECTION "MeganiumPokedexEntry", ROMX
-MeganiumPokedexEntry::
-	db "Herb@"
-	db   "Anyone who stands"
-	next "beside it becomes"
-	next "refreshed, just as"
-	page "if they were"
-	next "relaxing in a"
-	next "sunny forest.@"
+SECTION "TorterraPokedexEntry", ROMX
+TorterraPokedexEntry::
+	db "CONTINENT@"
+	db   "This remarkable,"
+	next "large #MON is"
+	next "treated by some as"
+	page "a garden. It roams"
+	next "the land in search"
+	next "of clean water.@"
 
 SECTION "CyndaquilPokedexEntry", ROMX
 CyndaquilPokedexEntry::

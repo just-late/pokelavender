@@ -182,7 +182,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Farfetch'd is Fighting/Flying.
 * Ninetales is Fire/Ghost.
 * Golduck is Water/Psychic.
-* Meganium is Grass/Fairy.
+* Torterra is Grass/Fairy.
 * Typhlosion is Fire/Ground.
 * Feraligatr is Water/Dark.
 * Noctowl is Flying/Psychic.

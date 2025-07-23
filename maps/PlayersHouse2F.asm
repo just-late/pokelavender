@@ -107,7 +107,6 @@ PlayersHousePC:
 	end
 
 .CoolBackground
-	givepoke GROTLE, 24
 	jumpthistext
 
 	text "It's your PC."

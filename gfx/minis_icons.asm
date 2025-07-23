@@ -772,10 +772,10 @@ GrotleMini::     INCBIN "gfx/minis/grotle.2bpp.lz"
 GrotleMiniMask:: INCBIN "gfx/minis/grotle_mask.1bpp.lz"
 GrotleIcon::     INCBIN "gfx/icons/grotle.2bpp.lz"
 
-SECTION "Meganium Mini Icon", ROMX
-MeganiumMini::     INCBIN "gfx/minis/meganium.2bpp.lz"
-MeganiumMiniMask:: INCBIN "gfx/minis/meganium_mask.1bpp.lz"
-MeganiumIcon::     INCBIN "gfx/icons/meganium.2bpp.lz"
+SECTION "Torterra Mini Icon", ROMX
+TorterraMini::     INCBIN "gfx/minis/torterra.2bpp.lz"
+TorterraMiniMask:: INCBIN "gfx/minis/torterra_mask.1bpp.lz"
+TorterraIcon::     INCBIN "gfx/icons/torterra.2bpp.lz"
 
 SECTION "Cyndaquil Mini Icon", ROMX
 CyndaquilMini::     INCBIN "gfx/minis/cyndaquil.2bpp.lz"

@@ -157,7 +157,7 @@ PokemonPicPointers::
 	pics Mew
 	pics Turtwig
 	pics Grotle
-	pics Meganium
+	pics Torterra
 	pics Cyndaquil
 	pics Quilava
 	pics TyphlosionPlain

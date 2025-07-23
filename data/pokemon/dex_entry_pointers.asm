@@ -154,7 +154,7 @@ PokedexDataPointerTable:
 	dba MewPokedexEntry
 	dba TurtwigPokedexEntry
 	dba GrotlePokedexEntry
-	dba MeganiumPokedexEntry
+	dba TorterraPokedexEntry
 	dba CyndaquilPokedexEntry
 	dba QuilavaPokedexEntry
 	dba TyphlosionPlainPokedexEntry

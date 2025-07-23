@@ -175,7 +175,7 @@
 	const MEW        ; 97
 	const TURTWIG  ; 98
 	const GROTLE    ; 99
-	const MEGANIUM   ; 9a
+	const TORTERRA   ; 9a
 	const CYNDAQUIL  ; 9b
 	const QUILAVA    ; 9c
 	const TYPHLOSION ; 9d

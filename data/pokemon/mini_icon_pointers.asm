@@ -157,7 +157,7 @@ MiniIconPointers:
 	mini_icon Mew
 	mini_icon Turtwig
 	mini_icon Grotle
-	mini_icon Meganium
+	mini_icon Torterra
 	mini_icon Cyndaquil
 	mini_icon Quilava
 	mini_icon Typhlosion

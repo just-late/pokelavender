@@ -4,7 +4,7 @@ NewPokedexOrder:
 	table_width 2, NewPokedexOrder
 	dp TURTWIG
 	dp GROTLE
-	dp MEGANIUM
+	dp TORTERRA
 	dp CYNDAQUIL
 	dp QUILAVA
 	dp TYPHLOSION

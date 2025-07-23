@@ -153,7 +153,7 @@ FramesPointers:
 	dw MewFrames
 	dw TurtwigFrames
 	dw GrotleFrames
-	dw MeganiumFrames
+	dw TorterraFrames
 	dw CyndaquilFrames
 	dw QuilavaFrames
 	dw TyphlosionPlainFrames

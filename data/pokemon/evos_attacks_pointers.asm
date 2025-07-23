@@ -157,7 +157,7 @@ EvosAttacksPointers::
 	dw MewEvosAttacks
 	dw TurtwigEvosAttacks
 	dw GrotleEvosAttacks
-	dw MeganiumEvosAttacks
+	dw TorterraEvosAttacks
 	dw CyndaquilEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionPlainEvosAttacks

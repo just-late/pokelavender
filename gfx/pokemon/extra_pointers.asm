@@ -153,7 +153,7 @@ AnimationExtraPointers:
 	dw MewAnimationExtra
 	dw TurtwigAnimationExtra
 	dw GrotleAnimationExtra
-	dw MeganiumAnimationExtra
+	dw TorterraAnimationExtra
 	dw CyndaquilAnimationExtra
 	dw QuilavaAnimationExtra
 	dw TyphlosionPlainAnimationExtra

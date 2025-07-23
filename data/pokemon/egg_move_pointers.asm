@@ -153,7 +153,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Mew
 	dw TurtwigEggMoves      ; Turtwig
 	dw NoEggMoves             ; Grotle
-	dw NoEggMoves             ; Meganium
+	dw NoEggMoves             ; Torterra
 	dw CyndaquilEggMoves      ; Cyndaquil
 	dw NoEggMoves             ; Quilava
 	dw NoEggMoves             ; Typhlosion

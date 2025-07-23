@@ -2,7 +2,7 @@ JohtoFrames:
 
 TurtwigFrames:  INCLUDE "gfx/pokemon/turtwig/frames.asm"
 GrotleFrames:    INCLUDE "gfx/pokemon/grotle/frames.asm"
-MeganiumFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm"
+TorterraFrames:   INCLUDE "gfx/pokemon/torterra/frames.asm"
 CyndaquilFrames:  INCLUDE "gfx/pokemon/cyndaquil/frames.asm"
 QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"
 TotodileFrames:   INCLUDE "gfx/pokemon/totodile/frames.asm"

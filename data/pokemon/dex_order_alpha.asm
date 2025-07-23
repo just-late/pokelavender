@@ -148,7 +148,6 @@ AlphabeticalPokedexOrder:
 	dp MAREEP
 	dp MARILL
 	dp MAROWAK
-	dp MEGANIUM
 	dp MEOWTH
 	dp METAPOD
 	dp MEW
@@ -259,6 +258,7 @@ AlphabeticalPokedexOrder:
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC
+	dp TORTERRA
 	dp TOTODILE
 	dp TURTWIG
 	dp TYPHLOSION

@@ -2,9 +2,9 @@
 	;   hp  atk  def  spe  sat  sdf
 
 if DEF(FAITHFUL)
-	db GRASS, GRASS ; type
+	db GRASS, GROUND ; type
 else
-	db GRASS, FAIRY ; type
+	db GRASS, GROUND ; type
 endc
 	db 45 ; catch rate
 	db 208 ; base exp
@@ -12,9 +12,9 @@ endc
 	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for MEGANIUM, OVERGROW, OVERGROW, LEAF_GUARD
+	abilities_for TORTERRA, OVERGROW, OVERGROW, SHELL_ARMOR
 else
-	abilities_for MEGANIUM, OVERGROW, NATURAL_CURE, LEAF_GUARD
+	abilities_for TORTERRA, OVERGROW, OVERGROW, SHELL_ARMOR
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_PLANT ; egg groups

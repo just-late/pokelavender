@@ -154,7 +154,7 @@ PokemonNames::
 	rawchar "Mew@@@@@@@"
 	rawchar "Turtwig@@@"
 	rawchar "Grotle@@@@"
-	rawchar "Meganium@@"
+	rawchar "Torterra@@"
 	rawchar "Cyndaquil@"
 	rawchar "Quilava@@@"
 	rawchar "Typhlosion"

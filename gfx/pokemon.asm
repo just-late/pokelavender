@@ -472,9 +472,9 @@ SECTION "Grotle Pics", ROMX
 GrotleFrontpic: INCBIN "gfx/pokemon/grotle/front.animated.2bpp.lz"
 GrotleBackpic:  INCBIN "gfx/pokemon/grotle/back.2bpp.lz"
 
-SECTION "Meganium Pics", ROMX
-MeganiumFrontpic: INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
-MeganiumBackpic:  INCBIN "gfx/pokemon/meganium/back.2bpp.lz"
+SECTION "Torterra Pics", ROMX
+TorterraFrontpic: INCBIN "gfx/pokemon/torterra/front.animated.2bpp.lz"
+TorterraBackpic:  INCBIN "gfx/pokemon/torterra/back.2bpp.lz"
 
 SECTION "Cyndaquil Pics", ROMX
 CyndaquilFrontpic: INCBIN "gfx/pokemon/cyndaquil/front.animated.2bpp.lz"

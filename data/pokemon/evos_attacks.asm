@@ -3632,7 +3632,7 @@ TurtwigEvosAttacks:
 	db -1 ; no more level-up moves
 
 GrotleEvosAttacks:
-	evo_data EVOLVE_LEVEL, 32, MEGANIUM
+	evo_data EVOLVE_LEVEL, 32, TORTERRA
 	db -1 ; no more evolutions
 	db 1, ABSORB
 	db 1, TACKLE,
@@ -3648,7 +3648,7 @@ GrotleEvosAttacks:
 	db 52, EARTHQUAKE ; Leaf Storm → Nonexistent move
 	db -1 ; no more level-up moves
 
-MeganiumEvosAttacks:
+TorterraEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PETAL_DANCE ; evolution move
 	db 1, TACKLE

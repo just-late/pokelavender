@@ -153,7 +153,7 @@ EvolutionMoves::
 	db NO_MOVE      ; MEW
 	db NO_MOVE      ; TURTWIG
 	db NO_MOVE      ; GROTLE
-	db PETAL_DANCE  ; MEGANIUM
+	db PETAL_DANCE  ; TORTERRA
 	db NO_MOVE      ; CYNDAQUIL
 	db NO_MOVE      ; QUILAVA
 	db FIRE_PUNCH   ; TYPHLOSION
