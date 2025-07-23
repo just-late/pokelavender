@@ -88,9 +88,9 @@ PlateauRivalBattleTrigger2:
 	faceobject PLAYER, INDIGOPLATEAUPOKECENTER1F_RIVAL
 	showtext PlateauRivalText1
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .RivalTotodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
 	iftruefwd .RivalChikorita
 	; Cyndaquil
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
@@ -151,9 +151,9 @@ PlateauRivalBattleTrigger2:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_LYRA
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .LyraTotodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
 	iftruefwd .LyraChikorita
 	; Cyndaquil
 	winlosstext PlateauLyraWinText, PlateauLyraLoseText

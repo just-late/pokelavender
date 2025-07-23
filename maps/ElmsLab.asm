@@ -46,9 +46,9 @@ ElmsLab_MapScriptHeader:
 	def_object_events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
-	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CyndaquilPokeBallScript, EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
-	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
-	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, ChikoritaPokeBallScript, EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
+	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CyndaquilPokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
+	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
+	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, ChikoritaPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
 	object_event  5, 11, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ElmsLabLyraScript, EVENT_LYRA_IN_ELMS_LAB
 
@@ -212,7 +212,7 @@ CyndaquilPokeBallScript:
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL1
-	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+	setevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
@@ -252,7 +252,6 @@ TotodilePokeBallScript:
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL2
-	setevent EVENT_GOT_TOTODILE_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
@@ -290,7 +289,7 @@ ChikoritaPokeBallScript:
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL3
-	setevent EVENT_GOT_CHIKORITA_FROM_ELM
+	setevent EVENT_GOT_CHIKORITA_FROM_ELDER
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
@@ -567,9 +566,9 @@ LyraBattleScript:
 	turnobject PLAYER, RIGHT
 	winlosstext ElmsLabLyraWinText, ElmsLabLyraLossText
 	setlasttalked ELMSLAB_LYRA
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
 	iftruefwd .Chikorita
 	loadtrainer LYRA1, LYRA1_1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE

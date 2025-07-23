@@ -44,9 +44,9 @@ AriPhoneScript1:
 
 AriPhoneScript2:
     random 3
-	ifequal 0, .zero
-	ifequal 1, .one
-	ifequal 2, .two
+	ifequalfwd 0, .zero
+	ifequalfwd 1, .one
+	ifequalfwd 2, .two
 
 .zero
 	farwritetext AriPhoneCallerRandomText0
