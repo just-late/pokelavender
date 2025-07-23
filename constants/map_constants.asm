@@ -239,7 +239,7 @@ ENDM
 	map_const ROUTE_2,									  25, 23 ;  1
 	map_const ROUTE_32,                                   10, 45 ;  2
 	map_const ROUTE_32_COAST,                             15, 35 ;  3
-	map_const VIOLET_CITY,                                20, 18 ;  4
+	map_const VIOLET_CITY,                                19, 19 ;  4
 	map_const VIOLET_MART,                                 6,  4 ;  5
 	map_const VIOLET_GYM,                                  5,  8 ;  6
 	map_const EARLS_POKEMON_ACADEMY,                       4,  8 ;  7
