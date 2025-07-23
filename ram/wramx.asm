@@ -1074,7 +1074,7 @@ wFastShip1FSceneID:: db
 wFastShipB1FSceneID:: db
 wGemrootTownSceneID:: db
 wGemrootCommunityCenter1FSceneID:: db
-	ds 1 ; unused
+wAnabelsHouse2FSceneID:: db
 wGiovannisCaveSceneID:: db
 wGoldenrodCitySceneID:: db
 wGoldenrodGymSceneID:: db

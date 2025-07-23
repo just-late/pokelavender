@@ -46,6 +46,8 @@ MomEventScript:
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
+	setevent EVENT_ALWAYS_SET
+	setevent EVENT_ANABEL_AT_HOME
 	setevent EVENT_ANABEL_BEDROOM_SCENE
 	setevent EVENT_ANABEL_HOUSE_SCENE
 .InitialSetDSTFlag:
@@ -146,15 +148,21 @@ MomScript:
 
 MomIntroText:
 	text "Oh, <PLAYER>!"
-	line "You're awake."
+	line "You weren't awake?"
 
-	para "Your friend Benny"
+	para "Your friend ANABEL"
 	line "was just here."
 
-	para "He told me he"
-	line "would meet you in"
+	para "She was shouting"
+	line "something about"
 
-	para "the Gemroot Woods."
+	para "an emergency,"
+	line "but that was all"
+	cont "I could hear."
+
+	para "It seems like"
+	line "you better find"
+	cont "her fast!"
 	done
 
 MomDSTText:

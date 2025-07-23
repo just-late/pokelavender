@@ -1,5 +1,6 @@
 AnabelsHouse2F_MapScriptHeader:
     def_scene_scripts
+    scene_script AnabelsHouseBedroomScene0
 
     def_callbacks
 
@@ -17,6 +18,84 @@ AnabelsHouse2F_MapScriptHeader:
 
     object_const_def
     const BEDROOM_SCENE_ANABEL
+
+AnabelsHouseBedroomScene0:
+    sdefer AnabelBedroomSceneScript
+    end
+
+AnabelBedroomSceneScript:
+    applyonemovement PLAYER, step_down
+    showtext AnabelBedroomSceneText1
+    pause 15
+    showemote EMOTE_SHOCK, BEDROOM_SCENE_ANABEL, 30
+    showtext AnabelBedroomSceneText2
+    applyonemovement BEDROOM_SCENE_ANABEL, step_left
+    turnobject BEDROOM_SCENE_ANABEL, UP
+    playsound SFX_SWITCH_POCKETS
+    waitsfx
+    showtext AnabelBedroomSceneText3
+    pause 15
+    turnobject BEDROOM_SCENE_ANABEL, LEFT
+    showemote EMOTE_SHOCK, BEDROOM_SCENE_ANABEL, 30
+    turnobject PLAYER, RIGHT
+    showtext AnabelBedroomSceneText4
+    applymovement BEDROOM_SCENE_ANABEL, AnabelWalksToPlayerMovement
+    showtext AnabelBedroomSceneText5
+    applyonemovement PLAYER, step_down
+    turnobject PLAYER, UP
+    applymovement BEDROOM_SCENE_ANABEL, AnabelExitsMovement
+    disappear BEDROOM_SCENE_ANABEL
+    playsound SFX_ENTER_DOOR
+    waitsfx
+    setscene $1
+    end
+
+AnabelBedroomSceneText1:
+    text "Let's see here…"
+
+    para "I have my"
+    line "#GEAR, # BALLS,"
+    cont "and…"
+
+    para "…"
+    done
+
+AnabelBedroomSceneText2:
+    text "Right!"
+    line "My journal!"
+    done
+
+AnabelBedroomSceneText3:
+    text "Ah, here it is!"
+    done
+
+AnabelBedroomSceneText4:
+    text "Oh!"
+    line "Hi, <PLAYER>!"
+    done
+
+AnabelBedroomSceneText5:
+    text "I got all my"
+    line "things."
+
+    para "Anyway, I want"
+    line "you to meet me at"
+    cont "ROUTE 1."
+
+    para "See you there!"
+    done
+
+AnabelWalksToPlayerMovement:
+    step_left
+    step_left
+    step_up
+    step_left
+    step_end
+
+AnabelExitsMovement:
+    step_left
+    step_up
+    step_end
 
 AnabelScript:
     faceplayer

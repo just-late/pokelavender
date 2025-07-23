@@ -37,6 +37,7 @@ MapScenes::
 	scene_var FAST_SHIP_B1F,                          wFastShipB1FSceneID
 	scene_var GEMROOT_TOWN,                           wGemrootTownSceneID
 	scene_var GEMROOT_COMMUNITY_CENTER_1F,            wGemrootCommunityCenter1FSceneID
+	scene_var ANABELS_HOUSE_2F,						  wAnabelsHouse2FSceneID
 	scene_var GIOVANNIS_CAVE,                         wGiovannisCaveSceneID
 	scene_var GOLDENROD_CITY,                         wGoldenrodCitySceneID
 	scene_var GOLDENROD_GYM,                          wGoldenrodGymSceneID
