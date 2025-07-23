@@ -61,6 +61,7 @@ PlayerWalksToAnabel2:
 
 PickYourMonScript:
     jumptext ElderWaitPickMonText
+    applyonemovement PLAYER, step_up
     end
 
 GemrootElderGivesMonScript:
