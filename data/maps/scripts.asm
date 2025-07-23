@@ -918,6 +918,7 @@ INCLUDE "maps/Route2Gate.asm"
 INCLUDE "maps/Route2GlittervineGate.asm"
 INCLUDE "maps/Route2.asm"
 INCLUDE "maps/Route2NuggetSpeechHouse.asm"
+INCLUDE "maps/Route2MoonflowerGate.asm"
 INCLUDE "maps/Route3.asm"
 INCLUDE "maps/Route4.asm"
 

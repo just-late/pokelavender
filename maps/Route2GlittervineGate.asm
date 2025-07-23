@@ -14,7 +14,7 @@ Route2GlittervineGate_MapScriptHeader:
     def_bg_events
 
     db 1 ; object_events
-    person_event SPRITE_OFFICER,  2,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, Route2GlittervineGateNPC1Text, -1 
+    person_event SPRITE_OFFICER,  2,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, Route2GlittervineGateNPC1Text, -1 
 
 Route2GlittervineGateNPC1Text:
     text "Hey, kid."

@@ -6,6 +6,8 @@ Route2_MapScriptHeader:
 	def_warp_events
 	warp_event  2,  8, ROUTE_2_GLITTERVINE_GATE, 3
 	warp_event  2,  9, ROUTE_2_GLITTERVINE_GATE, 4
+	warp_event 43, 41, ROUTE_2_MOONFLOWER_GATE, 1
+	warp_event 44, 41, ROUTE_2_MOONFLOWER_GATE, 2
 
 	def_coord_events
 

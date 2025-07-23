@@ -10,16 +10,10 @@ MoonflowerCity_MapScriptHeader:
 	warp_event 22, 27, MOONFLOWER_GYM, 1
 	warp_event 27, 27, MOONFLOWER_POKECENTER_1F, 1
 	warp_event 19, 17, MOONFLOWER_BIKE_SHOP, 1
-	warp_event 31,  3, PLAYERS_HOUSE_2F, 1
+	warp_event 31,  3, ROUTE_2_MOONFLOWER_GATE, 3
 ;	warp_event 17, 19, MOONFLOWER_ONIX_TRADE_HOUSE, 1
-;	warp_event 15, 19, ROUTE_31_MOONFLOWER_GATE, 1
-;	warp_event 16, 19, ROUTE_31_MOONFLOWER_GATE, 2
-;	warp_event 17, 18, ROUTE_36_MOONFLOWER_GATE, 3
-;	warp_event 16, 18, ROUTE_36_MOONFLOWER_GATE, 4
 
 	def_coord_events
-;	coord_event 12, 32, 2, Special_MomCallTrigger
-;	coord_event 13, 32, 2, Special_MomCallTrigger
 
 	def_bg_events
 	bg_event 29, 13, BGEVENT_JUMPTEXT, MoonflowerCitySignText
