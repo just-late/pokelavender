@@ -7,11 +7,12 @@ ENDM
 Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark 140, 100, GemrootTownName
-	landmark 120, 100, Route29Name
-	landmark 100, 100, CherrygroveCityName
-	landmark  92, 100, CherrygroveBayName
-	landmark 100,  80, Route30Name
+	landmark  60, 100, GemrootTownName
+	landmark  60, 104, GemrootWoodsName
+	landmark  68,  88, Route29Name
+	landmark  68,  76, CherrygroveCityName
+	landmark  66,  74, CherrygroveBayName
+	landmark  76,  76, Route30Name
 	landmark  96,  60, Route31Name
 	landmark  84,  60, VioletCityName
 	landmark  86,  58, SproutTowerName
@@ -155,6 +156,7 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 GemrootTownName:       rawchar "Gemroot¯Town@"
+GemrootWoodsName:      rawchar "Gemroot¯Woods@"
 CherrygroveCityName:   rawchar "Cherrygrove¯City@"
 VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"

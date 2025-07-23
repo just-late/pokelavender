@@ -3,6 +3,7 @@
 	const SPECIAL_MAP        ; 00
 ; Johto landmarks
 	const GEMROOT_TOWN      ; 01
+	const GEMROOT_WOODS
 	const ROUTE_29           ; 02
 	const CHERRYGROVE_CITY   ; 03
 	const CHERRYGROVE_BAY    ; 04

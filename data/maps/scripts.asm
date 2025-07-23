@@ -70,7 +70,7 @@ INCLUDE "maps/BattleFactoryHallway.asm"
 INCLUDE "maps/BattleFactoryBattleRoom.asm"
 
 
-SECTION "New Bark Scripts", ROMX
+SECTION "Gemroot Scripts", ROMX
 
 INCLUDE "maps/GemrootTown.asm"
 INCLUDE "maps/ElmsHouse.asm"
@@ -78,7 +78,7 @@ INCLUDE "maps/ElmsLab.asm"
 INCLUDE "maps/PlayersNeighborsHouse.asm"
 
 
-SECTION "New Bark Scripts 2", ROMX
+SECTION "Gemroot Scripts 2", ROMX
 
 INCLUDE "maps/PlayersHouse1F.asm"
 INCLUDE "maps/PlayersHouse2F.asm"
