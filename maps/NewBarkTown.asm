@@ -21,6 +21,7 @@ NewBarkTown_MapScriptHeader:
 	object_event 11, 21, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
 	object_event 26, 24, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
 	object_event 20, 19, SPRITE_GRANNY, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
+	object_event 14, 6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
 
 	object_const_def
 
@@ -82,6 +83,18 @@ NouraTravelerScript:
 	writetext NouraTraveler2Text
 	closetext
 	end
+
+GrampsCommunityCenterText:
+	text "This is the"
+	line "Gemroot Town"
+
+	para "Community Center."
+	line "They built it"
+	cont "when I was just a"
+
+	para "little boy."
+	line "Time sure flies!"
+	done
 
 OldGrannyText:
 	text "When I was your"
