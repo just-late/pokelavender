@@ -12,16 +12,16 @@ GemrootTown_MapScriptHeader:
 	warp_event 12, 5, GEMROOT_COMMUNITY_CENTER_1F, 1  ; 5
 
 	def_coord_events
-	coord_event 35, 20, 0, TrainerTipsSignScript1
-	coord_event 35, 21,	0, TrainerTipsSignScript2
-	coord_event 35, 22,	0, TrainerTipsSignScript3
+	coord_event 34, 20, 0, TrainerTipsSignScript1
+	coord_event 34, 21,	0, TrainerTipsSignScript2
+	coord_event 34, 22,	0, TrainerTipsSignScript3
 
 	def_bg_events
 	bg_event 31, 19, BGEVENT_JUMPTEXT, PlayersHouseSignText
 	bg_event 34, 27, BGEVENT_JUMPTEXT, ArisHouseSignText
 	bg_event 14, 13, BGEVENT_JUMPTEXT, GemrootTownSignText
 	bg_event 11,  7, BGEVENT_JUMPTEXT, CommunityCenterSignText
-	bg_event 35, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
+	bg_event 34, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
 	
 	db 6 ; object_events, person_events
 	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AttuvaTravelerScript, -1

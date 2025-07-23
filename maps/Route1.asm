@@ -17,6 +17,7 @@ Route1_MapScriptHeader:
 	object_event 16, 22, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCooltrainermFrench, -1
 	object_event 17, 22, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCooltrainerfQuinn, -1
 	fruittree_event 11,  3, FRUITTREE_ROUTE_1, FIGY_BERRY, PAL_NPC_BROWN
+	cuttree_event 13, 10, EVENT_ROUTE_1_CUT_TREE
 
 GenericTrainerSchoolboyDanny:
 	generictrainer SCHOOLBOY, DANNY, EVENT_BEAT_SCHOOLBOY_DANNY, SchoolboyDannySeenText, SchoolboyDannyBeatenText
