@@ -123,18 +123,12 @@ MACRO person_event
 	db \2 + 4 ; y
 	db \3 + 4 ; x
 	db \4 ; movement function
-	if \1 == SPRITE_MON_ICON
-		dn \5, LOW(\6) ; mon index
-	else
-		dn \5, \6 ; radius: y, x
-	endc
+	dn \5, \6 ; radius: y, x
 	db \9 ; palette
 	db \8 ; time of day
 	db \<10> ; type
 	if \<10> == OBJECTTYPE_COMMAND
 		db \<11>_command ; command id
-	elif \3 == SPRITE_MON_ICON
-		db (HIGH(\6) << MON_EXTSPECIES_F) | \<11> ; extspecies | form
 	else
 		db \<11> ; sight_range
 	endc
