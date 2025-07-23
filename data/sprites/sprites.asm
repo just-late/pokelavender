@@ -210,4 +210,6 @@ SpriteHeaders:
 	overworld_sprite ThortonSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite AriSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite GardeniaSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite ChrisRunSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite KrisRunSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	assert_table_length NUM_OVERWORLD_SPRITES

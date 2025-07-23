@@ -604,3 +604,9 @@ AriSpriteGFX:: INCBIN "gfx/sprites/ari.2bpp.lz"
 
 SECTION "GardeniaSpriteGFX", ROMX
 GardeniaSpriteGFX:: INCBIN "gfx/sprites/gardenia.2bpp.lz"
+
+SECTION "ChrisRunSpriteGFX", ROMX
+ChrisRunSpriteGFX:: INCBIN "gfx/sprites/chris_run.2bpp.lz"
+
+SECTION "KrisRunSpriteGFX", ROMX
+KrisRunSpriteGFX:: INCBIN "gfx/sprites/kris_run.2bpp.lz"
