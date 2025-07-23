@@ -33,6 +33,8 @@ MomAutoWalk0:
 
 MeetMomScript:
 	applyonemovement PLAYER, step_down
+	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
+	playmusic MUSIC_MOM
 	applyonemovement PLAYERSHOUSE1F_MOM1, step_right
 	applyonemovement PLAYERSHOUSE1F_MOM1, step_right
 	applyonemovement PLAYERSHOUSE1F_MOM1, step_up
