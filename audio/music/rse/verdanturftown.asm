@@ -331,7 +331,7 @@ Music_VerdanturfTown_Ch2_loop_main:
 	note G_, 4
 	note F#, 4
 	note E_, 4
-	volume_envelope 20, 7
+	volume_envelope 10, 7
 	octave 4
 	note G_, 2
 	note F#, 2
@@ -356,22 +356,22 @@ Music_VerdanturfTown_Ch2_loop_main:
 	note E_, 4
 	note G_, 12
 	note A_, 4
-	volume_envelope 20, 5
+	volume_envelope 10, 5
 	note F#, 10
-	volume_envelope 20, 7
+	volume_envelope 10, 7
 	note F#, 2
 	note G_, 2
 	note A_, 2
 	note B_, 14
-	volume_envelope 20, 2
+	volume_envelope 10, 2
 	note B_, 2
-	volume_envelope 20, 4
+	volume_envelope 10, 4
 	octave 5
 	note C#, 4
 	note D_, 4
 	note E_, 4
 	note C#, 2
-	volume_envelope 20, 7
+	volume_envelope 10, 7
 	octave 4
 	note A_, 14
 	note F#, 4
@@ -382,21 +382,21 @@ Music_VerdanturfTown_Ch2_loop_main:
 	note G_, 4
 	note F#, 4
 	note F#, 6
-	volume_envelope 20, 2
+	volume_envelope 10, 2
 	note G_, 6
-	volume_envelope 20, 7
+	volume_envelope 10, 7
 	note D_, 12
 	octave 3
 	note B_, 4
 	octave 4
 	note D_, 4
 	note F#, 6
-	volume_envelope 20, 2
+	volume_envelope 10, 2
 	note G_, 6
-	volume_envelope 20, 7
+	volume_envelope 10, 7
 	note G_, 11
 	duty_cycle 2
-	volume_envelope 20, 3
+	volume_envelope 10, 3
 	note D#, 1
 	note D_, 2
 	note C#, 2
