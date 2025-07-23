@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, GLITTERVINE_TOWN, 2
+	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
 
 	def_coord_events
 

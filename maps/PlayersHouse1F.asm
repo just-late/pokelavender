@@ -176,7 +176,7 @@ MomRunningShoesText:
 	line "you know how to"
 
 	para "use your new"
-	line "Running Shoes?"
+	line "RUNNING SHOES?"
 	done
 
 MomInstructionsText:
@@ -187,7 +187,7 @@ MomInstructionsText:
 	line "B Button to run,"
 	cont "indoors or out."
 
-	para "Or use the Option"
+	para "Or use the OPTION"
 	line "to always run, and"
 	cont "hold B to walk."
 	done
