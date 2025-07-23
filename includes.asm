@@ -6,6 +6,7 @@ INCLUDE "charmap.asm"
 
 INCLUDE "macros/asserts.asm"
 INCLUDE "macros/const.asm"
+INCLUDE "macros/legacy.asm"
 INCLUDE "macros/predef.asm"
 INCLUDE "macros/rst.asm"
 INCLUDE "macros/data.asm"
