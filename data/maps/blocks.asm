@@ -75,7 +75,6 @@ Route12Gate_BlockData:
 Route2GlittervineGate_BlockData:
 Route31MoonflowerGate_BlockData:
 Route36MoonflowerGate_BlockData:
-Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
 GoldenrodHarborGate_BlockData:
 Route38EcruteakGate_BlockData:

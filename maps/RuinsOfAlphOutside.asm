@@ -16,8 +16,6 @@ RuinsOfAlphOutside_MapScriptHeader:
 	warp_event  8, 25, UNION_CAVE_B1F_NORTH, 1
 	warp_event  8, 33, UNION_CAVE_B1F_NORTH, 2
 	warp_event  3,  5, ROUTE_36_RUINS_OF_ALPH_GATE, 3
-	warp_event 15, 26, ROUTE_32_RUINS_OF_ALPH_GATE, 1
-	warp_event 15, 27, ROUTE_32_RUINS_OF_ALPH_GATE, 2
 	warp_event 10,  9, RUINS_OF_ALPH_SINJOH_CHAMBER, 1
 	warp_event 11, 36, HIDDEN_CAVE_GROTTO, 1
 

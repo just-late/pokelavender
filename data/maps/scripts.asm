@@ -1017,7 +1017,6 @@ INCLUDE "maps/Route30BerrySpeechHouse.asm"
 INCLUDE "maps/Route31.asm"
 INCLUDE "maps/Route31MoonflowerGate.asm"
 INCLUDE "maps/Route32.asm"
-INCLUDE "maps/Route32RuinsOfAlphGate.asm"
 
 
 SECTION "Routes 33-35 Scripts", ROMX

@@ -246,7 +246,6 @@ ENDM
 	map_const MOONFLOWER_NICKNAME_SPEECH_HOUSE,                4,  4 ;  8
 	map_const MOONFLOWER_POKECENTER_1F,                        6,  4 ;  9
 	map_const MOONFLOWER_ONIX_TRADE_HOUSE,                     4,  4 ; 10
-	map_const ROUTE_32_RUINS_OF_ALPH_GATE,                 5,  4 ; 11
 	map_const ROUTE_32_POKECENTER_1F,                      6,  4 ; 12
 	map_const ROUTE_32_COAST_HOUSE,                        4,  4 ; 13
 	map_const MAGNET_TUNNEL_EAST,                         10, 11 ; 14
