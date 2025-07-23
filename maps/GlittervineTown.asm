@@ -5,13 +5,13 @@ GlittervineTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, GlittervineTownFlyPoint
 
 	def_warp_events
-	warp_event 25,  5, GLITTERVINE_MART, 2
-	warp_event 25, 13, GLITTERVINE_POKECENTER_1F, 1
-	warp_event 11,  5, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, 1
-	warp_event 31,  8, ROUTE_2_GLITTERVINE_GATE, 1
-	warp_event 31,  9, ROUTE_2_GLITTERVINE_GATE, 2
-	warp_event 14, 13, GLITTERVINE_TRAINERS_SCHOOL, 1
-	warp_event 17,  5, GLITTERVINE_GYM_SPEECH_HOUSE, 1
+	warp_event 25,  5, GLITTERVINE_MART, 2 ; 1
+	warp_event 25, 13, GLITTERVINE_POKECENTER_1F, 1 ; 2
+	warp_event 11,  5, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, 1 ; 3
+	warp_event 31,  8, ROUTE_2_GLITTERVINE_GATE, 1 ; 4
+	warp_event 31,  9, ROUTE_2_GLITTERVINE_GATE, 2 ; 5
+	warp_event 14, 13, GLITTERVINE_TRAINERS_SCHOOL, 1 ; 6
+	warp_event 17,  5, GLITTERVINE_GYM_SPEECH_HOUSE, 1 ; 7
 
 	def_coord_events
 

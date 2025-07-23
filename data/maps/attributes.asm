@@ -9,11 +9,11 @@ MACRO map_attributes
 ENDM
 
 	map_attributes GemrootTown, GEMROOT_TOWN, $5, EAST
-	connection east, Route1, ROUTE_1, 0
+	connection east, Route1, ROUTE_1, -8
 
 	map_attributes Route1, ROUTE_1, $5, NORTH | WEST
 	connection north, GlittervineTown, GLITTERVINE_TOWN, 0
-	connection west, GemrootTown, GEMROOT_TOWN, 0
+	connection west, GemrootTown, GEMROOT_TOWN, 8
 
 	map_attributes GlittervineTown, GLITTERVINE_TOWN, $5, SOUTH
 	connection south, Route1, ROUTE_1, 0

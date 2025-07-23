@@ -535,7 +535,7 @@ ENDM
 	map_const ROUTE_16_WEST,                              34, 12 ; 20
 
 	newgroup                                                     ; 24
-	map_const ROUTE_1,                                    12, 18 ;  1
+	map_const ROUTE_1,                                    15, 26 ;  1
 	map_const ROUTE_26,                                   10, 54 ;  2
 	map_const ROUTE_27,                                   40,  9 ;  3
 	map_const GEMROOT_TOWN,                               18, 18 ;  4
