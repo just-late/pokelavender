@@ -35,6 +35,8 @@ MapScenes::
 	scene_var FARAWAY_ISLAND,                         wFarawayIslandSceneID
 	scene_var FAST_SHIP_1F,                           wFastShip1FSceneID
 	scene_var FAST_SHIP_B1F,                          wFastShipB1FSceneID
+	scene_var GEMROOT_TOWN,                           wGemrootTownSceneID
+	scene_var GEMROOT_COMMUNITY_CENTER_1F,            wGemrootCommunityCenter1FSceneID
 	scene_var GIOVANNIS_CAVE,                         wGiovannisCaveSceneID
 	scene_var GOLDENROD_CITY,                         wGoldenrodCitySceneID
 	scene_var GOLDENROD_GYM,                          wGoldenrodGymSceneID
@@ -52,7 +54,6 @@ MapScenes::
 	scene_var MOUNT_MOON_SQUARE,                      wAlways0SceneID
 	scene_var MR_POKEMONS_HOUSE,                      wMrPokemonsHouseSceneID
 	scene_var MYSTRI_STAGE,                           wMystriStageSceneID
-	scene_var GEMROOT_TOWN,                          wGemrootTownSceneID
 	scene_var OLIVINE_CITY,                           wOlivineCitySceneID
 	scene_var OLIVINE_PORT,                           wOlivinePortSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
@@ -67,7 +68,6 @@ MapScenes::
 	scene_var ROUTE_22_PAST,                          wAlways0SceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
 	scene_var ROUTE_24,                               wRoute24SceneID
-	scene_var ROUTE_27,                               wRoute27SceneID
 	scene_var ROUTE_32,                               wRoute32SceneID
 	scene_var ROUTE_34,                               wRoute34SceneID
 	scene_var ROUTE_34_ILEX_FOREST_GATE,              wAlways0SceneID

@@ -8,10 +8,10 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	warp_event 6, 11, GEMROOT_TOWN, 5  ; 2
 
     def_coord_events
-	coord_event 5, 4, 0, PlayerWalksToElder1
-	coord_event 6, 4, 0, PlayerWalksToElder2
-	coord_event 5, 3, 0, PickYourMonScript
-    coord_event 6, 3, 0, PickYourMonScript
+	coord_event  5,  5, 0, PlayerWalksToAnabel1
+	coord_event  6,  5, 0, PlayerWalksToAnabel2
+	coord_event  5,  4, 0, PickYourMonScript
+	coord_event  6,  4, 0, PickYourMonScript
 
     def_bg_events
 	bg_event  0, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
@@ -26,29 +26,30 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	bg_event 11, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 
     def_object_events
-	object_event 7, 1, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, GemrootElderScript, -1
-	object_event 4, 1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
-	object_event 5, 1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
-	object_event 6, 1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
-
+	object_event  7,  1, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, GemrootElderScript, -1
+	object_event  4,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
+	object_event  5,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
+	object_event  6,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
+	object_event  4,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER 
+    ; SPRITE_LASS is a placeholder
     object_const_def
     const GEMROOT_COMMUNITYCENTER_ELDER
     const GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
     const GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
     const GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
+    const GEMROOT_COMMUNITYCENTER_ANABEL
 
-PlayerWalksToElder1:
+PlayerWalksToAnabel1:
     applyonemovement PLAYER, step_up
-    applyonemovement PLAYER, step_right
-    applyonemovement PLAYER, step_right
     applyonemovement PLAYER, step_up
     sjumpfwd GemrootElderGivesMonScript
     end
 
-PlayerWalksToElder2:
+PlayerWalksToAnabel2:
     applyonemovement PLAYER, step_up
-    applyonemovement PLAYER, step_right
     applyonemovement PLAYER, step_up
+    applyonemovement PLAYER, step_left
+    turnobject PLAYER, UP
     sjumpfwd GemrootElderGivesMonScript
     end
 
@@ -57,9 +58,17 @@ PickYourMonScript:
     end
 
 GemrootElderGivesMonScript:
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+    turnobject GEMROOT_COMMUNITYCENTER_ELDER, DOWN
     opentext
     writetext ElderGemrootTraditionText
     closetext
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    turnobject GEMROOT_COMMUNITYCENTER_ELDER, DOWN
     end
 
 GemrootElderScript:
@@ -77,7 +86,16 @@ GemrootElderScript:
     closetext
     end
 
+GemrootAnabelScript:
+    faceplayer
+    checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+    iftrue_jumptext AnabelCutePokemonText
+    jumptext ElderPickAMonText
+    end
+
 FirePokeBallScript:
+    checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+    iftrue_jumptext BelongsToElderText
     refreshscreen
     pokepic CYNDAQUIL
     cry CYNDAQUIL
@@ -94,21 +112,42 @@ FirePokeBallScript:
     waitsfx
     givepoke CYNDAQUIL, PLAIN_FORM, 5, ORAN_BERRY
     setscene $1
+    setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
+    turnobject PLAYER, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+    opentext
+    writetext AnabelTakesTotodileText
+    closetext
+    disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
-    turnobject PLAYER, RIGHT
+    turnobject GEMROOT_COMMUNITYCENTER_ELDER, UP
     opentext
     writetext ElderAdventureText
     closetext
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     end
 
 TakeFireMonText:
     text "Take Cyndaquil?"
     done
 
+AnabelTakesTotodileText:
+    text "Then I'll take"
+    line "Totodile!"
+    done
+
 WaterPokeBallScript:
+    checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+    iftrue_jumptext BelongsToElderText
     refreshscreen
     pokepic TOTODILE
     cry TOTODILE
@@ -125,6 +164,7 @@ WaterPokeBallScript:
     waitsfx
     givepoke TOTODILE, PLAIN_FORM, 5, ORAN_BERRY
     setscene $1
+    setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -139,6 +179,8 @@ TakeWaterMonText:
     done
 
 GrassPokeBallScript:
+    checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+    iftrue_jumptext BelongsToElderText
     refreshscreen
     pokepic CHIKORITA
     cry CHIKORITA
@@ -154,6 +196,8 @@ GrassPokeBallScript:
     promptbutton
     waitsfx
     givepoke CHIKORITA, PLAIN_FORM, 5, ORAN_BERRY
+    setscene $1
+    setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     turnobject GEMROOT_COMMUNITYCENTER_ELDER, LEFT
@@ -162,6 +206,18 @@ GrassPokeBallScript:
     writetext ElderAdventureText
     closetext
     end
+
+AnabelCutePokemonText:
+    text "I think your"
+    line "#mon is cute,"
+    cont "too!"
+    done
+
+BelongsToElderText:
+    text "It's a #mon"
+    line "that belongs to"
+    cont "the Elder."
+    done
 
 DidntChooseMonText:
     text "Elder: Think it"
@@ -182,7 +238,7 @@ ChoseMonText:
     done
 
 ElderAdventureText:
-    text "Well, <PLAYER>,"
+    text "Well, children,"
     line "You are about to" 
     
     para "set out on the"

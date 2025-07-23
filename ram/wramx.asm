@@ -1068,10 +1068,12 @@ wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
 	ds 1 ; unused
-wElmsLabSceneID:: db
+	ds 1 ; unused
 wFarawayIslandSceneID:: db
 wFastShip1FSceneID:: db
 wFastShipB1FSceneID:: db
+wGemrootTownSceneID:: db
+wGemrootCommunityCenter1FSceneID:: db
 wGiovannisCaveSceneID:: db
 wGoldenrodCitySceneID:: db
 wGoldenrodGymSceneID:: db
@@ -1088,7 +1090,6 @@ wMahoganyTownSceneID:: db
 wMountMoon1FSceneID:: db
 wMrPokemonsHouseSceneID:: db
 wMystriStageSceneID:: db
-wGemrootTownSceneID:: db
 wOlivineCitySceneID:: db
 wOlivinePortSceneID:: db
 wPokecenter2FSceneID:: db
@@ -1098,8 +1099,7 @@ wRadioTower5FSceneID:: db
 wRoute10NorthSceneID:: db
 wRoute23SceneID:: db
 wRoute24SceneID:: db
-wRoute27SceneID:: db
-wRoute29SceneID:: db
+	ds 1 ; unused
 wRoute32SceneID:: db
 wRoute34SceneID:: db
 wRoute35NationalParkGateSceneID:: db
