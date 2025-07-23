@@ -1,6 +1,5 @@
 MoonflowerGym_MapScriptHeader:
 	def_scene_scripts
-	scene_script MoonflowerGymTrigger0
 
 	def_callbacks
 
@@ -15,28 +14,12 @@ MoonflowerGym_MapScriptHeader:
 	bg_event  6, 11, BGEVENT_READ, MoonflowerGymStatue
 
 	def_object_events
-	object_event  4, 11, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_FALKNER
 	object_event  5, -1, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MoonflowerGymFalknerScript, EVENT_MOONFLOWER_GYM_FALKNER
 	object_event  7,  4, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperRod, EVENT_MOONFLOWER_GYM_FALKNER
 	object_event  2,  8, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperAbe, EVENT_MOONFLOWER_GYM_FALKNER
 	object_event  7, 11, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, EVENT_MOONFLOWER_GYM_FALKNER
 
 	object_const_def
-	const VIOLETGYM_GYM_GUY2
-
-MoonflowerGymTrigger0:
-	sdefer MoonflowerGymFalknerAwayScript
-	end
-
-MoonflowerGymFalknerAwayScript:
-	showemote EMOTE_SHOCK, VIOLETGYM_GYM_GUY2, 15
-	applyonemovement VIOLETGYM_GYM_GUY2, step_down
-	showtext MoonflowerGymGuyFalknerAwayText
-	turnobject PLAYER, DOWN
-	warpcheck
-	warpsound
-	newloadmap MAPSETUP_DOOR
-	end
 
 MoonflowerGymFalknerScript:
 	faceplayer
