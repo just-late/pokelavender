@@ -1,9 +1,9 @@
-	frame 0, 04
-	frame 1, 24
-	frame 0, 08
+	frame 0, 24
+	frame 1, 04
+	frame 2, 12
 	setrepeat 2
-	frame 2, 03
-	frame 3, 04
-	frame 4, 05
+	frame 1, 03
+	frame 2, 04
+	frame 0, 05
 	dorepeat 4
 	endanim

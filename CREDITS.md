@@ -12,6 +12,7 @@
 
 ## Graphics
 
+* Turtwig, Grotle, and Torterra sprites and icons from DanielOlivaw's disassembly of pokecrystal16
 * Everyone who worked on Polished Crystal Graphics
 * Azure_Keys for the airport tilesets
 * TrainerDX for the Trainer Sprite Bases
