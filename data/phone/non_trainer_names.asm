@@ -8,6 +8,7 @@ NonTrainerCallerNames:
 	dw .elm
 	dw .lyra
 	dw .buena
+	dw .ari
 	assert_table_length NUM_NONTRAINER_PHONECONTACTS + 1
 
 .mom:
@@ -31,4 +32,9 @@ NonTrainerCallerNames:
 .buena:
 	text  "Buena:"
 	next1 "   Disc Jockey"
+	done
+
+.ari:
+	text  "Ari:"
+	next1 "   <PK><MN> Trainer"
 	done

@@ -382,9 +382,9 @@ INCLUDE "engine/phone/scripts/reminders.asm"
 INCLUDE "engine/phone/scripts/hangups_2.asm"
 INCLUDE "engine/phone/scripts/reminders_2.asm"
 INCLUDE "engine/phone/scripts/bike_shop.asm"
+INCLUDE "engine/phone/scripts/ari.asm"
 INCLUDE "engine/phone/buena_phone_scripts.asm"
 INCLUDE "engine/events/trainer_scripts.asm"
-
 
 SECTION "Phone Text 1", ROMX
 
@@ -405,6 +405,8 @@ INCLUDE "data/phone/text/wilton_overworld.asm"
 INCLUDE "data/phone/text/kenji_overworld.asm"
 INCLUDE "data/phone/text/parry_overworld.asm"
 INCLUDE "data/phone/text/erin_overworld.asm"
+INCLUDE "data/phone/text/ari_callee.asm"
+INCLUDE "data/phone/text/ari_caller.asm"
 
 
 SECTION "bank2E", ROMX

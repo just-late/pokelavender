@@ -13,7 +13,7 @@ ArisHouse1F_MapScriptHeader:
     def_bg_events
     bg_event 6, 1, BGEVENT_JUMPTEXT, ArisSinkText
     bg_event 7, 1, BGEVENT_JUMPTEXT, ArisStoveText
-    bg_event 8, 1, BGEVENT_JUMPTEXT, ArisFridgeText
+    bg_event 8, 1, BGEVENT_READ, ArisFridgeScript
 
     def_object_events
     object_event 4, 3, SPRITE_BREEDER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ArisMomScript, -1 
@@ -22,12 +22,30 @@ ArisHouse1F_MapScriptHeader:
 
 ArisMomScript:
     faceplayer
-    jumptext ArisMomText
+    opentext
+    writetext ArisMomText
+    addcellnum PHONE_ARI
+    writetext GotArisNumberText
+    playsound SFX_REGISTER_PHONE_NUMBER
+    waitsfx
+    waitbutton
+    closetext
+    end
+
+ArisFridgeScript:
+    checkevent EVENT_LOOKED_IN_ARIS_FRIDGE
+    iftruefwd .FridgeText
+    setevent EVENT_LOOKED_IN_ARIS_FRIDGE
+.FridgeText
+    jumptext ArisFridgeText
     end
 
 ArisMomText:
     text "Ari? I think they"
     line "went upstairs."
+
+    para "Here's their"
+    line "number."
     done
 
 ArisSinkText:
@@ -59,4 +77,9 @@ ArisFridgeText:
     
     para "Stop snooping in"
     line "my fridge!  -Ari"
+    done
+
+GotArisNumberText:
+    text "<PLAYER> got Ari's"
+    line "phone number."
     done
