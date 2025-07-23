@@ -1067,8 +1067,8 @@ wDragonsDenB1FSceneID:: db
 wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
-	ds 1 ; unused
-	ds 1 ; unused
+wMoonflowerBikeShopSceneID:: db
+wMoonflowerCitySceneID:: db
 wFarawayIslandSceneID:: db
 wFastShip1FSceneID:: db
 wFastShipB1FSceneID:: db

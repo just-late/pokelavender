@@ -26,12 +26,14 @@ MapScenes::
 	scene_var CIANWOOD_CITY,                          wCianwoodCitySceneID
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
-	scene_var DARK_CAVE_MOONFLOWER_ENTRANCE,              wDarkCaveMoonflowerEntranceSceneID
+	scene_var DARK_CAVE_MOONFLOWER_ENTRANCE,          wDarkCaveMoonflowerEntranceSceneID
 	scene_var DAYCARE,                                wDayCareSceneID
 	scene_var DRAGON_SHRINE,                          wDragonShrineSceneID
 	scene_var DRAGONS_DEN_B1F,                        wDragonsDenB1FSceneID
 	scene_var ECRUTEAK_GYM,                           wEcruteakGymSceneID
 	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseSceneID
+	scene_var MOONFLOWER_BIKE_SHOP,					  wMoonflowerBikeShopSceneID
+	scene_var MOONFLOWER_CITY,						  wMoonflowerCitySceneID
 	scene_var FARAWAY_ISLAND,                         wFarawayIslandSceneID
 	scene_var FAST_SHIP_1F,                           wFastShip1FSceneID
 	scene_var FAST_SHIP_B1F,                          wFastShipB1FSceneID
