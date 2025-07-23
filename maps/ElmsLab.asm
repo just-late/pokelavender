@@ -13,8 +13,8 @@ ElmsLab_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, ElmsLabCallback_MoveElm
 
 	def_warp_events
-	warp_event  4, 11, NEW_BARK_TOWN, 1
-	warp_event  5, 11, NEW_BARK_TOWN, 1
+	warp_event  4, 11, GEMROOT_TOWN, 1
+	warp_event  5, 11, GEMROOT_TOWN, 1
 
 	def_coord_events
 	coord_event  4,  6, 1, LabTryToLeaveScript

@@ -231,7 +231,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, QUAGSIRE
 	end_water_wildmons
 
-	def_water_wildmons NEW_BARK_TOWN
+	def_water_wildmons GEMROOT_TOWN
 	db 6 percent ; encounter rate
 	wildmon 20, TENTACOOL
 	wildmon 15, TENTACOOL

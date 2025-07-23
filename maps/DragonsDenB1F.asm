@@ -82,7 +82,7 @@ DragonsDenB1FClairTrigger:
 	special RestartMapMusic
 	disappear DRAGONSDENB1F_CLAIR
 	setscene $0
-	setmapscene NEW_BARK_TOWN, $1
+	setmapscene GEMROOT_TOWN, $1
 	clearevent EVENT_LYRA_IN_HER_ROOM
 	end
 

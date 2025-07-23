@@ -128,7 +128,7 @@ MrPokemonsHouse_OakScript:
 	special Special_FadeInQuickly
 	special RestartMapMusic
 	showtext MrPokemonText_ImDependingOnYou
-	setevent EVENT_RIVAL_NEW_BARK_TOWN
+	setevent EVENT_RIVAL_GEMROOT_TOWN
 	setevent EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
 	clearevent EVENT_PLAYERS_NEIGHBORS_HOUSE_NEIGHBOR
 	setscene $1

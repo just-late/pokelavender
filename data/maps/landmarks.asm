@@ -7,7 +7,7 @@ ENDM
 Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark 140, 100, NewBarkTownName
+	landmark 140, 100, GemrootTownName
 	landmark 120, 100, Route29Name
 	landmark 100, 100, CherrygroveCityName
 	landmark  92, 100, CherrygroveBayName
@@ -154,7 +154,7 @@ Landmarks:
 	landmark  24, 120, FarawayIslandName
 	assert_table_length NUM_LANDMARKS
 
-NewBarkTownName:       rawchar "New Bark¯Town@"
+GemrootTownName:       rawchar "Gemroot¯Town@"
 CherrygroveCityName:   rawchar "Cherrygrove¯City@"
 VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"

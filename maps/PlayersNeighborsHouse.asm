@@ -4,8 +4,8 @@ PlayersNeighborsHouse_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, NEW_BARK_TOWN, 3
-	warp_event  3,  7, NEW_BARK_TOWN, 3
+	warp_event  2,  7, GEMROOT_TOWN, 3
+	warp_event  3,  7, GEMROOT_TOWN, 3
 
 	def_coord_events
 

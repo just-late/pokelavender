@@ -222,9 +222,9 @@ SECTION "ElmsLab_BlockData", ROMX
 ElmsLab_BlockData:
 	INCBIN "maps/ElmsLab.ablk.lz"
 
-SECTION "NewBarkTown_BlockData", ROMX
-NewBarkTown_BlockData:
-	INCBIN "maps/NewBarkTown.ablk.lz"
+SECTION "GemrootTown_BlockData", ROMX
+GemrootTown_BlockData:
+	INCBIN "maps/GemrootTown.ablk.lz"
 
 SECTION "ArisHouse1F_BlockData", ROMX
 ArisHouse1F_BlockData:

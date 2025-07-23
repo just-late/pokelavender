@@ -1,8 +1,8 @@
-NewBarkTown_MapScriptHeader:
+GemrootTown_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, NewBarkTownFlyPoint
+	callback MAPCALLBACK_NEWMAP, GemrootTownFlyPoint
 
 	def_warp_events
 	warp_event 27, 19, PLAYERS_HOUSE_1F, 1
@@ -30,7 +30,7 @@ NewBarkTown_MapScriptHeader:
 
 	object_const_def
 
-NewBarkTownFlyPoint:
+GemrootTownFlyPoint:
 	setflag ENGINE_FLYPOINT_NEW_BARK
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	endcallback

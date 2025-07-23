@@ -79,7 +79,7 @@ LyraPhoneScript_GreetingsTable:
 LyraPhoneScript_JohtoLandmarksTable:
 	table_width 2, LyraPhoneScript_JohtoLandmarksTable
 	dw .Generic
-	dw .NewBarkTown
+	dw .GemrootTown
 	dw .Route29
 	dw .CherrygroveCity
 	dw .CherrygroveBay
@@ -148,7 +148,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .MystriStage ; no calls
 	assert_table_length KANTO_LANDMARK
 .Generic:
-.NewBarkTown:
+.GemrootTown:
 .Route29:
 .CherrygroveCity:
 .CherrygroveBay:

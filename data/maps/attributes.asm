@@ -8,7 +8,7 @@ MACRO map_attributes
 	db \4
 ENDM
 
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, WEST | EAST
+	map_attributes GemrootTown, GEMROOT_TOWN, $5, WEST | EAST
 	connection west, Route29, ROUTE_29, 0
 	connection east, Route27, ROUTE_27, 0
 
@@ -64,7 +64,7 @@ ENDM
 	connection west, Route27, ROUTE_27, 45
 
 	map_attributes Route27, ROUTE_27, $35, WEST | EAST
-	connection west, NewBarkTown, NEW_BARK_TOWN, 0
+	connection west, GemrootTown, GEMROOT_TOWN, 0
 	connection east, Route26, ROUTE_26, -45
 
 	map_attributes Route28, ROUTE_28, $71, WEST
@@ -73,7 +73,7 @@ ENDM
 	map_attributes Route29, ROUTE_29, $5, NORTH | WEST | EAST
 	connection north, Route46, ROUTE_46, 10
 	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
-	connection east, NewBarkTown, NEW_BARK_TOWN, 0
+	connection east, GemrootTown, GEMROOT_TOWN, 0
 
 	map_attributes Route30, ROUTE_30, $5, NORTH | SOUTH
 	connection north, Route31, ROUTE_31, -10

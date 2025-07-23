@@ -748,7 +748,7 @@ PokegearMap_UpdateCursorPosition:
 	ret
 
 TownMap_GetJohtoLandmarkLimits:
-	lb de, SILVER_CAVE, NEW_BARK_TOWN
+	lb de, SILVER_CAVE, GEMROOT_TOWN
 	ret
 
 TownMap_GetKantoLandmarkLimits:

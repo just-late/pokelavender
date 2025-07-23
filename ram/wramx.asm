@@ -1088,7 +1088,7 @@ wMahoganyTownSceneID:: db
 wMountMoon1FSceneID:: db
 wMrPokemonsHouseSceneID:: db
 wMystriStageSceneID:: db
-wNewBarkTownSceneID:: db
+wGemrootTownSceneID:: db
 wOlivineCitySceneID:: db
 wOlivinePortSceneID:: db
 wPokecenter2FSceneID:: db

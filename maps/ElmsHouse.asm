@@ -4,8 +4,8 @@ ElmsHouse_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  7,  4, NEW_BARK_TOWN, 5
-	warp_event  7,  5, NEW_BARK_TOWN, 5
+	warp_event  7,  4, GEMROOT_TOWN, 5
+	warp_event  7,  5, GEMROOT_TOWN, 5
 
 	def_coord_events
 

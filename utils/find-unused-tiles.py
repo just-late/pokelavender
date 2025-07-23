@@ -33,9 +33,9 @@ tileset_names = [
 
 # {'TILESET_PC_JOHTO_1': 'johto1', ...}
 tileset_ids = {}
-# {'NewBarkTown': 'johto1', ...}
+# {'GemrootTown': 'johto1', ...}
 map_tilesets = {}
-# {'johto1': {'NewBarkTown', ...}, ...}
+# {'johto1': {'GemrootTown', ...}, ...}
 tileset_maps = defaultdict(lambda: set())
 
 # {'OlivineTimsHouse': 'House1', ...}
