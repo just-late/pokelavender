@@ -136,12 +136,12 @@ DEF BGEVENT_ITEM EQU NUM_BGEVENTS
 ; object_event types
 ; ObjectEventTypeArray indexes (see engine/overworld/events.asm)
 	const_def
-	const OBJECTTYPE_SCRIPT
+	const PERSONTYPE_SCRIPT
 	const OBJECTTYPE_ITEMBALL
 	const OBJECTTYPE_TRAINER
 	const OBJECTTYPE_GENERICTRAINER
 	const OBJECTTYPE_POKEMON
-	const OBJECTTYPE_COMMAND
+	const PERSONTYPE_COMMAND
 DEF NUM_OBJECT_TYPES EQU const_value
 
 ; elevfloor macro values

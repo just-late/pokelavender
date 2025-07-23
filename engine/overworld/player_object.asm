@@ -31,7 +31,7 @@ SpawnPlayer:
 	ld hl, MAPOBJECT_PALETTE
 	add hl, bc
 	ld a, [wPlayerGender]
-	lb de, PAL_NPC_RED, OBJECTTYPE_SCRIPT
+	lb de, PAL_NPC_RED, PERSONTYPE_SCRIPT
 	and a ; PLAYER_MALE
 	jr z, .ok
 	assert PAL_NPC_RED + 1 == PAL_NPC_BLUE
@@ -62,7 +62,7 @@ PlayerObjectTemplate:
 ; Said bytes seem to be unused, but the game freezes when you first spawn
 ; in your room if this is not loaded.
 	def_object_events (no db)
-	object_event -4, -4, SPRITE_CHRIS, SPRITEMOVEDATA_PLAYER, 15, 15, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, 0, -1
+	object_event -4, -4, SPRITE_CHRIS, SPRITEMOVEDATA_PLAYER, 15, 15, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, -1
 
 PlayerSpawn_ConvertCoords:
 	push bc

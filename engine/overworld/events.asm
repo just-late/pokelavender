@@ -563,12 +563,12 @@ TryObjectEvent:
 
 ObjectEventTypeArray:
 	table_width 2, ObjectEventTypeArray
-	dw .script   ; OBJECTTYPE_SCRIPT
+	dw .script   ; PERSONTYPE_SCRIPT
 	dw .itemball ; OBJECTTYPE_ITEMBALL
 	dw .trainer  ; OBJECTTYPE_TRAINER
 	dw .trainer  ; OBJECTTYPE_GENERICTRAINER
 	dw .pokemon  ; OBJECTTYPE_POKEMON
-	dw .command  ; OBJECTTYPE_COMMAND
+	dw .command  ; PERSONTYPE_COMMAND
 	assert_table_length NUM_OBJECT_TYPES
 
 .script:

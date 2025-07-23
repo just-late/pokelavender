@@ -16,7 +16,7 @@ ArisHouse1F_MapScriptHeader:
     bg_event 8, 1, BGEVENT_READ, ArisFridgeScript
 
     def_object_events
-    object_event 4, 3, SPRITE_BREEDER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ArisMomScript, -1 
+    object_event 4, 3, SPRITE_BREEDER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ArisMomScript, -1 
 
     object_const_def
 
