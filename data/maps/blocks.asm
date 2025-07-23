@@ -177,8 +177,7 @@ MrPsychicsHouse_BlockData:
 PsychicInversHouse_BlockData:
 	INCBIN "maps/KantoHouse1.ablk.lz"
 
-SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
-Route26DayofWeekSiblingsHouse_BlockData:
+SECTION "VermilionMagnetTrainSpeechHouse_BlockData", ROMX
 VermilionMagnetTrainSpeechHouse_BlockData:
 VermilionHouseDiglettsCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
@@ -201,6 +200,7 @@ EusinesHouse_BlockData:
 
 SECTION "PlayersNeighborsHouse_BlockData:", ROMX
 PlayersNeighborsHouse_BlockData:
+GemrootNPCHouse2_BlockData:
 	INCBIN "maps/House1.ablk.lz"
 
 SECTION "TradeCenter_BlockData", ROMX

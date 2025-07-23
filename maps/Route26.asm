@@ -5,7 +5,6 @@ Route26_MapScriptHeader:
 
 	def_warp_events
 	warp_event  7,  5, POKEMON_LEAGUE_GATE, 3
-	warp_event  5, 71, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, 1
 
 	def_coord_events
 

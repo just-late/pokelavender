@@ -804,7 +804,7 @@ ENDM
 	map_attributes ArisHouse2F, ARIS_HOUSE_2F, $0, 0
 	map_attributes GemrootCommunityCenter1F, GEMROOT_COMMUNITY_CENTER_1F, $0, 0
 	map_attributes GemrootNPCHouse1, GEMROOT_NPC_HOUSE_1, $0, 0
-	map_attributes Route26DayofWeekSiblingsHouse, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, $0, 0
+	map_attributes GemrootNPCHouse2, GEMROOT_NPC_HOUSE_2, $0, 0
 	map_attributes Route27RestHouse, ROUTE_27_REST_HOUSE, $0, 0
 	map_attributes FightingDojo, FIGHTING_DOJO, $0, 0
 	map_attributes SaffronGym, SAFFRON_GYM, $0, 0

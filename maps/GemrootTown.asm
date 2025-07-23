@@ -11,6 +11,7 @@ GemrootTown_MapScriptHeader:
 	warp_event 21,  9, PLAYERS_NEIGHBORS_HOUSE, 1       ; 4
 	warp_event 19, 15, GEMROOT_NICKNAME_SPEECH_HOUSE, 1 ; 5
 	warp_event  5, 13, GEMROOT_NPC_HOUSE_1, 1           ; 6
+	warp_event 21, 27, GEMROOT_NPC_HOUSE_2, 1           ; 7
 
 	def_coord_events
 	coord_event 34, 20, 0, TrainerTipsSignScript1
