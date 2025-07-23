@@ -111,6 +111,7 @@ PlayersHousePC:
 	givepoke PIDGEOT, 40
 	givepoke MR__RIME, 40
 	givepoke MANTINE, 40
+	givetmhm HM_FLY
 	closetext
 	end
 

@@ -257,134 +257,134 @@ Cut_Headbutt_GetPixelFacing:
 	dbpixel 12, 11
 
 FlyFromAnim:
-	call DelayFrame
-	ld a, [wVramState]
-	push af
-	xor a
-	ld [wVramState], a
-	call FlyFunction_InitGFX
-	depixel 10, 10, 4, 0
-	ld a, SPRITE_ANIM_INDEX_RED_WALK
-	call InitSpriteAnimStruct
-	ld hl, SPRITEANIMSTRUCT_TILE_ID
-	add hl, bc
-	ld [hl], $64
-	ld hl, SPRITEANIMSTRUCT_ANIM_SEQ_ID
-	add hl, bc
-	ld [hl], SPRITE_ANIM_SEQ_FLY_FROM
-	ld a, 128
-	ld [wFrameCounter], a
-.loop
-	ld a, [wJumptableIndex]
-	bit 7, a
-	jr nz, .exit
-	xor a
-	ld [wCurSpriteOAMAddr], a
-	call DoNextFrameForAllSprites
-	call FlyFunction_FrameTimer
-	call DelayFrame
-	jr .loop
+;	call DelayFrame
+;	ld a, [wVramState]
+;	push af
+;	xor a
+;	ld [wVramState], a
+;	call FlyFunction_InitGFX
+;	depixel 10, 10, 4, 0
+;	ld a, SPRITE_ANIM_INDEX_RED_WALK
+;	call InitSpriteAnimStruct
+;	ld hl, SPRITEANIMSTRUCT_TILE_ID
+;	add hl, bc
+;	ld [hl], $64
+;	ld hl, SPRITEANIMSTRUCT_ANIM_SEQ_ID
+;	add hl, bc
+;	ld [hl], SPRITE_ANIM_SEQ_FLY_FROM
+;	ld a, 128
+;	ld [wFrameCounter], a
+;.loop
+;	ld a, [wJumptableIndex]
+;	bit 7, a
+;	jr nz, .exit
+;	xor a
+;	ld [wCurSpriteOAMAddr], a
+;	call DoNextFrameForAllSprites
+;	call FlyFunction_FrameTimer
+;	call DelayFrame
+;	jr .loop
 
-.exit
-	pop af
-	ld [wVramState], a
+;.exit
+;	pop af
+;	ld [wVramState], a
 	ret
 
 FlyToAnim:
-	call DelayFrame
-	ld a, [wVramState]
-	push af
-	xor a
-	ld [wVramState], a
-	call FlyFunction_InitGFX
-	depixel 31, 10, 4, 0
-	ld a, SPRITE_ANIM_INDEX_RED_WALK
-	call InitSpriteAnimStruct
-	ld hl, SPRITEANIMSTRUCT_TILE_ID
-	add hl, bc
-	ld [hl], $64
-	ld hl, SPRITEANIMSTRUCT_ANIM_SEQ_ID
-	add hl, bc
-	ld [hl], SPRITE_ANIM_SEQ_FLY_TO
-	ld hl, SPRITEANIMSTRUCT_VAR4
-	add hl, bc
-	ld [hl], 11 * 8
-	ld a, 64
-	ld [wFrameCounter], a
-.loop
-	ld a, [wJumptableIndex]
-	bit 7, a
-	jr nz, .exit
-	xor a
-	ld [wCurSpriteOAMAddr], a
-	call DoNextFrameForAllSprites
-	call FlyFunction_FrameTimer
-	call DelayFrame
-	jr .loop
-
-.exit
-	pop af
-	ld [wVramState], a
-	ld hl, wShadowOAM + 2 ; Tile ID
-	xor a
-	ld c, $4
-.loop2
-	ld [hli], a
-	inc hl
-	inc hl
-	inc hl
-	inc a
-	dec c
-	jr nz, .loop2
-	ld hl, wShadowOAM + 4 * 4
-	ld bc, wShadowOAMEnd - (wShadowOAM + 4 * 4)
-	xor a
-	rst ByteFill
+;	call DelayFrame
+;	ld a, [wVramState]
+;	push af
+;	xor a
+;	ld [wVramState], a
+;	call FlyFunction_InitGFX
+;	depixel 31, 10, 4, 0
+;	ld a, SPRITE_ANIM_INDEX_RED_WALK
+;	call InitSpriteAnimStruct
+;	ld hl, SPRITEANIMSTRUCT_TILE_ID
+;	add hl, bc
+;	ld [hl], $64
+;	ld hl, SPRITEANIMSTRUCT_ANIM_SEQ_ID
+;	add hl, bc
+;	ld [hl], SPRITE_ANIM_SEQ_FLY_TO
+;	ld hl, SPRITEANIMSTRUCT_VAR4
+;	add hl, bc
+;	ld [hl], 11 * 8
+;	ld a, 64
+;	ld [wFrameCounter], a
+;.loop
+;	ld a, [wJumptableIndex]
+;	bit 7, a
+;	jr nz, .exit
+;	xor a
+;	ld [wCurSpriteOAMAddr], a
+;	call DoNextFrameForAllSprites
+;	call FlyFunction_FrameTimer
+;	call DelayFrame
+;	jr .loop
+;
+;.exit
+;	pop af
+;	ld [wVramState], a
+;	ld hl, wShadowOAM + 2 ; Tile ID
+;	xor a
+;	ld c, $4
+;.loop2
+;	ld [hli], a
+;	inc hl
+;	inc hl
+;	inc hl
+;	inc a
+;	dec c
+;	jr nz, .loop2
+;	ld hl, wShadowOAM + 4 * 4
+;	ld bc, wShadowOAMEnd - (wShadowOAM + 4 * 4)
+;	xor a
+;	rst ByteFill
 	ret
 
 FlyFunction_InitGFX:
-	call ClearSpriteAnims
-	call SetOWFlyMonColor
-	ld e, $64
-	call FlyFunction_GetMonIcon
-	xor a
-	ld [wJumptableIndex], a
+;	call ClearSpriteAnims
+;	call SetOWFlyMonColor
+;	ld e, $64
+;	call FlyFunction_GetMonIcon
+;	xor a
+;	ld [wJumptableIndex], a
 	ret
 
 FlyFunction_FrameTimer:
-	call .SpawnLeaf
-	ld hl, wFrameCounter
-	ld a, [hl]
-	and a
-	jr z, .exit
-	dec [hl]
-	cp $40
-	ret c
-	and $7
-	ret nz
-	ld de, SFX_FLY
-	jmp PlaySFX
+;	call .SpawnLeaf
+;	ld hl, wFrameCounter
+;	ld a, [hl]
+;	and a
+;	jr z, .exit
+;	dec [hl]
+;	cp $40
+;	ret c
+;	and $7
+;	ret nz
+;	ld de, SFX_FLY
+;	jmp PlaySFX
 
-.exit
-	ld hl, wJumptableIndex
-	set 7, [hl]
+;.exit
+;	ld hl, wJumptableIndex
+;	set 7, [hl]
 	ret
 
-.SpawnLeaf:
-	ld hl, wFrameCounter2
-	ld a, [hl]
-	inc [hl]
-	and $7
-	ret nz
-	ld a, [hl]
-	and (6 * 8) >> 1
-	add a
-	add 8 * 8 ; gives a number in [$40, $50, $60, $70]
-	ld d, a
-	ld e, 0
-	ld a, SPRITE_ANIM_INDEX_FLY_LEAF ; fly land
-	call InitSpriteAnimStruct
-	ld hl, SPRITEANIMSTRUCT_TILE_ID
-	add hl, bc
-	ld [hl], $70
+;.SpawnLeaf:
+;	ld hl, wFrameCounter2
+;	ld a, [hl]
+;	inc [hl]
+;	and $7
+;	ret nz
+;	ld a, [hl]
+;	and (6 * 8) >> 1
+;	add a
+;	add 8 * 8 ; gives a number in [$40, $50, $60, $70]
+;	ld d, a
+;	ld e, 0
+;	ld a, SPRITE_ANIM_INDEX_FLY_LEAF ; fly land
+;	call InitSpriteAnimStruct
+;	ld hl, SPRITEANIMSTRUCT_TILE_ID
+;	add hl, bc
+;	ld [hl], $70
 	ret
