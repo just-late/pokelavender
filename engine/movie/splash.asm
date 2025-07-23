@@ -169,8 +169,8 @@ GameFreakPresents_NextScene:
 	ret
 
 Splash_GameFreakTiles:
-	;   _  L  A  T  E   _  D  E  V
-	db 13, 0, 1, 2, 3, 13, 4, 5, 6
+	;  G  A  M  E   _  F  R  E  A  K
+	db 0, 1, 2, 3, 13, 4, 5, 3, 1, 6
 .end
 
 Splash_PresentsTiles:
