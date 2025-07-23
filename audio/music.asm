@@ -354,6 +354,9 @@ INCLUDE "audio/music/rse/mountpyre.asm"
 SECTION "Song - rse/route101", ROMX
 INCLUDE "audio/music/rse/route101.asm"
 
+SECTION "Song - rse/verdanturftown", ROMX
+INCLUDE "audio/music/rse/verdanturftown.asm"
+
 SECTION "Song - dppt/canalavecity", ROMX
 INCLUDE "audio/music/dppt/canalavecity.asm"
 

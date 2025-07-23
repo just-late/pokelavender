@@ -186,6 +186,7 @@ Music:
 	dba Music_Credits
 	dba Music_PostCredits
 	dba Music_TitleScreenXY
+	dba Music_VerdanturfTown
 	dba Music_DewfordTownRSE
 	dba Music_MarineTubeB2W2
 	dba Music_LegendaryBattleXY
