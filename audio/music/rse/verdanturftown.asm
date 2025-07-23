@@ -242,7 +242,7 @@ Music_VerdanturfTown_Ch1_loop_main:
 	note G_, 6
 	duty_cycle 2
 	volume_envelope 8, 4
-	sound_jump, Music_VerdanturfTown_Ch1_loop_main
+	sound_jump Music_VerdanturfTown_Ch1_loop_main
 	
 Music_VerdanturfTown_Ch2:
 	duty_cycle 2
@@ -400,7 +400,7 @@ Music_VerdanturfTown_Ch2_loop_main:
 	note D#, 1
 	note D_, 2
 	note C#, 2
-	sound_jump, Music_VerdanturfTown_Ch2_loop_main
+	sound_jump Music_VerdanturfTown_Ch2_loop_main
 	
 Music_VerdanturfTown_Ch3:
 	pitch_offset 0
@@ -555,4 +555,4 @@ Music_VerdanturfTown_Ch3:
 	note __, 4
 	note E_, 12
 	note __, 2
-	sound_jump, Music_VerdanturfTown_Ch3
+	sound_jump Music_VerdanturfTown_Ch3
