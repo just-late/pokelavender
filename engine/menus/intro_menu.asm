@@ -571,6 +571,7 @@ Continue_DisplayGameTime:
 
 ProfElmSpeech:
 	farcall InitClock
+	farcall Special_SetDayOfWeek
 	ld c, 31
 	call FadeToBlack
 	call ClearTileMap
@@ -583,7 +584,7 @@ ProfElmSpeech:
 
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, PROF_ELM
+	ld a, PROF_OAK
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 
@@ -599,10 +600,10 @@ if !DEF(DEBUG)
 	call FadeToWhite
 	call ClearTileMap
 
-	ld a, LOW(GLACEON)
+	ld a, LOW(SENTRET)
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
-	ld a, HIGH(GLACEON) << MON_EXTSPECIES_F
+	ld a, HIGH(SENTRET) << MON_EXTSPECIES_F
 	ld [wCurForm], a
 	ld [wTempMonForm], a
 	call GetBaseData

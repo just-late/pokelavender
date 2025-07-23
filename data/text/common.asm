@@ -177,9 +177,6 @@ _OakTimeWokeUpText::
 	text "………………………………"
 	line "………………………………"
 
-	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
-
 	para "Will you check the"
 	line "clock for me?"
 	prompt
@@ -239,6 +236,12 @@ _OakTimeWhatDayIsItText::
 SECTION "_OakTimeIsItText", ROMX
 _OakTimeIsItText::
 	text ", is it?"
+	done
+
+SECTION "_OakTimeDSTText", ROMX
+_OakTimeDSTText::
+	text "Is it daylight"
+	line "saving time now?"
 	done
 
 SECTION "_NothingToChooseText", ROMX
@@ -3268,23 +3271,17 @@ SECTION "_InitialOptionsText", ROMX
 _InitialOptionsText::
 	text "Please choose how"
 	line "you want to play"
-	cont "#MON Lavender."
+	cont "#MON LAVENDER."
 	prompt
 
 SECTION "_ElmText1", ROMX
 _ElmText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Hello! My name is"
+	line "PROF.OAK, and I'll"
 
-if !DEF(DEBUG)
-	para "Welcome to the"
-	line "world of #MON!"
-
-	para "My name is Aspen."
-
-	para "People call me the"
-	line "#MON Prof."
-endc
+	para "be your guide to"
+	line "the secrets of"
+	cont "#MON!"
 	prompt
 
 SECTION "_ElmText2", ROMX
@@ -3314,12 +3311,15 @@ _ElmText5::
 	line "everything about"
 	cont "#MON yet."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "There are so many"
+	line "secrets waiting to"
+	cont "be uncovered!"
 
 	para "That's why I study"
 	line "#MON every day."
+	
+	para "Now then, enough"
+	line "about me."
 	prompt
 
 SECTION "_ElmText6", ROMX
@@ -3333,7 +3333,6 @@ _ElmText7::
 	text "<PLAYER>, are you"
 	line "ready?"
 
-if !DEF(DEBUG)
 	para "Your very own"
 	line "#MON story is"
 	cont "about to unfold."
@@ -3347,7 +3346,6 @@ if !DEF(DEBUG)
 
 	para "with #MON"
 	line "awaits! Let's go!"
-endc
 
 	para "I'll be seeing you"
 	line "later!"
@@ -3362,7 +3360,7 @@ if !DEF(DEBUG)
 	line "emulator has bugs"
 
 	para "that may crash"
-	line "#MON Lavender."
+	line "#MON LAVENDER."
 
 	para "Please use a more"
 	line "accurate emulator,"

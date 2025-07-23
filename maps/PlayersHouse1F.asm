@@ -41,7 +41,6 @@ MomEventScript:
 	opentext
 	writetext MomIntroText
 	promptbutton
-	special Special_SetDayOfWeek
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
@@ -152,10 +151,6 @@ MomIntroText:
 	line "would meet you in"
 
 	para "the Gemroot Woods."
-
-	para "Oh! Don't forget"
-	line "to set the day of"
-	cont "week."
 	done
 
 MomDSTText:
