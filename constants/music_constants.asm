@@ -186,8 +186,7 @@
 	const MUSIC_CREDITS                        ; b6
 	const MUSIC_POST_CREDITS                   ; b7
 	const MUSIC_TITLE_XY                       ; b8
-	const MUSIC_VERDANTURF_TOWN                ; b9
-	const MUSIC_DEWFORD_TOWN_RSE               ; ba ; unused
+	const MUSIC_VERDANTURF_TOWN_RSE            ; b9
 	const MUSIC_MARINE_TUBE_B2W2               ; bb ; unused
 	const MUSIC_LEGENDARY_BATTLE_XY            ; bc ; unused
 	const MUSIC_WILD_BATTLE_PRISM              ; bd ; unused

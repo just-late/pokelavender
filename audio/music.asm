@@ -333,9 +333,6 @@ INCLUDE "audio/music/rse/championbattle.asm"
 SECTION "Song - rse/evergrandecity", ROMX
 INCLUDE "audio/music/rse/evergrandecity.asm"
 
-SECTION "Song - rse/dewfordtown", ROMX
-INCLUDE "audio/music/rse/dewfordtown.asm"
-
 SECTION "Song - rse/frontierbrainbattle", ROMX
 INCLUDE "audio/music/rse/frontierbrainbattle.asm"
 
