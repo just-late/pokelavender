@@ -4,103 +4,43 @@ Route1_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 20, 22, ROUTE_1_VIRIDIAN_GATE, 3
 
 	def_coord_events
 
 	def_bg_events
 	bg_event 15,  5, BGEVENT_JUMPTEXT, Route1SignText
 
-	def_object_events
-	object_event 19, 22, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSchoolboyDanny, -1
-	object_event 18, 22, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSchoolboySherman, -1
-	object_event 16, 22, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCooltrainermFrench, -1
-	object_event 17, 22, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCooltrainerfQuinn, -1
-	fruittree_event 11,  3, FRUITTREE_ROUTE_1, FIGY_BERRY, PAL_NPC_BROWN
+	db 4 ; object events
+	person_event SPRITE_LASS,  8, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC1Text, -1
+	person_event SPRITE_SCHOOLBOY, 16, 12, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC2Text, -1
 	cuttree_event 13, 10, EVENT_ROUTE_1_CUT_TREE
+	fruittree_event 11,  3, FRUITTREE_ROUTE_1, PECHA_BERRY, PAL_NPC_BROWN
 
-GenericTrainerSchoolboyDanny:
-	generictrainer SCHOOLBOY, DANNY, EVENT_BEAT_SCHOOLBOY_DANNY, SchoolboyDannySeenText, SchoolboyDannyBeatenText
+Route1NPC1Text:
+	text "See those ledges?"
+	line "It's a bit scary,"
 
-	text "For trainers, it's"
-	line "a given that we'll"
+	para "but you can jump"
+	line "from them."
 
-	para "battle whenever we"
-	line "meet."
+	para "You can get to"
+	line "Gemroot Town quick-"
+	cont "er that way."
 	done
 
-GenericTrainerSchoolboySherman:
-	generictrainer SCHOOLBOY, SHERMAN, EVENT_BEAT_SCHOOLBOY_SHERMAN, SchoolboyShermanSeenText, SchoolboyShermanBeatenText
+Route1NPC2Text:
+	text "If you go in the"
+	line "tall grass, wild"
 
-	text "I should record"
-	line "all of today's"
-	cont "mistakes."
-	done
+	para "#MON may jump out"
+	line "at you."
 
-GenericTrainerCooltrainermFrench:
-	generictrainer COOLTRAINERM, FRENCH, EVENT_BEAT_COOLTRAINERM_FRENCH, CooltrainermFrenchSeenText, CooltrainermFrenchBeatenText
-
-	text "That was a great"
-	line "fight!"
-	cont "Don't you agree?"
-	done
-
-GenericTrainerCooltrainerfQuinn:
-	generictrainer COOLTRAINERF, QUINN, EVENT_BEAT_COOLTRAINERF_QUINN, CooltrainerfQuinnSeenText, CooltrainerfQuinnBeatenText
-
-	text "You're strong."
-
-	para "You obviously must"
-	line "have trained hard."
-	done
-
-SchoolboyDannySeenText:
-	text "If trainers meet,"
-	line "the first thing to"
-	cont "do is battle."
-	done
-
-SchoolboyDannyBeatenText:
-	text "Awww… I've got a"
-	line "losing record…"
-	done
-
-SchoolboyShermanSeenText:
-	text "Right after class,"
-	line "I head outside to"
-	cont "practice!"
-	done
-
-SchoolboyShermanBeatenText:
-	text "I need to follow"
-	line "the textbook."
-	done
-
-CooltrainermFrenchSeenText:
-	text "You!"
-
-	para "I've been waiting"
-	line "for someone like"
-	cont "you!"
-	done
-
-CooltrainermFrenchBeatenText:
-	text "Yep, as strong as"
-	line "expected!"
-	done
-
-CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
-	done
-
-CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	para "Be prepared!"
 	done
 
 Route1SignText:
 	text "Route 1"
 
-	para "Pallet Town -"
-	line "Viridian City"
+	para "Gemroot Town - "
+	line "Glittervine Town"
 	done

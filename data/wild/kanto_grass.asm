@@ -308,34 +308,6 @@
 	wildmon 23, SLOWPOKE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_1
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 56, PIDGEOTTO
-	wildmon 56, RATICATE
-	wildmon 57, FURRET
-	wildmon 57, PIDGEOTTO
-	wildmon 59, FURRET
-	wildmon 60, PIDGEOT
-	wildmon 60, PIDGEOT
-	; day
-	wildmon 56, PIDGEOTTO
-	wildmon 56, RATICATE
-	wildmon 57, FURRET
-	wildmon 57, PIDGEOTTO
-	wildmon 59, FURRET
-	wildmon 60, PIDGEOT
-	wildmon 60, PIDGEOT
-	; nite
-	wildmon 56, NOCTOWL
-	wildmon 56, RATICATE
-	wildmon 57, RATICATE
-	wildmon 57, NOCTOWL
-	wildmon 59, RATICATE
-	wildmon 60, NOCTOWL
-	wildmon 60, NOCTOWL
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_2_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
