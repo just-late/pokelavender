@@ -44,14 +44,19 @@ GemrootCommunityCenter1F_MapScriptHeader:
     const GEMROOT_COMMUNITYCENTER_ANABEL
 
 PlayerWalksToAnabel1:
+    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    iftruefwd .skip
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_up
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     sjumpfwd GemrootElderGivesMonScript
+.skip
     end
 
 PlayerWalksToAnabel2:
+    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    iftruefwd .skip
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_up
@@ -59,6 +64,7 @@ PlayerWalksToAnabel2:
     turnobject PLAYER, UP
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     sjumpfwd GemrootElderGivesMonScript
+.skip
     end
 
 PickYourMonScript:
