@@ -337,13 +337,13 @@ TrainerCard_PrintTopHalfOfCard:
 	jmp PrintNum
 
 .Top_Headings:
-	db     "┌" - 4, "Name/"
+	db     "┌" - 4, "NAME/"
 	next1  "┌" - 4, "<ID>№."
 	next1  "┌" - 3
 	ds 11, "┌" - 2
 	db     "┌" - 1
 	next1  ""
-	next1  " Money@"
+	next1  " MONEY@"
 
 TrainerCardSetup_ClearBottomHalf:
 	hlcoord 1, 10
@@ -408,10 +408,10 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 	jr .star_loop
 
 .Dex_PlayTime_BP:
-	text "#dex"
-	next "Play Time"
-	next "Battle Pts"
-	next "          Badges"
+	text "#DEX"
+	next "PLAY TIME"
+	next "BATTLE PTS"
+	next "          BADGES"
 	done
 
 TrainerCard_Page1_PrintGameTime:
