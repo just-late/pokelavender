@@ -321,15 +321,15 @@ ContestResults_PartyFullText:
 GymStatue_CityGymText:
 	text_ram wStringBuffer3
 	text ""
-	line "#MON Gym"
+	line "#MON GYN"
 
-	para "Leader: "
+	para "LEADER: "
 	text_ram wStringBuffer4
 	done
 
 GymStatue_WinningTrainersText:
 	text "Winning Trainers:"
-	line "<RIVAL>"
+	line "ANABEL"
 	done
 
 GymStatue_TwoWinningTrainersText:
@@ -342,7 +342,7 @@ GymStatue_ThreeWinningTrainersText:
 	text "Winning Trainers:"
 	line "<RIVAL>"
 	cont "<PLAYER>"
-	cont "Lyra"
+	cont "JULIAN"
 	done
 
 CoinVendor_WelcomeText:

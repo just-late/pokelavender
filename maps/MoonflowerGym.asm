@@ -22,7 +22,7 @@ MoonflowerGym_MapScriptHeader:
 	person_event SPRITE_BATTLE_GIRL,  6,  6, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGuitarist_fJanet, -1
 	person_event SPRITE_GYM_GUY,  9,  1, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, -1
 	person_event SPRITE_FAT_GUY, 11,  8, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC1Text, -1
-	person_event SPRITE_CUTE_GIRL,  7, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerGymWaitressScript, -1
+;	person_event SPRITE_CUTE_GIRL,  7, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerGymWaitressScript, -1
 	person_event SPRITE_FISHER,  7,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC2Text, -1
 ;	person_event SPRITE_COOL_DUDE,  6,  4, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC3Text, -1
 	person_event SPRITE_FAT_GUY,  9,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptext, MoonflowerGymNPC4Text, -1
@@ -92,9 +92,9 @@ MoonflowerGymStatue:
 	jumpstd gymstatue1
 .Beaten:
 	readvar VAR_BADGES
-	ifgreater 8, .LyraToo
+	ifgreater 1, .JulianToo
 	jumpstd gymstatue2
-.LyraToo
+.JulianToo
 	jumpstd gymstatue3
 
 MoonflowerGymWaitressScript:
@@ -351,7 +351,6 @@ MoonflowerBarFightFatGuyMovement:
 	turn_head_right
 	fix_facing
 	fast_step_left
-	fast_step_right
 	fast_step_right
 	remove_fixed_facing
 	turn_head_left
