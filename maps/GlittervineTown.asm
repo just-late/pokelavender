@@ -61,7 +61,7 @@ MeetProfAspen_Script:
 	opentext
 	writetext ProfAspen_Text2
 	yesorno
-	iffalse .PokedexQuestionLoop
+	iffalsefwd .PokedexQuestionLoop
 .GivePokedex
 	writetext ProfAspen_Text3
 	playsound SFX_ITEM
