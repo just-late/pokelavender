@@ -14,8 +14,11 @@ NewBarkTown_MapScriptHeader:
 
 	def_bg_events
 	bg_event 31, 19, BGEVENT_JUMPTEXT, PlayersHouseSignText
+	bg_event 34, 27, BGEVENT_JUMPTEXT, ArisHouseSignText
+	bg_event 14, 13, BGEVENT_JUMPTEXT, GemrootTownSignText
+	bg_event 11,  7, BGEVENT_JUMPTEXT, CommunityCenterSignText
 	bg_event 35, 19, BGEVENT_READ, TrainerTipsSignScript
-
+	
 	def_object_events
 	object_event 9, 10, SPRITE_HIKER, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NouraTravelerScript, -1
 	object_event 11, 21, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
@@ -144,6 +147,14 @@ NouraTraveler2Text:
 	cont "a #mon."
 	done
 
+FisherText:
+	text "… … … …"
+	line "… … … …"
+
+	para "He's ignoring you…"
+	done
+
+
 IrresistibleSignText:
 	text "There's something"
 	line "irresistible about"
@@ -154,9 +165,19 @@ PlayersHouseSignText:
 	text "<PLAYER>'s House"
 	done
 
-FisherText:
-	text "… … … …"
-	line "… … … …"
-
-	para "He's ignoring you…"
+ArisHouseSignText:
+	text "Ari's House"
 	done
+
+GemrootTownSignText:
+	text "Gemroot Town"
+
+	para "A home to the"
+	line "roots of adventure"
+	done
+
+CommunityCenterSignText:
+	text "Gemroot Town"
+	line "Community Center"
+	done
+
