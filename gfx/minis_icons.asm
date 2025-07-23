@@ -767,10 +767,10 @@ TurtwigMini::     INCBIN "gfx/minis/turtwig.2bpp.lz"
 TurtwigMiniMask:: INCBIN "gfx/minis/turtwig_mask.1bpp.lz"
 TurtwigIcon::     INCBIN "gfx/icons/turtwig.2bpp.lz"
 
-SECTION "Bayleef Mini Icon", ROMX
-BayleefMini::     INCBIN "gfx/minis/bayleef.2bpp.lz"
-BayleefMiniMask:: INCBIN "gfx/minis/bayleef_mask.1bpp.lz"
-BayleefIcon::     INCBIN "gfx/icons/bayleef.2bpp.lz"
+SECTION "Grotle Mini Icon", ROMX
+GrotleMini::     INCBIN "gfx/minis/grotle.2bpp.lz"
+GrotleMiniMask:: INCBIN "gfx/minis/grotle_mask.1bpp.lz"
+GrotleIcon::     INCBIN "gfx/icons/grotle.2bpp.lz"
 
 SECTION "Meganium Mini Icon", ROMX
 MeganiumMini::     INCBIN "gfx/minis/meganium.2bpp.lz"

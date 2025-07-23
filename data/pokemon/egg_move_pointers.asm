@@ -152,7 +152,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Mewtwo
 	dw NoEggMoves             ; Mew
 	dw TurtwigEggMoves      ; Turtwig
-	dw NoEggMoves             ; Bayleef
+	dw NoEggMoves             ; Grotle
 	dw NoEggMoves             ; Meganium
 	dw CyndaquilEggMoves      ; Cyndaquil
 	dw NoEggMoves             ; Quilava

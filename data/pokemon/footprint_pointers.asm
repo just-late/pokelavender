@@ -152,7 +152,7 @@ FootprintPointers::
 	dw MewtwoFootprint
 	dw MewFootprint
 	dw TurtwigFootprint
-	dw BayleefFootprint
+	dw GrotleFootprint
 	dw MeganiumFootprint
 	dw CyndaquilFootprint
 	dw QuilavaFootprint

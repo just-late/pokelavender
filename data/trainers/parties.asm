@@ -1491,7 +1491,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	dbp 22, BAYLEEF
+	dbp 22, GROTLE
 		db ORAN_BERRY
 		ev_spread 72 Atk, 32 SAt
 		db REFLECT, RAZOR_LEAF, POISONPOWDER, DISARM_VOICE
@@ -1911,7 +1911,7 @@ Lyra1Group:
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
 		db THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP, SPARK ; default for level
-	dbp 18, BAYLEEF
+	dbp 18, GROTLE
 		db ORAN_BERRY, "Chicory@"
 		ev_spread 72 HP
 		db RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
@@ -1969,7 +1969,7 @@ Lyra1Group:
 	dbp 32, FLAAFFY
 		db NO_ITEM, "@"
 		ev_spread 100 HP, 100 SAt
-	dbp 37, BAYLEEF
+	dbp 37, GROTLE
 		db ORAN_BERRY, "Chicory@"
 		ev_spread 200 HP
 	db -1 ; end
@@ -8635,7 +8635,7 @@ AromaLadyGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 35, TURTWIG
-	dbp 45, BAYLEEF
+	dbp 45, GROTLE
 	dbp 55, MEGANIUM
 	db -1 ; end
 
@@ -9971,7 +9971,7 @@ ProfElmGroup:
 	dbp LEVEL_FROM_BADGES + 3, AIPOM
 	dbp LEVEL_FROM_BADGES + 4, WIGGLYTUFF
 	dbp LEVEL_FROM_BADGES + 5, QUILAVA
-	dbp LEVEL_FROM_BADGES + 5, BAYLEEF
+	dbp LEVEL_FROM_BADGES + 5, GROTLE
 	dbp LEVEL_FROM_BADGES + 5, CROCONAW
 	db -1 ; end
 

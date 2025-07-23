@@ -158,7 +158,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,       $099,  $17f ; Mewtwo
 	mon_cry CRY_PARAS,       $0ee,  $17f ; Mew
 	mon_cry CRY_TURTWIG,  -$010,  $0b0 ; Turtwig
-	mon_cry CRY_TURTWIG,  -$022,  $120 ; Bayleef
+	mon_cry CRY_TURTWIG,  -$022,  $120 ; Grotle
 	mon_cry CRY_TURTWIG,  -$0b7,  $200 ; Meganium
 	mon_cry CRY_CYNDAQUIL,   $347,  $080 ; Cyndaquil
 	mon_cry CRY_CYNDAQUIL,   $321,  $120 ; Quilava

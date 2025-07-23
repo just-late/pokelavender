@@ -153,7 +153,7 @@ PokemonNames::
 	rawchar "Mewtwo@@@@"
 	rawchar "Mew@@@@@@@"
 	rawchar "Turtwig@@@"
-	rawchar "Bayleef@@@"
+	rawchar "Grotle@@@@"
 	rawchar "Meganium@@"
 	rawchar "Cyndaquil@"
 	rawchar "Quilava@@@"

@@ -468,9 +468,9 @@ SECTION "Turtwig Pics", ROMX
 TurtwigFrontpic: INCBIN "gfx/pokemon/turtwig/front.animated.2bpp.lz"
 TurtwigBackpic:  INCBIN "gfx/pokemon/turtwig/back.2bpp.lz"
 
-SECTION "Bayleef Pics", ROMX
-BayleefFrontpic: INCBIN "gfx/pokemon/bayleef/front.animated.2bpp.lz"
-BayleefBackpic:  INCBIN "gfx/pokemon/bayleef/back.2bpp.lz"
+SECTION "Grotle Pics", ROMX
+GrotleFrontpic: INCBIN "gfx/pokemon/grotle/front.animated.2bpp.lz"
+GrotleBackpic:  INCBIN "gfx/pokemon/grotle/back.2bpp.lz"
 
 SECTION "Meganium Pics", ROMX
 MeganiumFrontpic: INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"

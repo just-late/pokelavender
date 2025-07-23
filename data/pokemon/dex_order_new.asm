@@ -3,7 +3,7 @@
 NewPokedexOrder:
 	table_width 2, NewPokedexOrder
 	dp TURTWIG
-	dp BAYLEEF
+	dp GROTLE
 	dp MEGANIUM
 	dp CYNDAQUIL
 	dp QUILAVA

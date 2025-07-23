@@ -174,7 +174,7 @@
 	const MEWTWO     ; 96
 	const MEW        ; 97
 	const TURTWIG  ; 98
-	const BAYLEEF    ; 99
+	const GROTLE    ; 99
 	const MEGANIUM   ; 9a
 	const CYNDAQUIL  ; 9b
 	const QUILAVA    ; 9c

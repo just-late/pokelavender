@@ -3616,7 +3616,7 @@ MewEvosAttacks:
 	db -1 ; no more level-up moves
 
 TurtwigEvosAttacks:
-	evo_data EVOLVE_LEVEL, 18, BAYLEEF
+	evo_data EVOLVE_LEVEL, 18, GROTLE
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Withdraw → Similar move
@@ -3631,7 +3631,7 @@ TurtwigEvosAttacks:
 	db 41, GIGA_DRAIN
 	db -1 ; no more level-up moves
 
-BayleefEvosAttacks:
+GrotleEvosAttacks:
 	evo_data EVOLVE_LEVEL, 32, MEGANIUM
 	db -1 ; no more evolutions
 	db 1, TACKLE

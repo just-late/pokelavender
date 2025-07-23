@@ -156,7 +156,7 @@ EvosAttacksPointers::
 	dw MewtwoEvosAttacks
 	dw MewEvosAttacks
 	dw TurtwigEvosAttacks
-	dw BayleefEvosAttacks
+	dw GrotleEvosAttacks
 	dw MeganiumEvosAttacks
 	dw CyndaquilEvosAttacks
 	dw QuilavaEvosAttacks

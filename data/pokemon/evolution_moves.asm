@@ -152,7 +152,7 @@ EvolutionMoves::
 	db NO_MOVE      ; MEWTWO
 	db NO_MOVE      ; MEW
 	db NO_MOVE      ; TURTWIG
-	db NO_MOVE      ; BAYLEEF
+	db NO_MOVE      ; GROTLE
 	db PETAL_DANCE  ; MEGANIUM
 	db NO_MOVE      ; CYNDAQUIL
 	db NO_MOVE      ; QUILAVA

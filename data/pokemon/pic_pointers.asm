@@ -156,7 +156,7 @@ PokemonPicPointers::
 	pics MewtwoPlain
 	pics Mew
 	pics Turtwig
-	pics Bayleef
+	pics Grotle
 	pics Meganium
 	pics Cyndaquil
 	pics Quilava

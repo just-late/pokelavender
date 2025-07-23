@@ -156,7 +156,7 @@ MiniIconPointers:
 	mini_icon Mewtwo
 	mini_icon Mew
 	mini_icon Turtwig
-	mini_icon Bayleef
+	mini_icon Grotle
 	mini_icon Meganium
 	mini_icon Cyndaquil
 	mini_icon Quilava

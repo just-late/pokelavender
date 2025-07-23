@@ -1518,23 +1518,23 @@ MewPokedexEntry::
 
 SECTION "TurtwigPokedexEntry", ROMX
 TurtwigPokedexEntry::
-	db "Leaf@"
-	db   "It loves to bask"
-	next "in the sunlight."
-	next "It uses the leaf"
-	page "on its head to"
-	next "seek out warm"
-	next "places.@"
+	db "TINY LEAF@"
+	db   "It becomes more"
+	next "energetic the more"
+	next "sunlight there is."
+	page "The part resembl-"
+	next "ing a shell is"
+	next "damp to the touch.@"
 
-SECTION "BayleefPokedexEntry", ROMX
-BayleefPokedexEntry::
-	db "Leaf@"
-	db   "The scent that"
-	next "wafts from the"
-	next "leaves on its neck"
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
+SECTION "GrotlePokedexEntry", ROMX
+GrotlePokedexEntry::
+	db "GROVE@"
+	db   "It appears where"
+	next "there is clean"
+	next "spring water."
+	page "The fruit that"
+	next "grows on its shell"
+	next "is delicious.@"
 
 SECTION "MeganiumPokedexEntry", ROMX
 MeganiumPokedexEntry::

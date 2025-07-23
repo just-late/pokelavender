@@ -152,7 +152,7 @@ AnimationPointers:
 	dw MewtwoPlainAnimation
 	dw MewAnimation
 	dw TurtwigAnimation
-	dw BayleefAnimation
+	dw GrotleAnimation
 	dw MeganiumAnimation
 	dw CyndaquilAnimation
 	dw QuilavaAnimation

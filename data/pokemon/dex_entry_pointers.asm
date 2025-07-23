@@ -153,7 +153,7 @@ PokedexDataPointerTable:
 	dba MewtwoPlainPokedexEntry
 	dba MewPokedexEntry
 	dba TurtwigPokedexEntry
-	dba BayleefPokedexEntry
+	dba GrotlePokedexEntry
 	dba MeganiumPokedexEntry
 	dba CyndaquilPokedexEntry
 	dba QuilavaPokedexEntry

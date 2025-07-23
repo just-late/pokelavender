@@ -156,7 +156,7 @@ OverworldMonIconColors::
 	iconpal PURPLE, GREEN ; MEWTWO
 	iconpal PINK, AZURE ; MEW
 	iconpal GREEN, RED ; TURTWIG
-	iconpal GREEN, RED ; BAYLEEF
+	iconpal GREEN, RED ; GROTLE
 	iconpal GREEN, RED ; MEGANIUM
 	iconpal RED, PINK ; CYNDAQUIL
 	iconpal RED, PINK ; QUILAVA

@@ -8,9 +8,9 @@
 	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for BAYLEEF, OVERGROW, OVERGROW, LEAF_GUARD
+	abilities_for GROTLE, OVERGROW, OVERGROW, LEAF_GUARD
 else
-	abilities_for BAYLEEF, OVERGROW, NATURAL_CURE, LEAF_GUARD
+	abilities_for GROTLE, OVERGROW, NATURAL_CURE, LEAF_GUARD
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_PLANT ; egg groups

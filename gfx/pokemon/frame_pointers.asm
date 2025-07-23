@@ -152,7 +152,7 @@ FramesPointers:
 	dw MewtwoPlainFrames
 	dw MewFrames
 	dw TurtwigFrames
-	dw BayleefFrames
+	dw GrotleFrames
 	dw MeganiumFrames
 	dw CyndaquilFrames
 	dw QuilavaFrames

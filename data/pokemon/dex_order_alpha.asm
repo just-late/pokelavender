@@ -15,7 +15,6 @@ AlphabeticalPokedexOrder:
 	dp ARTICUNO
 	dp AZUMARILL
 	dp AZURILL
-	dp BAYLEEF
 	dp BEEDRILL
 	dp BELLOSSOM
 	dp BELLSPROUT
@@ -89,6 +88,7 @@ AlphabeticalPokedexOrder:
 	dp GRANBULL
 	dp GRAVELER
 	dp GRIMER
+	dp GROTLE
 	dp GROWLITHE
 	dp GYARADOS
 	dp HAPPINY
