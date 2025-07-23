@@ -152,15 +152,62 @@ MomPhoneNoGymQuestText:
 MomPhoneLectureText:
 	text "Hello?"
 
-	para "……<PLAYER>?"
-	line "I heard from Prof."
+	para "…<PLAYER>?"
+	line "Where are you now?"
 
-	para "Elm that you went"
-	line "on a long trip."
+	para "…"
 
-	para "I wish you would"
-	line "have told me…"
+	para "GLITTERVINE TOWN?"
+	line "…"
 
-	para "What about money?"
-	line "Should I save it?"
+	para "I have something"
+	line "for you."
+
+	para "So, come home when"
+	line "you can."
+	done
+
+MomPhoneJustCheckingInText:
+	text "Hello?"
+
+	para "Hi, <PLAYER>!"
+	line "I'm just checking"
+	cont "in on you."
+
+	para "Where are you now?"
+
+	para "…"
+
+	para "Wow!"
+	line "GLITTERVINE TOWN?"
+
+	para "My little baby is"
+	line "growing up!"
+
+	para "You're on your way"
+	line "to BLOSSOM"
+	cont "ACADEMY, right?"
+
+	para "From there, you"
+	line "travel on ROUTE 2"
+	cont "to MOONFLOWER"
+	cont "CITY."
+
+	para "Then you can take"
+	line "ROUTE 3 south of"
+	cont "MOONFLOWER CITY,"
+
+	para "and then go"
+	line "through MOONFLOWER"
+	cont "TUNNEL."
+
+	para "Then you just need"
+	line "to take ROUTE 3"
+	cont "a little more,"
+	
+	para "and you've arrived"
+	line "at BLOSSOM CITY."
+
+	para "Anyway, good luck!"
+	line "Bye!"
 	done

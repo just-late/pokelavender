@@ -56,6 +56,7 @@ MoonflowerGymRancidScript:
 	setevent EVENT_BEAT_GUITARISTM_CLYDE
 	setevent EVENT_BEAT_GUITARISTF_JANET
 	writetext RancidPunkBadgeText
+	setmapscene MOONFLOWER_CITY, $2
 	promptbutton
 	verbosegivetmhm TM_VENOSHOCK
 	setevent EVENT_GOT_TM08_VENOSHOCK

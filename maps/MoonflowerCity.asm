@@ -18,6 +18,8 @@ MoonflowerCity_MapScriptHeader:
 ;	warp_event 16, 18, ROUTE_36_MOONFLOWER_GATE, 4
 
 	def_coord_events
+;	coord_event 12, 32, 2, Special_MomCallTrigger
+;	coord_event 13, 32, 2, Special_MomCallTrigger
 
 	def_bg_events
 	bg_event 29, 13, BGEVENT_JUMPTEXT, MoonflowerCitySignText
@@ -91,9 +93,8 @@ MoonflowerPokeGearGuy_Script:
 	faceplayer
 	opentext
 	writetext MoonflowerPokeGearGuy_Text4
-	setflag ENGINE_POKEGEAR
-	setflag ENGINE_PHONE_CARD
-	writetext ReceivedPokegearText
+	setflag ENGINE_MAP_CARD
+	writetext ReceivedMapCardText
 	playsound SFX_ITEM
 	waitsfx
 	closetext
@@ -138,47 +139,24 @@ MoonflowerPokeGearGuy_Text3:
 	para "Those are the"
 	line "TOKENS!"
 
-	para "Now then, let me"
-	line "tell you."
-
-	para "The #GEAR is"
-	line "the best device"
-	cont "known to me!"
-
-	para "Of course, I made"
-	line "it."
+	para "Let's see here…"
 	done
 
 MoonflowerPokeGearGuy_Text4:
 	text "This is it!"
 
-	para "The flashiest"
-	line "#GEAR a trainer"
-	cont "could want!"
+	para "The MAP CARD!"
 	done
 
-ReceivedPokegearText:
+ReceivedMapCardText:
 	text "<PLAYER> received"
-	line "#GEAR."
+	line "MAP CARD."
 	done
 
 MoonflowerPokeGearGuy_Text5:
-	text "That #GEAR,"
+	text "That MAP CARD,"
 	line "it shall serve"
 	cont "you well!"
-
-	para "I have already"
-	line "installed the"
-	cont "PHONE CARD."
-
-	para "The other cards,"
-	line "cost money they"
-	cont "do."
-
-	para "But there may be"
-	line "some kind souls"
-	cont "who will give"
-	cont "them to you."
 
 	para "Now then, go I"
 	line "must!"
@@ -289,8 +267,8 @@ MoonflowerPokeGearGuy_Text2:
 
 	para "With two tokens,"
 	line "you may have a"
-	cont "#GEAR of your"
-	cont "very own!"
+	cont "MAP CARD for your"
+	cont "#GEAR!"
 	done
 
 PokeGearCampaignQuestion1_Text:

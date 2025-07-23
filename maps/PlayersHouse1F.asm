@@ -42,6 +42,10 @@ MeetMomScript:
 MomEventScript:
 	opentext
 	writetext MomIntroText
+	playsound SFX_ITEM
+	setflag ENGINE_POKEGEAR
+	setflag ENGINE_PHONE_CARD
+	addcellnum PHONE_MOM
 	promptbutton
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
@@ -116,23 +120,19 @@ PlayersHouse1FTVScript:
 
 MomScript:
 	faceplayer
-	checkscene
-	iffalsefwd .MomEvent
 	opentext
-	checkevent EVENT_FIRST_TIME_BANKING_WITH_MOM
-	iftrue_jumpopenedtext MomDoItText
-	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	iftruefwd .BankOfMom
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftruefwd .FirstTimeBanking
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
-	iftrue_jumpopenedtext MomErrandText
+	iftruefwd .MomAdventureScript
+	checkevent EVENT_TALKED_TO_MOM_AFTER_GETTING_A_POKEMON
+	iftrue_jumpopenedtext MomDoItText
 	jumpthisopenedtext
 
-	text "Prof.Elm is wait-"
-	line "ing for you."
+	text "You don't want"
+	line "to miss your"
+	cont "#MON!"
 
-	para "Hurry up, baby!"
+	para "Hurry up,"
+	line "<PLAYER>!"
 	done
 
 .FirstTimeBanking:
@@ -143,9 +143,14 @@ MomScript:
 	waitendtext
 	end
 
-.MomEvent:
-	playmusic MUSIC_MOM
-	sjump MomEventScript
+.MomAdventureScript:
+	setevent EVENT_TALKED_TO_MOM_AFTER_GETTING_A_POKEMON
+	writetext MomAdventureText
+	verbosegiveitem EXP_SHARE ; temporary
+	writetext MomAdventureText2
+	waitbutton
+	closetext
+	end
 
 MomIntroText:
 	text "Oh, <PLAYER>!"
@@ -164,6 +169,14 @@ MomIntroText:
 	para "It seems like"
 	line "you better find"
 	cont "her fast!"
+	
+	para "By the way, if"
+	line "you're going"
+	cont "to be a TRAINER,"
+	cont "you'll need this."
+	
+	para "<PLAYER> received"
+	line "#GEAR."
 	done
 
 MomDSTText:
@@ -209,6 +222,26 @@ MomErrandText:
 	para "But, you should be"
 	line "proud that people"
 	cont "rely on you."
+	done
+
+MomAdventureText:
+	text "You're going on"
+	line "an adventure,"
+	cont "huh?"
+
+	para "…"
+
+	para "Here."
+
+	para "This will help"
+	line "you out."
+	done
+
+MomAdventureText2:
+	text "I don't have any"
+	line "dialogue here yet,"
+	cont "so this is just"
+	cont "Placeholder Text."
 	done
 
 MomDoItText:
