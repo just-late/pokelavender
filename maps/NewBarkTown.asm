@@ -17,7 +17,10 @@ NewBarkTown_MapScriptHeader:
 	bg_event 35, 19, BGEVENT_READ, TrainerTipsSignScript
 
 	def_object_events
-	object_event 9, 10, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NouraTravelerScript, EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
+	object_event 9, 10, SPRITE_HIKER, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NouraTravelerScript, EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
+	object_event 11, 21, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
+	object_event 26, 24, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
+	object_event 20, 19, SPRITE_GRANNY, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
 
 	object_const_def
 
@@ -77,6 +80,36 @@ NouraTravelerScript:
 	writetext NouraTraveler2Text
 	closetext
 	end
+
+OldGrannyText:
+	text "When I was your"
+	line "age, I traveled"
+
+	para "the world with"
+	line "my #mon. We had"
+	para "some fun" 
+	line "adventures!"
+	done
+
+RiverGirlText:
+	text "It's so nice to"
+	line "stand and watch"
+
+	para "over the river."
+	line "Sometimes I even"
+	cont "see Magikarp"
+	cont "swimming by."
+	done
+
+FatGuyTechnologyText:
+	text "Technology just"
+	line "keeps getting"
+	cont "better and better!"
+
+	para "You can now access"
+	line "the #mon Box"
+	cont "from your bag!"
+	done
 
 NouraTraveler1Text:
 	text "Hi! I'm traveling"
