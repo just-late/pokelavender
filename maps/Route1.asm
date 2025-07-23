@@ -24,8 +24,8 @@ Route1NPC1Text:
 	line "from them."
 
 	para "You can get to"
-	line "Gemroot Town quick-"
-	cont "er that way."
+	line "GEMROOT TOWN"
+	cont "quicker that way."
 	done
 
 Route1NPC2Text:
@@ -39,8 +39,8 @@ Route1NPC2Text:
 	done
 
 Route1SignText:
-	text "Route 1"
+	text "ROUTE 1"
 
-	para "Gemroot Town - "
-	line "Glittervine Town"
+	para "GEMROOT TOWN - "
+	line "GLITTERVINE TOWN"
 	done

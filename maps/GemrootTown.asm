@@ -83,7 +83,7 @@ TrainerTipsSignText:
 	text "TRAINER TIPS!"
 
 	para "Do not travel on"
-	line "Route 1 without a"
+	line "ROUTE 1 without a"
 	cont "#MON!"
 
 	para "It could land you"
@@ -105,6 +105,7 @@ AnabelEventTrigger:
 	turnobject GEMROOT_TOWN_ANABEL, DOWN
 	showtext GemrootAnabelForgotText
 	applyonemovement GEMROOT_TOWN_ANABEL, step_up
+	playsound SFX_ENTER_DOOR
 	disappear GEMROOT_TOWN_ANABEL
 	setevent EVENT_ANABEL_GEMROOT_SCENE
 	clearevent EVENT_ANABEL_BEDROOM_SCENE
