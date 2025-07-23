@@ -4,102 +4,150 @@ PlayersNeighborsHouse_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, GEMROOT_TOWN, 3
-	warp_event  3,  7, GEMROOT_TOWN, 3
+	warp_event  2,  7, GEMROOT_TOWN, 4
+	warp_event  3,  7, GEMROOT_TOWN, 4
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  5,  1, BGEVENT_READ, PlayersNeighborsHouseRadio
 
-	def_object_events
-	object_event  5,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, PlayersNeighborText, EVENT_PLAYERS_NEIGHBORS_HOUSE_NEIGHBOR
-	object_event  2,  3, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, PlayersNeighborsDaughterText, -1
-	object_event  5,  4, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, PlayersNeighborsHusbandText, -1
+	db 4 ; object_events
+	person_event SPRITE_GRAMPS,  4,  5, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptextfaceplayer, GrampsPokemonText, -1
+	person_event SPRITE_GRANNY,  3,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, NeighborAdventureScript, -1
+	person_event SPRITE_CHILD,  4,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, GrowUpProfText, -1
+	pokemon_event  6,  3, ESPEON, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PURPLE, NeighborsEspeonText, -1
 
-PlayersNeighborsHouseRadio:
+NeighborAdventureScript:
+	faceplayer
+	opentext
+	writetext GrannyAdventureText
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
-	iftruefwd .NormalRadio
-	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
-	iftruefwd .AbbreviatedRadio
-	playmusic MUSIC_POKEMON_TALK
-	opentext
-	writetext PlayerNeighborRadioText1
-	pause 45
-	writetext PlayerNeighborRadioText2
-	pause 45
-	writetext PlayerNeighborRadioText3
-	pause 45
-	musicfadeout MUSIC_NEW_BARK_TOWN, $10
-	writetext PlayerNeighborRadioText4
-	pause 45
+	iftruefwd .GotPokemon
+	checkevent EVENT_BEAT_FALKNER
+	iftruefwd .GotGymBadge
+	checkevent EVENT_BEAT_MORTY
+	iftruefwd .GotFourBadges
+	checkevent EVENT_BEAT_CLAIR
+	iftruefwd .GotEightBadges
+	waitbutton
 	closetext
-	setevent EVENT_LISTENED_TO_INITIAL_RADIO
 	end
-.NormalRadio:
-	jumpstd radio1
-.AbbreviatedRadio:
+
+.GotPokemon
+	writetext GotFirstPokemonText
+	waitbutton
+	closetext
+	end
+
+.GotGymBadge
+	writetext GotFirstGymBadgeText
+	closetext
+	end
+
+.GotFourBadges
+	writetext GotFourBadgesText
+	waitbutton
+	closetext
+	end
+
+.GotEightBadges
 	opentext
-	writetext PlayerNeighborRadioText4
-	pause 45
-	endtext
+	writetext PokemonLeagueText
+	verbosegiveitem MASTER_BALL
+	writetext PokeBallCollectionText
+	waitbutton
+	closetext
+	end
 
-PlayersNeighborsDaughterText:
-	text "Pikachu is an"
-	line "evolved #MON."
+GrannyAdventureText:
+	text "I remember when"
+	line "I was younger, I"
 
-	para "I was amazed by"
-	line "Prof.Elm's find-"
-	cont "ings."
+	para "went on a journey"
+	line "all over the world"
 
-	para "He's so famous for"
-	line "his research on"
-	cont "#MON evolution."
+	para "with #MON. I"
+	line "enjoyed it so"
+	cont "much, that I like"
 
-	para "…sigh…"
+	para "to watch people"
+	line "grow with their"
 
-	para "I wish I could be"
-	line "a researcher like"
-	cont "him…"
+	para "#MON."
 	done
 
-PlayersNeighborsHusbandText:
-	text "This town is the"
-	line "farthest south-"
-
-	para "east one in all"
-	line "of Johto."
+GotFirstPokemonText:
+	text "Wow, you got your"
+	line "#MON! Such a"
+	
+	para "big step forward."
 	done
 
-PlayersNeighborText:
-	text "My daughter is"
-	line "adamant about"
-
-	para "becoming Prof."
-	line "Elm's assistant."
-
-	para "She really loves"
-	line "#MON!"
-
-	para "But then, so do I!"
+GotFirstGymBadgeText:
+	text "Hmm? Your first GYM"
+	line "BADGE? Wow!"
+	cont "Congratulations!"
 	done
 
-PlayerNeighborRadioText1:
-	text "Prof.Oak's #MON"
-	line "Talk! Please tune"
-	cont "in next time!"
+GotFourBadgesText:
+	text "Wow! That's your"
+	line "fourth GYM BADGE!"
+
+	para "You're half way to"
+	line "the #MON LEAGUE!"
 	done
 
-PlayerNeighborRadioText2:
-	text "#MON Channel!"
+PokemonLeagueText:
+	text "You've earned eight"
+	line "BADGES? You're mak-"
+	cont "ing me feel young"
+	
+	para "again!"
+
+	para "… …"
+
+	para "… …"
+
+	para "You're challenging"
+	line "the #MON LEAGUE?"
+	
+	para "Here. Take this."
 	done
 
-PlayerNeighborRadioText3:
-	text "This is DJ Mary,"
-	line "your co-host!"
+PokeBallCollectionText:
+	text "It's a MASTER BALL"
+	line "from my # BALL"
+	cont "collection."
+
+	para "It's never been"
+	line "used!"
 	done
 
-PlayerNeighborRadioText4:
-	text "#MON!"
-	line "#MON Channel…"
+GrampsPokemonText:
+	text "#MON realy are"
+	line "amazing creatures."
+
+	para "My wife's ESPEON"
+	line "is good evidence"
+
+	para "of that."
+	done
+	
+GrowUpProfText:
+	text "When I grow up,"
+	line "I'm gonna be a"
+
+	para "#MON PROFESSOR"
+	line "just like my"
+
+	para "grandpa used to"
+	line "be!"
+	done
+
+NeighborsEspeonText:
+	text "ESPEON is looking"
+	line "intently into your"
+	cont "eyes."
+
+	para "ESPEON: Oouoo! Ou…"
 	done

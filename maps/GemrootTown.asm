@@ -5,9 +5,10 @@ GemrootTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, GemrootTownFlyPoint
 
 	def_warp_events
-	warp_event 27, 19, PLAYERS_HOUSE_1F, 1            ; 1
-	warp_event 31, 27, ARIS_HOUSE_1F, 2               ; 2
-	warp_event 12, 5, GEMROOT_COMMUNITY_CENTER_1F, 1  ; 3
+	warp_event 27, 19, PLAYERS_HOUSE_1F, 1             ; 1
+	warp_event 31, 27, ARIS_HOUSE_1F, 2                ; 2
+	warp_event 12,  5, GEMROOT_COMMUNITY_CENTER_1F, 1  ; 3
+	warp_event 21,  9, PLAYERS_NEIGHBORS_HOUSE, 1      ; 4
 
 	def_coord_events
 	coord_event 34, 20, 0, TrainerTipsSignScript1
@@ -21,7 +22,7 @@ GemrootTown_MapScriptHeader:
 	bg_event 11,  7, BGEVENT_JUMPTEXT, CommunityCenterSignText
 	bg_event 34, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
 	
-	db 8 ; object_events
+	db 6 ; object_events
 	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AttuvaTravelerScript, -1
 	person_event SPRITE_FAT_GUY, 21, 11, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
 	person_event SPRITE_CUTE_GIRL, 24, 26, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
