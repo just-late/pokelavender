@@ -1,7 +1,7 @@
 SECTION "Pokemon Center Scripts 1", ROMX
 
 INCLUDE "maps/GlittervinePokeCenter1F.asm"
-INCLUDE "maps/VioletPokeCenter1F.asm"
+INCLUDE "maps/MoonflowerPokeCenter1F.asm"
 INCLUDE "maps/AzaleaPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
 INCLUDE "maps/OlivinePokeCenter1F.asm"
@@ -104,17 +104,17 @@ INCLUDE "maps/Route32CoastHouse.asm"
 
 SECTION "Dark Cave Scripts", ROMX
 
-INCLUDE "maps/DarkCaveVioletEntrance.asm"
+INCLUDE "maps/DarkCaveMoonflowerEntrance.asm"
 INCLUDE "maps/DarkCaveBlackthornEntrance.asm"
 
 
-SECTION "Violet Scripts", ROMX
+SECTION "Moonflower Scripts", ROMX
 
-INCLUDE "maps/VioletCity.asm"
-INCLUDE "maps/VioletMart.asm"
-INCLUDE "maps/VioletGym.asm"
-INCLUDE "maps/VioletNicknameSpeechHouse.asm"
-INCLUDE "maps/VioletOnixTradeHouse.asm"
+INCLUDE "maps/MoonflowerCity.asm"
+INCLUDE "maps/MoonflowerMart.asm"
+INCLUDE "maps/MoonflowerGym.asm"
+INCLUDE "maps/MoonflowerNicknameSpeechHouse.asm"
+INCLUDE "maps/MoonflowerOnixTradeHouse.asm"
 INCLUDE "maps/EarlsPokemonAcademy.asm"
 INCLUDE "maps/MoonflowerBikeShop.asm"
 
@@ -126,9 +126,9 @@ INCLUDE "maps/SproutTower2F.asm"
 INCLUDE "maps/SproutTower3F.asm"
 
 
-SECTION "Violet Outskirts Scripts", ROMX
+SECTION "Moonflower Outskirts Scripts", ROMX
 
-INCLUDE "maps/VioletOutskirts.asm"
+INCLUDE "maps/MoonflowerOutskirts.asm"
 
 
 SECTION "Ruins of Alph Scripts", ROMX
@@ -1015,7 +1015,7 @@ SECTION "Routes 30-32 Scripts", ROMX
 INCLUDE "maps/Route30.asm"
 INCLUDE "maps/Route30BerrySpeechHouse.asm"
 INCLUDE "maps/Route31.asm"
-INCLUDE "maps/Route31VioletGate.asm"
+INCLUDE "maps/Route31MoonflowerGate.asm"
 INCLUDE "maps/Route32.asm"
 INCLUDE "maps/Route32RuinsOfAlphGate.asm"
 
@@ -1036,7 +1036,7 @@ SECTION "Routes 36-38 Scripts", ROMX
 
 INCLUDE "maps/Route36.asm"
 INCLUDE "maps/Route36RuinsOfAlphGate.asm"
-INCLUDE "maps/Route36VioletGate.asm"
+INCLUDE "maps/Route36MoonflowerGate.asm"
 INCLUDE "maps/Route37.asm"
 INCLUDE "maps/Route38.asm"
 INCLUDE "maps/Route38EcruteakGate.asm"

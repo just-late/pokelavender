@@ -9,8 +9,8 @@ Route36_MapScriptHeader:
 	warp_event 22,  9, ROUTE_36_NATIONAL_PARK_GATE, 4
 	warp_event 51, 13, ROUTE_36_RUINS_OF_ALPH_GATE, 1
 	warp_event 52, 13, ROUTE_36_RUINS_OF_ALPH_GATE, 2
-	warp_event 61,  8, ROUTE_36_VIOLET_GATE, 1
-	warp_event 61,  9, ROUTE_36_VIOLET_GATE, 2
+	warp_event 61,  8, ROUTE_36_MOONFLOWER_GATE, 1
+	warp_event 61,  9, ROUTE_36_MOONFLOWER_GATE, 2
 	warp_event 30, 12, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events

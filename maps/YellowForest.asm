@@ -301,7 +301,7 @@ YellowForestWalkerSeenText:
 	line "The name's Walker."
 
 	para "I was once the Gym"
-	line "Leader of Violet"
+	line "Leader of Moonflower"
 
 	para "City, but I left"
 	line "that to my son."

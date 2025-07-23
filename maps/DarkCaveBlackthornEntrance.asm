@@ -5,7 +5,7 @@ DarkCaveBlackthornEntrance_MapScriptHeader:
 
 	def_warp_events
 	warp_event 23,  3, ROUTE_45, 1
-	warp_event  3, 25, DARK_CAVE_VIOLET_ENTRANCE, 2
+	warp_event  3, 25, DARK_CAVE_MOONFLOWER_ENTRANCE, 2
 
 	def_coord_events
 

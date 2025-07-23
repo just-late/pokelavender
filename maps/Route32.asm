@@ -78,7 +78,7 @@ Route32CooltrainermPetrieScript:
 	faceplayer
 Route32CooltrainerMTrigger:
 	checkflag ENGINE_ZEPHYRBADGE
-	iffalse_jumptext Route32CooltrainerMText_VioletGym
+	iffalse_jumptext Route32CooltrainerMText_MoonflowerGym
 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
 	iffalse_jumptext Route32CooltrainerMText_AideIsWaiting
 	checkevent EVENT_GOT_MIRACLE_SEED_FROM_ROUTE_32_LEADER
@@ -126,7 +126,7 @@ Route32CooltrainerMTrigger:
 
 .AfterText2:
 	text "Your experiences"
-	line "in Violet City"
+	line "in Moonflower City"
 
 	para "should be useful"
 	line "for your journey."
@@ -140,7 +140,7 @@ Route32CooltrainerMTrigger:
 	line "the training you"
 
 	para "gave them around"
-	line "Violet City."
+	line "Moonflower City."
 
 	para "You should have no"
 	line "trouble beating"
@@ -208,7 +208,7 @@ Route32CooltrainerMStopsYou:
 	turnobject PLAYER, RIGHT
 	showtext Route32CooltrainerMText_WhatsTheHurry
 	follow PLAYER, ROUTE32_COOLTRAINER_M
-	applymovement PLAYER, Movement_Route32CooltrainerMPushesYouBackToViolet
+	applymovement PLAYER, Movement_Route32CooltrainerMPushesYouBackToMoonflower
 	stopfollow
 	turnobject PLAYER, DOWN
 	scall Route32CooltrainerMTrigger
@@ -678,7 +678,7 @@ GenericTrainerBird_keeperPeter:
 
 	text "I should train"
 	line "again at the Gym"
-	cont "in Violet City."
+	cont "in Moonflower City."
 	done
 
 FriedaScript:
@@ -704,7 +704,7 @@ FriedaScript:
 .NotFriday:
 	jumptextfaceplayer FriedaNotFridayText
 
-Movement_Route32CooltrainerMPushesYouBackToViolet:
+Movement_Route32CooltrainerMPushesYouBackToMoonflower:
 	step_up
 	step_up
 	step_end
@@ -733,7 +733,7 @@ Route32CooltrainerMText_AideIsWaiting:
 	line "Center."
 	done
 
-Route32CooltrainerMText_VioletGym:
+Route32CooltrainerMText_MoonflowerGym:
 	text "Have you gone to"
 	line "the #MON Gym?"
 
@@ -882,7 +882,7 @@ PicnickerLiz1AfterText:
 
 Bird_keeperPeterSeenText:
 	text "That Badge! It's"
-	line "from Violet City!"
+	line "from Moonflower City!"
 
 	para "You beat Falkner?"
 	done
@@ -962,7 +962,7 @@ FriedaNotFridayText:
 Route32SignText:
 	text "Route 32"
 
-	para "Violet City -"
+	para "Moonflower City -"
 	line "Azalea Town"
 	done
 

@@ -12,7 +12,7 @@ MapGroupRoofs:
 	db -1            ; 7
 	db ROOF_AZALEA   ; 8 (Azalea Town)
 	db ROOF_AZALEA   ; 9 (Lake of Rage)
-	db ROOF_VIOLET   ; 10 (Violet City)
+	db ROOF_VIOLET   ; 10 (Moonflower City)
 	db -1            ; 11
 	db -1            ; 12
 	db -1            ; 13

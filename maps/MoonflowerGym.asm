@@ -1,44 +1,44 @@
-VioletGym_MapScriptHeader:
+MoonflowerGym_MapScriptHeader:
 	def_scene_scripts
-	scene_script VioletGymTrigger0
+	scene_script MoonflowerGymTrigger0
 
 	def_callbacks
 
 	def_warp_events
-	warp_event  4, 15, VIOLET_CITY, 2
-	warp_event  5, 15, VIOLET_CITY, 2
+	warp_event  4, 15, MOONFLOWER_CITY, 2
+	warp_event  5, 15, MOONFLOWER_CITY, 2
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  3, 13, BGEVENT_READ, VioletGymStatue
-	bg_event  6, 13, BGEVENT_READ, VioletGymStatue
+	bg_event  3, 13, BGEVENT_READ, MoonflowerGymStatue
+	bg_event  6, 13, BGEVENT_READ, MoonflowerGymStatue
 
 	def_object_events
 	object_event  4, 13, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_FALKNER
-	object_event  5,  1, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, VioletGymFalknerScript, EVENT_VIOLET_GYM_FALKNER
-	object_event  7,  6, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperRod, EVENT_VIOLET_GYM_FALKNER
-	object_event  2, 10, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperAbe, EVENT_VIOLET_GYM_FALKNER
-	object_event  7, 13, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, VioletGymGuyScript, EVENT_VIOLET_GYM_FALKNER
+	object_event  5,  1, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MoonflowerGymFalknerScript, EVENT_MOONFLOWER_GYM_FALKNER
+	object_event  7,  6, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperRod, EVENT_MOONFLOWER_GYM_FALKNER
+	object_event  2, 10, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperAbe, EVENT_MOONFLOWER_GYM_FALKNER
+	object_event  7, 13, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, EVENT_MOONFLOWER_GYM_FALKNER
 
 	object_const_def
 	const VIOLETGYM_GYM_GUY2
 
-VioletGymTrigger0:
-	sdefer VioletGymFalknerAwayScript
+MoonflowerGymTrigger0:
+	sdefer MoonflowerGymFalknerAwayScript
 	end
 
-VioletGymFalknerAwayScript:
+MoonflowerGymFalknerAwayScript:
 	showemote EMOTE_SHOCK, VIOLETGYM_GYM_GUY2, 15
 	applyonemovement VIOLETGYM_GYM_GUY2, step_down
-	showtext VioletGymGuyFalknerAwayText
+	showtext MoonflowerGymGuyFalknerAwayText
 	turnobject PLAYER, DOWN
 	warpcheck
 	warpsound
 	newloadmap MAPSETUP_DOOR
 	end
 
-VioletGymFalknerScript:
+MoonflowerGymFalknerScript:
 	faceplayer
 	opentext
 	checkevent EVENT_BEAT_FALKNER
@@ -87,12 +87,12 @@ GenericTrainerBird_keeperAbe:
 	cont "rookie trainer…"
 	done
 
-VioletGymGuyScript:
+MoonflowerGymGuyScript:
 	checkevent EVENT_BEAT_FALKNER
-	iftrue_jumptextfaceplayer VioletGymGuyWinText
-	jumptextfaceplayer VioletGymGuyText
+	iftrue_jumptextfaceplayer MoonflowerGymGuyWinText
+	jumptextfaceplayer MoonflowerGymGuyText
 
-VioletGymStatue:
+MoonflowerGymStatue:
 	gettrainername FALKNER, 1, $1
 	checkflag ENGINE_ZEPHYRBADGE
 	iftruefwd .Beaten
@@ -106,7 +106,7 @@ VioletGymStatue:
 
 FalknerIntroText:
 	text "I'm Falkner, the"
-	line "Violet #MON Gym"
+	line "Moonflower #MON Gym"
 	cont "Leader!"
 
 	para "People say you can"
@@ -220,7 +220,7 @@ Bird_keeperAbeBeatenText:
 	line "true!"
 	done
 
-VioletGymGuyText:
+MoonflowerGymGuyText:
 	text "Hey! I'm no train-"
 	line "er but I can give"
 	cont "some advice!"
@@ -241,7 +241,7 @@ VioletGymGuyText:
 	line "this in mind."
 	done
 
-VioletGymGuyWinText:
+MoonflowerGymGuyWinText:
 	text "Nice battle! Keep"
 	line "it up, and you'll"
 
@@ -249,7 +249,7 @@ VioletGymGuyWinText:
 	line "time at all!"
 	done
 
-VioletGymGuyFalknerAwayText:
+MoonflowerGymGuyFalknerAwayText:
 	text "Hey! You can't"
 	line "challenge Falkner"
 	cont "right now."

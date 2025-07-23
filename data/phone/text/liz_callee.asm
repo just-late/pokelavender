@@ -71,7 +71,7 @@ LizGenericText:
 	text " to the"
 
 	para "#MON Center in"
-	line "Violet every day,"
+	line "Moonflower every day,"
 
 	para "so it's doing just"
 	line "fantastic!"

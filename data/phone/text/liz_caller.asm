@@ -97,7 +97,7 @@ LizFalknerGossipText:
 	text "Listen, listen!"
 
 	para "Don't you think"
-	line "Falkner of Violet"
+	line "Falkner of Moonflower"
 
 	para "Gym is cool and"
 	line "handsome?"
@@ -122,7 +122,7 @@ LizEarlGossipText:
 	line "the teacher who"
 
 	para "runs the #MON"
-	line "Academy in Violet?"
+	line "Academy in Moonflower?"
 
 	para "I saw him doing"
 	line "pirouettes while"

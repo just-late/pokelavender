@@ -53,7 +53,7 @@ AnthonyTriesDunsparceSwarm:
 	iftruefwd .Generic
 	setflag ENGINE_DUNSPARCE_SWARM
 	getmonname DUNSPARCE, $1
-	swarm SWARM_DUNSPARCE, DARK_CAVE_VIOLET_ENTRANCE
+	swarm SWARM_DUNSPARCE, DARK_CAVE_MOONFLOWER_ENTRANCE
 	getlandmarkname DARK_CAVE, $2
 	farsjump AnthonySwarmScript
 

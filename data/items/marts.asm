@@ -2,7 +2,7 @@ Marts:
 	table_width 2, Marts
 	dw GlittervineMart
 	dw GlittervineMartAfterDex
-	dw VioletMart
+	dw MoonflowerMart
 	dw AzaleaMart
 	dw Goldenrod2FMart1
 	dw Goldenrod2FMart2
@@ -64,7 +64,7 @@ GlittervineMartAfterDex:
 	db AWAKENING
 	db -1
 
-VioletMart:
+MoonflowerMart:
 	db 11 ; # items
 	db POKE_BALL
 	db REPEAT_BALL

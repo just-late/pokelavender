@@ -1,4 +1,4 @@
-DarkCaveVioletEntrance_MapScriptHeader:
+DarkCaveMoonflowerEntrance_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -9,65 +9,65 @@ DarkCaveVioletEntrance_MapScriptHeader:
 	warp_event 35, 33, ROUTE_46, 3
 
 	def_coord_events
-	coord_event  6,  2, 0, DarkCaveVioletEntranceFalknerTrigger
+	coord_event  6,  2, 0, DarkCaveMoonflowerEntranceFalknerTrigger
 
 	def_bg_events
-	bg_event 26,  3, BGEVENT_ITEM + ELIXIR, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXIR
+	bg_event 26,  3, BGEVENT_ITEM + ELIXIR, EVENT_DARK_CAVE_MOONFLOWER_ENTRANCE_HIDDEN_ELIXIR
 
 	def_object_events
 	pokemon_event 10, 2, URSARING, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_DARK_CAVE_URSARING
 	object_event  9,  2, SPRITE_PIDGEOTTO_SIDE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_PIDGEOTTO
 	object_event  8,  2, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_FALKNER
-	itemball_event  6,  8, POTION, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_POTION
+	itemball_event  6,  8, POTION, 1, EVENT_DARK_CAVE_MOONFLOWER_ENTRANCE_POTION
 	smashrock_event 16, 14
 	smashrock_event 27, 6
 	smashrock_event  7, 14
 	smashrock_event 36, 31
-	itemball_event 36, 22, DUSK_STONE, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_DUSK_STONE
-	itemball_event 35,  9, HYPER_POTION, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HYPER_POTION
-	itemball_event 30, 28, DIRE_HIT, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
+	itemball_event 36, 22, DUSK_STONE, 1, EVENT_DARK_CAVE_MOONFLOWER_ENTRANCE_DUSK_STONE
+	itemball_event 35,  9, HYPER_POTION, 1, EVENT_DARK_CAVE_MOONFLOWER_ENTRANCE_HYPER_POTION
+	itemball_event 30, 28, DIRE_HIT, 1, EVENT_DARK_CAVE_MOONFLOWER_ENTRANCE_DIRE_HIT
 
 	object_const_def
 	const DARKCAVEVIOLETENTRANCE_URSARING
 	const DARKCAVEVIOLETENTRANCE_PIDGEOTTO
 	const DARKCAVEVIOLETENTRANCE_FALKNER
 
-DarkCaveVioletEntranceFalknerTrigger:
+DarkCaveMoonflowerEntranceFalknerTrigger:
 	waitsfx
 	checkdarkness
 	iftruefwd .Darkness
 	scall .BeatUrsaring
 	showemote EMOTE_SHOCK, DARKCAVEVIOLETENTRANCE_FALKNER, 15
 	opentext
-	writetext DarkCaveVioletEntranceFalknerIntroText
+	writetext DarkCaveMoonflowerEntranceFalknerIntroText
 .Finish:
-	writetext DarkCaveVioletEntranceFalknerExplanationText
+	writetext DarkCaveMoonflowerEntranceFalknerExplanationText
 	waitbutton
 	closetext
 	follow PLAYER, DARKCAVEVIOLETENTRANCE_FALKNER
-	applymovement PLAYER, DarkCaveVioletEntranceMovementData_PlayerStepAside
+	applymovement PLAYER, DarkCaveMoonflowerEntranceMovementData_PlayerStepAside
 	stopfollow
 	turnobject PLAYER, DOWN
-	applymovement DARKCAVEVIOLETENTRANCE_FALKNER, DarkCaveVioletEntranceMovementData_FalknerLeave
+	applymovement DARKCAVEVIOLETENTRANCE_FALKNER, DarkCaveMoonflowerEntranceMovementData_FalknerLeave
 	disappear DARKCAVEVIOLETENTRANCE_FALKNER
 	pause 15
-	clearevent EVENT_VIOLET_GYM_FALKNER
-	setmapscene VIOLET_GYM, $1
+	clearevent EVENT_MOONFLOWER_GYM_FALKNER
+	setmapscene MOONFLOWER_GYM, $1
 	setscene $1
 	end
 
 .Darkness:
 	checkevent EVENT_GOT_TM70_FLASH
 	iftruefwd .ProgressAnyway
-	showtext DarkCaveVioletEntranceFalknerDarknessText
+	showtext DarkCaveMoonflowerEntranceFalknerDarknessText
 	applyonemovement PLAYER, step_left
 	end
 
 .ProgressAnyway:
-	showtext DarkCaveVioletEntranceFalknerProgressAnywayText
+	showtext DarkCaveMoonflowerEntranceFalknerProgressAnywayText
 	scall .BeatUrsaring
 	opentext
-	writetext DarkCaveVioletEntranceFalknerDarkIntroText
+	writetext DarkCaveMoonflowerEntranceFalknerDarkIntroText
 	sjump .Finish
 
 .BeatUrsaring:
@@ -75,13 +75,13 @@ DarkCaveVioletEntranceFalknerTrigger:
 	playmusic MUSIC_JOHTO_TRAINER_BATTLE
 	pause 40
 	opentext
-	writetext DarkCaveVioletEntranceFalknerAttackText
+	writetext DarkCaveMoonflowerEntranceFalknerAttackText
 	pause 30
 	closetext
 	cry PIDGEOTTO
 	waitsfx
 	playsound SFX_TACKLE
-	applymovement DARKCAVEVIOLETENTRANCE_PIDGEOTTO, DarkCaveVioletEntranceMovementData_PidgeottoAttack
+	applymovement DARKCAVEVIOLETENTRANCE_PIDGEOTTO, DarkCaveMoonflowerEntranceMovementData_PidgeottoAttack
 	waitsfx
 	pause 30
 	cry URSARING
@@ -90,7 +90,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	pause 15
 	special RestoreMusic
 	opentext
-	writetext DarkCaveVioletEntranceFalknerReturnText
+	writetext DarkCaveMoonflowerEntranceFalknerReturnText
 	pause 30
 	closetext
 	disappear DARKCAVEVIOLETENTRANCE_PIDGEOTTO
@@ -98,18 +98,18 @@ DarkCaveVioletEntranceFalknerTrigger:
 	applyonemovement DARKCAVEVIOLETENTRANCE_FALKNER, step_left
 	end
 
-DarkCaveVioletEntranceMovementData_PidgeottoAttack:
+DarkCaveMoonflowerEntranceMovementData_PidgeottoAttack:
 	run_step_right
 	run_step_left
 	step_end
 
-DarkCaveVioletEntranceMovementData_PlayerStepAside:
+DarkCaveMoonflowerEntranceMovementData_PlayerStepAside:
 	step_left
 	step_left
 	step_left
 	step_end
 
-DarkCaveVioletEntranceMovementData_FalknerLeave:
+DarkCaveMoonflowerEntranceMovementData_FalknerLeave:
 	step_down
 	step_left
 	step_down
@@ -118,30 +118,30 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 	step_down
 	step_end
 
-DarkCaveVioletEntranceFalknerAttackText:
+DarkCaveMoonflowerEntranceFalknerAttackText:
 	text "Falkner: Use Wing"
 	line "Attack, Pidgeotto!"
 	done
 
-DarkCaveVioletEntranceFalknerReturnText:
+DarkCaveMoonflowerEntranceFalknerReturnText:
 	text "Good job,"
 	line "Pidgeotto."
 	done
 
-DarkCaveVioletEntranceFalknerIntroText:
+DarkCaveMoonflowerEntranceFalknerIntroText:
 	text "Oh! You must be"
 	line "a trainer."
 	prompt
 
-DarkCaveVioletEntranceFalknerDarkIntroText:
+DarkCaveMoonflowerEntranceFalknerDarkIntroText:
 	text "You must be brave"
 	line "to come here in"
 	cont "pitch darkness."
 	prompt
 
-DarkCaveVioletEntranceFalknerExplanationText:
+DarkCaveMoonflowerEntranceFalknerExplanationText:
 	text "I'm Falkner, the"
-	line "Violet #MON"
+	line "Moonflower #MON"
 	cont "Gym Leader."
 
 	para "I don't explore"
@@ -164,10 +164,10 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	line "earn a badge?"
 
 	para "Then meet me at"
-	line "the Violet Gym."
+	line "the Moonflower Gym."
 	done
 
-DarkCaveVioletEntranceFalknerDarknessText:
+DarkCaveMoonflowerEntranceFalknerDarknessText:
 	text "Falkner: Is"
 	line "someone there?"
 
@@ -178,7 +178,7 @@ DarkCaveVioletEntranceFalknerDarknessText:
 	line "could get hurt."
 	done
 
-DarkCaveVioletEntranceFalknerProgressAnywayText:
+DarkCaveMoonflowerEntranceFalknerProgressAnywayText:
 	text "Falkner: Is"
 	line "someone there?"
 

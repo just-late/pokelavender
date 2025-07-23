@@ -8,9 +8,9 @@
 	const CHERRYGROVE_BAY    ; 04
 	const ROUTE_30           ; 05
 	const ROUTE_31           ; 06
-	const VIOLET_CITY        ; 07
+	const MOONFLOWER_CITY        ; 07
 	const SPROUT_TOWER       ; 08
-	const VIOLET_OUTSKIRTS   ; 09
+	const MOONFLOWER_OUTSKIRTS   ; 09
 	const RUINS_OF_ALPH      ; 0a
 	const ROUTE_32           ; 0b
 	const ROUTE_32_COAST     ; 0c

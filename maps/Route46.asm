@@ -4,7 +4,7 @@ Route46_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 14,  5, DARK_CAVE_VIOLET_ENTRANCE, 3
+	warp_event 14,  5, DARK_CAVE_MOONFLOWER_ENTRANCE, 3
 	warp_event  8,  4, HIDDEN_CAVE_GROTTO, 1
 
 	def_coord_events

@@ -45,7 +45,7 @@ ElmPhoneAssistantText:
 	line "assistant? He's at"
 
 	para "the #MON Center"
-	line "in Violet City."
+	line "in Moonflower City."
 	done
 
 ElmPhoneEggUnhatchedText:
@@ -153,7 +153,7 @@ ElmPhoneEggAssistantText:
 	para "My assistant is at"
 	line "the #MON Center"
 
-	para "in Violet City."
+	para "in Moonflower City."
 	line "Could you talk to"
 	cont "him?"
 	done

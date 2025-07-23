@@ -28,7 +28,7 @@ PokecenterCheck:
 	db  7,  4 ;Cerulean
 	db  7,  8 ;Route 10
 	db  8,  1 ;Azalea
-	db 10,  8 ;Violet
+	db 10,  8 ;Moonflower
 	db 10, 11 ;Route 32
 	db 11, 24 ;Goldenrod
 	db 12,  5 ;Vermilion

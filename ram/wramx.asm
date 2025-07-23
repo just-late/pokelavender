@@ -1061,7 +1061,7 @@ wGlittervineTownSceneID:: db
 wCianwoodCitySceneID:: db
 wCinnabarLabSceneID:: db
 wColosseumSceneID:: db
-wDarkCaveVioletEntranceSceneID:: db
+wDarkCaveMoonflowerEntranceSceneID:: db
 wDayCareSceneID:: db
 wDragonsDenB1FSceneID:: db
 wDragonShrineSceneID:: db
@@ -1130,7 +1130,7 @@ wUndergroundPathSwitchRoomEntrancesSceneID:: db
 wVermilionCitySceneID:: db
 wVermilionPortSceneID:: db
 wVictoryRoad2FSceneID:: db
-wVioletGymSceneID:: db
+wMoonflowerGymSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
 wYellowForestSceneID:: db

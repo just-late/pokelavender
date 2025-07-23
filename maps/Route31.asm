@@ -5,9 +5,9 @@ Route31_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, Route31CheckMomCall
 
 	def_warp_events
-	warp_event  4,  6, ROUTE_31_VIOLET_GATE, 3
-	warp_event  4,  7, ROUTE_31_VIOLET_GATE, 4
-	warp_event 34,  5, DARK_CAVE_VIOLET_ENTRANCE, 1
+	warp_event  4,  6, ROUTE_31_MOONFLOWER_GATE, 3
+	warp_event  4,  7, ROUTE_31_MOONFLOWER_GATE, 4
+	warp_event 34,  5, DARK_CAVE_MOONFLOWER_ENTRANCE, 1
 
 	def_coord_events
 
@@ -489,13 +489,13 @@ Route31YoungsterText:
 	cont "Falkner."
 
 	para "He's the leader of"
-	line "Violet City's Gym."
+	line "Moonflower City's Gym."
 	done
 
 Route31SignText:
 	text "Route 31"
 
-	para "Violet City -"
+	para "Moonflower City -"
 	line "Glittervine Town"
 	done
 

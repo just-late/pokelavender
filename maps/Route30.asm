@@ -280,7 +280,7 @@ Route30SignText:
 	text "Route 30"
 
 	para "Glittervine Town -"
-	line "Violet City"
+	line "Moonflower City"
 	done
 
 MrPokemonsHouseDirectionsSignText:

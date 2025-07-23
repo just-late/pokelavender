@@ -1,11 +1,11 @@
-VioletPokeCenter1F_MapScriptHeader:
+MoonflowerPokeCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
 
 	def_warp_events
-	warp_event  5,  7, VIOLET_CITY, 5
-	warp_event  6,  7, VIOLET_CITY, 5
+	warp_event  5,  7, MOONFLOWER_CITY, 5
+	warp_event  6,  7, MOONFLOWER_CITY, 5
 	warp_event  0,  7, POKECENTER_2F, 1
 
 	def_coord_events
@@ -14,12 +14,12 @@ VioletPokeCenter1F_MapScriptHeader:
 	bg_event 10,  1, BGEVENT_READ, PokemonJournalFalknerScript
 
 	def_object_events
-	object_event 10,  2, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, VioletPokeCenter1FElmsAideScript, EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
+	object_event 10,  2, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeCenter1FElmsAideScript, EVENT_ELMS_AIDE_IN_MOONFLOWER_POKEMON_CENTER
 	pc_nurse_event  5, 1
-	object_event  9,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, VioletPokeCenter1FGameboyKidText, -1
-	object_event  2,  3	, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, VioletPokeCenter1FGentlemanText, -1
-	object_event  0,  5, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, VioletPokeCenter1FSageText, -1
-	object_event 11,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, VioletPokeCenter1FYoungsterText, -1
+	object_event  9,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerPokeCenter1FGameboyKidText, -1
+	object_event  2,  3	, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerPokeCenter1FGentlemanText, -1
+	object_event  0,  5, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerPokeCenter1FSageText, -1
+	object_event 11,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerPokeCenter1FYoungsterText, -1
 
 	object_const_def
 	const VIOLETPOKECENTER1F_SCIENTIST
@@ -37,11 +37,11 @@ PokemonJournalFalknerScript:
 	line "Falkner reveres"
 	cont "his father, who"
 
-	para "led the Violet Gym"
+	para "led the Moonflower Gym"
 	line "before him."
 	done
 
-VioletPokeCenter1FElmsAideScript:
+MoonflowerPokeCenter1FElmsAideScript:
 	faceplayer
 	opentext
 	checkevent EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
@@ -163,13 +163,13 @@ VioletPokeCenter1FElmsAideScript:
 	step_down
 	step_end
 
-VioletPokeCenter1FGameboyKidText:
+MoonflowerPokeCenter1FGameboyKidText:
 	text "A guy named Bill"
 	line "made the #MON"
 	cont "PC storage system."
 	done
 
-VioletPokeCenter1FGentlemanText:
+MoonflowerPokeCenter1FGentlemanText:
 	text "It was around"
 	line "three years ago."
 
@@ -182,7 +182,7 @@ VioletPokeCenter1FGentlemanText:
 	cont "kid broke 'em up."
 	done
 
-VioletPokeCenter1FSageText:
+MoonflowerPokeCenter1FSageText:
 	text "Some Bellsprout"
 	line "are found with"
 	cont "Gold Leaves."
@@ -196,7 +196,7 @@ VioletPokeCenter1FSageText:
 	cont "of person."
 	done
 
-VioletPokeCenter1FYoungsterText:
+MoonflowerPokeCenter1FYoungsterText:
 	text "#MON are smart."
 	line "They won't obey a"
 

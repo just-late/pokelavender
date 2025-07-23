@@ -13,9 +13,9 @@ Landmarks:
 	landmark  66,  74, CherrygroveBayName
 	landmark  76,  76, Route30Name
 	landmark  96,  60, Route31Name
-	landmark  84,  60, VioletCityName
+	landmark  84,  60, MoonflowerCityName
 	landmark  86,  58, SproutTowerName
-	landmark  84,  52, VioletOutskirtsName
+	landmark  84,  52, MoonflowerOutskirtsName
 	landmark  76,  76, RuinsOfAlphName
 	landmark  84,  92, Route32Name
 	landmark  92, 112, Route32CoastName
@@ -155,7 +155,7 @@ Landmarks:
 
 GemrootTownName:       rawchar "GEMROOT¯TOWN@"
 GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
-VioletCityName:        rawchar "MOONFLOWER¯CITY@"
+MoonflowerCityName:        rawchar "MOONFLOWER¯CITY@"
 AzaleaTownName:        rawchar "Azalea Town@"
 GoldenrodCityName:     rawchar "Goldenrod¯City@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
@@ -166,7 +166,7 @@ BlackthornCityName:    rawchar "Blackthorn¯City@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 SilverCaveName:        rawchar "Silver Cave@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
-VioletOutskirtsName:   rawchar "Violet¯Outskirts@"
+MoonflowerOutskirtsName:   rawchar "Moonflower¯Outskirts@"
 RuinsOfAlphName:       rawchar "Ruins¯of Alph@"
 UnionCaveName:         rawchar "Union Cave@"
 SlowpokeWellName:      rawchar "Slowpoke¯Well@"

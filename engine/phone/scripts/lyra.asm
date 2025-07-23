@@ -85,9 +85,9 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .CherrygroveBay
 	dw .Route30
 	dw .Route31
-	dw .VioletCity
+	dw .MoonflowerCity
 	dw .SproutTower
-	dw .VioletOutskirts
+	dw .MoonflowerOutskirts
 	dw .RuinsOfAlph
 	dw .Route32
 	dw .Route32Coast
@@ -154,9 +154,9 @@ LyraPhoneScript_JohtoLandmarksTable:
 .CherrygroveBay:
 .Route30:
 .Route31:
-.VioletCity:
+.MoonflowerCity:
 .SproutTower:
-.VioletOutskirts:
+.MoonflowerOutskirts:
 .RuinsOfAlph:
 .Route32:
 .Route32Coast:

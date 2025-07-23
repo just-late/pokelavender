@@ -27,7 +27,7 @@ SpawnPoints:
 
 	spawn GEMROOT_TOWN,               27, 20
 	spawn GLITTERVINE_TOWN,           25, 14
-	spawn VIOLET_CITY,                31, 26
+	spawn MOONFLOWER_CITY,                31, 26
 	spawn ROUTE_32,                   11, 74
 	spawn AZALEA_TOWN,                15, 10
 	spawn CIANWOOD_CITY,              23, 44

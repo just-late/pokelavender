@@ -27,12 +27,12 @@ ENDM
 	special_bg_pal map,      SILVER_CAVE_ROOM_3,          PAL_SINGLE,    SilverCavePalette
 	special_bg_pal map,      SILVER_CAVE_ITEM_ROOMS,      PAL_SINGLE,    SilverCavePalette
 	special_bg_pal map,      DRAGON_SHRINE,               PAL_SINGLE,    DragonShrinePalette
-	special_bg_pal map,      ECRUTEAK_CITY,               PAL_TIMEOFDAY, VioletEcruteakPalette
+	special_bg_pal map,      ECRUTEAK_CITY,               PAL_TIMEOFDAY, MoonflowerEcruteakPalette
 	special_bg_pal map,      BLACKTHORN_GYM_1F,           PAL_SINGLE,    BlackthornGym1FPalette
 	special_bg_pal map,      BLACKTHORN_GYM_2F,           PAL_SINGLE,    BlackthornGym1FPalette
 	special_bg_pal map,      CINNABAR_LAB,                PAL_SINGLE,    CinnabarLabPalette
 	special_bg_pal map,      CERULEAN_GYM,                PAL_SINGLE,    CeruleanGymPalette
-	special_bg_pal map,      VIOLET_CITY,                 PAL_TIMEOFDAY, VioletEcruteakPalette
+	special_bg_pal map,      MOONFLOWER_CITY,                 PAL_TIMEOFDAY, MoonflowerEcruteakPalette
 	special_bg_pal map,      MURKY_SWAMP,                 PAL_SINGLE,    MurkySwampPalette
 	special_bg_pal map,      GOLDENROD_DEPT_STORE_ROOF,   PAL_TIMEOFDAY, GoldenrodDeptStoreRoofPalette
 	special_bg_pal map,      GOLDENROD_MUSEUM_1F,         PAL_SINGLE,    GoldenrodMuseumPalette
@@ -1012,7 +1012,7 @@ endr
 	RGB_MONOCHROME_BLACK
 endc
 
-VioletEcruteakPalette:
+MoonflowerEcruteakPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/violet_ecruteak.pal"
 else

@@ -1288,7 +1288,7 @@
 	wildmon 77, PARASECT
 	end_grass_wildmons
 
-	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE
+	def_grass_wildmons DARK_CAVE_MOONFLOWER_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 3, GEODUDE
@@ -1932,7 +1932,7 @@
 	wildmon 75, SNEASEL
 	end_grass_wildmons
 
-	def_grass_wildmons VIOLET_OUTSKIRTS
+	def_grass_wildmons MOONFLOWER_OUTSKIRTS
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA, ALOLAN_FORM

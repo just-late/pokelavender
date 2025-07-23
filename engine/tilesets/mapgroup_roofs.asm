@@ -23,7 +23,7 @@ MapGroupRoofGFX:
 	table_width 2, MapGroupRoofGFX
 	farbank "Roof Graphics"
 	fardw NewBarkRoofGFX
-	fardw VioletRoofGFX
+	fardw MoonflowerRoofGFX
 	fardw AzaleaRoofGFX
 	fardw OlivineRoofGFX
 	fardw StatueRoofGFX

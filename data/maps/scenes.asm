@@ -26,7 +26,7 @@ MapScenes::
 	scene_var CIANWOOD_CITY,                          wCianwoodCitySceneID
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
-	scene_var DARK_CAVE_VIOLET_ENTRANCE,              wDarkCaveVioletEntranceSceneID
+	scene_var DARK_CAVE_MOONFLOWER_ENTRANCE,              wDarkCaveMoonflowerEntranceSceneID
 	scene_var DAYCARE,                                wDayCareSceneID
 	scene_var DRAGON_SHRINE,                          wDragonShrineSceneID
 	scene_var DRAGONS_DEN_B1F,                        wDragonsDenB1FSceneID
@@ -105,7 +105,7 @@ MapScenes::
 	scene_var VERMILION_CITY,                         wVermilionCitySceneID
 	scene_var VERMILION_PORT,                         wVermilionPortSceneID
 	scene_var VICTORY_ROAD_2F,                        wVictoryRoad2FSceneID
-	scene_var VIOLET_GYM,                             wVioletGymSceneID
+	scene_var MOONFLOWER_GYM,                             wMoonflowerGymSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	scene_var YELLOW_FOREST,                          wYellowForestSceneID

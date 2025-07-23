@@ -1,7 +1,7 @@
 SECTION "Special Map Blockdata", ROMX
 
 GlittervinePokeCenter1F_BlockData:
-VioletPokeCenter1F_BlockData:
+MoonflowerPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
@@ -34,7 +34,7 @@ KantoPokeCenter2F_BlockData:
 	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
 
 GlittervineMart_BlockData:
-VioletMart_BlockData:
+MoonflowerMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
 OlivineMart_BlockData:
@@ -73,8 +73,8 @@ Route12Gate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate1F.ablk.lz"
 
 Route2GlittervineGate_BlockData:
-Route31VioletGate_BlockData:
-Route36VioletGate_BlockData:
+Route31MoonflowerGate_BlockData:
+Route36MoonflowerGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
 GoldenrodHarborGate_BlockData:
@@ -158,8 +158,8 @@ EcruteakLugiaSpeechHouse_BlockData:
 EcruteakItemfinderHouse_BlockData:
 EcruteakCherishBallHouse_BlockData:
 EcruteakDestinyKnotHouse_BlockData:
-VioletNicknameSpeechHouse_BlockData:
-VioletOnixTradeHouse_BlockData:
+MoonflowerNicknameSpeechHouse_BlockData:
+MoonflowerOnixTradeHouse_BlockData:
 ValeriesHouse_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
 
@@ -259,22 +259,22 @@ SECTION "Route32Coast_BlockData", ROMX
 Route32Coast_BlockData:
 	INCBIN "maps/Route32Coast.ablk.lz"
 
-SECTION "DarkCaveVioletEntrance_BlockData", ROMX
-DarkCaveVioletEntrance_BlockData:
+SECTION "DarkCaveMoonflowerEntrance_BlockData", ROMX
+DarkCaveMoonflowerEntrance_BlockData:
 SilverCaveItemRooms_BlockData:
-	INCBIN "maps/DarkCaveVioletEntrance.ablk.lz"
+	INCBIN "maps/DarkCaveMoonflowerEntrance.ablk.lz"
 
 SECTION "DarkCaveBlackthornEntrance_BlockData", ROMX
 DarkCaveBlackthornEntrance_BlockData:
 	INCBIN "maps/DarkCaveBlackthornEntrance.ablk.lz"
 
-SECTION "VioletGym_BlockData", ROMX
-VioletGym_BlockData:
-	INCBIN "maps/VioletGym.ablk.lz"
+SECTION "MoonflowerGym_BlockData", ROMX
+MoonflowerGym_BlockData:
+	INCBIN "maps/MoonflowerGym.ablk.lz"
 
-SECTION "VioletCity_BlockData", ROMX
-VioletCity_BlockData:
-	INCBIN "maps/VioletCity.ablk.lz"
+SECTION "MoonflowerCity_BlockData", ROMX
+MoonflowerCity_BlockData:
+	INCBIN "maps/MoonflowerCity.ablk.lz"
 
 SECTION "EarlsPokemonAcademy_BlockData", ROMX
 EarlsPokemonAcademy_BlockData:
@@ -296,9 +296,9 @@ SECTION "SproutTower3F_BlockData", ROMX
 SproutTower3F_BlockData:
 	INCBIN "maps/SproutTower3F.ablk.lz"
 
-SECTION "VioletOutskirts_BlockData", ROMX
-VioletOutskirts_BlockData:
-	INCBIN "maps/VioletOutskirts.ablk.lz"
+SECTION "MoonflowerOutskirts_BlockData", ROMX
+MoonflowerOutskirts_BlockData:
+	INCBIN "maps/MoonflowerOutskirts.ablk.lz"
 
 SECTION "RuinsOfAlphOutside_BlockData", ROMX
 RuinsOfAlphOutside_BlockData:

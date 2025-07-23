@@ -161,7 +161,7 @@ GenericTrainerTeacherShirley:
 
 	text "We're on a field"
 	line "trip to the ruins"
-	cont "outside Violet."
+	cont "outside Moonflower."
 	done
 
 GenericTrainerSchoolboyNate:

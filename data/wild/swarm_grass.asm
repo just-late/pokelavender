@@ -1,7 +1,7 @@
 ; swarms in grass
 
 ; Dunsparce swarm
-	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE
+	def_grass_wildmons DARK_CAVE_MOONFLOWER_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 3, GEODUDE

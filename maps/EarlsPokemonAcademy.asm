@@ -4,8 +4,8 @@ EarlsPokemonAcademy_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  3, 15, VIOLET_CITY, 3
-	warp_event  4, 15, VIOLET_CITY, 3
+	warp_event  3, 15, MOONFLOWER_CITY, 3
+	warp_event  4, 15, MOONFLOWER_CITY, 3
 
 	def_coord_events
 
@@ -27,7 +27,7 @@ EarlsPokemonAcademy_MapScriptHeader:
 	const EARLSPOKEMONACADEMY_EARL
 
 AcademyEarl:
-	givekeyitem TYPE_CHART ; failsafe in case Violet City Earl is gone already in a save
+	givekeyitem TYPE_CHART ; failsafe in case Moonflower City Earl is gone already in a save
 	applymovement EARLSPOKEMONACADEMY_EARL, AcademyEarlSpinMovement
 	faceplayer
 	opentext

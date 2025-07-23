@@ -23,8 +23,8 @@ ENDM
 	connection west, GlittervineTown, GLITTERVINE_TOWN, 0
 ;   connection south, MoonflowerCity, MOONFLOWER_CITY, 0
 
-	map_attributes VioletCity, VIOLET_CITY, $5, NORTH | SOUTH | WEST | EAST
-	connection north, VioletOutskirts, VIOLET_OUTSKIRTS, 0
+	map_attributes MoonflowerCity, MOONFLOWER_CITY, $5, NORTH | SOUTH | WEST | EAST
+	connection north, MoonflowerOutskirts, MOONFLOWER_OUTSKIRTS, 0
 	connection south, Route32, ROUTE_32, 0
 	connection west, Route36, ROUTE_36, 0
 	connection east, Route31, ROUTE_31, 9
@@ -86,10 +86,10 @@ ENDM
 
 	map_attributes Route31, ROUTE_31, $5, SOUTH | WEST
 	connection south, Route30, ROUTE_30, 10
-	connection west, VioletCity, VIOLET_CITY, -9
+	connection west, MoonflowerCity, MOONFLOWER_CITY, -9
 
 	map_attributes Route32, ROUTE_32, $5, NORTH | SOUTH | WEST | EAST
-	connection north, VioletCity, VIOLET_CITY, 0
+	connection north, MoonflowerCity, MOONFLOWER_CITY, 0
 	connection south, Route33, ROUTE_33, 0
 	connection west, MagnetTunnelEast, MAGNET_TUNNEL_EAST, 9
 	connection east, CherrygroveBay, CHERRYGROVE_BAY, 12
@@ -128,7 +128,7 @@ ENDM
 	map_attributes Route36, ROUTE_36, $5, NORTH | SOUTH | EAST
 	connection north, Route37, ROUTE_37, 12
 	connection south, Route35, ROUTE_35, 0
-	connection east, VioletCity, VIOLET_CITY, 0
+	connection east, MoonflowerCity, MOONFLOWER_CITY, 0
 
 	map_attributes Route37, ROUTE_37, $5, NORTH | SOUTH
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
@@ -152,7 +152,7 @@ ENDM
 	connection east, GoldenrodHarbor, GOLDENROD_HARBOR, 3
 
 	map_attributes Route42, ROUTE_42, $5, SOUTH | WEST | EAST
-	connection south, VioletOutskirts, VIOLET_OUTSKIRTS, 5
+	connection south, MoonflowerOutskirts, MOONFLOWER_OUTSKIRTS, 5
 	connection west, EcruteakCity, ECRUTEAK_CITY, -9
 	connection east, MahoganyTown, MAHOGANY_TOWN, 0
 
@@ -358,9 +358,9 @@ ENDM
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, NORTH
 	connection north, CherrygroveBay, CHERRYGROVE_BAY, 0
 
-	map_attributes VioletOutskirts, VIOLET_OUTSKIRTS, $5, NORTH | SOUTH
+	map_attributes MoonflowerOutskirts, MOONFLOWER_OUTSKIRTS, $5, NORTH | SOUTH
 	connection north, Route42, ROUTE_42, -5
-	connection south, VioletCity, VIOLET_CITY, 0
+	connection south, MoonflowerCity, MOONFLOWER_CITY, 0
 
 	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $5, SOUTH
 	connection south, MagnetTunnelEast, MAGNET_TUNNEL_EAST, -2
@@ -494,7 +494,7 @@ ENDM
 	map_attributes SilverCaveRoom2, SILVER_CAVE_ROOM_2, $9, 0
 	map_attributes SilverCaveRoom3, SILVER_CAVE_ROOM_3, $0, 0
 	map_attributes SilverCaveItemRooms, SILVER_CAVE_ITEM_ROOMS, $9, 0
-	map_attributes DarkCaveVioletEntrance, DARK_CAVE_VIOLET_ENTRANCE, $9, 0
+	map_attributes DarkCaveMoonflowerEntrance, DARK_CAVE_MOONFLOWER_ENTRANCE, $9, 0
 	map_attributes DarkCaveBlackthornEntrance, DARK_CAVE_BLACKTHORN_ENTRANCE, $9, 0
 	map_attributes DragonsDen1F, DRAGONS_DEN_1F, $9, 0
 	map_attributes DragonsDenB1F, DRAGONS_DEN_B1F, $71, 0
@@ -581,12 +581,12 @@ ENDM
 	map_attributes SinjohRuinsHouse, SINJOH_RUINS_HOUSE, $0, 0
 	map_attributes MystriStage, MYSTRI_STAGE, $0, 0
 	map_attributes EmbeddedTower, EMBEDDED_TOWER, $0, 0
-	map_attributes VioletMart, VIOLET_MART, $0, 0
-	map_attributes VioletGym, VIOLET_GYM, $0, 0
+	map_attributes MoonflowerMart, MOONFLOWER_MART, $0, 0
+	map_attributes MoonflowerGym, MOONFLOWER_GYM, $0, 0
 	map_attributes EarlsPokemonAcademy, EARLS_POKEMON_ACADEMY, $0, 0
-	map_attributes VioletNicknameSpeechHouse, VIOLET_NICKNAME_SPEECH_HOUSE, $0, 0
-	map_attributes VioletPokeCenter1F, VIOLET_POKECENTER_1F, $0, 0
-	map_attributes VioletOnixTradeHouse, VIOLET_ONIX_TRADE_HOUSE, $0, 0
+	map_attributes MoonflowerNicknameSpeechHouse, MOONFLOWER_NICKNAME_SPEECH_HOUSE, $0, 0
+	map_attributes MoonflowerPokeCenter1F, MOONFLOWER_POKECENTER_1F, $0, 0
+	map_attributes MoonflowerOnixTradeHouse, MOONFLOWER_ONIX_TRADE_HOUSE, $0, 0
 	map_attributes MoonflowerBikeShop, MOONFLOWER_BIKE_SHOP, $0, 0
 	map_attributes Route32RuinsOfAlphGate, ROUTE_32_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes Route32PokeCenter1F, ROUTE_32_POKECENTER_1F, $0, 0
@@ -595,7 +595,7 @@ ENDM
 	map_attributes Route35NationalParkGate, ROUTE_35_NATIONAL_PARK_GATE, $0, 0
 	map_attributes Route36RuinsOfAlphGate, ROUTE_36_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes Route36NationalParkGate, ROUTE_36_NATIONAL_PARK_GATE, $0, 0
-	map_attributes Route36VioletGate, ROUTE_36_VIOLET_GATE, $0, 0
+	map_attributes Route36MoonflowerGate, ROUTE_36_MOONFLOWER_GATE, $0, 0
 	map_attributes GoldenrodGym, GOLDENROD_GYM, $0, 0
 	map_attributes GoldenrodBikeShop, GOLDENROD_BIKE_SHOP, $0, 0
 	map_attributes GoldenrodHappinessRater, GOLDENROD_HAPPINESS_RATER, $0, 0
@@ -827,7 +827,7 @@ ENDM
 	map_attributes GlittervineEvolutionSpeechHouse, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, $0, 0
 	map_attributes Route30BerrySpeechHouse, ROUTE_30_BERRY_SPEECH_HOUSE, $0, 0
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $0, 0
-	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $0, 0
+	map_attributes Route31MoonflowerGate, ROUTE_31_MOONFLOWER_GATE, $0, 0
 	map_attributes Route2GlittervineGate, ROUTE_2_GLITTERVINE_GATE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
 	map_attributes PewterMuseumOfScience1F, PEWTER_MUSEUM_OF_SCIENCE_1F, $0, 0

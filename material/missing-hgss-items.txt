@@ -46,7 +46,7 @@ Poké Ball	In a rock northeast of the Potion
 Max Ether	Southeast of Hyper Potion (requires Rock Smash)
 Elixir	Southwest of entrance from Route 45
 Max Revive	On a rock, north of the man who gives BlackGlasses (requires Surf)
-Hyper Potion	On a rock north of the exit to the Violet City side (requires Surf)
+Hyper Potion	On a rock north of the exit to the Moonflower City side (requires Surf)
 
 ruins of alph:
 Potion	In the left wall of the building, southmost of the three in the northeast

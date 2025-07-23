@@ -8,7 +8,7 @@ NPCTrades:
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,  LEVEL_BALL,   SITRUS_BERRY
 	dw 37460
 	rawchar "Mike@@@@", $00
-; NPC_TRADE_KYLE in Violet City
+; NPC_TRADE_KYLE in Moonflower City
 	db TRADE_DIALOGSET_COLLECTOR
 	dp POLIWAG, NO_FORM ; wants
 	dp VOLTORB, MALE    ; gives

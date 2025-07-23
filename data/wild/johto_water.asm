@@ -105,7 +105,7 @@
 	wildmon 75, KINGDRA
 	end_water_wildmons
 
-	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
+	def_water_wildmons DARK_CAVE_MOONFLOWER_ENTRANCE
 	db 2 percent ; encounter rate
 	wildmon 15, MAGIKARP
 	wildmon 10, MAGIKARP
@@ -245,7 +245,7 @@
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons VIOLET_CITY
+	def_water_wildmons MOONFLOWER_CITY
 	db 2 percent ; encounter rate
 	wildmon 20, POLIWAG
 	wildmon 15, POLIWAG

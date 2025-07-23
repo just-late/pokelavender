@@ -121,7 +121,7 @@ ENDM
 	map_const SILVER_CAVE_ROOM_2,                         15, 17 ; 65
 	map_const SILVER_CAVE_ROOM_3,                         10, 17 ; 66
 	map_const SILVER_CAVE_ITEM_ROOMS,                     20, 18 ; 67
-	map_const DARK_CAVE_VIOLET_ENTRANCE,                  20, 18 ; 68
+	map_const DARK_CAVE_MOONFLOWER_ENTRANCE,                  20, 18 ; 68
 	map_const DARK_CAVE_BLACKTHORN_ENTRANCE,              15, 15 ; 69
 	map_const DRAGONS_DEN_1F,                             20, 45 ; 70
 	map_const DRAGONS_DEN_B1F,                            20, 18 ; 71
@@ -153,7 +153,7 @@ ENDM
 	map_const ROUTE_35,                                   12, 18 ; 10
 	map_const ROUTE_36,                                   32,  9 ; 11
 	map_const ROUTE_36_RUINS_OF_ALPH_GATE,                 5,  4 ; 12
-	map_const ROUTE_36_VIOLET_GATE,                        5,  4 ; 13
+	map_const ROUTE_36_MOONFLOWER_GATE,                        5,  4 ; 13
 	map_const ROUTE_37,                                   10, 10 ; 14
 	map_const VALERIES_HOUSE,                              4,  4 ; 15
 	map_const ECRUTEAK_CHERISH_BALL_HOUSE,                 4,  4 ; 16
@@ -239,18 +239,18 @@ ENDM
 	map_const ROUTE_2,									  25, 23 ;  1
 	map_const ROUTE_32,                                   10, 45 ;  2
 	map_const ROUTE_32_COAST,                             15, 35 ;  3
-	map_const VIOLET_CITY,                                19, 19 ;  4
-	map_const VIOLET_MART,                                 6,  4 ;  5
-	map_const VIOLET_GYM,                                  5,  8 ;  6
+	map_const MOONFLOWER_CITY,                                19, 19 ;  4
+	map_const MOONFLOWER_MART,                                 6,  4 ;  5
+	map_const MOONFLOWER_GYM,                                  5,  8 ;  6
 	map_const EARLS_POKEMON_ACADEMY,                       4,  8 ;  7
-	map_const VIOLET_NICKNAME_SPEECH_HOUSE,                4,  4 ;  8
-	map_const VIOLET_POKECENTER_1F,                        6,  4 ;  9
-	map_const VIOLET_ONIX_TRADE_HOUSE,                     4,  4 ; 10
+	map_const MOONFLOWER_NICKNAME_SPEECH_HOUSE,                4,  4 ;  8
+	map_const MOONFLOWER_POKECENTER_1F,                        6,  4 ;  9
+	map_const MOONFLOWER_ONIX_TRADE_HOUSE,                     4,  4 ; 10
 	map_const ROUTE_32_RUINS_OF_ALPH_GATE,                 5,  4 ; 11
 	map_const ROUTE_32_POKECENTER_1F,                      6,  4 ; 12
 	map_const ROUTE_32_COAST_HOUSE,                        4,  4 ; 13
 	map_const MAGNET_TUNNEL_EAST,                         10, 11 ; 14
-	map_const VIOLET_OUTSKIRTS,                           20, 10 ; 15
+	map_const MOONFLOWER_OUTSKIRTS,                           20, 10 ; 15
 	map_const MOONFLOWER_BIKE_SHOP,						   4,  4 ; 16
 
 	newgroup                                                     ; 11
@@ -585,7 +585,7 @@ ENDM
 	map_const GLITTERVINE_EVOLUTION_SPEECH_HOUSE,          4,  4 ; 10
 	map_const ROUTE_30_BERRY_SPEECH_HOUSE,                 4,  4 ; 11
 	map_const MR_POKEMONS_HOUSE,                           4,  4 ; 12
-	map_const ROUTE_31_VIOLET_GATE,                        5,  4 ; 13
+	map_const ROUTE_31_MOONFLOWER_GATE,                        5,  4 ; 13
 	map_const ROUTE_2_GLITTERVINE_GATE,					   5,  4 ; 14
 
 	newgroup                                                     ; 27
