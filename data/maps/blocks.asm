@@ -221,10 +221,6 @@ SECTION "GemrootTown_BlockData", ROMX
 GemrootTown_BlockData:
 	INCBIN "maps/GemrootTown.ablk.lz"
 
-SECTION "GemrootWoods_BlockData", ROMX
-GemrootWoods_BlockData:
-	INCBIN "maps/GemrootWoods.ablk.lz"
-
 SECTION "GemrootCommunityCenter1F", ROMX
 GemrootCommunityCenter1F_BlockData:
 	INCBIN "maps/GemrootCommunityCenter1F.ablk.lz"

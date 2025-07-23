@@ -80,7 +80,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	table_width 2, LyraPhoneScript_JohtoLandmarksTable
 	dw .Generic
 	dw .GemrootTown
-	dw .GemrootWoods
 	dw .Route1
 	dw .CherrygroveCity
 	dw .CherrygroveBay
@@ -150,7 +149,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .GemrootTown:
-.GemrootWoods:
 .Route1:
 .CherrygroveCity:
 .CherrygroveBay:

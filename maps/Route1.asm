@@ -14,7 +14,7 @@ Route1_MapScriptHeader:
 	person_event SPRITE_LASS,  8, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC1Text, -1
 	person_event SPRITE_SCHOOLBOY, 16, 12, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC2Text, -1
 	cuttree_event 13, 10, EVENT_ROUTE_1_CUT_TREE
-	fruittree_event 11,  3, FRUITTREE_ROUTE_1, PECHA_BERRY, PAL_NPC_BROWN
+	fruittree_event 11,  3, FRUITTREE_ROUTE_1, PECHA_BERRY, PAL_NPC_PINK
 
 Route1NPC1Text:
 	text "See those ledges?"

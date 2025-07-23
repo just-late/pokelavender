@@ -540,16 +540,15 @@ ENDM
 	map_const ROUTE_26,                                   10, 54 ;  2
 	map_const ROUTE_27,                                   40,  9 ;  3
 	map_const GEMROOT_TOWN,                               18, 18 ;  4
-	map_const GEMROOT_WOODS, 							  13, 12 ; 	5
-	map_const GEMROOT_COMMUNITY_CENTER_1F,                 6,  6 ;  6
-	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
-	map_const PLAYERS_HOUSE_2F,                            4,  7 ;  8
-	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
-	map_const ARIS_HOUSE_1F,							   5,  4 ; 10
-	map_const ARIS_HOUSE_2F,							   4,  3 ; 11
-	map_const ROUTE_26_HEAL_SPEECH_HOUSE,                  4,  4 ; 12
-	map_const ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE,         4,  4 ; 13
-	map_const ROUTE_27_REST_HOUSE,                         4,  4 ; 14
+	map_const GEMROOT_COMMUNITY_CENTER_1F,                 6,  6 ;  5
+	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  6
+	map_const PLAYERS_HOUSE_2F,                            4,  7 ;  7
+	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  8
+	map_const ARIS_HOUSE_1F,							   5,  4 ;  9
+	map_const ARIS_HOUSE_2F,							   4,  3 ; 10
+	map_const ROUTE_26_HEAL_SPEECH_HOUSE,                  4,  4 ; 11
+	map_const ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE,         4,  4 ; 12
+	map_const ROUTE_27_REST_HOUSE,                         4,  4 ; 13
 
 	newgroup                                                     ; 25
 	map_const FIGHTING_DOJO,                               5,  6 ;  1

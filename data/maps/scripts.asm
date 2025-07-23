@@ -73,7 +73,6 @@ INCLUDE "maps/BattleFactoryBattleRoom.asm"
 SECTION "Gemroot Scripts", ROMX
 
 INCLUDE "maps/GemrootTown.asm"
-INCLUDE "maps/GemrootWoods.asm"
 INCLUDE "maps/GemrootCommunityCenter1F.asm"
 INCLUDE "maps/PlayersNeighborsHouse.asm"
 

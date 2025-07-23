@@ -4,8 +4,8 @@ GemrootCommunityCenter1F_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 5, 11, GEMROOT_TOWN, 5  ; 1
-	warp_event 6, 11, GEMROOT_TOWN, 5  ; 2
+	warp_event 5, 11, GEMROOT_TOWN, 3  ; 1
+	warp_event 6, 11, GEMROOT_TOWN, 3  ; 2
 
     def_coord_events
 	coord_event  5,  5, 0, PlayerWalksToAnabel1
