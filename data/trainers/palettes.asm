@@ -9,7 +9,7 @@ ChrisPalette:
 INCLUDE "gfx/trainers/cal.pal"
 CrysPalette:
 INCLUDE "gfx/trainers/jacky.pal"
-INCLUDE "gfx/trainers/falkner.pal"
+INCLUDE "gfx/trainers/rancid.pal"
 INCLUDE "gfx/trainers/bugsy.pal"
 INCLUDE "gfx/trainers/whitney.pal"
 INCLUDE "gfx/trainers/morty.pal"

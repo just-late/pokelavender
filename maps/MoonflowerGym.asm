@@ -41,8 +41,8 @@ MoonflowerGymRancidScript:
 	writetext RancidIntroText
 	waitbutton
 	closetext
-	winlosstext RancidWinLossText, 0
 	loadtrainer FALKNER, 1
+	winlosstext RancidWinLossText, 0
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_RANCID

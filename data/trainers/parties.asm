@@ -132,22 +132,18 @@ SECTION "FalknerGroup", ROMX
 FalknerGroup:
 
 	; FALKNER
-	db "Falkner@"
+	db "RANCID@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
-	dbp 11, PIDGEY
-		db NO_ITEM
-		ev_spread 32 HP
-		db TACKLE, GUST, MUD_SLAP, NO_MOVE
-	dbp 11, HOOTHOOT
-		db NO_ITEM
-		ev_spread 32 HP
-		db TACKLE, HYPNOSIS, PECK, CONFUSION
-	dbp 13, PIDGEOTTO
-		db PECHA_BERRY
-		ev_spread 32 HP
-		db GUST, MUD_SLAP, QUICK_ATTACK, ROOST
-	db -1 ; end
+	dbp 10, KOFFING
+		db EVIOLITE
+		ev_spread 32 Def, 32 Def
+		db VENOSHOCK, SMOKESCREEN, TACKLE
+	dbp 16, NIDORINA
+		db EVIOLITE
+		ev_spread 36 HP, 32 Def
+		db TOXIC, VENOSHOCK, FURY_STRIKES
+		db -1 ; end
 
 	; FALKNER
 	db "Falkner@"

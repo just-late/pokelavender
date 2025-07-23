@@ -13,7 +13,7 @@ SECTION "JackyPic", ROMX
 JackyPic: INCBIN "gfx/trainers/jacky.2bpp.lz"
 
 SECTION "FalknerPic", ROMX
-FalknerPic: INCBIN "gfx/trainers/falkner.2bpp.lz"
+FalknerPic: INCBIN "gfx/trainers/rancid.2bpp.lz"
 
 SECTION "BugsyPic", ROMX
 BugsyPic: INCBIN "gfx/trainers/bugsy.2bpp.lz"
