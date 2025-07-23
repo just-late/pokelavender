@@ -213,7 +213,7 @@ PokeGearCampaignClown1_Script:
 
 .AlreadyGotIt
 	writetext AlreadyGotItText
-	waitbuttton
+	waitbutton
 	closetext	
 	end			
 
@@ -237,7 +237,7 @@ PokeGearCampaignClown2_Script:
 
 .AlreadyGotIt
 	writetext AlreadyGotItText
-	waitbuttton
+	waitbutton
 	closetext
 	end
 		
