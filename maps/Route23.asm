@@ -100,7 +100,7 @@ Route23ZephyrBadgeTriggerScript:
 	opentext
 	writetext Route23OfficerNeedBadgeText
 	waitbutton
-	checkflag ENGINE_ZEPHYRBADGE
+	checkflag ENGINE_PUNKBADGE
 	iffalse_jumpopenedtext Route23OfficerNoBadgeText
 	checkscene
 	ifgreater $0, Route23OfficerHaveBadgeScript

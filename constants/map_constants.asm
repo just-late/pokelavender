@@ -241,7 +241,7 @@ ENDM
 	map_const ROUTE_32_COAST,                             15, 35 ;  3
 	map_const MOONFLOWER_CITY,                                19, 19 ;  4
 	map_const MOONFLOWER_MART,                                 6,  4 ;  5
-	map_const MOONFLOWER_GYM,                                  8,  7 ;  6
+	map_const MOONFLOWER_GYM,                                 10,  7 ;  6
 	map_const EARLS_POKEMON_ACADEMY,                       4,  8 ;  7
 	map_const MOONFLOWER_NICKNAME_SPEECH_HOUSE,                4,  4 ;  8
 	map_const MOONFLOWER_POKECENTER_1F,                        6,  4 ;  9
@@ -250,7 +250,7 @@ ENDM
 	map_const ROUTE_32_POKECENTER_1F,                      6,  4 ; 12
 	map_const ROUTE_32_COAST_HOUSE,                        4,  4 ; 13
 	map_const MAGNET_TUNNEL_EAST,                         10, 11 ; 14
-	map_const MOONFLOWER_OUTSKIRTS,                           20, 10 ; 15
+	map_const MOONFLOWER_OUTSKIRTS,                       20, 10 ; 15
 	map_const MOONFLOWER_BIKE_SHOP,						   4,  4 ; 16
 
 	newgroup                                                     ; 11

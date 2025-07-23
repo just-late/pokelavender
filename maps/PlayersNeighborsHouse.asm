@@ -25,7 +25,7 @@ NeighborAdventureScript:
 	writetext GrannyAdventureText
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	iftruefwd .GotPokemon
-	checkevent EVENT_BEAT_FALKNER
+	checkevent EVENT_BEAT_RANCID
 	iftruefwd .GotGymBadge
 	checkevent EVENT_BEAT_MORTY
 	iftruefwd .GotFourBadges

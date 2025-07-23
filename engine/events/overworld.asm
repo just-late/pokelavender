@@ -47,7 +47,7 @@ CheckEngineFlag:
 	ret
 
 CheckBadge:
-; Check engine flag a (ENGINE_ZEPHYRBADGE thru ENGINE_EARTHBADGE)
+; Check engine flag a (ENGINE_PUNKBADGE thru ENGINE_EARTHBADGE)
 ; Display "Badge required" text and return carry if the badge is not owned
 	call CheckEngineFlag
 	ret nc

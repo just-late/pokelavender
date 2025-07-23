@@ -29,7 +29,7 @@ SECTION "RivalSpriteGFX", ROMX
 RivalSpriteGFX:: INCBIN "gfx/sprites/rival.2bpp.lz"
 
 SECTION "FalknerSpriteGFX", ROMX
-FalknerSpriteGFX:: INCBIN "gfx/sprites/falkner.2bpp.lz"
+FalknerSpriteGFX:: INCBIN "gfx/sprites/rancid.2bpp.lz"
 
 SECTION "WhitneySpriteGFX", ROMX
 WhitneySpriteGFX:: INCBIN "gfx/sprites/whitney.2bpp.lz"

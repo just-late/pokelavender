@@ -77,7 +77,7 @@ Route32Frieda:
 Route32CooltrainermPetrieScript:
 	faceplayer
 Route32CooltrainerMTrigger:
-	checkflag ENGINE_ZEPHYRBADGE
+	checkflag ENGINE_PUNKBADGE
 	iffalse_jumptext Route32CooltrainerMText_MoonflowerGym
 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
 	iffalse_jumptext Route32CooltrainerMText_AideIsWaiting

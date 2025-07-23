@@ -30,7 +30,7 @@ MoonflowerBikeTest_Script:
 MoonflowerBikeShopNPC1Script:
     checkevent EVENT_GOT_BIKE
     iftruefwd .AlreadyGotBike
-    checkflag ENGINE_ZEPHYRBADGE
+    checkflag ENGINE_PUNKBADGE
     iftruefwd .GiveBikeScript
     showtext MoonflowerBikeShopNPC1Text1
     end

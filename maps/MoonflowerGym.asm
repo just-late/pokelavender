@@ -10,74 +10,84 @@ MoonflowerGym_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  3, 11, BGEVENT_READ, MoonflowerGymStatue
-	bg_event  6, 11, BGEVENT_READ, MoonflowerGymStatue
+	bg_event  0,  9, BGEVENT_READ, MoonflowerGymStatue
+	bg_event  0, 10, BGEVENT_READ, MoonflowerGymStatue
 
-	def_object_events
-	object_event  5, -1, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MoonflowerGymFalknerScript, EVENT_MOONFLOWER_GYM_FALKNER
-	object_event  7,  4, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperRod, EVENT_MOONFLOWER_GYM_FALKNER
-	object_event  2,  8, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperAbe, EVENT_MOONFLOWER_GYM_FALKNER
-	object_event  7, 11, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, EVENT_MOONFLOWER_GYM_FALKNER
+	db 14 ; object_events
+	person_event SPRITE_BIKER, 12, 12, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
+	person_event SPRITE_FAT_GUY, 12, 13, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
+	person_event SPRITE_FALKNER, 3,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, MoonflowerGymRancidScript, -1
+	person_event SPRITE_PIDGEOTTO_SIDE,  3,  8, SPRITEMOVEDATA_MICROPHONE, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MoonflowerGymMicrophoneText, -1
+	person_event SPRITE_ROCKER, 10,  7, SPRITEMOVEDATA_STANDING_LEFT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGuitarist_mClyde, -1
+	person_event SPRITE_BATTLE_GIRL,  6,  6, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGuitarist_fJanet, -1
+	person_event SPRITE_GYM_GUY,  9,  1, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, -1
+	person_event SPRITE_FAT_GUY, 11,  8, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC1Text, -1
+	person_event SPRITE_CUTE_GIRL,  7, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerGymWaitressScript, -1
+	person_event SPRITE_FISHER,  7,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC2Text, -1
+;	person_event SPRITE_COOL_DUDE,  6,  4, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC3Text, -1
+	person_event SPRITE_FAT_GUY,  9,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptext, MoonflowerGymNPC4Text, -1
+;	person_event SPRITE_POKEFAN_F,  8, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC5Text, -1
+;	person_event SPRITE_POKEFAN_M,  9, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC6Text, -1
 
 	object_const_def
+	const MOONFLOWER_BARFIGHT_BIKER
+	const MOONFLOWER_BARFIGHT_FAT_GUY
 
-MoonflowerGymFalknerScript:
+MoonflowerGymRancidScript:
 	faceplayer
 	opentext
-	checkevent EVENT_BEAT_FALKNER
+	checkevent EVENT_BEAT_RANCID
 	iftruefwd .FightDone
-	writetext FalknerIntroText
+	writetext RancidIntroText
 	waitbutton
 	closetext
-	winlosstext FalknerWinLossText, 0
+	winlosstext RancidWinLossText, 0
 	loadtrainer FALKNER, 1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_FALKNER
+	setevent EVENT_BEAT_RANCID
 	opentext
-	writetext ReceivedZephyrBadgeText
+	writetext ReceivedPunkBadgeText
 	playsound SFX_GET_BADGE
 	waitsfx
-	setflag ENGINE_ZEPHYRBADGE
+	setflag ENGINE_PUNKBADGE
 .FightDone:
-	checkevent EVENT_GOT_TM31_ROOST
-	iftrue_jumpopenedtext FalknerFightDoneText
-	setevent EVENT_BEAT_BIRD_KEEPER_ROD
-	setevent EVENT_BEAT_BIRD_KEEPER_ABE
-	specialphonecall SPECIALCALL_ASSISTANT
-	writetext FalknerZephyrBadgeText
+	checkevent EVENT_GOT_TM08_VENOSHOCK
+	iftrue_jumpopenedtext RancidFightDoneText
+	setevent EVENT_BEAT_GUITARISTM_CLYDE
+	setevent EVENT_BEAT_GUITARISTF_JANET
+	writetext RancidPunkBadgeText
 	promptbutton
-	verbosegivetmhm TM_ROOST
-	setevent EVENT_GOT_TM31_ROOST
-	jumpopenedtext FalknerTMMudSlapText
+	verbosegivetmhm TM_VENOSHOCK
+	setevent EVENT_GOT_TM08_VENOSHOCK
+	jumpopenedtext RancidTMVenoshockText
 
-GenericTrainerBird_keeperRod:
-	generictrainer BIRD_KEEPER, ROD, EVENT_BEAT_BIRD_KEEPER_ROD, Bird_keeperRodSeenText, Bird_keeperRodBeatenText
+GenericTrainerGuitarist_mClyde:
+	generictrainer GUITARISTM, CLYDE, EVENT_BEAT_GUITARISTM_CLYDE, Guitarist_mClydeSeenText, Guitarist_mClydeBeatenText
 
-	text "Falkner's skills"
-	line "are for real!"
-
-	para "Don't get cocky"
-	line "just because you"
-	cont "beat me!"
+	text "We haven't had"
+	line "challengers in"
+	cont "awhile, so I'm out"
+	cont "of practice."
 	done
 
-GenericTrainerBird_keeperAbe:
-	generictrainer BIRD_KEEPER, ABE, EVENT_BEAT_BIRD_KEEPER_ABE, Bird_keeperAbeSeenText, Bird_keeperAbeBeatenText
+GenericTrainerGuitarist_fJanet:
+	generictrainer GUITARISTF, JANET, EVENT_BEAT_GUITARISTF_JANET, Guitarist_fJanetSeenText, Guitarist_fJanetBeatenText
 
-	text "This is pathetic,"
-	line "losing to some"
-	cont "rookie trainer…"
+	text "Dangit!"
+
+	para "I didn't have any"
+	line "time for a solo!"
 	done
 
 MoonflowerGymGuyScript:
-	checkevent EVENT_BEAT_FALKNER
+	checkevent EVENT_BEAT_RANCID
 	iftrue_jumptextfaceplayer MoonflowerGymGuyWinText
 	jumptextfaceplayer MoonflowerGymGuyText
 
 MoonflowerGymStatue:
 	gettrainername FALKNER, 1, $1
-	checkflag ENGINE_ZEPHYRBADGE
+	checkflag ENGINE_PUNKBADGE
 	iftruefwd .Beaten
 	jumpstd gymstatue1
 .Beaten:
@@ -87,49 +97,110 @@ MoonflowerGymStatue:
 .LyraToo
 	jumpstd gymstatue3
 
-FalknerIntroText:
-	text "I'm Falkner, the"
-	line "Moonflower #MON Gym"
-	cont "Leader!"
+MoonflowerGymWaitressScript:
+	faceplayer
+	showtext MoonflowerGymWaitressText1
+	yesorno
+	iftruefwd .BoughtSodaPop
+	showtext MoonflowerGymWaitressText2
+	end
+.BoughtSodaPop
+	checkmoney $0, 500
+	ifequalfwd $2, .NotEnoughMoney
+	takemoney $0, 500
+	verbosegiveitem SODA_POP
+	closetext
+	end
 
-	para "People say you can"
-	line "clip Flying-type"
+.NotEnoughMoney
+	jumpthistext
 
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	text "Sorry!"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
-
-	para "I'll show you the"
-	line "real power of the"
-
-	para "magnificent bird"
-	line "#MON!"
+	para "You don't have"
+	line "enough money."
 	done
 
-FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#MON…"
+MoonflowerBarFightScript:
+	showtext MoonflowerBarFightText1
+	applymovement MOONFLOWER_BARFIGHT_BIKER, MoonflowerBarFightBikerMovement
+	showtext MoonflowerBarFightText2
+	applymovement MOONFLOWER_BARFIGHT_FAT_GUY, MoonflowerBarFightFatGuyMovement
+	end
 
-	para "All right."
-	line "Take this."
+MoonflowerBarFightText1:
+	text "They're fighting"
+	line "over something."
 
-	para "It's the official"
-	line "#MON League"
-	cont "Zephyr Badge."
+	para "…"
 	done
 
-ReceivedZephyrBadgeText:
+MoonflowerBarFightText2:
+	text "It seems they had"
+	line "too much MOOMOO"
+	cont "MILK."
+	done
+
+MoonflowerGymWaitressText1:
+	text "Hiya!"
+
+	para "Want a drink?"
+	line "It'll cost ¥500."
+	done
+
+MoonflowerGymWaitressText2:
+	text "Too strong, huh?"
+	done
+
+MoonflowerGymMicrophoneText:
+	text "It's a microphone."
+	done
+
+RancidIntroText:
+	text "I'm RANCID, the"
+	line "MOONFLOWER #MON"
+	cont "GYM LEADER!"
+
+	para "I run shows in"
+	line "this club 24/7,"
+	cont "except for when I'm"
+	cont "sleepin'."
+
+	para "I use POISON-TYPE"
+	line "#MON to bring up"
+	cont "the funk around"
+	cont "here!"
+
+	para "Usually, after the"
+	line "shows, I get paid."
+
+	para "Oh, you want a"
+	line "battle?"
+
+	para "Alright then, let's"
+	line "get this party"
+	cont "started!"
+	done
+
+RancidWinLossText:
+	text "OUUCH!"
+
+	para "I haven't had a"
+	line "loss like that in"
+	cont "awhile!"
+
+	para "Anyway, it's the"
+	line "rules that I give"
+	cont "you this."
+	done
+
+ReceivedPunkBadgeText:
 	text "<PLAYER> received"
-	line "the Zephyr Badge."
+	line "the PUNK BADGE."
 	done
 
-FalknerZephyrBadgeText:
-	text "The Zephyr Badge"
+RancidPunkBadgeText:
+	text "The PUNK BADGE"
 	line "enables you to"
 
 	para "command #MON,"
@@ -140,7 +211,7 @@ FalknerZephyrBadgeText:
 	line "too."
 	done
 
-FalknerTMMudSlapText:
+RancidTMVenoshockText:
 	text "By using a TM, a"
 	line "#MON will"
 
@@ -151,97 +222,137 @@ FalknerTMMudSlapText:
 	line "as many times as"
 	cont "you want."
 
-	para "TM51 contains"
-	line "Roost."
+	para "TM08 contains"
+	line "VENOSHOCK."
 
-	para "It lands on the"
-	line "ground to restore"
-	cont "half the max HP."
+	para "It does double"
+	line "damage if the tar-"
+	cont "get is POISONED."
 	done
 
-FalknerFightDoneText:
+RancidFightDoneText:
 	text "There are #MON"
-	line "Gyms in cities and"
+	line "GYMS in cities and"
 	cont "towns ahead."
 
 	para "You should test"
 	line "your skills at"
-	cont "these Gyms."
+	cont "these GYMS."
 
-	para "I'm going to train"
-	line "harder to become"
-
-	para "the greatest bird"
-	line "master!"
+	para "I'll train harder"
+	line "until I can do an"
+	cont "unforgettable"
+	cont "solo!"
 	done
 
-Bird_keeperRodSeenText:
-	text "The keyword is"
-	line "guts!"
-
-	para "Those here are"
-	line "training night and"
-
-	para "day to become bird"
-	line "#MON masters."
-
-	para "Come on!"
+Guitarist_mClydeSeenText:
+	text "Get ready for"
+	line "a fight!"
 	done
 
-Bird_keeperRodBeatenText:
+Guitarist_mClydeBeatenText:
 	text "Gaaah!"
 	done
 
-Bird_keeperAbeSeenText:
+Guitarist_fJanetSeenText:
 	text "Let me see if you"
 	line "are good enough to"
-	cont "face Falkner!"
+	cont "face RANCID!"
 	done
 
-Bird_keeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+Guitarist_fJanetBeatenText:
+	text "AARGGH!"
 	done
 
 MoonflowerGymGuyText:
-	text "Hey! I'm no train-"
-	line "er but I can give"
-	cont "some advice!"
+	text "Hey! Want a drink?"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "Don't worry, I'm"
+	line "joking."
 
-	para "championship dream"
-	line "can come true."
+	para "But I can give you"
+	line "some advice!"
 
-	para "You believe?"
-	line "Then listen."
+	para "Listen up."
 
-	para "The Grass-type is"
-	line "weak against the"
+	para "The POSION-TYPE is"
+	line "weak to GROUND and"
+	cont "PSYCHIC-TYPES."
 
-	para "Flying-type. Keep"
-	line "this in mind."
+	para "But GRASS-TYPES"
+	line "won't be a good"
+	cont "choice."
 	done
 
 MoonflowerGymGuyWinText:
 	text "Nice battle! Keep"
 	line "it up, and you'll"
 
-	para "be the Champ in no"
+	para "be the CHAMP in no"
 	line "time at all!"
 	done
 
-MoonflowerGymGuyFalknerAwayText:
-	text "Hey! You can't"
-	line "challenge Falkner"
-	cont "right now."
+MoonflowerGymNPC1Text:
+	text "Can I have another"
+	line "round, waitress?"
 
-	para "He's in Dark Cave"
-	line "taming an Ursa-"
+	para "Oh?"
 
-	para "ring that attacked"
-	line "a young trainer."
-
-	para "Come back later."
+	para "You're not the"
+	line "waitress!"
 	done
+
+MoonflowerGymNPC2Text:
+	text "Dang."
+
+	para "RANCID is hot."
+
+	para "Wait, wait, you"
+	line "didn't hear that!"
+	done
+
+MoonflowerGymNPC3Text:
+	text "I come here every"
+	line "night, for battles"
+	cont "and beverages!"
+	done
+
+MoonflowerGymNPC4Text:
+	text "Yeah, yeah."
+
+	para "Put it on my tab."
+	done
+
+MoonflowerGymNPC5Text:
+	text "I came here for a"
+	line "date."
+
+	para "I wasn't expecting"
+	line "this!"
+	done
+
+MoonflowerGymNPC6Text:
+	text "I come here every"
+	line "night with my"
+	cont "girlfriend."
+
+	para "Don't tell her how"
+	line "big my tab is!"
+	done
+
+MoonflowerBarFightBikerMovement:
+	fast_step_right
+	fix_facing
+	fast_step_left
+	remove_fixed_facing
+	step_end
+
+MoonflowerBarFightFatGuyMovement:
+	turn_head_right
+	fix_facing
+	fast_step_left
+	fast_step_right
+	fast_step_right
+	remove_fixed_facing
+	turn_head_left
+	step_end
