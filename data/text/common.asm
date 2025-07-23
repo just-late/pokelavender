@@ -176,9 +176,6 @@ SECTION "_OakTimeWokeUpText", ROMX
 _OakTimeWokeUpText::
 	text "………………………………"
 	line "………………………………"
-
-	para "Will you check the"
-	line "clock for me?"
 	prompt
 
 SECTION "_OakTimeWhatTimeIsItText", ROMX
@@ -193,39 +190,12 @@ _OakTimeHowManyMinutesText::
 
 SECTION "_OakTimeWhoaText", ROMX
 _OakTimeWhoaText::
-	text "Whoa!"
+	text "It's"
 	done
 
 SECTION "_OakTimeQuestionMarkText", ROMX
 _OakTimeQuestionMarkText::
 	text "?"
-	done
-
-SECTION "_OakTimeOversleptText", ROMX
-_OakTimeOversleptText::
-	text "!"
-	line "I overslept!"
-	done
-
-SECTION "_OakTimeYikesText", ROMX
-_OakTimeYikesText::
-	text "!"
-	line "Yikes! I over-"
-	cont "slept!"
-	done
-
-SECTION "ProfElmNappedText", ROMX
-ProfElmNappedText::
-	text "!"
-	line "I napped for"
-	cont "too long!"
-	done
-
-SECTION "_OakTimeSoDarkText", ROMX
-_OakTimeSoDarkText::
-	text "!"
-	line "No wonder it's so"
-	cont "dark!"
 	done
 
 SECTION "_OakTimeWhatDayIsItText", ROMX

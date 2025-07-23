@@ -86,8 +86,6 @@ endc
 
 .done:
 	call SetTimeOfDay
-	ld hl, OakText_ResponseToSetTime
-	call PrintText
 	call WaitPressAorB_BlinkCursor
 	pop af
 	ldh [hInMenu], a
@@ -262,51 +260,6 @@ Text_WhoaHoursMins:
 .QuestionMark:
 	; ?
 	text_far _OakTimeQuestionMarkText
-	text_end
-
-OakText_ResponseToSetTime:
-	text_asm
-	decoord 1, 14
-	call PrintHourColonMinute
-	ld a, [wInitHourBuffer]
-	cp MORN_HOUR
-	jr c, .nite
-	cp DAY_HOUR
-	jr c, .morn
-	cp EVE_HOUR
-	jr c, .day
-	cp NITE_HOUR
-	jr c, .eve
-.nite:
-	ld hl, .sodark
-	ret
-.morn:
-	ld hl, .overslept
-	ret
-.day:
-	ld hl, .yikes
-	ret
-.eve:
-	ld hl, .napped
-	ret
-
-.overslept
-	; ! I overslept!
-	text_far _OakTimeOversleptText
-	text_end
-
-.yikes
-	; ! Yikes! I over- slept!
-	text_far _OakTimeYikesText
-	text_end
-
-.napped
-	text_far ProfElmNappedText
-	text_end
-
-.sodark
-	; ! No wonder it's so dark!
-	text_far _OakTimeSoDarkText
 	text_end
 
 Special_SetDayOfWeek:
