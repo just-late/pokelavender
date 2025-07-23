@@ -117,26 +117,6 @@ MACRO object_event
 	redef {_NUM_OBJECT_EVENTS} += 1
 ENDM
 
-MACRO person_event
-; TODO: Remove unused argument \7 (Old HOUR_1)
-	db \1 ; sprite
-	db \2 + 4 ; y
-	db \3 + 4 ; x
-	db \4 ; movement function
-	dn \5, \6 ; radius: y, x
-	db \9 ; palette
-	db \8 ; time of day
-	db \<10> ; persontype
-	if \<10> == PERSONTYPE_COMMAND
-		db \<11>_command ; command id
-	else
-		db \<11> ; sight_range
-	endc
-		dw \<12> ; pointer || byte, 0
-		dw \<13> ; event flag
-	redef {_NUM_OBJECT_EVENTS} += 1
-ENDM
-
 MACRO itemball_event
 	object_event \1, \2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_ITEMBALL, PLAYEREVENT_ITEMBALL, \3, \4, \5
 ENDM
