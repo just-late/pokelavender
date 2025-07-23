@@ -28,17 +28,20 @@ MoonflowerCity_MapScriptHeader:
 	bg_event 15, 11, BGEVENT_ITEM + PP_UP, EVENT_MOONFLOWER_CITY_PP_UP
 
 	db 8 ; object_events
-	person_event SPRITE_GENTLEMAN,  8, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
+	person_event SPRITE_GENTLEMAN,  8, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeGearGuy_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
+	person_event SPRITE_FIREBREATHER, 15, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown1_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
+	person_event SPRITE_FIREBREATHER, 18, 10, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown2_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
 	person_event SPRITE_GRAMPS, 22, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC1Text, -1
 	person_event SPRITE_CHILD, 10, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC2Text, -1
 	person_event SPRITE_YOUNGSTER, 24, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC3Text, -1
 	person_event SPRITE_SCHOOLBOY, 19, 20, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC4Text, -1
-	person_event SPRITE_FIREBREATHER, 15, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown1_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
-	person_event SPRITE_FIREBREATHER, 18, 10, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown2_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
 	fruittree_event 18,  6, FRUITTREE_MOONFLOWER_CITY, CHERI_BERRY, PAL_NPC_RED
 
 	const_def 1 ; object constants
 	const MOONFLOWER_POKEGEAR_GUY
+	const MOONFLOWER_POKEGEAR_CLOWN1
+	const MOONFLOWER_POKEGEAR_CLOWN2
+
 
 MoonflowerCityFlyPoint:
 	setflag ENGINE_FLYPOINT_VIOLET
@@ -72,11 +75,122 @@ PokeGearGuy_SceneScript:
 	special RestartMapMusic
 	end
 
+MoonflowerPokeGearGuy_Script:
+	checkevent EVENT_GOT_POKEGEAR_QUESTION1
+	iffalsefwd .FindTheClowns
+	checkevent EVENT_GOT_POKEGEAR_QUESTION2
+	iffalsefwd .FindTheClowns
+	playmusic MUSIC_SHOW_ME_AROUND
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
+	faceplayer
+	opentext
+	writetext MoonflowerPokeGearGuy_Text3
+	waitbutton
+	closetext
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
+	faceplayer
+	opentext
+	writetext MoonflowerPokeGearGuy_Text4
+	setflag ENGINE_POKEGEAR
+	setflag ENGINE_PHONE_CARD
+	writetext ReceivedPokegearText
+	playsound SFX_ITEM
+	waitsfx
+	closetext
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
+	faceplayer
+	opentext
+	writetext MoonflowerPokeGearGuy_Text5
+	waitbutton
+	closetext
+	readvar VAR_FACING
+	ifequalfwd UP, .Up
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearGuyLeaves1_Movement
+	disappear MOONFLOWER_POKEGEAR_GUY
+	disappear MOONFLOWER_POKEGEAR_CLOWN1
+	disappear MOONFLOWER_POKEGEAR_CLOWN2
+	setevent EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
+	end
+
+.Up
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearGuyLeaves2_Movement
+	disappear MOONFLOWER_POKEGEAR_GUY
+	disappear MOONFLOWER_POKEGEAR_CLOWN1
+	disappear MOONFLOWER_POKEGEAR_CLOWN2
+	setevent EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
+	end
+
+.FindTheClowns
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
+	faceplayer
+	jumpthistext
+
+	text "You must find the"
+	line "#CLOWNS!"
+
+	para "Ask you questions"
+	line "they will!"
+	done
+
+MoonflowerPokeGearGuy_Text3:
+	text "Aha!"
+
+	para "Those are the"
+	line "TOKENS!"
+
+	para "Now then, let me"
+	line "tell you."
+
+	para "The #GEAR is"
+	line "the best device"
+	cont "known to me!"
+
+	para "Of course, I made"
+	line "it."
+	done
+
+MoonflowerPokeGearGuy_Text4:
+	text "This is it!"
+
+	para "The flashiest"
+	line "#GEAR a trainer"
+	cont "could want!"
+	done
+
+ReceivedPokegearText:
+	text "<PLAYER> received"
+	line "#GEAR."
+	done
+
+MoonflowerPokeGearGuy_Text5:
+	text "That #GEAR,"
+	line "it shall serve"
+	cont "you well!"
+
+	para "I have already"
+	line "installed the"
+	cont "PHONE CARD."
+
+	para "The other cards,"
+	line "cost money they"
+	cont "do."
+
+	para "But there may be"
+	line "some kind souls"
+	cont "who will give"
+	cont "them to you."
+
+	para "Now then, go I"
+	line "must!"
+	done
+
 PokeGearCampaignClown1_Script:
 	faceplayer
 	opentext
 	writetext PokeGearCampaignIntro_Text
 .Question1:
+	checkevent EVENT_GOT_POKEGEAR_QUESTION1
+	iftruefwd .AlreadyGotIt
 	writetext PokeGearCampaignQuestion1_Text
 	yesorno
 	iftruefwd .GotItRight
@@ -97,11 +211,19 @@ PokeGearCampaignClown1_Script:
 	closetext
 	end
 
+.AlreadyGotIt
+	writetext AlreadyGotItText
+	waitbuttton
+	closetext	
+	end			
+
 PokeGearCampaignClown2_Script:
 	faceplayer
 	opentext
 	writetext PokeGearCampaignIntro_Text
 .Question2:
+	checkevent EVENT_GOT_POKEGEAR_QUESTION2
+	iftruefwd .AlreadyGotIt
 	writetext PokeGearCampaignQuestion2_Text
 	yesorno
 	iffalsefwd .GotItRight
@@ -110,6 +232,12 @@ PokeGearCampaignClown2_Script:
 	writetext PokeGearCampaignWrong2_Text
 	yesorno
 	iftrue .Question2
+	closetext
+	end
+
+.AlreadyGotIt
+	writetext AlreadyGotItText
+	waitbuttton
 	closetext
 	end
 		
@@ -223,6 +351,12 @@ PokeGearCampaignIntro_Text:
 	para "I am a #CLOWN."
 	done	
 
+
+AlreadyGotItText:
+	text "You already got my"
+	line "question!"
+	done
+
 MoonflowerCityNPC1Text:
 	text "I come here every"
 	line "every morning to"
@@ -335,4 +469,24 @@ PokeGearGuyWalksBack_Movement:
 	turn_head_right
 	turn_head_down
 	turn_head_left
+	step_end
+
+PokeGearGuyLeaves1_Movement:
+	step_down
+	step_down
+	step_left
+	step_down
+	step_down
+	step_down
+	step_down
+	step_end
+
+PokeGearGuyLeaves2_Movement:
+	step_left
+	step_down
+	step_down
+	step_down
+	step_down
+	step_down
+	step_down
 	step_end
