@@ -30,7 +30,7 @@ GoldenrodNetBallHouseYoungsterScript:
 .Text2:
 	text "Sometimes you get"
 	line "really lucky and"
-	cont "catch a #mon at"
+	cont "catch a #MON at"
 
 	para "full HP. I love"
 	line "that feeling."

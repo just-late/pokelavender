@@ -53,7 +53,7 @@ RalphGenericText:
 	text "Are you taking"
 	line "good care of your"
 
-	para "#mon? You have"
+	para "#MON? You have"
 	line "to be good to your"
 	cont "partners!"
 	done

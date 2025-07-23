@@ -37,7 +37,7 @@ ArnieLostAMonText:
 
 ArnieBattleRematchText:
 	text "Hey, let's battle"
-	line "our #mon!"
+	line "our #MON!"
 
 	para "I won't lose to"
 	line "you battling or in"
@@ -77,7 +77,7 @@ ArnieSwarmText:
 ArnieHaventSeenRareMonText:
 	text "I haven't had any"
 	line "luck seeing rare"
-	cont "#mon lately…"
+	cont "#MON lately…"
 
 	para "But I know they're"
 	line "out there!"

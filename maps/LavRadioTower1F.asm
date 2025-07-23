@@ -181,7 +181,7 @@ LavRadioTower1FDirectoryText:
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Perk Up #mon"
+	text "Perk Up #MON"
 	line "with Mellow Sounds"
 
 	para "of the # Flute"
@@ -191,7 +191,7 @@ LavRadioTower1FPokeFluteSignText:
 ; TODO: use this text
 LavRadioTower1FReferenceLibraryText:
 	text "Wow! A full rack"
-	line "of #mon CDs and"
+	line "of #MON CDs and"
 	cont "videos."
 
 	para "This must be the"

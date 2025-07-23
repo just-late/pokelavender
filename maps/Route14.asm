@@ -31,7 +31,7 @@ GenericTrainerPokefanmTrevor:
 	line "an easy way to"
 
 	para "identify where I"
-	line "got my #mon…"
+	line "got my #MON…"
 
 	para "Oh! I can just"
 	line "check its stats!"
@@ -40,7 +40,7 @@ GenericTrainerPokefanmTrevor:
 PokefanmTrevorSeenText:
 	text "Hi. Did you know…?"
 
-	para "#mon get more"
+	para "#MON get more"
 	line "friendly if you"
 
 	para "train them in a"
@@ -68,7 +68,7 @@ PokefanmCarterSeenText:
 	line "I had a hard time"
 
 	para "catching my prized"
-	line "#mon."
+	line "#MON."
 	done
 
 PokefanmCarterBeatenText:
@@ -78,7 +78,7 @@ PokefanmCarterBeatenText:
 GenericTrainerBird_keeperRoy:
 	generictrainer BIRD_KEEPER, ROY, EVENT_BEAT_BIRD_KEEPER_ROY, Bird_keeperRoySeenText, Bird_keeperRoyBeatenText
 
-	text "You have #mon"
+	text "You have #MON"
 	line "that know the HM"
 
 	para "move Fly, don't"
@@ -88,7 +88,7 @@ GenericTrainerBird_keeperRoy:
 Bird_keeperRoySeenText:
 	text "My dream is to fly"
 	line "with my beloved"
-	cont "bird #mon."
+	cont "bird #MON."
 	done
 
 Bird_keeperRoyBeatenText:
@@ -190,7 +190,7 @@ GenericTrainerTeacherClarice:
 
 .SeenText:
 	text "All right, let's"
-	line "get this #mon"
+	line "get this #MON"
 	cont "battle started!"
 	done
 

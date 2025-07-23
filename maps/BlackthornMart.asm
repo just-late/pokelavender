@@ -22,7 +22,7 @@ BlackthornMartCooltrainermText:
 	line "Revive, but it"
 
 	para "fully restores a"
-	line "fainted #mon."
+	line "fainted #MON."
 
 	para "Beware--it won't"
 	line "restore PP, the"
@@ -33,7 +33,7 @@ BlackthornMartCooltrainermText:
 
 BlackthornMartBlackbeltText:
 	text "Max Repel keeps"
-	line "weak #mon away"
+	line "weak #MON away"
 	cont "from you."
 
 	para "It's the longest"

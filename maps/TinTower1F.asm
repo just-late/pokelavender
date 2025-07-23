@@ -344,13 +344,13 @@ TinTowerEusineSuicuneText:
 	line "mystic power"
 
 	para "summons a rainbow-"
-	line "colored #mon."
+	line "colored #MON."
 
 	para "Maybe, just maybe,"
 	line "what went on today"
 
 	para "will cause that"
-	line "#mon to appear."
+	line "#MON to appear."
 
 	para "I'm going to study"
 	line "the legends more."
@@ -367,16 +367,16 @@ TinTower1FSage1Text:
 	line "legend…"
 
 	para "When the souls of"
-	line "#mon and humans"
+	line "#MON and humans"
 
 	para "commune, from the"
 	line "heavens descends a"
 
-	para "#mon of rainbow"
+	para "#MON of rainbow"
 	line "colors…"
 
 	para "Could it mean the"
-	line "legendary #mon"
+	line "legendary #MON"
 
 	para "are testing us"
 	line "humans?"
@@ -391,7 +391,7 @@ endc
 	line "Tower burned down,"
 
 	para "three nameless"
-	line "#mon were said"
+	line "#MON were said"
 
 	para "to have perished."
 	line "It was tragic."
@@ -399,7 +399,7 @@ endc
 	para "However…"
 
 	para "A rainbow-colored"
-	line "#mon…"
+	line "#MON…"
 
 	para "In other words…"
 
@@ -407,7 +407,7 @@ endc
 	line "from the sky and"
 
 	para "gave new life to"
-	line "the three #mon."
+	line "the three #MON."
 
 	para "They are…"
 
@@ -465,7 +465,7 @@ TinTowerEusineHoOhText:
 	text "I knew it."
 
 	para "I knew you'd get"
-	line "to see the #mon"
+	line "to see the #MON"
 
 	para "of rainbow colors,"
 	line "<PLAYER>."
@@ -477,7 +477,7 @@ TinTowerEusineHoOhText:
 	line "bad, I might say."
 
 	para "I'm going to keep"
-	line "studying #mon"
+	line "studying #MON"
 
 	para "to become a famous"
 	line "#Maniac!"
@@ -497,7 +497,7 @@ TinTowerEusineHoOhText:
 
 TinTower1FSage4Text2:
 	text "The legendary"
-	line "#mon are said"
+	line "#MON are said"
 
 	para "to embody three"
 	line "powers…"
@@ -514,7 +514,7 @@ TinTower1FSage4Text2:
 
 TinTower1FSage5Text3:
 	text "When the legendary"
-	line "#mon appeared…"
+	line "#MON appeared…"
 
 	para "They struck terror"
 	line "in those who saw"
@@ -526,7 +526,7 @@ TinTower1FSage5Text3:
 	line "futile attacks."
 
 	para "The legendary"
-	line "#mon, knowing"
+	line "#MON, knowing"
 
 	para "their own power,"
 	line "fled, ignoring the"
@@ -535,7 +535,7 @@ TinTower1FSage5Text3:
 
 TinTower1FSage6Text2:
 	text "Of the legendary"
-	line "#mon, Suicune"
+	line "#MON, Suicune"
 
 	para "is said to be the"
 	line "closest to Ho-Oh."
@@ -543,10 +543,10 @@ TinTower1FSage6Text2:
 	para "I hear there may"
 	line "also be a link to"
 
-	para "#mon known as"
+	para "#MON known as"
 	line "Unown."
 
-	para "The #mon Unown"
+	para "The #MON Unown"
 	line "must be sharing a"
 
 	para "cooperative bond"

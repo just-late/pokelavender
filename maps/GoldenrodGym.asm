@@ -70,7 +70,7 @@ GoldenrodGymWhitneyScript:
 	text "It's Attract!"
 	line "It makes full use"
 
-	para "of a #mon's"
+	para "of a #MON's"
 	line "charm."
 
 	para "Isn't it just per-"
@@ -81,7 +81,7 @@ GoldenrodGymWhitneyScript:
 GenericTrainerLassCathy:
 	generictrainer LASS, CATHY, EVENT_BEAT_LASS_CATHY, LassCathySeenText, LassCathyBeatenText
 
-	text "Do my #mon"
+	text "Do my #MON"
 	line "think I'm cute?"
 	done
 
@@ -146,14 +146,14 @@ GoldenrodGymGuyScript:
 
 	para "This Gym is home"
 	line "to Normal-type"
-	cont "#mon trainers."
+	cont "#MON trainers."
 
 	para "I recommend you"
 	line "use Fighting-type"
-	cont "#mon."
+	cont "#MON."
 
 	para "But be careful--"
-	line "Fairy #mon"
+	line "Fairy #MON"
 
 	para "resist Fighting-"
 	line "type moves,"
@@ -188,10 +188,10 @@ WhitneyBeforeText:
 	text "Hi! I'm Whitney!"
 
 	para "Everyone was into"
-	line "#mon, so I got"
+	line "#MON, so I got"
 	cont "into it too!"
 
-	para "#mon are"
+	para "#MON are"
 	line "super cute!"
 
 	para "You want to bat-"
@@ -237,7 +237,7 @@ PlayerReceivedPlainBadgeText:
 
 WhitneyPlainBadgeText:
 	text "The Plain Badge"
-	line "lets your #mon"
+	line "lets your #MON"
 
 	para "use Strength out-"
 	line "side of battle."
@@ -256,7 +256,7 @@ WhitneyGoodCryText:
 
 LassCathySeenText:
 	text "Don't let my"
-	line "#mon's cute"
+	line "#MON's cute"
 
 	para "looks fool you."
 	line "They can whip you!"

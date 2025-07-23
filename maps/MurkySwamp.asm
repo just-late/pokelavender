@@ -89,13 +89,13 @@ MurkySwampCherylScript:
 
 .YesText:
 	text "I should warn you,"
-	line "my #mon can be"
+	line "my #MON can be"
 	cont "quite rambunc-"
 	cont "tious."
 	done
 
 .NoText:
-	text "Oh, but my #mon"
+	text "Oh, but my #MON"
 	line "were itching for"
 	cont "a battle…"
 	done
@@ -170,17 +170,17 @@ MurkySwampNurseBeatriceScript:
 	text "I'm a Nurse!"
 
 	line "Defeat me and I'll"
-	cont "heal your #mon!"
+	cont "heal your #MON!"
 	done
 
 .BeatenText:
 	text "But first I need"
 	line "to heal my own"
-	cont "#mon…"
+	cont "#MON…"
 	done
 
 .AfterText:
-	text "Making #mon"
+	text "Making #MON"
 	line "feel better--"
 
 	para "that's why I"

@@ -195,7 +195,7 @@ Text_ReceivedMineralBadge:
 
 Jasmine_BadgeSpeech:
 	text "With that Badge,"
-	line "all #mon up"
+	line "all #MON up"
 
 	para "to <LV>70, even"
 	line "traded ones, will"
@@ -230,7 +230,7 @@ OlivineGymGuyPreText:
 	cont "Lighthouse."
 
 	para "She's been tending"
-	line "to a sick #mon."
+	line "to a sick #MON."
 
 	para "A strong trainer"
 	line "has to be compas-"

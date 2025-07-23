@@ -47,7 +47,7 @@ GenericTrainerSightseermHari:
 	text "I've been traveling"
 	line "a lot just to meet"
 
-	para "every #mon"
+	para "every #MON"
 	line "Prof."
 
 	para "Wanna see the pho-"
@@ -68,7 +68,7 @@ GenericTrainerTamerJordan:
 	generictrainer TAMER, JORDAN, EVENT_BEAT_TAMER_JORDAN, .SeenText, .BeatenText
 
 	text "How did you tame"
-	line "your #mon so"
+	line "your #MON so"
 	cont "well?"
 
 	para "They're strong,"

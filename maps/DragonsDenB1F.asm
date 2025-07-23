@@ -125,7 +125,7 @@ DragonsDenShrineSignText:
 	text "Dragon Shrine"
 
 	para "A shrine honoring"
-	line "the dragon #mon"
+	line "the dragon #MON"
 
 	para "said to have lived"
 	line "in Dragon's Den."
@@ -192,7 +192,7 @@ DragonsDenB1FRivalScript:
 	text "…"
 	line "Listen."
 
-	para "The #mon I…"
+	para "The #MON I…"
 	line "took from the Lab…"
 
 	para "It had an Egg."
@@ -221,7 +221,7 @@ DragonsDenB1FRivalScript:
 	para "…No, I won't"
 	line "battle you now…"
 
-	para "My #mon aren't"
+	para "My #MON aren't"
 	line "ready to beat you."
 
 	para "I can't push them"
@@ -439,7 +439,7 @@ KimonoGirlMinaScript:
 
 	para "Allow me to cha-"
 	line "llenge you and"
-	cont "your #mon!"
+	cont "your #MON!"
 	done
 
 .BeatenText:

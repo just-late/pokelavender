@@ -182,7 +182,7 @@ BattleTowerOutsideYoungsterScript:
 	line "Tower is huge!"
 
 	para "There must be many"
-	line "kinds of #mon"
+	line "kinds of #MON"
 	cont "in there!"
 	done
 
@@ -198,12 +198,12 @@ BattleTowerOutsideBeautyScript:
 	line "anything, I guess"
 
 	para "it must be for"
-	line "#mon battles."
+	line "#MON battles."
 	done
 
 .OpenText:
 	text "You can use only"
-	line "three #mon."
+	line "three #MON."
 
 	para "It's so hard to"
 	line "decide which three"

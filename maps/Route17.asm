@@ -261,10 +261,10 @@ Route17Notice1Text:
 Route17TrainerTips1Text:
 	text "Trainer Tips"
 
-	para "All #mon are"
+	para "All #MON are"
 	line "unique."
 
-	para "Two #mon of the"
+	para "Two #MON of the"
 	line "same species and"
 	cont "level may still"
 

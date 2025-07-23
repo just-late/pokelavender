@@ -45,7 +45,7 @@ CeladonHotel1FRichBoyGeraldScript:
 	end
 
 CeladonHotel1FGrampsText:
-	text "#mon? No, this"
+	text "#MON? No, this"
 	line "is a hotel for"
 	cont "people."
 

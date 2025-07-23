@@ -143,7 +143,7 @@ EusineLeavesCeladonText:
 	line "fresh rumors of a"
 
 	para "rainbow-colored"
-	line "#mon appearing"
+	line "#MON appearing"
 	cont "at Bell Tower."
 
 	para "I've just had my"
@@ -162,7 +162,7 @@ EusineNoBeastsText:
 
 	para "Have you caught"
 	line "the legendary"
-	cont "beast #mon?"
+	cont "beast #MON?"
 
 	para "………………"
 
@@ -209,7 +209,7 @@ EusinesHouseGrampsEusineSearchingForSuicuneText:
 
 	para "I taught him all"
 	line "about the legend-"
-	cont "ary #mon!"
+	cont "ary #MON!"
 	done
 
 EusinesHouseGrampsEusineSearchingForHoOhText:

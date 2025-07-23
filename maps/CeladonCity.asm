@@ -106,7 +106,7 @@ CeladonCityRichBoyText:
 
 Text_CeladonCityTutorSwagger:
 	text "I shall teach"
-	line "your #mon to"
+	line "your #MON to"
 
 	para "Swagger like me"
 	line "for merely a"
@@ -238,7 +238,7 @@ CeladonCityLassText_PCC:
 	cont "buildings!"
 
 	para "Isn't it true that"
-	line "Goldenrod #mon"
+	line "Goldenrod #MON"
 
 	para "Center was made"
 	line "much, much bigger?"
@@ -251,7 +251,7 @@ CeladonCityLassText_PCC:
 	done
 
 CeladonCityLassText:
-	text "#mon are offer-"
+	text "#MON are offer-"
 	line "ed as prizes at"
 	cont "the Game Corner."
 
@@ -267,7 +267,7 @@ CeladonCitySignText:
 
 CeladonGymSignText:
 	text "Celadon City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Erika"
 
 	para "The Nature-Loving"
@@ -331,7 +331,7 @@ if DEF(FAITHFUL)
 else
 	para "Guard Stats"
 endc
-	line "protects #mon"
+	line "protects #MON"
 
 	para "against stat"
 	line "reductions."
@@ -344,7 +344,7 @@ endc
 CeladonCityTrainerTips2Text:
 	text "Trainer Tips"
 
-	para "Eevee is a #mon"
+	para "Eevee is a #MON"
 	line "full of potential."
 
 	para "Try exposing it to"

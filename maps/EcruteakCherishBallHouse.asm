@@ -33,7 +33,7 @@ EcruteakCherishBallHouseGrampsScript:
 	line "cherish the time"
 
 	para "I spent with"
-	line "#mon."
+	line "#MON."
 	done
 
 .Text1:

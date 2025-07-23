@@ -42,7 +42,7 @@ Route5AdvancedTipsSignText:
 	para "item, but it"
 	line "causes confusion."
 
-	para "But a #mon"
+	para "But a #MON"
 	line "with the Own Tempo"
 
 	para "Ability won't"

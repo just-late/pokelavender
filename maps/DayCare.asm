@@ -316,7 +316,7 @@ DayCareLyraHasInfoText:
 	line "pa taught me a lot"
 
 	para "about raising"
-	line "#mon, and I'd"
+	line "#MON, and I'd"
 
 	para "like to share it"
 	line "with you."
@@ -349,7 +349,7 @@ DayCareManText_GiveOddEgg:
 	line "Eggs?"
 
 	para "I was raising"
-	line "#mon with my"
+	line "#MON with my"
 	cont "wife, you see."
 
 	para "We were shocked to"
@@ -374,7 +374,7 @@ DayCareText_DescribeOddEgg:
 	text "I found that when"
 	line "I was caring for"
 
-	para "someone's #mon"
+	para "someone's #MON"
 	line "before."
 
 	para "But the trainer"
@@ -394,7 +394,7 @@ DayCareLadyText_GiveLyrasEgg:
 
 DayCareLadyText_DescribeLyrasEgg:
 	text "That Egg came from"
-	line "her first #mon."
+	line "her first #MON."
 
 	para "She must really"
 	line "trust you as a"

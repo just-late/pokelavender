@@ -184,7 +184,7 @@ BlueOutroText:
 	line "Edge. It's not only"
 
 	para "for Rock-type"
-	line "#mon, got it?"
+	line "#MON, got it?"
 
 	para "…"
 
@@ -302,7 +302,7 @@ CooltrainerfBonitaSeenText:
 	done
 
 CooltrainerfBonitaBeatenText:
-	text "All of my #mon…"
+	text "All of my #MON…"
 
 	para "All dizzy and"
 	line "fainting…"

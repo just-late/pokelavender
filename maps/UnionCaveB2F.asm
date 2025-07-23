@@ -51,7 +51,7 @@ UnionCaveLapras:
 GenericTrainerCooltrainermNick:
 	generictrainer COOLTRAINERM, NICK, EVENT_BEAT_COOLTRAINERM_NICK, CooltrainermNickSeenText, CooltrainermNickBeatenText
 
-	text "Your #mon style"
+	text "Your #MON style"
 	line "is stunning and"
 	cont "colorful, I admit."
 
@@ -71,11 +71,11 @@ GenericTrainerCooltrainerfEmma:
 	generictrainer COOLTRAINERF, EMMA, EVENT_BEAT_COOLTRAINERF_EMMA, CooltrainerfEmmaSeenText, CooltrainerfEmmaBeatenText
 
 	text "Just once a week,"
-	line "a #mon comes to"
+	line "a #MON comes to"
 	cont "the water's edge."
 
 	para "I wanted to see"
-	line "that #mon…"
+	line "that #MON…"
 	done
 
 CooltrainermNickSeenText:
@@ -106,7 +106,7 @@ CooltrainerfGwenBeatenText:
 	done
 
 CooltrainerfEmmaSeenText:
-	text "If the #mon I"
+	text "If the #MON I"
 	line "liked were there,"
 	cont "I'd go anywhere."
 

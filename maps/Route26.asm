@@ -229,7 +229,7 @@ TrainerCooltrainerfBeth1:
 GenericTrainerPsychicRichard:
 	generictrainer PSYCHIC_T, RICHARD, EVENT_BEAT_PSYCHIC_RICHARD, PsychicRichardSeenText, PsychicRichardBeatenText
 
-	text "People and #mon"
+	text "People and #MON"
 	line "grow from their"
 	cont "experiences."
 
@@ -256,7 +256,7 @@ GenericTrainerFisherScott:
 	text "Just like in fish-"
 	line "ing, it's all over"
 
-	para "in #mon if you"
+	para "in #MON if you"
 	line "give up."
 	done
 
@@ -275,7 +275,7 @@ DragonTamerKazuSeenText:
 	text "I'm making my"
 	line "final preparations"
 
-	para "for the #mon"
+	para "for the #MON"
 	line "League."
 	done
 
@@ -296,7 +296,7 @@ CooltrainermGaven1BeatenText:
 
 CooltrainermGavenAfterText:
 	text "To get to the"
-	line "#mon League,"
+	line "#MON League,"
 
 	para "you have to get"
 	line "through Victory"
@@ -336,16 +336,16 @@ CooltrainerfBeth1SeenText:
 	cont "win at any cost."
 
 	para "I felt sorry for"
-	line "his #mon."
+	line "his #MON."
 	done
 
 CooltrainerfBeth1BeatenText:
-	text "#mon aren't"
+	text "#MON aren't"
 	line "tools of war."
 	done
 
 CooltrainerfBethAfterText:
-	text "#mon are in-"
+	text "#MON are in-"
 	line "valuable, lifelong"
 	cont "partners."
 	done
@@ -401,6 +401,6 @@ DragonTamerErickBeatenText:
 Route26SignText:
 	text "Route 26"
 
-	para "#mon League"
+	para "#MON League"
 	line "Reception Gate"
 	done

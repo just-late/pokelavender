@@ -93,7 +93,7 @@ GenericTrainerSwimmerfMayu:
 GenericTrainerSwimmerfLeona:
 	generictrainer SWIMMERF, LEONA, EVENT_BEAT_SWIMMERF_LEONA, .SeenText, .BeatenText
 
-	text "Your #mon--are"
+	text "Your #MON--are"
 	line "you following the"
 
 	para "latest trend in"
@@ -105,7 +105,7 @@ GenericTrainerSwimmerfLeona:
 	line "best swimsuit and"
 
 	para "my very best"
-	line "#mon!"
+	line "#MON!"
 	done
 
 .BeatenText:
@@ -221,7 +221,7 @@ GenericTrainerCamperPedro:
 	line "blanket, you can"
 
 	para "snuggle up to a"
-	line "warm #mon!"
+	line "warm #MON!"
 	done
 
 .SeenText:

@@ -349,13 +349,13 @@ BuenaPhoneWhenDoYouRelaxText:
 
 BuenaPhoneStarterPokemonText:
 	text "<PLAYER>, what was"
-	line "the first #mon"
+	line "the first #MON"
 	cont "you ever caught?"
 
 	para "…Oh, really?"
 
 	para "I've seen lots of"
-	line "#mon around,"
+	line "#MON around,"
 
 	para "but I've never"
 	line "caught one."
@@ -364,7 +364,7 @@ BuenaPhoneStarterPokemonText:
 	line "try sometime."
 
 	para "Did you know that"
-	line "the first #mon"
+	line "the first #MON"
 
 	para "Mary caught was a"
 	line "Drowzee?"
@@ -382,7 +382,7 @@ BuenaPhoneStarterPokemonText:
 	line "Meowth."
 
 	para "Let's chat about"
-	line "#mon again!"
+	line "#MON again!"
 
 	para "Bye-bye!"
 	done
@@ -422,7 +422,7 @@ BuenaPhoneBenAndFernText:
 	line "on the phone for"
 
 	para "hours about what"
-	line "#mon music they"
+	line "#MON music they"
 
 	para "should play on"
 	line "different days of"

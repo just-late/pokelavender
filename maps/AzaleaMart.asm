@@ -33,7 +33,7 @@ AzaleaMartCooltrainermText:
 AzaleaMartBugCatcherText:
 	text "A Great Ball is"
 	line "better for catch-"
-	cont "ing #mon than a"
+	cont "ing #MON than a"
 	cont "# Ball."
 
 	para "But Kurt's might"
@@ -62,13 +62,13 @@ AzaleaMartRockerText:
 
 	para "Love Balls used"
 	line "to catch same-"
-	cont "gender #mon,"
+	cont "gender #MON,"
 
 	para "and Fast Balls"
 	line "only worked for"
 
 	para "three different"
-	line "#mon species."
+	line "#MON species."
 
 	para "Thank goodness"
 	line "those problems"

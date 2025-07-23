@@ -84,7 +84,7 @@ Route44VeteranmScript:
 	done
 
 .IntroText:
-	text "My #mon are"
+	text "My #MON are"
 	line "wearing Rocky"
 	cont "Helmets."
 
@@ -102,7 +102,7 @@ Route44VeteranmScript:
 	text "I saw your"
 	line "battles."
 
-	para "Your #mon are"
+	para "Your #MON are"
 	line "really tough."
 
 	para "Are you ready?"
@@ -394,7 +394,7 @@ GenericTrainerCooltrainerfCybil:
 GenericTrainerPokemaniacZach:
 	generictrainer POKEMANIAC, ZACH, EVENT_BEAT_POKEMANIAC_ZACH, PokemaniacZachSeenText, PokemaniacZachBeatenText
 
-	text "If a #mon has"
+	text "If a #MON has"
 	line "different colors"
 
 	para "from usual, it's"
@@ -464,7 +464,7 @@ FisherEdgarSeenText:
 
 	para "That's my"
 	line "relationship"
-	cont "with my #mon."
+	cont "with my #MON."
 	done
 
 FisherEdgarBeatenText:
@@ -475,7 +475,7 @@ FisherEdgarBeatenText:
 Bird_keeperVance1SeenText:
 	text "Do you know about"
 	line "the legendary bird"
-	cont "#mon?"
+	cont "#MON?"
 	done
 
 Bird_keeperVance1BeatenText:
@@ -488,7 +488,7 @@ BirdKeeperVanceLegendaryBirdsText:
 	line "and Moltres are"
 
 	para "the three legend-"
-	line "ary bird #mon."
+	line "ary bird #MON."
 
 	para "I heard there are"
 	line "other legendary"
@@ -519,11 +519,11 @@ PsychicPhilBeatenText:
 PokemaniacZachSeenText:
 	text "I'll do anything"
 	line "to get my hands on"
-	cont "rare #mon!"
+	cont "rare #MON!"
 	done
 
 PokemaniacZachBeatenText:
-	text "Oooh, your #mon"
+	text "Oooh, your #MON"
 	line "are so appealing."
 	done
 

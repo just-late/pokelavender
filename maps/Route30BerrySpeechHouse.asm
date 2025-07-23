@@ -33,7 +33,7 @@ Route30BerryHousePokefanMScript:
 	done
 
 Route30BerrySpeechHouseMonEatBerriesText:
-	text "You know, #mon"
+	text "You know, #MON"
 	line "eat Berries."
 
 	para "They take time to"

@@ -57,7 +57,7 @@ JoeyGreetNiteText:
 
 JoeyGenericText:
 	text "How are your"
-	line "#mon doing?"
+	line "#MON doing?"
 
 	para "My "
 	text_ram wStringBuffer4

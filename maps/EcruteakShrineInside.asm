@@ -111,7 +111,7 @@ EcruteakShrineInsideReiGreetingText:
 
 	para "Did you come to"
 	line "have me bless one"
-	cont "of your #mon?"
+	cont "of your #MON?"
 
 	para "Or would you like"
 	line "to battle?"
@@ -119,7 +119,7 @@ EcruteakShrineInsideReiGreetingText:
 
 EcruteakShrineInsideReiBlessText:
 	text "Rei: OK, which"
-	line "#mon should I"
+	line "#MON should I"
 	cont "bless?"
 	done
 

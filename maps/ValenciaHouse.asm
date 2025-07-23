@@ -19,6 +19,6 @@ ValenciaHouseLassText:
 	line "cool!"
 
 	para "She helped my"
-	line "#mon when they"
+	line "#MON when they"
 	cont "were sick!"
 	done

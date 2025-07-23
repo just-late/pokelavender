@@ -20,7 +20,7 @@ PokemonJournalProfWillowScript:
 	setflag ENGINE_READ_PROF_WILLOW_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Prof.Willow!"
@@ -32,7 +32,7 @@ PokemonJournalProfWillowScript:
 	line "charted lands and"
 
 	para "document undis-"
-	line "covered #mon"
+	line "covered #MON"
 
 	para "species in their"
 	line "natural habitat."

@@ -20,7 +20,7 @@ NonTrainerCallerNames:
 	done
 .elm:
 	text  "Prof.Elm:"
-	next1 "   #mon Prof."
+	next1 "   #MON Prof."
 	done
 .bikeshop:
 	text  "Miracle Cycle:"

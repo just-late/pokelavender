@@ -41,7 +41,7 @@ GenericTrainerYoungsterOliver:
 GenericTrainerLassJennifer:
 	generictrainer LASS, JENNIFER, EVENT_BEAT_LASS_JENNIFER, LassJenniferSeenText, LassJenniferBeatenText
 
-	text "#mon are so"
+	text "#MON are so"
 	line "much fun."
 	cont "Don't you agree?"
 	done
@@ -50,7 +50,7 @@ GenericTrainerBird_keeperHank:
 	generictrainer BIRD_KEEPER, HANK, EVENT_BEAT_BIRD_KEEPER_HANK, Bird_keeperHankSeenText, Bird_keeperHankBeatenText
 
 	text "If you have a"
-	line "specific #mon"
+	line "specific #MON"
 
 	para "that you want to"
 	line "raise, put it out"
@@ -161,7 +161,7 @@ LassJenniferSeenText:
 	line "chance I get,"
 
 	para "just to spend time"
-	line "with my #mon."
+	line "with my #MON."
 	done
 
 LassJenniferBeatenText:
@@ -170,7 +170,7 @@ LassJenniferBeatenText:
 
 Bird_keeperHankSeenText:
 	text "I'm raising my"
-	line "#mon. Want to"
+	line "#MON. Want to"
 	cont "battle with me?"
 	done
 
@@ -202,7 +202,7 @@ PicnickerSharonBeatenText: ; text > text
 	done
 
 Route4SuperNerd1Text:
-	text "#mon with tough"
+	text "#MON with tough"
 	line "heads are best!"
 
 	para "Arcanine, Golem,"
@@ -212,7 +212,7 @@ Route4SuperNerd1Text:
 	done
 
 Route4SuperNerd2Text:
-	text "#mon with long"
+	text "#MON with long"
 	line "tails are best!"
 
 	para "Slowbro, Golduck,"
@@ -225,7 +225,7 @@ Text_Route4TutorIronHead:
 	text "If you give me a"
 	line "Silver Leaf, I'll"
 
-	para "teach your #mon"
+	para "teach your #MON"
 	line "to use Iron Head!"
 	done
 
@@ -233,7 +233,7 @@ Text_Route4TutorAquaTail:
 	text "If you give me a"
 	line "Silver Leaf, I'll"
 
-	para "teach your #mon"
+	para "teach your #MON"
 	line "to use Aqua Tail!"
 	done
 
@@ -244,13 +244,13 @@ Text_Route4TutorsNoSilverLeaf:
 
 Text_Route4Tutor1Question:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Iron Head?"
 	done
 
 Text_Route4Tutor2Question:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Aqua Tail?"
 	done
 
@@ -265,13 +265,13 @@ Text_Route4Tutor2Refused:
 	done
 
 Text_Route4Tutor1Taught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows how to use"
 	cont "Iron Head!"
 	done
 
 Text_Route4Tutor2Taught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows how to use"
 	cont "Aqua Tail!"
 	done

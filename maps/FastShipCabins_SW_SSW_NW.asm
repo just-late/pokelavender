@@ -37,7 +37,7 @@ GenericTrainerBug_catcherKen:
 	generictrainer BUG_CATCHER, KEN, EVENT_BEAT_BUG_CATCHER_KEN, Bug_catcherKenSeenText, Bug_catcherKenBeatenText
 
 	text "You can find lots"
-	line "of #mon in the"
+	line "of #MON in the"
 	cont "trees of Johto!"
 	done
 
@@ -139,7 +139,7 @@ RichBoyWinstonSeenText:
 
 RichBoyWinstonBeatenText:
 	text "Wow! Who'd you buy"
-	line "your #mon from?"
+	line "your #MON from?"
 	done
 
 BeautyCassieSeenText:

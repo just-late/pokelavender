@@ -23,7 +23,7 @@ GenericTrainerVeteranmRemy:
 	line "when it comes to"
 
 	para "knowledge about"
-	line "#mon!"
+	line "#MON!"
 	done
 
 VeteranmRemySeenText:

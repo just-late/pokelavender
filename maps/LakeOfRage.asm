@@ -328,7 +328,7 @@ WesleyScript:
 GenericTrainerCooltrainermAaron:
 	generictrainer COOLTRAINERM, AARON, EVENT_BEAT_COOLTRAINERM_AARON, .SeenText, .BeatenText
 
-	text "#mon and their"
+	text "#MON and their"
 	line "trainer become"
 
 	para "powerful through"
@@ -381,12 +381,12 @@ GenericTrainerFisherAndre:
 
 	text "I won't lose as an"
 	line "angler! I catch"
-	cont "#mon all day."
+	cont "#MON all day."
 	done
 
 FisherAndreSeenText:
 	text "Let me battle with"
-	line "the #mon I just"
+	line "the #MON I just"
 	cont "caught!"
 	done
 
@@ -402,7 +402,7 @@ GenericTrainerFisherRaymond:
 	generictrainer FISHER, RAYMOND, EVENT_BEAT_FISHER_RAYMOND, FisherRaymondSeenText, FisherRaymondBeatenText
 
 	text "Why can't I catch"
-	line "any good #mon?"
+	line "any good #MON?"
 	done
 
 FisherRaymondSeenText:

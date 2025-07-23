@@ -23,14 +23,14 @@ PokemonJournalBlueScript:
 	setflag ENGINE_READ_BLUE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Blue!"
 
 	para "Blue supposedly"
 	line "visits his cher-"
-	cont "ished #mon"
+	cont "ished #MON"
 
 	para "every year in the"
 	line "House of Souls."

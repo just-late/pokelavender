@@ -84,7 +84,7 @@ GenericTrainerSightseermJaska:
 GenericTrainerTamerVince:
 	generictrainer TAMER, VINCE, EVENT_BEAT_TAMER_VINCE, .SeenText, .BeatenText
 
-	text "My #mon are"
+	text "My #MON are"
 	line "expertly tamed,"
 
 	para "but I remain as"

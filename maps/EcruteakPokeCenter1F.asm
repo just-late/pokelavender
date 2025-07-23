@@ -28,7 +28,7 @@ PokemonJournalMortyScript:
 	setflag ENGINE_READ_MORTY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Morty!"
@@ -92,7 +92,7 @@ EcruteakPokeCenter1FBillScript:
 
 	text "Whoa, wait. You"
 	line "can't carry any"
-	cont "more #mon."
+	cont "more #MON."
 	done
 
 .IntroText:
@@ -174,7 +174,7 @@ EcruteakPokeCenter1FBillScript:
 .GiftEeveeMail:
 	db   EON_MAIL
 	db   "Please keep this"
-	next "#mon safe!@@@@@@"
+	next "#MON safe!@@@@@@"
 
 .SetEeveeMailOT:
 	ld hl, sPartyMon1MailAuthor
@@ -206,7 +206,7 @@ EcruteakPokeCenter1FPokefanMScript:
 
 	para "marvelous. Just"
 	line "like the way they"
-	cont "use their #mon."
+	cont "use their #MON."
 	done
 
 .SurfText:
@@ -269,7 +269,7 @@ EcruteakPokeCenter1FCooltrainerFText:
 	line "Leader, is soooo"
 	cont "cool."
 
-	para "His #mon are"
+	para "His #MON are"
 	line "really tough too."
 	done
 

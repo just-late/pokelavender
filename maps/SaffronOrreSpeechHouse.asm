@@ -18,14 +18,14 @@ SaffronOrreSpeechHouse_MapScriptHeader:
 SaffronOrreSpeechHouseSilphEmployeeText:
 	text "I heard about a"
 	line "method to seal off"
-	cont "a #mon's heart"
+	cont "a #MON's heart"
 
 	para "and force them to"
 	line "attack people."
 
 	para "How could anyone"
 	line "do such a horrible"
-	cont "thing to #mon?!"
+	cont "thing to #MON?!"
 	done
 
 SaffronOrreSpeechHouseCooltrainerMText:

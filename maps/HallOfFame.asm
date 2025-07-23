@@ -116,7 +116,7 @@ HallOfFameEntranceTrigger:
 	line "eternity."
 
 	para "Their courageous"
-	line "#mon are also"
+	line "#MON are also"
 	cont "inducted."
 	done
 
@@ -139,7 +139,7 @@ HallOfFameEntranceTrigger:
 	line "compassion for,"
 
 	para "and trust toward,"
-	line "all #mon."
+	line "all #MON."
 
 	para "A trainer who"
 	line "succeeded through"

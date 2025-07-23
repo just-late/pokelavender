@@ -373,7 +373,7 @@ GoldenrodGameCornerFisherText:
 	line "Time to celebrate"
 	cont "with some slots!"
 
-	para "…You know, #mon"
+	para "…You know, #MON"
 	line "get a Pay Day too."
 	done
 
@@ -382,7 +382,7 @@ Text_GoldenrodGameCornerTutorPayDayQuestion:
 	line "Silver Leaf, I'll"
 
 	para "teach Pay Day to"
-	line "your #mon."
+	line "your #MON."
 	done
 
 Text_GoldenrodGameCornerTutorNoSilverLeaf:
@@ -447,7 +447,7 @@ GoldenrodGameCornerCooltrainerFText:
 
 GoldenrodGameCornerGentlemanText:
 	text "I taught Ice Beam"
-	line "to my #mon."
+	line "to my #MON."
 
 	para "It was hard to get"
 	line "enough coins for"

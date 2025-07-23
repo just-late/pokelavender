@@ -58,7 +58,7 @@ BeverlyGreetNiteText:
 
 BeverlyGenericText:
 	text "Keeping your"
-	line "#mon happy?"
+	line "#MON happy?"
 
 	para "My "
 	text_ram wStringBuffer4

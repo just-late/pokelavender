@@ -30,7 +30,7 @@ GenericTrainerPokefanmRobert:
 	generictrainer POKEFANM, ROBERT, EVENT_BEAT_POKEFANM_ROBERT, PokefanmRobertSeenText, PokefanmRobertBeatenText
 
 	text "Look what you did"
-	line "to my #mon…"
+	line "to my #MON…"
 
 	para "I won't forget"
 	line "this…"
@@ -53,7 +53,7 @@ HikerJimBeatenText:
 	done
 
 PokefanmRobertSeenText:
-	text "You like #mon,"
+	text "You like #MON,"
 	line "don't you?"
 
 	para "Me too!"
@@ -68,11 +68,11 @@ HexManiacAmySeenText:
 	text "Lavender Town…"
 
 	para "Where the spirits"
-	line "of #mon sleep…"
+	line "of #MON sleep…"
 	done
 
 HexManiacAmyBeatenText:
-	text "Your #mon are"
+	text "Your #MON are"
 	line "overflowing with"
 	cont "vitality…"
 	done

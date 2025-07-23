@@ -201,7 +201,7 @@ MahoganyTownSouvenirShopSignText1:
 
 MahoganyGymSignText:
 	text "Mahogany Town"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Pryce"
 
 	para "The Teacher of"

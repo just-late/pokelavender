@@ -156,12 +156,12 @@ GenericTrainerSwimmermMalcolm:
 	text "Don't tell me,"
 	line "you visit lots of"
 
-	para "#mon Gyms,"
+	para "#MON Gyms,"
 	line "right?"
 	done
 
 .SeenText:
-	text "My #mon and I"
+	text "My #MON and I"
 	line "swim together,"
 
 	para "but we also"
@@ -181,7 +181,7 @@ GenericTrainerSwimmermArmand:
 	cont "is good, but she's"
 
 	para "distracting the"
-	line "#mon!"
+	line "#MON!"
 	done
 
 .SeenText:
@@ -278,7 +278,7 @@ GenericTrainerGentlemanGeoffrey:
 .SeenText:
 	text "I wanted a change,"
 	line "so I got into"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 .BeatenText:
@@ -335,7 +335,7 @@ TrainerLadyJessica:
 
 .AfterText1:
 	text "I'll have to buy a"
-	line "better #mon…"
+	line "better #MON…"
 	cont "………………"
 	cont "And a new dress…"
 	done
@@ -362,7 +362,7 @@ GenericTrainerFisherLeroy:
 
 .SeenText:
 	text "I keep catching"
-	line "the same #mon…"
+	line "the same #MON…"
 
 	para "Maybe a battle"
 	line "will turn things"

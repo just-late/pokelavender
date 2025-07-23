@@ -277,7 +277,7 @@ BT_PartySelect:
 
 .too_many_mons_text
 	text "You may only enter"
-	line "with 3 #mon!"
+	line "with 3 #MON!"
 	prompt
 
 .Stats:
@@ -338,13 +338,13 @@ BTText_EnterBattle:
 	db "Enter battle?@"
 
 BTText_SameSpecies:
-	text "The #mon must"
+	text "The #MON must"
 	line "be of different"
 	cont "species!"
 	prompt
 
 BTText_SameItem:
-	text "The #mon's held"
+	text "The #MON's held"
 	line "items must differ!"
 	prompt
 
@@ -1284,7 +1284,7 @@ PartyMenuStrings:
 	dw Choose3MonString
 
 ChooseAMonString:
-	db "Choose a #mon.@"
+	db "Choose a #MON.@"
 UseOnWhichPKMNString:
 	db "Use on which <PK><MN>?@"
 WhichPKMNString:

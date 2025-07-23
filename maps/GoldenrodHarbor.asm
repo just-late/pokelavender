@@ -95,7 +95,7 @@ GoldenrodHarborMagikarpScript:
 	jumpthistext
 
 	text "This is a Fish"
-	line "#mon! Huh?"
+	line "#MON! Huh?"
 
 	para "It's only a doll…"
 	done
@@ -265,7 +265,7 @@ GoldenrodHarborFisherText:
 	line "you have to be"
 
 	para "quiet so you don't"
-	line "scare the #mon."
+	line "scare the #MON."
 
 	para "But to be heard"
 	line "over the waves,"
@@ -276,7 +276,7 @@ GoldenrodHarborFisherText:
 
 Text_GoldenrodHarborTutorHyperVoice:
 	text "I can teach your"
-	line "#mon how to"
+	line "#MON how to"
 
 	para "use Hyper Voice"
 	line "for a Silver Leaf."
@@ -289,7 +289,7 @@ Text_GoldenrodHarborTutorNoSilverLeaf:
 
 Text_GoldenrodHarborTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Hyper Voice?"
 	done
 
@@ -298,7 +298,7 @@ Text_GoldenrodHarborTutorRefused:
 	done
 
 Text_GoldenrodHarborTutorTaught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows how to use"
 	cont "Hyper Voice!"
 	done
@@ -306,11 +306,11 @@ Text_GoldenrodHarborTutorTaught:
 FisherPatonSeenText:
 	text "The fish I caught"
 	line "was attached to"
-	cont "another #mon!"
+	cont "another #MON!"
 	done
 
 FisherPatonBeatenText:
-	text "Aren't #mon"
+	text "Aren't #MON"
 	line "interesting?"
 	done
 

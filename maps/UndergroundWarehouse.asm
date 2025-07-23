@@ -164,7 +164,7 @@ DirectorAfterText:
 	para "They may even be"
 	line "able to control"
 
-	para "#mon using a"
+	para "#MON using a"
 	line "special signal!"
 
 	para "You're the only"

@@ -439,7 +439,7 @@ RematchYellowScript:
 
 BrockText_Greeting:
 	text "I like Rock-type"
-	line "#mon best."
+	line "#MON best."
 
 	para "They're solid and"
 	line "rough, yet brittle"
@@ -448,7 +448,7 @@ BrockText_Greeting:
 	para "You'll see how"
 	line "much stronger my"
 
-	para "rock #mon have"
+	para "rock #MON have"
 	line "become!"
 	done
 
@@ -547,7 +547,7 @@ WhitneyText_Greeting:
 
 MortyText_Greeting:
 	text "The legendary"
-	line "#mon did not"
+	line "#MON did not"
 	cont "choose me…"
 
 	para "But that does not"
@@ -576,7 +576,7 @@ JasmineText_Greeting:
 
 PryceText_Greeting:
 	text "No need for words."
-	line "A #mon battle"
+	line "A #MON battle"
 
 	para "is the way for us"
 	line "to communicate."
@@ -608,7 +608,7 @@ PalmerText_Greeting:
 	line "out as dedicated"
 
 	para "students of"
-	line "#mon!"
+	line "#MON!"
 	done
 
 LoreleiText_Greeting:
@@ -630,7 +630,7 @@ AgathaText_Greeting:
 	para "for that old duff"
 	line "Oak?"
 
-	para "#mon are for"
+	para "#MON are for"
 	line "battling!"
 
 	para "Show me your"
@@ -659,7 +659,7 @@ YellowText_Greeting:
 
 	para "Yes! You still"
 	line "take good care of"
-	cont "your #mon!"
+	cont "your #MON!"
 
 	para "You've gotten"
 	line "stronger, but so"
@@ -727,7 +727,7 @@ FalknerText_WinLoss:
 BugsyText_WinLoss:
 	text "You must have"
 	line "studied a lot"
-	cont "about #mon!"
+	cont "about #MON!"
 	done
 
 WhitneyText_WinLoss:

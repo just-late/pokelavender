@@ -114,7 +114,7 @@ Route48JessieJamesSeenText:
 	line "twerp!"
 
 	para "You know what"
-	line "#mon lives in"
+	line "#MON lives in"
 	cont "that forest?"
 	cont "Pikachu!"
 
@@ -150,7 +150,7 @@ Archer2SeenText:
 	cont "doesn't belong."
 
 	para "We're selling"
-	line "those #mon,"
+	line "those #MON,"
 
 	para "and there's nothing"
 	line "you can do about"
@@ -184,7 +184,7 @@ Route48NurseText1:
 
 	para "Thank you so much!"
 
-	para "Your #mon de-"
+	para "Your #MON de-"
 	line "serve a rest after"
 	cont "all that."
 	done
@@ -193,10 +193,10 @@ Route48NurseText2:
 	text "I like to relax"
 	line "here by the forest"
 	cont "and watch the"
-	cont "#mon play."
+	cont "#MON play."
 
 	para "I'll heal your"
-	line "#mon any time!"
+	line "#MON any time!"
 
 	para "Thanks again!"
 	done

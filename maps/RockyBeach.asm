@@ -44,7 +44,7 @@ GenericTrainerSightseermBlaise:
 
 	text "Je fais le tour"
 	line "du monde avec mon"
-	cont "#mon."
+	cont "#MON."
 	done
 
 .SeenText:
@@ -142,7 +142,7 @@ GenericTrainerBreederBrenda:
 
 .SeenText:
 	text "The key to good"
-	line "#mon breeding"
+	line "#MON breeding"
 
 	para "is a good enviro-"
 	line "nment."
@@ -152,7 +152,7 @@ GenericTrainerBreederBrenda:
 	done
 
 .BeatenText:
-	text "Your #mon are"
+	text "Your #MON are"
 	line "well-bred."
 	done
 

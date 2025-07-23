@@ -70,7 +70,7 @@ TrainerTipsSignText:
 
 	para "Do not travel on"
 	line "Route 1 without a"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "It could land you"
 	line "in serious"
@@ -113,7 +113,7 @@ OldGrannyText:
 	line "age, I traveled"
 
 	para "the world with"
-	line "my #mon. We had"
+	line "my #MON. We had"
 	para "some fun" 
 	line "adventures!"
 	done
@@ -134,7 +134,7 @@ FatGuyTechnologyText:
 	cont "better and better!"
 
 	para "You can now access"
-	line "the #mon Box"
+	line "the #MON Box"
 	cont "from your bag!"
 	done
 
@@ -152,7 +152,7 @@ NouraTraveler1Text:
 NouraTraveler2Text:
 	text "It's a Rare Candy!"
 	line "Try using it on"
-	cont "a #mon."
+	cont "a #MON."
 	done
 
 FisherText:

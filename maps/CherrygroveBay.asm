@@ -61,7 +61,7 @@ CherrygroveBayTutorEarthPowerScript:
 GenericTrainerSwimmermThomas:
 	generictrainer SWIMMERM, THOMAS, EVENT_BEAT_SWIMMERM_THOMAS, .SeenText, .BeatenText
 
-	text "My #mon knows"
+	text "My #MON knows"
 	line "how to Surf, but"
 	cont "I prefer swimming."
 	done
@@ -81,7 +81,7 @@ GenericTrainerSwimmerfSally:
 
 	text "I like drifting on"
 	line "the waves along-"
-	cont "side my #mon!"
+	cont "side my #MON!"
 	done
 
 .SeenText:
@@ -149,7 +149,7 @@ CherrygroveBayFisherText:
 
 CherrygroveBayHikerText:
 	text "I don't believe in"
-	line "legendary #mon"
+	line "legendary #MON"
 	cont "creation myths."
 
 	para "Johto was formed"
@@ -161,7 +161,7 @@ CherrygroveBayHikerText:
 
 Text_CherrygroveBayTutorEarthPower:
 	text "I can teach your"
-	line "#mon how to"
+	line "#MON how to"
 
 	para "use Earth Power"
 	line "for a Silver Leaf."
@@ -174,7 +174,7 @@ Text_CherrygroveBayTutorNoSilverLeaf:
 
 Text_CherrygroveBayTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Earth Power?"
 	done
 
@@ -183,7 +183,7 @@ Text_CherrygroveBayTutorRefused:
 	done
 
 Text_CherrygroveBayTutorTaught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows how to use"
 	cont "Earth Power."
 	done

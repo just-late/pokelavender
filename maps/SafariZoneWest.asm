@@ -46,14 +46,14 @@ GenericTrainerCamperAmos:
 
 	text "I'll search far"
 	line "and wide for new"
-	cont "#mon."
+	cont "#MON."
 	done
 
 GenericTrainerTamerBrett:
 	generictrainer TAMER, BRETT, EVENT_BEAT_TAMER_BRETT, TamerBrettSeenText, TamerBrettBeatenText
 
 	text "You have to com-"
-	line "mand #mon with"
+	line "mand #MON with"
 	cont "confidence."
 
 	para "Earning Badges can"
@@ -63,7 +63,7 @@ GenericTrainerTamerBrett:
 LassDuplicaSeenText:
 	text "To truly use"
 	line "Ditto, you must"
-	cont "know all #mon!"
+	cont "know all #MON!"
 	done
 
 LassDuplicaBeatenText:
@@ -72,7 +72,7 @@ LassDuplicaBeatenText:
 	done
 
 CamperAmosSeenText:
-	text "Plenty of #mon"
+	text "Plenty of #MON"
 	line "live in the Safari"
 	cont "Zone."
 
@@ -89,7 +89,7 @@ CamperAmosBeatenText:
 TamerBrettSeenText:
 	text "Do you know how to"
 	line "handle aggressive"
-	cont "#mon?"
+	cont "#MON?"
 	done
 
 TamerBrettBeatenText:
@@ -108,7 +108,7 @@ SafariZoneWestRestHouseSignText:
 SafariZoneWestTrainerTips1SignText:
 	text "Trainer Tips"
 
-	para "Fire-type #mon"
+	para "Fire-type #MON"
 	line "cannot be burnt,"
 
 	para "Electric types"
@@ -122,7 +122,7 @@ SafariZoneWestTrainerTips2SignText:
 	text "Trainer Tips"
 
 	para "In a sandstorm,"
-	line "Rock-type #mon"
+	line "Rock-type #MON"
 
 	para "get a boost to"
 	line "their Sp.Def."

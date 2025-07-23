@@ -121,7 +121,7 @@ Route27VeteranfScript:
 	line "then you must be"
 
 	para "heading for the"
-	line "#mon League."
+	line "#MON League."
 
 	para "Want to train"
 	line "with me?"
@@ -148,7 +148,7 @@ Route27VeteranfScript:
 	done
 
 .SeenText:
-	text "My #mon are"
+	text "My #MON are"
 	line "all wearing"
 	cont "Choice Specs."
 
@@ -159,13 +159,13 @@ Route27VeteranfScript:
 
 .BeatenText:
 	text "You're ready for"
-	line "the #mon"
+	line "the #MON"
 	cont "League, I'm sure!"
 	done
 
 .AfterText1:
 	text "Choice Specs will"
-	line "boost a #mon's"
+	line "boost a #MON's"
 	cont "Special Attack,"
 
 	para "but it can only"
@@ -413,10 +413,10 @@ GenericTrainerCooltrainerfMegan:
 
 	text "I'm checking out"
 	line "pre- and post-"
-	cont "evolution #mon."
+	cont "evolution #MON."
 
 	para "Evolution really"
-	line "does make #mon"
+	line "does make #MON"
 	cont "stronger."
 
 	para "But evolved forms"
@@ -481,7 +481,7 @@ CooltrainerfReena1SeenText:
 	text "You shouldn't"
 	line "underestimate the"
 
-	para "wild #mon in"
+	para "wild #MON in"
 	line "these parts."
 	done
 
@@ -520,7 +520,7 @@ PsychicGilbertSeenText:
 	para "Mmmmmmm…"
 
 	para "I got it! You're"
-	line "on the #mon"
+	line "on the #MON"
 	cont "League challenge!"
 	done
 
@@ -542,7 +542,7 @@ BirdKeeperJose2AfterBattleText:
 	line "me mimic bird"
 
 	para "whistles to com-"
-	line "mand #mon."
+	line "mand #MON."
 	done
 
 TohjoFallsSignText:

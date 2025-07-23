@@ -1,6 +1,6 @@
 DanaAskNumber1Text:
 	text "You're really good"
-	line "at #mon!"
+	line "at #MON!"
 
 	para "Boys give me items"
 	line "after battles, but"

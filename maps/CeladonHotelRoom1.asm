@@ -23,7 +23,7 @@ CeladonHotelRoom1CooltrainerMText:
 
 	para "People use Capture"
 	line "Stylers to be-"
-	cont "friend #mon."
+	cont "friend #MON."
 	done
 
 CeladonHotelRoom1LassText:

@@ -7,7 +7,7 @@ VanceAnswerPhoneText:
 	para "Morning, <PLAYER>!"
 
 	para "Are you using bird"
-	line "#mon?"
+	line "#MON?"
 	done
 
 VanceAnswerPhoneDayText:
@@ -19,7 +19,7 @@ VanceAnswerPhoneDayText:
 	para "Hi, <PLAYER>!"
 
 	para "Are your bird"
-	line "#mon flying?"
+	line "#MON flying?"
 	done
 
 VanceAnswerPhoneNiteText:
@@ -31,7 +31,7 @@ VanceAnswerPhoneNiteText:
 	para "Evening, <PLAYER>!"
 	line "Are you letting"
 
-	para "your bird #mon"
+	para "your bird #MON"
 	line "see some action?"
 	done
 
@@ -66,7 +66,7 @@ VanceGreetNiteText:
 
 VanceGenericText:
 	text "Are you and your"
-	line "#mon fine?"
+	line "#MON fine?"
 
 	para "My "
 	text_ram wStringBuffer4
@@ -77,5 +77,5 @@ VanceGenericText:
 	line "to face and beat"
 
 	para "the legendary bird"
-	line "#mon!"
+	line "#MON!"
 	done

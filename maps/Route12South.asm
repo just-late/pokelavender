@@ -40,7 +40,7 @@ GenericTrainerFisherMartin:
 FisherMartinSeenText:
 	text "Patience is the"
 	line "key to both fish-"
-	cont "ing and #mon."
+	cont "ing and #MON."
 	done
 
 FisherMartinBeatenText:
@@ -104,19 +104,19 @@ GenericTrainerFisherKyler:
 
 	text "Really? Rather"
 	line "than always catch-"
-	cont "ing new #mon,"
+	cont "ing new #MON,"
 
 	para "it's good to train"
 	line "them?"
 	done
 
 .SeenText:
-	text "#mon battles"
+	text "#MON battles"
 	line "lure people in!"
 	done
 
 .BeatenText:
-	text "My #mon bucket"
+	text "My #MON bucket"
 	line "is empty!"
 	done
 

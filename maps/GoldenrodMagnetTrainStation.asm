@@ -148,7 +148,7 @@ GoldenrodMagnetTrainStationGentlemanText:
 	line "build a train that"
 
 	para "is faster than any"
-	line "#mon."
+	line "#MON."
 
 	para "It really brings"
 	line "Johto much closer"

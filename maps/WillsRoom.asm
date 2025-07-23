@@ -78,7 +78,7 @@ WillScript:
 
 .SeenText:
 	text "Welcome to the"
-	line "#mon League,"
+	line "#MON League,"
 	cont "<PLAYER>."
 
 	para "Allow me to intro-"
@@ -89,7 +89,7 @@ WillScript:
 	line "around the world,"
 
 	para "making my Psychic"
-	line "#mon powerful."
+	line "#MON powerful."
 
 	para "And, at last, I've"
 	line "been accepted into"

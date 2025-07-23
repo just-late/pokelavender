@@ -21,7 +21,7 @@ GuideGentsHouseGuideGentText:
 
 	para "Here's a word of"
 	line "advice: Catch lots"
-	cont "of #mon!"
+	cont "of #MON!"
 
 	para "Treat them all"
 	line "with kindness!"

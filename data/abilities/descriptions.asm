@@ -322,7 +322,7 @@ ChlorophyllDescription:
 
 IlluminateDescription:
 	text  "Raises the rate"
-	next1 "of wild #mon."
+	next1 "of wild #MON."
 	done
 
 TraceDescription:
@@ -397,7 +397,7 @@ FlameBodyDescription:
 
 RunAwayDescription:
 	text  "Sure getaway from"
-	next1 "wild #mon."
+	next1 "wild #MON."
 	done
 
 KeenEyeDescription:
@@ -411,7 +411,7 @@ HyperCutterDescription:
 	done
 
 PickupDescription:
-	text  "The #mon may"
+	text  "The #MON may"
 	next1 "pick up items."
 	done
 
@@ -652,7 +652,7 @@ SnowWarningDescription:
 	done
 
 HoneyGatherDescription:
-	text  "The #mon may"
+	text  "The #MON may"
 if DEF(FAITHFUL)
 	next1 "gather Honey."
 else

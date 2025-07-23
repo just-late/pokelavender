@@ -131,7 +131,7 @@ SaffronCityCooltrainerMText:
 
 SaffronCityCooltrainerFText:
 	text "This is Silph Co.,"
-	line "famous for #mon"
+	line "famous for #MON"
 	cont "merchandise."
 
 	para "In the past, Team"
@@ -220,7 +220,7 @@ SaffronCitySuperNerdText:
 	text "There was a time"
 	line "when Psychic-type"
 
-	para "#mon were be-"
+	para "#MON were be-"
 	line "lieved to be the"
 
 	para "strongest, and Bug"
@@ -262,11 +262,11 @@ SaffronCitySignText:
 
 SaffronGymSignText:
 	text "Saffron City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Sabrina"
 
 	para "The Mistress of"
-	line "Psychic #mon!"
+	line "Psychic #MON!"
 	done
 
 FightingDojoSignText:
@@ -291,7 +291,7 @@ SaffronCityMagnetTrainStationSignText:
 	done
 
 PokemonTrainerFanClubSignText:
-	text "#mon Trainer"
+	text "#MON Trainer"
 	line "Fan Club"
 
 	para "Many trainers have"
@@ -306,7 +306,7 @@ SaffronTrainerTips1Text:
 	line "identifies even"
 
 	para "the most well-"
-	line "disguised #mon!"
+	line "disguised #MON!"
 	done
 
 SaffronTrainerTips2Text:

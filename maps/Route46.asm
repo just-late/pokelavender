@@ -196,12 +196,12 @@ Route46HikerText:
 	line "me a lesson…"
 
 	para "Be careful around"
-	line "angry #mon!"
+	line "angry #MON!"
 	done
 
 Text_Route46TutorRollout:
 	text "I'll teach your"
-	line "#mon how to"
+	line "#MON how to"
 
 	para "use Rollout for"
 	line "a Silver Leaf."
@@ -215,7 +215,7 @@ Text_Route46TutorNoSilverLeaf:
 
 Text_Route46TutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Rollout?"
 	done
 
@@ -225,14 +225,14 @@ Text_Route46TutorRefused:
 
 Text_Route46TutorTaught:
 	text "All done! Your"
-	line "#mon learned"
+	line "#MON learned"
 	cont "to use Rollout!"
 	done
 
 HikerBaileySeenText:
 	text "Awright! I'll show"
 	line "you the power of"
-	cont "mountain #mon!"
+	cont "mountain #MON!"
 	done
 
 HikerBaileyBeatenText:
@@ -253,7 +253,7 @@ CamperTedBeatenText: ; text > text
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #mon"
+	text "I raise #MON"
 	line "too!"
 
 	para "Will you battle"

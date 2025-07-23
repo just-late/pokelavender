@@ -32,7 +32,7 @@ SlowpokeWellEntranceKurtText:
 	cont "so I can't move."
 
 	para "Rats! If I were"
-	line "fit, my #mon"
+	line "fit, my #MON"
 
 	para "would've punished"
 	line "them…"

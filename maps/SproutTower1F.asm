@@ -67,7 +67,7 @@ SageChowSeenText:
 
 	para "Here, we express"
 	line "our gratitude to"
-	cont "honor all #mon."
+	cont "honor all #MON."
 	done
 
 SageChowBeatenText:
@@ -85,7 +85,7 @@ SproutTower1FSage2Text:
 	line "built long ago"
 
 	para "as a place for"
-	line "#mon training."
+	line "#MON training."
 	done
 
 SproutTower1FTeacherText:
@@ -97,7 +97,7 @@ SproutTower1FTeacherText:
 	done
 
 SproutTower1FStatueText:
-	text "A #mon statue…"
+	text "A #MON statue…"
 
 	para "It looks very"
 	line "distinguished."
@@ -173,7 +173,7 @@ KimonoGirlMakoScript:
 
 	para "Then allow me to"
 	line "challenge you and"
-	cont "your #mon!"
+	cont "your #MON!"
 	done
 
 .BeatenText:

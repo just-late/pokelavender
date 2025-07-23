@@ -97,7 +97,7 @@ ValeriesHouseValerieText:
 	cont "that?"
 
 	para "I've always wanted"
-	line "to be a #mon,"
+	line "to be a #MON,"
 	cont "you see."
 
 	para "That desire is my"
@@ -110,7 +110,7 @@ ValeriesHouseValerieText:
 	para "And yet… the only"
 	line "time I feel truly"
 
-	para "one with #mon"
+	para "one with #MON"
 	line "is when we are"
 
 	para "embroiled in"

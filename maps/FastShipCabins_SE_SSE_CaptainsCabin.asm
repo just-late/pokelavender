@@ -144,7 +144,7 @@ GenericTrainerPokefanmJeremy:
 	generictrainer POKEFANM, JEREMY, EVENT_BEAT_POKEFANM_JEREMY, PokefanmJeremySeenText, PokefanmJeremyBeatenText
 
 	text "I must go to the"
-	line "#mon Salon and"
+	line "#MON Salon and"
 	cont "fix them up nice!"
 	done
 
@@ -152,7 +152,7 @@ GenericTrainerPokefanfGeorgia:
 	generictrainer POKEFANF, GEORGIA, EVENT_BEAT_POKEFANF_GEORGIA, PokefanfGeorgiaSeenText, PokefanfGeorgiaBeatenText
 
 	text "Oh, yes! I have to"
-	line "get my #mon out"
+	line "get my #MON out"
 	cont "of Day-Care!"
 	done
 
@@ -313,13 +313,13 @@ PsychicRodneyBeatenText:
 
 PokefanmJeremySeenText:
 	text "What do you think?"
-	line "My #mon are"
+	line "My #MON are"
 	cont "beautiful, yes?"
 	done
 
 PokefanmJeremyBeatenText:
 	text "Oh, no! My beauti-"
-	line "ful #mon!"
+	line "ful #MON!"
 	done
 
 PokefanfGeorgiaSeenText:

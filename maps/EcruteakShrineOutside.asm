@@ -41,7 +41,7 @@ EcruteakShrineOutsideSageText:
 	done
 
 EcruteakShrineOutsideStatueText:
-	text "A #mon statue…"
+	text "A #MON statue…"
 
 	para "It looks very"
 	line "serene."

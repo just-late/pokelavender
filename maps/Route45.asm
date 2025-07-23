@@ -83,7 +83,7 @@ Route45Dragon_tamerScript:
 .AfterText2:
 	text "The art of train-"
 	line "ing Dragon-type"
-	cont "#mon is just"
+	cont "#MON is just"
 	cont "amazing."
 
 	para "You should become"
@@ -111,7 +111,7 @@ Route45Dragon_tamerScript:
 .QuestionText:
 	text "Oh, you're ready."
 	line "It's time for a"
-	cont "duel: your #mon"
+	cont "duel: your #MON"
 	cont "versus my dragons."
 
 	para "Should we start"
@@ -135,7 +135,7 @@ Route45Dragon_tamerScript:
 
 .BeatenText:
 	text "How powerful!"
-	line "My #mon were"
+	line "My #MON were"
 	cont "no match for you."
 	done
 
@@ -258,7 +258,7 @@ GenericTrainerHikerMichael:
 	line "HP Up! Mmmm, yum!"
 
 	para "I keep drinking my"
-	line "#mon's!"
+	line "#MON's!"
 
 	para "I can't help it!"
 	done
@@ -355,14 +355,14 @@ GenericTrainerHikerTimothy:
 	line "ever happen to me"
 
 	para "was discovering"
-	line "#mon."
+	line "#MON."
 	done
 
 GenericTrainerCooltrainermRyan:
 	generictrainer COOLTRAINERM, RYAN, EVENT_BEAT_COOLTRAINERM_RYAN, CooltrainermRyanSeenText, CooltrainermRyanBeatenText
 
 	text "I see you're rais-"
-	line "ing your #mon"
+	line "ing your #MON"
 	cont "with care."
 
 	para "The bond you build"
@@ -379,7 +379,7 @@ GenericTrainerCooltrainerfKelly:
 
 	para "I want to win, but"
 	line "I also don't want"
-	cont "to harm #mon."
+	cont "to harm #MON."
 	done
 
 GenericTrainerCamperQuentin:
@@ -394,7 +394,7 @@ GenericTrainerCamperQuentin:
 
 BattleGirlNozomiSeenText:
 	text "This is no place"
-	line "for weak #mon!"
+	line "for weak #MON!"
 	done
 
 BattleGirlNozomiBeatenText:
@@ -406,7 +406,7 @@ HikerErikSeenText:
 	line "anything!"
 
 	para "Let me see if your"
-	line "#mon have been"
+	line "#MON have been"
 	cont "raised properly!"
 	done
 
@@ -424,12 +424,12 @@ HikerMichaelSeenText:
 	done
 
 HikerMichaelBeatenText:
-	text "My #mon weren't"
+	text "My #MON weren't"
 	line "spunky enough!"
 	done
 
 HikerParry1SeenText:
-	text "My #mon are"
+	text "My #MON are"
 	line "power packed!"
 	done
 
@@ -454,7 +454,7 @@ HikerTimothySeenText:
 	line "there."
 
 	para "Why do I train"
-	line "#mon?"
+	line "#MON?"
 
 	para "Because they're"
 	line "there!"
@@ -519,7 +519,7 @@ BlackbeltKenjiNightText:
 CooltrainermRyanSeenText:
 	text "What are your"
 	line "thoughts on rais-"
-	cont "ing #mon?"
+	cont "ing #MON?"
 	done
 
 CooltrainermRyanBeatenText:

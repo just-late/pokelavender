@@ -460,7 +460,7 @@ _OPT_IntroText1::
 SECTION "_OPT_IntroText2", ROMX
 _OPT_IntroText2::
 	text_start
-	line "#mon Talk!"
+	line "#MON Talk!"
 	done
 
 SECTION "_OPT_IntroText3", ROMX
@@ -692,7 +692,7 @@ OPT_Speedy::
 
 SECTION "_OPT_PokemonChannelText", ROMX
 _OPT_PokemonChannelText::
-	text "#mon"
+	text "#MON"
 	done
 
 SECTION "_PokedexShowText", ROMX
@@ -707,7 +707,7 @@ _PokedexShowText::
 SECTION "_BenIntroText1", ROMX
 _BenIntroText1::
 	text_start
-	line "Ben: #mon Music"
+	line "Ben: #MON Music"
 	done
 
 SECTION "_BenIntroText2", ROMX
@@ -757,13 +757,13 @@ _BenFernText2B::
 SECTION "_BenFernText3A", ROMX
 _BenFernText3A::
 	text_start
-	line "#mon March!"
+	line "#MON March!"
 	done
 
 SECTION "_BenFernText3B", ROMX
 _BenFernText3B::
 	text_start
-	line "#mon Lullaby!"
+	line "#MON Lullaby!"
 	done
 
 ; Lucky Channel
@@ -1220,7 +1220,7 @@ _JustSawSomeRareMonText::
 
 	para "I'll call you if I"
 	line "see another rare"
-	cont "#mon, OK?"
+	cont "#MON, OK?"
 	prompt
 
 SECTION "_SavingRecordText", ROMX
@@ -1265,7 +1265,7 @@ _NPCTradeFanfareText::
 
 SECTION "_NPCTradeIntroText1", ROMX
 _NPCTradeIntroText1::
-	text "I collect #mon."
+	text "I collect #MON."
 	line "Do you have"
 	cont ""
 	text_ram wStringBuffer1
@@ -1312,7 +1312,7 @@ _NPCTradeAfterText1::
 SECTION "_NPCTradeIntroText2", ROMX
 _NPCTradeIntroText2::
 	text "Hi, I'm looking"
-	line "for this #mon."
+	line "for this #MON."
 
 	para "If you have"
 	line ""
@@ -1434,16 +1434,21 @@ _NPCTradeAfterText4::
 
 SECTION "_MomLeavingText1", ROMX
 _MomLeavingText1::
-	text "Wow, that's a cute"
-	line "#mon."
-
-	para "Where did you get"
-	line "it?"
+	text "Oh! Is that your"
+	line "#MON?"
 
 	para "…"
 
-	para "So, you're leaving"
-	line "on an adventure…"
+	para "Well, I'll be!"
+	line "It seems rather"
+	cont "excited."
+
+	para "…What's that?"
+
+	para "…"
+
+	para "PROF.ASPEN wants you"
+	line "to fill out a #DEX?"
 
 	para "OK!"
 	line "I'll help too."
@@ -1473,7 +1478,7 @@ SECTION "_MomLeavingText3", ROMX
 _MomLeavingText3::
 	text "Be careful."
 
-	para "#mon are your"
+	para "#MON are your"
 	line "friends. You need"
 	cont "to work as a team."
 
@@ -1572,7 +1577,7 @@ SECTION "_DayCareManIntroText", ROMX
 _DayCareManIntroText::
 	text "I'm the Day-Care"
 	line "Man. Want me to"
-	cont "raise a #mon?"
+	cont "raise a #MON?"
 	done
 
 SECTION "_DayCareManIntroEggText", ROMX
@@ -1582,7 +1587,7 @@ _DayCareManIntroEggText::
 	cont "about Eggs?"
 
 	para "I was raising"
-	line "#mon with my"
+	line "#MON with my"
 	cont "wife, you see."
 
 	para "We were shocked to"
@@ -1592,7 +1597,7 @@ _DayCareManIntroEggText::
 	line "that?"
 
 	para "So, want me to"
-	line "raise a #mon?"
+	line "raise a #MON?"
 	done
 
 SECTION "_DayCareLadyIntroText", ROMX
@@ -1601,7 +1606,7 @@ _DayCareLadyIntroText::
 	line "Lady."
 
 	para "Should I raise a"
-	line "#mon for you?"
+	line "#MON for you?"
 	done
 
 SECTION "_DayCareLadyIntroEggText", ROMX
@@ -1612,7 +1617,7 @@ _DayCareLadyIntroEggText::
 
 	para "My husband and I"
 	line "were raising some"
-	cont "#mon, you see."
+	cont "#MON, you see."
 
 	para "We were shocked to"
 	line "find an Egg!"
@@ -1621,7 +1626,7 @@ _DayCareLadyIntroEggText::
 	line "could that be?"
 
 	para "Should I raise a"
-	line "#mon for you?"
+	line "#MON for you?"
 	done
 
 SECTION "_WhatShouldIRaiseText", ROMX
@@ -1633,7 +1638,7 @@ _WhatShouldIRaiseText::
 SECTION "_OnlyOneMonText", ROMX
 _OnlyOneMonText::
 	text "Oh? But you have"
-	line "just one #mon."
+	line "just one #MON."
 	prompt
 
 SECTION "_CantAcceptEggText", ROMX
@@ -1691,7 +1696,7 @@ _YourMonHasGrownText::
 	text "."
 
 	para "If you want your"
-	line "#mon back, it"
+	line "#MON back, it"
 	cont "will cost ¥"
 	text_decimal wStringBuffer2 + 2, 3, 5
 	text "."
@@ -1700,7 +1705,7 @@ _YourMonHasGrownText::
 SECTION "_PerfectHeresYourMonText", ROMX
 _PerfectHeresYourMonText::
 	text "Perfect! Here's"
-	line "your #mon."
+	line "your #MON."
 	prompt
 
 SECTION "_GotBackMonText", ROMX
@@ -1722,7 +1727,7 @@ _BackAlreadyText::
 	line "more time with us."
 
 	para "If you want your"
-	line "#mon back, it"
+	line "#MON back, it"
 	cont "will cost ¥100."
 	done
 
@@ -1758,18 +1763,18 @@ _FoundAnEggText::
 	text "Ah, it's you!"
 
 	para "We were raising"
-	line "your #mon, and"
+	line "your #MON, and"
 
 	para "my goodness, were"
 	line "we surprised!"
 
-	para "Your #mon had"
+	para "Your #MON had"
 	line "an Egg!"
 
 	para "We don't know how"
 	line "it got there, but"
 
-	para "your #mon had"
+	para "your #MON had"
 	line "it. You want it?"
 	done
 
@@ -1805,7 +1810,7 @@ _NameRaterHelloText::
 	line "the Name Rater."
 
 	para "I rate the names"
-	line "of #mon."
+	line "of #MON."
 
 	para "Would you like me"
 	line "to rate names?"
@@ -1813,7 +1818,7 @@ _NameRaterHelloText::
 
 SECTION "_NameRaterWhichMonText", ROMX
 _NameRaterWhichMonText::
-	text "Which #mon's"
+	text "Which #MON's"
 	line "nickname should I"
 	cont "rate for you?"
 	prompt
@@ -1889,7 +1894,7 @@ _NameRaterSameNameText::
 SECTION "_NameRaterNamedText", ROMX
 _NameRaterNamedText::
 	text "All right. This"
-	line "#mon is now"
+	line "#MON is now"
 	cont "named "
 	text_ram wStringBuffer1
 	text "."
@@ -1994,7 +1999,7 @@ _ContainedMoveText::
 	para "Teach "
 	text_ram wStringBuffer2
 	text ""
-	line "to a #mon?"
+	line "to a #MON?"
 	done
 
 SECTION "_TMHMNotCompatibleText", ROMX
@@ -2137,7 +2142,7 @@ _MoveBoulderText::
 
 SECTION "_AskStrengthText", ROMX
 _AskStrengthText::
-	text "A #mon may be"
+	text "A #MON may be"
 	line "able to move this."
 
 	para "Want to use"
@@ -2152,7 +2157,7 @@ _BouldersMoveText::
 
 SECTION "_BouldersMayMoveText", ROMX
 _BouldersMayMoveText::
-	text "A #mon may be"
+	text "A #MON may be"
 	line "able to move this."
 	done
 
@@ -2168,7 +2173,7 @@ _MayPassWhirlpoolText::
 	text "It's a vicious"
 	line "whirlpool!"
 
-	para "A #mon may be"
+	para "A #MON may be"
 	line "able to pass it."
 	done
 
@@ -2195,7 +2200,7 @@ _HeadbuttNothingText::
 
 SECTION "_AskHeadbuttText", ROMX
 _AskHeadbuttText::
-	text "A #mon could be"
+	text "A #MON could be"
 	line "in this tree."
 
 	para "Want to Headbutt"
@@ -2215,7 +2220,7 @@ endc
 
 SECTION "_MaySmashText", ROMX
 _MaySmashText::
-	text "Maybe a #mon"
+	text "Maybe a #MON"
 	line "can break this."
 	done
 
@@ -2291,7 +2296,7 @@ _FoundItemText::
 SECTION "WhiteoutText", ROMX
 WhiteoutText::
 	text "<PLAYER> is out of"
-	line "useable #mon!"
+	line "useable #MON!"
 
 	para "<PLAYER> blacked"
 	line "out!"
@@ -2300,7 +2305,7 @@ WhiteoutText::
 SECTION "WhiteoutToWildText", ROMX
 WhiteoutToWildText::
 	text "<PLAYER> is out of"
-	line "useable #mon!"
+	line "useable #MON!"
 
 	para "<PLAYER> panicked"
 	line "and dropped"
@@ -2318,7 +2323,7 @@ WhiteoutToWildText::
 SECTION "WhiteoutToTrainerText", ROMX
 WhiteoutToTrainerText::
 	text "<PLAYER> is out of"
-	line "useable #mon!"
+	line "useable #MON!"
 
 	para "<PLAYER> paid"
 	line "¥"
@@ -2386,7 +2391,7 @@ _SquirtbottleNothingText::
 
 SECTION "_UseSacredAshText", ROMX
 _UseSacredAshText::
-	text "<PLAYER>'s #mon"
+	text "<PLAYER>'s #MON"
 	line "were all healed!"
 	done
 
@@ -2429,7 +2434,7 @@ _OakThisIsntTheTimeText::
 SECTION "Text_YouDontHaveAPkmn", ROMX
 Text_YouDontHaveAPkmn::
 	text "You don't have a"
-	line "#mon!"
+	line "#MON!"
 	prompt
 
 SECTION "_RegisteredItemText", ROMX
@@ -2624,7 +2629,7 @@ _EggSentToPCText::
 SECTION "_PCGottaHavePokemonText", ROMX
 _PCGottaHavePokemonText::
 	text "You gotta have"
-	line "#mon to call!"
+	line "#MON to call!"
 	prompt
 
 SECTION "_PCWhatText", ROMX
@@ -2634,7 +2639,7 @@ _PCWhatText::
 
 SECTION "_PCMonHoldingMailText", ROMX
 _PCMonHoldingMailText::
-	text "There is a #mon"
+	text "There is a #MON"
 	line "holding Mail."
 
 	para "Please remove the"
@@ -2650,7 +2655,7 @@ _ContestCaughtMonText::
 
 SECTION "_ContestAskSwitchText", ROMX
 _ContestAskSwitchText::
-	text "Switch #mon?"
+	text "Switch #MON?"
 	done
 
 SECTION "_ContestAlreadyCaughtText", ROMX
@@ -2787,7 +2792,7 @@ _CaughtAskNicknameText::
 SECTION "_PokecenterPCCantUseText", ROMX
 _PokecenterPCCantUseText::
 	text "Bzzzzt! You must"
-	line "have a #mon to"
+	line "have a #MON to"
 	cont "use this!"
 	prompt
 
@@ -2872,7 +2877,7 @@ _PokecenterBillsPCText::
 	text "Bill's PC"
 	line "accessed."
 
-	para "#mon Storage"
+	para "#MON Storage"
 	line "System opened."
 	prompt
 
@@ -2914,10 +2919,10 @@ _OakPCText2::
 SECTION "_OakPCText3", ROMX
 _OakPCText3::
 	text_decimal wTempDexSeen, 2, 3
-	text " #mon seen"
+	text " #MON seen"
 	line ""
 	text_decimal wTempDexOwn, 2, 3
-	text " #mon owned"
+	text " #MON owned"
 
 	para "Prof.Oak's"
 	line "Rating:"
@@ -2925,7 +2930,7 @@ _OakPCText3::
 
 SECTION "_OakRating01", ROMX
 _OakRating01::
-	text "Look for #mon"
+	text "Look for #MON"
 	line "in grassy areas!"
 	done
 
@@ -2951,7 +2956,7 @@ _OakRating04::
 	line "up the #dex."
 
 	para "Catch different"
-	line "kinds of #mon!"
+	line "kinds of #MON!"
 	done
 
 SECTION "_OakRating05", ROMX
@@ -2966,7 +2971,7 @@ _OakRating05::
 SECTION "_OakRating06", ROMX
 _OakRating06::
 	text "To evolve, some"
-	line "#mon grow,"
+	line "#MON grow,"
 
 	para "others use the"
 	line "effects of Stones."
@@ -2977,7 +2982,7 @@ _OakRating07::
 	text "Have you gotten a"
 	line "fishing Rod? You"
 
-	para "can catch #mon"
+	para "can catch #MON"
 	line "by fishing."
 	done
 
@@ -2990,7 +2995,7 @@ _OakRating08::
 
 SECTION "_OakRating09", ROMX
 _OakRating09::
-	text "Some #mon only"
+	text "Some #MON only"
 	line "appear during"
 
 	para "certain times of"
@@ -3009,7 +3014,7 @@ _OakRating11::
 	text "I'm impressed."
 	line "You're evolving"
 
-	para "#mon, not just"
+	para "#MON, not just"
 	line "catching them."
 	done
 
@@ -3023,7 +3028,7 @@ _OakRating12::
 SECTION "_OakRating13", ROMX
 _OakRating13::
 	text "Wow. You've found"
-	line "more #mon than"
+	line "more #MON than"
 
 	para "the last #dex"
 	line "research project."
@@ -3032,7 +3037,7 @@ _OakRating13::
 SECTION "_OakRating14", ROMX
 _OakRating14::
 	text "Are you trading"
-	line "your #mon?"
+	line "your #MON?"
 
 	para "It's tough to do"
 	line "this alone!"
@@ -3048,7 +3053,7 @@ _OakRating15::
 SECTION "_OakRating16", ROMX
 _OakRating16::
 	text "You've found so"
-	line "many #mon!"
+	line "many #MON!"
 
 	para "You've really"
 	line "helped my studies!"
@@ -3059,7 +3064,7 @@ _OakRating17::
 	text "Magnificent! You"
 	line "could become a"
 
-	para "#mon professor"
+	para "#MON professor"
 	line "right now!"
 	done
 
@@ -3263,7 +3268,7 @@ SECTION "_InitialOptionsText", ROMX
 _InitialOptionsText::
 	text "Please choose how"
 	line "you want to play"
-	cont "#mon Lavender."
+	cont "#MON Lavender."
 	prompt
 
 SECTION "_ElmText1", ROMX
@@ -3273,12 +3278,12 @@ _ElmText1::
 
 if !DEF(DEBUG)
 	para "Welcome to the"
-	line "world of #mon!"
+	line "world of #MON!"
 
 	para "My name is Aspen."
 
 	para "People call me the"
-	line "#mon Prof."
+	line "#MON Prof."
 endc
 	prompt
 
@@ -3287,19 +3292,19 @@ _ElmText2::
 	text "This world is in-"
 	line "habited by crea-"
 	cont "tures that we call"
-	cont "#mon.@"
+	cont "#MON.@"
 	text_end
 
 SECTION "_ElmText4", ROMX
 _ElmText4::
-	text "People and #mon"
+	text "People and #MON"
 	line "live together by"
 
 	para "supporting each"
 	line "other."
 
 	para "Some people play"
-	line "with #mon, some"
+	line "with #MON, some"
 	cont "battle with them."
 	prompt
 
@@ -3307,14 +3312,14 @@ SECTION "_ElmText5", ROMX
 _ElmText5::
 	text "But we don't know"
 	line "everything about"
-	cont "#mon yet."
+	cont "#MON yet."
 
 	para "There are still"
 	line "many mysteries to"
 	cont "solve."
 
 	para "That's why I study"
-	line "#mon every day."
+	line "#MON every day."
 	prompt
 
 SECTION "_ElmText6", ROMX
@@ -3330,7 +3335,7 @@ _ElmText7::
 
 if !DEF(DEBUG)
 	para "Your very own"
-	line "#mon story is"
+	line "#MON story is"
 	cont "about to unfold."
 
 	para "You'll face fun"
@@ -3340,7 +3345,7 @@ if !DEF(DEBUG)
 	para "A world of dreams"
 	line "and adventures"
 
-	para "with #mon"
+	para "with #MON"
 	line "awaits! Let's go!"
 endc
 
@@ -3357,7 +3362,7 @@ if !DEF(DEBUG)
 	line "emulator has bugs"
 
 	para "that may crash"
-	line "#mon Lavender."
+	line "#MON Lavender."
 
 	para "Please use a more"
 	line "accurate emulator,"
@@ -3410,7 +3415,7 @@ _LinkTimeoutText::
 SECTION "_LinkTradeCantBattleText", ROMX
 _LinkTradeCantBattleText::
 	text "If you trade that"
-	line "#mon, you won't"
+	line "#MON, you won't"
 	cont "be able to battle."
 	prompt
 
@@ -3470,14 +3475,14 @@ _SaveFileCorruptedText::
 SECTION "_ChangeBoxSaveText", ROMX
 _ChangeBoxSaveText::
 	text "When you change a"
-	line "#mon Box, data"
+	line "#MON Box, data"
 	cont "will be saved. OK?"
 	done
 
 SECTION "_MoveMonWOMailSaveText", ROMX
 _MoveMonWOMailSaveText::
 	text "Each time you move"
-	line "a #mon, data"
+	line "a #MON, data"
 	cont "will be saved. OK?"
 	done
 
@@ -3585,7 +3590,7 @@ _HerbShopLadyIntroText::
 	para "They're good, but"
 	line "a trifle bitter."
 
-	para "Your #mon may"
+	para "Your #MON may"
 	line "not like them."
 
 	para "Hehehehe…"
@@ -4142,14 +4147,14 @@ _BattleTowerReturnWhenReadyText::
 
 SECTION "Text_OnlyThreePkmnMayBeEntered", ROMX
 Text_OnlyThreePkmnMayBeEntered::
-	text "Three #mon"
+	text "Three #MON"
 	line "must be entered."
 	para ""
 	done
 
 SECTION "Text_ThePkmnMustAllBeDifferentKinds", ROMX
 Text_ThePkmnMustAllBeDifferentKinds::
-	text "The three #mon"
+	text "The three #MON"
 	line "must all be"
 	cont "different kinds."
 	para ""
@@ -4157,7 +4162,7 @@ Text_ThePkmnMustAllBeDifferentKinds::
 
 SECTION "Text_ThePkmnMustNotHoldTheSameItems", ROMX
 Text_ThePkmnMustNotHoldTheSameItems::
-	text "The three #mon"
+	text "The three #MON"
 	line "must not hold the"
 	cont "same items."
 	para ""
@@ -4180,7 +4185,7 @@ Text_UberRestriction::
 
 SECTION "_BallBrokeFreeText", ROMX
 _BallBrokeFreeText::
-	text "Oh no! The #mon"
+	text "Oh no! The #MON"
 	line "broke free!"
 	prompt
 
@@ -4274,7 +4279,7 @@ _ItemStatRoseText::
 SECTION "_ItemCantUseOnMonText", ROMX
 _ItemCantUseOnMonText::
 	text "That can't be used"
-	line "on this #mon."
+	line "on this #MON."
 	prompt
 
 SECTION "Text_RepelUsedEarlierIsStillInEffect", ROMX
@@ -4388,13 +4393,13 @@ _BallDatabaseFullText::
 
 SECTION "Text_MonIsHiddenFromBall", ROMX
 Text_MonIsHiddenFromBall::
-	text "The #mon can't"
+	text "The #MON can't"
 	line "be seen!"
 	prompt
 
 SECTION "Text_MonCantBeCaught", ROMX
 Text_MonCantBeCaught::
-	text "The #mon can't"
+	text "The #MON can't"
 	line "be caught!"
 	prompt
 
@@ -4402,13 +4407,13 @@ SECTION "Text_NuzlockeBallFailure", ROMX
 Text_NuzlockeBallFailure::
 	text "You already"
 	line "encountered a"
-	cont "#mon here."
+	cont "#MON here."
 	prompt
 
 SECTION "Text_NuzlockeReviveFailure", ROMX
 Text_NuzlockeReviveFailure::
 	text "You can't revive"
-	line "#mon in"
+	line "#MON in"
 	cont "Nuzlocke mode!"
 	prompt
 
@@ -4431,7 +4436,7 @@ _KnowsMoveText::
 
 SECTION "_MoveKnowsOneText", ROMX
 _MoveKnowsOneText::
-	text "That #mon knows"
+	text "That #MON knows"
 	line "only one move."
 	done
 
@@ -4445,7 +4450,7 @@ _AskDeleteMoveText::
 
 SECTION "_DeleterForgotMoveText", ROMX
 _DeleterForgotMoveText::
-	text "Done! Your #mon"
+	text "Done! Your #MON"
 	line "forgot the move."
 	done
 
@@ -4472,16 +4477,16 @@ _DeleterIntroText::
 	text "Um… Oh, yes, I'm"
 	line "the Move Deleter."
 
-	para "I can make #mon"
+	para "I can make #MON"
 	line "forget moves."
 
 	para "Shall I make a"
-	line "#mon forget?"
+	line "#MON forget?"
 	done
 
 SECTION "_DeleterAskWhichMonText", ROMX
 _DeleterAskWhichMonText::
-	text "Which #mon?"
+	text "Which #MON?"
 	prompt
 
 SECTION "Text_DSTIsThatOK", ROMX
@@ -4549,7 +4554,7 @@ WonderTradeQuestionText::
 
 SECTION "WonderTradePromptText", ROMX
 WonderTradePromptText::
-	text "Which #mon do"
+	text "Which #MON do"
 	line "you want to trade?"
 	prompt
 
@@ -4576,7 +4581,7 @@ WonderTradeCantTradeSpikyEaredPichuText::
 ;SECTION "WonderTradeCantAcceptAbnormalMonText", ROMX
 ;WonderTradeCantAcceptAbnormalMonText::
 ;	text "Sorry, but your"
-;	line "#mon appears to"
+;	line "#MON appears to"
 ;
 ;	para "be abnormal. We"
 ;	line "can't accept it."
@@ -4663,7 +4668,7 @@ ItemCantBeSelectedText::
 
 SECTION "AlreadyInThatBallTextData", ROMX
 AlreadyInThatBallTextData::
-	text "Your #mon is in"
+	text "Your #MON is in"
 	line "that Ball already."
 	prompt
 
@@ -4671,5 +4676,5 @@ SECTION "CantChangeTradedMonBallTextData", ROMX
 CantChangeTradedMonBallTextData::
 	text "You can't change"
 	line "the Ball a traded"
-	cont "#mon is in."
+	cont "#MON is in."
 	prompt

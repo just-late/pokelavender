@@ -73,7 +73,7 @@ CeladonUniversityWillowsOfficeBookshelf1Text:
 	text "It's a book about"
 	line "ecological niches"
 
-	para "and how #mon"
+	para "and how #MON"
 	line "fit within their"
 	cont "environments."
 	done
@@ -84,14 +84,14 @@ CeladonUniversityWillowsOfficeBookshelf2Text:
 	cont "Safari Zone."
 
 	para "Lots of exotic-"
-	line "looking #mon"
+	line "looking #MON"
 	cont "adorn it."
 	done
 
 CeladonUniversityWillowsOfficeComputer:
 	jumpthistext
 
-	text "“#mon Transfer"
+	text "“#MON Transfer"
 	line "System” is on the"
 	cont "screen."
 	done

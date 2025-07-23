@@ -37,7 +37,7 @@ Route12SuperRodHouseFishingGuruScript:
 	para "Remember--you can"
 	line "catch different"
 
-	para "#mon using"
+	para "#MON using"
 	line "different Rods."
 	done
 

@@ -236,7 +236,7 @@ KabutopsFossilSignpostScript:
 	line "(Dome)"
 
 	para "A primitive and"
-	line "rare #mon."
+	line "rare #MON."
 	done
 
 OmastarFossilSignpostScript:
@@ -250,7 +250,7 @@ OmastarFossilSignpostScript:
 	line "(Helix)"
 
 	para "A primitive and"
-	line "rare #mon."
+	line "rare #MON."
 	done
 
 AerodactylFossilSignpostScript:
@@ -263,7 +263,7 @@ AerodactylFossilSignpostScript:
 	text "Aerodactyl Fossil"
 
 	para "A primitive and"
-	line "rare #mon."
+	line "rare #MON."
 	done
 
 Museum1FScientistText:
@@ -271,7 +271,7 @@ Museum1FScientistText:
 	line "three fossils of"
 
 	para "rare, prehistoric"
-	line "#mon."
+	line "#MON."
 
 	para "I helped assemble"
 	line "them!"
@@ -281,7 +281,7 @@ Museum1FFossilScientistText:
 	text "Did you know that"
 	line "you can extract"
 
-	para "#mon from"
+	para "#MON from"
 	line "fossils?"
 
 	para "If you ever need"
@@ -316,8 +316,8 @@ Museum1FBookshelfSignpostText:
 	line "read books!"
 
 	para "Archaeology Man-"
-	line "ual, Lost #mon,"
-	cont "#mon Ancestors,"
+	line "ual, Lost #MON,"
+	cont "#MON Ancestors,"
 
 	para "Caring at the"
 	line "Loamy Layer of"
@@ -355,13 +355,13 @@ MaybeLaterText:
 
 ResurrectingPokemonText:
 	text "OK! I'll resurrect"
-	line "the #mon!"
+	line "the #MON!"
 	done
 
 NoRoomForFossilPokemonText:
 	text "Hey! You can't"
 	line "carry another"
-	cont "#mon, and your"
+	cont "#MON, and your"
 	cont "Box is full, too!"
 	done
 

@@ -109,7 +109,7 @@ RuinsOfAlphInnerChamberScientistText:
 	line "some kind."
 
 	para "I think they make"
-	line "#mon appear,"
+	line "#MON appear,"
 
 	para "but it's not clear"
 	line "yet…"

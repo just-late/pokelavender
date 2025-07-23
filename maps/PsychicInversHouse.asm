@@ -117,7 +117,7 @@ PsychicInverBeatenText:
 	line "have tired me out"
 
 	para "even more than my"
-	line "#mon…"
+	line "#MON…"
 	done
 
 InverseBattle0PointRewardText:

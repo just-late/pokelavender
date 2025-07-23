@@ -36,7 +36,7 @@ Route35_MapScriptHeader:
 GenericTrainerBreederTheresa:
 	generictrainer BREEDER, THERESA, EVENT_BEAT_BREEDER_THERESA, BreederTheresaSeenText, BreederTheresaBeatenText
 
-	text "I take my #mon"
+	text "I take my #MON"
 	line "to get haircuts"
 
 	para "in Goldenrod City,"
@@ -98,7 +98,7 @@ GenericTrainerCamperIvan:
 
 	text "Music on the radio"
 	line "changes the moods"
-	cont "of wild #mon."
+	cont "of wild #MON."
 	done
 
 GenericTrainerCoupleGailandeli1:
@@ -113,7 +113,7 @@ GenericTrainerCoupleGailandeli2:
 	generictrainer COUPLE, GAILANDELI2, EVENT_BEAT_COUPLE_GAIL_AND_ELI, CoupleGailandeli2SeenText, CoupleGailandeli2BeatenText
 
 	text "Gail: I can count"
-	line "on my #mon more"
+	line "on my #MON more"
 	cont "than my boyfriend."
 	done
 
@@ -222,9 +222,9 @@ TrainerBug_catcherArnie1:
 GenericTrainerFirebreatherWalt:
 	generictrainer FIREBREATHER, WALT, EVENT_BEAT_FIREBREATHER_WALT, FirebreatherWaltSeenText, FirebreatherWaltBeatenText
 
-	text "The #mon March"
+	text "The #MON March"
 	line "on the radio lures"
-	cont "wild #mon."
+	cont "wild #MON."
 	done
 
 TrainerOfficerDirk:
@@ -254,7 +254,7 @@ TrainerOfficerDirk:
 
 CamperIvanSeenText:
 	text "I've been getting"
-	line "#mon data off"
+	line "#MON data off"
 
 	para "my radio. I think"
 	line "I'm good."
@@ -298,7 +298,7 @@ PicnickerKimBeatenText:
 
 BreederTheresaSeenText:
 	text "How do you care"
-	line "for your #mon?"
+	line "for your #MON?"
 	done
 
 BreederTheresaBeatenText:
@@ -319,7 +319,7 @@ JugglerIrwin1BeatenText:
 JugglerIrwinAfterBattleText:
 	text "I was going to"
 	line "dazzle you with my"
-	cont "prize #mon."
+	cont "prize #MON."
 
 	para "But your prowess"
 	line "electrified me!"
@@ -327,7 +327,7 @@ JugglerIrwinAfterBattleText:
 
 Bug_catcherArnie1SeenText:
 	text "I'll go anywhere"
-	line "if bug #mon"
+	line "if bug #MON"
 	cont "appear there."
 	done
 
@@ -381,7 +381,7 @@ OfficerDirkAfterBattleText:
 	done
 
 OfficerDirkPrettyToughText:
-	text "Your #mon look"
+	text "Your #MON look"
 	line "pretty tough."
 
 	para "You could go any-"

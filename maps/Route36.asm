@@ -496,7 +496,7 @@ FloriaTextAfterPlainBadge:
 	line "jumped right up!"
 
 	para "It just has to be"
-	line "a #mon."
+	line "a #MON."
 
 	para "I bet it would be"
 	line "shocked out of its"
@@ -534,7 +534,7 @@ FloriaTextAfterSquirtBottle:
 FloriaTextAfterSudowoodo:
 	text "I just knew that"
 	line "wiggly tree was a"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "I was going to"
 	line "shock it out of"
@@ -603,7 +603,7 @@ Route36LassText_OddTree:
 	cont "to Goldenrod City."
 
 	para "I wanted to go see"
-	line "the huge #mon"
+	line "the huge #MON"
 
 	para "Center they just"
 	line "opened…"
@@ -615,7 +615,7 @@ Route36LassText_ClearedSudowoodo:
 	cont "trace."
 
 	para "Oh! That tree was"
-	line "really a #mon?"
+	line "really a #MON?"
 	done
 
 PsychicMarkSeenText:
@@ -630,7 +630,7 @@ PsychicMarkBeatenText:
 SchoolgirlMollySeenText:
 	text "Mr.Earl taught me"
 	line "how to battle with"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 SchoolgirlMollyBeatenText:
@@ -640,7 +640,7 @@ SchoolgirlMollyBeatenText:
 SchoolboyAlan1SeenText:
 	text "Thanks to my stud-"
 	line "ies, I'm ready for"
-	cont "any #mon!"
+	cont "any #MON!"
 	done
 
 SchoolboyAlan1BeatenText:
@@ -671,7 +671,7 @@ ArthurGivesGiftText:
 	done
 
 ArthurGaveGiftText:
-	text "Arthur: A #mon"
+	text "Arthur: A #MON"
 	line "that uses Rock-"
 
 	para "type moves should"
@@ -707,7 +707,7 @@ RuinsOfAlphNorthSignText:
 Route36TrainerTips1Text:
 	text "Trainer Tips"
 
-	para "#mon stats"
+	para "#MON stats"
 	line "vary--even within"
 	cont "the same species."
 
@@ -718,7 +718,7 @@ Route36TrainerTips1Text:
 	line "ences will become"
 
 	para "pronounced as the"
-	line "#mon grow."
+	line "#MON grow."
 	done
 
 Route36TrainerTips2Text:
@@ -751,7 +751,7 @@ Route36AdvancedTips2Text:
 	text "Advanced Tips!"
 
 	para "Treating your"
-	line "#mon with hair-"
+	line "#MON with hair-"
 	cont "cuts, blessings or"
 
 	para "massages can make"

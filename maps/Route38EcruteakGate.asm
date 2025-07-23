@@ -60,7 +60,7 @@ ProfOaksAide2HiText:
 	line "Prof.Oak's aide."
 
 	para "If you caught 30"
-	line "kinds of #mon,"
+	line "kinds of #MON,"
 
 	para "I'm supposed to"
 	line "give you an item."
@@ -69,7 +69,7 @@ ProfOaksAide2HiText:
 	line "have you caught"
 
 	para "at least 30 kinds"
-	line "of #mon?"
+	line "of #MON?"
 	done
 
 ProfOaksAide2UhOhText:
@@ -79,7 +79,7 @@ ProfOaksAide2UhOhText:
 	para "caught "
 	text_decimal wTempDexOwn, 2, 3
 	text " kinds"
-	line "of #mon."
+	line "of #MON."
 
 	para "Come back and see"
 	line "me when you catch"
@@ -93,7 +93,7 @@ ProfOaksAide2HereYouGoText:
 	para "caught "
 	text_decimal wTempDexOwn, 2, 3
 	text " kinds"
-	line "of #mon."
+	line "of #MON."
 
 	para "Congratulations!"
 	line "Here you go!"
@@ -109,7 +109,7 @@ ProfOaksAide2ExplainText:
 	text "That Linking Cord"
 	line "gives certain"
 
-	para "#mon a sense"
+	para "#MON a sense"
 	line "of connection"
 
 	para "that may help"

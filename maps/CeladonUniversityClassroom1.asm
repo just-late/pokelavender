@@ -107,7 +107,7 @@ CeladonUniversityClassroom1ImakuniScript:
 	para "Hey! Move those"
 	line "feet!"
 
-	para "What? #mon?"
+	para "What? #MON?"
 
 	para "You want to"
 	line "battle me?"
@@ -215,7 +215,7 @@ CeladonUniversityClassroom1BlackboardText:
 CeladonUniversityClassroom1Bookshelf1Text:
 	text "It's a book about"
 	line "Smeargle, a"
-	cont "#mon artist."
+	cont "#MON artist."
 
 	para "It's full of beau-"
 	line "tiful drawings."

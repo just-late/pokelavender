@@ -51,7 +51,7 @@ CeladonDeptStore6FYoungsterText:
 
 CeladonDeptStore3FGameboyKid1Text:
 	text "I traded my"
-	line "#mon while"
+	line "#MON while"
 
 	para "it was holding"
 	line "an Up-Grade."

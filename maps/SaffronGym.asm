@@ -143,7 +143,7 @@ GenericTrainerHexManiacLuna:
 	generictrainer HEX_MANIAC, LUNA, EVENT_BEAT_HEX_MANIAC_LUNA, HexManiacLunaSeenText, HexManiacLunaBeatenText
 
 	text "Alakazam is a pow-"
-	line "erful #mon,"
+	line "erful #MON,"
 
 	para "so Hex Maniacs use"
 	line "its name for"
@@ -259,7 +259,7 @@ SabrinaMarshBadgeText:
 
 SabrinaFightDoneText:
 	text "Sabrina: Your love"
-	line "for your #mon"
+	line "for your #MON"
 
 	para "overwhelmed my"
 	line "psychic power…"
@@ -355,7 +355,7 @@ SaffronGymGuyText:
 	line "told how to deal"
 
 	para "with Psychic-type"
-	line "#mon, right?"
+	line "#MON, right?"
 
 	para "I expect great"
 	line "things from you!"

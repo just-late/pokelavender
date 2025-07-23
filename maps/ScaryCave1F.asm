@@ -73,7 +73,7 @@ ScaryCave1FMiraScript:
 	text "I'm Mira…"
 	line "I was catching"
 
-	para "#mon, but this"
+	para "#MON, but this"
 	line "cave is too scary…"
 
 	para "I want to get"
@@ -107,7 +107,7 @@ ScaryCave1FMiraScript:
 
 	para "because you're al-"
 	line "ways with your"
-	cont "#mon?"
+	cont "#MON?"
 
 	para "Yes! That has to"
 	line "be it!"

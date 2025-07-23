@@ -214,7 +214,7 @@ LtSurgeIntroText:
 	cont "it takes guts!"
 
 	para "When it comes to"
-	line "electric #mon,"
+	line "electric #MON,"
 	cont "I'm number one!"
 
 	para "I've never lost on"
@@ -267,7 +267,7 @@ LtSurgeFightDoneText:
 	line "Still slugging and"
 	cont "chugging away?"
 
-	para "My #mon and I"
+	para "My #MON and I"
 	line "are still at it!"
 	done
 
@@ -290,7 +290,7 @@ GuitaristmVincentSeenText:
 	line "nized my potential"
 
 	para "with Electric"
-	line "#mon."
+	line "#MON."
 
 	para "Think you can beat"
 	line "me?"

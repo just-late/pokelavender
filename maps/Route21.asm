@@ -124,7 +124,7 @@ GenericTrainerSwimmermDuane:
 	done
 
 .BeatenText:
-	text "My #mon and I"
+	text "My #MON and I"
 	line "have no strength…"
 	done
 
@@ -148,7 +148,7 @@ SwimmermSethBeatenText:
 GenericTrainerFisherMurphy:
 	generictrainer FISHER, MURPHY, EVENT_BEAT_FISHER_MURPHY, .SeenText, .BeatenText
 
-	text "The #mon that"
+	text "The #MON that"
 	line "escaped me was"
 	cont "huge."
 
@@ -158,7 +158,7 @@ GenericTrainerFisherMurphy:
 .SeenText:
 	text "Huh? I've caught"
 	line "a trainer instead"
-	cont "of a #mon!"
+	cont "of a #MON!"
 	done
 
 .BeatenText:
@@ -189,7 +189,7 @@ GenericTrainerFisherLiam:
 	line "you to wait until"
 
 	para "I reeled that"
-	line "#mon in…"
+	line "#MON in…"
 	done
 
 .SeenText:
@@ -203,7 +203,7 @@ GenericTrainerFisherLiam:
 
 .BeatenText:
 	text "If you chase two"
-	line "#mon, you"
+	line "#MON, you"
 
 	para "won't catch either"
 	line "one!"
@@ -214,7 +214,7 @@ GenericTrainerFisherGideon:
 
 	text "What's the reason"
 	line "you became a"
-	cont "#mon trainer?"
+	cont "#MON trainer?"
 	done
 
 .SeenText:
@@ -242,7 +242,7 @@ GenericTrainerBird_keeperKinsley:
 .SeenText:
 	text "Someday I might be"
 	line "able to fly like"
-	cont "my bird #mon!"
+	cont "my bird #MON!"
 	done
 
 .BeatenText:
@@ -253,10 +253,10 @@ GenericTrainerBird_keeperEaston:
 	generictrainer BIRD_KEEPER, EASTON, EVENT_BEAT_BIRD_KEEPER_EASTON, .SeenText, .BeatenText
 
 	text "We think we're"
-	line "using #mon."
+	line "using #MON."
 
 	para "But at some point,"
-	line "the #mon start-"
+	line "the #MON start-"
 	cont "ed using us…"
 	done
 

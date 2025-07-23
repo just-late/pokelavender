@@ -75,7 +75,7 @@ TextCompressionHuffmanTree:
 	parent_node "v",        ","        ; $26 - 010100
 	parent_node $28,        "."        ; $27 - 01011
 	parent_node "<CONT>",   $29        ; $28 - 010110
-	parent_node "#mon",     $2a        ; $29 - 0101101
+	parent_node "#MON",     $2a        ; $29 - 0101101
 	parent_node $2b,        $2e        ; $2a - 01011011
 	parent_node $2c,        "'l"       ; $2b - 010110110
 	parent_node "<LNBRK>",  $2d        ; $2c - 0101101100
@@ -223,7 +223,7 @@ endr
 ;             "w"
 ;           ),
 ;           ( ( "<CONT>",
-;               ( "#mon",
+;               ( "#MON",
 ;                 ( ( ( "<LNBRK>",
 ;                       ( "(",
 ;                         ")"

@@ -187,14 +187,14 @@ OlivineCityRivalGymText:
 	para "Supposedly taking"
 	line "care of a sick"
 
-	para "#mon at the"
+	para "#MON at the"
 	line "Lighthouse."
 
 	para "Humph! Boo-hoo!"
 	line "Just let sick"
-	cont "#mon go!"
+	cont "#MON go!"
 
-	para "A #mon that"
+	para "A #MON that"
 	line "can't battle is"
 	cont "worthless!"
 
@@ -224,14 +224,14 @@ OlivineCityRivalLighthouseText:
 	para "Gym Leader is"
 	line "taking care of a"
 
-	para "sick #mon in"
+	para "sick #MON in"
 	line "the Lighthouse."
 
 	para "Humph! Boo-hoo!"
 	line "Just let sick"
-	cont "#mon go!"
+	cont "#MON go!"
 
-	para "A #mon that"
+	para "A #MON that"
 	line "can't battle is"
 	cont "worthless!"
 
@@ -395,7 +395,7 @@ OlivineCityPortSignText:
 
 OlivineGymSignText:
 	text "Olivine City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Jasmine"
 
 	para "The Steel-Clad"

@@ -70,7 +70,7 @@ PokemonJournalGreenScript:
 	setflag ENGINE_READ_GREEN_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "<PK><MN> Trainer Leaf!"
@@ -81,7 +81,7 @@ PokemonJournalGreenScript:
 
 	para "said to be fascin-"
 	line "ated by legendary"
-	cont "#mon."
+	cont "#MON."
 	done
 
 ClefairyDollScript:
@@ -97,19 +97,19 @@ ClefairyDollScript:
 
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
 	text "I'm the Chairman"
-	line "of the #mon Fan"
+	line "of the #MON Fan"
 	cont "Club."
 
 	para "I've raised over"
-	line "150 #mon."
+	line "150 #MON."
 
 	para "I'm very fussy"
 	line "when it comes to"
-	cont "#mon."
+	cont "#MON."
 
 	para "Did you visit just"
 	line "to hear about my"
-	cont "#mon?"
+	cont "#MON?"
 	done
 
 PokemonFanClubChairmanRapidashText:
@@ -146,11 +146,11 @@ PokemonFanClubChairmanIWantYouToHaveThisText:
 
 PokemonFanClubChairmanItsARareCandyText:
 	text "It's a Rare Candy"
-	line "that makes #mon"
+	line "that makes #MON"
 	cont "stronger."
 
 	para "I prefer making my"
-	line "#mon stronger"
+	line "#MON stronger"
 
 	para "by battling, so"
 	line "you can have it."
@@ -177,7 +177,7 @@ PokemonFanClubChairmanHowDisappointingText:
 PokemonFanClubReceptionistText:
 	text "Our Chairman is"
 	line "very vocal when it"
-	cont "comes to #mon…"
+	cont "comes to #MON…"
 	done
 
 PokemonFanClubClefairyGuyClefairyIsSoAdorableText:

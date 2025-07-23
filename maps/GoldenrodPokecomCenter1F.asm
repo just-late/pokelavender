@@ -80,7 +80,7 @@ GoldenrodPokecenter1FGameboyKidText:
 
 GoldenrodPokecenter1FLassText:
 	text "A higher level"
-	line "#mon doesn't"
+	line "#MON doesn't"
 	cont "always win."
 
 	para "After all, it may"
@@ -90,7 +90,7 @@ GoldenrodPokecenter1FLassText:
 	para "I don't think"
 	line "there is a single"
 
-	para "#mon that is"
+	para "#MON that is"
 	line "the toughest."
 	done
 
@@ -217,7 +217,7 @@ IntroduceTealaText:
 
 WonderTradeExplanationText:
 	text "You can trade"
-	line "#mon with other"
+	line "#MON with other"
 	cont "people far away."
 	done
 
@@ -244,7 +244,7 @@ WonderTradeForGSBallPichuText:
 	para "It seems like you"
 	line "just traded a"
 
-	para "#mon with"
+	para "#MON with"
 	line "yourself."
 
 	para "But that can't be"
@@ -270,8 +270,8 @@ WonderTradeForGSBallPichuText:
 
 WonderTradeForGSBallPichuText2:
 	text "It may be unusual,"
-	line "but a #mon"
-	cont "is a #mon."
+	line "but a #MON"
+	cont "is a #MON."
 
 	para "Please look after"
 	line "it carefully."
@@ -297,7 +297,7 @@ PokemonJournalWhitneyScript:
 	setflag ENGINE_READ_WHITNEY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Whitney!"
@@ -313,7 +313,7 @@ JudgeMachineScript:
 	waitendtext
 
 GoldenrodPokecenter1FSuperNerdText:
-	text "Whoa, this #mon"
+	text "Whoa, this #MON"
 	line "Center is huge."
 
 	para "They just built"
@@ -377,7 +377,7 @@ JudgeMachineEngineerScript:
 	end
 
 JudgeMachineEngineerWorkingText:
-	text "The #mon"
+	text "The #MON"
 	line "Judge Machine…"
 
 	para "It's been my dream"
@@ -401,7 +401,7 @@ JudgeMachineEngineerWorkingText:
 	done
 
 JudgeMachineEngineerFinishedText:
-	text "The #mon"
+	text "The #MON"
 	line "Judge Machine…"
 
 	para "It's finally done!"
@@ -412,7 +412,7 @@ JudgeMachineEngineerFinishedText:
 	line "It's a machine for"
 
 	para "judging the stats"
-	line "of any #mon!"
+	line "of any #MON!"
 
 	para "It uses the latest"
 	line "AI technology to"
@@ -427,7 +427,7 @@ JudgeMachineEngineerFinishedText:
 
 	para "It's the perfect"
 	line "way to measure a"
-	cont "#mon's power!"
+	cont "#MON's power!"
 
 	para "Go ahead and try"
 	line "using it. It's"
@@ -451,7 +451,7 @@ GoldenrodPokecenter1FPokefanFText_Sunflora:
 	cont "Sunflora."
 
 	para "You should trade"
-	line "for a #mon that"
+	line "for a #MON that"
 	cont "you want."
 	done
 

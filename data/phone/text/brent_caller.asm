@@ -2,7 +2,7 @@ BrentRareTradeText:
 	text "Oh yeah, I got an"
 	line "extremely rare"
 
-	para "#mon in a trade"
+	para "#MON in a trade"
 	line "a while back."
 
 	para "Do you want to"
@@ -27,7 +27,7 @@ BrentDefeatedMonText:
 
 BrentLostAMonText:
 	text "Oh yeah, I saw a"
-	line "rare #mon about"
+	line "rare #MON about"
 	cont "an hour ago."
 
 	para "It was my first"
@@ -50,7 +50,7 @@ BrentBattleRematchText:
 	para "It'll be a chance"
 	line "to see my rare"
 
-	para "#mon. It'll be"
+	para "#MON. It'll be"
 	line "worth your time!"
 
 	para "You know where--"
@@ -97,7 +97,7 @@ BrentAbraGossipText:
 	text "Did you know…?"
 	line "Abra was the first"
 
-	para "#mon that Bill"
+	para "#MON that Bill"
 	line "ostensibly caught."
 	done
 
@@ -154,7 +154,7 @@ BrentSorryImTooBusyText:
 
 BrentReminderText:
 	text "You want to see my"
-	line "rare #mon."
+	line "rare #MON."
 
 	para "Hurry over to"
 	line ""

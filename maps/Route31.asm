@@ -351,7 +351,7 @@ ReceivedSpearowMailText:
 
 Bug_catcherWade1SeenText:
 	text "I caught a bunch"
-	line "of #mon. Let me"
+	line "of #MON. Let me"
 	cont "battle with you!"
 	done
 
@@ -361,7 +361,7 @@ Bug_catcherWade1BeatenText:
 
 Bug_catcherWade1AfterText:
 	text "You can catch"
-	line "#mon even if"
+	line "#MON even if"
 
 	para "you have six with"
 	line "you."
@@ -376,13 +376,13 @@ Text_Route31SleepyMan:
 
 	para "I walked too far"
 	line "today looking for"
-	cont "#mon."
+	cont "#MON."
 
 	para "My feet hurt and"
 	line "I'm sleepy…"
 
 	para "If I were a wild"
-	line "#mon, I'd be"
+	line "#MON, I'd be"
 	cont "easy to catch…"
 
 	para "…Zzzz…"
@@ -397,7 +397,7 @@ Text_Route31SleepyManGotMail:
 
 Text_Route31HandOverMailMon:
 	text "<PLAYER> handed"
-	line "over the #mon"
+	line "over the #MON"
 	cont "holding the Mail."
 	done
 
@@ -427,7 +427,7 @@ Text_Route31TutorSleepTalk:
 	line "Silver Leaf,"
 
 	para "I can teach your"
-	line "#mon to talk"
+	line "#MON to talk"
 	cont "in their sleep!"
 	done
 
@@ -439,7 +439,7 @@ Text_Route31TutorNoSilverLeaf:
 
 Text_Route31TutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Sleep Talk?"
 	done
 
@@ -449,7 +449,7 @@ Text_Route31TutorRefused:
 
 Text_Route31TutorTaught:
 	text "There! Now your"
-	line "#mon knows"
+	line "#MON knows"
 	cont "Sleep Talk!"
 	done
 
@@ -473,7 +473,7 @@ Text_Route31DeclinedToHandOverMail:
 
 Text_Route31CantTakeLastMon:
 	text "If I take that"
-	line "#mon from you,"
+	line "#MON from you,"
 
 	para "what are you going"
 	line "to use in battle?"
@@ -481,7 +481,7 @@ Text_Route31CantTakeLastMon:
 
 Route31YoungsterText:
 	text "I found a good"
-	line "#mon in Dark"
+	line "#MON in Dark"
 	cont "Cave."
 
 	para "I'm going to raise"

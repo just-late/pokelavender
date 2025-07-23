@@ -531,7 +531,7 @@ StatsScreen_LoadGFX:
 	ret
 
 .PlaceOTInfo:
-	; for rental mons, replace the whole thing with "Rental #mon"
+	; for rental mons, replace the whole thing with "Rental #MON"
 	farcall BT_InRentalMode
 	jr nz, .not_rental_mon
 	hlcoord 0, 15
@@ -569,7 +569,7 @@ StatsScreen_LoadGFX:
 
 .Rental_OT:
 	text  "Rental"
-	next1 "#mon"
+	next1 "#MON"
 	done
 
 .ExpPointStr:
@@ -756,7 +756,7 @@ TN_PrintLocation:
 	db "Battle Factory@"
 
 .event
-	db "Event #mon@"
+	db "Event #MON@"
 
 TN_PrintLV:
 	ld a, [wTempMonCaughtLevel]

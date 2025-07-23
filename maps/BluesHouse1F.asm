@@ -71,7 +71,7 @@ DaisyScript:
 	line "look nice?"
 
 	para "It's such a cute"
-	line "#mon."
+	line "#MON."
 	done
 
 .IntroText:
@@ -82,7 +82,7 @@ DaisyScript:
 	para "Would you like to"
 	line "join me?"
 
-	para "Oh, your #mon"
+	para "Oh, your #MON"
 	line "are a bit dirty."
 
 	para "Would you like me"

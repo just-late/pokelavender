@@ -21,16 +21,16 @@ PokemonJournalBillScript:
 	setflag ENGINE_READ_BILL_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "#Maniac Bill!"
 
 	para "Bill invented the"
-	line "#mon Storage"
+	line "#MON Storage"
 	cont "System to hold his"
 
-	para "own vast #mon"
+	para "own vast #MON"
 	line "collection."
 
 	para "Apparently, the"
@@ -79,7 +79,7 @@ BillsHouseBillScript:
 .IntroText:
 	text "Bill: Eevee is"
 	line "such a fascinating"
-	cont "#mon."
+	cont "#MON."
 
 	para "Some say that the"
 	line "three legendary"
@@ -87,7 +87,7 @@ BillsHouseBillScript:
 	para "beasts of Johto"
 	line "were once three"
 
-	para "#mon that"
+	para "#MON that"
 	line "evolve from Eevee."
 
 	para "But that might be"
@@ -117,7 +117,7 @@ BillsHouseBillScript:
 	line "the three legends"
 
 	para "you battled to"
-	line "my own #mon!"
+	line "my own #MON!"
 	done
 
 .BeatenText:

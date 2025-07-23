@@ -167,7 +167,7 @@ CeladonUniversityLoungeRichBoyText:
 	done
 
 CeladonUniversityLoungeCooltrainerfText:
-	text "#mon with"
+	text "#MON with"
 	line "reduced physical"
 
 	para "strength instinct-"
@@ -196,7 +196,7 @@ CeladonUniversityLoungeSuper_nerd2Text:
 CeladonUniversityLoungeBookshelf1Text:
 	text "It's stuffed full"
 	line "of copies of"
-	cont "#mon manga!"
+	cont "#MON manga!"
 	done
 
 CeladonUniversityLoungeBookshelf2:

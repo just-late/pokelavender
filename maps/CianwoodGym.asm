@@ -74,13 +74,13 @@ GenericTrainerBlackbeltYoshi:
 
 	text "You seem to have a"
 	line "strong bond with"
-	cont "your #mon too!"
+	cont "your #MON too!"
 	done
 
 GenericTrainerBlackbeltLao:
 	generictrainer BLACKBELT_T, LAO, EVENT_BEAT_BLACKBELT_LAO, BlackbeltLaoSeenText, BlackbeltLaoBeatenText
 
-	text "Fighting #mon"
+	text "Fighting #MON"
 	line "are afraid of psy-"
 	cont "chics…"
 	done
@@ -95,7 +95,7 @@ GenericTrainerBlackbeltNob:
 GenericTrainerBlackbeltLung:
 	generictrainer BLACKBELT_T, LUNG, EVENT_BEAT_BLACKBELT_LUNG, BlackbeltLungSeenText, BlackbeltLungBeatenText
 
-	text "My #mon lost…"
+	text "My #MON lost…"
 	line "My… my pride is"
 	cont "shattered…"
 	done
@@ -129,7 +129,7 @@ ChuckIntroText1:
 	para "Let me tell you,"
 	line "I'm tough!"
 
-	para "My #mon will"
+	para "My #MON will"
 	line "crush stones and"
 	cont "shatter bones!"
 
@@ -150,7 +150,7 @@ ChuckIntroText3:
 	para "What?"
 	line "It has nothing to"
 
-	para "do with #mon?"
+	para "do with #MON?"
 	line "That's true!"
 
 	para "Come on. We shall"
@@ -173,7 +173,7 @@ GetStormBadgeText:
 
 ChuckExplainBadgeText:
 	text "The Storm Badge"
-	line "lets your #mon"
+	line "lets your #MON"
 
 	para "Fly to any city"
 	line "or town you've"
@@ -207,7 +207,7 @@ ChuckAfterText:
 	done
 
 BlackbeltYoshiSeenText:
-	text "My #mon and I"
+	text "My #MON and I"
 	line "are bound togeth-"
 	cont "er by friendship."
 
@@ -241,7 +241,7 @@ BlackbeltNobBeatenText: ; text > text
 BlackbeltLungSeenText:
 	text "My raging fists"
 	line "will shatter your"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 BlackbeltLungBeatenText:

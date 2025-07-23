@@ -23,7 +23,7 @@ GenericTrainerSwimmermFrank:
 	generictrainer SWIMMERM, FRANK, EVENT_BEAT_SWIMMERM_FRANK, .SeenText, .BeatenText
 
 	text "Sea, sand, sun,"
-	line "and #mon!"
+	line "and #MON!"
 
 	para "What more could a"
 	line "guy need?"
@@ -46,7 +46,7 @@ GenericTrainerSwimmermNadar:
 
 	text "Practice swimming,"
 	line "or train with my"
-	cont "#mon?"
+	cont "#MON?"
 
 	para "What a dilemma."
 	done
@@ -55,7 +55,7 @@ GenericTrainerSwimmermNadar:
 	text "Swimming is my"
 	line "speciality!"
 
-	para "#mon battles"
+	para "#MON battles"
 	line "are too!"
 	done
 
@@ -143,7 +143,7 @@ GenericTrainerFisherFrancis:
 
 .SeenText:
 	text "I like fishing for"
-	line "#mon in exotic"
+	line "#MON in exotic"
 	cont "places."
 	done
 

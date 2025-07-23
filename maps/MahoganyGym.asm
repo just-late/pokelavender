@@ -98,7 +98,7 @@ GenericTrainerBoarderRonald:
 	generictrainer BOARDER, RONALD, EVENT_BEAT_BOARDER_RONALD, BoarderRonaldSeenText, BoarderRonaldBeatenText
 
 	text "I think there's a"
-	line "move a #mon"
+	line "move a #MON"
 
 	para "can use while it's"
 	line "frozen."
@@ -109,7 +109,7 @@ GenericTrainerBoarderBrad:
 
 	text "This Gym is great."
 	line "I love boarding"
-	cont "with my #mon!"
+	cont "with my #MON!"
 	done
 
 GenericTrainerBoarderDouglas:
@@ -143,7 +143,7 @@ MahoganyGymStatue:
 	jumpstd gymstatue3
 
 PryceText_Intro:
-	text "#mon have many"
+	text "#MON have many"
 	line "experiences in"
 
 	para "their lives, just"
@@ -158,7 +158,7 @@ PryceText_Intro:
 	cont "you what I mean."
 
 	para "I have been with"
-	line "#mon since"
+	line "#MON since"
 
 	para "before you were"
 	line "born."
@@ -194,7 +194,7 @@ Text_ReceivedGlacierBadge:
 
 PryceText_GlacierBadgeSpeech:
 	text "That Badge will"
-	line "let your #mon"
+	line "let your #MON"
 
 	para "use Whirlpool to"
 	line "cross whirlpools."
@@ -220,7 +220,7 @@ PryceText_CherishYourPokemon:
 
 BoarderRonaldSeenText:
 	text "I'll freeze your"
-	line "#mon, so you"
+	line "#MON, so you"
 	cont "can't do a thing!"
 	done
 
@@ -283,7 +283,7 @@ MahoganyGymGuyText:
 	text "Pryce is a veteran"
 	line "who has trained"
 
-	para "#mon for some"
+	para "#MON for some"
 	line "50 years."
 
 	para "He's said to be"

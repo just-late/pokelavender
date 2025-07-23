@@ -73,7 +73,7 @@ Route23HealOfficerScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "The #mon League"
+	text "The #MON League"
 	line "awaits you!"
 
 	para "Just don't give up,"
@@ -244,7 +244,7 @@ Route23OfficerNoBadgeText:
 
 	para "You have to have"
 	line "it to get to the"
-	cont "#mon League!"
+	cont "#MON League!"
 	done
 
 Route23OfficerHaveBadgeScript:

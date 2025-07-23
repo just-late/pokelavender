@@ -70,7 +70,7 @@ GenericTrainerHikerDerrick:
 	line "saying, but I love"
 
 	para "hiking with my"
-	line "#mon."
+	line "#MON."
 	done
 
 .SeenText:

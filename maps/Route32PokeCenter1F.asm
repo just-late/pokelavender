@@ -23,7 +23,7 @@ PokemonJournalKurtScript:
 	setflag ENGINE_READ_KURT_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Craftsman Kurt!"
@@ -115,7 +115,7 @@ Route32PokeCenter1FPokefanMScript:
 	jumpthisopenedtext
 
 	text "This Ball easily"
-	line "catches #mon"
+	line "catches #MON"
 	cont "hooked on a Rod!"
 
 	para "Kurt of Azalea"
@@ -162,7 +162,7 @@ Route32PokeCenter1FPokefanMScript:
 
 Route32Pokecenter1FCooltrainerFText:
 	text "What should I make"
-	line "my #mon hold?"
+	line "my #MON hold?"
 
 	para "Maybe an item that"
 	line "increases Attack"

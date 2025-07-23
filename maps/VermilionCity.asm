@@ -185,7 +185,7 @@ VermilionMachokeOwnerScript:
 	iftrue_jumptextfaceplayer VermilionMachokeOwnerText
 	jumpthistextfaceplayer
 
-	text "My #mon"
+	text "My #MON"
 	line "prepared the land"
 
 	para "to construct that"
@@ -215,7 +215,7 @@ VermilionCitySuperNerd2Script:
 
 VermilionCityBadgeGuyBattleEdgeText:
 	text "Having a variety"
-	line "of #mon types"
+	line "of #MON types"
 
 	para "should give you an"
 	line "edge in battle."
@@ -227,7 +227,7 @@ VermilionCityBadgeGuyBattleEdgeText:
 
 LawrenceOverheardText:
 	text "…So the legendary"
-	line "#mon was not"
+	line "#MON was not"
 	cont "on that island…"
 
 	para "I must continue my"
@@ -252,7 +252,7 @@ LawrenceIntroText:
 	para "…Well, appearances"
 	line "can be deceiving."
 
-	para "Legendary #mon"
+	para "Legendary #MON"
 	line "have always been"
 	cont "my passion."
 
@@ -264,7 +264,7 @@ LawrenceIntroText:
 	cont "the one I sought."
 
 	para "Oh, you've encoun-"
-	line "tered #mon out"
+	line "tered #MON out"
 	cont "of Johto's legends?"
 
 	para "Then our paths may"
@@ -287,7 +287,7 @@ VermilionCityTeacherText:
 	done
 
 VermilionMachokeOwnerText:
-	text "My #mon"
+	text "My #MON"
 	line "prepared the land"
 
 	para "to construct that"
@@ -311,7 +311,7 @@ VermilionCitySuperNerdText:
 
 	para "That big building"
 	line "is Vermilion's"
-	cont "#mon Gym."
+	cont "#MON Gym."
 	done
 
 VermilionCitySuperNerd2Text:
@@ -416,7 +416,7 @@ VermilionCitySignText:
 
 VermilionGymSignText:
 	text "Vermilion City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Lt.Surge"
 
 	para "The Lightning"
@@ -424,9 +424,9 @@ VermilionGymSignText:
 	done
 
 PokemonFanClubSignText:
-	text "#mon Fan Club"
+	text "#MON Fan Club"
 
-	para "All #mon Fans"
+	para "All #MON Fans"
 	line "Welcome!"
 	done
 
@@ -451,5 +451,5 @@ VermilionCityBattleFactorySignText:
 	text "Battle Factory"
 
 	para "Win it All with"
-	line "Rental #mon!"
+	line "Rental #MON!"
 	done

@@ -176,7 +176,7 @@ LanceScript:
 	para "As the most power-"
 	line "ful trainer and as"
 
-	para "the #mon League"
+	para "the #MON League"
 	line "Champion…"
 
 	para "I, Lance the drag-"
@@ -208,7 +208,7 @@ LanceScript:
 	line "truly powerful,"
 	cont "<PLAYER>."
 
-	para "Your #mon have"
+	para "Your #MON have"
 	line "responded to your"
 
 	para "strong and up-"
@@ -218,7 +218,7 @@ LanceScript:
 	line "will continue to"
 
 	para "grow strong with"
-	line "your #mon."
+	line "your #MON."
 	done
 
 .SeenRematchText:
@@ -242,14 +242,14 @@ LanceScript:
 	line "expected."
 
 	para "You and your"
-	line "#mon make"
+	line "#MON make"
 	cont "quite a team."
 
 	para "As a trainer, you"
 	line "will continue to"
 
 	para "grow strong with"
-	line "your #mon."
+	line "your #MON."
 	done
 
 .MaryText1:
@@ -277,10 +277,10 @@ LanceScript:
 	para "Your dedication,"
 	line "trust and love for"
 
-	para "your #mon made"
+	para "your #MON made"
 	line "this happen."
 
-	para "Your #mon were"
+	para "Your #MON were"
 	line "outstanding too."
 
 	para "Because they be-"
@@ -305,7 +305,7 @@ LanceScript:
 	line "that you deeply"
 
 	para "understand, trust,"
-	line "and love #mon."
+	line "and love #MON."
 
 	para "Your team's out-"
 	line "standing skills"

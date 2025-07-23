@@ -29,7 +29,7 @@ GenericTrainerCowgirlApril:
 	text "Sometimes you'll"
 	line "see 10 of the same"
 
-	para "#mon, all in a"
+	para "#MON, all in a"
 	line "row!"
 	done
 
@@ -37,7 +37,7 @@ CowgirlAprilSeenText:
 	text "Yeehaw!"
 	line "I just caught a"
 	cont "whole herd of"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 CowgirlAprilBeatenText:
@@ -57,6 +57,6 @@ SafariZoneEastTrainerTipsSignText:
 	text "Trainer Tips"
 
 	para "Search for rare"
-	line "#mon at night"
+	line "#MON at night"
 	cont "or in the morning!"
 	done

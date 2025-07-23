@@ -125,7 +125,7 @@ GenericTrainerSwimmerfStephanie:
 GenericTrainerBird_keeperPowell:
 	generictrainer BIRD_KEEPER, POWELL, EVENT_BEAT_BIRD_KEEPER_POWELL, .SeenText, .BeatenText
 
-	text "My #mon can"
+	text "My #MON can"
 	line "use Fly even while"
 
 	para "fainted, so I can"
@@ -137,12 +137,12 @@ GenericTrainerBird_keeperPowell:
 .SeenText:
 	text "I can't swim, so"
 	line "I flew here on my"
-	cont "#mon."
+	cont "#MON."
 	done
 
 .BeatenText:
 	text "Oh no! My"
-	line "#mon!"
+	line "#MON!"
 	done
 
 GenericTrainerCosplayerChloe:
@@ -172,7 +172,7 @@ GenericTrainerFisherKiley:
 	line "good Rod if you"
 
 	para "want to catch good"
-	line "#mon."
+	line "#MON."
 	done
 
 .SeenText:
@@ -282,7 +282,7 @@ Route32CoastLassText:
 Route32CoastTrainerTipsText:
 	text "Trainer Tips"
 
-	para "A #mon with the"
+	para "A #MON with the"
 	line "Pickup ability"
 
 	para "might hold an item"

@@ -70,7 +70,7 @@ RedsHouseSignText:
 	done
 
 OaksLabSignText:
-	text "Oak #mon"
+	text "Oak #MON"
 	line "Research Lab"
 	done
 

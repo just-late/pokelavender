@@ -193,7 +193,7 @@ BellchimeTrailValerieScript:
 
 	para "who caught the eye"
 	line "of a legendary"
-	cont "#mon."
+	cont "#MON."
 	done
 
 .BattleText:

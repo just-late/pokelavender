@@ -31,7 +31,7 @@ CeladonUniversityClassroom3SparkText:
 	line "#biology."
 
 	para "We're studying how"
-	line "#mon reproduce."
+	line "#MON reproduce."
 
 	para "Prof.Elm has pion-"
 	line "eered the field."
@@ -55,7 +55,7 @@ CeladonUniversityClassroom3TeacherText:
 	done
 
 CeladonUniversityClassroom3ChildText:
-	text "#mon inside"
+	text "#MON inside"
 	line "# Balls are"
 
 	para "converted to light"
@@ -88,7 +88,7 @@ CeladonUniversityClassroom3LassText:
 CeladonUniversityClassroom3Super_nerdText:
 	text "Have you heard of"
 	line "the Electric-type"
-	cont "#mon Mareep?"
+	cont "#MON Mareep?"
 
 	para "Its name derives"
 	line "from the unit of"
@@ -105,15 +105,15 @@ CeladonUniversityClassroom3BlackboardText:
 	text "'Phylogenetics'"
 	line "is on the board."
 
-	para "“…#mon can be"
+	para "“…#MON can be"
 	line "divided into 14"
 	cont "“Egg groups”,"
 	cont "plus Ditto."
 
-	para "Baby #mon can-"
+	para "Baby #MON can-"
 	line "not breed."
 
-	para "Legendary #mon"
+	para "Legendary #MON"
 	line "have not been"
 	cont "studied.”"
 	done

@@ -20,7 +20,7 @@ GoldenrodPPSpeechHouseFisherText:
 	text "Once while I was"
 	line "battling, my"
 
-	para "#mon couldn't"
+	para "#MON couldn't"
 	line "make any moves."
 
 	para "The Power Points,"
@@ -32,7 +32,7 @@ GoldenrodPPSpeechHouseFisherText:
 
 GoldenrodPPSpeechHouseLassText:
 	text "Sometimes, a"
-	line "healthy #mon"
+	line "healthy #MON"
 
 	para "may be unable to"
 	line "use its moves."

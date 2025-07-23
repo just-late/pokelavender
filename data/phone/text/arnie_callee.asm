@@ -56,7 +56,7 @@ ArnieGreetNiteText:
 	done
 
 ArnieGenericText:
-	text "I bet your #mon"
+	text "I bet your #MON"
 	line "are a lot stronger"
 	cont "than before."
 	done

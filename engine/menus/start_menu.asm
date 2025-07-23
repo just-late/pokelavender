@@ -165,7 +165,7 @@ StartMenu::
 	dw StartMenu_Quit,     .QuitString
 
 .PokedexString:  db "#dex@"
-.PartyString:    db "#mon@"
+.PartyString:    db "#MON@"
 .PackString:     db "Bag@"
 .StatusString:   db "<PLAYER>@"
 .SaveString:     db "Save@"

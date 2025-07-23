@@ -201,7 +201,7 @@ MrPokemonIntroText2:
 
 MrPokemonIntroText3:
 	text "I know a couple"
-	line "who run a #mon"
+	line "who run a #MON"
 	cont "Day-Care service."
 
 	para "They gave me that"
@@ -211,7 +211,7 @@ MrPokemonIntroText3:
 	line "so I sent mail to"
 	cont "Prof.Elm."
 
-	para "For #mon evolu-"
+	para "For #MON evolu-"
 	line "tion, Prof.Elm is"
 	cont "the authority."
 	done
@@ -231,7 +231,7 @@ MrPokemonsHouse_MrPokemonHealText:
 	text "You are returning"
 	line "to Prof.Elm?"
 
-	para "Here. Your #mon"
+	para "Here. Your #MON"
 	line "should have some"
 	cont "rest."
 	done
@@ -244,7 +244,7 @@ MrPokemonText_OddSouvenir:
 	cont "Orange Islands."
 
 	para "I saw some oddly-"
-	line "formed #mon"
+	line "formed #MON"
 	cont "there too!"
 
 	para "Hmm… I wonder…"
@@ -254,7 +254,7 @@ MrPokemonText_OddSouvenir:
 
 	para "that souvenir and"
 	line "those unusual"
-	cont "forms of #mon?"
+	cont "forms of #MON?"
 	done
 
 MrPokemonText_ImDependingOnYou:
@@ -275,12 +275,12 @@ MrPokemonsHouse_OakText1:
 	line "you're <PLAYER>!"
 
 if !DEF(DEBUG)
-	para "I'm Oak! A #mon"
+	para "I'm Oak! A #MON"
 	line "researcher."
 
 	para "I was just visit-"
 	line "ing my old friend"
-	cont "Mr.#mon."
+	cont "Mr.#MON."
 
 	para "I heard you were"
 	line "running an errand"
@@ -289,7 +289,7 @@ if !DEF(DEBUG)
 	line "waited here."
 
 	para "Oh! What's this?"
-	line "A rare #mon!"
+	line "A rare #MON!"
 
 	para "Let's see…"
 
@@ -298,19 +298,19 @@ if !DEF(DEBUG)
 	para "I understand why"
 	line "Prof.Elm gave you"
 
-	para "a #mon for this"
+	para "a #MON for this"
 	line "errand."
 
 	para "To researchers"
 	line "like Prof.Elm and"
 
-	para "I, #mon are our"
+	para "I, #MON are our"
 	line "friends."
 
 	para "He saw that you"
 	line "would treat your"
 
-	para "#mon with love"
+	para "#MON with love"
 	line "and care."
 
 	para "…Ah!"
@@ -328,7 +328,7 @@ if !DEF(DEBUG)
 	para "It automatically"
 	line "records data on"
 
-	para "#mon you've"
+	para "#MON you've"
 	line "seen or caught."
 
 	para "It's a hi-tech"
@@ -343,7 +343,7 @@ MrPokemonsHouse_GetDexText:
 
 MrPokemonsHouse_OakText2:
 	text "Go meet many kinds"
-	line "of #mon and"
+	line "of #MON and"
 
 	para "complete that"
 	line "#dex!"
@@ -378,16 +378,16 @@ MrPokemonText_GimmeTheScale:
 	line "care to trade it?"
 
 	para "I can offer you"
-	line "a rare #mon."
+	line "a rare #MON."
 	done
 
 MrPokemonText_GotShinyDitto:
 	text "<PLAYER> received a"
-	line "#mon."
+	line "#MON."
 	done
 
 MrPokemonText_SentToPC:
-	text "The #mon was"
+	text "The #MON was"
 	line "sent to "
 	text_ram wStringBuffer1
 	text "."

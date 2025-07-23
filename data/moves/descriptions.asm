@@ -710,7 +710,7 @@ WrapDescription:
 	done
 
 TrickRoomDescription:
-	text "Slow #mon move"
+	text "Slow #MON move"
 	next "first for 5 turns."
 	done
 
@@ -999,7 +999,7 @@ AquaTailDescription:
 
 MetronomeDescription:
 	text "Randomly uses any"
-	next "#mon move."
+	next "#MON move."
 	done
 
 SkillSwapDescription:
@@ -1214,7 +1214,7 @@ EncoreDescription:
 
 PursuitDescription:
 	text "Heavily strikes"
-	next "switching #mon."
+	next "switching #MON."
 	done
 
 RapidSpinDescription:
@@ -1234,7 +1234,7 @@ KnockOffDescription:
 
 HiddenPowerDescription:
 	text "The type varies"
-	next "with the #mon."
+	next "with the #MON."
 	done
 
 FutureSightDescription:

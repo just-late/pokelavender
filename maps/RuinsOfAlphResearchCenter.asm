@@ -314,12 +314,12 @@ RuinsOfAlphResearchCenterScientist1Text:
 
 RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
 	text "I wonder how many"
-	line "kinds of #mon"
+	line "kinds of #MON"
 	cont "are in the ruins?"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
-	text "#mon appeared"
+	text "#MON appeared"
 	line "in the ruins?"
 
 	para "That's incredible"
@@ -340,7 +340,7 @@ RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
 	line "to have been built"
 
 	para "as a habitat for"
-	line "#mon."
+	line "#MON."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
@@ -421,7 +421,7 @@ RuinsOfAlphResearchCenterComputerText:
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mystery #mon"
+	text "Mystery #MON"
 	line "Name: Unown"
 
 	para "A total of "

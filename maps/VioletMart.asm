@@ -18,7 +18,7 @@ VioletMart_MapScriptHeader:
 
 VioletMartGrannyText:
 	text "When you first"
-	line "catch a #mon,"
+	line "catch a #MON,"
 	cont "it may be weak."
 
 	para "But it will even-"
@@ -26,12 +26,12 @@ VioletMartGrannyText:
 	cont "strong."
 
 	para "It's important to"
-	line "treat #mon with"
+	line "treat #MON with"
 	cont "love."
 	done
 
 VioletMartCooltrainerMText:
-	text "#mon can hold"
+	text "#MON can hold"
 	line "items like Potion"
 	cont "and Antidote."
 

@@ -24,7 +24,7 @@ PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "<PK><MN> Trainer Red!"
@@ -33,7 +33,7 @@ PokemonJournalRedScript:
 	line "have defeated his"
 
 	para "rival Blue for the"
-	line "title of #mon"
+	line "title of #MON"
 
 	para "League Champion in"
 	line "record time."
@@ -57,7 +57,7 @@ CherrygrovePokeCenter1FTeacherScript:
 	line "Center upstairs"
 	cont "was just built."
 
-	para "I traded #mon"
+	para "I traded #MON"
 	line "there already!"
 	done
 
@@ -65,7 +65,7 @@ CherrygrovePokeCenter1FFisherText:
 	text "It's great. I can"
 	line "store any number"
 
-	para "of #mon, and"
+	para "of #MON, and"
 	line "it's all free."
 	done
 
@@ -76,11 +76,11 @@ CherrygrovePokeCenter1FGentlemanText:
 	done
 
 CherrygrovePokeCenter1FLadyText:
-	text "#mon Journal"
+	text "#MON Journal"
 	line "has such fascin-"
 	cont "ating stories!"
 
-	para "I come to #mon"
+	para "I come to #MON"
 	line "Centers for the"
 
 	para "latest issues, but"

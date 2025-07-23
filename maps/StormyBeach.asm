@@ -78,7 +78,7 @@ GenericTrainerCamperFelix:
 
 	para "All I need is some"
 	line "firewood for my"
-	cont "#mon to light."
+	cont "#MON to light."
 	done
 
 .SeenText:

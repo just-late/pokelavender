@@ -197,7 +197,7 @@ GenericTrainerBug_catcherDon:
 
 	text "I ran out of #"
 	line "Balls while I was"
-	cont "catching #mon."
+	cont "catching #MON."
 
 	para "I should've bought"
 	line "some more…"
@@ -233,7 +233,7 @@ Text_ThisIsABigBattle:
 YoungsterJoey1SeenText:
 	text "I just lost, so"
 	line "I'm trying to find"
-	cont "more #mon."
+	cont "more #MON."
 
 	para "Wait! You look"
 	line "weak! Come on,"
@@ -247,7 +247,7 @@ YoungsterJoey1BeatenText:
 
 YoungsterJoey1AfterText:
 	text "Do I have to have"
-	line "more #mon in"
+	line "more #MON in"
 
 	para "order to battle"
 	line "better?"
@@ -258,7 +258,7 @@ YoungsterJoey1AfterText:
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #mon"
+	text "You're a #MON"
 	line "trainer, right?"
 
 	para "Then you have to"
@@ -272,7 +272,7 @@ YoungsterMikeyBeatenText:
 
 Bug_catcherDonSeenText:
 	text "Instead of a bug"
-	line "#mon, I found"
+	line "#MON, I found"
 	cont "a trainer!"
 	done
 
@@ -282,7 +282,7 @@ Bug_catcherDonBeatenText:
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "Mr.#mon's"
+	text "Mr.#MON's"
 	line "house? It's a bit"
 	cont "farther ahead."
 	done
@@ -309,12 +309,12 @@ Route30SignText:
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "Mr.#mon's House"
+	text "Mr.#MON's House"
 	line "Straight Ahead!"
 	done
 
 MrPokemonsHouseSignText:
-	text "Mr.#mon's House"
+	text "Mr.#MON's House"
 	done
 
 BerryMastersHouseSignText:
@@ -326,11 +326,11 @@ Route30TrainerTipsText:
 	text "Trainer Tips"
 
 	para "No stealing other"
-	line "people's #mon!"
+	line "people's #MON!"
 
 	para "# Balls are to"
 	line "be thrown only at"
-	cont "wild #mon!"
+	cont "wild #MON!"
 	done
 
 Route30AdvancedTipsText:
@@ -338,7 +338,7 @@ Route30AdvancedTipsText:
 
 	para "During a battle,"
 	line "press Select to"
-	cont "switch #mon!"
+	cont "switch #MON!"
 
 	para "Press Start to"
 	line "reuse an item!"

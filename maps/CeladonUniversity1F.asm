@@ -54,7 +54,7 @@ CeladonUniversity1FSuperNerdText:
 	line "there's a universe"
 
 	para "without any"
-	line "#mon?"
+	line "#MON?"
 
 	para "That would be"
 	line "tragic!"
@@ -67,27 +67,27 @@ CeladonUniversity1FLassText:
 	para "in everything from"
 	line "flower arranging"
 
-	para "to #mon"
+	para "to #MON"
 	line "psychology!"
 	done
 
 CeladonUniversity1FCooltrainermText:
 	text "Everyone at this"
 	line "university is a"
-	cont "#mon trainer."
+	cont "#MON trainer."
 
 	para "To get offered a"
 	line "place here, you"
 
 	para "have to pass a"
-	line "series of #mon"
+	line "series of #MON"
 	cont "battling tests."
 	done
 
 CeladonUniversity1FYoungsterText:
 	text "Magikarp is the"
 	line "university's mascot"
-	cont "#mon."
+	cont "#MON."
 
 	para "It's a symbol that"
 	line "anybody can aspire"
@@ -131,7 +131,7 @@ CeladonUniversity1FReceptionistText:
 
 CeladonUniversity1FCooltrainerfText:
 	text "I'm studying to be"
-	line "a #mon nurse."
+	line "a #MON nurse."
 
 	para "With so many spe-"
 	line "cies out there,"

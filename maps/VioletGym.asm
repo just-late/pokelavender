@@ -106,37 +106,37 @@ VioletGymStatue:
 
 FalknerIntroText:
 	text "I'm Falkner, the"
-	line "Violet #mon Gym"
+	line "Violet #MON Gym"
 	cont "Leader!"
 
 	para "People say you can"
 	line "clip Flying-type"
 
-	para "#mon's wings"
+	para "#MON's wings"
 	line "with a jolt of"
 	cont "electricity…"
 
 	para "I won't allow such"
 	line "insults to bird"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "I'll show you the"
 	line "real power of the"
 
 	para "magnificent bird"
-	line "#mon!"
+	line "#MON!"
 	done
 
 FalknerWinLossText:
 	text "…Darn! My dad's"
 	line "cherished bird"
-	cont "#mon…"
+	cont "#MON…"
 
 	para "All right."
 	line "Take this."
 
 	para "It's the official"
-	line "#mon League"
+	line "#MON League"
 	cont "Zephyr Badge."
 	done
 
@@ -149,7 +149,7 @@ FalknerZephyrBadgeText:
 	text "The Zephyr Badge"
 	line "enables you to"
 
-	para "command #mon,"
+	para "command #MON,"
 	line "even traded ones,"
 	cont "up to <LV>20."
 
@@ -159,7 +159,7 @@ FalknerZephyrBadgeText:
 
 FalknerTMMudSlapText:
 	text "By using a TM, a"
-	line "#mon will"
+	line "#MON will"
 
 	para "instantly learn a"
 	line "new move."
@@ -177,7 +177,7 @@ FalknerTMMudSlapText:
 	done
 
 FalknerFightDoneText:
-	text "There are #mon"
+	text "There are #MON"
 	line "Gyms in cities and"
 	cont "towns ahead."
 
@@ -200,7 +200,7 @@ Bird_keeperRodSeenText:
 	line "training night and"
 
 	para "day to become bird"
-	line "#mon masters."
+	line "#MON masters."
 
 	para "Come on!"
 	done

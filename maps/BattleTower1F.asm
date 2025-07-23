@@ -124,7 +124,7 @@ BattleTower1FRulesScript:
 	yesorno
 	iffalse_endtext
 	jumpthisopenedtext
-		text "Three #mon may"
+		text "Three #MON may"
 		line "enter battles."
 
 		para "All three must be"
@@ -135,7 +135,7 @@ BattleTower1FRulesScript:
 		cont "different."
 
 		para "Eggs or certain"
-		line "Legendary #mon"
+		line "Legendary #MON"
 		cont "aren't eligible"
 		cont "to battle."
 		done
@@ -176,9 +176,9 @@ BattleTower1FReceptionistScript:
 	writethistext
 		text "Battle Tower is a"
 		line "facility made for"
-		cont "#mon battles."
+		cont "#MON battles."
 
-		para "Countless #mon"
+		para "Countless #MON"
 		line "trainers gather"
 
 		para "from all over to"
@@ -227,7 +227,7 @@ BattleTower1FReceptionistScript:
 
 .Challenge:
 	writethistext
-		text "Choose #mon"
+		text "Choose #MON"
 		line "to enter."
 		prompt
 	special Special_BattleTower_SelectParticipants
@@ -321,7 +321,7 @@ BattleTowerPharmacistScript:
 BattleTowerTutorTrickScript:
 	writethistext
 		text "I'll teach your"
-		line "#mon how to"
+		line "#MON how to"
 
 		para "use Trick…"
 		line "for a Silver Leaf."
@@ -331,7 +331,7 @@ BattleTowerTutorTrickScript:
 	iffalsefwd .NoSilverLeaf
 	writethistext
 		text "Should I teach"
-		line "your #mon"
+		line "your #MON"
 		cont "Trick?"
 		done
 	yesorno
@@ -355,7 +355,7 @@ BattleTowerTutorTrickScript:
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
-		text "Now your #mon"
+		text "Now your #MON"
 		line "can use Trick too!"
 		cont "Isn't it devious?"
 		done
@@ -376,7 +376,7 @@ Text_BattleTowerGranny:
 	line "in battle."
 
 	para "Making your"
-	line "#mon hold items"
+	line "#MON hold items"
 
 	para "is the key to"
 	line "winning battles."
@@ -387,17 +387,17 @@ Text_BattleTowerBugCatcher:
 	line "how far I can go"
 
 	para "using just bug"
-	line "#mon."
+	line "#MON."
 
 	para "Don't let there be"
-	line "any fire #mon…"
+	line "any fire #MON…"
 	done
 
 PokemonJournalPalmerScript:
 	setflag ENGINE_READ_PALMER_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Tower Tycoon"

@@ -298,7 +298,7 @@ KeyItemDescriptions:
 
 PokeBallDesc:
 	text "An item for catch-"
-	next "ing #mon."
+	next "ing #MON."
 	done
 
 GreatBallDesc:
@@ -323,11 +323,11 @@ SafariBallDesc:
 
 LevelBallDesc:
 	text "A Ball for lower-"
-	next "level #mon."
+	next "level #MON."
 	done
 
 LureBallDesc:
-	text "A Ball for #mon"
+	text "A Ball for #MON"
 	next "hooked by a Rod."
 	done
 
@@ -338,17 +338,17 @@ MoonBallDesc:
 
 FriendBallDesc:
 	text "A Ball that makes"
-	next "#mon friendly."
+	next "#MON friendly."
 	done
 
 FastBallDesc:
 	text "A Ball for catch-"
-	next "ing fast #mon."
+	next "ing fast #MON."
 	done
 
 HeavyBallDesc:
 	text "A Ball for catch-"
-	next "ing heavy #mon."
+	next "ing heavy #MON."
 	done
 
 LoveBallDesc:
@@ -362,7 +362,7 @@ AbilityPatchDesc:
 	done
 
 RepeatBallDesc:
-	text "A Ball for #mon"
+	text "A Ball for #MON"
 	next "caught before."
 	done
 
@@ -373,27 +373,27 @@ TimerBallDesc:
 
 NestBallDesc:
 	text "A Ball for weaker"
-	next "#mon."
+	next "#MON."
 	done
 
 NetBallDesc:
 	text "A Ball for Water"
-	next "or Bug #mon."
+	next "or Bug #MON."
 	done
 
 DiveBallDesc:
 	text "A Ball for under-"
-	next "water #mon."
+	next "water #MON."
 	done
 
 LuxuryBallDesc:
 	text "A cozy Ball to"
-	next "befriend #mon."
+	next "befriend #MON."
 	done
 
 HealBallDesc:
 	text "A remedial Ball to"
-	next "heal #mon."
+	next "heal #MON."
 	done
 
 QuickBallDesc:
@@ -408,7 +408,7 @@ DuskBallDesc:
 
 DreamBallDesc:
 	text "A Ball for sleep-"
-	next "ing #mon."
+	next "ing #MON."
 	done
 
 PremierBallDesc:
@@ -422,48 +422,48 @@ CherishBallDesc:
 	done
 
 PotionDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 20."
 	done
 
 SuperPotionDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 60."
 	done
 
 HyperPotionDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 120."
 	done
 
 MaxPotionDesc:
 	text "Fully restores"
-	next "#mon HP."
+	next "#MON HP."
 	done
 
 AntidoteDesc:
 	text "Cures poisoned"
-	next "#mon."
+	next "#MON."
 	done
 
 BurnHealDesc:
 	text "Heals burned"
-	next "#mon."
+	next "#MON."
 	done
 
 ParalyzeHealDesc:
 	text "Heals paralyzed"
-	next "#mon."
+	next "#MON."
 	done
 
 AwakeningDesc:
 	text "Awakens sleeping"
-	next "#mon."
+	next "#MON."
 	done
 
 IceHealDesc:
 	text "Defrosts frozen"
-	next "#mon."
+	next "#MON."
 	done
 
 FullHealDesc:
@@ -480,12 +480,12 @@ FullRestoreDesc:
 
 ReviveDesc:
 	text "Restores a fainted"
-	next "#mon to 1/2 HP."
+	next "#MON to 1/2 HP."
 	done
 
 MaxReviveDesc:
 	text "Fully restores a"
-	next "fainted #mon."
+	next "fainted #MON."
 	done
 
 EtherDesc:
@@ -505,42 +505,42 @@ ElixirDesc:
 
 MaxElixirDesc:
 	text "Fully restores the"
-	next "PP of one #mon."
+	next "PP of one #MON."
 	done
 
 HPUpDesc:
 	text "Raises the HP of"
-	next "one #mon."
+	next "one #MON."
 	done
 
 ProteinDesc:
 	text "Raises Attack of"
-	next "one #mon."
+	next "one #MON."
 	done
 
 IronDesc:
 	text "Raises Defense of"
-	next "one #mon."
+	next "one #MON."
 	done
 
 CarbosDesc:
 	text "Raises Speed of"
-	next "one #mon."
+	next "one #MON."
 	done
 
 CalciumDesc:
 	text "Raises Sp.Atk of"
-	next "one #mon."
+	next "one #MON."
 	done
 
 ZincDesc:
 	text "Raises Sp.Def of"
-	next "one #mon."
+	next "one #MON."
 	done
 
 RareCandyDesc:
 	text "Raises level of a"
-	next "#mon by one."
+	next "#MON by one."
 	done
 
 PPUpDesc:
@@ -554,37 +554,37 @@ PPMaxDesc:
 	done
 
 FreshWaterDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 30."
 	done
 
 SodaPopDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 50."
 	done
 
 LemonadeDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 70."
 	done
 
 MoomooMilkDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 100."
 	done
 
 SacredAshDesc:
 	text "Fully revives all"
-	next "fainted #mon."
+	next "fainted #MON."
 	done
 
 EnergyPowderDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 60. Bitter."
 	done
 
 EnergyRootDesc:
-	text "Restores #mon"
+	text "Restores #MON"
 	next "HP by 120. Bitter."
 	done
 
@@ -595,7 +595,7 @@ HealPowderDesc:
 
 RevivalHerbDesc:
 	text "Revives fainted"
-	next "#mon. Bitter."
+	next "#MON. Bitter."
 	done
 
 XAttackDesc:
@@ -660,7 +660,7 @@ EscapeRopeDesc:
 
 PokeDollDesc:
 	text "Use to escape from"
-	next "a wild #mon."
+	next "a wild #MON."
 	done
 
 AbilityCapDesc:
@@ -679,7 +679,7 @@ ShinyStoneDesc:
 IceStoneDesc:
 LinkingCordDesc:
 	text "Evolves certain"
-	next "kinds of #mon."
+	next "kinds of #MON."
 	done
 
 EverstoneDesc:
@@ -981,12 +981,12 @@ AmuletCoinDesc:
 
 CleanseTagDesc:
 	text "Helps repel wild"
-	next "#mon. (Hold)"
+	next "#MON. (Hold)"
 	done
 
 SmokeBallDesc:
 	text "Escape from wild"
-	next "#mon. (Hold)"
+	next "#MON. (Hold)"
 	done
 
 BerserkGeneDesc:
@@ -1026,7 +1026,7 @@ QuickPowderDesc:
 
 ArmorSuitDesc:
 	text "A suit of armor"
-	next "for some #mon."
+	next "for some #MON."
 	done
 
 AirBalloonDesc:
@@ -1191,7 +1191,7 @@ ToxicOrbDesc:
 
 BlackSludgeDesc:
 	text "Restores HP for"
-	next "Poison #mon."
+	next "Poison #MON."
 	done
 
 MachoBraceDesc:
@@ -1236,7 +1236,7 @@ MulchDesc:
 
 SweetHoneyDesc:
 	text "The aroma attracts"
-	next "wild #mon."
+	next "wild #MON."
 	done
 
 EvioliteDesc:
@@ -1286,7 +1286,7 @@ MagmarizerDesc:
 
 OvalStoneDesc:
 	text "A stone as round"
-	next "as a #mon Egg."
+	next "as a #MON Egg."
 	done
 
 OddSouvenirDesc:
@@ -1377,7 +1377,7 @@ BottleCapDesc:
 HelixFossilDesc:
 DomeFossilDesc:
 	text "A fossilized"
-	next "#mon shell."
+	next "#MON shell."
 	done
 
 OldAmberDesc:
@@ -1522,17 +1522,17 @@ BicycleDesc:
 
 OldRodDesc:
 	text "Use by water to"
-	next "fish for #mon."
+	next "fish for #MON."
 	done
 
 GoodRodDesc:
 	text "A good Rod for"
-	next "catching #mon."
+	next "catching #MON."
 	done
 
 SuperRodDesc:
 	text "The best Rod for"
-	next "catching #mon."
+	next "catching #MON."
 	done
 
 CoinCaseDesc:
@@ -1547,7 +1547,7 @@ ItemfinderDesc:
 
 MysteryEggDesc:
 	text "An Egg obtained"
-	next "from Mr.#mon."
+	next "from Mr.#MON."
 	done
 
 SquirtBottleDesc:
@@ -1562,7 +1562,7 @@ GoGogglesDesc:
 
 SecretPotionDesc:
 	text "Fully heals any"
-	next "#mon."
+	next "#MON."
 	done
 
 RedScaleDesc:
@@ -1657,7 +1657,7 @@ MalignLureDesc:
 
 ShinyCharmDesc:
 	text "A charm for find-"
-	next "ing shiny #mon."
+	next "ing shiny #MON."
 	done
 
 OvalCharmDesc:
@@ -1667,12 +1667,12 @@ OvalCharmDesc:
 
 CatchCharmDesc:
 	text "A charm for catch-"
-	next "ing #mon."
+	next "ing #MON."
 	done
 
 SilphScope2Desc:
 	text "A scope to see in-"
-	next "visible #mon."
+	next "visible #MON."
 	done
 
 ApricornBoxDesc:

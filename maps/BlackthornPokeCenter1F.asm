@@ -24,7 +24,7 @@ PokemonJournalClairScript:
 	setflag ENGINE_READ_CLAIR_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Clair!"
@@ -55,7 +55,7 @@ ProfOaksAide4Script:
 	para "caught "
 	text_decimal wTempDexOwn, 2, 3
 	text " kinds"
-	line "of #mon."
+	line "of #MON."
 
 	para "Come back and see"
 	line "me when you catch"
@@ -72,7 +72,7 @@ ProfOaksAide4Script:
 
 .ExplainText:
 	text "That Lucky Egg"
-	line "helps a #mon"
+	line "helps a #MON"
 
 	para "gain more exper-"
 	line "ience than usual."
@@ -86,7 +86,7 @@ ProfOaksAide4Script:
 	line "Prof.Oak's aide."
 
 	para "If you caught 60"
-	line "kinds of #mon,"
+	line "kinds of #MON,"
 
 	para "I'm supposed to"
 	line "give you an item."
@@ -95,7 +95,7 @@ ProfOaksAide4Script:
 	line "have you caught"
 
 	para "at least 60 kinds"
-	line "of #mon?"
+	line "of #MON?"
 	done
 
 .HereYouGoText:
@@ -105,7 +105,7 @@ ProfOaksAide4Script:
 	para "caught "
 	text_decimal wTempDexOwn, 2, 3
 	text " kinds"
-	line "of #mon."
+	line "of #MON."
 
 	para "Congratulations!"
 	line "Here you go!"
@@ -121,7 +121,7 @@ BlackthornPokeCenter1FGentlemanText:
 	text "Deep inside far-"
 	line "off Indigo Plateau"
 
-	para "is the #mon"
+	para "is the #MON"
 	line "League."
 
 	para "I hear the best"

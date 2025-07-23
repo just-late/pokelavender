@@ -29,7 +29,7 @@ VioletNicknameSpeechHouseTeacherText:
 
 	para "For the nicknames"
 	line "she gives to her"
-	cont "#mon, I mean."
+	cont "#MON, I mean."
 	done
 
 VioletNicknameSpeechHouseLassText:

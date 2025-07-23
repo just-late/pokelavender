@@ -64,5 +64,5 @@ DanaGenericText:
 	line "scary."
 
 	para "How are your"
-	line "#mon doing?"
+	line "#MON doing?"
 	done

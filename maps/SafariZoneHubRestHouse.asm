@@ -21,7 +21,7 @@ PokemonJournalKogaScript:
 	setflag ENGINE_READ_KOGA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Elite Four Koga!"
@@ -35,6 +35,6 @@ PokemonJournalKogaScript:
 	para "He even concocts"
 	line "medicine to nurse"
 
-	para "his #mon to"
+	para "his #MON to"
 	line "health."
 	done

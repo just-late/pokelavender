@@ -196,7 +196,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question1QuestionText:
-	text "What #mon's sil-"
+	text "What #MON's sil-"
 	line "houette is this?"
 	done
 
@@ -206,7 +206,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question2QuestionText:
-	text "What #mon's cry"
+	text "What #MON's cry"
 	line "is this?"
 	done
 
@@ -224,7 +224,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question4QuestionText:
-	text "Which #mon"
+	text "Which #MON"
 	line "has Dry Skin?"
 	done
 

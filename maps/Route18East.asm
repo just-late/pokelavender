@@ -36,7 +36,7 @@ GenericTrainerBird_keeperBob:
 
 Bird_keeperBorisSeenText:
 	text "If you're looking"
-	line "for #mon, you"
+	line "for #MON, you"
 
 	para "have to look in"
 	line "the tall grass."

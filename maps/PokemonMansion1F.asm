@@ -67,7 +67,7 @@ BurglarLouisBeatenText:
 	done
 
 PokemonMansion1FMewtwoStatueText:
-	text "A #mon statue…"
+	text "A #MON statue…"
 
 	para "It looks very"
 	line "threatening."

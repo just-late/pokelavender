@@ -288,7 +288,7 @@ GenericTrainerPokemaniacShane:
 
 	para "Wow, you must know"
 	line "some pretty rare"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "May I please see"
 	line "it. Please?"
@@ -339,7 +339,7 @@ Route42LyraGreetingText:
 	line "ects of the recent"
 
 	para "avalanche on wild"
-	line "#mon."
+	line "#MON."
 
 	para "So you're heading"
 	line "to Mahogany Town"
@@ -382,7 +382,7 @@ Route42LyraWhirlpoolText:
 	line "Whirlpool."
 
 	para "Teach it to a"
-	line "#mon to get"
+	line "#MON to get"
 	cont "across wild water."
 
 	para "I should get"
@@ -397,7 +397,7 @@ Route42LyraWhirlpoolText:
 FisherTully1SeenText:
 	text "Let me demonstrate"
 	line "the power of the"
-	cont "#mon I caught!"
+	cont "#MON I caught!"
 	done
 
 FisherTully1BeatenText:
@@ -409,7 +409,7 @@ FisherTullyAfterBattleText:
 	text "I want to become"
 	line "the trainer Champ"
 
-	para "using the #mon"
+	para "using the #MON"
 	line "I caught."
 
 	para "That's the best"

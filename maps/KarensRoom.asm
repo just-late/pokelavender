@@ -85,7 +85,7 @@ KarenScript:
 	line "How amusing."
 
 	para "I love Dark-type"
-	line "#mon."
+	line "#MON."
 
 	para "I find their wild,"
 	line "tough image to be"
@@ -107,9 +107,9 @@ KarenScript:
 	done
 
 .AfterText:
-	text "Strong #mon."
+	text "Strong #MON."
 
-	para "Weak #mon."
+	para "Weak #MON."
 
 	para "That is only the"
 	line "selfish perception"

@@ -276,7 +276,7 @@ JugglerFritzBeatenText:
 BakerSharynSeenText:
 	text "As I bake bread,"
 	line "I will bake your"
-	cont "#mon, too!"
+	cont "#MON, too!"
 	done
 
 BakerSharynBeatenText:
@@ -325,7 +325,7 @@ SailorKennethSeenText:
 	text "I'm a sailor man!"
 
 	para "But I'm training"
-	line "#mon, so I can"
+	line "#MON, so I can"
 	cont "become the Champ!"
 	done
 

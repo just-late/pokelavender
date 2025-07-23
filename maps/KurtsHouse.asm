@@ -384,7 +384,7 @@ PokemonJournalProfWestwoodScript:
 	setflag ENGINE_READ_PROF_WESTWOOD_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Prof.Westwood!"
@@ -455,7 +455,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	para "Team Rocket's an"
 	line "evil gang that"
 
-	para "uses #mon for"
+	para "uses #MON for"
 	line "their dirty work."
 
 	para "They're supposed"
@@ -553,7 +553,7 @@ KurtsHouseKurtTurnedOutGreatText:
 	line "out great."
 
 	para "Try catching"
-	line "#mon with it."
+	line "#MON with it."
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:

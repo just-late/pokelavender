@@ -98,11 +98,11 @@ AnthonySwarmText:
 	line "I didn't see any"
 
 	para "where there are"
-	line "strong #mon."
+	line "strong #MON."
 	done
 
 AnthonyWasntPayingAttentionText:
-	text "Rare #mon?"
+	text "Rare #MON?"
 
 	para "Hey, sorry! I was"
 	line "too focused on my"
@@ -136,6 +136,6 @@ AnthonyHurryText:
 	para "Dunsparce don't"
 	line "appear when there"
 
-	para "are strong #mon"
+	para "are strong #MON"
 	line "around."
 	done

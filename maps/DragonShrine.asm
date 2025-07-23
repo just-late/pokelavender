@@ -346,7 +346,7 @@ DragonShrineElderGreetingText:
 	done
 
 DragonShrineQuestion1Text:
-	text "What are #mon"
+	text "What are #MON"
 	line "to you?"
 	done
 
@@ -364,12 +364,12 @@ DragonShrineQuestion3Text:
 DragonShrineQuestion4Text:
 	text "What is most"
 	line "important for"
-	cont "raising #mon?"
+	cont "raising #MON?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Strong #mon."
-	line "Weak #mon."
+	text "Strong #MON."
+	line "Weak #MON."
 
 	para "Which is more"
 	line "important?"
@@ -379,7 +379,7 @@ DragonShrinePassedTestText:
 	text "Hm… I see…"
 
 	para "You care deeply"
-	line "for #mon."
+	line "for #MON."
 
 	para "Very commendable."
 
@@ -391,7 +391,7 @@ DragonShrinePassedTestText:
 
 	para "It will see you"
 	line "through at the"
-	cont "#mon League."
+	cont "#MON League."
 	done
 
 DragonShrineMustIInformLanceText:
@@ -447,7 +447,7 @@ DragonShrinePartyAndBoxFullText:
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Dragon #mon are"
+	text "Dragon #MON are"
 	line "symbolic of our"
 	cont "clan."
 
@@ -563,11 +563,11 @@ DragonShrineRisingBadgeExplanationText:
 	text "The Rising Badge"
 	line "will enable your"
 
-	para "#mon to use the"
+	para "#MON to use the"
 	line "move for climbing"
 	cont "waterfalls."
 
-	para "Also, all #mon"
+	para "Also, all #MON"
 	line "will recognize you"
 
 	para "as a trainer and"

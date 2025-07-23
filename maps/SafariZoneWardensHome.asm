@@ -62,13 +62,13 @@ WardenPhotoText:
 	line "grinning old man"
 
 	para "who's surrounded"
-	line "by #mon."
+	line "by #MON."
 	done
 
 SafariZonePhotoText:
 	text "It's a photo of a"
 	line "huge grassy plain"
 
-	para "with rare #mon"
+	para "with rare #MON"
 	line "frolicking in it."
 	done

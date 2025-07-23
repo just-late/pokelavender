@@ -132,7 +132,7 @@ EmptyDisplayText:
 TowerRelicText:
 	text "An ancient mural"
 	line "depicting a mys-"
-	cont "terious #mon."
+	cont "terious #MON."
 	done
 
 GoldenrodMuseum2FSightseerMScript:
@@ -263,7 +263,7 @@ GoldenrodMuseum2FTutorIntroText:
   line "piece of Johto's"
   cont "history."
 
-	para "Even #mon"
+	para "Even #MON"
   line "can understand"
 
 	para "the value of"
@@ -272,7 +272,7 @@ GoldenrodMuseum2FTutorIntroText:
 
 GoldenrodMuseum2FTutorBatonPassText:
 	text "I can teach your"
-	line "#mon to use"
+	line "#MON to use"
 
 	para "Baton Pass for one"
 	line "Silver Leaf."
@@ -285,7 +285,7 @@ GoldenrodMuseum2FTutorNoSilverLeaf:
 
 GoldenrodMuseum2FTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Baton Pass?"
 	done
 
@@ -294,7 +294,7 @@ GoldenrodMuseum2FTutorRefused:
 	done
 
 GoldenrodMuseum2FTutorTaught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows how to use"
 	cont "Baton Pass!"
 	done

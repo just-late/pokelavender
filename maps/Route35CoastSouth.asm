@@ -52,7 +52,7 @@ GenericTrainerSwimmerfJill:
 GenericTrainerBird_keeperBryan:
 	generictrainer BIRD_KEEPER, BRYAN, EVENT_BEAT_BIRD_KEEPER_BRYAN, Bird_keeperBryanSeenText, Bird_keeperBryanBeatenText
 
-	text "Some #mon flee"
+	text "Some #MON flee"
 	line "right away."
 
 	para "Try catching them"
@@ -100,11 +100,11 @@ GenericTrainerLassRose:
 	generictrainer LASS, ROSE, EVENT_BEAT_LASS_ROSE, LassRoseSeenText, LassRoseBeatenText
 
 	text "You hurt my poor"
-	line "worldly #mon!"
+	line "worldly #MON!"
 
 	para "I demand that you"
 	line "heal them at a"
-	cont "#mon Center!"
+	cont "#MON Center!"
 	done
 
 SwimmermWalterSeenText:
@@ -151,14 +151,14 @@ Bird_keeperBryanBeatenText:
 
 SrandjrBeaandmay1SeenText:
 	text "Bea: I like strong"
-	line "#mon better"
+	line "#MON better"
 
 	para "than cute"
-	line "#mon."
+	line "#MON."
 
 	para "But together, we"
 	line "have cute and"
-	cont "strong #mon!"
+	cont "strong #MON!"
 	done
 
 SrandjrBeaandmay1BeatenText:
@@ -169,14 +169,14 @@ SrandjrBeaandmay1BeatenText:
 
 SrandjrBeaandmay2SeenText:
 	text "May: I like cute"
-	line "#mon better"
+	line "#MON better"
 
 	para "than strong"
-	line "#mon."
+	line "#MON."
 
 	para "But together, we"
 	line "have strong and"
-	cont "cute #mon!"
+	cont "cute #MON!"
 	done
 
 SrandjrBeaandmay2BeatenText:
@@ -186,7 +186,7 @@ SrandjrBeaandmay2BeatenText:
 	done
 
 SailorHarveySeenText:
-	text "Hah! Your #mon"
+	text "Hah! Your #MON"
 	line "sure look like"
 	cont "lightweights!"
 	done
@@ -201,7 +201,7 @@ SailorHarveyBeatenText:
 
 LassRoseSeenText:
 	text "I collected these"
-	line "#mon from all"
+	line "#MON from all"
 	cont "around the world!"
 	done
 

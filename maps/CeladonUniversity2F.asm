@@ -131,7 +131,7 @@ CeladonUniversity2FBug_catcherText:
 	para "wander all over"
 	line "the city and study"
 
-	para "the #mon that"
+	para "the #MON that"
 	line "live here."
 	done
 

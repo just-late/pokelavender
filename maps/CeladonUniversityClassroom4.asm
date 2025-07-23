@@ -150,13 +150,13 @@ CeladonUniversityClassroom4RaymondScript:
 
 CeladonUniversityClassroom4CandelaText:
 	text "Hi! I'm Candela."
-	line "I teach #mon"
+	line "I teach #MON"
 	cont "Battling!"
 
 	para "I'm researching"
 	line "ways to enhance"
 
-	para "#mon's natural"
+	para "#MON's natural"
 	line "power in the pur-"
 	cont "suit of strength."
 	done
@@ -175,7 +175,7 @@ CeladonUniversityClassroom4TeacherText:
 
 CeladonUniversityClassroom4Bug_catcherText:
 	text "My lecturer said"
-	line "my #mon could"
+	line "my #MON could"
 
 	para "really battle with"
 	line "the best of them."
@@ -187,16 +187,16 @@ CeladonUniversityClassroom4Bug_catcherText:
 
 CeladonUniversityClassroom4FisherText:
 	text "The prof said my"
-	line "#mon was a"
+	line "#MON was a"
 	cont "wonder!"
 
 	para "It's a breath-"
-	line "taking #mon."
+	line "taking #MON."
 	done
 
 CeladonUniversityClassroom4LadyText:
 	text "The professor said"
-	line "my #mon simply"
+	line "my #MON simply"
 	cont "amazed her."
 
 	para "I guess it really"
@@ -220,7 +220,7 @@ CeladonUniversityClassroom4Rich_boyScript:
 
 .Text1:
 	text "We're learning"
-	line "about #mon"
+	line "about #MON"
 	cont "abilities."
 
 	para "Some species can"
@@ -292,7 +292,7 @@ CeladonUniversityClassroom4Bookshelf1:
 	done
 
 CeladonUniversityClassroom4Bookshelf2Text:
-	text "It's a #mon"
+	text "It's a #MON"
 	line "coloring book."
 
 	para "What's this doing"

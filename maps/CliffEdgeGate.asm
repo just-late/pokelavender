@@ -47,7 +47,7 @@ GenericTrainerGruntM12:
 
 	text "Yellow Forest is"
 	line "full of rare"
-	cont "#mon."
+	cont "#MON."
 
 	para "We're nabbing them"
 	line "all for ourselves!"
@@ -66,7 +66,7 @@ ProfOaksAide3HiText:
 	line "Prof.Oak's aide."
 
 	para "If you caught 45"
-	line "kinds of #mon,"
+	line "kinds of #MON,"
 
 	para "I'm supposed to"
 	line "give you an item."
@@ -75,7 +75,7 @@ ProfOaksAide3HiText:
 	line "have you caught"
 
 	para "at least 45 kinds"
-	line "of #mon?"
+	line "of #MON?"
 	done
 
 ProfOaksAide3UhOhText:
@@ -85,7 +85,7 @@ ProfOaksAide3UhOhText:
 	para "caught "
 	text_decimal wTempDexOwn, 2, 3
 	text " kinds"
-	line "of #mon."
+	line "of #MON."
 
 	para "Come back and see"
 	line "me when you catch"
@@ -99,7 +99,7 @@ ProfOaksAide3HereYouGoText:
 	para "caught "
 	text_decimal wTempDexOwn, 2, 3
 	text " kinds"
-	line "of #mon."
+	line "of #MON."
 
 	para "Congratulations!"
 	line "Here you go!"
@@ -113,7 +113,7 @@ ProfOaksAide3NoRoomText:
 
 ProfOaksAide3ExplainText:
 	text "That Macho Brace"
-	line "helps a #mon"
+	line "helps a #MON"
 
 	para "grow more from"
 	line "battling, but"

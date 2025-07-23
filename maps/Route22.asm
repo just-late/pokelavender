@@ -83,7 +83,7 @@ KukuiScript:
 	cont "Alola!"
 
 	para "But we don't have a"
-	line "#mon League, so"
+	line "#MON League, so"
 
 	para "I came to Kanto to"
 	line "battle the Elite"
@@ -151,7 +151,7 @@ Route22CooltrainerfText:
 VictoryRoadEntranceSignText:
 	text "Route 22"
 
-	para "#mon League"
+	para "#MON League"
 	line "Reception Gate"
 	done
 
@@ -165,6 +165,6 @@ Route22AdvancedTipsSignText:
 	line "game's money,"
 	cont "Battle Points, and"
 
-	para "any #mon stored"
+	para "any #MON stored"
 	line "in the PC!"
 	done

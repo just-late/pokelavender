@@ -24,7 +24,7 @@ PokemonJournalLoreleiScript:
 	setflag ENGINE_READ_LORELEI_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Ex-Elite Lorelei!"
@@ -33,7 +33,7 @@ PokemonJournalLoreleiScript:
 	line "have a complete"
 
 	para "collection of"
-	line "#mon dolls."
+	line "#MON dolls."
 	done
 
 ShamoutiPokeCenter1FIvyScript:
@@ -58,7 +58,7 @@ ShamoutiPokeCenter1FIvyScript:
 	line "you'd be happy to"
 
 	para "raise a rare"
-	line "#mon…"
+	line "#MON…"
 	done
 
 .Bulbasaur:
@@ -124,7 +124,7 @@ ShamoutiPokeCenter1FIvyScript:
 	para "Pleased to meet"
 	line "you!"
 
-	para "I'm Ivy, a #mon"
+	para "I'm Ivy, a #MON"
 	line "professor."
 
 	para "I'm studying local"
@@ -132,13 +132,13 @@ ShamoutiPokeCenter1FIvyScript:
 	cont "mon phenotypes."
 
 	para "Did you know that"
-	line "some wild #mon"
+	line "some wild #MON"
 
 	para "know moves unique"
 	line "to their habitat?"
 
 	para "And even two of"
-	line "the same #mon"
+	line "the same #MON"
 
 	para "in one area can"
 	line "have different"
@@ -158,7 +158,7 @@ ShamoutiPokeCenter1FIvyScript:
 
 	para "Aha! Why don't I"
 	line "give you a new"
-	cont "#mon too?"
+	cont "#MON too?"
 
 	para "Which one do you"
 	line "want?"
@@ -167,13 +167,13 @@ ShamoutiPokeCenter1FIvyScript:
 .ChoseKantoStarterText:
 	text "Ivy: I think"
 	line "that's a great"
-	cont "#mon too!"
+	cont "#MON too!"
 	done
 
 .GoodbyeText:
 	text "Ivy: Prof.Elm"
 	line "trusted you with"
-	cont "a #mon, and"
+	cont "a #MON, and"
 
 	para "Prof.Oak gave you"
 	line "a #dex, so I"

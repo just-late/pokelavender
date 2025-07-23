@@ -56,5 +56,5 @@ OlivineLighthouse1FPokefanFText:
 
 	para "The Lighthouse was"
 	line "made in honor of"
-	cont "those #mon."
+	cont "those #MON."
 	done

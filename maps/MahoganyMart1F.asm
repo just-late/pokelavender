@@ -152,7 +152,7 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
 
 	para "That guy's dragon"
-	line "#mon are tough…"
+	line "#MON are tough…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
@@ -188,7 +188,7 @@ PokemonJournalWillScript:
 	setflag ENGINE_READ_WILL_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Elite Four Will!"
@@ -202,7 +202,7 @@ PokemonJournalWillScript:
 	para "Some say he worked"
 	line "for Team Rocket."
 
-	para "#mon Journal"
+	para "#MON Journal"
 	line "refuses to specu-"
 	cont "late."
 	done

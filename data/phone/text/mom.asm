@@ -58,7 +58,7 @@ MomOtherAreaText:
 	text "?"
 
 	para "Good luck on your"
-	line "#mon quest!"
+	line "#MON quest!"
 	done
 
 MomDeterminedText:

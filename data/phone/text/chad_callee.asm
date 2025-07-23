@@ -60,19 +60,19 @@ ChadGreetNiteText:
 
 ChadGenericText:
 	text "How are your"
-	line "#mon doing?"
+	line "#MON doing?"
 
 	para "You know Prof.Oak,"
 	line "so of course your"
-	cont "#mon are fine!"
+	cont "#MON are fine!"
 
-	para "My #mon are"
+	para "My #MON are"
 	line "doing well too."
 
 	para "But then, I am"
 	line "trying to become a"
 
-	para "#mon professor,"
+	para "#MON professor,"
 	line "so that shouldn't"
 	cont "be a big surprise."
 	done

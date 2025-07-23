@@ -39,7 +39,7 @@ GenericTrainerYoungsterOwen:
 
 YoungsterOwenSeenText:
 	text "There's no cheat-"
-	line "ing in #mon."
+	line "ing in #MON."
 
 	para "Let's keep it fair"
 	line "and square!"
@@ -54,7 +54,7 @@ GenericTrainerYoungsterJason:
 	generictrainer YOUNGSTER, JASON, EVENT_BEAT_YOUNGSTER_JASON, YoungsterJasonSeenText, YoungsterJasonBeatenText
 
 	text "I'm going to catch"
-	line "more #mon in"
+	line "more #MON in"
 	cont "the grass."
 	done
 
@@ -110,7 +110,7 @@ GenericTrainerPsychicFidel:
 
 	para "You're strong be-"
 	line "cause you believe"
-	cont "in your #mon."
+	cont "in your #MON."
 	done
 
 PsychicFidelSeenText:
@@ -170,7 +170,7 @@ GenericTrainerEngineerCamden:
 
 	text "Building a bridge"
 	line "and building a"
-	cont "team of #mon"
+	cont "team of #MON"
 
 	para "both require know-"
 	line "ledge and skill."

@@ -65,7 +65,7 @@ BattleTower2FCherylScript:
 	setflag ENGINE_CHERYL_DONE_TODAY
 	writethistext
 		text "I should warn you,"
-		line "my #mon can be"
+		line "my #MON can be"
 		cont "quite rambunc-"
 		cont "tious."
 		done
@@ -98,7 +98,7 @@ BattleTower2FCherylScript:
 	cont "you discover."
 
 	para "But, you know?"
-	line "I love #mon"
+	line "I love #MON"
 	cont "for that, too!"
 	done
 
@@ -114,7 +114,7 @@ BattleTower2FCherylScript:
 .RefuseText:
 	text "Giggle…"
 
-	para "#mon would get"
+	para "#MON would get"
 	line "all worn out if we"
 
 	para "battled all the"
@@ -206,7 +206,7 @@ BattleTower2FBuckScript:
 	setflag ENGINE_BUCK_DONE_TODAY
 	writethistext
 		text "I can feel my"
-		line "#mon shivering"
+		line "#MON shivering"
 
 		para "inside their #"
 		line "Balls with antici-"
@@ -339,7 +339,7 @@ BattleTower2FMiraScript:
 .AfterText:
 	text "<PLAYER>, you are"
 	line "always with your"
-	cont "#mon."
+	cont "#MON."
 
 	para "That's how you got"
 	line "to be so strong."
@@ -402,7 +402,7 @@ BattleTower2FAnabelScript:
 	text "That was fun…"
 
 	para "I have never had"
-	line "a #mon battle"
+	line "a #MON battle"
 
 	para "so enjoyable"
 	line "before…"
@@ -431,7 +431,7 @@ BattleTower2FLadyText:
 	cont "trainer?"
 
 	para "The fact that"
-	line "#mon will bring"
+	line "#MON will bring"
 
 	para "me lots of"
 	line "friends!"

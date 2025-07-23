@@ -73,11 +73,11 @@ SinjohRuinsHousePokefanmText:
 	line "people used to"
 
 	para "have closer bonds"
-	line "with #mon."
+	line "with #MON."
 
 	para "Myths and legends"
 	line "formed about"
-	cont "powerful #mon,"
+	cont "powerful #MON,"
 
 	para "and those legends"
 	line "were carried to"
@@ -149,7 +149,7 @@ SinjohRuinsHouseCynthiaNoText:
 SinjohRuinsHouseCynthiaYesText:
 	text "Cynthia: Before"
 	line "I send out my"
-	cont "#mon,"
+	cont "#MON,"
 
 	para "my heart always"
 	line "begins to race…"

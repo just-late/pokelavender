@@ -325,16 +325,16 @@ RocketBaseRivalText:
 	line "the guy in the"
 
 	para "cape who used"
-	line "dragon #mon?"
+	line "dragon #MON?"
 
-	para "My #mon were no"
+	para "My #MON were no"
 	line "match at all."
 
 	para "I don't care that"
 	line "I lost. I can beat"
 
 	para "him by getting"
-	line "stronger #mon."
+	line "stronger #MON."
 
 	para "It's what he said"
 	line "that bothers me…"
@@ -342,7 +342,7 @@ RocketBaseRivalText:
 	para "He told me that"
 	line "I don't love and"
 
-	para "trust my #mon"
+	para "trust my #MON"
 	line "enough."
 
 	para "I'm furious that I"
@@ -482,7 +482,7 @@ RocketScientistRossBeatenText:
 
 RocketScientistMitchSeenText:
 	text "I don't care that"
-	line "#mon are hurt"
+	line "#MON are hurt"
 	cont "by our experiment."
 	done
 

@@ -706,7 +706,7 @@ UndergroundRivalWinText:
 	line "Why do I lose?"
 
 	para "I've assembled the"
-	line "toughest #mon."
+	line "toughest #MON."
 
 	para "I didn't ease up"
 	line "on the gas."
@@ -722,7 +722,7 @@ UndergroundRivalAfterText:
 	line "guy said true?"
 
 	para "That I don't treat"
-	line "#mon properly?"
+	line "#MON properly?"
 
 	para "Love…"
 
@@ -747,7 +747,7 @@ UndergroundRivalAfterText:
 	line "dream of becoming"
 
 	para "the world's best"
-	line "#mon trainer!"
+	line "#MON trainer!"
 	done
 
 UndergroundRivalLossText:

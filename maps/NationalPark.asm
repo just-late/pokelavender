@@ -214,7 +214,7 @@ GenericTrainerPokefanmWilliam:
 	generictrainer POKEFANM, WILLIAM, EVENT_BEAT_POKEFANM_WILLIAM, PokefanmWilliamSeenText, PokefanmWilliamBeatenText
 
 	text "I lost the battle,"
-	line "but my #mon win"
+	line "but my #MON win"
 
 	para "the prize for"
 	line "being most lovely."
@@ -320,7 +320,7 @@ NationalParkTeacher1Text:
 	line "time."
 
 	para "You must be a"
-	line "#mon trainer."
+	line "#MON trainer."
 
 	para "Since you're work-"
 	line "ing so hard, I"
@@ -330,7 +330,7 @@ NationalParkTeacher1Text:
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Let a #mon hold"
+	text "Let a #MON hold"
 	line "that Quick Claw."
 
 	para "Sometimes it will"
@@ -381,12 +381,12 @@ NationalParkGameboyKidText:
 	line "a living #-"
 
 	para "dex with one of"
-	line "each #mon."
+	line "each #MON."
 	done
 
 SchoolboyJack1SeenText:
 	text "The world of"
-	line "#mon is deep."
+	line "#MON is deep."
 
 	para "There are still"
 	line "lots of things we"
@@ -409,12 +409,12 @@ SchoolboyJackTradeMonText:
 	para "There are {d:NUM_TMS} kinds"
 	line "of TMs."
 
-	para "Traded #mon"
+	para "Traded #MON"
 	line "level up faster."
 	done
 
 PokefanfBeverly1SeenText:
-	text "My #mon are"
+	text "My #MON are"
 	line "simply darling."
 
 	para "Let me tell you"
@@ -429,7 +429,7 @@ PokefanfBeverly1BeatenText:
 
 PokefanBeverlyCuteMonText:
 	text "I must say, your"
-	line "#mon are quite"
+	line "#MON are quite"
 	cont "cute, too."
 	done
 
@@ -443,7 +443,7 @@ PokefanmWilliamSeenText:
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my #mon!"
+	text "M-my #MON!"
 	done
 
 PokefanFBeverlyMarillFriendText:
@@ -471,7 +471,7 @@ LassKriseBeatenText: ; text > text
 BugManiacLouSeenText:
 	text "Nobody can beat"
 	line "my passion for"
-	cont "bug #mon!"
+	cont "bug #MON!"
 	done
 
 BugManiacLouBeatenText:
@@ -503,7 +503,7 @@ OfficermKeithDaytimeText:
 	line "park, are you?"
 
 	para "Always take a"
-	line "#mon with you"
+	line "#MON with you"
 
 	para "if you go in the"
 	line "tall grass!"
@@ -528,7 +528,7 @@ NationalParkBattleNoticeText:
 NationalParkTrainerTipsText:
 	text "Trainer Tips"
 
-	para "#mon become"
+	para "#MON become"
 	line "happier from"
 
 	para "haircuts, bless-"

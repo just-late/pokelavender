@@ -95,7 +95,7 @@ ViridianCityCoffeeGrampsQuestionText:
 	line "like much now, but"
 
 	para "I was an expert at"
-	line "catching #mon."
+	line "catching #MON."
 
 	para "Do you believe me?"
 	done
@@ -161,7 +161,7 @@ ViridianCityDreamEaterFisherText:
 
 Text_ViridianCityTutorDreamEater:
 	text "I can teach your"
-	line "#mon to eat"
+	line "#MON to eat"
 	cont "dreams."
 
 	para "I just want a"
@@ -176,7 +176,7 @@ Text_ViridianCityTutorNoSilverLeaf:
 
 Text_ViridianCityTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Dream Eater?"
 	done
 
@@ -185,7 +185,7 @@ Text_ViridianCityTutorRefused: ; text > text
 	done
 
 Text_ViridianCityTutorTaught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows how to use"
 	cont "Dream Eater…"
 
@@ -223,7 +223,7 @@ ViridianCitySignText:
 
 ViridianGymSignText:
 	text "Viridian City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: …"
 
 	para "The rest of the"
@@ -233,7 +233,7 @@ ViridianGymSignText:
 ViridianCityTrainerTips1Text:
 	text "Trainer Tips"
 
-	para "Catch #mon"
+	para "Catch #MON"
 	line "and expand your"
 	cont "collection!"
 

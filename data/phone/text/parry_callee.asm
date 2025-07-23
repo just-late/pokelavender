@@ -59,7 +59,7 @@ ParryGreetNiteText:
 	done
 
 ParryGenericText:
-	text "Are your #mon"
+	text "Are your #MON"
 	line "looking good?"
 
 	para "My "

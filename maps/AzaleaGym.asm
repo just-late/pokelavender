@@ -62,12 +62,12 @@ AzaleaGymBugsyScript:
 		cont "Hive Badge?"
 
 		para "If you have it,"
-		line "#mon up to <LV>30"
+		line "#MON up to <LV>30"
 
 		para "will obey you,"
 		line "even traded ones."
 
-		para "#mon that know"
+		para "#MON that know"
 		line "Cut will be able"
 
 		para "to use it outside"
@@ -99,13 +99,13 @@ AzaleaGymBugsyScript:
 	line "I never lose when"
 
 	para "it comes to bug"
-	line "#mon."
+	line "#MON."
 
 	para "My research is"
 	line "going to make me"
 
 	para "the authority on"
-	line "bug #mon!"
+	line "bug #MON!"
 
 	para "Let me demonstrate"
 	line "what I've learned"
@@ -115,7 +115,7 @@ AzaleaGymBugsyScript:
 .BeatenText:
 	text "Whoa, amazing!"
 	line "You're an expert"
-	cont "on #mon!"
+	cont "on #MON!"
 
 	para "My research isn't"
 	line "complete yet."
@@ -125,7 +125,7 @@ AzaleaGymBugsyScript:
 	done
 
 .AfterText:
-	text "Bug #mon are"
+	text "Bug #MON are"
 	line "deep. There are"
 
 	para "many mysteries to"
@@ -145,7 +145,7 @@ AzaleaGymGuyScript:
 	para "Bugsy's young, but"
 	line "his knowledge of"
 
-	para "bug #mon is for"
+	para "bug #MON is for"
 	line "real."
 
 	para "It's going to be"
@@ -153,7 +153,7 @@ AzaleaGymGuyScript:
 	cont "advice."
 
 	para "Let's see… Bug"
-	line "#mon don't like"
+	line "#MON don't like"
 	cont "fire."
 
 	para "Flying-type moves"
@@ -170,19 +170,19 @@ AzaleaGymGuyScript:
 
 	para "With people like"
 	line "you, the future of"
-	cont "#mon is bright!"
+	cont "#MON is bright!"
 	done
 
 GenericTrainerBug_catcherBenny:
 	generictrainer BUG_CATCHER, BENNY, EVENT_BEAT_BUG_CATCHER_BENNY, .SeenText, .BeatenText
 
-	text "#mon become"
+	text "#MON become"
 	line "stronger if they"
 	cont "evolve. Really!"
 	done
 
 .SeenText:
-	text "Bug #mon evolve"
+	text "Bug #MON evolve"
 	line "young. So they get"
 
 	para "stronger that much"
@@ -201,13 +201,13 @@ GenericTrainerBug_catcherAl:
 	line "but most girls"
 
 	para "don't like bug"
-	line "#mon."
+	line "#MON."
 
 	para "I don't know why…"
 	done
 
 .SeenText:
-	text "Bug #mon are"
+	text "Bug #MON are"
 	line "cool and tough!"
 
 	para "I'll prove it to"
@@ -233,7 +233,7 @@ GenericTrainerBug_catcherJosh:
 	cont "you're mighty!"
 
 	para "But my grown-up"
-	line "#mon are pretty"
+	line "#MON are pretty"
 	cont "tough too!"
 	done
 
@@ -258,7 +258,7 @@ GenericTrainerTwinsAmyandmay2:
 	generictrainer TWINS, AMYANDMAY2, EVENT_BEAT_TWINS_AMY_AND_MAY, .SeenText, TrainerTwinsAmyandmayBeatenText
 
 	text "Mimi: Our bug"
-	line "#mon lost!"
+	line "#MON lost!"
 
 	para "Oh, what a"
 	line "shame."

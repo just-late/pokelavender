@@ -80,7 +80,7 @@ Copycat1Script:
 
 CopycatGreeting1Text:
 	text "<PLAYER>: Hi! Do"
-	line "you like #mon?"
+	line "you like #MON?"
 
 	para "<PLAYER>: Uh, no, I"
 	line "just asked you."
@@ -156,7 +156,7 @@ Copycat2Script:
 
 CopycatGreeting2Text:
 	text "<PLAYER>: Hi. You"
-	line "must like #mon."
+	line "must like #MON."
 
 	para "<PLAYER>: No, not"
 	line "me. I asked you."
@@ -356,7 +356,7 @@ CopycatsHouse2FDollScript:
 	jumpthistext
 
 	text "This is a rare"
-	line "#mon! Huh?"
+	line "#MON! Huh?"
 
 	para "It's only a doll…"
 	done

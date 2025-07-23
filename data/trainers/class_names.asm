@@ -116,9 +116,9 @@ TrainerClassNames::
 	li "Executive"        ; ARCHER
 	li "Executive"        ; ARIANA
 	li "Boss"             ; GIOVANNI
-	li "#mon Prof."       ; PROF_OAK
-	li "#mon Prof."       ; PROF_ELM
-	li "#mon Prof."       ; PROF_IVY
+	li "#MON Prof."       ; PROF_OAK
+	li "#MON Prof."       ; PROF_ELM
+	li "#MON Prof."       ; PROF_IVY
 	li "Mystery Man"      ; MYSTICALMAN
 	li "Karate King"      ; KARATE_KING
 	li "TowerTycoon"      ; TOWERTYCOON

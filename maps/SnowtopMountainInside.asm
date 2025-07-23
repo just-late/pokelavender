@@ -164,7 +164,7 @@ SnowtopMountainInsideSkierText:
 
 	para "It could be a"
 	line "good technique"
-	cont "for a #mon!"
+	cont "for a #MON!"
 	done
 
 Text_SnowtopMountainInsideTutorIcyWind:
@@ -184,7 +184,7 @@ Text_SnowtopMountainInsideTutorNoSilverLeaf:
 
 Text_SnowtopMountainInsideTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Icy Wind?"
 	done
 
@@ -194,6 +194,6 @@ Text_SnowtopMountainInsideTutorRefused: ; text > text
 
 Text_SnowtopMountainInsideTutorTaught:
 	text "OK! Now your"
-	line "#mon knows"
+	line "#MON knows"
 	cont "Icy Wind!"
 	done

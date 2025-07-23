@@ -141,7 +141,7 @@ DarkCaveVioletEntranceFalknerDarkIntroText:
 
 DarkCaveVioletEntranceFalknerExplanationText:
 	text "I'm Falkner, the"
-	line "Violet #mon"
+	line "Violet #MON"
 	cont "Gym Leader."
 
 	para "I don't explore"

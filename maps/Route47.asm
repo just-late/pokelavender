@@ -268,7 +268,7 @@ GenericTrainerGruntF6:
 
 	text "If we treated"
 	line "every single"
-	cont "#mon well,"
+	cont "#MON well,"
 
 	para "how would we"
 	line "make money?"
@@ -286,7 +286,7 @@ GenericTrainerGruntM26:
 	generictrainer GRUNTM, 26, EVENT_BEAT_ROCKET_GRUNTM_26, GruntM26SeenText, GruntM26BeatenText
 
 	text "How we treat"
-	line "#mon is none"
+	line "#MON is none"
 	cont "of your business!"
 	done
 
@@ -304,7 +304,7 @@ CamperGrantSeenText:
 	text "I'm not good with"
 	line "crowds, so I'm"
 	cont "camping out here"
-	cont "with my #mon!"
+	cont "with my #MON!"
 	done
 
 CamperGrantBeatenText:
@@ -374,7 +374,7 @@ CowgirlDanielaBeatenText:
 
 GruntF6SeenText:
 	text "Why should we"
-	line "raise #mon like"
+	line "raise #MON like"
 	cont "ordinary trainers?"
 
 	para "We're Team Rocket!"
@@ -387,7 +387,7 @@ GruntF6BeatenText:
 GruntM23SeenText:
 	text "Aww, are you here"
 	line "to save the cute"
-	cont "little #mon?"
+	cont "little #MON?"
 	done
 
 GruntM23BeatenText:
@@ -430,7 +430,7 @@ Route47QuietCaveSignText:
 Route47AdvancedTipsSignText:
 	text "Advanced Tips!"
 
-	para "Some #mon found"
+	para "Some #MON found"
 	line "in certain areas"
 
 	para "may know a move"

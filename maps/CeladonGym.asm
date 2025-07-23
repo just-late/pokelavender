@@ -190,7 +190,7 @@ ErikaOutroText:
 
 	para "half the damage it"
 	line "inflicts to heal"
-	cont "your #mon."
+	cont "your #MON."
 
 	para "Please use it if"
 	line "it pleases you…"
@@ -251,7 +251,7 @@ Aroma_ladyDahliaBeatenText:
 
 TwinsJoandzoe1SeenText:
 	text "We'll show you"
-	line "#mon moves that"
+	line "#MON moves that"
 	cont "Erika taught us!"
 	done
 

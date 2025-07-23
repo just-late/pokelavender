@@ -26,7 +26,7 @@ GoldenrodDeptStore4FGameboyKidScript:
 
 GoldenrodDeptStore4FCooltrainerMText:
 	text "Hey. I love strong"
-	line "#mon."
+	line "#MON."
 
 	para "I feed them Pro-"
 	line "tein to crank up"
@@ -35,7 +35,7 @@ GoldenrodDeptStore4FCooltrainerMText:
 
 GoldenrodDeptStore4FBugCatcherText:
 	text "There are four"
-	line "#mon that"
+	line "#MON that"
 
 	para "evolve if exposed"
 	line "to a Linking Cord:"
@@ -46,7 +46,7 @@ GoldenrodDeptStore4FBugCatcherText:
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Some #mon"
+	text "Some #MON"
 	line "evolve only"
 
 	para "when they hold"
@@ -64,7 +64,7 @@ GoldenrodDeptStore4FGameboyKidText:
 
 GoldenrodDeptStore4FDirectoryText:
 	text "Let Us Pump Up"
-	line "Your #mon!"
+	line "Your #MON!"
 
 	para "4F Medicine Box"
 	done

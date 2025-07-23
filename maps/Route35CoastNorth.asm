@@ -35,5 +35,5 @@ Route35CoastNorthAdvancedTipsSignText:
 	line "fishing line even"
 
 	para "from a Surfing"
-	line "#mon's back!"
+	line "#MON's back!"
 	done

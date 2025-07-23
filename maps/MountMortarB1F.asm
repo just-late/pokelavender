@@ -79,7 +79,7 @@ MountMortarB1FKiyoGotTyrogueText:
 	line "Fighting-type."
 
 	para "It evolves into a"
-	line "tougher #mon."
+	line "tougher #MON."
 
 	para "Keep up the hard"
 	line "work. I'll keep"
@@ -89,7 +89,7 @@ MountMortarB1FKiyoGotTyrogueText:
 	done
 
 MountMortarB1FHikerText:
-	text "My #mon used"
+	text "My #MON used"
 if DEF(FAITHFUL)
 	line "Rock Smash on a"
 else
@@ -106,7 +106,7 @@ endc
 
 Text_MountMortarB1FTutorDefenseCurl:
 	text "I can teach your"
-	line "#mon to use"
+	line "#MON to use"
 
 	para "Defense Curl for"
 	line "one Silver Leaf."
@@ -120,7 +120,7 @@ Text_MountMortarB1FTutorNoSilverLeaf:
 
 Text_MountMortarB1FTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Defense Curl?"
 	done
 
@@ -131,7 +131,7 @@ Text_MountMortarB1FTutorRefused:
 
 Text_MountMortarB1FTutorTaught:
 	text "There! Now your"
-	line "#mon can use"
+	line "#MON can use"
 	cont "Defense Curl!"
 	done
 
@@ -168,7 +168,7 @@ MountMortarB1FTyrogueRewardText:
 	line "defeated me, I'll"
 
 	para "give you a rare"
-	line "fighting #mon."
+	line "fighting #MON."
 	done
 
 MountMortarB1FKiyoFullPartyAndBoxText:

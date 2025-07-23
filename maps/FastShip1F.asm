@@ -206,7 +206,7 @@ FastShip1FSailor1Text_ToOlivine:
 FastShip1FSailor2Text_FirstTime:
 	text "Here's your cabin."
 
-	para "If your #mon"
+	para "If your #MON"
 	line "are hurt, take a"
 	cont "nap in the bed."
 
@@ -218,7 +218,7 @@ FastShip1FSailor2Text:
 	text "Here's your cabin."
 
 	para "You can heal your"
-	line "#mon by taking"
+	line "#MON by taking"
 	cont "a nap in the bed."
 
 	para "The ship will"

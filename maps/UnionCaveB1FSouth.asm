@@ -36,7 +36,7 @@ GenericTrainerPokemaniacAndrew:
 	generictrainer POKEMANIAC, ANDREW, EVENT_BEAT_POKEMANIAC_ANDREW, PokemaniacAndrewSeenText, PokemaniacAndrewBeatenText
 
 	text "Just me and my"
-	line "#mon. I'm de-"
+	line "#MON. I'm de-"
 	cont "lirious with joy."
 	done
 
@@ -44,7 +44,7 @@ PokemaniacAndrewSeenText:
 	text "Who's there?"
 
 	para "Leave me and my"
-	line "#mon alone!"
+	line "#MON alone!"
 	done
 
 PokemaniacAndrewBeatenText:
@@ -67,7 +67,7 @@ GenericTrainerPokemaniacCalvin:
 PokemaniacCalvinSeenText:
 	text "I came all the way"
 	line "here to conduct my"
-	cont "#mon research."
+	cont "#MON research."
 
 	para "Let me demonstrate"
 	line "my findings in a"
@@ -178,7 +178,7 @@ GenericTrainerRuin_maniacGlyn:
 	done
 
 .SeenText:
-	text "My #mon were"
+	text "My #MON were"
 	line "born from fossils"
 
 	para "I found in this"

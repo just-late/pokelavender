@@ -266,7 +266,7 @@ CeladonGymGuyText:
 
 	para "I'm trying to get"
 	line "enough coins for a"
-	cont "prize #mon."
+	cont "prize #MON."
 
 	para "But I don't have"
 	line "enough coins yet…"

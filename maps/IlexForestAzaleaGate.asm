@@ -63,7 +63,7 @@ ProfOaksAide1HiText:
 	line "Prof.Oak's aide."
 
 	para "If you caught 15"
-	line "kinds of #mon,"
+	line "kinds of #MON,"
 
 	para "I'm supposed to"
 	line "give you an item."
@@ -72,7 +72,7 @@ ProfOaksAide1HiText:
 	line "have you caught"
 
 	para "at least 15 kinds"
-	line "of #mon?"
+	line "of #MON?"
 	done
 
 ProfOaksAide1UhOhText:
@@ -82,7 +82,7 @@ ProfOaksAide1UhOhText:
 	para "caught "
 	text_decimal wTempDexOwn, 2, 3
 	text " kinds"
-	line "of #mon."
+	line "of #MON."
 
 	para "Come back and see"
 	line "me when you catch"
@@ -96,7 +96,7 @@ ProfOaksAide1HereYouGoText:
 	para "caught "
 	text_decimal wTempDexOwn, 2, 3
 	text " kinds"
-	line "of #mon."
+	line "of #MON."
 
 	para "Congratulations!"
 	line "Here you go!"
@@ -110,7 +110,7 @@ ProfOaksAide1NoRoomText:
 
 ProfOaksAide1ExplainText:
 	text "That Exp.Share"
-	line "helps a #mon"
+	line "helps a #MON"
 
 	para "gain experience"
 	line "without even"

@@ -423,7 +423,7 @@ OfficerfMaraScript:
 GenericTrainerBreederJulie:
 	generictrainer BREEDER, JULIE, EVENT_BEAT_BREEDER_JULIE, BreederJulieSeenText, BreederJulieBeatenText
 
-	text "One of my #mon"
+	text "One of my #MON"
 	line "has an Adamant"
 
 	para "nature. Another"
@@ -545,7 +545,7 @@ Route34RichBoyIrvingScript:
 GenericTrainerPokefanmBrandon:
 	generictrainer POKEFANM, BRANDON, EVENT_BEAT_POKEFANM_BRANDON, PokefanmBrandonSeenText, PokefanmBrandonBeatenText
 
-	text "My #mon knew"
+	text "My #MON knew"
 	line "moves I didn't"
 	cont "know it had."
 
@@ -632,7 +632,7 @@ Route34LyraGoodWorkText:
 	text "Lyra: Good work,"
 	line "Grandpa!"
 
-	para "The #mon you"
+	para "The #MON you"
 	line "raised for me is"
 	cont "healthy as can be!"
 
@@ -656,7 +656,7 @@ Route34LyraIntroductionTable:
 	line "He's a trainer."
 
 	para "He's quite good at"
-	line "raising #mon."
+	line "raising #MON."
 
 	para "Well, not as good"
 	line "as you, of course!"
@@ -669,7 +669,7 @@ Route34LyraIntroductionTable:
 	line "She's a trainer."
 
 	para "She's quite good at"
-	line "raising #mon."
+	line "raising #MON."
 
 	para "Well, not as good"
 	line "as you, of course!"
@@ -714,7 +714,7 @@ Route34LyraFollowMeText:
 BreederJulieSeenText:
 	text "This is where I"
 	line "train my baby"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 BreederJulieBeatenText:
@@ -725,7 +725,7 @@ BreederJulieBeatenText:
 CamperTodd1SeenText:
 	text "I'm confident in"
 	line "my ability to"
-	cont "raise #mon."
+	cont "raise #MON."
 
 	para "Want to see?"
 	done
@@ -796,7 +796,7 @@ OfficerfMaraDaytimeText:
 
 PokefanmBrandonSeenText:
 	text "I just got my"
-	line "#mon back from"
+	line "#MON back from"
 	cont "Day-Care."
 
 	para "Let's see how much"
@@ -888,13 +888,13 @@ Route34TrainerTipsText:
 Route34AdvancedTipsSignText:
 	text "Advanced Tips!"
 
-	para "Some #mon have"
+	para "Some #MON have"
 	line "inherent potential"
 
 	para "to be stronger"
 	line "than others!"
 
-	para "But all #mon"
+	para "But all #MON"
 	line "can put in effort"
 	cont "during battle, or"
 
@@ -906,5 +906,5 @@ DayCareSignText:
 	text "Day-Care"
 
 	para "Let Us Raise Your"
-	line "#mon For You!"
+	line "#MON For You!"
 	done

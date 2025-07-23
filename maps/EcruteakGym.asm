@@ -110,7 +110,7 @@ EcruteakGymClosed:
 GenericTrainerSageJeffrey:
 	generictrainer SAGE, JEFFREY, EVENT_BEAT_SAGE_JEFFREY, SageJeffreySeenText, SageJeffreyBeatenText
 
-	text "Where did #mon"
+	text "Where did #MON"
 	line "come from?"
 	done
 
@@ -118,7 +118,7 @@ GenericTrainerSagePing:
 	generictrainer SAGE, PING, EVENT_BEAT_SAGE_PING, SagePingSeenText, SagePingBeatenText
 
 	text "We use only Ghost-"
-	line "type #mon."
+	line "type #MON."
 
 	para "No Normal-type"
 	line "attack can harm"
@@ -173,13 +173,13 @@ MortyIntroText:
 	line "have come."
 
 	para "Here in Ecruteak,"
-	line "#mon have been"
+	line "#MON have been"
 	cont "revered."
 
 	para "It's said that a"
 	line "rainbow-colored"
 
-	para "#mon will come"
+	para "#MON will come"
 	line "down to appear"
 
 	para "before a truly"
@@ -201,7 +201,7 @@ MortyIntroText:
 	line "more, I could see"
 
 	para "a future in which"
-	line "I meet the #mon"
+	line "I meet the #MON"
 	cont "of rainbow colors."
 
 	para "You're going to"
@@ -224,12 +224,12 @@ Text_ReceivedFogBadge:
 
 MortyText_FogBadgeSpeech:
 	text "By having the Fog"
-	line "Badge, #mon up"
+	line "Badge, #MON up"
 
 	para "to <LV>50 will obey"
 	line "you."
 
-	para "Also, #mon that"
+	para "Also, #MON that"
 	line "know Surf will be"
 
 	para "able to use that"
@@ -267,7 +267,7 @@ MortyFightDoneText:
 
 SageJeffreySeenText:
 	text "I spent the spring"
-	line "with my #mon."
+	line "with my #MON."
 
 	para "Then summer, fall"
 	line "and winter…"
@@ -287,7 +287,7 @@ SageJeffreyBeatenText:
 SagePingSeenText:
 	text "Can you inflict"
 	line "any damage on our"
-	cont "#mon?"
+	cont "#MON?"
 	done
 
 SagePingBeatenText:

@@ -320,10 +320,10 @@ GoldenrodCityYoungster2Text:
 GoldenrodCityLassText:
 	text "The man at that"
 	line "house rates your"
-	cont "#mon names."
+	cont "#MON names."
 
 	para "He can help rename"
-	line "your #mon too."
+	line "your #MON too."
 
 	para "He liked all of"
 	line "my nicknames, even"
@@ -362,7 +362,7 @@ GoldenrodCityRocket2Text:
 	done
 
 GoldenrodCityRocket3Text:
-	text "#mon? They're"
+	text "#MON? They're"
 	line "nothing more than"
 
 	para "tools for making"
@@ -410,7 +410,7 @@ GoldenrodCityRadioTowerSignText:
 
 GoldenrodDeptStoreSignText:
 	text "Full Selection of"
-	line "#mon Goods!"
+	line "#MON Goods!"
 
 	para "Goldenrod City"
 	line "Dept.Store"
@@ -418,7 +418,7 @@ GoldenrodDeptStoreSignText:
 
 GoldenrodGymSignText:
 	text "Goldenrod City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Whitney"
 
 	para "The Incredibly"
@@ -449,7 +449,7 @@ GoldenrodCityGameCornerSignText:
 GoldenrodCityNameRaterSignText:
 	text "Name Rater"
 
-	para "Get Your #mon"
+	para "Get Your #MON"
 	line "Nicknames Rated"
 	done
 
@@ -478,7 +478,7 @@ GoldenrodMuseumSignText:
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
 	text "I can teach your"
-	line "#mon amazing"
+	line "#MON amazing"
 
 	para "moves if you'd"
 	line "like."

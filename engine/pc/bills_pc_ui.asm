@@ -2836,7 +2836,7 @@ BillsPC_ReleaseAll:
 
 .CantRecallReleasedMons:
 	text "You can't recall"
-	line "released #mon."
+	line "released #MON."
 	cont "Are you sure?"
 	done
 
@@ -2846,14 +2846,14 @@ BillsPC_ReleaseAll:
 
 .NothingReleased:
 	text "You can't release"
-	line "Eggs or #mon"
+	line "Eggs or #MON"
 	cont "with HM moves."
 	prompt
 
 .ReleasedXMon:
 	text "Released "
 	text_decimal wTextDecimalByte, 1, 2
-	line "#mon."
+	line "#MON."
 	prompt
 
 .TheRestWasnt:
@@ -3416,7 +3416,7 @@ BillsPC_SwapStorage:
 
 BillsPC_LastPartyMon:
 	text "That's your last"
-	line "healthy #mon!"
+	line "healthy #MON!"
 	prompt
 
 BillsPC_MustSaveToContinue:

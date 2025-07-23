@@ -31,7 +31,7 @@ GavenDefeatedMonText:
 	line "your guard down,"
 
 	para "even against a"
-	line "#mon you're"
+	line "#MON you're"
 	cont "used to seeing."
 	done
 

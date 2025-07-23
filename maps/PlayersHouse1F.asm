@@ -41,17 +41,10 @@ MomEventScript:
 	opentext
 	writetext MomIntroText
 	promptbutton
-	getstring GearName, $1
-	callstd receiveitem
-	setflag ENGINE_POKEGEAR
-	setflag ENGINE_PHONE_CARD
-	addcellnum PHONE_MOM
+	special Special_SetDayOfWeek
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
-	writetext MomPokegearText
-	promptbutton
-	special Special_SetDayOfWeek
 .InitialSetDSTFlag:
 	writetext MomDSTText
 	yesorno
@@ -74,16 +67,12 @@ MomEventScript:
 	writetext MomOutroText
 	waitbutton
 	closetext
-	turnobject PLAYERSHOUSE1F_MOM1, LEFT
 	special RestartMapMusic
 	applyonemovement PLAYERSHOUSE1F_MOM1, step_down
 	applyonemovement PLAYERSHOUSE1F_MOM1, step_down
 	applyonemovement PLAYERSHOUSE1F_MOM1, step_left
 	applyonemovement PLAYERSHOUSE1F_MOM1, step_left
 	end
-
-GearName:
-	db "#gear@"
 
 PlayersHouse1FFridgeText:
 	text "Let's see what's"
@@ -146,6 +135,7 @@ MomScript:
 	setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
 	special Special_BankOfMom
 	waitendtext
+	end
 
 .MomEvent:
 	playmusic MUSIC_MOM
@@ -163,28 +153,9 @@ MomIntroText:
 
 	para "the Gemroot Woods."
 
-	para "Oh! I almost for-"
-	line "got! Your #mon"
-
-	para "Gear is back from"
-	line "the repair shop."
-
-	para "Here you go!"
-	done
-
-MomPokegearText:
-	text "#mon Gear, or"
-	line "just #gear."
-
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
-
-	para "Oh, the day of the"
-	line "week isn't set."
-
-	para "You mustn't forget"
-	line "that!"
+	para "Oh! Don't forget"
+	line "to set the day of"
+	cont "week."
 	done
 
 MomDSTText:
@@ -193,13 +164,7 @@ MomDSTText:
 	done
 
 MomRunningShoesText:
-	text "Come home to"
-	line "adjust your clock"
-
-	para "for Daylight"
-	line "Saving Time."
-
-	para "By the way, do"
+	text "By the way, do"
 	line "you know how to"
 
 	para "use your new"

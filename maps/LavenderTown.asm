@@ -184,14 +184,14 @@ KantoRadioStationSignText:
 
 VolunteerPokemonHouseSignText:
 	text "Lavender Volunteer"
-	line "#mon House"
+	line "#MON House"
 	done
 
 SoulHouseSignText:
 	text "House of Souls"
 
 	para "May the Souls of"
-	line "#mon Rest Easy"
+	line "#MON Rest Easy"
 	done
 
 LavenderTownPokefanMText:
@@ -213,13 +213,13 @@ LavenderTownGrampsText:
 
 	para "their respects to"
 	line "the departed souls"
-	cont "of #mon."
+	cont "of #MON."
 	done
 
 LavenderTownYoungsterText:
 	text "You need a #"
 	line "Flute to wake"
-	cont "sleeping #mon."
+	cont "sleeping #MON."
 
 	para "Every trainer has"
 	line "to know that!"

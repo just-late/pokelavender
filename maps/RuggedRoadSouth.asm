@@ -69,14 +69,14 @@ RuggedRoadSouth_FinishBridge:
 RuggedRoadSouthAdvancedTipsSignText:
 	text "Advanced Tips!"
 
-	para "If your #mon"
+	para "If your #MON"
 	line "KOs its opponent,"
 
 	para "and it's holding a"
 	line "Power item that"
 	cont "ups effort gain,"
 
-	para "every #mon that"
+	para "every #MON that"
 	line "participated in"
 
 	para "the battle or"

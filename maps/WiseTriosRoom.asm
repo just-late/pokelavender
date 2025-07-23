@@ -158,7 +158,7 @@ WiseTriosRoomSage3Text:
 	line "are the protectors"
 
 	para "of the legendary"
-	line "#mon."
+	line "#MON."
 	done
 
 ElderGakuSeenText:
@@ -169,7 +169,7 @@ ElderGakuSeenText:
 	line "has the ability to"
 
 	para "touch the souls of"
-	line "#mon, a #mon"
+	line "#MON, a #MON"
 
 	para "will come forth to"
 	line "put that trainer"
@@ -181,7 +181,7 @@ ElderGakuSeenText:
 	line "come true!"
 
 	para "The legendary"
-	line "#mon Suicune"
+	line "#MON Suicune"
 	cont "has arrived!"
 
 	para "We, the Wise Trio,"
@@ -236,10 +236,10 @@ else
 endc
 	line "which was said to"
 
-	para "waken #mon, and"
+	para "waken #MON, and"
 	line "the Bell Tower,"
 
-	para "where #mon were"
+	para "where #MON were"
 	line "said to rest."
 
 	para "The view from the"
@@ -251,7 +251,7 @@ endc
 	para "At the time, an"
 	line "immense, silver-"
 
-	para "colored #mon"
+	para "colored #MON"
 	line "was said to make"
 
 	para "its roost atop the"
@@ -297,7 +297,7 @@ SageKojiAfterBattleQuestionText:
 	line "trainer who is"
 
 	para "awaited by the"
-	line "legendary #mon?"
+	line "legendary #MON?"
 	done
 
 SageKojiAfterBattleSpeechText:
@@ -309,7 +309,7 @@ SageKojiAfterBattleSpeechText:
 	para "the responsibility"
 	line "of protecting the"
 
-	para "legendary #mon."
+	para "legendary #MON."
 	line "We are to allow"
 
 	para "passage only to"

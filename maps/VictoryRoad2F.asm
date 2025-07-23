@@ -111,7 +111,7 @@ VictoryRoadRivalBeforeText:
 	text "Hold it."
 
 	para "…Are you going to"
-	line "take the #mon"
+	line "take the #MON"
 	cont "League challenge?"
 
 	para "…Don't make me"
@@ -126,7 +126,7 @@ VictoryRoadRivalBeforeText:
 	para "I now have the"
 	line "best and strongest"
 
-	para "#mon with me."
+	para "#MON with me."
 	line "I'm invincible!"
 
 	para "<PLAYER>!"
@@ -204,6 +204,6 @@ VeteranfSylvieSeenText:
 VeteranfSylvieBeatenText:
 	text "I'd have won if"
 	line "I had a legendary"
-	cont "#mon…"
+	cont "#MON…"
 	done
 

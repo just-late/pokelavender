@@ -63,7 +63,7 @@ SageEdmondBeatenText:
 	done
 
 SproutTower2FStatueText:
-	text "A #mon statue…"
+	text "A #MON statue…"
 
 	para "It looks very"
 	line "distinguished."

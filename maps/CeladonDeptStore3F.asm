@@ -140,7 +140,7 @@ CeladonDeptStore3FClerk2Text:
 
 Text_CeladonDeptStore3FTutorCounter:
 	text "I'll teach your"
-	line "#mon how to use"
+	line "#MON how to use"
 
 	para "Counter if you pay"
 	line "me a Silver Leaf."
@@ -153,7 +153,7 @@ Text_CeladonDeptStore3FTutorNoSilverLeaf:
 
 Text_CeladonDeptStore3FTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Counter?"
 	done
 
@@ -162,7 +162,7 @@ Text_CeladonDeptStore3FTutorRefused:
 	done
 
 Text_CeladonDeptStore3FTutorTaught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows Counter."
 	done
 
@@ -259,7 +259,7 @@ WiiSentText:
 
 CeladonDeptStore3FYoungsterText:
 	text "I can't decide"
-	line "which #mon I"
+	line "which #MON I"
 
 	para "should use this"
 	line "TM on…"
@@ -275,7 +275,7 @@ CeladonDeptStore3FSuperNerdText:
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "Make Your #mon"
+	text "Make Your #MON"
 	line "Stronger!"
 
 	para "3F: Tech Shop"

@@ -210,7 +210,7 @@ GenericTrainerGruntM18:
 	cont "by a kid too."
 
 	para "When we were ab-"
-	line "ducting #mon,"
+	line "ducting #MON,"
 
 	para "this kid with long"
 	line "red hair and mean-"
@@ -679,7 +679,7 @@ RockerBaseLanceElectrodeFaintText:
 	line "strange signal."
 
 	para "It's no fault of"
-	line "the #mon, so it"
+	line "the #MON, so it"
 
 	para "makes me feel"
 	line "guilty."
@@ -705,7 +705,7 @@ RocketBaseLanceElectrodeDoneText:
 	line "Let me thank you"
 
 	para "on behalf of all"
-	line "the #mon."
+	line "the #MON."
 
 	para "Oh, yes. You"
 	line "should take this."
@@ -727,7 +727,7 @@ RocketBaseLanceMonMasterText:
 	text "<PLAYER>…"
 
 	para "The journey to be-"
-	line "coming the #mon"
+	line "coming the #MON"
 
 	para "Master is long and"
 	line "difficult."
@@ -757,7 +757,7 @@ LanceHealsText1:
 	text "Lance: Are you all"
 	line "right?"
 
-	para "Your #mon are"
+	para "Your #MON are"
 	line "hurt and tired."
 
 	para "Here, give them"
@@ -768,7 +768,7 @@ LanceHealsText1:
 LanceHealsText2:
 	text "Lance: <PLAYER>,"
 	line "let's give it our"
-	cont "best for #mon."
+	cont "best for #MON."
 	done
 
 GruntM17SeenText:

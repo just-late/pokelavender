@@ -64,11 +64,11 @@ BlackthornCitySignText:
 
 BlackthornGymSignText:
 	text "Blackthorn City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Clair"
 
 	para "The Blessed User"
-	line "of Dragon #mon"
+	line "of Dragon #MON"
 	done
 
 MoveDeletersHouseSignText:
@@ -84,7 +84,7 @@ DragonDensSignText:
 BlackthornCityTrainerTipsText:
 	text "Trainer Tips"
 
-	para "A #mon holding"
+	para "A #MON holding"
 	line "a Lum Berry"
 
 	para "will cure itself"
@@ -235,7 +235,7 @@ BlackthornGramps2Text:
 
 BlackthornLassText:
 	text "Are you going to"
-	line "make your #mon"
+	line "make your #MON"
 	cont "forget some moves?"
 	done
 

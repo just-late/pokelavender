@@ -135,7 +135,7 @@ FarmerMText_BuyMilk:
 	para "It's my pride and"
 	line "joy, there."
 
-	para "Give it to #mon"
+	para "Give it to #MON"
 	line "to restore HP!"
 
 	para "I'll give it to ya"
@@ -196,7 +196,7 @@ FarmerFText_AcrobaticsSpeech:
 	para "It's a move that"
 	line "hurts more if'n"
 
-	para "your #mon ain't"
+	para "your #MON ain't"
 	line "holdin' an item."
 
 	para "You best think how"

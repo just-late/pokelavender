@@ -38,7 +38,7 @@ Route27RestHouseGranny:
 	line "tough going."
 
 	para "Trust is the tie"
-	line "that binds #mon"
+	line "that binds #MON"
 	cont "and trainers."
 	done
 
@@ -83,12 +83,12 @@ Route27RestHouseGranny:
 
 .IntroText:
 	text "Where are you off"
-	line "to with #mon?"
+	line "to with #MON?"
 
-	para "The #mon"
+	para "The #MON"
 	line "League?"
 
-	para "Are your #mon"
+	para "Are your #MON"
 	line "loyal enough for"
 	cont "you to win?"
 
@@ -97,11 +97,11 @@ Route27RestHouseGranny:
 
 .HeardIntroText:
 	text "Let me see your"
-	line "#mon…"
+	line "#MON…"
 	done
 
 .QuestionText:
-	text "Ah! Your #mon"
+	text "Ah! Your #MON"
 	line "trusts you very"
 	cont "much."
 

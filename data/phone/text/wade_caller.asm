@@ -1,8 +1,8 @@
 WadeAreYourMonGrowingText:
-	text "Are your #mon"
+	text "Are your #MON"
 	line "growing?"
 
-	para "My #mon are"
+	para "My #MON are"
 	line "growing a bit too"
 
 	para "quickly for me."
@@ -43,7 +43,7 @@ WadeLostAMonText:
 	line "the last second."
 
 	para "I know it's a"
-	line "common #mon…"
+	line "common #MON…"
 
 	para "But it does annoy"
 	line "me that it got"
@@ -54,7 +54,7 @@ WadeLostAMonText:
 
 WadeBattleRematchText:
 	text "Do you feel like a"
-	line "#mon battle?"
+	line "#MON battle?"
 
 	para "It won't be like"
 	line "last time!"

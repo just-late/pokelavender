@@ -255,7 +255,7 @@ Text_TradeReceptionistIntro:
 	line "Trade Center."
 
 	para "You may trade your"
-	line "#mon here with"
+	line "#MON here with"
 	cont "a friend."
 
 	para "Would you like to"

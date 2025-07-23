@@ -122,7 +122,7 @@ CeruleanCityCooltrainerMText1:
 CeruleanCityCooltrainerMText2:
 	text "You're collecting"
 	line "every single kind"
-	cont "of #mon?"
+	cont "of #MON?"
 
 	para "That must be quite"
 	line "a challenge, but"
@@ -171,7 +171,7 @@ CeruleanCityFisherRocketTipText:
 CeruleanCityYoungsterText1:
 	text "There's a cave"
 	line "here with scary-"
-	cont "powerful #mon"
+	cont "powerful #MON"
 	cont "in it."
 	done
 
@@ -198,7 +198,7 @@ CeruleanCaveGuardText:
 	line "Cerulean Cave!"
 
 	para "Horribly powerful"
-	line "#mon live here."
+	line "#MON live here."
 
 	para "Only those who"
 	line "have defeated all"
@@ -217,7 +217,7 @@ CeruleanCitySignText:
 
 CeruleanGymSignText:
 	text "Cerulean City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Misty"
 
 	para "The Tomboyish"

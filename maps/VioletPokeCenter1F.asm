@@ -28,7 +28,7 @@ PokemonJournalFalknerScript:
 	setflag ENGINE_READ_FALKNER_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Falkner!"
@@ -80,7 +80,7 @@ VioletPokeCenter1FElmsAideScript:
 .PartyAndBoxFull:
 	text "Oh, no. You can't"
 	line "carry any more"
-	cont "#mon with you."
+	cont "#MON with you."
 
 	para "You have no space"
 	line "in your Box, too."
@@ -103,7 +103,7 @@ VioletPokeCenter1FElmsAideScript:
 	line "time, no see."
 
 	para "I was browsing the"
-	line "#mon Journal"
+	line "#MON Journal"
 	cont "while I waited."
 
 	para "Its gossip is a"
@@ -114,7 +114,7 @@ VioletPokeCenter1FElmsAideScript:
 	cont "to ask you."
 
 	para "Would you take the"
-	line "#mon Egg?"
+	line "#MON Egg?"
 	done
 
 .QuestionText:
@@ -124,14 +124,14 @@ VioletPokeCenter1FElmsAideScript:
 
 .GoodbyeText:
 	text "We discovered that"
-	line "a #mon will not"
+	line "a #MON will not"
 
 	para "hatch until it"
 	line "grows in the Egg."
 
 	para "It also has to be"
 	line "with other active"
-	cont "#mon to hatch."
+	cont "#MON to hatch."
 
 	para "<PLAYER>, you're"
 	line "the only person"
@@ -165,7 +165,7 @@ VioletPokeCenter1FElmsAideScript:
 
 VioletPokeCenter1FGameboyKidText:
 	text "A guy named Bill"
-	line "made the #mon"
+	line "made the #MON"
 	cont "PC storage system."
 	done
 
@@ -175,7 +175,7 @@ VioletPokeCenter1FGentlemanText:
 
 	para "Team Rocket was up"
 	line "to no good with"
-	cont "#mon."
+	cont "#MON."
 
 	para "But justice pre-"
 	line "vailed--a young"
@@ -197,7 +197,7 @@ VioletPokeCenter1FSageText:
 	done
 
 VioletPokeCenter1FYoungsterText:
-	text "#mon are smart."
+	text "#MON are smart."
 	line "They won't obey a"
 
 	para "trainer they don't"

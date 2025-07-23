@@ -84,7 +84,7 @@ BlackthornGymClairScript:
 	para "I can hold my own"
 	line "against even the"
 
-	para "#mon League's"
+	para "#MON League's"
 	line "Elite Four."
 
 	para "Do you still want"
@@ -116,7 +116,7 @@ BlackthornGymClairScript:
 	line "but you're still"
 
 	para "not ready for the"
-	line "#mon League."
+	line "#MON League."
 
 	para "I know. You should"
 	line "take the Dragon-"
@@ -153,7 +153,7 @@ ClairPokemonLeagueDirectionsText:
 	text "What's the matter?"
 
 	para "Aren't you headed"
-	line "to the #mon"
+	line "to the #MON"
 	cont "League?"
 
 	para "Do you know how to"
@@ -197,7 +197,7 @@ BlackthornGymGuyScript:
 	para "Clair uses the"
 	line "mythical and sac-"
 	cont "red Dragon-type"
-	cont "#mon."
+	cont "#MON."
 
 	para "You can't damage"
 	line "them very easily."
@@ -214,12 +214,12 @@ BlackthornGymGuyScript:
 	line "beat Clair!"
 
 	para "All that's left is"
-	line "the #mon League"
+	line "the #MON League"
 	cont "challenge."
 
 	para "You're on the way"
 	line "to becoming the"
-	cont "#mon Champion!"
+	cont "#MON Champion!"
 	done
 
 GenericTrainerDragonTamerPaul:
@@ -241,7 +241,7 @@ GenericTrainerDragonTamerPaul:
 	done
 
 .BeatenText:
-	text "My dragon #mon"
+	text "My dragon #MON"
 	line "lost?"
 	done
 
@@ -275,7 +275,7 @@ GenericTrainerCooltrainerfLola:
 
 .SeenText:
 	text "Dragons are sacred"
-	line "#mon."
+	line "#MON."
 
 	para "They are full of"
 	line "life energy."

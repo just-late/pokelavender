@@ -213,11 +213,11 @@ OakLabGiveStarterText:
 	line "of mine."
 
 	para "If she gave you a"
-	line "#mon, let me do"
+	line "#MON, let me do"
 	cont "the same!"
 
 	para "You don't see this"
-	line "#mon very often"
+	line "#MON very often"
 	cont "in Kanto or Johto."
 	done
 
@@ -264,7 +264,7 @@ OakLabCatchCharmText:
 
 OakLabSeenAllText:
 	text "You've been meeting"
-	line "new #mon at a"
+	line "new #MON at a"
 
 	para "good clip, haven't"
 	line "you?"
@@ -299,7 +299,7 @@ OakLabCaughtAllText:
 
 	para "And to the bonds"
 	line "you have built"
-	cont "with your #mon!"
+	cont "with your #MON!"
 
 	para "Take this as a"
 	line "reward for your"
@@ -312,7 +312,7 @@ OakLabShinyCharmText:
 
 	para "your chances of"
 	line "finding a shiny"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 OakLabGoodbyeText:
@@ -339,7 +339,7 @@ OakChallengeText:
 	line "a tall mountain"
 
 	para "that is home to"
-	line "many wild #mon."
+	line "many wild #MON."
 
 	para "It's too dangerous"
 	line "for your average"
@@ -433,7 +433,7 @@ OakNoEliteFourRematchText:
 	line "llenge the Elite"
 
 	para "Four with their"
-	line "best #mon."
+	line "best #MON."
 
 	para "Keep trying hard,"
 	line "<PLAYER>!"
@@ -462,7 +462,7 @@ OakYesKantoBadgesText:
 	done
 
 OaksAssistant1Text:
-	text "The Prof's #mon"
+	text "The Prof's #MON"
 	line "Talk radio program"
 
 	para "isn't aired here"
@@ -485,7 +485,7 @@ OaksAssistant3Text:
 	text "Don't tell anyone,"
 	line "but Prof.Oak's"
 
-	para "#mon Talk isn't"
+	para "#MON Talk isn't"
 	line "a live broadcast."
 	done
 

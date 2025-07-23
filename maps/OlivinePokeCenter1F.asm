@@ -27,7 +27,7 @@ PokemonJournalJasmineScript:
 	setflag ENGINE_READ_JASMINE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Jasmine!"
@@ -62,7 +62,7 @@ BeautyCharlotteScript:
 .AfterText:
 	text "How cool is it"
 	line "to have such a"
-	cont "special #mon?"
+	cont "special #MON?"
 	done
 
 .GreetingText:
@@ -73,14 +73,14 @@ BeautyCharlotteScript:
 	line "the right time!"
 
 	para "My unique and"
-	line "beautiful #mon"
+	line "beautiful #MON"
 	cont "is all healed."
 
 	para "Do you want to"
 	line "battle and be"
 
 	para "amazed by my"
-	line "#mon?"
+	line "#MON?"
 	done
 
 .NoBattleText:
@@ -119,5 +119,5 @@ OlivinePokeCenter1FTeacherText:
 
 	para "I heard him brag-"
 	line "ging about his"
-	cont "rare #mon."
+	cont "rare #MON."
 	done

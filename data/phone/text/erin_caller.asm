@@ -15,7 +15,7 @@ ErinDefeatedMonText:
 	text "!"
 
 	para "I've raised my"
-	line "#mon properly!"
+	line "#MON properly!"
 	done
 
 ErinLostAMonText:
@@ -50,7 +50,7 @@ ErinHangUpText:
 ErinWorkingHardText:
 	text "I'm working hard"
 	line "to raise my"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "Come back for"
 	line "another battle!"

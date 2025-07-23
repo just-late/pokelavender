@@ -5,7 +5,7 @@ ElmPhoneStartText:
 	line "it."
 
 	para "Be sure to heal"
-	line "your #mon if"
+	line "your #MON if"
 	cont "they are hurt."
 	done
 
@@ -13,7 +13,7 @@ ElmPhoneSawMrPokemonText:
 	text "Hello, <PLAYER>?"
 
 	para "Did you meet Mr."
-	line "#mon? Great!"
+	line "#MON? Great!"
 	cont "Come back safely!"
 	done
 
@@ -21,7 +21,7 @@ ElmPhonePokemonStolenText:
 	text "<PLAYER>? I'm very"
 	line "upset now."
 
-	para "We had a #mon"
+	para "We had a #MON"
 	line "stolen from here."
 
 	para "How could anyone"
@@ -35,7 +35,7 @@ ElmPhoneCheckingEggText:
 	line "Egg now. It does"
 
 	para "appear to be a"
-	line "#mon Egg."
+	line "#MON Egg."
 	prompt
 
 ElmPhoneAssistantText:
@@ -44,7 +44,7 @@ ElmPhoneAssistantText:
 	para "Did you see my"
 	line "assistant? He's at"
 
-	para "the #mon Center"
+	para "the #MON Center"
 	line "in Violet City."
 	done
 
@@ -64,7 +64,7 @@ ElmPhoneEggHatchedText:
 
 	para "What? It hatched?"
 	line "Wow! What kind of"
-	cont "#mon is it?"
+	cont "#MON is it?"
 
 	para "Please come show"
 	line "me now!"
@@ -80,7 +80,7 @@ ElmPhoneDiscovery1Text:
 	line "for an Egg to"
 
 	para "hatch depends on"
-	line "the #mon."
+	line "the #MON."
 	prompt
 
 ElmPhoneDiscovery2Text:
@@ -90,7 +90,7 @@ ElmPhoneDiscovery2Text:
 	line "mystery what kinds"
 
 	para "of moves hatched"
-	line "#mon have."
+	line "#MON have."
 
 	para "We're investigat-"
 	line "ing that now."
@@ -106,7 +106,7 @@ ElmPhonePokerusText:
 	line "something called"
 
 	para "#rus that in-"
-	line "fects #mon."
+	line "fects #MON."
 
 	para "Yes, it's like a"
 	line "virus, so it's"
@@ -115,7 +115,7 @@ ElmPhonePokerusText:
 	para "It multiplies fast"
 	line "and infects other"
 
-	para "#mon too. But"
+	para "#MON too. But"
 	line "that's all."
 
 	para "It doesn't seem to"
@@ -151,7 +151,7 @@ ElmPhoneEggAssistantText:
 	line "Egg!"
 
 	para "My assistant is at"
-	line "the #mon Center"
+	line "the #MON Center"
 
 	para "in Violet City."
 	line "Could you talk to"
@@ -202,7 +202,7 @@ ElmPhoneEvolutionQuestionText:
 	line "<PLAYER>, want to"
 
 	para "know how your"
-	line "#mon evolves?"
+	line "#MON evolves?"
 	done
 
 ElmPhoneEvoText_None:

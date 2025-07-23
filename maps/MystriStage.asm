@@ -141,7 +141,7 @@ MystriStageEggScript:
 MystriStageCynthiaIntroText:
 	text "My name is"
 	line "Cynthia. I am a"
-	cont "#mon trainer."
+	cont "#MON trainer."
 
 	para "And you are?"
 
@@ -205,7 +205,7 @@ MystriStageCynthiaLeadText2:
 	line "intriguing."
 
 	para "Could “the lead”"
-	line "be a #mon?"
+	line "be a #MON?"
 	cont "Or a person?"
 	done
 
@@ -249,7 +249,7 @@ MystriStageCynthiaNoText:
 MystriStageCynthiaYesText:
 	text "Cynthia: Before"
 	line "I send out my"
-	cont "#mon,"
+	cont "#MON,"
 
 	para "my heart always"
 	line "begins to race…"

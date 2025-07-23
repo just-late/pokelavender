@@ -156,7 +156,7 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 
 	para "I'll show you that"
 	line "I deserve to own"
-	cont "those #mon."
+	cont "those #MON."
 	done
 
 CinnabarVolcanoB2FLawrenceEscapeRopeText:

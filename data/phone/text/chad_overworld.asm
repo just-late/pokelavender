@@ -7,7 +7,7 @@ ChadAskNumber1Text:
 	line "That's way cool!"
 
 	para "I have a dream of"
-	line "becoming a #mon"
+	line "becoming a #MON"
 
 	para "researcher like"
 	line "Prof.Oak."
@@ -35,7 +35,7 @@ ChadAskNumber2Text:
 
 ChadNumberAcceptedText:
 	text "You must listen to"
-	line "Prof.Oak's #mon"
+	line "Prof.Oak's #MON"
 	cont "Talk, right?"
 	done
 

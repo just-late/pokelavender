@@ -111,12 +111,12 @@ PewterCityPokefanMScript:
 	done
 
 PewterCityCooltrainerFText:
-	text "#mon can only"
+	text "#MON can only"
 	line "be two types at"
 	cont "once, but if it"
 	cont "were possible for"
 
-	para "a #mon to be"
+	para "a #MON to be"
 	line "every type, it"
 	cont "would only have"
 	cont "one weakness."
@@ -130,7 +130,7 @@ PewterCityCooltrainerFText:
 
 PewterCityCooltrainermText:
 	text "This gal thinks"
-	line "Rock-type #mon"
+	line "Rock-type #MON"
 	cont "are all that,"
 
 	para "but it's tied for"
@@ -204,11 +204,11 @@ PewterCitySignText:
 
 PewterGymSignText:
 	text "Pewter City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Brock"
 
 	para "The Rock Solid"
-	line "#mon Trainer"
+	line "#MON Trainer"
 	done
 
 PewterMuseumOfScienceSignText:
@@ -227,7 +227,7 @@ PewterCityMtMoonGiftShopSignText:
 PewterCityTrainerTipsText:
 	text "Trainer Tips"
 
-	para "A #mon holding"
+	para "A #MON holding"
 	line "an Ability Cap"
 	cont "is more likely to"
 	cont "have a baby with"

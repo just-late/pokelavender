@@ -89,7 +89,7 @@ Route41MarlonScript:
 	para "The name's Marlon,"
 	line "man of the sea!"
 
-	para "Me 'n' my #mon"
+	para "Me 'n' my #MON"
 	line "swam here from"
 	cont "the Unova region!"
 	done
@@ -220,7 +220,7 @@ GenericTrainerSwimmermBerke:
 	line "stormy night…"
 
 	para "I saw this giant"
-	line "#mon flying"
+	line "#MON flying"
 	cont "from the islands."
 
 	para "It was scattering"
@@ -273,7 +273,7 @@ SwimmermCharlieBeatenText:
 SwimmermGeorgeSeenText:
 	text "I'm a bit tired."
 	line "If I win, lend me"
-	cont "your #mon."
+	cont "your #MON."
 	done
 
 SwimmermGeorgeBeatenText:
@@ -343,7 +343,7 @@ SwimmerfKayleeBeatenText:
 SwimmerfSusieSeenText:
 	text "You look so ele-"
 	line "gant, riding your"
-	cont "#mon."
+	cont "#MON."
 	done
 
 SwimmerfSusieBeatenText:

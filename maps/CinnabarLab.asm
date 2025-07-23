@@ -397,7 +397,7 @@ CinnabarLabGiovanniWhoAreYouText:
 	cont "I'll show you."
 
 	para "The world's most"
-	line "powerful #mon…"
+	line "powerful #MON…"
 	done
 
 CinnabarLabGiovanniAttackText:
@@ -414,7 +414,7 @@ CinnabarLabGiovanniAfterText:
 	line "a kid like you"
 
 	para "able to beat the"
-	line "perfect #mon?"
+	line "perfect #MON?"
 
 	para "It was created to"
 	line "fight for me!"

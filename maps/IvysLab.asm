@@ -185,7 +185,7 @@ IvysLabHopeScript:
 	text "Hope: Prof.Ivy"
 	line "takes care of the"
 
-	para "#mon on this"
+	para "#MON on this"
 	line "island."
 
 	para "Right now she's"
@@ -250,17 +250,17 @@ IvysLabHealingMachine:
 
 .Text:
 	text "Would you like to"
-	line "heal your #mon?"
+	line "heal your #MON?"
 	done
 
 PokemonJournalProfIvyScript:
 	setflag ENGINE_READ_PROF_IVY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
-	line "#mon Prof.Ivy!"
+	line "#MON Prof.Ivy!"
 
 	para "Philena Ivy worked"
 	line "with Brock of Pew-"

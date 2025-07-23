@@ -59,7 +59,7 @@ ViridianSchoolHouseYoungsterScript:
 
 .Text2:
 	text "“What doesn't KO"
-	line "a #mon makes"
+	line "a #MON makes"
 	cont "it stronger.”"
 
 	para "That's the effect"
@@ -113,7 +113,7 @@ PokemonJournalKiyoScript:
 	setflag ENGINE_READ_KIYO_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Karate King Kiyo!"

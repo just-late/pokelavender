@@ -111,7 +111,7 @@ GenericTrainerPokefanfRuth:
 	generictrainer POKEFANF, RUTH, EVENT_BEAT_POKEFANF_RUTH, PokefanfRuthSeenText, PokefanfRuthBeatenText
 
 	text "Do you know about"
-	line "baby #mon?"
+	line "baby #MON?"
 
 	para "I bet they're just"
 	line "adorable!"
@@ -243,7 +243,7 @@ Route39CowgirlAnnieScript:
 GenericTrainerSailorEugene:
 	generictrainer SAILOR, EUGENE, EVENT_BEAT_SAILOR_EUGENE, SailorEugeneSeenText, SailorEugeneBeatenText
 
-	text "My #mon were"
+	text "My #MON were"
 	line "caught and raised"
 	cont "overseas."
 
@@ -297,7 +297,7 @@ SailorEugeneSeenText:
 	line "Olivine."
 
 	para "So how about a"
-	line "#mon battle?"
+	line "#MON battle?"
 	done
 
 SailorEugeneBeatenText:
@@ -328,10 +328,10 @@ PokefanMDerekText_NotBragging:
 
 PokefanfRuthSeenText:
 	text "Such darling"
-	line "#mon."
+	line "#MON."
 
 	para "Let's show our"
-	line "#mon together"
+	line "#MON together"
 	cont "at the same time."
 	done
 
@@ -347,12 +347,12 @@ PokefanMDerekPikachuIsItText:
 
 PsychicNormanSeenText:
 	text "Let me see what"
-	line "your #mon are"
+	line "your #MON are"
 	cont "capable of."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #mon"
+	text "Ooh, your #MON"
 	line "have potential."
 	done
 
@@ -416,7 +416,7 @@ Route39HikerText:
 	cont "mountain…"
 
 	para "I've heard that"
-	line "some #mon have"
+	line "some #MON have"
 
 	para "adapted to sur-"
 	line "vive the harsh"
@@ -442,17 +442,17 @@ Route39AdvancedTips1Text:
 
 	para "Sandstorms boost"
 	line "Special Defense of"
-	cont "Rock-type #mon!"
+	cont "Rock-type #MON!"
 
 	para "And, Hail boosts"
 	line "the Defense of"
-	cont "Ice-type #mon!"
+	cont "Ice-type #MON!"
 	done
 
 Route39AdvancedTips2Text:
 	text "Advanced Tips!"
 
-	para "A #mon with"
+	para "A #MON with"
 	line "the Compound Eyes"
 	cont "ability, or one"
 
@@ -460,7 +460,7 @@ Route39AdvancedTips2Text:
 	line "Coin, is more li-"
 	cont "kely to encounter"
 
-	para "a wild #mon"
+	para "a wild #MON"
 	line "holding an item!"
 	done
 
@@ -484,10 +484,10 @@ Route39TrainerTipsText:
 
 	para "Use Headbutt on"
 	line "trees to shake"
-	cont "#mon out."
+	cont "#MON out."
 
 	para "Different kinds of"
-	line "#mon drop out"
+	line "#MON drop out"
 	cont "of trees."
 
 	para "Use Headbutt on"

@@ -22,7 +22,7 @@ PokemonJournalLanceScript:
 	setflag ENGINE_READ_LANCE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Champion Lance!"
@@ -61,7 +61,7 @@ SilverCavePokeCenterGrampsScript:
 	text "You haven't read"
 	line "any? What a shame."
 
-	para "#mon Centers"
+	para "#MON Centers"
 	line "have most of them"
 	cont "on their shelves,"
 
@@ -83,7 +83,7 @@ SilverCavePokeCenterGrampsScript:
 	line "just for show."
 
 	para "It'll power up your"
-	line "#mon if they"
+	line "#MON if they"
 	cont "hold it."
 	done
 
@@ -94,7 +94,7 @@ SilverCavePokeCenterGrampsScript:
 
 	para "Now I just read"
 	line "about others in"
-	cont "#mon Journal."
+	cont "#MON Journal."
 
 	para "Are you a Journal"
 	line "reader too?"
@@ -119,7 +119,7 @@ SilverCavePokeCenter1FGrannyText:
 	line "many dangers…"
 
 	para "With their trusted"
-	line "#mon, they must"
+	line "#MON, they must"
 
 	para "feel they can go"
 	line "anywhere…"

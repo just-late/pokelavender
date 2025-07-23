@@ -141,12 +141,12 @@ AzaleaTownRivalBattleTrigger2:
 
 .WinText:
 	text "…Humph! Useless"
-	line "#mon!"
+	line "#MON!"
 
 	para "Listen, you. You"
 	line "only won because"
 
-	para "my #mon were"
+	para "my #MON were"
 	line "weak."
 	done
 
@@ -158,7 +158,7 @@ AzaleaTownRivalBattleTrigger2:
 .AfterText:
 	text "I hate the weak."
 
-	para "#mon, trainers."
+	para "#MON, trainers."
 	line "It doesn't matter"
 	cont "who or what."
 
@@ -237,7 +237,7 @@ AzaleaTownSignText:
 	text "Azalea Town"
 	line "Where People and"
 
-	para "#mon Live in"
+	para "#MON Live in"
 	line "Happy Harmony"
 	done
 
@@ -247,11 +247,11 @@ KurtsHouseSignText:
 
 AzaleaGymSignText:
 	text "Azalea Town"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Bugsy"
 
 	para "The Walking"
-	line "Bug #mon"
+	line "Bug #MON"
 	cont "Encyclopedia"
 	done
 
@@ -388,7 +388,7 @@ AzaleaTownYoungsterText:
 	line "through."
 
 	para "The Charcoal Man's"
-	line "#mon can Cut"
+	line "#MON can Cut"
 	cont "down trees."
 	done
 

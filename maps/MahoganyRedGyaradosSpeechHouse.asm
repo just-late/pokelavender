@@ -22,7 +22,7 @@ MahoganyRedGyaradosSpeechHouseTeacherScript:
 
 	text "My favorite radio"
 	line "program? I'd say"
-	cont "#mon Music."
+	cont "#MON Music."
 	done
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:

@@ -100,7 +100,7 @@ RalphNoItemText:
 	text "Yeah, I know."
 
 	para "You're looking for"
-	line "rare #mon."
+	line "rare #MON."
 
 	para "Recently, all I've"
 	line "been catching are"

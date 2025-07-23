@@ -75,7 +75,7 @@ HexManiacAshleyBeatenText:
 CooltrainermHenriSeenText:
 	text "Can you handle my"
 	line "balanced team of"
-	cont "#mon?"
+	cont "#MON?"
 	done
 
 CooltrainermHenriBeatenText: ; text > text

@@ -28,7 +28,7 @@ EcruteakLugiaSpeechHouseGrampsText:
 	cont "out the sun."
 
 	para "I wonder what that"
-	line "#mon was?"
+	line "#MON was?"
 
 	para "It was like a bird"
 	line "and a dragon."
@@ -36,7 +36,7 @@ EcruteakLugiaSpeechHouseGrampsText:
 
 EcruteakLugiaSpeechHouseYoungsterText:
 	text "Is there really a"
-	line "#mon that big?"
+	line "#MON that big?"
 
 	para "If it exists, it"
 	line "must be powerful."

@@ -92,7 +92,7 @@ GenericTrainerGruntM8:
 	line "losing!"
 
 	para "Darn it! I hate"
-	line "useless #mon!"
+	line "useless #MON!"
 	done
 
 GenericTrainerGruntM9:
@@ -142,7 +142,7 @@ RadioTower3FSuperNerdText:
 	text "We have recordings"
 	line "of the cries of"
 
-	para "all #mon that"
+	para "all #MON that"
 	line "have been found."
 
 	para "We must have about"
@@ -158,7 +158,7 @@ RadioTower3FGymGuideText_Rockets:
 	line "Team Rocket is"
 
 	para "trying to control"
-	line "#mon."
+	line "#MON."
 	done
 
 RadioTower3FGymGuideText:
@@ -227,7 +227,7 @@ GruntM7BeatenText:
 
 GruntM8SeenText:
 	text "It feels great"
-	line "ordering #mon"
+	line "ordering #MON"
 	cont "to commit crimes."
 	done
 
@@ -274,6 +274,6 @@ RadioTower3FPersonnelSignText:
 	done
 
 RadioTower3FPokemonMusicSignText:
-	text "#mon Music with"
+	text "#MON Music with"
 	line "Host DJ Ben"
 	done

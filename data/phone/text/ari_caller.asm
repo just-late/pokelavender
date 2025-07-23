@@ -25,7 +25,7 @@ AriPhoneCallerRandomText1:
     line "you?"
 
     para "It is? Great! My"
-    line "#mon are happier"
+    line "#MON are happier"
 
     para "than usual today!"
 

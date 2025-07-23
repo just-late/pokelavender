@@ -295,7 +295,7 @@ Text_PowerPlantTutorZapCannon:
 	text "Manager: I can"
 	line "teach your"
 
-	para "#mon to use"
+	para "#MON to use"
 	line "my Zap Cannon!"
 
 	para "It's not what any-"
@@ -316,7 +316,7 @@ Text_PowerPlantTutorNoSilverLeaf:
 
 Text_PowerPlantTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Zap Cannon?"
 	done
 
@@ -325,7 +325,7 @@ Text_PowerPlantTutorRefused:
 	done
 
 Text_PowerPlantTutorTaught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows Zap Cannon!"
 
 	para "Wahahah!"

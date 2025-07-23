@@ -20,10 +20,10 @@ PokemonJournalProfOakScript:
 	setflag ENGINE_READ_PROF_OAK_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
-	line "#mon Prof.Oak!"
+	line "#MON Prof.Oak!"
 
 	para "Samuel Oak's grand-"
 	line "children, Blue and"

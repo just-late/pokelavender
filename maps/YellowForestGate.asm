@@ -32,7 +32,7 @@ YellowForestGateNurseScript:
 
 YellowForestGateOfficerText:
 	text "There are rare"
-	line "#mon in"
+	line "#MON in"
 	cont "Yellow Forest!"
 
 	para "Don't forget to"
@@ -43,7 +43,7 @@ YellowForestGateOfficerText:
 	done
 
 YellowForestGateNurseText:
-	text "Your #mon look"
+	text "Your #MON look"
 	line "worn out."
 
 	para "Let me heal them"
@@ -53,7 +53,7 @@ YellowForestGateNurseText:
 YellowForestGateNurseHealedText:
 	text "All done!"
 
-	para "Your #mon"
+	para "Your #MON"
 	line "are fully healed."
 	done
 

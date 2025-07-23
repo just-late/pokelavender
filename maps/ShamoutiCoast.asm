@@ -59,7 +59,7 @@ GenericTrainerSwimmerfMarina:
 	line "ded on a desert"
 	cont "island, I'd take…"
 
-	para "my #mon, of"
+	para "my #MON, of"
 	line "course!"
 	done
 
@@ -104,7 +104,7 @@ GenericTrainerSightseerfPilar:
 	generictrainer SIGHTSEERF, PILAR, EVENT_BEAT_SIGHTSEERF_PILAR, .SeenText, .BeatenText
 
 	text "¡Qué fuertes son"
-	line "tus #mon!"
+	line "tus #MON!"
 
 	para "Debes de haber"
 	line "viajado un montón"

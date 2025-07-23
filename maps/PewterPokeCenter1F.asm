@@ -24,7 +24,7 @@ PokemonJournalBrockScript:
 	setflag ENGINE_READ_BROCK_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Brock!"
@@ -54,7 +54,7 @@ PewterPokeCenter1FTeacherText:
 	done
 
 PewterPokeCenter1FChildText:
-	text "Most #mon get"
+	text "Most #MON get"
 	line "drowsy if they"
 
 	para "hear a Jigglypuff"
@@ -64,5 +64,5 @@ PewterPokeCenter1FChildText:
 	line "moves that can be"
 
 	para "used only while a"
-	line "#mon is asleep."
+	line "#MON is asleep."
 	done

@@ -282,7 +282,7 @@ MistyIntroText:
 	cont "too lightly."
 
 	para "My Water-type"
-	line "#mon are tough!"
+	line "#MON are tough!"
 	done
 
 MistyWinLossText:

@@ -69,7 +69,7 @@ GenericTrainerCooltrainermCody:
 	line "dragon-user clan"
 
 	para "can use dragon"
-	line "#mon only after"
+	line "#MON only after"
 
 	para "our Master allows"
 	line "it."
@@ -78,7 +78,7 @@ GenericTrainerCooltrainermCody:
 .SeenText:
 	text "It's not as if we"
 	line "all use Dragon-"
-	cont "type #mon."
+	cont "type #MON."
 	done
 
 .BeatenText:

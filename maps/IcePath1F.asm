@@ -51,7 +51,7 @@ BoarderStefanSeenText:
 	line "cold!"
 
 	para "Let's warm up with"
-	line "a #mon battle!"
+	line "a #MON battle!"
 	done
 
 BoarderStefanBeatenText:

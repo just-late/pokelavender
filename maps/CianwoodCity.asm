@@ -147,7 +147,7 @@ ChucksWifeEasierToFlyText:
 	para "It would be much"
 	line "easier if your"
 
-	para "#mon knew how"
+	para "#MON knew how"
 	line "to Fly…"
 	done
 
@@ -186,7 +186,7 @@ CianwoodCityPokefanMText:
 	para "They may be hiding"
 	line "something."
 
-	para "Your #mon could"
+	para "Your #MON could"
 if DEF(FAITHFUL)
 	line "use Rock Smash to"
 	cont "break them."
@@ -284,7 +284,7 @@ EusineAfterText:
 	text "You're amazing,"
 	line "<PLAYER>!"
 
-	para "No wonder #mon"
+	para "No wonder #MON"
 	line "gravitate to you."
 
 	para "I get it now."
@@ -308,7 +308,7 @@ CianwoodCitySignText:
 
 CianwoodGymSignText:
 	text "Cianwood City"
-	line "#mon Gym"
+	line "#MON Gym"
 
 	para "Leader: Chuck"
 
@@ -353,7 +353,7 @@ CianwoodAdvancedTipsSignText:
 	para "You can use a"
 	line "# Ball on a"
 
-	para "#mon you've"
+	para "#MON you've"
 	line "caught to change"
 	cont "its Ball!"
 

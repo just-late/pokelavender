@@ -69,7 +69,7 @@ Route34IlexForestGateTeacher_GotSweetScent:
 	text "It's False Swipe."
 
 	para "It won't knock"
-	line "out wild #mon,"
+	line "out wild #MON,"
 
 	para "so they'll be"
 	line "easier to catch."
@@ -91,7 +91,7 @@ Route34IlexForestGateTeacherText:
 
 	para "It must be hard to"
 	line "catch all those"
-	cont "#mon."
+	cont "#MON."
 
 	para "Here, take this"
 	line "TM."
@@ -120,5 +120,5 @@ Route34IlexForestGateLassText:
 
 	para "I think that it"
 	line "must be a Grass-"
-	cont "type #mon."
+	cont "type #MON."
 	done

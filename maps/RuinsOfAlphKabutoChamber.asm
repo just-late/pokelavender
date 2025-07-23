@@ -141,7 +141,7 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	para "There are sliding"
 	line "panels that depict"
 
-	para "a #mon drawn by"
+	para "a #MON drawn by"
 	line "the ancients."
 
 	para "Slide the panels"
@@ -150,7 +150,7 @@ RuinsOfAlphKabutoChamberReceptionistText:
 
 	para "To the right is a"
 	line "description of the"
-	cont "#mon."
+	cont "#MON."
 
 	para "Scientists in the"
 	line "back are examining"
@@ -190,7 +190,7 @@ RuinsOfAlphKabutoChamberScientistTremorText:
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "A #mon that hid"
+	text "A #MON that hid"
 	line "on the sea floor."
 
 	para "Eyes on its back"

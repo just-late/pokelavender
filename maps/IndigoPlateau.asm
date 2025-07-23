@@ -25,5 +25,5 @@ IndigoPlateauSignText:
 	para "The Ultimate Goal"
 	line "for Trainers!"
 
-	para "#mon League HQ"
+	para "#MON League HQ"
 	done

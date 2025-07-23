@@ -262,7 +262,7 @@ Route10NorthLawrenceZapdosText:
 	para "In that case, I'll"
 	line "leave this legen-"
 
-	para "dary #mon for"
+	para "dary #MON for"
 	line "you to catch."
 
 	para "You see, I have"
@@ -321,7 +321,7 @@ Route10NorthLawrenceSpeechText:
 
 	para "I'll show you that"
 	line "I deserve to own"
-	cont "those #mon."
+	cont "those #MON."
 	done
 
 RockTunnelSignText:

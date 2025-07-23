@@ -73,7 +73,7 @@ FuchsiaCityTeacherText:
 	cont "still open."
 
 	para "You'll need a"
-	line "strong #mon"
+	line "strong #MON"
 
 	para "to explore it,"
 	line "though."
@@ -87,7 +87,7 @@ FuchsiaCityPokefanFText:
 	line "to maintain the"
 	cont "town zoo."
 
-	para "So the #mon"
+	para "So the #MON"
 	line "were released back"
 	cont "into the wild."
 	done
@@ -101,7 +101,7 @@ FuchsiaCitySignText:
 
 FuchsiaGymSignText:
 	text "Fuchsia City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Janine"
 
 	para "The Poisonous"

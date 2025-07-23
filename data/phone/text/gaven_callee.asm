@@ -58,7 +58,7 @@ GavenGreetNiteText:
 
 GavenGenericText:
 	text "How are your"
-	line "#mon doing?"
+	line "#MON doing?"
 
 	para "My "
 	text_ram wStringBuffer4
@@ -67,6 +67,6 @@ GavenGenericText:
 	cont "ever."
 
 	para "Let's keep at it"
-	line "and become #mon"
+	line "and become #MON"
 	cont "Champs!"
 	done

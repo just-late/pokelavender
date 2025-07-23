@@ -166,7 +166,7 @@ HikerAnthonyDunsparceText:
 
 SchoolgirlImogenSeenText:
 	text "I'm the best in my"
-	line "class at #mon."
+	line "class at #MON."
 	done
 
 SchoolgirlImogenBeatenText:

@@ -23,7 +23,7 @@ PokemonJournalAgathaScript:
 	setflag ENGINE_READ_AGATHA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Ex-Elite Agatha!"
@@ -66,7 +66,7 @@ Route10PokeCenter1FGymGuyScript:
 	done
 
 Route10PokeCenter1FGentlemanText:
-	text "A #mon Center"
+	text "A #MON Center"
 	line "near a cave?"
 
 	para "That's mighty"

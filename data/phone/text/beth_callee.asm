@@ -63,15 +63,15 @@ BethGenericText:
 	text "Are you the kind"
 	line "of person who goes"
 
-	para "to #mon Centers"
+	para "to #MON Centers"
 	line "often?"
 
 	para "I go every day."
 	line "Watching out for"
 
 	para "the health of your"
-	line "#mon is a basic"
+	line "#MON is a basic"
 
 	para "part of being a"
-	line "#mon trainer."
+	line "#MON trainer."
 	done

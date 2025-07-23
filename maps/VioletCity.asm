@@ -202,7 +202,7 @@ VioletCityLassText:
 	cont "Sprout Tower."
 
 	para "They said Normal-"
-	line "type #mon moves"
+	line "type #MON moves"
 
 	para "had no effect on"
 	line "ghosts."
@@ -210,7 +210,7 @@ VioletCityLassText:
 
 VioletCityCooltrainerM1Text:
 	text "Hey, you're a"
-	line "#mon trainer?"
+	line "#MON trainer?"
 
 	para "If you beat the"
 	line "Gym Leader here,"
@@ -221,7 +221,7 @@ VioletCityCooltrainerM1Text:
 
 VioletCityCooltrainerFText:
 	text "Bellsprout is a"
-	line "popular #mon"
+	line "popular #MON"
 	cont "in this town."
 
 	para "It doesn't do well"
@@ -231,7 +231,7 @@ VioletCityCooltrainerFText:
 
 VioletCityGrampsText:
 	text "Falkner, from the"
-	line "Violet #mon"
+	line "Violet #MON"
 
 	para "Gym, is a fine"
 	line "trainer!"
@@ -267,7 +267,7 @@ VioletCityCooltrainerM2Text:
 	cont "ings around here."
 
 	para "Even the # Mart"
-	line "and #mon Center"
+	line "and #MON Center"
 
 	para "are painted som-"
 	line "berly to blend in."
@@ -282,21 +282,21 @@ VioletCitySignText:
 
 VioletGymSignText:
 	text "Violet City"
-	line "#mon Gym"
+	line "#MON Gym"
 	cont "Leader: Falkner"
 
 	para "The Elegant Master"
-	line "of Flying #mon"
+	line "of Flying #MON"
 	done
 
 SproutTowerSignText:
 	text "Sprout Tower"
 
 	para "Experience the"
-	line "Way of #mon"
+	line "Way of #MON"
 	done
 
 EarlsPokemonAcademySignText:
-	text "Earl's #mon"
+	text "Earl's #MON"
 	line "Academy"
 	done

@@ -197,7 +197,7 @@ PlateauRivalText1:
 	text "Hold it."
 
 	para "You're going to"
-	line "take the #mon"
+	line "take the #MON"
 
 	para "League challenge"
 	line "now?"
@@ -206,7 +206,7 @@ PlateauRivalText1:
 	line "to happen."
 
 	para "My super well-"
-	line "trained #mon"
+	line "trained #MON"
 
 	para "are going to pound"
 	line "you."
@@ -227,7 +227,7 @@ PlateauRivalText2:
 
 	para "I… I have to think"
 	line "more about my"
-	cont "#mon…"
+	cont "#MON…"
 
 	para "Humph! Try not to"
 	line "lose!"
@@ -270,7 +270,7 @@ PlateauLyraText1:
 	done
 
 PlateauLyraText2:
-	text "as the #mon"
+	text "as the #MON"
 	line "League Champion!"
 	done
 
@@ -291,7 +291,7 @@ PlateauLyraText3:
 	line "Johto, meet new"
 	cont "people, raise my"
 
-	para "#mon to be"
+	para "#MON to be"
 	line "stronger than I"
 
 	para "thought they could"
@@ -326,7 +326,7 @@ PokemonJournalGiovanniScript:
 	setflag ENGINE_READ_GIOVANNI_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Boss Giovanni!"
@@ -397,7 +397,7 @@ IndigoPlateauYellowScript:
 	text "Yellow: Oh…"
 	line "You can't carry"
 
-	para "another #mon"
+	para "another #MON"
 	line "either…"
 
 	para "And your Box is"
@@ -415,7 +415,7 @@ IndigoPlateauYellowScript:
 	line "And they have such"
 
 	para "strong bonds with"
-	line "their #mon…"
+	line "their #MON…"
 
 	para "One day I'm going"
 	line "to reach their"
@@ -427,7 +427,7 @@ IndigoPlateauYellowScript:
 	line "can you do me a"
 	cont "favor?"
 
-	para "I have a #mon"
+	para "I have a #MON"
 	line "that I can't raise"
 	cont "myself, and I don't"
 
@@ -447,7 +447,7 @@ IndigoPlateauYellowScript:
 .RefusedText:
 	text "Yellow: Oh…"
 	line "But what about the"
-	cont "#mon?"
+	cont "#MON?"
 	done
 
 .GoodbyeText:
@@ -522,7 +522,7 @@ IndigoPlateauAbraText:
 	done
 
 IndigoPlateauCooltrainermText:
-	text "At the #mon"
+	text "At the #MON"
 	line "League, you'll get"
 
 	para "tested by the"

@@ -27,14 +27,14 @@ Route9_MapScriptHeader:
 GenericTrainerCamperDean:
 	generictrainer CAMPER, DEAN, EVENT_BEAT_CAMPER_DEAN, CamperDeanSeenText, CamperDeanBeatenText
 
-	text "My #mon were"
+	text "My #MON were"
 	line "hurt before even"
 
 	para "entering Rock"
 	line "Tunnel."
 
 	para "I'd better take"
-	line "them to a #mon"
+	line "them to a #MON"
 	cont "Center right away."
 	done
 
@@ -159,7 +159,7 @@ Route9SignText:
 Route9AdvancedTipsSignText:
 	text "Advanced Tips!"
 
-	para "A #mon holding"
+	para "A #MON holding"
 	line "a Toxic Orb will"
 	cont "be poisoned, and"
 

@@ -114,7 +114,7 @@ EmbeddedTowerSteven1TowerText:
 
 EmbeddedTowerSteven1NotNowText:
 	text "Steven: Your"
-	line "#mon are look-"
+	line "#MON are look-"
 	cont "ing pretty good."
 
 	para "If you can beat"
@@ -126,7 +126,7 @@ EmbeddedTowerSteven1NotNowText:
 
 EmbeddedTowerSteven1ChallengeText:
 	text "Steven: Your"
-	line "#mon are look-"
+	line "#MON are look-"
 	cont "ing pretty good."
 
 	para "Since we're both"
@@ -155,7 +155,7 @@ EmbeddedTowerSteven2YesText:
 EmbeddedTowerSteven1WinText:
 EmbeddedTowerSteven2WinText:
 	text "You are a truly"
-	line "noble #mon"
+	line "noble #MON"
 	cont "trainer!"
 	done
 
@@ -165,9 +165,9 @@ EmbeddedTowerSteven1ItemText:
 
 	para "The feelings you"
 	line "have for your"
-	cont "#mon…"
+	cont "#MON…"
 
-	para "And the #mon"
+	para "And the #MON"
 	line "that responded to"
 
 	para "those feelings"
@@ -225,5 +225,5 @@ EmbeddedTowerSteven2AfterText:
 	line "that I battle you,"
 
 	para "I learn more about"
-	line "#mon!"
+	line "#MON!"
 	done

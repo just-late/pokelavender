@@ -62,7 +62,7 @@ Text_WarmBeachShackBodySlamTutorBodySlamQuestion:
 	text "How about I teach"
 	line "Body Slam to a"
 
-	para "#mon of yours"
+	para "#MON of yours"
 	line "for a Silver Leaf?"
 	done
 
@@ -118,7 +118,7 @@ Text_WarmBeachShackEndureTutorEndureQuestion:
 	text "How about I teach"
 	line "Endure to one of"
 
-	para "your #mon for"
+	para "your #MON for"
 	line "a Silver Leaf?"
 	done
 

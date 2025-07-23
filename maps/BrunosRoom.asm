@@ -132,7 +132,7 @@ BrunoScript:
 	para "It would disturb"
 	line "me for you to"
 	cont "underestimate my"
-	cont "fighting #mon."
+	cont "fighting #MON."
 
 	para "Get ready!"
 	done

@@ -119,9 +119,9 @@ BattleFactory1FRulesScript:
 	iffalse_endtext
 	jumpthisopenedtext
 		text "You are given six"
-		line "rental #mon."
+		line "rental #MON."
 
-		para "Three #mon may"
+		para "Three #MON may"
 		line "enter battles."
 
 		para "All three must be"
@@ -133,7 +133,7 @@ BattleFactory1FRulesScript:
 
 		para "After winning a"
 		line "battle, you may"
-		cont "trade a #mon"
+		cont "trade a #MON"
 		cont "with the opponent."
 		done
 
@@ -177,9 +177,9 @@ BattleFactory1FReceptionistScript:
 		text "Battle Factory is"
 		line "a facility where"
 		cont "you battle using"
-		cont "rental #mon."
+		cont "rental #MON."
 
-		para "Countless #mon"
+		para "Countless #MON"
 		line "trainers gather"
 
 		para "from all over to"
@@ -281,7 +281,7 @@ PokemonJournalThortonScript:
 	setflag ENGINE_READ_PALMER_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Factory Head"

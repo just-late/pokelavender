@@ -313,7 +313,7 @@ Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
 	done
 
 Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
-	text "Some #mon can"
+	text "Some #MON can"
 	line "only be seen in"
 	cont "the Park."
 	done
@@ -329,7 +329,7 @@ BugCatchingContestant1BStillCompetingText:
 	line "big part in this."
 
 	para "You never know"
-	line "what #mon will"
+	line "what #MON will"
 	cont "appear."
 	done
 
@@ -341,20 +341,20 @@ BugCatchingContestant2BText:
 
 BugCatchingContestant2BStillCompetingText:
 	text "Lou: Maybe you win"
-	line "with big #mon?"
+	line "with big #MON?"
 	done
 
 BugCatchingContestant3BText:
 	text "Nick: Well done!"
 	line "I'm going to raise"
-	cont "my #mon better."
+	cont "my #MON better."
 	done
 
 BugCatchingContestant3BStillCompetingText:
 	text "Nick: Maybe you"
 	line "get a higher score"
 
-	para "for a #mon of"
+	para "for a #MON of"
 	line "an unusual color."
 	done
 
@@ -368,7 +368,7 @@ BugCatchingContestant4BStillCompetingText:
 	text "William: Well, I'm"
 	line "satisfied because"
 
-	para "I caught a #mon"
+	para "I caught a #MON"
 	line "that I wanted."
 	done
 
@@ -395,7 +395,7 @@ BugCatchingContestant6BStillCompetingText:
 	line "to win if you get"
 
 	para "a high-level bug"
-	line "#mon."
+	line "#MON."
 
 	para "But I think they"
 	line "also consider some"
@@ -408,12 +408,12 @@ BugCatchingContestant7BText:
 
 	para "Do you feel like"
 	line "looking for bug"
-	cont "#mon with me?"
+	cont "#MON with me?"
 	done
 
 BugCatchingContestant7BStillCompetingText:
 	text "Cindy: I really"
-	line "love bug #mon!"
+	line "love bug #MON!"
 	done
 
 BugCatchingContestant8BText:

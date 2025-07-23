@@ -57,12 +57,12 @@ VictoryRoadGateLeftBlackBeltText:
 	line "Mt.Silver."
 
 	para "You'll see scary-"
-	line "strong #mon out"
+	line "strong #MON out"
 	cont "there."
 	done
 
 VictoryRoadGateRightBlackBeltText:
-	text "Off to the #mon"
+	text "Off to the #MON"
 	line "League, are you?"
 
 	para "The Elite Four are"

@@ -12,7 +12,7 @@ ChadObservingWildText:
 	line "observations."
 
 	para "I wish I could"
-	line "become a #mon"
+	line "become a #MON"
 
 	para "researcher like"
 	line "Prof.Oak soon."
@@ -75,11 +75,11 @@ ChadBlueGossipText:
 	para "He's Prof.Oak's"
 	line "grandson and a"
 
-	para "former #mon"
+	para "former #MON"
 	line "League Champion!"
 
 	para "He's one super"
-	line "#mon trainer!"
+	line "#MON trainer!"
 	done
 
 ChadDaisyGossipText:
@@ -90,7 +90,7 @@ ChadDaisyGossipText:
 	para "When she's around,"
 	line "even the most"
 
-	para "ferocious #mon"
+	para "ferocious #MON"
 	line "calm right down."
 	done
 
@@ -131,7 +131,7 @@ ChadKurtGossipText:
 	done
 
 ChadLeagueGossipText:
-	text "#mon League is"
+	text "#MON League is"
 	line "the great gather-"
 	cont "ing place for all"
 
@@ -141,7 +141,7 @@ ChadLeagueGossipText:
 	para "Prof.Oak acts as"
 	line "an advisor to the"
 
-	para "#mon League's"
+	para "#MON League's"
 	line "headquarters."
 
 	para "He really is a"
@@ -149,7 +149,7 @@ ChadLeagueGossipText:
 	done
 
 ChadPokemonTalkGossipText:
-	text "Prof.Oak's #mon"
+	text "Prof.Oak's #MON"
 	line "Talk is a popular"
 	cont "radio show, right?"
 
@@ -175,7 +175,7 @@ ChadProfOakTrainerGossipText:
 	para "But rather than"
 	line "battling, he found"
 
-	para "#mon themselves"
+	para "#MON themselves"
 	line "to be interesting."
 
 	para "So he abandoned"
@@ -213,7 +213,7 @@ ChadProfOakTravelingGossipText:
 	para "While traveling,"
 	line "he must've learned"
 
-	para "about #mon"
+	para "about #MON"
 	line "naturally."
 
 	para "I envy him…"

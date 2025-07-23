@@ -55,7 +55,7 @@ GenericTrainerCooltrainermKieran:
 
 .SeenText:
 	text "It's on like"
-	line "#mon!"
+	line "#MON!"
 	done
 
 .BeatenText:

@@ -112,7 +112,7 @@ FlowerShopFloriaScript:
 
 	text "So that jiggly"
 	line "tree really was a"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:

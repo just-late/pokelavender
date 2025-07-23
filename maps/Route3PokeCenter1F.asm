@@ -23,7 +23,7 @@ PokemonJournalKarenScript:
 	setflag ENGINE_READ_KAREN_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Elite Four Karen!"
@@ -31,7 +31,7 @@ PokemonJournalKarenScript:
 	para "Karen supposedly"
 	line "began training"
 
-	para "Dark-type #mon"
+	para "Dark-type #MON"
 	line "to help overcome"
 
 	para "their sinister"
@@ -51,7 +51,7 @@ Route3PokeCenter1FPokefanM1Text:
 
 	para "Turns out it was"
 	line "a rare shiny"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "I could have made"
 	line "a lot more money!"
@@ -72,7 +72,7 @@ Route3PokeCenter1FYoungsterText:
 	text "Many trainers are"
 	line "on the mountain."
 
-	para "Many wild #mon"
+	para "Many wild #MON"
 	line "too."
 
 	para "You never know who"

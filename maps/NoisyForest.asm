@@ -51,7 +51,7 @@ GenericTrainerBug_maniacPierre:
 	done
 
 .SeenText:
-	text "My #mon love"
+	text "My #MON love"
 	line "this forest."
 
 	para "They buzz nonstop"
@@ -233,7 +233,7 @@ NoisyForestPikabluScript:
 	line "it right now."
 
 	para "Come find me by"
-	line "the #mon Center"
+	line "the #MON Center"
 	cont "if you want it."
 	done
 
@@ -348,7 +348,7 @@ KatyScript:
 	line "bring happiness"
 	cont "in just one bite,"
 
-	para "Bug-type #mon"
+	para "Bug-type #MON"
 	line "hiding in foliage…"
 
 	para "Both are small but"
@@ -384,7 +384,7 @@ KatyScript:
 
 .BeatenText:
 	text "My sweet little"
-	line "#mon dropped"
+	line "#MON dropped"
 	cont "like flies!"
 	done
 

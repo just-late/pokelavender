@@ -68,7 +68,7 @@ GenericTrainerAromaLadyHolly:
 	done
 
 WarmBeachCooltrainermText:
-	text "There's a #mon"
+	text "There's a #MON"
 	line "here that talks!"
 
 	para "I would never be-"

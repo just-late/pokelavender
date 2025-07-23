@@ -33,7 +33,7 @@ GenericTrainerCamperClark:
 	cont "go out!"
 
 	para "Look out for wild"
-	line "#mon!"
+	line "#MON!"
 
 	para "Let's go,"
 	line "Campfire!"
@@ -47,7 +47,7 @@ GenericTrainerPicnickerGinger:
 	generictrainer PICNICKER, GINGER, EVENT_BEAT_PICNICKER_GINGER, .SeenText, .BeatenText
 
 	text "You can communi-"
-	line "cate with #mon"
+	line "cate with #MON"
 
 	para "through whistling"
 	line "instead of words!"

@@ -75,7 +75,7 @@ GoldenrodHappinessRaterTeacherScript:
 
 GoldenrodHappinessRaterTeacherText:
 	text "If you treat your"
-	line "#mon nicely,"
+	line "#MON nicely,"
 
 	para "they will love you"
 	line "in return."
@@ -90,16 +90,16 @@ GoldenrodHappinessRaterPokefanMText:
 	text "I keep losing in"
 	line "battles, and my"
 
-	para "#mon end up"
+	para "#MON end up"
 	line "fainting…"
 
 	para "Maybe that's why"
-	line "my #mon don't"
+	line "my #MON don't"
 	cont "like me much…"
 	done
 
 GoldenrodHappinessRaterTwinText:
 	text "When I use an item"
-	line "on my #mon, it"
+	line "on my #MON, it"
 	cont "acts really glad!"
 	done

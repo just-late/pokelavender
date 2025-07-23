@@ -50,7 +50,7 @@ LyraPhoneNextMoveQuestionText:
 	para "Want me to tell"
 	line "you when your"
 
-	para "#mon will learn"
+	para "#MON will learn"
 	line "its next move?"
 	done
 
@@ -167,7 +167,7 @@ LyraPhoneSpecialText_LyrasEgg:
 	para "Isn't that neat?"
 
 	para "I'm raising a full"
-	line "party of #mon,"
+	line "party of #MON,"
 
 	para "so, um, if you'd"
 	line "like to have it…"

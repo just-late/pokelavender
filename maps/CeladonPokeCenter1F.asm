@@ -24,7 +24,7 @@ PokemonJournalErikaScript:
 	setflag ENGINE_READ_ERIKA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Erika!"
@@ -50,7 +50,7 @@ CeladonPokeCenter1FPharmacistText:
 
 CeladonPokeCenter1FCooltrainerfText:
 	text "Erika is a master"
-	line "of grass #mon."
+	line "of grass #MON."
 
 	para "She'll make you"
 	line "pay if you don't"

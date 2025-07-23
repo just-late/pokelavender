@@ -64,7 +64,7 @@ PhotoStudioGreetingText:
 	line "the Photographer."
 
 	para "You have magnifi-"
-	line "cent #mon with"
+	line "cent #MON with"
 	cont "you."
 
 	para "How about a photo"
@@ -74,7 +74,7 @@ PhotoStudioGreetingText:
 PhotoStudioWhichMonText:
 	text "OK! Big smile now!"
 
-	para "Which #mon"
+	para "Which #MON"
 	line "should I photo-"
 	cont "graph?"
 	done

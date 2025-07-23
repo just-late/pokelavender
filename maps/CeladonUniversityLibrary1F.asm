@@ -112,7 +112,7 @@ CeladonUniversityLibrary1FCooltrainermScript:
 
 .Text2:
 	text "If you want your"
-	line "#mon to hang in"
+	line "#MON to hang in"
 	cont "there, give them"
 	cont "that Focus Band."
 	done
@@ -170,7 +170,7 @@ CeladonUniversityLibrary1FBookshelf2Text:
 	line "containing many"
 
 	para "pictures of"
-	line "#mon."
+	line "#MON."
 
 	para "“Todd Snap's Scrap-"
 	line "folio” is written"
@@ -181,7 +181,7 @@ CeladonUniversityLibrary1FBookshelf3Text:
 	text "It's a book about"
 	line "a man who taught"
 
-	para "his #mon to"
+	para "his #MON to"
 	line "play a musical"
 	cont "instrument."
 
@@ -191,7 +191,7 @@ CeladonUniversityLibrary1FBookshelf3Text:
 
 CeladonUniversityLibrary1FBookshelf4Text:
 	text "It's a book about"
-	line "#mon palin-"
+	line "#MON palin-"
 	cont "dromes."
 
 	para "There's an Eevee"
@@ -201,7 +201,7 @@ CeladonUniversityLibrary1FBookshelf4Text:
 
 CeladonUniversityLibrary1FBookshelf5Text:
 	text "This book is about"
-	line "Toy #mon that"
+	line "Toy #MON that"
 
 	para "come to life after"
 	line "being wound up by"
@@ -213,7 +213,7 @@ CeladonUniversityLibrary1FBookshelf5Text:
 
 CeladonUniversityLibrary1FBookshelf6Text:
 	text "It's a book about"
-	line "a #mon puppet"
+	line "a #MON puppet"
 	cont "that can't tell"
 	cont "lies."
 
@@ -229,7 +229,7 @@ CeladonUniversityLibrary1FBookshelf7Text:
 	para "This is a video"
 	line "game!"
 
-	para "A #mon pinball"
+	para "A #MON pinball"
 	line "machine is shown"
 
 	para "proudly on the"
@@ -253,13 +253,13 @@ CeladonUniversityLibrary1FBookshelf9Text:
 	text "It's a manual"
 	line "explaining the"
 
-	para "#mon Trading"
+	para "#MON Trading"
 	line "Card game."
 	done
 
 CeladonUniversityLibrary1FBookshelf10Text:
 	text "It's a cookbook"
-	line "full of #mon-"
+	line "full of #MON-"
 	cont "themed recipes!"
 
 	para "Jigglypuff Jello,"
@@ -272,7 +272,7 @@ CeladonUniversityLibrary1FBookshelf11Text:
 	text "It's a guide to"
 	line "Poffin blending."
 
-	para "A famous #mon"
+	para "A famous #MON"
 	line "breeder is on the"
 	cont "cover."
 	done

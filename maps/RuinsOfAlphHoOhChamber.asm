@@ -112,7 +112,7 @@ MapRuinsofAlphHoOhChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "A #mon that"
+	text "A #MON that"
 	line "flew gracefully on"
 
 	para "rainbow-colored"

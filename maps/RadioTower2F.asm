@@ -40,7 +40,7 @@ RadioTower2FTeacherScript:
 
 	text "Lullabies on the"
 	line "radio may make"
-	cont "#mon sleep."
+	cont "#MON sleep."
 	done
 
 GenericTrainerGruntM4:
@@ -349,7 +349,7 @@ GruntM4BeatenText:
 GruntM5SeenText:
 	text "We're Team Rocket,"
 	line "the exploiters of"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "We love being"
 	line "evil! Scared?"
@@ -608,7 +608,7 @@ RadioTower2FSalesSignText:
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "Prof.Oak's #mon"
+	text "Prof.Oak's #MON"
 	line "Talk"
 
 	para "The Hottest Show"
@@ -617,5 +617,5 @@ RadioTower2FOaksPKMNTalkSignText:
 
 RadioTower2FPokemonRadioSignText:
 	text "Anywhere, Anytime"
-	line "#mon Radio"
+	line "#MON Radio"
 	done

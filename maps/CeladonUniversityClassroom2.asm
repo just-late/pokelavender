@@ -120,7 +120,7 @@ CeladonUniversityClassroom2BlackboardText:
 
 	para "Three years ago:"
 	line "first virtual"
-	cont "#mon created."
+	cont "#MON created."
 
 	para "“Hypothesis: tech-"
 	line "nology grows expo-"

@@ -55,7 +55,7 @@ TrainerHouse1FCooltrainerMText:
 	line "through on their"
 
 	para "way up to the"
-	line "#mon League."
+	line "#MON League."
 	done
 
 TrainerHouse1FCooltrainerFText:
@@ -89,7 +89,7 @@ TrainerHouse1FYoungsterText:
 
 TrainerHouse1FGentlemanText:
 	text "Whew… I'm taking a"
-	line "rest from #mon"
+	line "rest from #MON"
 	cont "battles."
 	done
 

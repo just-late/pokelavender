@@ -80,7 +80,7 @@ CeladonMansionManagerScript:
 	line "like hot mint tea."
 
 	para "It can change a"
-	line "#mon's very"
+	line "#MON's very"
 	cont "nature!"
 	done
 
@@ -97,7 +97,7 @@ CeladonMansionManagerScript:
 	line "dearie."
 
 	para "I'm having tea with"
-	line "my dear #mon."
+	line "my dear #MON."
 
 	para "If you had a"
 	line "Mint Leaf,"
@@ -105,7 +105,7 @@ CeladonMansionManagerScript:
 	para "I'd invite you"
 	line "to join me."
 
-	para "#mon love mint"
+	para "#MON love mint"
 	line "in their tea."
 
 	para "It has a lasting"
@@ -124,7 +124,7 @@ CeladonMansionManagerScript:
 	line "me to steep it"
 
 	para "in some tea for"
-	line "your #mon?"
+	line "your #MON?"
 	done
 
 .RefusedText:
@@ -135,7 +135,7 @@ CeladonMansionManagerScript:
 
 .AcceptedText:
 	text "Which one of your"
-	line "#mon wants tea?"
+	line "#MON wants tea?"
 	done
 
 .LikedFlavorText:

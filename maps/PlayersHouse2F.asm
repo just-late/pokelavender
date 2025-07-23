@@ -88,12 +88,12 @@ PokemonJournalProfElmScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON JOURNAL"
 
 	para "Special Feature:"
-	line "#mon Prof.Elm!"
+	line "#MON PROF.ELM!"
 
-	para "Prof.Elm was the"
+	para "PROF.ELM was the"
 	line "top student of"
 	cont "Prof.Oak."
 
@@ -116,13 +116,13 @@ PlayersHousePC:
 	end
 
 PlayerRadioText1:
-	text "Prof.Oak's #mon"
+	text "Prof.Oak's #MON"
 	line "Talk! Please tune"
 	cont "in next time!"
 	done
 
 PlayerRadioText2:
-	text "#mon Channel!"
+	text "#MON Channel!"
 	done
 
 PlayerRadioText3:
@@ -131,11 +131,11 @@ PlayerRadioText3:
 	done
 
 PlayerRadioText4:
-	text "#mon!"
-	line "#mon Channel…"
+	text "#MON!"
+	line "#MON Channel…"
 	done
 
 GoodTeamText:
 	text "Giving a good"
-	line "#mon Team."
+	line "#MON Team."
 	done

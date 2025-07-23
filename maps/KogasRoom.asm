@@ -99,7 +99,7 @@ KogaScript:
 
 	para "Fwahahahaha!"
 
-	para "#mon is not"
+	para "#MON is not"
 	line "merely about brute"
 
 	para "force--you shall"

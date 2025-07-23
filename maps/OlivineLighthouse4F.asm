@@ -33,7 +33,7 @@ GenericTrainerLassConnie:
 	line "mon were hurt."
 
 	para "I'll pray for the"
-	line "#mon here, so"
+	line "#MON here, so"
 
 	para "Jasmine can come"
 	line "back to the Gym."
@@ -51,7 +51,7 @@ SailorKentScript:
 SailorKentSeenText:
 	text "Jasmine must be"
 	line "worried sick about"
-	cont "the #mon here."
+	cont "the #MON here."
 
 	para "She won't even"
 	line "smile these days."
@@ -71,7 +71,7 @@ SailorKentAfterBattleText:
 	done
 
 SailorKentFinalText:
-	text "The #mon here"
+	text "The #MON here"
 	line "is well again."
 
 	para "Cianwood Pharmacy"
@@ -91,6 +91,6 @@ LassConnieSeenText:
 	done
 
 LassConnieBeatenText:
-	text "Aaack! My #mon!"
+	text "Aaack! My #MON!"
 	done
 

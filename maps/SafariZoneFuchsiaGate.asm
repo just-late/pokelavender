@@ -30,5 +30,5 @@ SafariZoneFuchsiaGateOfficerText:
 
 	para "Balls if you want"
 	line "to catch any"
-	cont "#mon."
+	cont "#MON."
 	done

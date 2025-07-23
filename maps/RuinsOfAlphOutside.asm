@@ -217,12 +217,12 @@ RuinsOfAlphOutsideScientistText:
 	cont "May I see it?"
 
 	para "There are so many"
-	line "kinds of #mon."
+	line "kinds of #MON."
 
 	para "Hm? What's this?"
 
 	para "What is this"
-	line "#mon?"
+	line "#MON?"
 
 	para "It looks like the"
 	line "strange writing on"
@@ -290,7 +290,7 @@ RuinsOfAlphAdvancedTipsSignText:
 	para "Its Area map shows"
 	line "a yellow icon if a"
 
-	para "#mon can be"
+	para "#MON can be"
 	line "found right where"
 	cont "you are!"
 	done

@@ -52,7 +52,7 @@ RadioTower4FDJMaryScript:
 	jumpthisopenedtext
 
 	text "Mary: It's just"
-	line "right for #mon"
+	line "right for #MON"
 
 	para "that know Fairy-"
 	line "type moves."
@@ -84,7 +84,7 @@ GenericTrainerGruntF4:
 	line "beautiful self!"
 
 	para "Who cares about"
-	line "#mon?"
+	line "#MON?"
 	done
 
 GenericTrainerRocketScientistRich:
@@ -116,7 +116,7 @@ RadioTower4FDJMaryText_After:
 	text "Mary: Please tune"
 	line "into me on Prof."
 
-	para "Oak's #mon Talk"
+	para "Oak's #MON Talk"
 	line "show."
 	done
 
@@ -153,10 +153,10 @@ Proton1BeatenText:
 
 GruntF4SeenText:
 	text "Don't I think"
-	line "#mon are cute?"
+	line "#MON are cute?"
 
 	para "I'll think my"
-	line "#mon are cute--"
+	line "#MON are cute--"
 
 	para "after they beat"
 	line "yours!"

@@ -42,7 +42,7 @@ GenericTrainerTwinsToriandtil1:
 	text "Til: I can tell"
 	line "what my sister and"
 
-	para "my #mon are"
+	para "my #MON are"
 	line "thinking."
 	done
 
@@ -51,13 +51,13 @@ GenericTrainerTwinsToriandtil2:
 
 	text "Tori: We share the"
 	line "same feelings as"
-	cont "our #mon."
+	cont "our #MON."
 	done
 
 GenericTrainerPsychicGreg:
 	generictrainer PSYCHIC_T, GREG, EVENT_BEAT_PSYCHIC_GREG, PsychicGregSeenText, PsychicGregBeatenText
 
-	text "Putting #mon to"
+	text "Putting #MON to"
 	line "sleep or paralyz-"
 	cont "ing them are good"
 	cont "battle techniques."
@@ -128,7 +128,7 @@ TwinsToriandtil2SeenText:
 	done
 
 PsychicGregSeenText:
-	text "#mon can't do a"
+	text "#MON can't do a"
 	line "thing if they are"
 	cont "asleep."
 
@@ -167,7 +167,7 @@ SunnyGaveGiftText:
 	para "Oh! I remember"
 	line "now!"
 
-	para "A #mon that"
+	para "A #MON that"
 	line "knows Electric"
 
 	para "moves should hold"

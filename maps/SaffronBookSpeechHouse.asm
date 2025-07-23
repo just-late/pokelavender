@@ -33,7 +33,7 @@ SaffronBookSpeechHouseBookText:
 	line "story books."
 
 	para "The Princess and"
-	line "the #mon,"
+	line "the #MON,"
 
 	para "Edward Scizor-"
 	line "hands, Dr.Jekyll"

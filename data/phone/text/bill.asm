@@ -78,7 +78,7 @@ BillPhoneNewlyFullText:
 	para "Thanks for using"
 	line "my Storage System."
 
-	para "That last #mon"
+	para "That last #MON"
 	line "overtaxed my"
 	cont "systems!"
 	prompt
@@ -88,7 +88,7 @@ BillWholePCFullText:
 	line "a whole server."
 
 	para "You'll have to"
-	line "release #mon"
+	line "release #MON"
 	cont "to make space."
 	done
 
@@ -143,7 +143,7 @@ BillPhoneSecondBadgeText:
 	line "Wonder Trading."
 
 	para "You might get a"
-	line "weird #mon"
+	line "weird #MON"
 	cont "in exchange."
 
 	para "That's all."

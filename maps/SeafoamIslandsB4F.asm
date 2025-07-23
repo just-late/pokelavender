@@ -169,7 +169,7 @@ SeafoamIslandsB4FLawrenceSpeechText:
 
 	para "I'll show you that"
 	line "I deserve to own"
-	cont "those #mon."
+	cont "those #MON."
 	done
 
 SeafoamIslandsB4FLawrenceEscapeRopeText:

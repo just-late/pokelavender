@@ -33,7 +33,7 @@ Route8_MapScriptHeader:
 GenericTrainerBikerDwayne:
 	generictrainer BIKER, DWAYNE, EVENT_BEAT_BIKER_DWAYNE, BikerDwayneSeenText, BikerDwayneBeatenText
 
-	text "The Kanto #mon"
+	text "The Kanto #MON"
 	line "Federation will"
 	cont "never fall!"
 	done
@@ -110,7 +110,7 @@ GenericTrainerLassMeadow:
 
 Route8BikerDwayneProtestText:
 	text "We're the Kanto"
-	line "#mon Federation"
+	line "#MON Federation"
 	cont "trainer group."
 
 	para "We're holding a"
@@ -119,7 +119,7 @@ Route8BikerDwayneProtestText:
 
 Route8BikerZekeProtestText:
 	text "We're the Kanto"
-	line "#mon Federa-"
+	line "#MON Federa-"
 	cont "tion!"
 
 	para "The cops can't"
@@ -131,7 +131,7 @@ Route8BikerZekeProtestText:
 
 BikerDwayneSeenText:
 	text "We're the Kanto"
-	line "#mon Federation"
+	line "#MON Federation"
 	cont "trainer group."
 
 	para "We'll drive you"
@@ -157,7 +157,7 @@ BikerHarrisBeatenText:
 
 BikerZekeSeenText:
 	text "We're the Kanto"
-	line "#mon Federa-"
+	line "#MON Federa-"
 	cont "tion!"
 	cont "Right on!"
 	done

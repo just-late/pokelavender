@@ -23,7 +23,7 @@ PokemonJournalLtSurgeScript:
 	setflag ENGINE_READ_LT_SURGE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Lt.Surge!"
@@ -37,7 +37,7 @@ PokemonJournalLtSurgeScript:
 	para "He used the elec-"
 	line "tricity generated"
 
-	para "by #mon to pow-"
+	para "by #MON to pow-"
 	line "er his plane."
 	done
 
@@ -46,7 +46,7 @@ VermilionPokeCenter1FSightseerMScript:
 	iftrue_jumptextfaceplayer .SnorlaxText
 	jumpthistextfaceplayer
 
-	text "A sleeping #mon"
+	text "A sleeping #MON"
 	line "is lying in front"
 	cont "of Diglett's Cave."
 
@@ -59,7 +59,7 @@ VermilionPokeCenter1FSightseerMScript:
 
 .SnorlaxText:
 	text "There used to be a"
-	line "sleeping #mon"
+	line "sleeping #MON"
 
 	para "lying in front of"
 	line "Diglett's Cave."

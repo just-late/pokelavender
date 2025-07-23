@@ -134,7 +134,7 @@ Route32CooltrainerMTrigger:
 
 .IntroText:
 	text "You have some good"
-	line "#mon there."
+	line "#MON there."
 
 	para "It must be from"
 	line "the training you"
@@ -309,7 +309,7 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	para "Be sure to carry"
 	line "it. I'm curious"
 
-	para "what #mon it"
+	para "what #MON it"
 	line "could be!"
 	done
 
@@ -321,7 +321,7 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	line "Elm asked."
 
 	para "I'm so curious"
-	line "what #mon it"
+	line "what #MON it"
 	cont "could be!"
 	done
 
@@ -563,7 +563,7 @@ GenericTrainerFisherHenry:
 	generictrainer FISHER, HENRY, EVENT_BEAT_FISHER_HENRY, FisherHenrySeenText, FisherHenryBeatenText
 
 	text "Freshly caught"
-	line "#mon are no"
+	line "#MON are no"
 
 	para "match for properly"
 	line "raised ones."
@@ -674,7 +674,7 @@ GenericTrainerYoungsterAlbert:
 	cont "with my favorites."
 
 	para "I'm not using the"
-	line "same tough #mon"
+	line "same tough #MON"
 	cont "as everyone else."
 	done
 
@@ -741,16 +741,16 @@ Route32CooltrainerMText_AideIsWaiting:
 	para "See for yourself."
 	line "He's waiting for"
 
-	para "you at the #mon"
+	para "you at the #MON"
 	line "Center."
 	done
 
 Route32CooltrainerMText_VioletGym:
 	text "Have you gone to"
-	line "the #mon Gym?"
+	line "the #MON Gym?"
 
 	para "You can test your"
-	line "#mon and your-"
+	line "#MON and your-"
 	cont "self there."
 
 	para "It's a rite of"
@@ -796,7 +796,7 @@ FisherJustinBeatenText:
 FisherRalph1SeenText:
 	text "I'm really good at"
 	line "both fishing and"
-	cont "#mon."
+	cont "#MON."
 
 	para "I'm not about to"
 	line "lose to any kid!"
@@ -811,7 +811,7 @@ FisherRalphAfterText:
 	text "Fishing is a life-"
 	line "long passion."
 
-	para "#mon are life-"
+	para "#MON are life-"
 	line "long friends!"
 	done
 
@@ -827,7 +827,7 @@ FisherRalphSwarmText:
 	done
 
 FisherHenrySeenText:
-	text "My #mon?"
+	text "My #MON?"
 	line "Freshly caught!"
 	done
 
@@ -849,7 +849,7 @@ YoungsterAlbertBeatenText:
 
 YoungsterGordonSeenText:
 	text "I found some good"
-	line "#mon in the"
+	line "#MON in the"
 	cont "grass!"
 
 	para "I think they'll do"
@@ -940,7 +940,7 @@ FriedaGivesGiftText:
 
 FriedaGaveGiftText:
 	text "Frieda: Give it to"
-	line "a #mon that has"
+	line "a #MON that has"
 	cont "Poison-type moves."
 
 	para "Oh!"

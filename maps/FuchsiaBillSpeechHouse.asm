@@ -23,6 +23,6 @@ BillsBrotherText:
 
 BillsBrothersHouseYoungsterText:
 	text "I saw these weird,"
-	line "slow #mon on"
+	line "slow #MON on"
 	cont "Cycling Road."
 	done

@@ -28,7 +28,7 @@ Route13East_MapScriptHeader:
 GenericTrainerBird_keeperPerry:
 	generictrainer BIRD_KEEPER, PERRY, EVENT_BEAT_BIRD_KEEPER_PERRY, Bird_keeperPerrySeenText, Bird_keeperPerryBeatenText
 
-	text "Your #mon are"
+	text "Your #MON are"
 	line "remarkably well-"
 	cont "trained."
 	done
@@ -36,7 +36,7 @@ GenericTrainerBird_keeperPerry:
 Bird_keeperPerrySeenText:
 	text "Agility is the key"
 	line "attribute of bird"
-	cont "#mon."
+	cont "#MON."
 	done
 
 Bird_keeperPerryBeatenText:
@@ -48,7 +48,7 @@ GenericTrainerBird_keeperBret:
 	generictrainer BIRD_KEEPER, BRET, EVENT_BEAT_BIRD_KEEPER_BRET, Bird_keeperBretSeenText, Bird_keeperBretBeatenText
 
 	text "If you groom them,"
-	line "#mon get happy."
+	line "#MON get happy."
 	done
 
 Bird_keeperBretSeenText:
@@ -92,7 +92,7 @@ GenericTrainerPicnickerPiper:
 
 .SeenText:
 	text "How about we bring"
-	line "out your #mon"
+	line "out your #MON"
 
 	para "and mine for a"
 	line "battle?"
@@ -156,7 +156,7 @@ GenericTrainerPokefanmAlex:
 
 PokefanmAlexSeenText:
 	text "Bow down before my"
-	line "regal #mon!"
+	line "regal #MON!"
 	done
 
 PokefanmAlexBeatenText:
@@ -168,7 +168,7 @@ GenericTrainerPokefanmJoshua:
 	generictrainer POKEFANM, JOSHUA, EVENT_BEAT_POKEFANM_JOSHUA, PokefanmJoshuaSeenText, PokefanmJoshuaBeatenText
 
 	text "You look like you"
-	line "have many #mon,"
+	line "have many #MON,"
 
 	para "but Pikachu is"
 	line "still the best."
@@ -217,11 +217,11 @@ Route13TrainerTips1Text:
 Route13TrainerTips2Text:
 	text "Trainer Tips"
 
-	para "Some #mon need"
+	para "Some #MON need"
 	line "items to evolve."
 
 	para "If you're lucky,"
-	line "a wild #mon can"
+	line "a wild #MON can"
 
 	para "be found holding"
 	line "its own evolution"

@@ -478,17 +478,17 @@ Special_BattleTower_NextRentalBattle:
 
 .NewRentalsText:
 	text "We'll hold your"
-	line "#mon safe and"
+	line "#MON safe and"
 	cont "offer you 6 rental"
-	cont "#mon."
+	cont "#MON."
 
-	para "Choose #mon"
+	para "Choose #MON"
 	line "to enter."
 	prompt
 
 .TradeBeforeBattle:
 	text "Would you like to"
-	line "trade a #mon"
+	line "trade a #MON"
 	cont "before the battle?"
 	done
 
@@ -527,7 +527,7 @@ Special_BattleTower_NextRentalBattle:
 
 .SomeMonUsingMove:
 	text "You can expect to"
-	line "see a #mon"
+	line "see a #MON"
 	cont "with "
 	text_ram wStringBuffer1
 	text "."
@@ -544,7 +544,7 @@ Special_BattleTower_NextRentalBattle:
 	line "favors "
 	text_ram wStringBuffer1
 	text "-"
-	cont "type #mon."
+	cont "type #MON."
 	prompt
 
 Special_BattleTower_SelectParticipants:

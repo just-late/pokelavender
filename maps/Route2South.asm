@@ -26,13 +26,13 @@ GenericTrainerBug_maniacRob:
 
 	text "I'm going to look"
 	line "for stronger bug"
-	cont "#mon."
+	cont "#MON."
 	done
 
 GenericTrainerBug_maniacDoug:
 	generictrainer BUG_MANIAC, DOUG, EVENT_BEAT_BUG_MANIAC_DOUG, Bug_maniacDougSeenText, Bug_maniacDougBeatenText
 
-	text "Bug #mon squish"
+	text "Bug #MON squish"
 	line "like plush toys"
 
 	para "when you squeeze"
@@ -43,7 +43,7 @@ GenericTrainerBug_maniacDoug:
 	done
 
 Bug_maniacRobSeenText:
-	text "My bug #mon are"
+	text "My bug #MON are"
 	line "tough. Prepare to"
 	cont "lose!"
 	done
@@ -54,7 +54,7 @@ Bug_maniacRobBeatenText:
 
 Bug_maniacDougSeenText:
 	text "Why don't girls"
-	line "like bug #mon?"
+	line "like bug #MON?"
 	done
 
 Bug_maniacDougBeatenText:

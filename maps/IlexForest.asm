@@ -403,7 +403,7 @@ IlexForestTutorHeadbuttScript:
 GenericTrainerBug_catcherWayne:
 	generictrainer BUG_CATCHER, WAYNE, EVENT_BEAT_BUG_CATCHER_WAYNE, Bug_catcherWayneSeenText, Bug_catcherWayneBeatenText
 
-	text "A #mon I've"
+	text "A #MON I've"
 	line "never seen before"
 
 	para "fell out of the"
@@ -837,7 +837,7 @@ IlexForestApprenticeAfterText:
 	text "Wow! Thanks a"
 	line "whole bunch!"
 
-	para "My boss's #mon"
+	para "My boss's #MON"
 	line "won't obey me be-"
 	cont "cause I don't have"
 	cont "a Badge."
@@ -845,7 +845,7 @@ IlexForestApprenticeAfterText:
 
 Text_ItsTheMissingPokemon:
 	text "It's the missing"
-	line "#mon!"
+	line "#MON!"
 	done
 
 Text_Kwaaaa:
@@ -875,7 +875,7 @@ Text_CharcoalMasterIntro:
 
 Text_CharcoalMasterOutro:
 	text "That's the Cut HM."
-	line "Any #mon you"
+	line "Any #MON you"
 
 	para "have that's compat-"
 	line "ible with it can"
@@ -912,7 +912,7 @@ Text_HeadbuttIntro:
 	line "using Headbutt."
 
 	para "Sometimes I flush"
-	line "out a #mon,"
+	line "out a #MON,"
 
 	para "sometimes just"
 	line "their feathers."
@@ -921,7 +921,7 @@ Text_HeadbuttIntro:
 	line "are useful!"
 
 	para "They seem to make"
-	line "my own #mon"
+	line "my own #MON"
 	cont "a little stronger."
 
 	para "It's fun. Here,"
@@ -934,7 +934,7 @@ Text_HeadbuttIntro:
 
 Text_HeadbuttIntro2:
 	text "Oh, and if none"
-	line "of your #mon"
+	line "of your #MON"
 	cont "know Headbutt?"
 
 	para "No problem!"
@@ -942,7 +942,7 @@ Text_HeadbuttIntro2:
 
 Text_IlexForestTutorHeadbutt:
 	text "I can teach your"
-	line "#mon to use"
+	line "#MON to use"
 
 	para "Headbutt in ex-"
 	line "change for a"
@@ -963,7 +963,7 @@ Text_IlexForestTutorNoSilverLeaf:
 
 Text_IlexForestTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Headbutt?"
 	done
 
@@ -975,7 +975,7 @@ Text_IlexForestTutorTaught:
 	text "Rattle trees with"
 	line "Headbutt. Some-"
 	cont "times, sleeping"
-	cont "#mon fall out."
+	cont "#MON fall out."
 	done
 
 Text_IlexForestLass:
@@ -1139,12 +1139,12 @@ Bug_catcherWayneSeenText:
 	line "me like that!"
 
 	para "You frightened a"
-	line "#mon away!"
+	line "#MON away!"
 	done
 
 Bug_catcherWayneBeatenText:
 	text "I hadn't seen that"
-	line "#mon before…"
+	line "#MON before…"
 	done
 
 IlexForestHoneyBoyText:
@@ -1161,7 +1161,7 @@ endc
 	line "mon collects it."
 
 	para "It helps attract"
-	line "#mon at the"
+	line "#MON at the"
 
 	para "same level as my"
 	line "own, so they're"

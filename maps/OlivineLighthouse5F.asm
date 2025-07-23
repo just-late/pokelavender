@@ -27,7 +27,7 @@ OlivineLighthouse5F_MapScriptHeader:
 GenericTrainerBird_keeperDenis:
 	generictrainer BIRD_KEEPER, DENIS, EVENT_BEAT_BIRD_KEEPER_DENIS, Bird_keeperDenisSeenText, Bird_keeperDenisBeatenText
 
-	text "My #mon learned"
+	text "My #MON learned"
 	line "how to use Fly in"
 	cont "the Yellow Forest."
 
@@ -64,7 +64,7 @@ Bird_keeperDenisSeenText:
 	text "We're pretty high"
 	line "up here. My bird"
 
-	para "#mon are in"
+	para "#MON are in"
 	line "prime form."
 	done
 

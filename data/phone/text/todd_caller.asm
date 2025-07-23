@@ -30,7 +30,7 @@ ToddLostAMonText:
 	line "a tiny margin."
 
 	para "I'm guessing my"
-	line "#mon's levels"
+	line "#MON's levels"
 
 	para "aren't high enough"
 	line "yet…"

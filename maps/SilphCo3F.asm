@@ -87,7 +87,7 @@ SilphCo3FScientist2Text:
 	para "as the PC Storage"
 	line "System."
 
-	para "#mon are con-"
+	para "#MON are con-"
 	line "verted into"
 	cont "digital data and"
 

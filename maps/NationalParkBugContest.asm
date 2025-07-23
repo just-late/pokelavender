@@ -79,13 +79,13 @@ BugCatchingContestant1AText:
 
 BugCatchingContestant2AText:
 	text "Lou: My Parasect"
-	line "puts #mon to"
+	line "puts #MON to"
 	cont "sleep with Spore."
 	done
 
 BugCatchingContestant3AText:
 	text "Nick: I'm raising"
-	line "fast #mon for"
+	line "fast #MON for"
 	cont "battles."
 	done
 
@@ -95,7 +95,7 @@ BugCatchingContestant4AText:
 	cont "winning."
 
 	para "I'm just looking"
-	line "for rare #mon."
+	line "for rare #MON."
 	done
 
 BugCatchingContestant5AText:
@@ -108,7 +108,7 @@ BugCatchingContestant5AText:
 
 BugCatchingContestant6AText:
 	text "Barry: You should"
-	line "weaken Bug #mon"
+	line "weaken Bug #MON"
 
 	para "first, then throw"
 	line "a Ball."
@@ -116,7 +116,7 @@ BugCatchingContestant6AText:
 
 BugCatchingContestant7AText:
 	text "Cindy: I love Bug"
-	line "#mon."
+	line "#MON."
 
 	para "I guess you must"
 	line "like them too."
@@ -126,7 +126,7 @@ BugCatchingContestant8AText:
 	text "Josh: I've been"
 	line "collecting Bug"
 
-	para "#mon since I"
+	para "#MON since I"
 	line "was just a baby."
 
 	para "There's no way I'm"
@@ -138,12 +138,12 @@ BugCatchingContestant9AText:
 	line "got the time to"
 
 	para "chat, go find some"
-	line "Bug #mon."
+	line "Bug #MON."
 	done
 
 BugCatchingContestant10AText:
 	text "Kipp: I've studied"
-	line "about Bug #mon"
+	line "about Bug #MON"
 	cont "a lot."
 
 	para "I'm going to win"

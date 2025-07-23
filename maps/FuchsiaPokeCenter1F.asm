@@ -26,7 +26,7 @@ PokemonJournalJanineScript:
 	setflag ENGINE_READ_JANINE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Janine!"
@@ -34,7 +34,7 @@ PokemonJournalJanineScript:
 	para "Janine was said to"
 	line "be a fan of the"
 
-	para "#mon zoo in"
+	para "#MON zoo in"
 	line "Fuchsia City"
 	cont "as a child."
 	done

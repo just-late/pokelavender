@@ -74,7 +74,7 @@ InitialOptionDescriptions:
 
 .InitialOptionDesc_ColorVariation:
 	text "Both normal and"
-	line "shiny #mon"
+	line "shiny #MON"
 
 	para "have their colors"
 	line "subtly varied"
@@ -98,12 +98,12 @@ InitialOptionDescriptions:
 	line "lated as if IVs"
 
 	para "were perfect 15s,"
-	line "for your #mon"
+	line "for your #MON"
 	cont "and opponents'."
 	prompt
 
 .InitialOptionDesc_TradedMon:
-	text "Traded #mon"
+	text "Traded #MON"
 	line "will obey you and"
 	cont "can be nicknamed,"
 
@@ -121,6 +121,6 @@ InitialOptionDescriptions:
 	para "tured (as well"
 	line "as any shinies)."
 
-	para "#mon cannot"
+	para "#MON cannot"
 	line "be revived."
 	prompt

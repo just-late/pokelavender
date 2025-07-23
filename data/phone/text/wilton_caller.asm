@@ -18,7 +18,7 @@ WiltonDefeatedMonText:
 	line "more fun fishing"
 
 	para "than beating wild"
-	line "#mon."
+	line "#MON."
 	done
 
 WiltonLostAMonText:

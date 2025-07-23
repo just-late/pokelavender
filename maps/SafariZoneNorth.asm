@@ -45,7 +45,7 @@ GenericTrainerBattleGirlPadma:
 GenericTrainerYoungsterTyler:
 	generictrainer YOUNGSTER, TYLER, EVENT_BEAT_YOUNGSTER_TYLER, YoungsterTylerSeenText, YoungsterTylerBeatenText
 
-	text "#mon leap out"
+	text "#MON leap out"
 	line "when you least"
 	cont "expect it."
 	done
@@ -95,7 +95,7 @@ SafariZoneNorthTutorDoubleEdgeScript:
 
 BattleGirlPadmaSeenText:
 	text "I spar with my"
-	line "#mon to improve"
+	line "#MON to improve"
 	cont "as a team!"
 	done
 
@@ -145,7 +145,7 @@ SafariZoneNorthCooltrainerFText:
 
 Text_SafariZoneNorthTutorDoubleEdge:
 	text "I'll teach your"
-	line "#mon how to"
+	line "#MON how to"
 
 	para "use Double-Edge"
 	line "for a Silver Leaf."
@@ -158,7 +158,7 @@ Text_SafariZoneNorthTutorNoSilverLeaf:
 
 Text_SafariZoneNorthTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Double-Edge?"
 	done
 
@@ -168,7 +168,7 @@ Text_SafariZoneNorthTutorRefused:
 
 Text_SafariZoneNorthTutorTaught:
 	text "There!"
-	line "Now your #mon"
+	line "Now your #MON"
 
 	para "knows how to use"
 	cont "Double-Edge!"
@@ -195,7 +195,7 @@ SafariZoneNorthTrainerTips1SignText:
 SafariZoneNorthTrainerTips2SignText:
 	text "Trainer Tips"
 
-	para "#mon hide in"
+	para "#MON hide in"
 	line "tall grass!"
 
 	para "Zigzag through"

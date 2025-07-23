@@ -46,7 +46,7 @@ LyraPhoneScript:
 	end
 
 .CeladonUniversity: db "Celadon U@"
-.PokemonLeague:     db "#mon League@"
+.PokemonLeague:     db "#MON League@"
 
 LyraPhone_GetFirstMonNextMoveLevel:
 	; wStringBuffer3 = species name

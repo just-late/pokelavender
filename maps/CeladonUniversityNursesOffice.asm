@@ -42,7 +42,7 @@ CeladonUniversityNursesOfficeNurseText:
 	done
 
 CeladonUniversityNursesOfficeSignText:
-	text "A healthy #mon"
+	text "A healthy #MON"
 	line "is a happy #-"
 	cont "mon!"
 

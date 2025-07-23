@@ -92,7 +92,7 @@ GenericTrainerBlackbeltTakeo:
 .SeenText:
 	text "I'm training here"
 	line "alone with my"
-	cont "#mon."
+	cont "#MON."
 
 	para "Leave at once!"
 	done

@@ -102,7 +102,7 @@ OlivineCafeSailorText:
 	done
 
 BakerChelsieGreetingText:
-	text "My #mon are on"
+	text "My #MON are on"
 	line "the rise!"
 
 	para "I raised them with"
@@ -126,7 +126,7 @@ BakerChelsieBeatenText:
 
 BakerChelsieNoBattleText:
 	text "My bread-raised"
-	line "#mon are un-"
+	line "#MON are un-"
 	cont "beatable!"
 	done
 

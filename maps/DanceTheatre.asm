@@ -70,7 +70,7 @@ GenericTrainerKimono_girlMiki:
 	para "people who enjoy"
 	line "what I do."
 
-	para "My #mon keep my"
+	para "My #MON keep my"
 	line "spirits up too."
 	done
 
@@ -100,7 +100,7 @@ DanceTheaterSurfGuy:
 	text "That's Surf."
 
 	para "It's a move that"
-	line "lets #mon swim"
+	line "lets #MON swim"
 	cont "across water."
 	done
 
@@ -119,7 +119,7 @@ MapDanceTheatreSignpost1Script:
 
 Kimono_girlNaokoSeenText:
 	text "You have lovely"
-	line "#mon. May I see"
+	line "#MON. May I see"
 	cont "them in battle?"
 	done
 
@@ -130,7 +130,7 @@ Kimono_girlNaokoBeatenText:
 
 Kimono_girlSayoSeenText:
 	text "I always dance"
-	line "with my #mon."
+	line "with my #MON."
 
 	para "Of course, I also"
 	line "train them."
@@ -145,13 +145,13 @@ Kimono_girlZukiSeenText:
 	text "Isn't my barrette"
 	line "pretty?"
 
-	para "Oh. A #mon"
+	para "Oh. A #MON"
 	line "battle?"
 	done
 
 Kimono_girlZukiBeatenText:
 	text "I don't have any"
-	line "#mon left…"
+	line "#MON left…"
 	done
 
 Kimono_girlKuniSeenText:
@@ -168,12 +168,12 @@ Kimono_girlKuniBeatenText:
 Kimono_girlMikiSeenText:
 	text "Do you like my"
 	line "dancing? I'm good"
-	cont "at #mon too."
+	cont "at #MON too."
 	done
 
 Kimono_girlMikiBeatenText:
 	text "Ooh, you're good"
-	line "at #mon too."
+	line "at #MON too."
 	done
 
 SurfGuyNeverLeftAScratchText:
@@ -182,7 +182,7 @@ SurfGuyNeverLeftAScratchText:
 
 	para "dancers, they're"
 	line "also skilled at"
-	cont "#mon."
+	cont "#MON."
 
 	para "I always challenge"
 	line "them, but I've"
@@ -205,7 +205,7 @@ SurfGuyLikeADanceText:
 	done
 
 SurfGuyElegantKimonoGirlsText:
-	text "I wish my #mon"
+	text "I wish my #MON"
 	line "were as elegant as"
 	cont "the Kimono Girls."
 	done
@@ -220,13 +220,13 @@ DanceTheatreCooltrainerMText:
 	line "with his Rhydon."
 
 	para "Says he wants a"
-	line "#mon that can"
+	line "#MON that can"
 	cont "Surf and dance."
 
 	para "Is he trying to"
 	line "make a synchro-"
 	cont "nized swimming"
-	cont "#mon?"
+	cont "#MON?"
 	done
 
 DanceTheatreGrannyText:
@@ -255,7 +255,7 @@ DanceTheatreLadyText:
 
 	para "but none of the"
 	line "Kimono Girls use"
-	cont "those #mon."
+	cont "those #MON."
 
 	para "I wonder why?"
 	done

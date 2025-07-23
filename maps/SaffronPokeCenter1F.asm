@@ -23,7 +23,7 @@ PokemonJournalSabrinaScript:
 	setflag ENGINE_READ_SABRINA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Sabrina!"
@@ -32,7 +32,7 @@ PokemonJournalSabrinaScript:
 	line "Sabrina can com-"
 	cont "municate with her"
 
-	para "#mon during"
+	para "#MON during"
 	line "battle without"
 	cont "speaking."
 	done
@@ -68,7 +68,7 @@ SaffronPokeCenter1FFisherScript:
 
 SaffronPokeCenter1FTeacherText:
 	text "What are Johto's"
-	line "#mon Centers"
+	line "#MON Centers"
 	cont "like?"
 
 	para "…Oh, I see. So"

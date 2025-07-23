@@ -271,7 +271,7 @@ IntroduceFelicityText:
 ExplainLuckyNumberShowText:
 	text "Want me to check"
 	line "the ID numbers of"
-	cont "your #mon?"
+	cont "your #MON?"
 
 	para "If you get lucky,"
 	line "you win a prize."
@@ -379,7 +379,7 @@ RadioTower1FRadioCardWomanOfferQuizText:
 RadioTower1FRadioCardWomanQuestion1Text:
 	text "Question 1:"
 
-	para "Is there a #mon"
+	para "Is there a #MON"
 	line "that appears only"
 	cont "in the morning?"
 	done
@@ -458,7 +458,7 @@ RadioTower1FLassText:
 
 RadioTower1FYoungsterText:
 	text "I love Mary, from"
-	line "#mon Talk."
+	line "#MON Talk."
 
 	para "I only know what"
 	line "she sounds like,"
@@ -525,10 +525,10 @@ RadioTower1FDirectoryText:
 RadioTower1FLuckyChannelSignText:
 	text "Lucky Channel!"
 
-	para "Win with #mon"
+	para "Win with #MON"
 	line "ID numbers!"
 
-	para "Trade your #mon"
+	para "Trade your #MON"
 	line "to collect differ-"
 	cont "ent ID numbers!"
 	done

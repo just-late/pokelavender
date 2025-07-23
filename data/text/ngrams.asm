@@ -147,5 +147,5 @@ NgramStrings:
 .with:    rawchar "with@"
 .ould:    rawchar "ould@"
 .attle:   rawchar "attle@"
-.Poke:    rawchar "Poké@"
-.Pokemon: rawchar "Pokémon@"
+.Poke:    rawchar "POKé@"
+.Pokemon: rawchar "POKéMON@"

@@ -56,7 +56,7 @@ LoreleiAfterText:
 	text "Go on ahead. You"
 	line "can challenge the"
 
-	para "#mon League"
+	para "#MON League"
 	line "with one more"
 	cont "Badge."
 
@@ -100,13 +100,13 @@ LoreleiRematchAfterText:
 	line "badges in Kanto,"
 
 	para "catch new species"
-	line "of #mon,"
+	line "of #MON,"
 
 	para "improve yourself"
 	line "and your team."
 
 	para "Becoming a"
-	line "#mon master is"
+	line "#MON master is"
 	cont "a life's work."
 	done
 
@@ -136,7 +136,7 @@ LoreleiIntroText:
 	cont "Kanto."
 
 	para "As an expert on"
-	line "Ice-type #mon,"
+	line "Ice-type #MON,"
 	cont "I had to investi-"
 	cont "gate it."
 
@@ -146,7 +146,7 @@ LoreleiIntroText:
 
 LoreleiAfterIntroText:
 	text "Lorelei: You're"
-	line "taking the #mon"
+	line "taking the #MON"
 
 	para "League challenge."
 	line "I see."
@@ -178,7 +178,7 @@ LoreleiBeatenText:
 LoreleiRewardText:
 	text "You know how to"
 	line "handle Ice-type"
-	cont "#mon."
+	cont "#MON."
 
 	para "Then you can use"
 	line "this item."

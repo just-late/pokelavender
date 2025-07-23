@@ -112,7 +112,7 @@ GenericTrainerSuperNerdJovan:
 	generictrainer SUPER_NERD, JOVAN, EVENT_BEAT_SUPER_NERD_JOVAN, SuperNerdJovanSeenText, SuperNerdJovanBeatenText
 
 	text "I have yet to find"
-	line "stronger #mon."
+	line "stronger #MON."
 
 	para "Where might they"
 	line "be?"
@@ -122,7 +122,7 @@ GenericTrainerBugManiacRobby:
 	generictrainer BUG_MANIAC, ROBBY, EVENT_BEAT_BUG_MANIAC_ROBBY, BugManiacRobbySeenText, BugManiacRobbyBeatenText
 
 	text "I used to only"
-	line "catch bug #mon"
+	line "catch bug #MON"
 	cont "as a hobby,"
 
 	para "but now it's my"
@@ -177,7 +177,7 @@ MountMoonRivalTextBefore:
 
 	para "about what I was"
 	line "lacking with my"
-	cont "#mon…"
+	cont "#MON…"
 
 	para "And we came up"
 	line "with an answer."
@@ -190,7 +190,7 @@ MountMoonRivalTextWin:
 	text "…… …… ……"
 
 	para "I thought I raised"
-	line "my #mon to be"
+	line "my #MON to be"
 
 	para "the best they"
 	line "could be…"
@@ -235,7 +235,7 @@ MountMoonRivalTextLoss:
 	para "I've repaid my"
 	line "debt to you."
 
-	para "With my #mon,"
+	para "With my #MON,"
 	line "I'm going to beat"
 
 	para "the Champion and"
@@ -273,7 +273,7 @@ SuperNerdJovanSeenText:
 	done
 
 SuperNerdJovanBeatenText:
-	text "My #mon"
+	text "My #MON"
 	line "won't do!"
 	done
 

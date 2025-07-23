@@ -80,7 +80,7 @@ Museum2FScientistText:
 
 
 Museum2FLassText:
-	text "#mon revived"
+	text "#MON revived"
 	line "from fossils are"
 
 	para "all part Rock-"
@@ -144,7 +144,7 @@ Museum2FPokefanMMetricText:
 
 Text_Museum2FTutorSeismicToss:
 	text "I can teach your"
-	line "#mon to use"
+	line "#MON to use"
 
 	para "Seismic Toss for"
 	line "one Silver Leaf."
@@ -157,7 +157,7 @@ Text_Museum2FTutorNoSilverLeaf:
 
 Text_Museum2FTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Seismic Toss?"
 	done
 
@@ -166,7 +166,7 @@ Text_Museum2FTutorRefused:
 	done
 
 Text_Museum2FTutorTaught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows how to use"
 	cont "Seismic Toss!"
 	done
@@ -185,7 +185,7 @@ PokemonJournalStevenScript:
 	setflag ENGINE_READ_STEVEN_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Rock Hound Steven!"
@@ -206,7 +206,7 @@ PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
 	setflag ENGINE_READ_CYNTHIA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Researcher"

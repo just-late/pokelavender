@@ -23,7 +23,7 @@ PokemonJournalPryceScript:
 	setflag ENGINE_READ_PRYCE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Special Feature:"
 	line "Leader Pryce!"
@@ -54,7 +54,7 @@ MahoganyPokeCenter1FPokefanmText:
 	done
 
 MahoganyPokeCenter1FYoungsterText:
-	text "I stop my #mon"
+	text "I stop my #MON"
 	line "from evolving too"
 	cont "early."
 
@@ -65,7 +65,7 @@ MahoganyPokeCenter1FYoungsterText:
 	done
 
 MahoganyPokeCenter1FCooltrainerfText:
-	text "#mon do become"
+	text "#MON do become"
 	line "stronger when they"
 
 	para "evolve, but they"

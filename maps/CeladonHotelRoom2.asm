@@ -54,10 +54,10 @@ MrHyperScript:
 	line "Want to know why?"
 
 	para "Because I can help"
-	line "#mon perform"
+	line "#MON perform"
 	cont "Hyper Training!"
 
-	para "It lets a #mon"
+	para "It lets a #MON"
 	line "that has maxed out"
 	cont "its effort become"
 	cont "even stronger!"
@@ -68,7 +68,7 @@ MrHyperScript:
 
 	para "If you want me to"
 	line "train up your"
-	cont "#mon, bring me"
+	cont "#MON, bring me"
 	cont "some Bottle Caps."
 	done
 
@@ -89,7 +89,7 @@ MrHyperScript:
 
 .TextTrainWho:
 	text "Hyper Train which"
-	line "#mon?"
+	line "#MON?"
 	done
 
 .TextGotStronger:
@@ -102,5 +102,5 @@ MrHyperScript:
 
 .TextTrainSomeMore:
 	text "Hyper Train more"
-	line "#mon?"
+	line "#MON?"
 	done

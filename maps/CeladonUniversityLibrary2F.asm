@@ -114,7 +114,7 @@ CeladonUniversityLibrary2FCooltrainerfText:
 
 CeladonUniversityLibrary2FYoungsterText:
 	text "I'm reading about a"
-	line "legendary #mon"
+	line "legendary #MON"
 
 	para "with the power to"
 	line "distort space."
@@ -124,7 +124,7 @@ CeladonUniversityLibrary2FYoungsterText:
 
 CeladonUniversityLibrary2FBookshelf1Text:
 	text "It's a book con-"
-	line "taining #mon"
+	line "taining #MON"
 
 	para "of an ancient"
 	line "alphabet."
@@ -142,7 +142,7 @@ CeladonUniversityLibrary2FBookshelf2Text:
 	line "longer readable,"
 
 	para "but there's a pic-"
-	line "ture of a #mon"
+	line "ture of a #MON"
 
 	para "wearing heavy"
 	line "armor."
@@ -176,7 +176,7 @@ CeladonUniversityLibrary2FBookshelf5Text:
 
 CeladonUniversityLibrary2FBookshelf6Text:
 	text "It's a book about"
-	line "#mon that have"
+	line "#MON that have"
 
 	para "regional diff-"
 	line "erences."
@@ -189,7 +189,7 @@ CeladonUniversityLibrary2FBookshelf6Text:
 
 CeladonUniversityLibrary2FBookshelf7Text:
 	text "It's a book about"
-	line "#mon Contests."
+	line "#MON Contests."
 
 	para "An impressive-"
 	line "looking building"
@@ -200,7 +200,7 @@ CeladonUniversityLibrary2FBookshelf7Text:
 
 CeladonUniversityLibrary2FBookshelf8Text:
 	text "A boy is shown"
-	line "riding a #mon"
+	line "riding a #MON"
 
 	para "on the cover"
 	line "of this book."
@@ -215,7 +215,7 @@ CeladonUniversityLibrary2FBookshelf9Text:
 	line "picting a world"
 
 	para "inhabited entirely"
-	line "by #mon!"
+	line "by #MON!"
 
 	para "“Pikachu's Adven-"
 	line "tures in #Park”"
@@ -227,9 +227,9 @@ CeladonUniversityLibrary2FBookshelf9Text:
 CeladonUniversityLibrary2FBookshelf10Text:
 	text "It's a book about"
 	line "an island of giant"
-	cont "#mon robots."
+	cont "#MON robots."
 
-	para "“#mon Robotics”"
+	para "“#MON Robotics”"
 	line "by Anne Droid…"
 	done
 
@@ -254,7 +254,7 @@ CeladonUniversityLibrary2FBookshelf13Text:
 	line "explaining the"
 
 	para "biology of"
-	line "#mon."
+	line "#MON."
 
 	para "It's enormous!"
 	done
@@ -272,7 +272,7 @@ CeladonUniversityLibrary2FBookshelf14Text:
 CeladonUniversityLibrary2FBookshelf15Text:
 	text "It's a book de-"
 	line "picting a fearsome"
-	cont "#mon."
+	cont "#MON."
 
 	para "“Absofusion and"
 	line "the Tao Trio” is"
@@ -286,7 +286,7 @@ CeladonUniversityLibrary2FBookshelf16Text:
 	line "mopolis: A History"
 
 	para "of Extinct"
-	line "#mon”"
+	line "#MON”"
 
 	para "Sounds"
 	line "interesting!"

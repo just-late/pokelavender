@@ -74,7 +74,7 @@ HiddenPowerGuy:
 
 	para "Let me share my"
 	line "power with your"
-	cont "#mon."
+	cont "#MON."
 
 	para "Take this, child."
 	done
@@ -84,19 +84,19 @@ HiddenPowerGuy:
 	line "is Hidden Power!"
 
 	para "It draws out the"
-	line "power of #mon"
+	line "power of #MON"
 	cont "for attacking."
 
 	para "Remember this: its"
 	line "type depends on"
-	cont "the #mon"
+	cont "the #MON"
 	cont "using it."
 	done
 
 .Text3:
 	text "Shall I divine"
 	line "the Hidden Power"
-	cont "of your #mon?"
+	cont "of your #MON?"
 	done
 
 .Text4:
@@ -104,7 +104,7 @@ HiddenPowerGuy:
 	done
 
 .Text5:
-	text "Which #mon's"
+	text "Which #MON's"
 	line "Hidden Power"
 	cont "should I find?"
 	done

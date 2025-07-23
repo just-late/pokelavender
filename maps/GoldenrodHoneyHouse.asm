@@ -43,18 +43,18 @@ else
 endc
 	line "tall grass."
 
-	para "#mon are"
+	para "#MON are"
 	line "enticed by it."
 
 	para "It tends to draw"
-	line "in #mon at the"
+	line "in #MON at the"
 
 	para "same level as"
 	line "your own!"
 	done
 
 .IntroText:
-	text "My #mon is an"
+	text "My #MON is an"
 	line "expert at collect-"
 if DEF(FAITHFUL)
 	cont "ing Honey."
@@ -120,12 +120,12 @@ if DEF(FAITHFUL)
 	line "buy some Honey"
 
 	para "for attracting"
-	line "#mon?"
+	line "#MON?"
 else
 	line "buy some Sweet"
 
 	para "Honey for attract-"
-	line "ing #mon?"
+	line "ing #MON?"
 endc
 	cont "Just ¥1000 each!"
 	done

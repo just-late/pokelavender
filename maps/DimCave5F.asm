@@ -106,7 +106,7 @@ DimCave5FRileyScript:
 	text "We're pulling out"
 	line "all the stops to"
 
-	para "put your #mon"
+	para "put your #MON"
 	line "down."
 	done
 
@@ -130,7 +130,7 @@ DimCave5FRileyScript:
 	text "Know your enemy."
 
 	para "If you know your"
-	line "opponent's #mon"
+	line "opponent's #MON"
 	cont "and moves, your"
 
 	para "chances of winning"
@@ -165,7 +165,7 @@ GenericTrainerSuper_nerdFoote:
 	text "Save one life or"
 	line "save five?"
 
-	para "As a #mon"
+	para "As a #MON"
 	line "trainer, you may"
 
 	para "have the power to"
@@ -177,7 +177,7 @@ GenericTrainerSuper_nerdFoote:
 	line "for you!"
 
 	para "Would you push one"
-	line "#mon in front"
+	line "#MON in front"
 
 	para "of a mine cart to"
 	line "save five?"

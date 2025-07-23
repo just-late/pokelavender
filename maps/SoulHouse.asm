@@ -50,20 +50,20 @@ MrFujiText:
 	para "Hmm… You appear to"
 	line "be raising your"
 
-	para "#mon in a kind"
+	para "#MON in a kind"
 	line "and loving manner."
 
-	para "#mon lovers"
+	para "#MON lovers"
 	line "come here to pay"
 
 	para "their respects to"
-	line "departed #mon."
+	line "departed #MON."
 
 	para "Please offer con-"
 	line "dolences for the"
 
 	para "souls of the de-"
-	line "parted #mon."
+	line "parted #MON."
 
 	para "I'm sure that will"
 	line "make them happy."
@@ -71,7 +71,7 @@ MrFujiText:
 
 SoulHouseTeacherText:
 	text "There are other"
-	line "graves of #mon"
+	line "graves of #MON"
 	cont "here, I think."
 
 	para "There are many"
@@ -81,12 +81,12 @@ SoulHouseTeacherText:
 
 SoulHouseLassText:
 	text "I came with my mom"
-	line "to visit #mon"
+	line "to visit #MON"
 	cont "graves…"
 	done
 
 SoulHouseGrannyText:
-	text "The #mon that"
+	text "The #MON that"
 	line "lived with me…"
 
 	para "I loved them like"
@@ -107,7 +107,7 @@ AgathaSeenText:
 	para "…………"
 
 	para "Have you come to"
-	line "mourn a #mon?"
+	line "mourn a #MON?"
 
 	para "It might not be"
 	line "here any longer."
@@ -156,7 +156,7 @@ AgathaRewardText:
 	line "with a deep"
 
 	para "connection to"
-	line "your #mon."
+	line "your #MON."
 
 	para "Here, take this"
 	line "TM!"

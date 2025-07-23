@@ -88,5 +88,5 @@ CeladonUniversityPrincipalsOfficeBookshelfText:
 	line "of books of the"
 
 	para "Encyclopedia"
-	line "#monica."
+	line "#MONica."
 	done

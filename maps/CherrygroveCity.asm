@@ -158,7 +158,7 @@ CherrygroveYoungsterScript:
 	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HavePokedex
 	jumpthistextfaceplayer
 
-	text "Mr.#mon's house"
+	text "Mr.#MON's house"
 	line "is still farther"
 	cont "up ahead."
 	done
@@ -289,10 +289,10 @@ GuideGentIntroText:
 	done
 
 GuideGentPokeCenterText:
-	text "This is a #mon"
+	text "This is a #MON"
 	line "Center. They heal"
 
-	para "your #mon in no"
+	para "your #MON in no"
 	line "time at all."
 
 	para "You'll be relying"
@@ -303,14 +303,14 @@ GuideGentPokeCenterText:
 	done
 
 GuideGentMartText:
-	text "This is a #mon"
+	text "This is a #MON"
 	line "Mart, or just"
 	cont "# Mart."
 
 	para "They sell Balls"
 	line "for catching wild"
 
-	para "#mon and other"
+	para "#MON and other"
 	line "useful items."
 	done
 
@@ -321,7 +321,7 @@ GuideGentRoute30Text:
 	para "Trainers will be"
 	line "battling their"
 
-	para "prized #mon"
+	para "prized #MON"
 	line "there."
 	done
 
@@ -370,7 +370,7 @@ GuideGentPokegearText:
 CherrygroveRivalText_Seen:
 	text "…… …… ……"
 
-	para "You got a #mon"
+	para "You got a #MON"
 	line "at the Lab."
 
 	para "What a waste."
@@ -382,7 +382,7 @@ CherrygroveRivalText_Seen:
 	line "I'm saying?"
 
 	para "Well, I too, have"
-	line "a good #mon."
+	line "a good #MON."
 
 	para "I'll show you"
 	line "what I mean!"
@@ -406,7 +406,7 @@ CherrygroveRivalTextAfter1:
 
 	para "I'm going to be"
 	line "the world's great-"
-	cont "est #mon"
+	cont "est #MON"
 	cont "trainer."
 	done
 
@@ -423,7 +423,7 @@ CherrygroveRivalTextAfter2:
 
 CherrygroveTeacherText_HaveMapCard:
 	text "When you're with"
-	line "#mon, going"
+	line "#MON, going"
 	cont "anywhere is fun."
 	done
 
@@ -432,15 +432,15 @@ CherrygroveYoungsterText_HavePokedex:
 	line "trainers on the"
 	cont "road."
 
-	para "My #mon lost."
+	para "My #MON lost."
 	line "They're a mess! I"
 
 	para "must take them to"
-	line "a #mon Center."
+	line "a #MON Center."
 	done
 
 MysticWaterGuyTextBefore:
-	text "A #mon I caught"
+	text "A #MON I caught"
 	line "had an item."
 
 	para "I think it's"

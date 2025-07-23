@@ -252,12 +252,12 @@ AnabelTakesCyndaquilText:
 
 AnabelCutePokemonText:
     text "I think your"
-    line "#mon is cute,"
+    line "#MON is cute,"
     cont "too!"
     done
 
 BelongsToElderText:
-    text "It's a #mon"
+    text "It's a #MON"
     line "that belongs to"
     cont "the Elder."
     done
@@ -277,7 +277,7 @@ TakeGrassMonText:
 ChoseMonText:
     text "Elder: I think"
     line "that's a great"
-    cont "#mon too!"
+    cont "#MON too!"
     done
 
 ElderAdventureText:
@@ -307,7 +307,7 @@ ElderGemrootTraditionText:
 
     para "you get to pick"
     line "your first"
-    cont "#mon."
+    cont "#MON."
 
     para "I'm very excited,"
     line "as this is the"
@@ -326,26 +326,26 @@ ElderGemrootTraditionText:
     line "chooses two"
 
     para "young children to"
-    line "become #mon"
+    line "become #MON"
     cont "trainers."
 
     para "Each one comes at"
     line "a different time"
     cont "to choose their"
-    cont "#mon."
+    cont "#MON."
 
     para "Go on! Pick a"
-    line "#mon."
+    line "#MON."
     done
 
 ElderWaitPickMonText:
     text "Wait, <PLAYER>!"
-    line "Pick a #mon."
+    line "Pick a #MON."
     done
 
 ElderPickAMonText:
     text "Go on! Pick a"
-    line "#mon."
+    line "#MON."
     done
 
 ElderMagicalWorldText:
@@ -367,7 +367,7 @@ GemrootAncientMuralText:
     line "depicting two"
 
     para "ancient dragon"
-    line "#mon."
+    line "#MON."
     done
 
 GemrootHistoryBooksText:

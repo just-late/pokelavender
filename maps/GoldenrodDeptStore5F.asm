@@ -64,7 +64,7 @@ GoldenrodDeptStore5FReceptionistScript:
 	line "be TMs that are"
 
 	para "just perfect for"
-	line "your #mon."
+	line "your #MON."
 	done
 
 GoldenrodDeptStore5FTwinScript:
@@ -90,7 +90,7 @@ GoldenrodDeptStore5FTwinScript:
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
 	text "Hello. Oh, your"
-	line "#mon…"
+	line "#MON…"
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
@@ -128,7 +128,7 @@ MysteryGiftGirl_NoRoomText:
 GoldenrodDeptStore5FLassText:
 	text "On Sundays, a lady"
 	line "comes to check out"
-	cont "#mon."
+	cont "#MON."
 
 	para "She even gives"
 	line "away TMs!"
@@ -136,7 +136,7 @@ GoldenrodDeptStore5FLassText:
 
 GoldenrodDeptStore5FPokefanMText:
 	text "You can't rename a"
-	line "#mon you get in"
+	line "#MON you get in"
 	cont "a trade."
 
 	para "The name is a re-"
@@ -148,7 +148,7 @@ GoldenrodDeptStore5FPokefanMText:
 
 GoldenrodDeptStore5FDirectoryText:
 	text "Customize Your"
-	line "#mon"
+	line "#MON"
 
 	para "5F TM Corner"
 	done

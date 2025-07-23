@@ -48,7 +48,7 @@ ShamoutiIslandAlolanExeggutorScript:
 	text "The weird tree is…"
 	line "fast asleep?"
 
-	para "Is it a #mon?"
+	para "Is it a #MON?"
 	done
 
 .Awake:
@@ -74,7 +74,7 @@ ShamoutiIslandAlolanExeggutorScript:
 	done
 
 .WokeUpText:
-	text "The #mon"
+	text "The #MON"
 	line "woke up!"
 	done
 

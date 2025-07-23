@@ -284,25 +284,25 @@ BattleText_TargetWasHitByFutureSight:
 
 BattleText_MistFaded:
 	text_ram wStringBuffer1
-	text " #mon's"
+	text " #MON's"
 	line "mist faded!"
 	prompt
 
 BattleText_SafeguardFaded:
 	text_ram wStringBuffer1
-	text " #mon's"
+	text " #MON's"
 	line "Safeguard faded!"
 	prompt
 
 BattleText_LightScreenFell:
 	text_ram wStringBuffer1
-	text " #mon's"
+	text " #MON's"
 	line "Light Screen fell!"
 	prompt
 
 BattleText_ReflectFaded:
 	text_ram wStringBuffer1
-	text " #mon's"
+	text " #MON's"
 	line "Reflect faded!"
 	prompt
 
@@ -376,7 +376,7 @@ BattleText_PkmnFainted:
 	prompt
 
 BattleText_UseNextMon:
-	text "Use next #mon?"
+	text "Use next #MON?"
 	done
 
 LostAgainstText:
@@ -392,7 +392,7 @@ BattleText_EnemyIsAboutToUseWillPlayerSwitchPkmn:
 	text "."
 
 	para "Will you switch"
-	line "your #mon?"
+	line "your #MON?"
 	done
 
 BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn:
@@ -403,25 +403,25 @@ BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn:
 	text "."
 
 	para "Will you switch"
-	line "your #mon?"
+	line "your #MON?"
 	done
 
 BattleText_EnemyIsAboutToSwitchWillPlayerSwitchPkmn:
 	text "<ENEMY>"
 	line "is about to switch"
-	cont "#mon."
+	cont "#MON."
 
 	para "Will you switch"
-	line "your #mon?"
+	line "your #MON?"
 	done
 
 BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn:
 	text "<ENEMY>"
 	line "are about to"
-	cont "switch #mon."
+	cont "switch #MON."
 
 	para "Will you switch"
-	line "your #mon?"
+	line "your #MON?"
 	done
 
 BattleText_EnemySentOut:
@@ -1349,13 +1349,13 @@ IdentifiedText:
 	prompt
 
 StartPerishSongText:
-	text "#mon that heard"
+	text "#MON that heard"
 	line "the song will"
 	cont "faint in 3 turns!"
 	prompt
 
 StartPerishBodyText:
-	text "Both #mon will"
+	text "Both #MON will"
 	line "faint in 3 turns!"
 	prompt
 
@@ -1684,7 +1684,7 @@ CarrieFinalPkmnText:
 CalFinalPkmnText:
 JackyFinalPkmnText:
 	text "I still have one"
-	line "#mon!"
+	line "#MON!"
 	prompt
 
 FalknerFinalPkmnText:
@@ -1694,9 +1694,9 @@ FalknerFinalPkmnText:
 
 BugsyFinalPkmnText:
 	text "Even though it's"
-	line "my last #mon,"
+	line "my last #MON,"
 
-	para "Bug #mon are"
+	para "Bug #MON are"
 	line "tough!"
 	prompt
 
@@ -1730,7 +1730,7 @@ PryceFinalPkmnText:
 	prompt
 
 ClairFinalPkmnText:
-	text "One last #mon?"
+	text "One last #MON?"
 	line "This is where the"
 	cont "real fight begins!"
 	prompt
@@ -1865,7 +1865,7 @@ Rival2_2FinalPkmnText:
 
 Lyra1_1FinalPkmnText:
 	text "You've never had a"
-	line "#mon battle"
+	line "#MON battle"
 	cont "before, have you?"
 
 	para "I could explain,"
@@ -1885,7 +1885,7 @@ Lyra1_2FinalPkmnText:
 
 Lyra1_3FinalPkmnText:
 	text "OK! Time for my"
-	line "last #mon!"
+	line "last #MON!"
 	prompt
 
 Lyra1_4FinalPkmnText:
@@ -1897,7 +1897,7 @@ Lyra1_4FinalPkmnText:
 Lyra2_1FinalPkmnText:
 	text "You've brought me"
 	line "down to my last"
-	cont "#mon…"
+	cont "#MON…"
 	prompt
 
 Proton1FinalPkmnText:
@@ -1946,7 +1946,7 @@ Ariana2FinalPkmnText:
 	prompt
 
 Giovanni1FinalPkmnText:
-	text "My #mon is"
+	text "My #MON is"
 	line "invincible!"
 	prompt
 
@@ -2113,7 +2113,7 @@ PiersFinalPkmnText:
 
 	para "Not songs…"
 	line "Not moves…"
-	cont "Not #mon!"
+	cont "Not #MON!"
 	prompt
 
 KatyFinalPkmnText:
@@ -2128,7 +2128,7 @@ BillFinalPkmnText:
 	prompt
 
 YellowFinalPkmnText:
-	text "My last #mon…"
+	text "My last #MON…"
 	line "Lend me your"
 	cont "power!"
 	prompt

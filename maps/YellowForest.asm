@@ -105,7 +105,7 @@ GenericTrainerSchoolgirlIsabel:
 	generictrainer SCHOOLGIRL, ISABEL, EVENT_BEAT_SCHOOLGIRL_ISABEL, SchoolgirlIsabelSeenText, SchoolgirlIsabelBeatenText
 
 	text "We're learning"
-	line "about how #mon"
+	line "about how #MON"
 
 	para "thrive together"
 	line "in the wild."
@@ -263,13 +263,13 @@ SchoolgirlSarahBeatenText:
 
 SchoolgirlIsabelSeenText:
 	text "Do you have cute"
-	line "#mon like the"
+	line "#MON like the"
 	cont "ones here?"
 	done
 
 SchoolgirlIsabelBeatenText:
 	text "You have really"
-	line "strong #mon!"
+	line "strong #MON!"
 	done
 
 TeacherKathrynSeenText:
@@ -289,7 +289,7 @@ TeacherKathrynBeatenText:
 BreederSophieSeenText:
 	text "Did you know that"
 	line "Pikachu is an"
-	cont "evolved #mon?"
+	cont "evolved #MON?"
 	done
 
 BreederSophieBeatenText:
@@ -331,7 +331,7 @@ YellowForestWalkerSeenText:
 	done
 
 YellowForestWalkerBeatenText:
-	text "My bird #mon…"
+	text "My bird #MON…"
 	line "Taken down!"
 	done
 
@@ -343,7 +343,7 @@ YellowForestWalkerAfterText:
 	line "Falkner."
 
 	para "You know your"
-	line "#mon inside"
+	line "#MON inside"
 	cont "and out!"
 
 	para "You've earned"
@@ -352,7 +352,7 @@ YellowForestWalkerAfterText:
 
 YellowForestWalkerFinalText:
 	text "Walker: Bird"
-	line "#mon soar"
+	line "#MON soar"
 
 	para "through the sky"
 	line "because that's"
@@ -389,14 +389,14 @@ YellowForestYellowGreetingText:
 	line "home in Kanto."
 
 	para "Where I caught my"
-	line "first #mon."
+	line "first #MON."
 
 	para "The trainer who"
 	line "helped me catch it"
 	cont "told me something."
 
 	para "That if you care"
-	line "for #mon with"
+	line "for #MON with"
 
 	para "all your heart,"
 	line "they'll always be"
@@ -405,7 +405,7 @@ YellowForestYellowGreetingText:
 	para "I can sense that"
 	line "you care about"
 
-	para "your #mon."
+	para "your #MON."
 	line "So let me see"
 
 	para "what your friends"
@@ -453,7 +453,7 @@ YellowForestCooltrainerMText:
 
 Text_YellowForestTutorSeedBomb:
 	text "I can teach your"
-	line "#mon how to"
+	line "#MON how to"
 
 	para "use Seed Bomb"
 	line "for a Silver Leaf."
@@ -466,7 +466,7 @@ Text_YellowForestTutorNoSilverLeaf:
 
 Text_YellowForestTutorQuestion:
 	text "Should I teach"
-	line "your #mon"
+	line "your #MON"
 	cont "Seed Bomb?"
 	done
 
@@ -476,7 +476,7 @@ Text_YellowForestTutorRefused:
 	done
 
 Text_YellowForestTutorTaught:
-	text "Now your #mon"
+	text "Now your #MON"
 	line "knows how to use"
 	cont "Seed Bomb!"
 	done

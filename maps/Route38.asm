@@ -40,7 +40,7 @@ GenericTrainerSailorHarry:
 	line "ple around the"
 
 	para "world live happily"
-	line "with #mon."
+	line "with #MON."
 	done
 
 TrainerLassDana1:
@@ -273,7 +273,7 @@ GenericTrainerBeautyOlivia:
 Bird_keeperTobySeenText:
 	text "Fly high into the"
 	line "sky, my beloved"
-	cont "bird #mon!"
+	cont "bird #MON!"
 	done
 
 Bird_keeperTobyBeatenText:
@@ -297,7 +297,7 @@ SchoolboyChadSoManyTestsText:
 	line "many tests, I"
 
 	para "don't have much"
-	line "time for #mon."
+	line "time for #MON."
 
 	para "So when I do get"
 	line "to play, I really"
@@ -306,7 +306,7 @@ SchoolboyChadSoManyTestsText:
 
 LassDana1SeenText:
 	text "You seem to be"
-	line "good at #mon."
+	line "good at #MON."
 
 	para "If you are, how"
 	line "about giving me"
@@ -332,12 +332,12 @@ BeautyValenciaSeenText:
 	line "cute trainer!"
 
 	para "May I see your"
-	line "#mon?"
+	line "#MON?"
 	done
 
 BeautyValenciaBeatenText:
 	text "I'm glad I got to"
-	line "see your #mon!"
+	line "see your #MON!"
 	done
 
 SailorHarrySeenText:
@@ -345,7 +345,7 @@ SailorHarrySeenText:
 	line "seas, so I know"
 
 	para "about all sorts of"
-	line "#mon!"
+	line "#MON!"
 	done
 
 SailorHarryBeatenText:
@@ -355,7 +355,7 @@ SailorHarryBeatenText:
 
 BeautyOliviaSeenText:
 	text "Don't you think my"
-	line "#mon and I are"
+	line "#MON and I are"
 	cont "beautiful?"
 	done
 
@@ -374,7 +374,7 @@ Route38SignText:
 Route38TrainerTipsText:
 	text "Trainer Tips"
 
-	para "If a #mon is"
+	para "If a #MON is"
 	line "trying to evolve,"
 	cont "you can stop it."
 
@@ -383,7 +383,7 @@ Route38TrainerTipsText:
 	cont "tion."
 
 	para "That startles the"
-	line "#mon and stops"
+	line "#MON and stops"
 	cont "its evolution."
 	done
 
@@ -404,5 +404,5 @@ Route38AdvancedTipsText:
 	line "change what the"
 
 	para "A button does"
-	line "for #mon!"
+	line "for #MON!"
 	done

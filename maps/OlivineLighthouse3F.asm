@@ -156,7 +156,7 @@ GenericTrainerGentlemanPreston:
 	generictrainer GENTLEMAN, PRESTON, EVENT_BEAT_GENTLEMAN_PRESTON, GentlemanPrestonSeenText, GentlemanPrestonBeatenText
 
 	text "Jasmine used to"
-	line "use Rock #mon"
+	line "use Rock #MON"
 	cont "like Onix."
 	done
 
@@ -168,7 +168,7 @@ GenericTrainerSailorTerrell:
 	cont "visit the Gym."
 
 	para "The Gym Leader's"
-	line "#mon type has"
+	line "#MON type has"
 
 	para "changed without me"
 	line "noticing."
@@ -192,7 +192,7 @@ BirdKeeperTheoAfterBattleText:
 	line "you go up?"
 
 	para "I want to visit"
-	line "the sick #mon,"
+	line "the sick #MON,"
 
 	para "but I can't get up"
 	line "there…"
@@ -203,7 +203,7 @@ Bird_keeperTheoFinalText:
 	line "you go up?"
 
 	para "I heard the sick"
-	line "#mon is better"
+	line "#MON is better"
 	cont "now, but I can't"
 	cont "get up there…"
 	done

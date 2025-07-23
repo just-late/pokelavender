@@ -152,20 +152,20 @@ GenericTrainerSightseersLiandsu1:
 	text "Li: What came"
 	line "first?"
 
-	para "The #mon or"
+	para "The #MON or"
 	line "the Egg?"
 	done
 
 .BeatenText:
 	text "Li: I say it's the"
-	line "#mon!"
+	line "#MON!"
 	done
 
 GenericTrainerSightseersLiandsu2:
 	generictrainer SIGHTSEERS, LIANDSU2, EVENT_BEAT_SIGHTSEERS_LI_AND_SU, .SeenText, .BeatenText
 
 	text "Su: Are there any"
-	line "#mon that don't"
+	line "#MON that don't"
 	cont "come from Eggs?"
 	done
 
@@ -173,7 +173,7 @@ GenericTrainerSightseersLiandsu2:
 	text "Su: What came"
 	line "first?"
 
-	para "The #mon or"
+	para "The #MON or"
 	line "the Egg?"
 	done
 
