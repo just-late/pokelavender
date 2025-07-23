@@ -88,6 +88,9 @@ DEF CRYS EQU __trainer_class__
 	trainerclass RIVAL0 ; 1b
 
 	trainerclass RIVAL1 ; 1c
+	const RIVAL1_1
+	const RIVAL1_2
+	const RIVAL1_3
 	const RIVAL1_4
 	const RIVAL1_5
 	const RIVAL1_6
@@ -97,11 +100,8 @@ DEF CRYS EQU __trainer_class__
 	const RIVAL1_10
 	const RIVAL1_11
 	const RIVAL1_12
-	const RIVAL1_13
-	const RIVAL1_14
-	const RIVAL1_15
 
-	trainerclass RIVAL2 ; 1d
+	trainerclass RIVAL2 ; 
 
 	trainerclass LYRA1 ; 1e
 	const LYRA1_1

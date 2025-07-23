@@ -43,7 +43,7 @@ VictoryRoadRivalLeft:
 	iftruefwd .GotTurtwig
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD2F_RIVAL
-	loadtrainer RIVAL1, RIVAL1_15
+	loadtrainer RIVAL1, RIVAL1_12
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -52,7 +52,7 @@ VictoryRoadRivalLeft:
 .GotTotodile:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD2F_RIVAL
-	loadtrainer RIVAL1, RIVAL1_13
+	loadtrainer RIVAL1, RIVAL1_10
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -61,7 +61,7 @@ VictoryRoadRivalLeft:
 .GotTurtwig:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD2F_RIVAL
-	loadtrainer RIVAL1, RIVAL1_14
+	loadtrainer RIVAL1, RIVAL1_11
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

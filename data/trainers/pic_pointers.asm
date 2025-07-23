@@ -28,7 +28,7 @@ TrainerPicPointers::
 	dba RedPic
 	dba LeafPic
 	dba Rival0Pic
-	dba Rival1Pic
+	dba LassPic ; Placeholder
 	dba Rival2Pic
 	dba Lyra1Pic
 	dba Lyra2Pic

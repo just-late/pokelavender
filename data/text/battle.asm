@@ -1826,9 +1826,9 @@ Rival1_1FinalPkmnText:
 	prompt
 
 Rival1_2FinalPkmnText:
-	text "Say, you've got a"
-	line "lot of nerve,"
-	cont "coming here…"
+	text "This is your first"
+	line "battle, huh?"
+	cont "I'll take you down!"
 	prompt
 
 Rival1_3FinalPkmnText:

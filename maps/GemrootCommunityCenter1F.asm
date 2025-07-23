@@ -12,6 +12,7 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	coord_event  6,  5, 0, PlayerWalksToAnabel2
 	coord_event  5,  4, 0, PickYourMonScript
 	coord_event  6,  4, 0, PickYourMonScript
+	coord_event  5,  4, 1, AnabelChallengeScript1
 
     def_bg_events
 	bg_event  0, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
@@ -30,7 +31,7 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	object_event  4,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
 	object_event  5,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
 	object_event  6,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
-	person_event  SPRITE_LASS, 3,  4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER
+	person_event  SPRITE_LASS, 3,  4, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER
 	person_event  SPRITE_SAGE, 6,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterSageText, -1
 	person_event  SPRITE_POKEFAN_F, 6,  1, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterLadyText, -1
 
@@ -60,9 +61,79 @@ PlayerWalksToAnabel2:
     end
 
 PickYourMonScript:
-    jumptext ElderWaitPickMonText
+    showtext ElderWaitPickMonText
     applyonemovement PLAYER, step_up
     end
+
+AnabelChallengeScript1:
+    playmusic MUSIC_RIVAL_ENCOUNTER
+    showtext AnabelChallengeText
+    turnobject PLAYER, UP
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
+    winlosstext CommunityCenterAnabelWinText, CommunityCenterAnabelLossText
+    checkevent EVENT_GOT_TOTODILE_FROM_ELDER
+    iftruefwd .Totodile
+    checkevent EVENT_GOT_TURTWIG_FROM_ELDER
+    iftruefwd .Turtwig
+    loadtrainer RIVAL1, RIVAL1_1
+    loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+    startbattle
+    dontrestartmapmusic
+    reloadmap
+    special DeleteSavedMusic
+    playmusic MUSIC_RIVAL_AFTER
+    iftruefwd .AfterYourDefeat
+    sjumpfwd .AfterVictorious
+
+.Totodile
+    loadtrainer RIVAL1, RIVAL1_2
+    loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+    startbattle
+    dontrestartmapmusic
+    reloadmap
+    special DeleteSavedMusic
+    playmusic MUSIC_RIVAL_AFTER
+    iftruefwd .AfterYourDefeat
+    sjumpfwd .AfterVictorious
+
+.Turtwig
+    loadtrainer RIVAL1, RIVAL1_3
+    loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+    startbattle
+    dontrestartmapmusic
+    reloadmap
+    special DeleteSavedMusic
+    playmusic MUSIC_RIVAL_AFTER
+    iftruefwd .AfterYourDefeat
+    sjumpfwd .AfterVictorious
+
+.AfterYourDefeat ; TODO: Complete these scripts
+    end
+
+.AfterVictorious
+    end
+
+AnabelChallengeText:
+    text "ANABEL: <PLAYER>!"
+    line "Let's have a battle"
+
+    para "with our #MON!"
+    done
+
+CommunityCenterAnabelWinText:
+    text "I'll training my"
+    line "#MON and get"
+    cont "even stronger!"
+    done
+
+CommunityCenterAnabelLossText:
+    text "Wow, <PLAYER>! I'll"
+    line "keep training my"
+
+    para "#MON and get"
+    line "stronger!"
+    done
 
 GemrootElderGivesMonScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
@@ -128,7 +199,9 @@ FirePokeBallScript:
     writetext AnabelTakesTotodileText
     closetext
     disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -148,7 +221,7 @@ TakeFireMonText:
     done
 
 AnabelTakesTotodileText:
-    text "Anabel: Then I'll"
+    text "ANABEL: Then I'll"
     line "take Totodile!"
     done
 
@@ -181,7 +254,10 @@ WaterPokeBallScript:
     writetext AnabelTakesTurtwigText
     closetext
     disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -200,7 +276,7 @@ TakeWaterMonText:
     done
 
 AnabelTakesTurtwigText:
-    text "Anabel: Then I'll"
+    text "ANABEL: Then I'll"
     line "take Turtwig!"
     done
 
@@ -246,7 +322,7 @@ GrassPokeBallScript:
     end
 
 AnabelTakesCyndaquilText:
-    text "Anabel: Then I'll"
+    text "ANABEL: Then I'll"
     line "take Cyndaquil!"
     done
 
@@ -259,11 +335,11 @@ AnabelCutePokemonText:
 BelongsToElderText:
     text "It's a #MON"
     line "that belongs to"
-    cont "the Elder."
+    cont "the ELDER."
     done
 
 DidntChooseMonText:
-    text "Elder: Think it"
+    text "ELDER: Think it"
     line "over carefully."
 
     para "Your partner is"
@@ -275,7 +351,7 @@ TakeGrassMonText:
     done
 
 ChoseMonText:
-    text "Elder: I think"
+    text "ELDER: I think"
     line "that's a great"
     cont "#MON too!"
     done
@@ -301,7 +377,7 @@ ElderAdventureText:
     done
 
 ElderGemrootTraditionText:
-    text "Elder: Hello,"
+    text "ELDER: Hello,"
     line "children. Today"
     cont "is the day"
 
@@ -322,20 +398,15 @@ ElderGemrootTraditionText:
     para "Ah, the tradition?"
     line "Every year, the"
 
-    para "Elder of the town"
+    para "ELDER of the town"
     line "chooses two"
 
     para "young children to"
     line "become #MON"
     cont "trainers."
 
-    para "Each one comes at"
-    line "a different time"
-    cont "to choose their"
-    cont "#MON."
-
-    para "Go on! Pick a"
-    line "#MON."
+    para "Now then, <PLAYER>"
+    line "pick a #MON."
     done
 
 ElderWaitPickMonText:

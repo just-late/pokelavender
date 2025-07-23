@@ -28,7 +28,7 @@ TrainerClassNames::
 	li "<PK><MN> Trainer" ; RED
 	li "<PK><MN> Trainer" ; LEAF
 	li "Strange"          ; RIVAL0
-	li "Rival"            ; RIVAL1
+	li "RIVAL"            ; RIVAL1
 	li "Rival"            ; RIVAL2
 	li "<PK><MN> Trainer" ; LYRA1
 	li "<PK><MN> Trainer" ; LYRA2

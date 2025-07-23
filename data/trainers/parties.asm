@@ -1476,65 +1476,31 @@ Rival1Group:
 
 	; For EV spreads, keep continuity until pre-E4 (need Surf to lose EVs).
 	; RIVAL1
-	db "<RIVAL>@"
+	db "ANABEL@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
-	dbp 14, GASTLY
-		db NO_ITEM
-		ev_spread 72 Spe
-		db LICK, DISABLE, MEAN_LOOK, CURSE ; default for level
-	dbp 16, ZUBAT
-		db NO_ITEM
-		ev_spread 72 Spe
-		db SUPERSONIC, ASTONISH, BITE, GUST ; default for level
-	dbp 15, GEODUDE
-		db NO_ITEM
-		ev_spread 72 HP
-		db MUD_SLAP, RAPID_SPIN, ROLLOUT, MAGNITUDE ; default for level
-	dbp 18, BAYLEEF
+	dbp 5, TURTWIG
 		db ORAN_BERRY
-		ev_spread 72 Atk
-		db RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
 	db -1 ; end
 
 	; RIVAL1
-	db "<RIVAL>@"
+	db "ANABEL@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS
 	; party
-	dbp 14, GASTLY
-		db NO_ITEM
-		ev_spread 72 Spe
-	dbp 16, ZUBAT
-		db NO_ITEM
-		ev_spread 72 Spe
-	dbp 15, GEODUDE
-		db NO_ITEM
-		ev_spread 72 HP
-	dbp 18, QUILAVA
+	dbp 5, CYNDAQUIL
 		db ORAN_BERRY
-		ev_spread 72 SAt
 	db -1 ; end
 
 	; RIVAL1
-	db "<RIVAL>@"
+	db "ANABEL@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS
 	; party
-	dbp 14, GASTLY
-		db NO_ITEM
-		ev_spread 72 Spe
-	dbp 16, ZUBAT
-		db NO_ITEM
-		ev_spread 72 Spe
-	dbp 15, GEODUDE
-		db NO_ITEM
-		ev_spread 72 HP
-	dbp 18, CROCONAW
+	dbp 5, TOTODILE
 		db ORAN_BERRY
-		ev_spread 72 Spe
 	db -1 ; end
 
 	; RIVAL1
-	db "<RIVAL>@"
+	db "ANABEL@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
 	dbp 20, HAUNTER
