@@ -117,6 +117,38 @@ MACRO object_event
 	redef {_NUM_OBJECT_EVENTS} += 1
 ENDM
 
+MACRO person_event
+; TODO: Remove unused argument \7 (Old HOUR_1)
+	db \1 ; sprite
+	db \2 + 4 ; y
+	db \3 + 4 ; x
+	db \4 ; movement function
+	if \1 == SPRITE_MON_ICON
+		dn \5, LOW(\6) ; mon index
+	else
+		dn \5, \6 ; radius: y, x
+	endc
+	db \9 ; palette
+	db \8 ; time of day
+	db \<10> ; type
+	if \<10> == OBJECTTYPE_COMMAND
+		db \<11>_command ; command id
+	elif \3 == SPRITE_MON_ICON
+		db (HIGH(\6) << MON_EXTSPECIES_F) | \<11> ; extspecies | form
+	else
+		db \<11> ; sight_range
+	endc
+	if _NARG == 14
+		db \<12> ; itemball contents
+		db \<13> ; itemball quantity
+		dw \<14> ; event flag
+	else
+		dw \<12> ; pointer || byte, 0
+		dw \<13> ; event flag
+	endc
+	redef {_NUM_OBJECT_EVENTS} += 1
+ENDM
+
 MACRO itemball_event
 	object_event \1, \2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_ITEMBALL, PLAYEREVENT_ITEMBALL, \3, \4, \5
 ENDM

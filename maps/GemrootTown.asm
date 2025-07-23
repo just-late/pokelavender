@@ -23,13 +23,13 @@ GemrootTown_MapScriptHeader:
 	bg_event 11,  7, BGEVENT_JUMPTEXT, CommunityCenterSignText
 	bg_event 35, 19, BGEVENT_READ, TrainerTipsSignScript
 	
-	def_object_events
-	object_event 9, 10, SPRITE_HIKER, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NouraTravelerScript, -1
-	object_event 11, 21, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
-	object_event 26, 24, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
-	object_event 20, 19, SPRITE_GRANNY, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
-	object_event 14, 6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
-	object_event 3, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptext, FisherText, -1
+	db 6 ; object_events, person_events
+	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NouraTravelerScript, -1
+	person_event SPRITE_FAT_GUY, 21, 11, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
+	person_event SPRITE_CUTE_GIRL, 24, 26, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
+	person_event SPRITE_GRANNY, 19, 20, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
+	person_event SPRITE_GRAMPS,  6, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
+	person_event SPRITE_FISHER, 16,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptext, FisherText, -1
 
 	object_const_def
 
