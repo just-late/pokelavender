@@ -132,14 +132,8 @@ MACRO person_event
 	else
 		db \<11> ; sight_range
 	endc
-	if _NARG == 14
-		db \<12> ; itemball contents
-		db \<13> ; itemball quantity
-		dw \<14> ; event flag
-	else
 		dw \<12> ; pointer || byte, 0
 		dw \<13> ; event flag
-	endc
 	redef {_NUM_OBJECT_EVENTS} += 1
 ENDM
 
