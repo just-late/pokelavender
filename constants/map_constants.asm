@@ -540,20 +540,21 @@ ENDM
 	map_const ROUTE_26,                                   10, 54 ;  1
 	map_const ROUTE_27,                                   40,  9 ;  2
 	map_const ROUTE_29,                                   30,  9 ;  3
-	map_const GEMROOT_TOWN,                              18, 18 ;  4
-	map_const ELMS_LAB,                                    5,  6 ;  5
-	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  6
-	map_const PLAYERS_HOUSE_2F,                            4,  7 ;  7
-	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  8
-	map_const ARIS_HOUSE_1F,							   5,  4 ;  9
-	map_const ARIS_HOUSE_2F,							   4,  3 ; 10
-	map_const LYRAS_HOUSE_1F,                              6,  4 ; 11
-	map_const LYRAS_HOUSE_2F,                              4,  3 ; 12
-	map_const ELMS_HOUSE,                                  4,  4 ; 13
-	map_const ROUTE_26_HEAL_SPEECH_HOUSE,                  4,  4 ; 14
-	map_const ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE,         4,  4 ; 15
-	map_const ROUTE_27_REST_HOUSE,                         4,  4 ; 16
-	map_const ROUTE_29_46_GATE,                            5,  4 ; 17
+	map_const GEMROOT_TOWN,                               18, 18 ;  4
+	map_const GEMROOT_WOODS, 							  13, 12 ;  5
+	map_const ELMS_LAB,                                    5,  6 ;  6
+	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
+	map_const PLAYERS_HOUSE_2F,                            4,  7 ;  8
+	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
+	map_const ARIS_HOUSE_1F,							   5,  4 ; 10
+	map_const ARIS_HOUSE_2F,							   4,  3 ; 11
+	map_const LYRAS_HOUSE_1F,                              6,  4 ; 12
+	map_const LYRAS_HOUSE_2F,                              4,  3 ; 13
+	map_const ELMS_HOUSE,                                  4,  4 ; 14
+	map_const ROUTE_26_HEAL_SPEECH_HOUSE,                  4,  4 ; 15
+	map_const ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE,         4,  4 ; 16
+	map_const ROUTE_27_REST_HOUSE,                         4,  4 ; 17
+	map_const ROUTE_29_46_GATE,                            5,  4 ; 18
 
 	newgroup                                                     ; 25
 	map_const FIGHTING_DOJO,                               5,  6 ;  1
