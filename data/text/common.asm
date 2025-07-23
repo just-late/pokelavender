@@ -3277,19 +3277,19 @@ _InitialOptionsText::
 SECTION "_ElmText1", ROMX
 _ElmText1::
 	text "Hello! My name is"
-	line "PROF.OAK, and I'll"
+	line "DR. LAVENTON. I'm"
 
-	para "be your guide to"
-	line "the secrets of"
-	cont "#MON!"
+	para "the director of"
+	line "BLOSSOM ACADEMY,"
+	cont "in BLOSSOM CITY."
 	prompt
 
 SECTION "_ElmText2", ROMX
 _ElmText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	text "Here at BLOSSOM"
+	line "ACADEMY we study"
+	cont "creatures that we"
+	cont "call #MON.@"
 	text_end
 
 SECTION "_ElmText4", ROMX

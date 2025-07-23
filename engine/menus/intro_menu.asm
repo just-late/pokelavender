@@ -600,10 +600,10 @@ if !DEF(DEBUG)
 	call FadeToWhite
 	call ClearTileMap
 
-	ld a, LOW(SENTRET)
+	ld a, LOW(TOGEKISS)
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
-	ld a, HIGH(SENTRET) << MON_EXTSPECIES_F
+	ld a, HIGH(TOGEKISS) << MON_EXTSPECIES_F
 	ld [wCurForm], a
 	ld [wTempMonForm], a
 	call GetBaseData
@@ -631,7 +631,7 @@ if !DEF(DEBUG)
 
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, PROF_ELM
+	ld a, PROF_OAK
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 
