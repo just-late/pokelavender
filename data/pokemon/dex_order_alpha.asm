@@ -30,7 +30,6 @@ AlphabeticalPokedexOrder:
 	dp CHARIZARD
 	dp CHARMANDER
 	dp CHARMELEON
-	dp TURTWIG
 	dp CHINCHOU
 	dp CLEFABLE
 	dp CLEFAIRY
@@ -261,6 +260,7 @@ AlphabeticalPokedexOrder:
 	dp TOGEPI
 	dp TOGETIC
 	dp TOTODILE
+	dp TURTWIG
 	dp TYPHLOSION
 	dp TYRANITAR
 	dp TYROGUE

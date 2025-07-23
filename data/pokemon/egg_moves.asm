@@ -531,13 +531,14 @@ DratiniEggMoves:
 	db $ff
 
 TurtwigEggMoves:
-	db LEECH_SEED
-	db VINE_WHIP
-	db ANCIENTPOWER
-	db COUNTER
-	db SWORDS_DANCE
-	db CHARM
-	db HEAL_BELL
+	db DOUBLE_EDGE
+	db GROWTH
+	db SHELL_SMASH
+	db THRASH
+	db ROCK_SLIDE
+	db SEED_BOMB
+	db AMNESIA
+	db BODY_SLAM
 	db $ff
 
 CyndaquilEggMoves:
