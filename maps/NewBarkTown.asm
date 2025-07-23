@@ -17,7 +17,7 @@ NewBarkTown_MapScriptHeader:
 	bg_event 35, 19, BGEVENT_READ, TrainerTipsSignScript
 
 	def_object_events
-	object_event 9, 10, SPRITE_HIKER, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NouraTravelerScript, EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
+	object_event 9, 10, SPRITE_HIKER, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NouraTravelerScript, -1
 	object_event 11, 21, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
 	object_event 26, 24, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
 	object_event 20, 19, SPRITE_GRANNY, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
@@ -71,10 +71,12 @@ NouraTravelerScript:
 	opentext
 	writetext NouraTraveler1Text
 	waitbutton
+	setevent EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
 	verbosegiveitem RARE_CANDY ; placeholder, will give a souveneir item
 	writetext NouraTraveler2Text
 	closetext
 	end
+
 .AlreadyGotSouveneir
 	opentext
 	writetext NouraTraveler2Text
