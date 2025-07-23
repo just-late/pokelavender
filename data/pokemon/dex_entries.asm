@@ -1516,8 +1516,8 @@ MewPokedexEntry::
 	next "it is the ancestor"
 	next "of all #MON.@"
 
-SECTION "ChikoritaPokedexEntry", ROMX
-ChikoritaPokedexEntry::
+SECTION "TurtwigPokedexEntry", ROMX
+TurtwigPokedexEntry::
 	db "Leaf@"
 	db   "It loves to bask"
 	next "in the sunlight."

@@ -135,13 +135,13 @@ MrPokemonsHouse_OakScript:
 	setmapscene CHERRYGROVE_CITY, $1
 	specialphonecall SPECIALCALL_ROBBED
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .RivalTakesChikorita
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
+	iftruefwd .RivalTakesTurtwig
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .RivalTakesCyndaquil
 	setevent EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
 	end
 
-.RivalTakesChikorita:
+.RivalTakesTurtwig:
 	setevent EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
 	end
 

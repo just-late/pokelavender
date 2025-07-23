@@ -152,7 +152,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  55, 100 ; Dragonite
 	db 255, 255 ; Mewtwo
 	db 255, 255 ; Mew
-	db   1,  15 ; Chikorita
+	db   1,  15 ; Turtwig
 	db  16,  31 ; Bayleef
 	db  32, 100 ; Meganium
 	db   1,  13 ; Cyndaquil

@@ -54,11 +54,11 @@ Cry_Cyndaquil:
 	channel 6, Cry_Cyndaquil_Ch6
 	channel 8, Cry_Cyndaquil_Ch8
 
-Cry_Chikorita:
+Cry_Turtwig:
 	channel_count 3
-	channel 5, Cry_Chikorita_Ch5
-	channel 6, Cry_Chikorita_Ch6
-	channel 8, Cry_Chikorita_Ch8
+	channel 5, Cry_Turtwig_Ch5
+	channel 6, Cry_Turtwig_Ch6
+	channel 8, Cry_Turtwig_Ch8
 
 Cry_Gligar:
 	channel_count 2
@@ -502,9 +502,9 @@ Cry_Gligar_Ch8:
 	noise_note 32, 9, 3, 79
 	sound_ret
 
-Cry_Chikorita_Ch5:
+Cry_Turtwig_Ch5:
 	pitch_offset 32
-Cry_Chikorita_Ch6:
+Cry_Turtwig_Ch6:
 	duty_cycle_pattern 0, 2, 0, 1
 	square_note 2, 12, 8, 1601
 	square_note 2, 4, 8, 1601
@@ -513,7 +513,7 @@ Cry_Chikorita_Ch6:
 	square_note 4, 15, 1, 1931
 	sound_ret
 
-Cry_Chikorita_Ch8:
+Cry_Turtwig_Ch8:
 	noise_note 4, 9, 1, 16
 	noise_note 8, 9, 4, 3
 	sound_ret

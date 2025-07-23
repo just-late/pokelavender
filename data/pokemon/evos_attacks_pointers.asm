@@ -155,7 +155,7 @@ EvosAttacksPointers::
 	dw DragoniteEvosAttacks
 	dw MewtwoEvosAttacks
 	dw MewEvosAttacks
-	dw ChikoritaEvosAttacks
+	dw TurtwigEvosAttacks
 	dw BayleefEvosAttacks
 	dw MeganiumEvosAttacks
 	dw CyndaquilEvosAttacks

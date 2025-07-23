@@ -144,14 +144,14 @@ DragonsDenB1FRivalScript:
 	writetext .GiveEggText
 	promptbutton
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .GiveChikoritaEgg
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
+	iftruefwd .GiveTurtwigEgg
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .GiveCyndaquilEgg
 	giveegg TOTODILE
 	sjumpfwd .GotRivalsEgg
 
-.GiveChikoritaEgg:
-	giveegg CHIKORITA
+.GiveTurtwigEgg:
+	giveegg TURTWIG
 	sjumpfwd .GotRivalsEgg
 
 .GiveCyndaquilEgg:

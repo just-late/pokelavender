@@ -173,7 +173,7 @@
 	const DRAGONITE  ; 95
 	const MEWTWO     ; 96
 	const MEW        ; 97
-	const CHIKORITA  ; 98
+	const TURTWIG  ; 98
 	const BAYLEEF    ; 99
 	const MEGANIUM   ; 9a
 	const CYNDAQUIL  ; 9b

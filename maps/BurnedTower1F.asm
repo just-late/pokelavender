@@ -67,8 +67,8 @@ BurnedTowerRivalBattleScript:
 	showtext BurnedTowerRival_BeforeText
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
-	iftruefwd .chikorita
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
+	iftruefwd .turtwig
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_9
@@ -86,7 +86,7 @@ BurnedTowerRivalBattleScript:
 	reloadmapafterbattle
 	sjumpfwd .returnfrombattle
 
-.chikorita
+.turtwig
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_8

@@ -762,10 +762,10 @@ MewMini::     INCBIN "gfx/minis/mew.2bpp.lz"
 MewMiniMask:: INCBIN "gfx/minis/mew_mask.1bpp.lz"
 MewIcon::     INCBIN "gfx/icons/mew.2bpp.lz"
 
-SECTION "Chikorita Mini Icon", ROMX
-ChikoritaMini::     INCBIN "gfx/minis/chikorita.2bpp.lz"
-ChikoritaMiniMask:: INCBIN "gfx/minis/chikorita_mask.1bpp.lz"
-ChikoritaIcon::     INCBIN "gfx/icons/chikorita.2bpp.lz"
+SECTION "Turtwig Mini Icon", ROMX
+TurtwigMini::     INCBIN "gfx/minis/turtwig.2bpp.lz"
+TurtwigMiniMask:: INCBIN "gfx/minis/turtwig_mask.1bpp.lz"
+TurtwigIcon::     INCBIN "gfx/icons/turtwig.2bpp.lz"
 
 SECTION "Bayleef Mini Icon", ROMX
 BayleefMini::     INCBIN "gfx/minis/bayleef.2bpp.lz"

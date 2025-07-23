@@ -30,7 +30,7 @@ AlphabeticalPokedexOrder:
 	dp CHARIZARD
 	dp CHARMANDER
 	dp CHARMELEON
-	dp CHIKORITA
+	dp TURTWIG
 	dp CHINCHOU
 	dp CLEFABLE
 	dp CLEFAIRY

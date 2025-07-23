@@ -105,8 +105,8 @@ Route42LyraScript:
 	setlasttalked ROUTE42_LYRA
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
+	iftruefwd .Turtwig
 	loadtrainer LYRA1, LYRA1_7
 	sjumpfwd .AfterBattle
 
@@ -114,7 +114,7 @@ Route42LyraScript:
 	loadtrainer LYRA1, LYRA1_8
 	sjumpfwd .AfterBattle
 
-.Chikorita:
+.Turtwig:
 	loadtrainer LYRA1, LYRA1_9
 .AfterBattle
 	startbattle

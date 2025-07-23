@@ -151,7 +151,7 @@ FootprintPointers::
 	dw DragoniteFootprint
 	dw MewtwoFootprint
 	dw MewFootprint
-	dw ChikoritaFootprint
+	dw TurtwigFootprint
 	dw BayleefFootprint
 	dw MeganiumFootprint
 	dw CyndaquilFootprint

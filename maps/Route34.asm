@@ -111,8 +111,8 @@ Route34LyraTrigger2:
 	setevent EVENT_LYRA_ROUTE_34
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
+	iftruefwd .Turtwig
 	winlosstext Route34LyraWinText, Route34LyraLossText
 	setlasttalked ROUTE34_LYRA
 	loadtrainer LYRA1, LYRA1_4
@@ -133,7 +133,7 @@ Route34LyraTrigger2:
 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
 	sjumpfwd .AfterBattle
 
-.Chikorita:
+.Turtwig:
 	winlosstext Route34LyraWinText, Route34LyraLossText
 	setlasttalked ROUTE34_LYRA
 	loadtrainer LYRA1, LYRA1_6

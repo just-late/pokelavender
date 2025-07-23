@@ -178,7 +178,7 @@ WaterPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
     opentext
-    writetext AnabelTakesChikoritaText
+    writetext AnabelTakesTurtwigText
     closetext
     disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
@@ -199,17 +199,17 @@ TakeWaterMonText:
     text "Take Totodile?"
     done
 
-AnabelTakesChikoritaText:
+AnabelTakesTurtwigText:
     text "Anabel: Then I'll"
-    line "take Chikorita!"
+    line "take Turtwig!"
     done
 
 GrassPokeBallScript:
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
-    pokepic CHIKORITA
-    cry CHIKORITA
+    pokepic TURTWIG
+    cry TURTWIG
     waitbutton
     closepokepic
     opentext
@@ -217,11 +217,11 @@ GrassPokeBallScript:
     yesorno
     iffalse_jumpopenedtext DidntChooseMonText
     disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
-    setevent EVENT_GOT_CHIKORITA_FROM_ELDER
+    setevent EVENT_GOT_TURTWIG_FROM_ELDER
     writetext ChoseMonText
     promptbutton
     waitsfx
-    givepoke CHIKORITA, PLAIN_FORM, 5, ORAN_BERRY
+    givepoke TURTWIG, PLAIN_FORM, 5, ORAN_BERRY
     setscene $1
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
@@ -271,7 +271,7 @@ DidntChooseMonText:
     done
 
 TakeGrassMonText:
-    text "Take Chikorita?"
+    text "Take Turtwig?"
     done
 
 ChoseMonText:

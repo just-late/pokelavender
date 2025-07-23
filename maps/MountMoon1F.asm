@@ -45,8 +45,8 @@ MountMoon1FTrigger0:
 	showtext MountMoonRivalTextBefore
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
+	iftruefwd .Turtwig
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON1F_RIVAL
 	loadtrainer RIVAL2, 3
@@ -64,7 +64,7 @@ MountMoon1FTrigger0:
 	reloadmapafterbattle
 	sjumpfwd .FinishBattle
 
-.Chikorita:
+.Turtwig:
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON1F_RIVAL
 	loadtrainer RIVAL2, 2

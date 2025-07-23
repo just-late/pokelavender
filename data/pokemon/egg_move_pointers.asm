@@ -151,7 +151,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Dragonite
 	dw NoEggMoves             ; Mewtwo
 	dw NoEggMoves             ; Mew
-	dw ChikoritaEggMoves      ; Chikorita
+	dw TurtwigEggMoves      ; Turtwig
 	dw NoEggMoves             ; Bayleef
 	dw NoEggMoves             ; Meganium
 	dw CyndaquilEggMoves      ; Cyndaquil

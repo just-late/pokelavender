@@ -120,9 +120,9 @@ DayCareLadyScript:
 	promptbutton
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .GiveCyndaquilEgg
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .GiveTotodileEgg
-	giveegg CHIKORITA
+	giveegg TURTWIG
 	sjumpfwd .GotLyrasEgg
 
 .GiveCyndaquilEgg:

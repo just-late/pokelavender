@@ -155,7 +155,7 @@ PokemonPicPointers::
 	pics Dragonite
 	pics MewtwoPlain
 	pics Mew
-	pics Chikorita
+	pics Turtwig
 	pics Bayleef
 	pics Meganium
 	pics Cyndaquil

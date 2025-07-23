@@ -152,7 +152,7 @@ PokedexDataPointerTable:
 	dba DragonitePokedexEntry
 	dba MewtwoPlainPokedexEntry
 	dba MewPokedexEntry
-	dba ChikoritaPokedexEntry
+	dba TurtwigPokedexEntry
 	dba BayleefPokedexEntry
 	dba MeganiumPokedexEntry
 	dba CyndaquilPokedexEntry

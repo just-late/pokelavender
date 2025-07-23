@@ -103,8 +103,8 @@ CherrygroveRivalTriggerNorth:
 	showtext CherrygroveRivalText_Seen
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
+	iftruefwd .Turtwig
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL0, 3
@@ -125,7 +125,7 @@ CherrygroveRivalTriggerNorth:
 	reloadmap
 	sjumpfwd .FinishRival
 
-.Chikorita:
+.Turtwig:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL0, 2

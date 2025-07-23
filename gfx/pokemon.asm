@@ -464,9 +464,9 @@ SECTION "Mew Pics", ROMX
 MewFrontpic: INCBIN "gfx/pokemon/mew/front.animated.2bpp.lz"
 MewBackpic:  INCBIN "gfx/pokemon/mew/back.2bpp.lz"
 
-SECTION "Chikorita Pics", ROMX
-ChikoritaFrontpic: INCBIN "gfx/pokemon/chikorita/front.animated.2bpp.lz"
-ChikoritaBackpic:  INCBIN "gfx/pokemon/chikorita/back.2bpp.lz"
+SECTION "Turtwig Pics", ROMX
+TurtwigFrontpic: INCBIN "gfx/pokemon/turtwig/front.animated.2bpp.lz"
+TurtwigBackpic:  INCBIN "gfx/pokemon/turtwig/back.2bpp.lz"
 
 SECTION "Bayleef Pics", ROMX
 BayleefFrontpic: INCBIN "gfx/pokemon/bayleef/front.animated.2bpp.lz"

@@ -850,7 +850,7 @@ GetMonFramesPointer:
 	and EXTSPECIES_MASK
 	jr nz, .johto_frames
 	ld a, [wPokeAnimSpecies]
-	cp CHIKORITA
+	cp TURTWIG
 	; a = carry ? BANK(KantoFrames) : BANK(JohtoFrames)
 	assert BANK(KantoFrames) + 1 == BANK(JohtoFrames)
 .johto_frames

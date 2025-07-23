@@ -152,7 +152,7 @@ PokemonNames::
 	rawchar "Dragonite@"
 	rawchar "Mewtwo@@@@"
 	rawchar "Mew@@@@@@@"
-	rawchar "Chikorita@"
+	rawchar "Turtwig@@@"
 	rawchar "Bayleef@@@"
 	rawchar "Meganium@@"
 	rawchar "Cyndaquil@"

@@ -151,7 +151,7 @@ EvolutionMoves::
 	db WING_ATTACK  ; DRAGONITE
 	db NO_MOVE      ; MEWTWO
 	db NO_MOVE      ; MEW
-	db NO_MOVE      ; CHIKORITA
+	db NO_MOVE      ; TURTWIG
 	db NO_MOVE      ; BAYLEEF
 	db PETAL_DANCE  ; MEGANIUM
 	db NO_MOVE      ; CYNDAQUIL

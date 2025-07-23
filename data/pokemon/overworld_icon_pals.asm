@@ -155,7 +155,7 @@ OverworldMonIconColors::
 	iconpal ORANGE, BLUE ; DRAGONITE
 	iconpal PURPLE, GREEN ; MEWTWO
 	iconpal PINK, AZURE ; MEW
-	iconpal GREEN, RED ; CHIKORITA
+	iconpal GREEN, RED ; TURTWIG
 	iconpal GREEN, RED ; BAYLEEF
 	iconpal GREEN, RED ; MEGANIUM
 	iconpal RED, PINK ; CYNDAQUIL

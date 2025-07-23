@@ -2,7 +2,7 @@
 
 NewPokedexOrder:
 	table_width 2, NewPokedexOrder
-	dp CHIKORITA
+	dp TURTWIG
 	dp BAYLEEF
 	dp MEGANIUM
 	dp CYNDAQUIL

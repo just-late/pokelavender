@@ -80,8 +80,8 @@ AzaleaTownRivalBattleTrigger2:
 	setevent EVENT_RIVAL_AZALEA_TOWN
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
+	iftruefwd .Turtwig
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_6
@@ -99,7 +99,7 @@ AzaleaTownRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .AfterBattle
 
-.Chikorita:
+.Turtwig:
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_5

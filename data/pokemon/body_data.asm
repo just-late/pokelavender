@@ -158,7 +158,7 @@ PokemonBodyData:
 	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; DRAGONITE
 	body_data  20, 1220, BIPEDAL_TAIL, PURPLE ; MEWTWO
 	body_data   4,   40, BIPEDAL_TAIL, PINK   ; MEW
-	body_data   9,   64, QUADRUPED,    GREEN  ; CHIKORITA
+	body_data   9,   64, QUADRUPED,    GREEN  ; TURTWIG
 	body_data  12,  158, QUADRUPED,    GREEN  ; BAYLEEF
 	body_data  18, 1005, QUADRUPED,    GREEN  ; MEGANIUM
 	body_data   5,   79, BIPEDAL,      YELLOW ; CYNDAQUIL

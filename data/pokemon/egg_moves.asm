@@ -530,7 +530,7 @@ DratiniEggMoves:
 	db AQUA_JET
 	db $ff
 
-ChikoritaEggMoves:
+TurtwigEggMoves:
 	db LEECH_SEED
 	db VINE_WHIP
 	db ANCIENTPOWER

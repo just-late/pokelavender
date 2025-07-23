@@ -240,14 +240,14 @@ LyraPhoneScript2:
 .LyrasEgg:
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .lyrasegg_totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELDER
-	iftruefwd .lyrasegg_chikorita
+	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
+	iftruefwd .lyrasegg_turtwig
 	getstring .Chicory, $1
 	sjumpfwd .lyrasegg_end
 .lyrasegg_totodile
 	getstring .Cinder, $1
 	sjumpfwd .lyrasegg_end
-.lyrasegg_chikorita:
+.lyrasegg_turtwig:
 	getstring .Toto, $1
 .lyrasegg_end
 	farwritetext LyraPhoneSpecialText_LyrasEgg

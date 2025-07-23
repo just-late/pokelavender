@@ -3615,7 +3615,7 @@ MewEvosAttacks:
 	db 100, AURA_SPHERE
 	db -1 ; no more level-up moves
 
-ChikoritaEvosAttacks:
+TurtwigEvosAttacks:
 	evo_data EVOLVE_LEVEL, 16, BAYLEEF
 	db -1 ; no more evolutions
 	db 1, TACKLE

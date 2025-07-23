@@ -51,7 +51,7 @@ Cries:
 	fardw Cry_Sentret
 	fardw Cry_Slowking
 	fardw Cry_Cyndaquil
-	fardw Cry_Chikorita
+	fardw Cry_Turtwig
 	fardw Cry_Totodile
 	fardw Cry_Gligar
 	fardw Cry_Bellossom
