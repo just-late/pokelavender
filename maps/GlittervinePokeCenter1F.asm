@@ -13,7 +13,7 @@ GlittervinePokeCenter1F_MapScriptHeader:
 	def_bg_events
 	bg_event 10,  1, BGEVENT_READ, PokemonJournalRedScript
 
-	def_object_events
+	def_object_events ; db didn't work here
 	pc_nurse_event  5, 1
 	person_event SPRITE_TEACHER,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GlittervinePokeCenter1FNPC1Script, -1
 	person_event SPRITE_HIKER,  1,  8, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC2Text, -1
@@ -81,12 +81,12 @@ GlittervinePokeCenter1FNPC3Text:
 	done
 
 GlittervinePokeCenter1FNPC4Text:
-	text "#MON Journal"
+	text "#MON JOURNAL"
 	line "has such fascin-"
 	cont "ating stories!"
 
 	para "I come to #MON"
-	line "Centers for the"
+	line "CENTERS for the"
 
 	para "latest issues, but"
 	line "they're not the"

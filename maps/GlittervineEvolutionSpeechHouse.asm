@@ -11,21 +11,18 @@ GlittervineEvolutionSpeechHouse_MapScriptHeader:
 
 	def_bg_events
 
-	def_object_events
-	object_event  3,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptext, GlittervineEvolutionSpeechHouseLassText, -1
-	object_event  2,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptext, GlittervineEvolutionSpeechHouseYoungsterText, -1
+	db 1 ; object_events
+	person_event SPRITE_CUTE_GIRL,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptext, GlittervineEvolutionSpeechHouseNPC1Text, -1
 
-GlittervineEvolutionSpeechHouseYoungsterText:
-	text "#MON gain expe-"
-	line "rience in battle"
+GlittervineEvolutionSpeechHouseNPC1Text:
+	text "Did you know that"
+	line "when #MON gain"
+	
+	para "enough experience"
+	line "in battle, they"
+	cont "change form?"
 
-	para "and change their"
-	line "form."
-	done
-
-GlittervineEvolutionSpeechHouseLassText:
-	text "#MON change?"
-
-	para "I would be shocked"
-	line "if one did that!"
+	para "It's amazing what"
+	line "#MON PROFESSORS"
+	cont "have found out!"
 	done

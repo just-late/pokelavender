@@ -11,13 +11,13 @@ GlittervineTown_MapScriptHeader:
 	warp_event 31,  8, ROUTE_2_GLITTERVINE_GATE, 1
 	warp_event 31,  9, ROUTE_2_GLITTERVINE_GATE, 2
 	warp_event 14, 13, GLITTERVINE_TRAINERS_SCHOOL, 1
+	warp_event 17,  5, GLITTERVINE_GYM_SPEECH_HOUSE, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event 21, 13, BGEVENT_JUMPTEXT, GlittervineTownSignText
 	bg_event 15, 14, BGEVENT_JUMPTEXT, GlittervineTrainersSchoolSignText
-	bg_event 20,  5, BGEVENT_JUMPTEXT, GlittervineBennysHouseSignText
 	bg_event 31,  6, BGEVENT_ITEM + NUGGET, EVENT_GLITTERVINE_TOWN_HIDDEN_NUGGET
 
 	db 3 ; object_events

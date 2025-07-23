@@ -11,10 +11,10 @@ GlittervineMart_MapScriptHeader:
 
 	def_bg_events
 
-	def_object_events
-	object_event  1,  3, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GlittervineMartClerkScript, -1
-	object_event  7,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GlittervineMartCooltrainerMScript, -1
-	object_event  2,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineMartYoungsterText, -1
+	db 3 ; object_events
+	person_event SPRITE_CLERK,  3,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GlittervineMartClerkScript, -1
+	person_event SPRITE_COOL_DUDE,  6,  7, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GlittervineMartNPC1Script, -1
+	person_event SPRITE_CUTE_GIRL,  5,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineMartNPC2Text, -1
 
 GlittervineMartClerkScript:
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
@@ -24,25 +24,26 @@ GlittervineMartClerkScript:
 .AfterDex:
 	pokemart MARTTYPE_STANDARD, MART_GLITTERVINE_DEX
 
-GlittervineMartCooltrainerMScript:
+GlittervineMartNPC1Script:
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftrue_jumptextfaceplayer GlittervineMartCooltrainerMText_PokeBallsInStock
+	iftrue_jumptextfaceplayer GlittervineMartNPC1Text_PokeBallsInStock
 	jumpthistextfaceplayer
 
 	text "They're fresh out"
-	line "of # Balls!"
+	line "of # BALLS!"
 
 	para "When will they get"
 	line "more of them?"
 	done
 
-GlittervineMartCooltrainerMText_PokeBallsInStock:
-	text "# Balls are in"
-	line "stock! Now I can"
-	cont "catch #MON!"
+GlittervineMartNPC1Text_PokeBallsInStock:
+	text "# BALLS are in"
+	line "stock! I wonder"
+	cont "what held them"
+	cont "up."
 	done
 
-GlittervineMartYoungsterText:
+GlittervineMartNPC2Text:
 	text "When I was walking"
 	line "in the grass, a"
 
@@ -54,5 +55,5 @@ GlittervineMartYoungsterText:
 	cont "barely recovered."
 
 	para "You should keep an"
-	line "Antidote with you."
+	line "ANTIDOTE with you."
 	done

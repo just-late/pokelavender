@@ -171,13 +171,13 @@
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; aa
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; ab
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ac
-	tilecoll FLOOR, WALL, FLOOR, WALL ; ad
-	tilecoll FLOOR, FLOOR, WALL, FLOOR ; ae
+	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; ad
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; ae
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; af
 	tilecoll WATER, WATER, FLOOR, FLOOR ; b0
 	tilecoll FLOOR, FLOOR, WATER, WATER ; b1
-	tilecoll WALL, WALL, WALL, WALL ; b2
-	tilecoll WALL, WALL, WALL, WALL ; b3
+	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; b2
+	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; b3
 	tilecoll FLOOR, LEDGE_DOWN, HEADBUTT_TREE, WALL ; b4
 	tilecoll WALL, FLOOR, WALL, FLOOR ; b5
 	tilecoll FLOOR, WALL, FLOOR, WALL ; b6

@@ -106,8 +106,6 @@ OlivineGoodRodHouse_BlockData:
 GoldenrodBillsHouse_BlockData:
 GoldenrodNetBallHouse_BlockData:
 CianwoodCityPhotoStudio_BlockData:
-CherrygroveGymSpeechHouse_BlockData:
-GlittervineEvolutionSpeechHouse_BlockData:
 Route32CoastHouse_BlockData:
 ShamoutiHotel_BlockData:
 ShamoutiTouristCenter_BlockData:
@@ -200,6 +198,8 @@ EusinesHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
 SECTION "PlayersNeighborsHouse_BlockData:", ROMX
+GlittervineGymSpeechHouse_BlockData:
+GlittervineEvolutionSpeechHouse_BlockData:
 PlayersNeighborsHouse_BlockData:
 GemrootNPCHouse2_BlockData:
 	INCBIN "maps/House1.ablk.lz"

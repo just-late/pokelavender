@@ -827,7 +827,7 @@ ENDM
 	map_attributes SaffronRichSpeechHouse, SAFFRON_RICH_SPEECH_HOUSE, $0, 0
 	map_attributes GlittervineMart, GLITTERVINE_MART, $0, 0
 	map_attributes GlittervinePokeCenter1F, GLITTERVINE_POKECENTER_1F, $0, 0
-	map_attributes CherrygroveGymSpeechHouse, GLITTERVINE_GYM_SPEECH_HOUSE, $0, 0
+	map_attributes GlittervineGymSpeechHouse, GLITTERVINE_GYM_SPEECH_HOUSE, $0, 0
 	map_attributes GlittervineTrainersSchool, GLITTERVINE_TRAINERS_SCHOOL, $0, 0
 	map_attributes GuideGentsHouse, GUIDE_GENTS_HOUSE, $0, 0
 	map_attributes GlittervineEvolutionSpeechHouse, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, $0, 0
