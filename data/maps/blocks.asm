@@ -243,6 +243,10 @@ SECTION "GlittervineTown_BlockData", ROMX
 GlittervineTown_BlockData:
 	INCBIN "maps/GlittervineTown.ablk.lz"
 
+SECTION "GlittervineTrainersSchool_BlockData", ROMX
+GlittervineTrainersSchool_BlockData:
+	INCBIN "maps/GlittervineTrainersSchool.ablk.lz"
+
 SECTION "MrPokemonsHouse_BlockData", ROMX
 MrPokemonsHouse_BlockData:
 	INCBIN "maps/MrPokemonsHouse.ablk.lz"

@@ -90,6 +90,7 @@ INCLUDE "maps/GlittervineTown.asm"
 INCLUDE "maps/GlittervineMart.asm"
 INCLUDE "maps/GlittervineEvolutionSpeechHouse.asm"
 INCLUDE "maps/CherrygroveGymSpeechHouse.asm"
+INCLUDE "maps/GlittervineTrainersSchool.asm"
 INCLUDE "maps/GuideGentsHouse.asm"
 INCLUDE "maps/MrPokemonsHouse.asm"
 
