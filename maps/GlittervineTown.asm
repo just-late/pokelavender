@@ -13,9 +13,11 @@ GlittervineTown_MapScriptHeader:
 
 	def_bg_events
 	bg_event 21, 13, BGEVENT_JUMPTEXT, GlittervineTownSignText
+	bg_event 15, 14, BGEVENT_JUMPTEXT, GlittervineTrainersSchoolSignText
+	bg_event 20,  5, BGEVENT_JUMPTEXT, GlittervineBennysHouseSignText
 	bg_event 31,  6, BGEVENT_ITEM + NUGGET, EVENT_GLITTERVINE_TOWN_HIDDEN_NUGGET
 
-	db 3
+	db 3 ; object_events
 
 
 	object_const_def
@@ -23,6 +25,15 @@ GlittervineTown_MapScriptHeader:
 GlittervineTownFlyPoint:
 	setflag ENGINE_FLYPOINT_GLITTERVINE
 	endcallback
+
+GlittervineBennysHouseSignText:
+	text "BENNY's HOUSE"
+	done
+
+GlittervineTrainersSchoolSignText:
+	text "GLITTERVINE"
+	line "TRAINER's SCHOOL"
+	done
 
 GlittervineTownSignText:
 	text "GLITTERVINE TOWN"

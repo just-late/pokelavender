@@ -154,9 +154,9 @@ AttuvaTravelerScript:
 
 GrampsCommunityCenterText:
 	text "This is the"
-	line "Gemroot Town"
+	line "GEMROOT TOWN"
 
-	para "Community Center."
+	para "COMMUNITY CENTER."
 	line "They built it"
 	cont "when I was just a"
 
@@ -180,7 +180,7 @@ RiverGirlText:
 
 	para "over the river."
 	line "Sometimes I even"
-	cont "see Magikarp"
+	cont "see MAGIKARP"
 	cont "swimming by."
 	done
 
@@ -190,13 +190,13 @@ FatGuyTechnologyText:
 	cont "better and better!"
 
 	para "You can now access"
-	line "the #MON Box"
+	line "the #MON BOX"
 	cont "from your bag!"
 	done
 
 AttuvaTraveler1Text:
 	text "Hi! I'm traveling"
-	line "the Attuva Region"
+	line "the ATTUVA REGION"
 
 	para "searching for"
 	line "rare treasures."
@@ -226,22 +226,22 @@ IrresistibleSignText:
 	done
 
 PlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "<PLAYER>'s HOUSE"
 	done
 
 AnabelsHouseSignText:
-	text "Ari's House"
+	text "ANABEL's HOUSE"
 	done
 
 GemrootTownSignText:
-	text "Gemroot Town"
+	text "GEMROOT TOWN"
 
 	para "A home to the"
 	line "roots of adventure"
 	done
 
 CommunityCenterSignText:
-	text "Gemroot Town"
-	line "Community Center"
+	text "GEMROOT TOWN"
+	line "COMMUNITY CENTER"
 	done
 

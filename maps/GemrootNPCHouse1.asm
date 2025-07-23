@@ -51,7 +51,7 @@ TravelingBrothersText:
 	line "they've scattered"
 
 	para "themselves all"
-	line "over NORTH ATTUVA."
+	line "over ATTUVA."
 
 	para "They're all in"
 	line "search of a"

@@ -68,8 +68,11 @@ PlayerWalksToAnabel2:
     end
 
 PickYourMonScript:
+    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    iftruefwd .skip
     showtext ElderWaitPickMonText
     applyonemovement PLAYER, step_up
+.skip
     end
 
 GemrootElderGivesMonScript:
@@ -225,6 +228,7 @@ AnabelLeavesMovement:
 GemrootElderScript:
     faceplayer
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+    iffalsefwd .FindAnabel
     iftruefwd .GotMon
     opentext
     writetext ElderPickAMonText
@@ -238,6 +242,26 @@ GemrootElderScript:
     waitbutton
     closetext
     end
+
+.FindAnabel
+    opentext
+    writetext ElderFindAnabelText
+    waitbutton
+    closetext
+    end
+
+ElderFindAnabelText:
+    text "Hi, <PLAYER>."
+    line "Can you find"
+    cont "ANABEL for me?"
+
+    para "I want to get"
+    line "started on giving"
+    cont "you your #MON,"
+    
+    para "but I can't"
+    line "without her."
+    done
 
 GemrootAnabelScript:
     faceplayer
