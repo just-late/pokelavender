@@ -50,6 +50,7 @@ MomEventScript:
 	setevent EVENT_ANABEL_AT_HOME
 	setevent EVENT_ANABEL_BEDROOM_SCENE
 	setevent EVENT_ANABEL_HOUSE_SCENE
+	setevent EVENT_ANABEL_IN_COMMUNITYCENTER
 .InitialSetDSTFlag:
 	writetext MomDSTText
 	yesorno

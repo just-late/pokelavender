@@ -48,6 +48,7 @@ AnabelBedroomSceneScript:
     playsound SFX_ENTER_DOOR
     waitsfx
     setscene $1
+    clearevent EVENT_ANABEL_IN_COMMUNITYCENTER
     end
 
 AnabelBedroomSceneText1:
@@ -79,8 +80,10 @@ AnabelBedroomSceneText5:
     line "things."
 
     para "Anyway, I want"
-    line "you to meet me at"
-    cont "ROUTE 1."
+    line "you to meet me"
+    
+    para "in the COMMUNITY"
+    line "CENTER."
 
     para "See you there!"
     done

@@ -103,17 +103,25 @@ PokemonJournalProfElmScript:
 	done
 
 PlayersHousePC:
+	checkevent EVENT_MOM_SHOWED_HOW_TO_USE_PC
+	iffalsefwd .CoolBackground
 	opentext
-	writetext GoodTeamText
-	givepoke MUNCHLAX, 40
-	givepoke ESPEON, 40
-	givepoke BLASTOISE, 40
-	givepoke PIDGEOT, 40
-	givepoke MR__RIME, 40
-	givepoke MANTINE, 40
-	givetmhm HM_FLY
-	closetext
+	special Special_PlayersHousePC
+	iftruefwd .Warp
+	endtext
+.Warp
+	warp NONE, 0, 0
 	end
+
+.CoolBackground
+	jumpthistext
+
+	text "It's your PC."
+	
+	para "It has a cool"
+	line "desktop background"
+	cont "you picked out!"
+	done
 
 PlayerRadioText1:
 	text "Prof.Oak's #MON"
