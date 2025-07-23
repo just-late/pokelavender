@@ -1,0 +1,22 @@
+SongOrigins:
+	list_start SongOrigins
+	li "R/B"
+	li "Y"
+	li "G/S"
+	li "C"
+	li "R/S/E"
+	li "FR/LG"
+	li "D/P/Pt"
+	li "HG/SS"
+	li "B/W"
+	li "B2/W2"
+	li "X/Y"
+	li "OR/AS"
+	li "S/M"
+	li "Sw/Sh"
+	li "Stadium"
+	li "Go"
+	li "M02"
+	li "Prism"
+	li "Undertale"
+	assert_list_length NUM_SONG_ORIGINS
