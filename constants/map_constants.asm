@@ -575,8 +575,8 @@ ENDM
 	newgroup                                                     ; 26
 	map_const ROUTE_30,                                   13, 27 ;  1
 	map_const ROUTE_31,                                   22,  9 ;  2
-	map_const GLITTERVINE_BAY,                            15, 26 ;  3
-	map_const GLITTERVINE_TOWN,                           20, 11 ;  4
+	map_const CHERRYGROVE_BAY,                            15, 26 ;  3
+	map_const GLITTERVINE_TOWN,                           18, 11 ;  4
 	map_const GLITTERVINE_MART,                            6,  4 ;  5
 	map_const GLITTERVINE_POKECENTER_1F,                   6,  4 ;  6
 	map_const GLITTERVINE_GYM_SPEECH_HOUSE,                4,  4 ;  7

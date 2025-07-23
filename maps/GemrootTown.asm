@@ -95,6 +95,7 @@ AnabelEventTrigger:
 	checkevent EVENT_ANABEL_GEMROOT_SCENE
 	iftruefwd .End
 	appear GEMROOT_TOWN_ANABEL
+	playsound SFX_TACKLE
 	turnobject PLAYER, UP
 	applymovement PLAYER, PlayerJumpsBackMovement
 	applyonemovement GEMROOT_TOWN_ANABEL, step_down

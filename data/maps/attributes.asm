@@ -11,7 +11,8 @@ ENDM
 	map_attributes GemrootTown, GEMROOT_TOWN, $5, EAST
 	connection east, Route1, ROUTE_1, 0
 
-	map_attributes Route1, ROUTE_1, $5, WEST
+	map_attributes Route1, ROUTE_1, $5, NORTH | WEST
+	connection north, GlittervineTown, GLITTERVINE_TOWN, 0
 	connection west, GemrootTown, GEMROOT_TOWN, 0
 
 	map_attributes GlittervineTown, GLITTERVINE_TOWN, $5, SOUTH
@@ -86,7 +87,7 @@ ENDM
 	connection north, VioletCity, VIOLET_CITY, 0
 	connection south, Route33, ROUTE_33, 0
 	connection west, MagnetTunnelEast, MAGNET_TUNNEL_EAST, 9
-	connection east, GlittervineBay, GLITTERVINE_BAY, 12
+	connection east, CherrygroveBay, CHERRYGROVE_BAY, 12
 
 	map_attributes Route33, ROUTE_33, $5, NORTH | WEST
 	connection north, Route32, ROUTE_32, 0
@@ -356,13 +357,13 @@ ENDM
 	map_attributes Route48, ROUTE_48, $35, SOUTH
 	connection south, Route47, ROUTE_47, 0
 
-	map_attributes GlittervineBay, GLITTERVINE_BAY, $35, SOUTH | WEST | EAST
+	map_attributes CherrygroveBay, CHERRYGROVE_BAY, $35, SOUTH | WEST | EAST
 	connection south, Route32Coast, ROUTE_32_COAST, 0
 	connection west, Route32, ROUTE_32, -12
 	connection east, GlittervineTown, GLITTERVINE_TOWN, 15
 
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, NORTH
-	connection north, GlittervineBay, GLITTERVINE_BAY, 0
+	connection north, CherrygroveBay, CHERRYGROVE_BAY, 0
 
 	map_attributes VioletOutskirts, VIOLET_OUTSKIRTS, $5, NORTH | SOUTH
 	connection north, Route42, ROUTE_42, -5
@@ -826,7 +827,7 @@ ENDM
 	map_attributes SaffronRichSpeechHouse, SAFFRON_RICH_SPEECH_HOUSE, $0, 0
 	map_attributes GlittervineMart, GLITTERVINE_MART, $0, 0
 	map_attributes GlittervinePokeCenter1F, GLITTERVINE_POKECENTER_1F, $0, 0
-	map_attributes GlittervineGymSpeechHouse, GLITTERVINE_GYM_SPEECH_HOUSE, $0, 0
+	map_attributes CherrygroveGymSpeechHouse, GLITTERVINE_GYM_SPEECH_HOUSE, $0, 0
 	map_attributes GuideGentsHouse, GUIDE_GENTS_HOUSE, $0, 0
 	map_attributes GlittervineEvolutionSpeechHouse, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, $0, 0
 	map_attributes Route30BerrySpeechHouse, ROUTE_30_BERRY_SPEECH_HOUSE, $0, 0

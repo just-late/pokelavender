@@ -1933,7 +1933,7 @@
 	wildmon LEVEL_FROM_BADGES - 1, RATICATE, ALOLAN_FORM
 	end_grass_wildmons
 
-	def_grass_wildmons GLITTERVINE_BAY
+	def_grass_wildmons CHERRYGROVE_BAY
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM

@@ -1,4 +1,4 @@
-GlittervineGymSpeechHouse_MapScriptHeader:
+CherrygroveGymSpeechHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -12,10 +12,10 @@ GlittervineGymSpeechHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineGymSpeechHousePokefanMText, -1
-	object_event  5,  5, SPRITE_CHILD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineGymSpeechHouseBugCatcherText, -1
+	object_event  2,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, CherrygroveGymSpeechHousePokefanMText, -1
+	object_event  5,  5, SPRITE_CHILD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, CherrygroveGymSpeechHouseBugCatcherText, -1
 
-GlittervineGymSpeechHousePokefanMText:
+CherrygroveGymSpeechHousePokefanMText:
 	text "You're trying to"
 	line "see how good you"
 
@@ -29,7 +29,7 @@ GlittervineGymSpeechHousePokefanMText:
 	line "collect Badges."
 	done
 
-GlittervineGymSpeechHouseBugCatcherText:
+CherrygroveGymSpeechHouseBugCatcherText:
 	text "When I get older,"
 	line "I'm going to be a"
 	cont "Gym Leader!"

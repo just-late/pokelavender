@@ -308,7 +308,7 @@
 	wildmon 70, POLIWHIRL
 	end_water_wildmons
 
-	def_water_wildmons GLITTERVINE_BAY
+	def_water_wildmons CHERRYGROVE_BAY
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
 	wildmon LEVEL_FROM_BADGES - 5, TENTACOOL

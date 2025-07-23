@@ -105,7 +105,7 @@ OlivineGoodRodHouse_BlockData:
 GoldenrodBillsHouse_BlockData:
 GoldenrodNetBallHouse_BlockData:
 CianwoodCityPhotoStudio_BlockData:
-GlittervineGymSpeechHouse_BlockData:
+CherrygroveGymSpeechHouse_BlockData:
 GlittervineEvolutionSpeechHouse_BlockData:
 Route32CoastHouse_BlockData:
 ShamoutiHotel_BlockData:
@@ -246,9 +246,9 @@ SECTION "MrPokemonsHouse_BlockData", ROMX
 MrPokemonsHouse_BlockData:
 	INCBIN "maps/MrPokemonsHouse.ablk.lz"
 
-SECTION "GlittervineBay_BlockData", ROMX
-GlittervineBay_BlockData:
-	INCBIN "maps/GlittervineBay.ablk.lz"
+SECTION "CherrygroveBay_BlockData", ROMX
+CherrygroveBay_BlockData:
+	INCBIN "maps/CherrygroveBay.ablk.lz"
 
 SECTION "Route32Coast_BlockData", ROMX
 Route32Coast_BlockData:

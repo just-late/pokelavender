@@ -7,7 +7,6 @@ PlayersHouse2F_MapScriptHeader:
 
 	def_warp_events
 	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
-	warp_event  3,  8, SNOWTOP_MOUNTAIN_OUTSIDE, 1
 
 	def_coord_events
 

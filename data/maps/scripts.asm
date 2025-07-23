@@ -89,14 +89,14 @@ SECTION "Glittervine Scripts", ROMX
 INCLUDE "maps/GlittervineTown.asm"
 INCLUDE "maps/GlittervineMart.asm"
 INCLUDE "maps/GlittervineEvolutionSpeechHouse.asm"
-INCLUDE "maps/GlittervineGymSpeechHouse.asm"
+INCLUDE "maps/CherrygroveGymSpeechHouse.asm"
 INCLUDE "maps/GuideGentsHouse.asm"
 INCLUDE "maps/MrPokemonsHouse.asm"
 
 
 SECTION "Glittervine Bay Scripts", ROMX
 
-INCLUDE "maps/GlittervineBay.asm"
+INCLUDE "maps/CherrygroveBay.asm"
 INCLUDE "maps/Route32Coast.asm"
 INCLUDE "maps/Route32CoastHouse.asm"
 

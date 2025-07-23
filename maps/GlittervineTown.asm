@@ -17,7 +17,7 @@ GlittervineTown_MapScriptHeader:
 	bg_event 21, 13, BGEVENT_JUMPTEXT, GlittervineTownSignText
 	bg_event 31,  6, BGEVENT_ITEM + NUGGET, EVENT_GLITTERVINE_TOWN_HIDDEN_NUGGET
 
-	db 5
+	db 1
 	person_event SPRITE_ANABEL,  8, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANABEL_GLITTERVINE_TOWN
 
 	object_const_def
@@ -28,15 +28,16 @@ GlittervineTownFlyPoint:
 	endcallback
 
 GlittervineRivalTriggerSouth:
-	moveobject GLITTERVINETOWN_RIVAL, 39, 7
-GlittervineRivalTriggerNorth:
-	turnobject PLAYER, RIGHT
-	showemote EMOTE_SHOCK, PLAYER, 15
-	special Special_FadeOutMusic
-	pause 15
+	turnobject GLITTERVINETOWN_RIVAL, DOWN
 	appear GLITTERVINETOWN_RIVAL
-	applymovement GLITTERVINETOWN_RIVAL, GlittervineTown_RivalWalksToYou
-	turnobject PLAYER, RIGHT
+	turnobject PLAYER, UP
+	sjumpfwd RivalBattle
+GlittervineRivalTriggerNorth:
+	playsound SFX_TACKLE
+	appear GLITTERVINETOWN_RIVAL
+	turnobject PLAYER, UP
+	applymovement PLAYER, GlittervineTown_PlayerJumpsBackMovement
+RivalBattle:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext GlittervineRivalText_Seen
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
@@ -75,21 +76,28 @@ GlittervineRivalTriggerNorth:
 .FinishRival:
 	special DeleteSavedMusic
 	playmusic MUSIC_RIVAL_AFTER
-	showtext GlittervineRivalTextAfter1
-	playsound SFX_TACKLE
-	applymovement PLAYER, GlittervineTown_RivalPushesYouOutOfTheWay
-	applymovement GLITTERVINETOWN_RIVAL, GlittervineTown_RivalStartsToLeave
-	showemote EMOTE_SHOCK, GLITTERVINETOWN_RIVAL, 15
-	applymovement GLITTERVINETOWN_RIVAL, GlittervineTown_RivalComesBack
-	turnobject PLAYER, UP
-	showtext GlittervineRivalTextAfter2
-	turnobject PLAYER, LEFT
-	applymovement GLITTERVINETOWN_RIVAL, GlittervineTown_RivalExitsStageLeft
+	showtext GlittervineRivalTextAfter
+	applymovement GLITTERVINETOWN_RIVAL, GlittervineTown_RivalLeaves
 	disappear GLITTERVINETOWN_RIVAL
 	special HealPartyEvenForNuzlocke
 	setscene $2
 	playmusic MUSIC_CHERRYGROVE_CITY
 	end
+
+GlittervineTown_PlayerJumpsBackMovement:
+	fix_facing
+	step_down
+	remove_fixed_facing
+	step_end
+
+GlittervineTown_RivalLeaves:
+	step_left
+	step_left
+	step_left
+	step_left
+	step_up
+	step_left
+	step_end
 
 GlittervineRivalText_Seen:
 	text "ANABEL: Hey,"
@@ -131,7 +139,7 @@ RivalGlittervineLossText:
 	cont "better!"
 	done
 
-GlittervineRivalTextAfter1:
+GlittervineRivalTextAfter:
 	text "…… …… ……"
 
 	para "Look, <PLAYER>."
