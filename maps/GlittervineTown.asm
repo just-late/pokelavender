@@ -18,13 +18,49 @@ GlittervineTown_MapScriptHeader:
 	bg_event 31,  6, BGEVENT_ITEM + NUGGET, EVENT_GLITTERVINE_TOWN_HIDDEN_NUGGET
 
 	db 3 ; object_events
-
+	person_event SPRITE_POKEFAN_F,  7, 21, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC1Text, -1
+	person_event SPRITE_GRAMPS, 16, 20, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC2Text, -1
+	person_event SPRITE_TWIN, 11, 29, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 2, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC3Text, -1
 
 	object_const_def
 
 GlittervineTownFlyPoint:
 	setflag ENGINE_FLYPOINT_GLITTERVINE
 	endcallback
+
+GlittervineNPC1Text:
+	text "Hello!"
+	
+	para "Are you new here?"
+
+	para "We try to keep it"
+	line "clean and quiet"
+	cont "here in"
+	cont "GLITTERVINE TOWN."
+	done
+
+GlittervineNPC2Text:
+	text "I moved here when"
+	line "I was 17 years"
+	cont "old."
+
+	para "It seemed like a"
+	line "dream back then."
+
+	para "In fact, the"
+	line "school wasn't even"
+	cont "built yet!"
+	done
+
+GlittervineNPC3Text:
+	text "I go to the"
+	line "#MON TRAINER's"
+	cont "school everyday."
+
+	para "I love to study"
+	line "with my partner"
+	cont "MAREEP!"
+	done
 
 GlittervineBennysHouseSignText:
 	text "BENNY's HOUSE"

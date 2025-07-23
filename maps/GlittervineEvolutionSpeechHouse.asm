@@ -4,8 +4,8 @@ GlittervineEvolutionSpeechHouse_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, GLITTERVINE_TOWN, 5
-	warp_event  3,  7, GLITTERVINE_TOWN, 5
+	warp_event  2,  7, GLITTERVINE_TOWN, 3
+	warp_event  3,  7, GLITTERVINE_TOWN, 3
 
 	def_coord_events
 
