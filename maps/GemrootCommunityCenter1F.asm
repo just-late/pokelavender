@@ -141,8 +141,8 @@ TakeFireMonText:
     done
 
 AnabelTakesTotodileText:
-    text "Then I'll take"
-    line "Totodile!"
+    text "Anabel: Then I'll"
+    line "take Totodile!"
     done
 
 WaterPokeBallScript:
@@ -166,16 +166,35 @@ WaterPokeBallScript:
     setscene $1
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
+    turnobject PLAYER, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+    opentext
+    writetext AnabelTakesChikoritaText
+    closetext
+    disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
-    turnobject PLAYER, RIGHT
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+    turnobject GEMROOT_COMMUNITYCENTER_ELDER, UP
     opentext
     writetext ElderAdventureText
     closetext
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     end
 
 TakeWaterMonText:
     text "Take Totodile?"
+    done
+
+AnabelTakesChikoritaText:
+    text "Anabel: Then I'll"
+    line "take Chikorita!"
     done
 
 GrassPokeBallScript:
@@ -199,13 +218,30 @@ GrassPokeBallScript:
     setscene $1
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
+    turnobject PLAYER, DOWN
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+    opentext
+    writetext AnabelTakesCyndaquilText
+    closetext
+    disappear GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
+    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, slow_step_right
+    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, DOWN
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
-    turnobject GEMROOT_COMMUNITYCENTER_ELDER, LEFT
-    turnobject PLAYER, RIGHT
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+    turnobject GEMROOT_COMMUNITYCENTER_ELDER, UP
     opentext
     writetext ElderAdventureText
     closetext
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     end
+
+AnabelTakesCyndaquilText:
+    text "Anabel: Then I'll"
+    line "take Cyndaquil!"
+    done
 
 AnabelCutePokemonText:
     text "I think your"
@@ -259,7 +295,7 @@ ElderAdventureText:
 
 ElderGemrootTraditionText:
     text "Elder: Hello,"
-    line "<PLAYER>. Today"
+    line "children. Today"
     cont "is the day"
 
     para "you get to pick"
