@@ -1,7 +1,7 @@
 Marts:
 	table_width 2, Marts
-	dw CherrygroveMart
-	dw CherrygroveMartAfterDex
+	dw GlittervineMart
+	dw GlittervineMartAfterDex
 	dw VioletMart
 	dw AzaleaMart
 	dw Goldenrod2FMart1
@@ -46,7 +46,7 @@ Marts:
 	dw BattleFactoryMart3
 	assert_table_length NUM_MARTS
 
-CherrygroveMart:
+GlittervineMart:
 	db 4 ; # items
 	db POTION
 	db ANTIDOTE
@@ -54,7 +54,7 @@ CherrygroveMart:
 	db AWAKENING
 	db -1
 
-CherrygroveMartAfterDex:
+GlittervineMartAfterDex:
 	db 6 ; # items
 	db POKE_BALL
 	db HEAL_BALL

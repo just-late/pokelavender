@@ -9,8 +9,8 @@ Landmarks:
 	landmark  -8, -16, SpecialMapName
 	landmark  60, 100, GemrootTownName
 	landmark  68,  98, Route1Name
-	landmark  68,  76, CherrygroveCityName
-	landmark  66,  74, CherrygroveBayName
+	landmark  68,  76, GlittervineTownName
+	landmark  66,  74, GlittervineBayName
 	landmark  76,  76, Route30Name
 	landmark  96,  60, Route31Name
 	landmark  84,  60, VioletCityName
@@ -155,7 +155,7 @@ Landmarks:
 
 GemrootTownName:       rawchar "Gemroot¯Town@"
 GemrootWoodsName:      rawchar "Gemroot¯Woods@"
-CherrygroveCityName:   rawchar "Cherrygrove¯City@"
+GlittervineTownName:   rawchar "Glittervine¯City@"
 VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"
 GoldenrodCityName:     rawchar "Goldenrod¯City@"
@@ -267,7 +267,7 @@ CliffEdgeGateName:     rawchar "Cliff Edge¯Gate@"
 CliffCaveName:         rawchar "Cliff Cave@"
 YellowForestName:      rawchar "Yellow¯Forest@"
 QuietCaveName:         rawchar "Quiet Cave@"
-CherrygroveBayName:    rawchar "Cherrygrove¯Bay@"
+GlittervineBayName:    rawchar "Glittervine¯Bay@"
 GoldenrodHarborName:   rawchar "Goldenrod¯Harbor@"
 MagnetTunnelName:      rawchar "Magnet¯Tunnel@"
 Route32CoastName:      rawchar "Route 32¯Coast@"

@@ -1,6 +1,6 @@
 SECTION "Pokemon Center Scripts 1", ROMX
 
-INCLUDE "maps/CherrygrovePokeCenter1F.asm"
+INCLUDE "maps/GlittervinePokeCenter1F.asm"
 INCLUDE "maps/VioletPokeCenter1F.asm"
 INCLUDE "maps/AzaleaPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
@@ -84,19 +84,19 @@ INCLUDE "maps/PlayersHouse2F.asm"
 INCLUDE "maps/AnabelsHouse1F.asm"
 INCLUDE "maps/AnabelsHouse2F.asm"
 
-SECTION "Cherrygrove Scripts", ROMX
+SECTION "Glittervine Scripts", ROMX
 
-INCLUDE "maps/CherrygroveCity.asm"
-INCLUDE "maps/CherrygroveMart.asm"
-INCLUDE "maps/CherrygroveEvolutionSpeechHouse.asm"
-INCLUDE "maps/CherrygroveGymSpeechHouse.asm"
+INCLUDE "maps/GlittervineTown.asm"
+INCLUDE "maps/GlittervineMart.asm"
+INCLUDE "maps/GlittervineEvolutionSpeechHouse.asm"
+INCLUDE "maps/GlittervineGymSpeechHouse.asm"
 INCLUDE "maps/GuideGentsHouse.asm"
 INCLUDE "maps/MrPokemonsHouse.asm"
 
 
-SECTION "Cherrygrove Bay Scripts", ROMX
+SECTION "Glittervine Bay Scripts", ROMX
 
-INCLUDE "maps/CherrygroveBay.asm"
+INCLUDE "maps/GlittervineBay.asm"
 INCLUDE "maps/Route32Coast.asm"
 INCLUDE "maps/Route32CoastHouse.asm"
 

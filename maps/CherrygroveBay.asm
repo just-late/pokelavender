@@ -1,4 +1,4 @@
-CherrygroveBay_MapScriptHeader:
+GlittervineBay_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -9,39 +9,39 @@ CherrygroveBay_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 21, 21, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_CHERRYGROVE_BAY
-	bg_event 22, 21, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_CHERRYGROVE_BAY
+	bg_event 21, 21, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_GLITTERVINE_BAY
+	bg_event 22, 21, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_GLITTERVINE_BAY
 
 	def_object_events
-	object_event  9, 32, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, CherrygroveBayHikerScript, -1
+	object_event  9, 32, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GlittervineBayHikerScript, -1
 	object_event 23, 25, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerTony, -1
-	object_event 15, 43, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, CherrygroveBayFisherText, -1
+	object_event 15, 43, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineBayFisherText, -1
 	object_event  7, 39, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSwimmermThomas, -1
 	object_event  7, 22, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerSwimmerfSally, -1
 	object_event 22, 39, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerSwimmerfTara, -1
-	itemball_event 22, 23, SHINY_STONE, 1, EVENT_CHERRYGROVE_BAY_SHINY_STONE
-	cuttree_event -1,  8, EVENT_CHERRYGROVE_BAY_CUT_TREE
-	fruittree_event  8,  9, FRUITTREE_CHERRYGROVE_BAY_1, POMEG_BERRY, PAL_NPC_RED
-	fruittree_event  7, 11, FRUITTREE_CHERRYGROVE_BAY_2, KELPSY_BERRY, PAL_NPC_BLUE
-	fruittree_event  8, 13, FRUITTREE_CHERRYGROVE_BAY_3, QUALOT_BERRY, PAL_NPC_PINK
-	fruittree_event 14,  9, FRUITTREE_CHERRYGROVE_BAY_4, HONDEW_BERRY, PAL_NPC_GREEN
-	fruittree_event 15, 11, FRUITTREE_CHERRYGROVE_BAY_5, GREPA_BERRY, PAL_NPC_YELLOW
-	fruittree_event 14, 13, FRUITTREE_CHERRYGROVE_BAY_6, TAMATO_BERRY, PAL_NPC_RED
+	itemball_event 22, 23, SHINY_STONE, 1, EVENT_GLITTERVINE_BAY_SHINY_STONE
+	cuttree_event -1,  8, EVENT_GLITTERVINE_BAY_CUT_TREE
+	fruittree_event  8,  9, FRUITTREE_GLITTERVINE_BAY_1, POMEG_BERRY, PAL_NPC_RED
+	fruittree_event  7, 11, FRUITTREE_GLITTERVINE_BAY_2, KELPSY_BERRY, PAL_NPC_BLUE
+	fruittree_event  8, 13, FRUITTREE_GLITTERVINE_BAY_3, QUALOT_BERRY, PAL_NPC_PINK
+	fruittree_event 14,  9, FRUITTREE_GLITTERVINE_BAY_4, HONDEW_BERRY, PAL_NPC_GREEN
+	fruittree_event 15, 11, FRUITTREE_GLITTERVINE_BAY_5, GREPA_BERRY, PAL_NPC_YELLOW
+	fruittree_event 14, 13, FRUITTREE_GLITTERVINE_BAY_6, TAMATO_BERRY, PAL_NPC_RED
 
-CherrygroveBayHikerScript:
+GlittervineBayHikerScript:
 	faceplayer
 	opentext
 	checkevent EVENT_LISTENED_TO_EARTH_POWER_INTRO
-	iftruefwd CherrygroveBayTutorEarthPowerScript
-	writetext CherrygroveBayHikerText
+	iftruefwd GlittervineBayTutorEarthPowerScript
+	writetext GlittervineBayHikerText
 	waitbutton
 	setevent EVENT_LISTENED_TO_EARTH_POWER_INTRO
-CherrygroveBayTutorEarthPowerScript:
-	writetext Text_CherrygroveBayTutorEarthPower
+GlittervineBayTutorEarthPowerScript:
+	writetext Text_GlittervineBayTutorEarthPower
 	waitbutton
 	checkitem SILVER_LEAF
 	iffalsefwd .NoSilverLeaf
-	writetext Text_CherrygroveBayTutorQuestion
+	writetext Text_GlittervineBayTutorQuestion
 	yesorno
 	iffalsefwd .TutorRefused
 	setval EARTH_POWER
@@ -49,14 +49,14 @@ CherrygroveBayTutorEarthPowerScript:
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove
 .TutorRefused
-	jumpopenedtext Text_CherrygroveBayTutorRefused
+	jumpopenedtext Text_GlittervineBayTutorRefused
 
 .NoSilverLeaf
-	jumpopenedtext Text_CherrygroveBayTutorNoSilverLeaf
+	jumpopenedtext Text_GlittervineBayTutorNoSilverLeaf
 
 .TeachMove
 	takeitem SILVER_LEAF
-	jumpopenedtext Text_CherrygroveBayTutorTaught
+	jumpopenedtext Text_GlittervineBayTutorTaught
 
 GenericTrainerSwimmermThomas:
 	generictrainer SWIMMERM, THOMAS, EVENT_BEAT_SWIMMERM_THOMAS, .SeenText, .BeatenText
@@ -139,15 +139,15 @@ GenericTrainerHikerTony:
 	text "I'm exhausted…"
 	done
 
-CherrygroveBayFisherText:
+GlittervineBayFisherText:
 	text "I can watch"
-	line "Cherrygrove City"
+	line "Glittervine Town"
 
 	para "from afar while"
 	line "I fish."
 	done
 
-CherrygroveBayHikerText:
+GlittervineBayHikerText:
 	text "I don't believe in"
 	line "legendary #MON"
 	cont "creation myths."
@@ -159,7 +159,7 @@ CherrygroveBayHikerText:
 	line "of the earth!"
 	done
 
-Text_CherrygroveBayTutorEarthPower:
+Text_GlittervineBayTutorEarthPower:
 	text "I can teach your"
 	line "#MON how to"
 
@@ -167,22 +167,22 @@ Text_CherrygroveBayTutorEarthPower:
 	line "for a Silver Leaf."
 	done
 
-Text_CherrygroveBayTutorNoSilverLeaf:
+Text_GlittervineBayTutorNoSilverLeaf:
 	text "You don't have any"
 	line "Silver Leaves…"
 	done
 
-Text_CherrygroveBayTutorQuestion:
+Text_GlittervineBayTutorQuestion:
 	text "Should I teach"
 	line "your #MON"
 	cont "Earth Power?"
 	done
 
-Text_CherrygroveBayTutorRefused:
+Text_GlittervineBayTutorRefused:
 	text "Oh well."
 	done
 
-Text_CherrygroveBayTutorTaught:
+Text_GlittervineBayTutorTaught:
 	text "Now your #MON"
 	line "knows how to use"
 	cont "Earth Power."

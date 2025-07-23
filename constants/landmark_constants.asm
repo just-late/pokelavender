@@ -4,8 +4,8 @@
 ; Johto landmarks
 	const GEMROOT_TOWN       ; 01
 	const ROUTE_1            ; 02
-	const CHERRYGROVE_CITY   ; 03
-	const CHERRYGROVE_BAY    ; 04
+	const GLITTERVINE_TOWN   ; 03
+	const GLITTERVINE_BAY    ; 04
 	const ROUTE_30           ; 05
 	const ROUTE_31           ; 06
 	const VIOLET_CITY        ; 07

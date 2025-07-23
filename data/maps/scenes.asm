@@ -22,7 +22,7 @@ MapScenes::
 	scene_var CERULEAN_CAPE,                          wCeruleanCapeSceneID
 	scene_var CERULEAN_CAVE_1F,                       wCeruleanCave1FSceneID
 	scene_var CERULEAN_GYM,                           wCeruleanGymSceneID
-	scene_var CHERRYGROVE_CITY,                       wCherrygroveCitySceneID
+	scene_var GLITTERVINE_TOWN,                       wGlittervineTownSceneID
 	scene_var CIANWOOD_CITY,                          wCianwoodCitySceneID
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID

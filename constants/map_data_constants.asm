@@ -102,7 +102,7 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_INDIGO
 ; johto
 	const SPAWN_NEW_BARK
-	const SPAWN_CHERRYGROVE
+	const SPAWN_GLITTERVINE
 	const SPAWN_VIOLET
 	const SPAWN_UNION_CAVE
 	const SPAWN_AZALEA
@@ -129,7 +129,7 @@ DEF SPAWN_N_A EQU -1
 	const_def
 ; johto
 	const FLY_NEW_BARK
-	const FLY_CHERRYGROVE
+	const FLY_GLITTERVINE
 	const FLY_VIOLET
 	const FLY_UNION_CAVE
 	const FLY_AZALEA

@@ -81,8 +81,8 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Generic
 	dw .GemrootTown
 	dw .Route1
-	dw .CherrygroveCity
-	dw .CherrygroveBay
+	dw .GlittervineTown
+	dw .GlittervineBay
 	dw .Route30
 	dw .Route31
 	dw .VioletCity
@@ -150,8 +150,8 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Generic:
 .GemrootTown:
 .Route1:
-.CherrygroveCity:
-.CherrygroveBay:
+.GlittervineTown:
+.GlittervineBay:
 .Route30:
 .Route31:
 .VioletCity:

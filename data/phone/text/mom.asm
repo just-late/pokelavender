@@ -41,7 +41,7 @@ MomPhoneNewBarkText:
 	line "sometime!"
 	done
 
-MomPhoneCherrygroveText:
+MomPhoneGlittervineText:
 	text "You're visiting"
 	line ""
 	text_ram wStringBuffer3

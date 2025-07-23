@@ -15,8 +15,8 @@
 
 ; Marts indexes (see data/items/marts.asm)
 	const_def
-	const MART_CHERRYGROVE
-	const MART_CHERRYGROVE_DEX
+	const MART_GLITTERVINE
+	const MART_GLITTERVINE_DEX
 	const MART_VIOLET
 	const MART_AZALEA
 	const MART_GOLDENROD_2F_1

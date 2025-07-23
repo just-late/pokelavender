@@ -1,6 +1,6 @@
 SECTION "Special Map Blockdata", ROMX
 
-CherrygrovePokeCenter1F_BlockData:
+GlittervinePokeCenter1F_BlockData:
 VioletPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
@@ -33,7 +33,7 @@ CinnabarPokeCenter1F_BlockData:
 KantoPokeCenter2F_BlockData:
 	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
 
-CherrygroveMart_BlockData:
+GlittervineMart_BlockData:
 VioletMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
@@ -105,8 +105,8 @@ OlivineGoodRodHouse_BlockData:
 GoldenrodBillsHouse_BlockData:
 GoldenrodNetBallHouse_BlockData:
 CianwoodCityPhotoStudio_BlockData:
-CherrygroveGymSpeechHouse_BlockData:
-CherrygroveEvolutionSpeechHouse_BlockData:
+GlittervineGymSpeechHouse_BlockData:
+GlittervineEvolutionSpeechHouse_BlockData:
 Route32CoastHouse_BlockData:
 ShamoutiHotel_BlockData:
 ShamoutiTouristCenter_BlockData:
@@ -238,17 +238,17 @@ SECTION "AnabelsHouse2F_BlockData", ROMX
 AnabelsHouse2F_BlockData:
 	INCBIN "maps/AnabelsHouse2F.ablk.lz"
 
-SECTION "CherrygroveCity_BlockData", ROMX
-CherrygroveCity_BlockData:
-	INCBIN "maps/CherrygroveCity.ablk.lz"
+SECTION "GlittervineTown_BlockData", ROMX
+GlittervineTown_BlockData:
+	INCBIN "maps/GlittervineTown.ablk.lz"
 
 SECTION "MrPokemonsHouse_BlockData", ROMX
 MrPokemonsHouse_BlockData:
 	INCBIN "maps/MrPokemonsHouse.ablk.lz"
 
-SECTION "CherrygroveBay_BlockData", ROMX
-CherrygroveBay_BlockData:
-	INCBIN "maps/CherrygroveBay.ablk.lz"
+SECTION "GlittervineBay_BlockData", ROMX
+GlittervineBay_BlockData:
+	INCBIN "maps/GlittervineBay.ablk.lz"
 
 SECTION "Route32Coast_BlockData", ROMX
 Route32Coast_BlockData:

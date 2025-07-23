@@ -25,8 +25,8 @@ SpawnPoints:
 	spawn CINNABAR_ISLAND,            11, 16
 	spawn INDIGO_PLATEAU,             11,  6
 
-	spawn GEMROOT_TOWN,              15,  6
-	spawn CHERRYGROVE_CITY,           29,  4
+	spawn GEMROOT_TOWN,               27, 20
+	spawn GLITTERVINE_TOWN,           25, 14
 	spawn VIOLET_CITY,                31, 26
 	spawn ROUTE_32,                   11, 74
 	spawn AZALEA_TOWN,                15, 10

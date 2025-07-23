@@ -1057,7 +1057,7 @@ wBurnedTowerB1FSceneID:: db
 wCeruleanCapeSceneID:: db
 wCeruleanCave1FSceneID:: db
 wCeruleanGymSceneID:: db
-wCherrygroveCitySceneID:: db
+wGlittervineTownSceneID:: db
 wCianwoodCitySceneID:: db
 wCinnabarLabSceneID:: db
 wColosseumSceneID:: db

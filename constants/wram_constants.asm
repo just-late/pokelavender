@@ -372,7 +372,7 @@ DEF DAYCARELADY_ACTIVE_F         EQU 7
 	const BRUNO_JOURNAL ; Pokémon Trainer Fan Club
 	const KAREN_JOURNAL ; Mt. Moon Pokémon Center
 	const LANCE_JOURNAL ; Silver Cave Pokémon Center
-	const RED_JOURNAL ; Cherrygrove Pokémon Center
+	const RED_JOURNAL ; Glittervine Pokémon Center
 	const GREEN_JOURNAL ; Pokémon Fan Club
 	const PROF_OAK_JOURNAL ; Red's house, Blue's house
 	const PROF_ELM_JOURNAL ; Kris's house, Lyra's house

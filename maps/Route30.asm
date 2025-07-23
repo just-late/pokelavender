@@ -304,7 +304,7 @@ Route30CooltrainerFText:
 Route30SignText:
 	text "Route 30"
 
-	para "Cherrygrove City -"
+	para "Glittervine Town -"
 	line "Violet City"
 	done
 

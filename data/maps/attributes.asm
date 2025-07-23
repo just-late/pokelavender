@@ -14,9 +14,8 @@ ENDM
 	map_attributes Route1, ROUTE_1, $5, WEST
 	connection west, GemrootTown, GEMROOT_TOWN, 0
 
-	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $5, NORTH | WEST | EAST
-	connection north, Route30, ROUTE_30, 5
-	connection west, CherrygroveBay, CHERRYGROVE_BAY, -15
+	map_attributes GlittervineTown, GLITTERVINE_TOWN, $5, SOUTH
+	connection south, Route1, ROUTE_1, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $5, NORTH | SOUTH | WEST | EAST
 	connection north, VioletOutskirts, VIOLET_OUTSKIRTS, 0
@@ -72,12 +71,12 @@ ENDM
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -6
 
 	connection north, Route46, ROUTE_46, 10
-	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
+	connection west, GlittervineTown, GLITTERVINE_TOWN, 0
 	connection east, GemrootTown, GEMROOT_TOWN, 0
 
 	map_attributes Route30, ROUTE_30, $5, NORTH | SOUTH
 	connection north, Route31, ROUTE_31, -10
-	connection south, CherrygroveCity, CHERRYGROVE_CITY, -5
+	connection south, GlittervineTown, GLITTERVINE_TOWN, -5
 
 	map_attributes Route31, ROUTE_31, $5, SOUTH | WEST
 	connection south, Route30, ROUTE_30, 10
@@ -87,7 +86,7 @@ ENDM
 	connection north, VioletCity, VIOLET_CITY, 0
 	connection south, Route33, ROUTE_33, 0
 	connection west, MagnetTunnelEast, MAGNET_TUNNEL_EAST, 9
-	connection east, CherrygroveBay, CHERRYGROVE_BAY, 12
+	connection east, GlittervineBay, GLITTERVINE_BAY, 12
 
 	map_attributes Route33, ROUTE_33, $5, NORTH | WEST
 	connection north, Route32, ROUTE_32, 0
@@ -357,13 +356,13 @@ ENDM
 	map_attributes Route48, ROUTE_48, $35, SOUTH
 	connection south, Route47, ROUTE_47, 0
 
-	map_attributes CherrygroveBay, CHERRYGROVE_BAY, $35, SOUTH | WEST | EAST
+	map_attributes GlittervineBay, GLITTERVINE_BAY, $35, SOUTH | WEST | EAST
 	connection south, Route32Coast, ROUTE_32_COAST, 0
 	connection west, Route32, ROUTE_32, -12
-	connection east, CherrygroveCity, CHERRYGROVE_CITY, 15
+	connection east, GlittervineTown, GLITTERVINE_TOWN, 15
 
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, NORTH
-	connection north, CherrygroveBay, CHERRYGROVE_BAY, 0
+	connection north, GlittervineBay, GLITTERVINE_BAY, 0
 
 	map_attributes VioletOutskirts, VIOLET_OUTSKIRTS, $5, NORTH | SOUTH
 	connection north, Route42, ROUTE_42, -5
@@ -825,11 +824,11 @@ ENDM
 	map_attributes SaffronBookSpeechHouse, SAFFRON_BOOK_SPEECH_HOUSE, $0, 0
 	map_attributes SaffronOrreSpeechHouse, SAFFRON_ORRE_SPEECH_HOUSE, $0, 0
 	map_attributes SaffronRichSpeechHouse, SAFFRON_RICH_SPEECH_HOUSE, $0, 0
-	map_attributes CherrygroveMart, CHERRYGROVE_MART, $0, 0
-	map_attributes CherrygrovePokeCenter1F, CHERRYGROVE_POKECENTER_1F, $0, 0
-	map_attributes CherrygroveGymSpeechHouse, CHERRYGROVE_GYM_SPEECH_HOUSE, $0, 0
+	map_attributes GlittervineMart, GLITTERVINE_MART, $0, 0
+	map_attributes GlittervinePokeCenter1F, GLITTERVINE_POKECENTER_1F, $0, 0
+	map_attributes GlittervineGymSpeechHouse, GLITTERVINE_GYM_SPEECH_HOUSE, $0, 0
 	map_attributes GuideGentsHouse, GUIDE_GENTS_HOUSE, $0, 0
-	map_attributes CherrygroveEvolutionSpeechHouse, CHERRYGROVE_EVOLUTION_SPEECH_HOUSE, $0, 0
+	map_attributes GlittervineEvolutionSpeechHouse, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, $0, 0
 	map_attributes Route30BerrySpeechHouse, ROUTE_30_BERRY_SPEECH_HOUSE, $0, 0
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $0, 0
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $0, 0

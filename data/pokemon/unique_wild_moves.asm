@@ -12,7 +12,7 @@ UniqueWildMoves:
 	unique_moves MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	; wild mons
-	unique_moves CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
+	unique_moves GLITTERVINE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SPROUT_TOWER,     BELLSPROUT, GROWTH       ; knows Growth early
 	unique_moves ROUTE_32_COAST,   FLAAFFY,    PURSUIT      ; Prism tutor move
 	unique_moves RUINS_OF_ALPH,    SHUCKLE,    ANCIENTPOWER ; Sw/Sh move
