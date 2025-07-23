@@ -3263,7 +3263,7 @@ SECTION "_InitialOptionsText", ROMX
 _InitialOptionsText::
 	text "Please choose how"
 	line "you want to play"
-	cont "Polished Crystal."
+	cont "#mon Lavender."
 	prompt
 
 SECTION "_ElmText1", ROMX
@@ -3275,7 +3275,7 @@ if !DEF(DEBUG)
 	para "Welcome to the"
 	line "world of #mon!"
 
-	para "My name is Elm."
+	para "My name is Aspen."
 
 	para "People call me the"
 	line "#mon Prof."
@@ -3357,7 +3357,7 @@ if !DEF(DEBUG)
 	line "emulator has bugs"
 
 	para "that may crash"
-	line "Polished Crystal."
+	line "#mon Lavender."
 
 	para "Please use a more"
 	line "accurate emulator,"
