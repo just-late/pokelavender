@@ -9,13 +9,10 @@ MACRO map_attributes
 ENDM
 
 	map_attributes GemrootTown, GEMROOT_TOWN, $5, WEST | EAST
-	connection west, Route29, ROUTE_29, 0
-	connection east, Route27, ROUTE_27, 0
 
 	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $5, NORTH | WEST | EAST
 	connection north, Route30, ROUTE_30, 5
 	connection west, CherrygroveBay, CHERRYGROVE_BAY, -15
-	connection east, Route29, ROUTE_29, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $5, NORTH | SOUTH | WEST | EAST
 	connection north, VioletOutskirts, VIOLET_OUTSKIRTS, 0
@@ -70,7 +67,6 @@ ENDM
 	map_attributes Route28, ROUTE_28, $71, WEST
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -6
 
-	map_attributes Route29, ROUTE_29, $5, NORTH | WEST | EAST
 	connection north, Route46, ROUTE_46, 10
 	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
 	connection east, GemrootTown, GEMROOT_TOWN, 0
@@ -163,7 +159,6 @@ ENDM
 	connection west, Route46, ROUTE_46, 37
 
 	map_attributes Route46, ROUTE_46, $5, SOUTH | EAST
-	connection south, Route29, ROUTE_29, -10
 	connection east, Route45, ROUTE_45, -37
 
 	map_attributes PewterCity, PEWTER_CITY, $f, SOUTH | EAST
@@ -810,14 +805,11 @@ ENDM
 	map_attributes PlayersNeighborsHouse, PLAYERS_NEIGHBORS_HOUSE, $0, 0
 	map_attributes ArisHouse1F, ARIS_HOUSE_1F, $0, 0
 	map_attributes ArisHouse2F, ARIS_HOUSE_2F, $0, 0
-	map_attributes LyrasHouse1F, LYRAS_HOUSE_1F, $0, 0
-	map_attributes LyrasHouse2F, LYRAS_HOUSE_2F, $0, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
 	map_attributes GemrootWoods, GEMROOT_WOODS, $0, 0
 	map_attributes Route26HealSpeechHouse, ROUTE_26_HEAL_SPEECH_HOUSE, $0, 0
 	map_attributes Route26DayofWeekSiblingsHouse, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, $0, 0
 	map_attributes Route27RestHouse, ROUTE_27_REST_HOUSE, $0, 0
-	map_attributes Route2946Gate, ROUTE_29_46_GATE, $0, 0
 	map_attributes FightingDojo, FIGHTING_DOJO, $0, 0
 	map_attributes SaffronGym, SAFFRON_GYM, $0, 0
 	map_attributes SaffronMart, SAFFRON_MART, $0, 0

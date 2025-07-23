@@ -1344,33 +1344,33 @@
 	wildmon 23, DUNSPARCE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_29
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+;	def_grass_wildmons ROUTE_29
+;	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 2, PIDGEY
-	wildmon 2, SENTRET
-	wildmon 3, PIDGEY
-	wildmon 3, SENTRET
-	wildmon 2, RATTATA
-	wildmon 3, HOPPIP
-	wildmon 3, HOPPIP
+;	wildmon 2, PIDGEY
+;	wildmon 2, SENTRET
+;	wildmon 3, PIDGEY
+;	wildmon 3, SENTRET
+;	wildmon 2, RATTATA
+;	wildmon 3, HOPPIP
+;	wildmon 3, HOPPIP
 	; day
-	wildmon 2, PIDGEY
-	wildmon 2, SENTRET
-	wildmon 3, PIDGEY
-	wildmon 3, SENTRET
-	wildmon 2, RATTATA
-	wildmon 3, HOPPIP
-	wildmon 3, HOPPIP
+;	wildmon 2, PIDGEY
+;	wildmon 2, SENTRET
+;	wildmon 3, PIDGEY
+;	wildmon 3, SENTRET
+;	wildmon 2, RATTATA
+;	wildmon 3, HOPPIP
+;	wildmon 3, HOPPIP
 	; nite
-	wildmon 2, HOOTHOOT
-	wildmon 2, RATTATA
-	wildmon 3, HOOTHOOT
-	wildmon 3, RATTATA
-	wildmon 2, RATTATA
-	wildmon 3, HOOTHOOT
-	wildmon 3, HOOTHOOT
-	end_grass_wildmons
+;	wildmon 2, HOOTHOOT
+;	wildmon 2, RATTATA
+;	wildmon 3, HOOTHOOT
+;	wildmon 3, RATTATA
+;	wildmon 2, RATTATA
+;	wildmon 3, HOOTHOOT
+;	wildmon 3, HOOTHOOT
+;	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

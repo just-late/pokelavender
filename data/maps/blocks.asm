@@ -49,7 +49,6 @@ FuchsiaMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
-Route2946Gate_BlockData:
 Route34IlexForestGate_BlockData:
 Route35GoldenrodGate_BlockData:
 Route36RuinsOfAlphGate_BlockData:
@@ -237,14 +236,6 @@ ArisHouse1F_BlockData:
 SECTION "ArisHouse2F_BlockData", ROMX
 ArisHouse2F_BlockData:
 	INCBIN "maps/ArisHouse2F.ablk.lz"
-
-SECTION "LyrasHouse1F_BlockData", ROMX
-LyrasHouse1F_BlockData:
-	INCBIN "maps/LyrasHouse1F.ablk.lz"
-
-SECTION "LyrasHouse2F_BlockData", ROMX
-LyrasHouse2F_BlockData:
-	INCBIN "maps/LyrasHouse2F.ablk.lz"
 
 SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
@@ -1807,10 +1798,6 @@ Route27_BlockData:
 SECTION "Route28_BlockData", ROMX
 Route28_BlockData:
 	INCBIN "maps/Route28.ablk.lz"
-
-SECTION "Route29_BlockData", ROMX
-Route29_BlockData:
-	INCBIN "maps/Route29.ablk.lz"
 
 SECTION "Route30_BlockData", ROMX
 Route30_BlockData:

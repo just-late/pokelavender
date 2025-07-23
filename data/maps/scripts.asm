@@ -85,9 +85,6 @@ INCLUDE "maps/PlayersHouse1F.asm"
 INCLUDE "maps/PlayersHouse2F.asm"
 INCLUDE "maps/ArisHouse1F.asm"
 INCLUDE "maps/ArisHouse2F.asm"
-INCLUDE "maps/LyrasHouse1F.asm"
-INCLUDE "maps/LyrasHouse2F.asm"
-
 
 SECTION "Cherrygrove Scripts", ROMX
 
@@ -1012,9 +1009,6 @@ INCLUDE "maps/Route27.asm"
 INCLUDE "maps/Route27RestHouse.asm"
 INCLUDE "maps/Route28.asm"
 INCLUDE "maps/Route28FamousSpeechHouse.asm"
-INCLUDE "maps/Route29.asm"
-INCLUDE "maps/Route2946Gate.asm"
-
 
 SECTION "Routes 30-32 Scripts", ROMX
 

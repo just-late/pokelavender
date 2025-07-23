@@ -9,7 +9,6 @@ Landmarks:
 	landmark  -8, -16, SpecialMapName
 	landmark  60, 100, GemrootTownName
 	landmark  60, 104, GemrootWoodsName
-	landmark  68,  88, Route29Name
 	landmark  68,  76, CherrygroveCityName
 	landmark  66,  74, CherrygroveBayName
 	landmark  76,  76, Route30Name
