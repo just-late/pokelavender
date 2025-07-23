@@ -17,6 +17,8 @@ PlayersNeighborsHouse_MapScriptHeader:
 	person_event SPRITE_CHILD,  4,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, GrowUpProfText, -1
 	pokemon_event  6,  3, ESPEON, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PURPLE, NeighborsEspeonText, -1
 
+	object_const_def
+
 NeighborAdventureScript:
 	faceplayer
 	opentext

@@ -148,7 +148,6 @@ MoveManiacsHouse_BlockData:
 Route39Farmhouse_BlockData:
 LakeOfRageHiddenPowerHouse_BlockData:
 Route28FamousSpeechHouse_BlockData:
-PlayersNeighborsHouse_BlockData:
 Route30BerrySpeechHouse_BlockData:
 ValenciaHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
@@ -196,6 +195,10 @@ Route27RestHouse_BlockData:
 Route5CleanseTagSpeechHouse_BlockData:
 EusinesHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
+
+SECTION "PlayersNeighborsHouse_BlockData:", ROMX
+PlayersNeighborsHouse_BlockData:
+	INCBIN "maps/House1.ablk.lz"
 
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
