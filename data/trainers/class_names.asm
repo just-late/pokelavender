@@ -4,27 +4,27 @@ TrainerClassNames::
 	li "<PK><MN> Trainer" ; CARRIE
 	li "<PK><MN> Trainer" ; CAL
 	li "<PK><MN> Trainer" ; JACKY
-	li "Leader"           ; FALKNER
-	li "Leader"           ; BUGSY
-	li "Leader"           ; WHITNEY
-	li "Leader"           ; MORTY
-	li "Leader"           ; CHUCK
-	li "Leader"           ; JASMINE
-	li "Leader"           ; PRYCE
-	li "Leader"           ; CLAIR
+	li "LEADER"           ; FALKNER
+	li "LEADER"           ; BUGSY
+	li "LEADER"           ; WHITNEY
+	li "LEADER"           ; MORTY
+	li "LEADER"           ; CHUCK
+	li "LEADER"           ; JASMINE
+	li "LEADER"           ; PRYCE
+	li "LEADER"           ; CLAIR
 	li "Elite Four"       ; WILL
 	li "Elite Four"       ; KOGA
 	li "Elite Four"       ; BRUNO
 	li "Elite Four"       ; KAREN
 	li "Champion"         ; CHAMPION
-	li "Leader"           ; BROCK
-	li "Leader"           ; MISTY
-	li "Leader"           ; LT_SURGE
-	li "Leader"           ; ERIKA
-	li "Leader"           ; JANINE
-	li "Leader"           ; SABRINA
-	li "Leader"           ; BLAINE
-	li "Leader"           ; BLUE
+	li "LEADER"           ; BROCK
+	li "LEADER"           ; MISTY
+	li "LEADER"           ; LT_SURGE
+	li "LEADER"           ; ERIKA
+	li "LEADER"           ; JANINE
+	li "LEADER"           ; SABRINA
+	li "LEADER"           ; BLAINE
+	li "LEADER"           ; BLUE
 	li "<PK><MN> Trainer" ; RED
 	li "<PK><MN> Trainer" ; LEAF
 	li "Strange"          ; RIVAL0
@@ -124,8 +124,8 @@ TrainerClassNames::
 	li "TowerTycoon"      ; TOWERTYCOON
 	li "FactryHead"       ; FACTORYHEAD
 	li "Jessie"           ; JESSIE_JAMES
-	li "Ex-Elite"         ; LORELEI
-	li "Ex-Elite"         ; AGATHA
+	li "EX-Elite"         ; LORELEI
+	li "EX-Elite"         ; AGATHA
 	li "Rock Hound"       ; STEVEN
 	li "Researcher"       ; CYNTHIA
 	li "Psychic"          ; INVER
@@ -150,7 +150,7 @@ TrainerClassNames::
 	li "Surfer"           ; VICTOR
 	li "#Maniac"          ; BILL_T
 	li "<PK><MN> Trainer" ; YELLOW
-	li "Ex-Leader"        ; WALKER
+	li "EX-LEADER"        ; WALKER
 	li "Student"          ; IMAKUNI
 	li "Collector"        ; LAWRENCE
 	li "Shrine"           ; REI
