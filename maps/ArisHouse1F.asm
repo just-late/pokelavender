@@ -16,9 +16,19 @@ ArisHouse1F_MapScriptHeader:
     bg_event 8, 1, BGEVENT_JUMPTEXT, ArisFridgeText
 
     def_object_events
-  ; object_event 4, 3, SPRITE_BREEDER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ArisMomScript, -1 
+    object_event 4, 3, SPRITE_BREEDER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ArisMomScript, -1 
 
     object_const_def
+
+ArisMomScript:
+    faceplayer
+    jumptext ArisMomText
+    end
+
+ArisMomText:
+    text "Ari? I think they"
+    line "went upstairs."
+    done
 
 ArisSinkText:
     text "There are some"
@@ -48,5 +58,5 @@ ArisFridgeText:
     para "There's a note."
     
     para "Stop snooping in"
-    line "my fridge! --Ari"
+    line "my fridge!  -Ari"
     done
