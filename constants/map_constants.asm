@@ -542,7 +542,7 @@ ENDM
 	map_const GEMROOT_NICKNAME_SPEECH_HOUSE,               4,  4 ;  5
 	map_const GEMROOT_COMMUNITY_CENTER_1F,                 6,  6 ;  6
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
-	map_const PLAYERS_HOUSE_2F,                            4,  7 ;  8
+	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  8
 	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
 	map_const ANABELS_HOUSE_1F,							   6,  4 ; 10
 	map_const ANABELS_HOUSE_2F,							   4,  3 ; 11

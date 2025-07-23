@@ -90,12 +90,12 @@ TrainerTipsSignText:
 
 AttuvaTravelerScript:
 	faceplayer
-	checkevent EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
+	checkevent EVENT_GOT_SOUVENEIR_FROM_ATTUVA_TRAVELER
 	iftruefwd .AlreadyGotSouveneir
 	opentext
 	writetext AttuvaTraveler1Text
 	waitbutton
-	setevent EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
+	setevent EVENT_GOT_SOUVENEIR_FROM_ATTUVA_TRAVELER
 	verbosegiveitem RARE_CANDY ; placeholder, will give a souveneir item
 	writetext AttuvaTraveler2Text
 	closetext
