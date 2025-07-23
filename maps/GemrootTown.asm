@@ -6,7 +6,7 @@ GemrootTown_MapScriptHeader:
 
 	def_warp_events
 	warp_event 27, 19, PLAYERS_HOUSE_1F, 1              ; 1
-	warp_event 31, 27, ARIS_HOUSE_1F, 2                 ; 2
+	warp_event 31, 27, ANABELS_HOUSE_1F, 2                 ; 2
 	warp_event 12,  5, GEMROOT_COMMUNITY_CENTER_1F, 1   ; 3
 	warp_event 21,  9, PLAYERS_NEIGHBORS_HOUSE, 1       ; 4
 	warp_event 19, 15, GEMROOT_NICKNAME_SPEECH_HOUSE, 1 ; 5
@@ -20,7 +20,7 @@ GemrootTown_MapScriptHeader:
 
 	def_bg_events
 	bg_event 31, 19, BGEVENT_JUMPTEXT, PlayersHouseSignText
-	bg_event 34, 27, BGEVENT_JUMPTEXT, ArisHouseSignText
+	bg_event 34, 27, BGEVENT_JUMPTEXT, AnabelsHouseSignText
 	bg_event 14, 13, BGEVENT_JUMPTEXT, GemrootTownSignText
 	bg_event 11,  7, BGEVENT_JUMPTEXT, CommunityCenterSignText
 	bg_event 34, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
@@ -184,7 +184,7 @@ PlayersHouseSignText:
 	text "<PLAYER>'s House"
 	done
 
-ArisHouseSignText:
+AnabelsHouseSignText:
 	text "Ari's House"
 	done
 

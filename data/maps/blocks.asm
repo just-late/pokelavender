@@ -230,13 +230,13 @@ GemrootTown_BlockData:
 SECTION "GemrootCommunityCenter1F", ROMX
 GemrootCommunityCenter1F_BlockData:
 	INCBIN "maps/GemrootCommunityCenter1F.ablk.lz"
-SECTION "ArisHouse1F_BlockData", ROMX
-ArisHouse1F_BlockData:
-	INCBIN "maps/ArisHouse1F.ablk.lz"
+SECTION "AnabelsHouse1F_BlockData", ROMX
+AnabelsHouse1F_BlockData:
+	INCBIN "maps/AnabelsHouse1F.ablk.lz"
 
-SECTION "ArisHouse2F_BlockData", ROMX
-ArisHouse2F_BlockData:
-	INCBIN "maps/ArisHouse2F.ablk.lz"
+SECTION "AnabelsHouse2F_BlockData", ROMX
+AnabelsHouse2F_BlockData:
+	INCBIN "maps/AnabelsHouse2F.ablk.lz"
 
 SECTION "CherrygroveCity_BlockData", ROMX
 CherrygroveCity_BlockData:

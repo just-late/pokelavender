@@ -544,8 +544,8 @@ ENDM
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
 	map_const PLAYERS_HOUSE_2F,                            4,  7 ;  8
 	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
-	map_const ARIS_HOUSE_1F,							   5,  4 ; 10
-	map_const ARIS_HOUSE_2F,							   4,  3 ; 11
+	map_const ANABELS_HOUSE_1F,							   6,  4 ; 10
+	map_const ANABELS_HOUSE_2F,							   4,  3 ; 11
 	map_const GEMROOT_NPC_HOUSE_1,                         4,  4 ; 12
 	map_const GEMROOT_NPC_HOUSE_2,                         4,  4 ; 13
 	map_const ROUTE_27_REST_HOUSE,                         4,  4 ; 14

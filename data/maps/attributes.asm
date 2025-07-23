@@ -800,8 +800,8 @@ ENDM
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
 	map_attributes PlayersNeighborsHouse, PLAYERS_NEIGHBORS_HOUSE, $0, 0
-	map_attributes ArisHouse1F, ARIS_HOUSE_1F, $0, 0
-	map_attributes ArisHouse2F, ARIS_HOUSE_2F, $0, 0
+	map_attributes AnabelsHouse1F, ANABELS_HOUSE_1F, $0, 0
+	map_attributes AnabelsHouse2F, ANABELS_HOUSE_2F, $0, 0
 	map_attributes GemrootCommunityCenter1F, GEMROOT_COMMUNITY_CENTER_1F, $0, 0
 	map_attributes GemrootNPCHouse1, GEMROOT_NPC_HOUSE_1, $0, 0
 	map_attributes GemrootNPCHouse2, GEMROOT_NPC_HOUSE_2, $0, 0

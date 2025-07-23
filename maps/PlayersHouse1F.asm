@@ -15,7 +15,7 @@ PlayersHouse1F_MapScriptHeader:
 	bg_event  1,  1, BGEVENT_JUMPTEXT, PlayersHouse1FFridgeText
 	bg_event  2,  1, BGEVENT_JUMPTEXT, PlayersHouse1FSinkText
 	bg_event  3,  1, BGEVENT_JUMPTEXT, PlayersHouse1FStoveText
-	bg_event  6,  1, BGEVENT_UP, PlayersHouse1FTVScript
+	bg_event  7,  1, BGEVENT_UP, PlayersHouse1FTVScript
 
 	db 5 ; object_events
 	person_event SPRITE_MOM, 4,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
@@ -46,6 +46,8 @@ MomEventScript:
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
+	setevent EVENT_ANABEL_BEDROOM_SCENE
+	setevent EVENT_ANABEL_HOUSE_SCENE
 .InitialSetDSTFlag:
 	writetext MomDSTText
 	yesorno
