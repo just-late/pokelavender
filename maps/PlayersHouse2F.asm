@@ -105,12 +105,12 @@ PokemonJournalProfElmScript:
 PlayersHousePC:
 	opentext
 	writetext GoodTeamText
-	givepoke DRAGONITE, 80
-	givepoke VENUSAUR, 80
-	givepoke ALAKAZAM, 80
-	givepoke AMPHAROS, 80
-	givepoke BLISSEY, 80
-	givepoke STEELIX, 80
+	givepoke MUNCHLAX, 40
+	givepoke ESPEON, 40
+	givepoke BLASTOISE, 40
+	givepoke PIDGEOT, 40
+	givepoke MR__RIME, 40
+	givepoke MANTINE, 40
 	closetext
 	end
 
