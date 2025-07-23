@@ -226,6 +226,14 @@ SECTION "NewBarkTown_BlockData", ROMX
 NewBarkTown_BlockData:
 	INCBIN "maps/NewBarkTown.ablk.lz"
 
+SECTION "ArisHouse1F_BlockData", ROMX
+ArisHouse1F_BlockData:
+	INCBIN "maps/ArisHouse1F.ablk.lz"
+
+SECTION "ArisHouse2F_BlockData", ROMX
+ArisHouse2F_BlockData:
+	INCBIN "maps/ArisHouse2F.ablk.lz"
+
 SECTION "LyrasHouse1F_BlockData", ROMX
 LyrasHouse1F_BlockData:
 	INCBIN "maps/LyrasHouse1F.ablk.lz"

@@ -6,6 +6,7 @@ NewBarkTown_MapScriptHeader:
 
 	def_warp_events
 	warp_event 27, 19, PLAYERS_HOUSE_1F, 1
+	warp_event 31, 27, ARIS_HOUSE_1F, 2
 
 	def_coord_events
 	coord_event 35, 20, 0, TrainerTipsSignScript1

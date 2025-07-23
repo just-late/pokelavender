@@ -808,6 +808,8 @@ ENDM
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
 	map_attributes PlayersNeighborsHouse, PLAYERS_NEIGHBORS_HOUSE, $0, 0
+	map_attributes ArisHouse1F, ARIS_HOUSE_1F, $0, 0
+	map_attributes ArisHouse2F, ARIS_HOUSE_2F, $0, 0
 	map_attributes LyrasHouse1F, LYRAS_HOUSE_1F, $0, 0
 	map_attributes LyrasHouse2F, LYRAS_HOUSE_2F, $0, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
