@@ -15,7 +15,6 @@ PlayersHouse2F_MapScriptHeader:
 	bg_event  3,  1, BGEVENT_READ, PlayersHouseRadio
 	bg_event  5,  1, BGEVENT_READ, PokemonJournalDrLaventonScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
-	bg_event  2,  8, BGEVENT_READ, SnowtopMountain
 
 	def_object_events
 	object_event  4,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
@@ -77,12 +76,6 @@ PlayersHouseRadio:
 	pause 45
 	endtext
 
-SnowtopMountain:
-	jumpthistext
-
-	text "Snowtop Mountain"
-	done
-
 PokemonJournalDrLaventonScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL
 	jumpthistext
@@ -141,9 +134,4 @@ PlayerRadioText3:
 PlayerRadioText4:
 	text "#MON!"
 	line "#MON Channel…"
-	done
-
-GoodTeamText:
-	text "Giving a good"
-	line "#MON Team."
 	done
