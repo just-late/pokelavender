@@ -55,15 +55,15 @@ AnabelBedroomSceneText1:
     text "Let's see here…"
 
     para "I have my"
-    line "#GEAR, # BALLS,"
-    cont "and…"
+    line "#GEAR, #"
+    cont "BALLS, and…"
 
     para "…"
     done
 
 AnabelBedroomSceneText2:
     text "Right!"
-    line "My journal!"
+    line "My JOURNAL!"
     done
 
 AnabelBedroomSceneText3:

@@ -23,7 +23,7 @@ GlittervineTown_MapScriptHeader:
 	bg_event 31,  6, BGEVENT_ITEM + NUGGET, EVENT_GLITTERVINE_TOWN_HIDDEN_NUGGET
 
 	db 3 ; object_events
-	person_event SPRITE_ELM,  8, 26, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
+	person_event SPRITE_ELM,  8, 26, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
 	person_event SPRITE_POKEFAN_F,  7, 21, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC1Text, -1
 	person_event SPRITE_GRAMPS, 16, 20, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC2Text, -1
 	person_event SPRITE_TWIN, 11, 29, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC3Text, -1
@@ -116,8 +116,8 @@ ProfAspen_Text2:
 	para "Haha! No, nothing"
 	line "too hard."
 
-	para "You see, around"
-	line "10 years ago,"
+	para "You see, many"
+	line "years ago,"
 	cont "a man named PROF."
 	cont "OAK invented the"
 	cont "#DEX."
