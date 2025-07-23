@@ -601,3 +601,6 @@ ThortonSpriteGFX:: INCBIN "gfx/sprites/thorton.2bpp.lz"
 
 SECTION "AriSpriteGFX", ROMX
 AriSpriteGFX:: INCBIN "gfx/sprites/ari.2bpp.lz"
+
+SECTION "GardeniaSpriteGFX", ROMX
+GardeniaSpriteGFX:: INCBIN "gfx/sprites/gardenia.2bpp.lz"

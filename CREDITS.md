@@ -15,7 +15,8 @@
 * Turtwig, Grotle, and Torterra back sprites and icons from DanielOlivaw's disassembly of pokecrystal16
 * Everyone who worked on Polished Crystal Graphics
 * Azure_Keys for the airport tilesets
-* TrainerDX for the Trainer Sprite Bases
+* TrainerDX for the Dawn and Gardenia's sprites
+* LunaMaddalena for the Male Player Trainer Card Sprite
 
 ## Content
 
