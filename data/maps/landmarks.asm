@@ -8,6 +8,7 @@ Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
 	landmark  60, 100, GemrootTownName
+	landmark  68,  98, Route1Name
 	landmark  60, 104, GemrootWoodsName
 	landmark  68,  76, CherrygroveCityName
 	landmark  66,  74, CherrygroveBayName
@@ -76,7 +77,6 @@ Landmarks:
 	landmark 120,  28, MystriStageName
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
-	landmark  52,  88, Route1Name
 	landmark  52,  76, ViridianCityName
 	landmark  52,  68, Route2Name
 	landmark  52,  60, ViridianForestName

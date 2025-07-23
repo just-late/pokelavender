@@ -3,26 +3,27 @@
 	const SPECIAL_MAP        ; 00
 ; Johto landmarks
 	const GEMROOT_TOWN       ; 01
-	const GEMROOT_WOODS      ; 02
-	const CHERRYGROVE_CITY   ; 03
-	const CHERRYGROVE_BAY    ; 04
-	const ROUTE_30           ; 05
-	const ROUTE_31           ; 06
-	const VIOLET_CITY        ; 07
-	const SPROUT_TOWER       ; 08
-	const VIOLET_OUTSKIRTS   ; 09
-	const RUINS_OF_ALPH      ; 0a
-	const ROUTE_32           ; 0b
-	const ROUTE_32_COAST     ; 0c
-	const UNION_CAVE         ; 0d
-	const ROUTE_33           ; 0e
-	const AZALEA_TOWN        ; 0f
-	const SLOWPOKE_WELL      ; 10
-	const ILEX_FOREST        ; 11
-	const ROUTE_34           ; 12
-	const ROUTE_34_COAST     ; 13
-	const STORMY_BEACH       ; 14
-	const MURKY_SWAMP        ; 15
+	const ROUTE_1            ; 02
+	const GEMROOT_WOODS      ; 03
+	const CHERRYGROVE_CITY   ; 04
+	const CHERRYGROVE_BAY    ; 05
+	const ROUTE_30           ; 06
+	const ROUTE_31           ; 07
+	const VIOLET_CITY        ; 08
+	const SPROUT_TOWER       ; 09
+	const VIOLET_OUTSKIRTS   ; 0a
+	const RUINS_OF_ALPH      ; 0b
+	const ROUTE_32           ; 0c
+	const ROUTE_32_COAST     ; 0d
+	const UNION_CAVE         ; 0e
+	const ROUTE_33           ; 0f
+	const AZALEA_TOWN        ; 10
+	const SLOWPOKE_WELL      ; 11
+	const ILEX_FOREST        ; 12
+	const ROUTE_34           ; 13
+	const ROUTE_34_COAST     ; 14
+	const STORMY_BEACH       ; 15
+	const MURKY_SWAMP        ; 16 ; TODO: update the rest of these
 	const GOLDENROD_CITY     ; 16
 	const RADIO_TOWER        ; 17
 	const GOLDENROD_HARBOR   ; 18
@@ -71,7 +72,6 @@
 	const MYSTRI_STAGE       ; 43
 DEF KANTO_LANDMARK EQU const_value
 	const PALLET_TOWN        ; 44
-	const ROUTE_1            ; 45
 	const VIRIDIAN_CITY      ; 46
 	const ROUTE_2            ; 47
 	const VIRIDIAN_FOREST    ; 48

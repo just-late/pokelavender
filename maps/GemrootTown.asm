@@ -24,7 +24,7 @@ GemrootTown_MapScriptHeader:
 	bg_event 35, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
 	
 	db 6 ; object_events, person_events
-	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, NouraTravelerScript, -1
+	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AttuvaTravelerScript, -1
 	person_event SPRITE_FAT_GUY, 21, 11, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
 	person_event SPRITE_CUTE_GIRL, 24, 26, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
 	person_event SPRITE_GRANNY, 19, 20, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
@@ -39,23 +39,31 @@ GemrootTownFlyPoint:
 	endcallback
 	
 TrainerTipsSignScript1:
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+	iftruefwd .Skip
 	showemote EMOTE_SHOCK, PLAYER, 15
 	showtext IrresistibleSignText
 	turnobject PLAYER, UP
 	showtext TrainerTipsSignText
 	applyonemovement PLAYER, step_left
+.Skip
 	end
 
 TrainerTipsSignScript2:
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+	iftruefwd .Skip
 	showemote EMOTE_SHOCK, PLAYER, 15
 	showtext IrresistibleSignText
 	turnobject PLAYER, UP
 	applyonemovement PLAYER, step_up
 	showtext TrainerTipsSignText
 	applyonemovement PLAYER, step_left
+.Skip
 	end
 
 TrainerTipsSignScript3:
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+	iftruefwd .Skip
 	showemote EMOTE_SHOCK, PLAYER, 15
 	showtext IrresistibleSignText
 	turnobject PLAYER, UP
@@ -63,6 +71,7 @@ TrainerTipsSignScript3:
 	applyonemovement PLAYER, step_up
 	showtext TrainerTipsSignText
 	applyonemovement PLAYER, step_left
+.Skip
 	end
 
 TrainerTipsSignText:
@@ -77,22 +86,22 @@ TrainerTipsSignText:
 	cont "trouble."
 	done
 
-NouraTravelerScript:
+AttuvaTravelerScript:
 	faceplayer
 	checkevent EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
 	iftruefwd .AlreadyGotSouveneir
 	opentext
-	writetext NouraTraveler1Text
+	writetext AttuvaTraveler1Text
 	waitbutton
 	setevent EVENT_GOT_SOUVENEIR_FROM_NOURA_TRAVELER
 	verbosegiveitem RARE_CANDY ; placeholder, will give a souveneir item
-	writetext NouraTraveler2Text
+	writetext AttuvaTraveler2Text
 	closetext
 	end
 
 .AlreadyGotSouveneir
 	opentext
-	writetext NouraTraveler2Text
+	writetext AttuvaTraveler2Text
 	closetext
 	end
 
@@ -138,9 +147,9 @@ FatGuyTechnologyText:
 	cont "from your bag!"
 	done
 
-NouraTraveler1Text:
+AttuvaTraveler1Text:
 	text "Hi! I'm traveling"
-	line "the Noura Region"
+	line "the Attuva Region"
 
 	para "searching for"
 	line "rare treasures."
@@ -149,7 +158,7 @@ NouraTraveler1Text:
 	line "one with you."
 	done
 
-NouraTraveler2Text:
+AttuvaTraveler2Text:
 	text "It's a Rare Candy!"
 	line "Try using it on"
 	cont "a #MON."

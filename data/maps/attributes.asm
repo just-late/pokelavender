@@ -8,7 +8,11 @@ MACRO map_attributes
 	db \4
 ENDM
 
-	map_attributes GemrootTown, GEMROOT_TOWN, $5, WEST | EAST
+	map_attributes GemrootTown, GEMROOT_TOWN, $5, EAST
+	connection east, Route1, ROUTE_1, 0
+
+	map_attributes Route1, ROUTE_1, $5, WEST
+	connection west, GemrootTown, GEMROOT_TOWN, 0
 
 	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $5, NORTH | WEST | EAST
 	connection north, Route30, ROUTE_30, 5
@@ -174,20 +178,14 @@ ENDM
 	connection south, ViridianCity, VIRIDIAN_CITY, -5
 	connection east, Route16West, ROUTE_16_WEST, 8
 
-	map_attributes ViridianCity, VIRIDIAN_CITY, $f, NORTH | SOUTH | WEST
+	map_attributes ViridianCity, VIRIDIAN_CITY, $f, NORTH | WEST
 	connection north, Route2South, ROUTE_2_SOUTH, 5
-	connection south, Route1, ROUTE_1, 5
 	connection west, Route22, ROUTE_22, 4
 
 	map_attributes Route22, ROUTE_22, $2c, EAST
 	connection east, ViridianCity, VIRIDIAN_CITY, -4
 
-	map_attributes Route1, ROUTE_1, $f, NORTH | SOUTH
-	connection north, ViridianCity, VIRIDIAN_CITY, -5
-	connection south, PalletTown, PALLET_TOWN, 1
-
-	map_attributes PalletTown, PALLET_TOWN, $f, NORTH | SOUTH
-	connection north, Route1, ROUTE_1, -1
+	map_attributes PalletTown, PALLET_TOWN, $f, SOUTH
 	connection south, Route21, ROUTE_21, 0
 
 	map_attributes Route21, ROUTE_21, $43, NORTH | SOUTH | EAST
