@@ -154,7 +154,7 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 GemrootTownName:       rawchar "GEMROOT¯TOWN@"
-GlittervineTownName:   rawchar "GLITTERVINE¯CITY@"
+GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
 VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"
 GoldenrodCityName:     rawchar "Goldenrod¯City@"

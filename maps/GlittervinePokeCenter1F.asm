@@ -15,10 +15,10 @@ GlittervinePokeCenter1F_MapScriptHeader:
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  1,  6, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GlittervinePokeCenter1FTeacherScript, -1
-	object_event  8,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FFisherText, -1
-	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FGentlemanText, -1
-	object_event  9,  4, SPRITE_LADY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FLadyText, -1
+	person_event SPRITE_TEACHER,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GlittervinePokeCenter1FNPC1Script, -1
+	person_event SPRITE_HIKER,  1,  8, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC2Text, -1
+	person_event SPRITE_GENTLEMAN, 6, 11, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC3Text, -1
+	person_event SPRITE_LADY,  4,  9, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC4Text, -1
 
 PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
@@ -27,55 +27,60 @@ PokemonJournalRedScript:
 	text "#MON Journal"
 
 	para "Special Feature:"
-	line "<PK><MN> Trainer Red!"
+	line "ELDER AARON!"
 
-	para "Red is said to"
-	line "have defeated his"
+	para "AARON is one of"
+	line "the three ELDERS"
+	cont "of ATTUVA."
 
-	para "rival Blue for the"
-	line "title of #MON"
-
-	para "League Champion in"
-	line "record time."
+	para "He lives in"
+	line "GEMROOT TOWN, and"
+	cont "gives #MON"
+	cont "to young TRAINERS."
 	done
 
-GlittervinePokeCenter1FTeacherScript:
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+GlittervinePokeCenter1FNPC1Script:
+	checkflag ENGINE_MAP_CARD
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The Communication"
-	line "Center upstairs"
-	cont "was just built."
+	text "A MAP CARD lets"
+	line "you see where you"
+	cont "are at any time."
 
-	para "But they're still"
-	line "finishing it up."
+	para "But #GEAR CARDS"
+	line "are expensive."
 	done
 
 .Text2:
-	text "The Communication"
-	line "Center upstairs"
-	cont "was just built."
+	text "A MAP CARD lets"
+	line "you see where you"
+	cont "are at any time."
 
-	para "I traded #MON"
-	line "there already!"
+	para "Oh!"
+
+	para "You have one"
+	line "already."
+
+	para "That's nice."
 	done
 
-GlittervinePokeCenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
+GlittervinePokeCenter1FNPC2Text:
+	text "These PCs are"
+	line "great."
 
-	para "of #MON, and"
-	line "it's all free."
+	para "They're directly"
+	line "linked to your"
+	cont "#MON BOX."
 	done
 
-GlittervinePokeCenter1FGentlemanText:
+GlittervinePokeCenter1FNPC3Text:
 	text "That PC is free"
 	line "for any trainer"
 	cont "to use."
 	done
 
-GlittervinePokeCenter1FLadyText:
+GlittervinePokeCenter1FNPC4Text:
 	text "#MON Journal"
 	line "has such fascin-"
 	cont "ating stories!"

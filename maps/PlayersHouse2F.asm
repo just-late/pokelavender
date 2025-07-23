@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, GLITTERVINE_TOWN, 2
+	warp_event  7,  0, GLITTERVINE_TOWN, 2 ; PLAYERS_HOUSE, 3
 
 	def_coord_events
 
@@ -90,15 +90,16 @@ PokemonJournalProfElmScript:
 	text "#MON JOURNAL"
 
 	para "Special Feature:"
-	line "#MON PROF.ELM!"
+	line "DR.LAVENTON!"
 
-	para "PROF.ELM was the"
-	line "top student of"
-	cont "Prof.Oak."
+	para "DR.LAVENTON is"
+	line "the director of"
+	cont "BLOSSOM ACADEMY."
 
-	para "They're said to"
-	line "often argue about"
-	cont "research."
+	para "He's said to have"
+	line "a rivalry with"
+	cont "CLAVELL from the"
+	cont "PALDEA REGION."
 	done
 
 PlayersHousePC:
