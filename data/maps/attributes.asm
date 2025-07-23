@@ -807,6 +807,7 @@ ENDM
 	map_attributes ArisHouse2F, ARIS_HOUSE_2F, $0, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
 	map_attributes GemrootWoods, GEMROOT_WOODS, $0, 0
+	map_attributes GemrootCommunityCenter1F, GEMROOT_COMMUNITY_CENTER_1F, $0, 0
 	map_attributes Route26HealSpeechHouse, ROUTE_26_HEAL_SPEECH_HOUSE, $0, 0
 	map_attributes Route26DayofWeekSiblingsHouse, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, $0, 0
 	map_attributes Route27RestHouse, ROUTE_27_REST_HOUSE, $0, 0

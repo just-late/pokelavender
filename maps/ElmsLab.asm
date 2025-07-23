@@ -188,7 +188,7 @@ ElmCheckGotEggAgain:
 	iftrue_jumpopenedtext ElmStudyingEggText
 	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	iftrue ElmAfterTheftScript
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	iftrue_jumpopenedtext ElmDescribesMrPokemonText
 	jumpopenedtext ElmText_LetYourMonBattleIt
 
@@ -199,7 +199,7 @@ LabTryToLeaveScript:
 	end
 
 CyndaquilPokeBallScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
@@ -239,7 +239,7 @@ CyndaquilPokeBallScript:
 	sjumpfwd ElmDirectionsScript
 
 TotodilePokeBallScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
@@ -277,7 +277,7 @@ TotodilePokeBallScript:
 	sjumpfwd ElmDirectionsScript
 
 ChikoritaPokeBallScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
@@ -330,14 +330,14 @@ endc
 	showtext ElmDirectionsText2
 	turnobject ELMSLAB_ELM, DOWN
 	showtext ElmDirectionsText3
-	setevent EVENT_GOT_A_POKEMON_FROM_ELM
+	setevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	setevent EVENT_RIVAL_CHERRYGROVE_CITY
 	setscene $6
 	end
 
 ElmsLabHealingMachine:
 	opentext
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	iftruefwd .CanHeal
 	jumpopenedtext ElmsLabHealingMachineText1
 
@@ -697,7 +697,7 @@ CopScript:
 	sjump ElmAfterTheftScript
 
 ElmsLabLyraScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	iffalse_jumptextfaceplayer ElmsLabLyraWhichPokemonText
 	jumptextfaceplayer ElmsLabLyraGoodChoiceText
 

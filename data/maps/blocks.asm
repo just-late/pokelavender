@@ -229,6 +229,9 @@ SECTION "GemrootWoods_BlockData", ROMX
 GemrootWoods_BlockData:
 	INCBIN "maps/GemrootWoods.ablk.lz"
 
+SECTION "GemrootCommunityCenter1F", ROMX
+GemrootCommunityCenter1F_BlockData:
+	INCBIN "maps/GemrootCommunityCenter1F.ablk.lz"
 SECTION "ArisHouse1F_BlockData", ROMX
 ArisHouse1F_BlockData:
 	INCBIN "maps/ArisHouse1F.ablk.lz"

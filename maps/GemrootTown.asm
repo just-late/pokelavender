@@ -5,10 +5,11 @@ GemrootTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, GemrootTownFlyPoint
 
 	def_warp_events
-	warp_event 27, 19, PLAYERS_HOUSE_1F, 1
-	warp_event 31, 27, ARIS_HOUSE_1F, 2
-	warp_event 8, 31, GEMROOT_WOODS, 1
-	warp_event 9, 31, GEMROOT_WOODS, 2
+	warp_event 27, 19, PLAYERS_HOUSE_1F, 1            ; 1
+	warp_event 31, 27, ARIS_HOUSE_1F, 2               ; 2
+	warp_event 8, 31, GEMROOT_WOODS, 1                ; 3
+	warp_event 9, 31, GEMROOT_WOODS, 2                ; 4
+	warp_event 12, 5, GEMROOT_COMMUNITY_CENTER_1F, 1  ; 5
 
 	def_coord_events
 	coord_event 35, 20, 0, TrainerTipsSignScript1
@@ -33,7 +34,7 @@ GemrootTown_MapScriptHeader:
 	object_const_def
 
 GemrootTownFlyPoint:
-	setflag ENGINE_FLYPOINT_NEW_BARK
+	setflag ENGINE_FLYPOINT_GEMROOT
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	endcallback
 	
