@@ -8,6 +8,7 @@ VioletCity_MapScriptHeader:
 	warp_event 17, 27, VIOLET_MART, 2
 	warp_event 22, 27, VIOLET_GYM, 1
 	warp_event 27, 27, VIOLET_POKECENTER_1F, 1
+	warp_event 19, 17, MOONFLOWER_BIKE_SHOP, 1
 ;	warp_event 17, 19, VIOLET_ONIX_TRADE_HOUSE, 1
 ;	warp_event 15, 19, ROUTE_31_VIOLET_GATE, 1
 ;	warp_event 16, 19, ROUTE_31_VIOLET_GATE, 2

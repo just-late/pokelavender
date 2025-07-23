@@ -280,6 +280,10 @@ SECTION "EarlsPokemonAcademy_BlockData", ROMX
 EarlsPokemonAcademy_BlockData:
 	INCBIN "maps/EarlsPokemonAcademy.ablk.lz"
 
+SECTION "MoonflowerBikeShop_BlockData", ROMX
+MoonflowerBikeShop_BlockData:
+	INCBIN "maps/MoonflowerBikeShop.ablk.lz"
+
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
 	INCBIN "maps/SproutTower1F.ablk.lz"

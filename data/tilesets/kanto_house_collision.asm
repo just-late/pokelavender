@@ -56,7 +56,7 @@
 	tilecoll WALL, WALL, FLOOR, WALL ; 37
 	tilecoll WALL, WALL, FLOOR, TV ; 38
 	tilecoll WALL, WALL, FLOOR, RADIO ; 39
-	tilecoll WALL, TOWN_MAP, FLOOR, FLOOR ; 3a
+	tilecoll TOWN_MAP, WALL, FLOOR, TRASH_CAN ; 3a
 	tilecoll WALL, WALL, FLOOR, TRASH_CAN ; 3b
 	tilecoll WALL, WINDOW, FLOOR, FLOOR ; 3c
 	tilecoll WALL, WALL, FLOOR, PC ; 3d
@@ -141,5 +141,6 @@
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 8c
 	tilecoll WALL, WALL, WALL, WALL ; 8d
 	tilecoll WALL, WALL, FLOOR, WALL ; 8e
-	tilecoll , , ,  ; 8f
-	tilecoll , , ,  ; 90
+	tilecoll WALL, WALL, WALL, FLOOR ; 8f
+	tilecoll WALL, WINDOW, LADDER, FLOOR ; 90
+	tilecoll WINDOW, WALL, FLOOR, LADDER ; 91

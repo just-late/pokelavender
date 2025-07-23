@@ -116,6 +116,7 @@ INCLUDE "maps/VioletGym.asm"
 INCLUDE "maps/VioletNicknameSpeechHouse.asm"
 INCLUDE "maps/VioletOnixTradeHouse.asm"
 INCLUDE "maps/EarlsPokemonAcademy.asm"
+INCLUDE "maps/MoonflowerBikeShop.asm"
 
 
 SECTION "Sprout Tower Scripts", ROMX

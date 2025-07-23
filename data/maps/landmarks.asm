@@ -155,7 +155,7 @@ Landmarks:
 
 GemrootTownName:       rawchar "GEMROOT¯TOWN@"
 GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
-VioletCityName:        rawchar "Violet City@"
+VioletCityName:        rawchar "MOONFLOWER¯CITY@"
 AzaleaTownName:        rawchar "Azalea Town@"
 GoldenrodCityName:     rawchar "Goldenrod¯City@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
