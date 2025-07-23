@@ -998,7 +998,7 @@ INCLUDE "maps/Route24.asm"
 INCLUDE "maps/Route25.asm"
 INCLUDE "maps/Route26.asm"
 INCLUDE "maps/Route26DayofWeekSiblingsHouse.asm"
-INCLUDE "maps/Route26HealSpeechHouse.asm"
+INCLUDE "maps/GemrootNPCHouse1.asm"
 
 
 SECTION "Routes 27-29 Scripts", ROMX

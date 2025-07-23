@@ -132,6 +132,7 @@ CeladonOldManSpeechHouse_BlockData:
 CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
+GemrootNPCHouse1_BlockData:
 GemrootNicknameSpeechHouse_BlockData:
 	INCBIN "maps/House3.ablk.lz"
 
@@ -1782,10 +1783,6 @@ Route25_BlockData:
 SECTION "Route26_BlockData", ROMX
 Route26_BlockData:
 	INCBIN "maps/Route26.ablk.lz"
-
-SECTION "Route26HealSpeechHouse_BlockData", ROMX
-Route26HealSpeechHouse_BlockData:
-	INCBIN "maps/Route26HealSpeechHouse.ablk.lz"
 
 SECTION "Route27_BlockData", ROMX
 Route27_BlockData:

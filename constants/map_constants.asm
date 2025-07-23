@@ -546,7 +546,7 @@ ENDM
 	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
 	map_const ARIS_HOUSE_1F,							   5,  4 ; 10
 	map_const ARIS_HOUSE_2F,							   4,  3 ; 11
-	map_const ROUTE_26_HEAL_SPEECH_HOUSE,                  4,  4 ; 12
+	map_const GEMROOT_NPC_HOUSE_1,                         4,  4 ; 12
 	map_const ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE,         4,  4 ; 13
 	map_const ROUTE_27_REST_HOUSE,                         4,  4 ; 14
 
