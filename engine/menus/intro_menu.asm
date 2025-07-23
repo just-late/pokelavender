@@ -59,7 +59,6 @@ _NewGame_FinishSetup:
 	farcall ClearSavedObjPals
 	call NewGame_ClearTileMapEtc
 	call WarnVBA
-	call SetInitialOptions
 	call ProfElmSpeech
 	call InitializeWorld
 	ld a, 1
@@ -323,7 +322,6 @@ Continue:
 	call WarnVBA
 	call Continue_CheckRTC_RestartClock
 	jmp c, CloseWindow
-	call Continue_CheckEGO_ResetInitialOptions
 	ld a, $8
 	ld [wMusicFade], a
 	xor a ; MUSIC_NONE
@@ -406,10 +404,6 @@ Continue_CheckRTC_RestartClock:
 	scf
 	ret
 
-Continue_CheckEGO_ResetInitialOptions:
-	ld a, [wInitialOptions2]
-	bit RESET_INIT_OPTS, a
-	call nz, SetInitialOptions
 	; fallthrough
 Continue_FinishReset:
 	xor a
@@ -1133,7 +1127,6 @@ StartTitleScreen:
 	dw CrystalIntroSequence
 	dw CrystalIntroSequence
 	dw ResetClock
-	dw ResetInitialOptions
 
 RunTitleScreen:
 	ld a, [wJumptableIndex]
@@ -1359,10 +1352,6 @@ DeleteSaveData:
 
 ResetClock:
 	farcall _ResetClock
-	jmp Init
-
-ResetInitialOptions:
-	farcall _ResetInitialOptions
 	jmp Init
 
 Copyright:

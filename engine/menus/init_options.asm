@@ -350,8 +350,8 @@ InitialOptions_ColorVariation:
 	and D_LEFT | D_RIGHT | A_BUTTON
 	jr nz, .Toggle
 	bit COLOR_VARY_OPT, [hl]
-	jr z, .SetNo
-	jr .SetYes
+	jr z, .SetYes
+	jr .SetNo
 .Toggle
 	bit COLOR_VARY_OPT, [hl]
 	jr z, .SetYes
