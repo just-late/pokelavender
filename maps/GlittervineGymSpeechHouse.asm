@@ -26,7 +26,7 @@ GlittervineGymSpeechHouseNPC1Text:
 	line "journey, but I"
 	
 	para "managed to collect"
-	line "every ATTUVA"
+	line "every ATUVA"
 	cont "LEAGUE BADGE back"
 	cont "in my day."
 	done

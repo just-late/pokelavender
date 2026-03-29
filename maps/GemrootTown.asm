@@ -28,7 +28,7 @@ GemrootTown_MapScriptHeader:
 	
 	db 7 ; object_events
 	person_event SPRITE_ANABEL, 27, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
-	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AttuvaTravelerScript, -1
+	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AtuvaTravelerScript, -1
 	person_event SPRITE_FAT_GUY, 21, 11, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
 	person_event SPRITE_CUTE_GIRL, 24, 26, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
 	person_event SPRITE_GRANNY, 19, 20, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
@@ -133,22 +133,22 @@ PlayerJumpsBackMovement:
 	remove_fixed_facing
 	step_end
 
-AttuvaTravelerScript:
+AtuvaTravelerScript:
 	faceplayer
-	checkevent EVENT_GOT_SOUVENEIR_FROM_ATTUVA_TRAVELER
+	checkevent EVENT_GOT_SOUVENEIR_FROM_ATUVA_TRAVELER
 	iftruefwd .AlreadyGotSouveneir
 	opentext
-	writetext AttuvaTraveler1Text
+	writetext AtuvaTraveler1Text
 	waitbutton
-	setevent EVENT_GOT_SOUVENEIR_FROM_ATTUVA_TRAVELER
+	setevent EVENT_GOT_SOUVENEIR_FROM_ATUVA_TRAVELER
 	verbosegiveitem RARE_CANDY
-	writetext AttuvaTraveler2Text
+	writetext AtuvaTraveler2Text
 	closetext
 	end
 
 .AlreadyGotSouveneir
 	opentext
-	writetext AttuvaTraveler2Text
+	writetext AtuvaTraveler2Text
 	closetext
 	end
 
@@ -194,9 +194,9 @@ FatGuyTechnologyText:
 	cont "from your bag!"
 	done
 
-AttuvaTraveler1Text:
+AtuvaTraveler1Text:
 	text "Hi! I'm traveling"
-	line "the ATTUVA REGION"
+	line "the ATUVA REGION"
 
 	para "searching for"
 	line "rare treasures."
@@ -205,7 +205,7 @@ AttuvaTraveler1Text:
 	line "one with you."
 	done
 
-AttuvaTraveler2Text:
+AtuvaTraveler2Text:
 	text "It's a Rare Candy!"
 	line "Try using it on"
 	cont "a #MON."
