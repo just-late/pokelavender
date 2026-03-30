@@ -271,6 +271,8 @@ GemrootAnabelScript:
     end
 
 FirePokeBallScript:
+    checkevent EVENT_ANABEL_GEMROOT_SCENE
+    iffalsefwd .ItsAPokemonScript3
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -317,16 +319,22 @@ FirePokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     end
 
+.ItsAPokemonScript3
+    jumptext ItsAPokemonText
+    end
+
 TakeFireMonText:
-    text "Take Cyndaquil?"
+    text "Take CYNDAQUIL?"
     done
 
 AnabelTakesTotodileText:
     text "ANABEL: Then I'll"
-    line "take Totodile!"
+    line "take TOTODILE!"
     done
 
 WaterPokeBallScript:
+    checkevent EVENT_ANABEL_GEMROOT_SCENE
+    iffalsefwd .ItsAPokemonScript2
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -374,16 +382,23 @@ WaterPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     end
 
+.ItsAPokemonScript2
+    jumptext ItsAPokemonText
+    end
+
+
 TakeWaterMonText:
-    text "Take Totodile?"
+    text "Take TOTODILE?"
     done
 
 AnabelTakesTurtwigText:
     text "ANABEL: Then I'll"
-    line "take Turtwig!"
+    line "take TURTWIG!"
     done
 
 GrassPokeBallScript:
+    checkevent EVENT_ANABEL_GEMROOT_SCENE
+    iffalsefwd .ItsAPokemonScript1
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -427,9 +442,20 @@ GrassPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     end
 
+.ItsAPokemonScript1
+    jumptext ItsAPokemonText
+    end
+
+
+ItsAPokemonText:
+    text "It's a #MON"
+    line "that belongs to"
+    cont "the ELDER." 
+    done   
+
 AnabelTakesCyndaquilText:
     text "ANABEL: Then I'll"
-    line "take Cyndaquil!"
+    line "take CYNDAQUIL!"
     done
 
 AnabelCutePokemonText:
@@ -453,7 +479,7 @@ DidntChooseMonText:
     done
 
 TakeGrassMonText:
-    text "Take Turtwig?"
+    text "Take TURTWIG?"
     done
 
 ChoseMonText:
