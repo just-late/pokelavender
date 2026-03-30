@@ -1291,57 +1291,57 @@
 	def_grass_wildmons ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon  4, PIDGEY
-	wildmon  3, RATTATA
-	wildmon  4, SENTRET
-	wildmon  3, RATTATA
-	wildmon  5, SENTRET
-	wildmon  5, PIDGEY
-	wildmon  5, MAREEP
+	wildmon 4, PIDGEY
+	wildmon 3, RATTATA
+	wildmon 4, SENTRET
+	wildmon 3, RATTATA
+	wildmon 5, SENTRET
+	wildmon 5, PIDGEY
+	wildmon 5, MAREEP
 	; day
-	wildmon  4, PIDGEY
-	wildmon  3, RATTATA
-	wildmon  4, SENTRET
-	wildmon  3, AIPOM
-	wildmon  5, SENTRET
-	wildmon  5, PIDGEY
-	wildmon  5, AIPOM
+	wildmon 4, PIDGEY
+	wildmon 3, RATTATA
+	wildmon 4, SENTRET
+	wildmon 3, AIPOM
+	wildmon 5, SENTRET
+	wildmon 5, PIDGEY
+	wildmon 5, AIPOM
 	; nite
-	wildmon  4, HOOTHOOT
-	wildmon  3, RATTATA
-	wildmon  4, RATTATA
-	wildmon  3, SPINARAK
-	wildmon  5, HOOTHOOT
-	wildmon  5, SPINARAK
-	wildmon  5, BONSLY
+	wildmon 4, HOOTHOOT
+	wildmon 3, RATTATA
+	wildmon 4, RATTATA
+	wildmon 3, SPINARAK
+	wildmon 5, HOOTHOOT
+	wildmon 5, SPINARAK
+	wildmon 5, BONSLY
 	end_grass_wildmons
 	
 	def_grass_wildmons ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon  6, GROWLITHE
-	wildmon  5, GROWLITHE
-	wildmon  4, PIDGEY
-	wildmon  5, PIDGEY
-	wildmon  4, RATTATA
-	wildmon  5, RATTATA
-	wildmon  5, SNUBBULL
+	wildmon 6, GROWLITHE
+	wildmon 5, GROWLITHE
+	wildmon 4, PIDGEY
+	wildmon 5, PIDGEY
+	wildmon 4, RATTATA
+	wildmon 5, RATTATA
+	wildmon 5, SNUBBULL
 	; day
-	wildmon  6, GROWLITHE
-	wildmon  5, GROWLITHE
-	wildmon  4, PIDGEY
-	wildmon  5, PIDGEY
-	wildmon  4, RATTATA
-	wildmon  5, RATTATA
-	wildmon  5, HOPPIP
+	wildmon 6, GROWLITHE
+	wildmon 5, GROWLITHE
+	wildmon 4, PIDGEY
+	wildmon 5, PIDGEY
+	wildmon 4, RATTATA
+	wildmon 5, RATTATA
+	wildmon 5, HOPPIP
 	; nite
-	wildmon  6, ZUBAT
-	wildmon  5, ZUBAT
-	wildmon  4, HOOTHOOT
-	wildmon  5, HOOTHOOT
-	wildmon  4, SPINARAK
-	wildmon  4, CATERPIE
-	wildmon  5, PSYDUCK
+	wildmon 6, ZUBAT
+	wildmon 5, ZUBAT
+	wildmon 4, HOOTHOOT
+	wildmon 5, HOOTHOOT
+	wildmon 4, SPINARAK
+	wildmon 4, CATERPIE
+	wildmon 5, PSYDUCK
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
