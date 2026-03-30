@@ -26,28 +26,20 @@ Music_mart_Ch1:
 	rest 4
 	octave 4
 	duty_cycle 3
+	volume_envelope 15, 1
 	note A_, 8
 	note G_, 8
 	note E_, 4
 	note F_, 4
 	note G_, 4
 	note A_, 4
-	note A#, 2
-	octave 1
-	note A_, 1
-	octave 4
+	volume_envelope 15, 8
+	note A#, 8
 	rest 16
-	rest 1
-	note E_, 4
-	note G_, 6
-	rest 2
-	note G_, 6
-	rest 2
-	note G_, 4
-	note F_, 4
-	note E_, 4
-	note G_, 4
-	note F_, 16
+	volume_envelope 15, 1
+	rest 16
+	rest 16
+	rest 16
 	octave 6
 	note_type 12, 15, 8
 	rest 16
@@ -87,83 +79,18 @@ Music_mart_Ch2:
 	vibrato 3, 0, 0
 	duty_cycle 2
 	sound_call .sub1
-	note_type 12, 15, 8
-	rest 1
-	note_type 6, 15, 8
-	octave 3
-	note G_, 2
-	note_type 12, 15, 8
-	rest 1
-	note_type 6, 15, 8
-	note G_, 2
-	note_type 12, 15, 8
-	rest 1
-	note_type 6, 15, 8
-	octave 4
-	note C_, 2
-	rest 2
-	note C_, 2
-	rest 2
-	octave 3
-	note G_, 2
-	rest 2
-	note A_, 2
+	note_type 6, 15, 1
 	rest 2
 	octave 4
-	note C_, 2
-	rest 2
-	note E_, 2
-	rest 2
-	octave 3
-	note G_, 2
-	rest 2
-	note A_, 2
-	rest 2
-	note B_, 2
-	rest 2
-	note A#, 2
-	rest 2
-	note G_, 2
-	note_type 12, 15, 8
-	rest 1
+	sound_call .sub1
 	note_type 6, 15, 8
-	note A_, 2
-	note_type 12, 15, 8
-	rest 1
+	rest 2
 	octave 4
+	sound_call .sub1
 	note_type 6, 15, 8
-	note C_, 2
-	note_type 12, 15, 8
-	rest 1
-	note_type 6, 15, 8
-	note C_, 2
-	note_type 12, 15, 8
-	rest 1
-	octave 3
-	note_type 6, 15, 8
-	note A_, 2
-	note_type 12, 15, 8
-	rest 1
-	note_type 6, 15, 8
-	note A_, 2
-	note_type 12, 15, 8
-	rest 1
-	note_type 6, 15, 8
+	rest 2
 	octave 4
-	note C_, 2
-	note_type 12, 15, 8
-	rest 1
-	note_type 6, 15, 8
-	note C_, 2
-	note_type 12, 15, 8
-	rest 1
-	octave 3
-	note_type 6, 15, 8
-	note A_, 2
-	note_type 12, 15, 8
-	rest 1
-	note_type 6, 15, 8
-	note A_, 2
+	sound_call .sub1
 	note_type 12, 15, 8
 	octave 5
 	rest 16
@@ -208,15 +135,6 @@ Music_mart_Ch2:
 	rest 1
 	volume_envelope 15, 8
 	note G_, 2
-	note_type 12, 15, 8
-	rest 1
-	octave 4
-	note_type 6, 15, 8
-	note C_, 2
-	note_type 6, 10, 8
-	rest 2
-	volume_envelope 15, 8
-	note C_, 2
 	sound_ret
 
 Music_mart_Ch3:
