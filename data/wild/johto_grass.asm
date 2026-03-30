@@ -1,61 +1,5 @@
 ; Johto Pokémon in grass
 
-	def_grass_wildmons SPROUT_TOWER_2F
-	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 3, RATTATA
-	wildmon 4, RATTATA
-	wildmon 5, RATTATA
-	wildmon 3, BELLSPROUT
-	wildmon 6, RATTATA
-	wildmon 5, BELLSPROUT
-	wildmon 6, BELLSPROUT
-	; day
-	wildmon 3, RATTATA
-	wildmon 4, RATTATA
-	wildmon 5, RATTATA
-	wildmon 3, BELLSPROUT
-	wildmon 6, RATTATA
-	wildmon 5, BELLSPROUT
-	wildmon 6, BELLSPROUT
-	; nite
-	wildmon 3, RATTATA
-	wildmon 4, RATTATA
-	wildmon 5, GASTLY
-	wildmon 3, BELLSPROUT
-	wildmon 6, GASTLY
-	wildmon 5, BELLSPROUT
-	wildmon 6, BELLSPROUT
-	end_grass_wildmons
-
-	def_grass_wildmons SPROUT_TOWER_3F
-	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 4, RATTATA
-	wildmon 5, RATTATA
-	wildmon 6, RATTATA
-	wildmon 4, BELLSPROUT
-	wildmon 7, RATTATA
-	wildmon 6, BELLSPROUT
-	wildmon 7, BELLSPROUT
-	; day
-	wildmon 4, RATTATA
-	wildmon 5, RATTATA
-	wildmon 6, RATTATA
-	wildmon 4, BELLSPROUT
-	wildmon 7, RATTATA
-	wildmon 6, BELLSPROUT
-	wildmon 7, BELLSPROUT
-	; nite
-	wildmon 4, RATTATA
-	wildmon 5, RATTATA
-	wildmon 6, GASTLY
-	wildmon 4, BELLSPROUT
-	wildmon 7, GASTLY
-	wildmon 6, BELLSPROUT
-	wildmon 7, BELLSPROUT
-	end_grass_wildmons
-
 	def_grass_wildmons TIN_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
@@ -1350,7 +1294,7 @@
 	wildmon  4, PIDGEY
 	wildmon  3, RATTATA
 	wildmon  4, SENTRET
-	wildmon  3, PIDGEY
+	wildmon  3, RATTATA
 	wildmon  5, SENTRET
 	wildmon  5, PIDGEY
 	wildmon  5, MAREEP
@@ -1358,15 +1302,15 @@
 	wildmon  4, PIDGEY
 	wildmon  3, RATTATA
 	wildmon  4, SENTRET
-	wildmon  3, PIDGEY
+	wildmon  3, AIPOM
 	wildmon  5, SENTRET
 	wildmon  5, PIDGEY
 	wildmon  5, AIPOM
 	; nite
 	wildmon  4, HOOTHOOT
-	wildmon  3, RATTATA, ALOLAN_FORM
-	wildmon  4, RATTATA, ALOLAN_FORM
-	wildmon  3, HOOTHOOT
+	wildmon  3, RATTATA
+	wildmon  4, RATTATA
+	wildmon  3, SPINARAK
 	wildmon  5, HOOTHOOT
 	wildmon  5, SPINARAK
 	wildmon  5, BONSLY
