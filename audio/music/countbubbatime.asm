@@ -105,8 +105,8 @@ Music_UntitledSong_Ch2:
 	octave 4
 	note C_, 10
 	octave 3
-	note A#, 2
-	note A_, 2
+	note A#, 1
+	note A_, 3
 	octave 2
 	note F_, 2
 	rest 2
