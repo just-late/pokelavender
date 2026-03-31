@@ -1,0 +1,5 @@
+MAP                   W   H  Tileset
+
+BlossomDorms1F.ablk - 10, 6, hotel
+BlossomDorms2F.ablk - 12, 7, hotel
+BlossomDormRooms.ablk 20, 5, hotel
