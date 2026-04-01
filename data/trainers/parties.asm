@@ -135,13 +135,13 @@ FalknerGroup:
 	db "RANCID@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
-	dbp 10, KOFFING
+	dbp 10, KOFFING, MALE
 		db EVIOLITE
-	;	ev_spread 32 Def, 32 Def
+		ev_spread 32 Spe, 32 SAt
 		db VENOSHOCK, SMOKESCREEN, TACKLE
-	dbp 16, NIDORINA
+	dbp 16, NIDORINA, FEMALE
 		db EVIOLITE
-	;	ev_spread 36 HP, 32 Def
+		ev_spread 36 HP, 32 Spe
 		db TOXIC, VENOSHOCK, FURY_STRIKES
 	db -1 ; end
 
