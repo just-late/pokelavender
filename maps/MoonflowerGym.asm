@@ -23,10 +23,10 @@ MoonflowerGym_MapScriptHeader:
 	person_event SPRITE_GYM_GUY,  9,  1, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, -1
 	person_event SPRITE_FAT_GUY, 11,  8, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC1Text, -1
 	person_event SPRITE_FISHER,  7,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC2Text, -1
-;	person_event SPRITE_COOL_DUDE,  6,  4, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC3Text, -1
+	person_event SPRITE_COOL_DUDE,  6,  4, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC3Text, -1
 	person_event SPRITE_FAT_GUY,  9,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptext, MoonflowerGymNPC4Text, -1
-;	person_event SPRITE_POKEFAN_F,  8, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC5Text, -1
-;	person_event SPRITE_POKEFAN_M,  9, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC6Text, -1
+	person_event SPRITE_POKEFAN_F,  8, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC5Text, -1
+	person_event SPRITE_POKEFAN_M,  9, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC6Text, -1
 
 	object_const_def
 	const MOONFLOWER_BARFIGHT_BIKER
@@ -35,13 +35,13 @@ MoonflowerGym_MapScriptHeader:
 MoonflowerGymRancidScript:
 	faceplayer
 	opentext
-	checkevent EVENT_BEAT_RANCID
+	checkflag ENGINE_PUNKBADGE
 	iftruefwd .FightDone
 	writetext RancidIntroText
 	waitbutton
 	closetext
-	loadtrainer FALKNER, 1
 	winlosstext FalknerWinLossText, 0
+	loadtrainer FALKNER, 1
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_RANCID
@@ -273,11 +273,11 @@ MoonflowerGymNPC2Text:
 	line "didn't hear that!"
 	done
 
-;MoonflowerGymNPC3Text:
-;	text "I come here every"
-;	line "night, for battles"
-;	cont "and beverages!"
-;	done
+MoonflowerGymNPC3Text:
+	text "I come here every"
+	line "night, for battles"
+	cont "and beverages!"
+	done
 
 MoonflowerGymNPC4Text:
 	text "Yeah, yeah."
@@ -285,22 +285,22 @@ MoonflowerGymNPC4Text:
 	para "Put it on my tab."
 	done
 
-;MoonflowerGymNPC5Text:
-;	text "I came here for a"
-;	line "date."
-;
-;	para "I wasn't expecting"
-;	line "this!"
-;	done
+MoonflowerGymNPC5Text:
+	text "I came here for a"
+	line "date."
 
-;MoonflowerGymNPC6Text:
-;	text "I come here every"
-;	line "night with my"
-;	cont "girlfriend."
+	para "I wasn't expecting"
+	line "this!"
+	done
 
-;	para "Don't tell her how"
-;	line "big my tab is!"
-;	done
+MoonflowerGymNPC6Text:
+	text "I come here every"
+	line "night with my"
+	cont "girlfriend."
+
+	para "Don't tell her how"
+	line "big my tab is!"
+	done
 
 MoonflowerBarFightBikerMovement:
 	fast_step_right
