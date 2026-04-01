@@ -16,12 +16,13 @@ PlayersHouse2F_MapScriptHeader:
 	bg_event  5,  1, BGEVENT_READ, PokemonJournalDrLaventonScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
 
-	def_object_events
+	db 5 ; object events
 	object_event  4,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
 	object_event  4,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll1, EVENT_PLAYERS_HOUSE_2F_DOLL_1
 	object_event  5,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll2, EVENT_PLAYERS_HOUSE_2F_DOLL_2
 	object_event  2,  4, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, BigDoll, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
-
+	person_event SPRITE_FAT_GUY, 4, 6, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, DebugDudeScript, -1
+	
 PlayersHouse2FInitializeRoom:
 	special ToggleDecorationsVisibility
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_8
@@ -116,6 +117,21 @@ PlayersHousePC:
 	cont "you picked out!"
 	done
 
+DebugDudeScript:
+	faceplayer
+	opentext
+	writetext DebugDudeText
+	yesorno
+	iffalsefwd .End
+	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
+	givepoke DRAGONITE, PLAIN_FORM, 60, ORAN_BERRY
+	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
+	givepoke TYPHLOSION, PLAIN_FORM, 60, CHARCOAL
+	waitbutton
+.End:
+	closetext
+	end
+
 PlayerRadioText1:
 	text "Prof.Oak's #MON"
 	line "Talk! Please tune"
@@ -134,4 +150,9 @@ PlayerRadioText3:
 PlayerRadioText4:
 	text "#MON!"
 	line "#MON Channel…"
+	done
+
+DebugDudeText:
+	text "DEBUG DUDE:"
+	line "Want some #MON?"
 	done
