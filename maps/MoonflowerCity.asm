@@ -497,8 +497,7 @@ MoonflowerCityNPC4Text:
 
 	para "I come here every"
 	line "single day to"
-	cont "stare at this"
-	cont "bike."
+	cont "yearn for a bike."
 	done
 
 MoonflowerCitySignText:

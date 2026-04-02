@@ -183,7 +183,7 @@
 	tilecoll WATER, BUOY, WATER, WATER ; b6
 	tilecoll PUDDLE, PUDDLE, PUDDLE, PUDDLE ; b7
 	tilecoll WALL, WALL, WALL, WALL ; b8
-	tilecoll WALL, WALL, WALL, WALL ; b9
+	tilecoll WALL, WALL, FLOOR, FLOOR ; b9
 	tilecoll WALL, WALL, WALL, WALL ; ba
 	tilecoll WALL, WALL, CAVE, WALL ; bb
 	tilecoll WALL, WALL, WALL, WALL ; bc

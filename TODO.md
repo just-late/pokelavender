@@ -26,5 +26,5 @@
 * Fix wild mons not appearing
 * Fix/cleanup all Anabel events
 * Fix Town map tilemap / tileset
-* Fix Moonflower Bike Shop Palettes
-* Fix Rancid Gym fight
+* Fix Moonflower Bike Shop Palettes (DONE)
+* Fix Rancid Gym fight (DONE)
