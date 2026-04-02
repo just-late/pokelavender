@@ -271,8 +271,8 @@ GemrootAnabelScript:
     end
 
 FirePokeBallScript:
-    checkevent EVENT_ANABEL_GEMROOT_SCENE
-    iffalsefwd .ItsAPokemonScript3
+    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    iftruefwd .ItsAPokemonScript3
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -333,8 +333,8 @@ AnabelTakesTotodileText:
     done
 
 WaterPokeBallScript:
-    checkevent EVENT_ANABEL_GEMROOT_SCENE
-    iffalsefwd .ItsAPokemonScript2
+    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    iftruefwd .ItsAPokemonScript2
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -397,8 +397,8 @@ AnabelTakesTurtwigText:
     done
 
 GrassPokeBallScript:
-    checkevent EVENT_ANABEL_GEMROOT_SCENE
-    iffalsefwd .ItsAPokemonScript1
+    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    iftruefwd .ItsAPokemonScript1
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
