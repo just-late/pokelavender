@@ -1452,15 +1452,13 @@ Rival1Group:
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, TURTWIG
-		db ORAN_BERRY
 	db -1 ; end
 
 	; RIVAL1_2
 	db "ANABEL@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 5, CYNDAQUIL
-		db ORAN_BERRY
+	dbp 5, CHARMANDER
 	db -1 ; end
 
 	; RIVAL1_3
@@ -1468,7 +1466,6 @@ Rival1Group:
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, TOTODILE
-		db ORAN_BERRY
 	db -1 ; end
 
 	; RIVAL1

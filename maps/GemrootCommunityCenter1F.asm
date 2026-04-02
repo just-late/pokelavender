@@ -276,8 +276,8 @@ FirePokeBallScript:
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
-    pokepic CYNDAQUIL
-    cry CYNDAQUIL
+    pokepic CHARMANDER
+    cry CHARMANDER
     waitbutton
     closepokepic
     opentext
@@ -289,7 +289,7 @@ FirePokeBallScript:
     writetext ChoseMonText
     promptbutton
     waitsfx
-    givepoke CYNDAQUIL, PLAIN_FORM, 5, ORAN_BERRY
+    givepoke CHARMANDER, PLAIN_FORM, 5, ORAN_BERRY
     setscene $1
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
@@ -324,7 +324,7 @@ FirePokeBallScript:
     end
 
 TakeFireMonText:
-    text "Take CYNDAQUIL?"
+    text "Take CHARMANDER?"
     done
 
 AnabelTakesTotodileText:
@@ -455,7 +455,7 @@ ItsAPokemonText:
 
 AnabelTakesCyndaquilText:
     text "ANABEL: Then I'll"
-    line "take CYNDAQUIL!"
+    line "take CHARMANDER!"
     done
 
 AnabelCutePokemonText:
