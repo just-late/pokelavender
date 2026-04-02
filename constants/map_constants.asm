@@ -252,7 +252,7 @@ ENDM
 	map_const MAGNET_TUNNEL_EAST,                         10, 11 ; 14
 	map_const MOONFLOWER_OUTSKIRTS,                       20, 10 ; 15
 	map_const MOONFLOWER_BIKE_SHOP,						   4,  4 ; 16
-	map_const MOONFLOWER_INDIGO_BASE_1F,				  13,  4 ; 17
+	map_const MOONFLOWER_INDIGO_BASE_1F,				  13,  5 ; 17
 
 	newgroup                                                     ; 11
 	map_const ROUTE_34,                                   10, 27 ;  1
