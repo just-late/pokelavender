@@ -253,6 +253,8 @@ ENDM
 	map_const MOONFLOWER_OUTSKIRTS,                       20, 10 ; 15
 	map_const MOONFLOWER_BIKE_SHOP,						   4,  4 ; 16
 	map_const MOONFLOWER_INDIGO_BASE_1F,				  13,  5 ; 17
+	map_const MOONFLOWER_GANG_APARTMENT_1F,				   5,  4 ; 18
+	map_const MOONFLOWER_GANG_APARTMENT_2F,				   5,  4 ; 19
 
 	newgroup                                                     ; 11
 	map_const ROUTE_34,                                   10, 27 ;  1

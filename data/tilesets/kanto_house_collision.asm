@@ -144,3 +144,18 @@
 	tilecoll WALL, WALL, WALL, FLOOR ; 8f
 	tilecoll WALL, WINDOW, LADDER, FLOOR ; 90
 	tilecoll WINDOW, WALL, FLOOR, LADDER ; 91
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 92
+	tilecoll TOWN_MAP, WALL, FLOOR, TRASH_CAN ; 93
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 94
+	tilecoll WALL, WALL, FLOOR, WALL ; 95
+	tilecoll WALL, WALL, WALL, FLOOR ; 96
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 97
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 98
+	tilecoll WALL, WINDOW, LADDER, FLOOR ; 99
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 9a
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 9b
+	tilecoll WALL, WALL, WALL, FLOOR ; 9c
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 9d
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 9e
+	tilecoll WALL, WALL, WALL, FLOOR ; 9f
+	tilecoll WINDOW, WALL, FLOOR, LADDER ; a0

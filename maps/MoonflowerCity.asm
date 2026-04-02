@@ -13,6 +13,7 @@ MoonflowerCity_MapScriptHeader:
 	warp_event 19, 17, MOONFLOWER_BIKE_SHOP, 1
 	warp_event 31,  3, ROUTE_2_MOONFLOWER_GATE, 3
 	warp_event  9, 17, MOONFLOWER_INDIGO_BASE_1F, 1
+	warp_event 13, 17,  MOONFLOWER_GANG_APARTMENT_1F, 1
 ;	warp_event 17, 19, MOONFLOWER_ONIX_TRADE_HOUSE, 1
 
 	def_coord_events

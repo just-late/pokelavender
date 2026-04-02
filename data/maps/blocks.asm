@@ -288,6 +288,14 @@ SECTION "MoonflowerIndigoBase1F_BlockData", ROMX
 MoonflowerIndigoBase1F_BlockData:
 	INCBIN "maps/MoonflowerIndigoBase1F.ablk.lz"
 
+SECTION "MoonflowerGangApartment1F_BlockData", ROMX
+MoonflowerGangApartment1F_BlockData:
+	INCBIN "maps/MoonflowerGangApartment1F.ablk.lz"
+
+SECTION "MoonflowerGangApartment2F_BlockData", ROMX
+MoonflowerGangApartment2F_BlockData:
+	INCBIN "maps/MoonflowerGangApartment2F.ablk.lz"
+
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
 	INCBIN "maps/SproutTower1F.ablk.lz"
