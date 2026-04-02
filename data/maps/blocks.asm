@@ -284,6 +284,10 @@ SECTION "MoonflowerBikeShop_BlockData", ROMX
 MoonflowerBikeShop_BlockData:
 	INCBIN "maps/MoonflowerBikeShop.ablk.lz"
 
+SECTION "MoonflowerIndigoBase1F_BlockData", ROMX
+MoonflowerIndigoBase1F_BlockData:
+	INCBIN "maps/MoonflowerIndigoBase1F.ablk.lz"
+
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
 	INCBIN "maps/SproutTower1F.ablk.lz"

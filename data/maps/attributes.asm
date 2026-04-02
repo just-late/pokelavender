@@ -589,6 +589,7 @@ ENDM
 	map_attributes MoonflowerOnixTradeHouse, MOONFLOWER_ONIX_TRADE_HOUSE, $0, 0
 	map_attributes Route2MoonflowerGate, ROUTE_2_MOONFLOWER_GATE, $0, 0
 	map_attributes MoonflowerBikeShop, MOONFLOWER_BIKE_SHOP, $0, 0
+	map_attributes MoonflowerIndigoBase1F, MOONFLOWER_INDIGO_BASE_1F, $0, 0
 	map_attributes Route32PokeCenter1F, ROUTE_32_POKECENTER_1F, $0, 0
 	map_attributes Route32CoastHouse, ROUTE_32_COAST_HOUSE, $0, 0
 	map_attributes Route35GoldenrodGate, ROUTE_35_GOLDENROD_GATE, $0, 0

@@ -1,6 +1,7 @@
 MoonflowerCity_MapScriptHeader:
 	def_scene_scripts
 	scene_script MoonflowerCity_PokeGearGuyScene
+	scene_script MoonflowerCity_TeamIndigoScene
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, MoonflowerCityFlyPoint
@@ -11,9 +12,14 @@ MoonflowerCity_MapScriptHeader:
 	warp_event 27, 27, MOONFLOWER_POKECENTER_1F, 1
 	warp_event 19, 17, MOONFLOWER_BIKE_SHOP, 1
 	warp_event 31,  3, ROUTE_2_MOONFLOWER_GATE, 3
+	warp_event  9, 17, MOONFLOWER_INDIGO_BASE_1F, 1
 ;	warp_event 17, 19, MOONFLOWER_ONIX_TRADE_HOUSE, 1
 
 	def_coord_events
+	coord_event 2, 20, 1, TeamIndigoTrigger1
+	coord_event 3, 20, 1, TeamIndigoTrigger2
+	coord_event 4, 20, 1, TeamIndigoTrigger3
+	coord_event 5, 20, 1, TeamIndigoTrigger4
 
 	def_bg_events
 	bg_event 29, 13, BGEVENT_JUMPTEXT, MoonflowerCitySignText
@@ -22,22 +28,30 @@ MoonflowerCity_MapScriptHeader:
 	bg_event 23, 17, BGEVENT_ITEM + POKE_BALL, EVENT_MOONFLOWER_CITY_HIDDEN_POKE_BALL
 	bg_event 12, 11, BGEVENT_ITEM + RARE_CANDY, EVENT_MOONFLOWER_CITY_RARE_CANDY
 	bg_event 15, 11, BGEVENT_ITEM + PP_UP, EVENT_MOONFLOWER_CITY_PP_UP
+	bg_event  7, 17, BGEVENT_JUMPTEXT, PokeIndustriesSignText
 
-	db 8 ; object_events
+	db 13 ; object_events
 	person_event SPRITE_GENTLEMAN,  8, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeGearGuy_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
 	person_event SPRITE_FIREBREATHER, 15, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown1_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
 	person_event SPRITE_FIREBREATHER, 18, 10, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown2_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
+	person_event SPRITE_ROCKET, 22, 2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGuyText, -1
+	person_event SPRITE_FAT_GUY, 23, 3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC7Text, -1
+	person_event SPRITE_ROCKET_GIRL, 22, 4, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGirlText, -1
 	person_event SPRITE_GRAMPS, 22, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC1Text, -1
 	person_event SPRITE_CHILD, 10, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC2Text, -1
 	person_event SPRITE_YOUNGSTER, 24, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC3Text, -1
 	person_event SPRITE_SCHOOLBOY, 19, 20, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC4Text, -1
-	fruittree_event 18,  6, FRUITTREE_MOONFLOWER_CITY, CHERI_BERRY, PAL_NPC_RED
+	person_event SPRITE_BIKER, 28, 24, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC5Text, -1
+	person_event SPRITE_BIRD_KEEPER, 21, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC6Text, -1
+	pokemon_event 6, 26, RATICATE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MoonflowerCitySignText, -1
 
 	const_def 1 ; object constants
 	const MOONFLOWER_POKEGEAR_GUY
 	const MOONFLOWER_POKEGEAR_CLOWN1
 	const MOONFLOWER_POKEGEAR_CLOWN2
-
+	const INDIGO_GRUNT1
+	const INDIGO_FAT_GUY
+	const INDIGO_GRUNT2
 
 MoonflowerCityFlyPoint:
 	setflag ENGINE_FLYPOINT_VIOLET
@@ -45,6 +59,9 @@ MoonflowerCityFlyPoint:
 
 MoonflowerCity_PokeGearGuyScene:
 	sdefer PokeGearGuy_SceneScript
+	end
+
+MoonflowerCity_TeamIndigoScene:
 	end
 
 PokeGearGuy_SceneScript:
@@ -222,6 +239,109 @@ PokeGearCampaignClown2_Script:
 	closetext
 	end
 
+TeamIndigoTrigger1:
+	playmusic MUSIC_ROCKET_ENCOUNTER
+	turnobject INDIGO_GRUNT1, UP
+	pause 5
+	showemote EMOTE_SHOCK, INDIGO_GRUNT1, 30
+	opentext
+	writetext IndigoGruntText
+	waitbutton
+	closetext
+	applymovement INDIGO_GRUNT1, GruntWalksToYou1_Movement
+	playsound SFX_TACKLE
+	applymovement PLAYER, IndigoGruntShovesYou_Movement
+	opentext
+	writetext DontMessWithTeamIndigoText
+	waitbutton
+	closetext
+	applymovement INDIGO_GRUNT1, GruntWalksBack1_Movement
+	turnobject INDIGO_GRUNT1, RIGHT
+    special RestartMapMusic
+	end
+
+TeamIndigoTrigger2:
+	playmusic MUSIC_ROCKET_ENCOUNTER
+	turnobject INDIGO_GRUNT1, UP
+	pause 5
+	showemote EMOTE_SHOCK, INDIGO_GRUNT1, 30
+	opentext
+	writetext IndigoGruntText
+	waitbutton
+	closetext
+	applymovement INDIGO_GRUNT1, GruntWalksToYou2_Movement
+	playsound SFX_TACKLE
+	applymovement PLAYER, IndigoGruntShovesYou_Movement
+	opentext
+	writetext DontMessWithTeamIndigoText
+	waitbutton
+	closetext
+	applymovement INDIGO_GRUNT1, GruntWalksBack2_Movement
+	turnobject INDIGO_GRUNT1, RIGHT
+	special RestartMapMusic
+	end
+
+TeamIndigoTrigger3:
+	playmusic MUSIC_ROCKET_ENCOUNTER
+	turnobject INDIGO_GRUNT2, UP
+	pause 5
+	showemote EMOTE_SHOCK, INDIGO_GRUNT2, 30
+	opentext
+	writetext MoonflowerRocketGirlText
+	waitbutton
+	closetext
+	applymovement INDIGO_GRUNT2, GruntWalksToYou1_Movement
+	playsound SFX_TACKLE
+	applymovement PLAYER, IndigoGruntShovesYou_Movement
+	opentext
+	writetext DontMessWithTeamIndigoText
+	waitbutton
+	closetext
+	applymovement INDIGO_GRUNT2, GruntWalksBack1_Movement
+	turnobject INDIGO_GRUNT2, LEFT
+	special RestartMapMusic
+	end
+
+TeamIndigoTrigger4:
+	playmusic MUSIC_ROCKET_ENCOUNTER
+	turnobject INDIGO_GRUNT2, UP
+	pause 5
+	showemote EMOTE_SHOCK, INDIGO_GRUNT2, 30
+	opentext
+	writetext MoonflowerRocketGirlText
+	waitbutton
+	closetext
+	applymovement INDIGO_GRUNT2, GruntWalksToYou2_Movement
+	playsound SFX_TACKLE
+	applymovement PLAYER, IndigoGruntShovesYou_Movement
+	opentext
+	writetext DontMessWithTeamIndigoText
+	waitbutton
+	closetext
+	applymovement INDIGO_GRUNT2, GruntWalksBack2_Movement
+	turnobject INDIGO_GRUNT2, LEFT
+	special RestartMapMusic
+	end
+
+IndigoGruntText:
+	text "Hey! What?!"
+
+	para "What's a kid like"
+	line "you doing here?"
+
+	para "This wasn't in the"
+	line "job description!"
+
+	para "Well, I have to"
+	line "remove you!"
+	done
+
+DontMessWithTeamIndigoText:
+	text "That should teach"
+	line "you not to mess"
+	cont "with TEAM INDIGO!"
+	done
+
 MoonflowerPokeGearGuy_Text1:
 	text "Hello, bonjour!"
 
@@ -343,9 +463,10 @@ MoonflowerCityNPC2Text:
 	text "Heehee!"
 
 	para "Sometimes, when"
-	line "look in the trash-"
-	cont "cans, there's an"
-	cont "item inside!"
+	line "you look in the"
+	cont "trash cans,"
+	cont "there's an item"
+	cont "inside!"
 
 	para "Make sure to check"
 	line "every one of them!"
@@ -397,6 +518,62 @@ MoonflowerGymSignText:
 
 	para "The funky POISON"
 	line "TYPE TRAINER!"
+	done
+
+MoonflowerNPC5Text:
+	text "Hey, kid."
+	line "Be careful in the"
+	cont "gym."
+
+	para "It's full of mean"
+	line "guys."
+
+	para "…"
+
+	para "Why are you still"
+	line "here?"
+	
+	para "Scram!"
+	done
+
+MoonflowerNPC6Text:
+	text "Do you like my"
+	line "new haircut?"
+
+	para "I sure do!"
+	done
+
+MoonflowerNPC7Text:
+	text "Alright, so the…"
+
+	para "Hey! What are you"
+	line "doing here, kid?"
+	done
+
+MoonflowerRocketGuyText:
+	text "Scram, kid!"
+	line "We're talking"
+	cont "business!"
+	done
+
+MoonflowerRocketGirlText:
+	text "What are you-?"
+
+	para "A kid?!"
+
+	para "This is none of"
+	line "your business!"
+
+	para "Mind your"
+	line "manners, kid!"
+	done
+
+PokeIndustriesSignText:
+	text "# INDUSTRIES"
+
+	para "Working for the"
+	line "better of people"
+	cont "and #MON."
 	done
 
 PokeGearGuyWalksToYou_Movement:
@@ -461,4 +638,29 @@ PokeGearGuyLeaves2_Movement:
 	step_down
 	step_down
 	step_down
+	step_end
+
+IndigoGruntShovesYou_Movement:
+	turn_head_down
+	fix_facing
+	jump_step_up
+	remove_fixed_facing
+	step_end
+
+GruntWalksToYou1_Movement:
+	step_up
+	step_end
+
+GruntWalksToYou2_Movement:
+	step_right
+	step_up
+	step_end
+
+GruntWalksBack1_Movement:
+	step_down
+	step_end
+
+GruntWalksBack2_Movement:
+	step_down
+	step_left
 	step_end

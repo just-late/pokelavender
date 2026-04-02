@@ -117,6 +117,7 @@ INCLUDE "maps/MoonflowerNicknameSpeechHouse.asm"
 INCLUDE "maps/MoonflowerOnixTradeHouse.asm"
 INCLUDE "maps/EarlsPokemonAcademy.asm"
 INCLUDE "maps/MoonflowerBikeShop.asm"
+INCLUDE "maps/MoonflowerIndigoBase1F.asm"
 
 
 SECTION "Sprout Tower Scripts", ROMX
