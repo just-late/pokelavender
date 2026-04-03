@@ -123,7 +123,7 @@ MomScript:
 	opentext
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
 	iftruefwd .MomAdventureScript
-	checkevent EVENT_TALKED_TO_MOM_AFTER_GETTING_A_POKEMON
+	checkevent EVENT_SAW_MOM_AFTER_STARTER
 	iftrue_jumpopenedtext MomDoItText
 	jumpthisopenedtext
 
@@ -144,7 +144,7 @@ MomScript:
 	end
 
 .MomAdventureScript:
-	setevent EVENT_TALKED_TO_MOM_AFTER_GETTING_A_POKEMON
+	setevent EVENT_SAW_MOM_AFTER_STARTER
 	writetext MomAdventureText
 	verbosegiveitem EXP_SHARE ; temporary
 	writetext MomAdventureText2

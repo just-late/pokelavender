@@ -133,7 +133,7 @@ MomPhoneNoGymQuestScript:
 	end
 
 MomPhoneLectureScript:
-	checkevent EVENT_TALKED_TO_MOM_AFTER_GETTING_A_POKEMON
+	checkevent EVENT_SAW_MOM_AFTER_STARTER
 	iftruefwd .JustCheckingInScript
 	specialphonecall SPECIALCALL_NONE
 	farwritetext MomPhoneLectureText
@@ -141,4 +141,5 @@ MomPhoneLectureScript:
 
 .JustCheckingInScript:
 	farwritetext MomPhoneJustCheckingInText
+	specialphonecall SPECIALCALL_NONE
 	end

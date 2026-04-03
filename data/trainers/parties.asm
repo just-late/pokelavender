@@ -1452,6 +1452,7 @@ Rival1Group:
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, TURTWIG
+		db NO_ITEM
 	db -1 ; end
 
 	; RIVAL1_2
@@ -1459,6 +1460,7 @@ Rival1Group:
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, CHARMANDER
+		db NO_ITEM
 	db -1 ; end
 
 	; RIVAL1_3
@@ -1466,6 +1468,7 @@ Rival1Group:
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, TOTODILE
+		db NO_ITEM
 	db -1 ; end
 
 	; RIVAL1
