@@ -12,9 +12,17 @@ MoonflowerGangApartment2F_MapScriptHeader:
 
     db 4 ; object events
 	person_event SPRITE_BIKER,  4,  7, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GangApartment2FBikerText, -1
-	person_event SPRITE_ARCHER,  5,  4, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GangApartment2FBossText, -1
+	person_event SPRITE_ARCHER,  5,  4, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, GangApartment2FBossScript, -1
 	pokemon_event  1,  4, QUILAVA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, GangApartment2FQuilavaText, -1
 	pokemon_event  2,  5, CYNDAQUIL, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, GangApartment2FCyndaquilText, -1
+
+GangApartment2FBossScript: ; add a side quest here later
+    faceplayer
+    opentext
+    writetext GangApartment2FBossText
+    waitbutton
+    closetext
+    end
 
 GangApartment2FBikerText:
     text "ROOOOOOAR!"
