@@ -174,26 +174,17 @@ _CameToItsSensesText::
 
 SECTION "_OakTimeWokeUpText", ROMX
 _OakTimeWokeUpText::
-	text "BROUGHT TO YOU"
-	line "BY THE FAMOUS" 
-	para "#MON RADIO!"
-	line "A SPECIAL INTER-"
-	cont "VIEW WITH"
-	para "DR. LAVENTON OF"
-	line "BLOSSOM ACADEMY!"
+	text "……………"
 	prompt
 
 SECTION "_OakTimeWhatTimeIsItText", ROMX
 _OakTimeWhatTimeIsItText::
-	text "THE RADIO THAT"
-	line "GOES 24/7!"
-	para "RIGHT NOW,"
-	line "IT'S…"
+	text "What time is it?"
 	done
 
 SECTION "_OakTimeHowManyMinutesText", ROMX
 _OakTimeHowManyMinutesText::
-	text "……………"
+	text "How many minutes?"
 	done
 
 SECTION "_OakTimeWhoaText", ROMX
@@ -203,10 +194,7 @@ _OakTimeWhoaText::
 
 SECTION "_OakTimeQuestionMarkText", ROMX
 _OakTimeQuestionMarkText::
-	text "!"
-	para "Time for my"
-	line "interview!"
-	para "…mutter…"
+	text "?"
 	done
 
 SECTION "_OakTimeWhatDayIsItText", ROMX
