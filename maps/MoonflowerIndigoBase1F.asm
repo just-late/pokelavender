@@ -25,7 +25,7 @@ MoonflowerIndigoBase1F_MapScriptHeader:
 
     db 9  ; object events
 	person_event SPRITE_RECEPTIONIST, 1, 2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1,  PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, IndigoBase1FReceptionistText, -1
-	person_event SPRITE_GENTLEMAN, 2, 7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, IndigoBase1FGentlemanText, -1
+	person_event SPRITE_GENTLEMAN, 4, 7, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, IndigoBase1FGentlemanText, -1
 	person_event SPRITE_SCIENTIST,  9, 22, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptext, IndigoBase1FScientistIgnoresYouText, -1
 	person_event SPRITE_SCIENTIST,  4, 15, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, IndigoBase1FMachineBuilder1Text, -1
 	person_event SPRITE_SCIENTIST_F,  3, 11, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, IndigoBase1FMachineBuilder2Text, -1

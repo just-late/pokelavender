@@ -14,7 +14,7 @@ MoonflowerGangApartment1F_MapScriptHeader:
 
     db 4 ; object_events
 	person_event SPRITE_FAT_GUY,  3,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GangApartment1FFatGuyText, -1
-	person_event SPRITE_BIKER,  5,  6, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GangApartment1FBikerText, -1
+	person_event SPRITE_BIKER,  5,  6, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GangApartment1FBikerText, -1
 	person_event SPRITE_COSPLAYER,  4,  3, SPRITEMOVEDATA_WANDER, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GangApartment1FCosplayerText, -1
     pokemon_event  9,  4, TYPHLOSION, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, GangApartment1FTyphlosionText, -1
 

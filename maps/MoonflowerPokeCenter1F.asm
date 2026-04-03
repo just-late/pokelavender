@@ -53,11 +53,11 @@ MoonflowerPokeCenter1FElmsAideScript:
 .AskTakeEgg:
 	yesorno
 	iffalsefwd .RefusedEgg
-	giveegg TOGEPI
+	giveegg GOOMY
 	iffalse_jumpopenedtext .PartyAndBoxFull
-	setevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	setevent EVENT_GOT_GOOMY_EGG_FROM_ELMS_AIDE
 	clearevent EVENT_ELMS_AIDE_IN_LAB
-	clearevent EVENT_TOGEPI_HATCHED
+	clearevent EVENT_GOOMY_HATCHED
 	setmapscene ROUTE_32, $1
 	writetext .GoodbyeText
 	waitbutton
