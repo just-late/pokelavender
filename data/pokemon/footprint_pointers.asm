@@ -174,7 +174,7 @@ FootprintPointers::
 	dw PichuFootprint
 	dw CleffaFootprint
 	dw IgglybuffFootprint
-	dw TogepiFootprint
+	dw GoomyFootprint
 	dw TogeticFootprint
 	dw NatuFootprint
 	dw XatuFootprint

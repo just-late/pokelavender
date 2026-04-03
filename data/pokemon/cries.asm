@@ -179,8 +179,8 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Lanturn
 	mon_cry CRY_PICHU,       $000,  $140 ; Pichu
 	mon_cry CRY_BELLOSSOM,   $061,  $091 ; Cleffa
-	mon_cry CRY_TURTWIG,   $0e8,  $0e8 ; Igglybuff
-	mon_cry CRY_TOGEPI,      $010,  $100 ; Togepi
+	mon_cry CRY_TURTWIG,     $0e8,  $0e8 ; Igglybuff
+	mon_cry CRY_SENTRET,     $000,  $100 ; Togepi
 	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togetic
 	mon_cry CRY_NATU,       -$067,  $100 ; Natu
 	mon_cry CRY_NATU,       -$0a7,  $168 ; Xatu

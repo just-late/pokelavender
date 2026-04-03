@@ -1,7 +1,7 @@
 JohtoFrames:
 
-TurtwigFrames:  INCLUDE "gfx/pokemon/turtwig/frames.asm"
-GrotleFrames:    INCLUDE "gfx/pokemon/grotle/frames.asm"
+TurtwigFrames:    INCLUDE "gfx/pokemon/turtwig/frames.asm"
+GrotleFrames:     INCLUDE "gfx/pokemon/grotle/frames.asm"
 TorterraFrames:   INCLUDE "gfx/pokemon/torterra/frames.asm"
 CyndaquilFrames:  INCLUDE "gfx/pokemon/cyndaquil/frames.asm"
 QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"
@@ -21,7 +21,7 @@ ChinchouFrames:   INCLUDE "gfx/pokemon/chinchou/frames.asm"
 LanturnFrames:    INCLUDE "gfx/pokemon/lanturn/frames.asm"
 CleffaFrames:     INCLUDE "gfx/pokemon/cleffa/frames.asm"
 IgglybuffFrames:  INCLUDE "gfx/pokemon/igglybuff/frames.asm"
-TogepiFrames:     INCLUDE "gfx/pokemon/togepi/frames.asm"
+GoomyFrames:      INCLUDE "gfx/pokemon/goomy/frames.asm"
 TogeticFrames:    INCLUDE "gfx/pokemon/togetic/frames.asm"
 NatuFrames:       INCLUDE "gfx/pokemon/natu/frames.asm"
 XatuFrames:       INCLUDE "gfx/pokemon/xatu/frames.asm"

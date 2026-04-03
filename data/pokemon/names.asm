@@ -175,7 +175,7 @@ PokemonNames::
 	rawchar "PICHU@@@@@"
 	rawchar "CLEFFA@@@@"
 	rawchar "IGGLYBUFF@"
-	rawchar "TOGEPI@@@@"
+	rawchar "GOOMY@@@@@"
 	rawchar "TOGETIC@@@"
 	rawchar "NATU@@@@@@"
 	rawchar "XATU@@@@@@"

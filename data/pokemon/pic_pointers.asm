@@ -178,7 +178,7 @@ PokemonPicPointers::
 	pics PichuPlain
 	pics Cleffa
 	pics Igglybuff
-	pics Togepi
+	pics Goomy
 	pics Togetic
 	pics Natu
 	pics Xatu

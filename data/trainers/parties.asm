@@ -6749,7 +6749,7 @@ BreederGroup:
 		db EVIOLITE
 	dbp 10, DITTO
 		db METAL_POWDER
-	dbp 8, TOGEPI
+	dbp 8, GOOMY
 		db EVIOLITE
 	db -1 ; end
 

@@ -77,7 +77,7 @@ Route32CooltrainermPetrieScript:
 Route32CooltrainerMTrigger:
 	checkflag ENGINE_PUNKBADGE
 	iffalse_jumptext Route32CooltrainerMText_MoonflowerGym
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_GOOMY_EGG_FROM_ELMS_AIDE
 	iffalse_jumptext Route32CooltrainerMText_AideIsWaiting
 	checkevent EVENT_GOT_MIRACLE_SEED_FROM_ROUTE_32_LEADER
 	iftrue_jumptext .AfterText2

@@ -321,10 +321,10 @@ HatchEggs:
 	pop bc
 
 	; If we hatched a Togepi, set the relevant Prof Elm event flag.
-	ld de, TOGEPI
+	ld de, GOOMY
 	call CompareSpeciesWithDE
 	jr nz, .nottogepi
-	eventflagset EVENT_TOGEPI_HATCHED
+	eventflagset EVENT_GOOMY_HATCHED
 
 .nottogepi
 	call GetPartyPokemonName

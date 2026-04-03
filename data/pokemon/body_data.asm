@@ -181,7 +181,7 @@ PokemonBodyData:
 	body_data   3,   20, QUADRUPED,    YELLOW ; PICHU
 	body_data   3,   30, BIPEDAL_TAIL, PINK   ; CLEFFA
 	body_data   3,   10, BIPEDAL,      PINK   ; IGGLYBUFF
-	body_data   3,   15, BIPEDAL,      WHITE  ; TOGEPI
+	body_data   3,   15, BIPEDAL,      WHITE  ; GOOMY
 	body_data   6,   32, BIPEDAL,      WHITE  ; TOGETIC
 	body_data   2,   20, WINGS,        GREEN  ; NATU
 	body_data  15,  150, WINGS,        GREEN  ; XATU

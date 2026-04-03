@@ -4088,24 +4088,22 @@ IgglybuffEvosAttacks:
 	db 20, CHARM
 	db -1 ; no more level-up moves
 
-TogepiEvosAttacks:
-	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
+GoomyEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, TOGETIC
 	db -1 ; no more evolutions
-	db 1, GROWL
-	db 1, CHARM
-	db 5, METRONOME
-	db 9, SWEET_KISS
-	db 13, SING ; Yawn → similar move
-	db 17, ENCORE
-	db 21, DIZZY_PUNCH ; Follow Me → new move
-	db 25, HEAL_BELL ; Bestow → HGSS tutor move
-	db 29, FRESH_SNACK ; Wish → new move
-	db 33, ANCIENTPOWER
-	db 37, SAFEGUARD
-	db 41, BATON_PASS
-	db 45, DOUBLE_EDGE
-	db 49, EXTRASENSORY ; Last Resort → egg move
-	db 53, PLAY_ROUGH ; After You → Sw/Sh move
+	db 1, ABSORB
+	db 1, TACKLE
+	db 5, WATER_GUN
+	db 8, CHARM
+	db 10, MUD_SLAP ; Dragon Breath not added
+	db 15, PROTECT
+	db 18, MUD_SLAP
+	db 25, WATER_PULSE
+	db 30, DRAGON_PULSE
+	db 35, TAKE_DOWN
+	db 41, CURSE
+	db 45, BODY_SLAM
+	db 56, SURF
 	db -1 ; no more level-up moves
 
 TogeticEvosAttacks:

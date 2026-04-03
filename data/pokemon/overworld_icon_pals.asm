@@ -178,7 +178,7 @@ OverworldMonIconColors::
 	iconpal RED, BLUE ; PICHU
 	iconpal RED, PINK ; CLEFFA
 	iconpal RED, PINK ; IGGLYBUFF
-	iconpal RED, AZURE ; TOGEPI
+	iconpal RED, AZURE ; GOOMY
 	iconpal WHITE, AZURE ; TOGETIC
 	iconpal GREEN, RED ; NATU
 	iconpal GREEN, RED ; XATU

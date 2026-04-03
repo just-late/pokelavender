@@ -196,7 +196,7 @@
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
-	const TOGEPI     ; af
+	const GOOMY      ; af
 	const TOGETIC    ; b0
 	const NATU       ; b1
 	const XATU       ; b2

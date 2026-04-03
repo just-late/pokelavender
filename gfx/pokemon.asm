@@ -356,9 +356,9 @@ SECTION "Seadra Pics", ROMX
 SeadraFrontpic: INCBIN "gfx/pokemon/seadra/front.animated.2bpp.lz"
 SeadraBackpic:  INCBIN "gfx/pokemon/seadra/back.2bpp.lz"
 
-SECTION "Togepi Pics", ROMX
-TogepiFrontpic: INCBIN "gfx/pokemon/togepi/front.animated.2bpp.lz"
-TogepiBackpic:  INCBIN "gfx/pokemon/togepi/back.2bpp.lz"
+SECTION "Goomy Pics", ROMX
+GoomyFrontpic: INCBIN "gfx/pokemon/goomy/front.animated.2bpp.lz"
+GoomyBackpic:  INCBIN "gfx/pokemon/goomy/back.2bpp.lz"
 
 SECTION "Togetic Pics", ROMX
 TogeticFrontpic: INCBIN "gfx/pokemon/togetic/front.animated.2bpp.lz"

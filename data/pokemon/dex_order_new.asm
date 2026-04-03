@@ -47,7 +47,7 @@ NewPokedexOrder:
 	dp IGGLYBUFF
 	dp JIGGLYPUFF
 	dp WIGGLYTUFF
-	dp TOGEPI
+	dp GOOMY
 	dp TOGETIC
 	dp TOGEKISS
 	dp SANDSHREW

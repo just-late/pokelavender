@@ -174,7 +174,7 @@ EvolutionMoves::
 	db NO_MOVE      ; PICHU
 	db NO_MOVE      ; CLEFFA
 	db NO_MOVE      ; IGGLYBUFF
-	db NO_MOVE      ; TOGEPI
+	db NO_MOVE      ; GOOMY
 	db DISARM_VOICE ; TOGETIC
 	db NO_MOVE      ; NATU
 	db AIR_SLASH    ; XATU

@@ -174,7 +174,7 @@ AnimationExtraPointers:
 	dw PichuPlainAnimationExtra
 	dw CleffaAnimationExtra
 	dw IgglybuffAnimationExtra
-	dw TogepiAnimationExtra
+	dw GoomyAnimationExtra
 	dw TogeticAnimationExtra
 	dw NatuAnimationExtra
 	dw XatuAnimationExtra

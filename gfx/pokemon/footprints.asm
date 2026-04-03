@@ -41,6 +41,7 @@ ForretressFootprint::
 GastlyFootprint::
 GeodudeFootprint::
 GoldeenFootprint::
+GoomyFootprint::
 GrimerFootprint::
 GyaradosFootprint::
 HaunterFootprint::
@@ -207,7 +208,6 @@ AriadosFootprint:: INCBIN "gfx/footprints/ariados.1bpp.lz"
 PichuFootprint:: INCBIN "gfx/footprints/pichu.1bpp.lz"
 CleffaFootprint:: INCBIN "gfx/footprints/cleffa.1bpp.lz"
 IgglybuffFootprint:: INCBIN "gfx/footprints/igglybuff.1bpp.lz"
-TogepiFootprint:: INCBIN "gfx/footprints/togepi.1bpp.lz"
 TogeticFootprint:: INCBIN "gfx/footprints/togetic.1bpp.lz"
 NatuFootprint:: INCBIN "gfx/footprints/natu.1bpp.lz"
 XatuFootprint:: INCBIN "gfx/footprints/xatu.1bpp.lz"

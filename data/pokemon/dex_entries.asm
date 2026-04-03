@@ -1746,15 +1746,15 @@ IgglybuffPokedexEntry::
 	next "on its soft,"
 	next "tender body.@"
 
-SECTION "TogepiPokedexEntry", ROMX
-TogepiPokedexEntry::
-	db "Spike Ball@"
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+SECTION "GoomyPokedexEntry", ROMX
+GoomyPokedexEntry::
+	db "SOFT TISSUE@"
+	db   "GOOMY stays in"
+	next "shady areas so"
+	next "it doesn't dry up."
+	page "Its slimy membrane"
+	next "is made of germ-"
+	next "laden mucous.@"
 
 SECTION "TogeticPokedexEntry", ROMX
 TogeticPokedexEntry::

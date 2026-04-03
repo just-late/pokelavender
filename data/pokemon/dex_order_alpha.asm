@@ -85,6 +85,7 @@ AlphabeticalPokedexOrder:
 	dp GOLDEEN
 	dp GOLDUCK
 	dp GOLEM
+	dp GOOMY
 	dp GRANBULL
 	dp GRAVELER
 	dp GRIMER
@@ -256,7 +257,6 @@ AlphabeticalPokedexOrder:
 	dp TENTACOOL
 	dp TENTACRUEL
 	dp TOGEKISS
-	dp TOGEPI
 	dp TOGETIC
 	dp TORTERRA
 	dp TOTODILE

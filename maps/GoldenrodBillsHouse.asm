@@ -29,7 +29,7 @@ BillsGrandpa:
 	promptbutton
 	setevent EVENT_MET_BILLS_GRANDPA
 .MetGrandpa:
-	checkevent EVENT_SHOWED_TOGEPI_TO_BILLS_GRANDPA
+	checkevent EVENT_SHOWED_GOOMY_TO_BILLS_GRANDPA
 	iftrue .ShowedTogepi
 	checkevent EVENT_SHOWED_MURKROW_TO_BILLS_GRANDPA
 	iftrue .ShowedMurkrow
@@ -167,9 +167,9 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal TOGEPI, .WrongPokemon
+	ifnotequal GOOMY, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_TOGEPI_TO_BILLS_GRANDPA
+	setevent EVENT_SHOWED_GOOMY_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedTogepi
 
 .ShowedSnubbull:

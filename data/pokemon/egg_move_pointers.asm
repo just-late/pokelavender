@@ -174,7 +174,7 @@ EggMovePointers::
 	dw PichuEggMoves          ; Pichu
 	dw CleffaEggMoves         ; Cleffa
 	dw IgglybuffEggMoves      ; Igglybuff
-	dw TogepiEggMoves         ; Togepi
+	dw GoomyEggMoves          ; Goomy
 	dw NoEggMoves             ; Togetic
 	dw NatuEggMoves           ; Natu
 	dw NoEggMoves             ; Xatu

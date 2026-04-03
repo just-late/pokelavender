@@ -637,13 +637,10 @@ IgglybuffEggMoves:
 	db MOONBLAST
 	db $ff
 
-TogepiEggMoves:
-	db EXTRASENSORY
-	db FORESIGHT
-	db FUTURE_SIGHT
-	db HEALINGLIGHT
-	db NASTY_PLOT
-	db PECK
+GoomyEggMoves:
+	db COUNTER
+	db RAIN_DANCE
+	db DRAGON_PULSE
 	db $ff
 
 NatuEggMoves:
