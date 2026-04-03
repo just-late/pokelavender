@@ -3263,15 +3263,15 @@ _ElmText2::
 
 SECTION "_ElmText4", ROMX
 _ElmText4::
-	text "People and #MON"
-	line "live together by"
+	text "Some #MON like"
+	line "to battle,"
 
-	para "supporting each"
-	line "other."
+	para "and others help"
+	line "humans out with"
+	cont "tasks,"
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "like my partner"
+	line "AMPHAROS."
 	prompt
 
 SECTION "_ElmText5", ROMX

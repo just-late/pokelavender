@@ -594,10 +594,10 @@ if !DEF(DEBUG)
 	call FadeToWhite
 	call ClearTileMap
 
-	ld a, LOW(GOOMY)
+	ld a, LOW(AMPHAROS)
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
-	ld a, HIGH(GOOMY) << MON_EXTSPECIES_F
+	ld a, HIGH(AMPHAROS) << MON_EXTSPECIES_F
 	ld [wCurForm], a
 	ld [wTempMonForm], a
 	call GetBaseData
