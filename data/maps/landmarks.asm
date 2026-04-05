@@ -8,29 +8,14 @@ Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
 	landmark  60, 100, GemrootTownName
-	landmark  68,  98, Route1Name
-	landmark  68,  76, GlittervineTownName
-	landmark  66,  74, CherrygroveBayName
-	landmark  76,  76, Route30Name
-	landmark  96,  60, Route31Name
-	landmark  84,  60, MoonflowerCityName
-	landmark  86,  58, SproutTowerName
-	landmark  84,  52, MoonflowerOutskirtsName
-	landmark  76,  76, RuinsOfAlphName
-	landmark  84,  92, Route32Name
-	landmark  92, 112, Route32CoastName
-	landmark  84, 124, UnionCaveName
-	landmark  76, 124, Route33Name
-	landmark  68, 124, AzaleaTownName
-	landmark  76, 116, SlowpokeWellName
-	landmark  52, 124, IlexForestName
-	landmark  52, 108, Route34Name
-	landmark  36, 120, Route34CoastName
-	landmark  44, 132, StormyBeachName
-	landmark  52, 132, MurkySwampName
-	landmark  52,  92, GoldenrodCityName
-	landmark  50,  92, RadioTowerName
-	landmark  44,  92, GoldenrodHarborName
+	landmark  68,  84, Route1Name
+	landmark  68,  68, GlittervineTownName
+	landmark  84,  68, Route2Name
+	landmark  92,  76, MoonflowerCityName
+	landmark 116,  92, AzaleaTownName
+	landmark 100, 116, GoldenrodCityName
+	landmark 108, 124, RadioTowerName
+	landmark 100, 132, GoldenrodHarborName
 	landmark  68,  92, MagnetTunnelName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
@@ -74,10 +59,23 @@ Landmarks:
 	landmark 102, 124, FastShipName
 	landmark 120,  28, SinjohRuinsName
 	landmark 120,  28, MystriStageName
-	assert_table_length KANTO_LANDMARK
+	landmark  76,  76, Route30Name
+	landmark  96,  60, Route31Name
+	landmark  86,  58, SproutTowerName
+	landmark  76,  76, RuinsOfAlphName
+	landmark  84,  92, Route32Name
+	landmark  92, 112, Route32CoastName
+	landmark  84, 124, UnionCaveName
+	landmark  76, 124, Route33Name
+	landmark  76, 116, SlowpokeWellName
+	landmark  52, 124, IlexForestName
+	landmark  52, 108, Route34Name
+	landmark  36, 120, Route34CoastName
+	landmark  44, 132, StormyBeachName
+	landmark  52, 132, MurkySwampName
+;	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
 	landmark  52,  76, ViridianCityName
-	landmark  52,  68, Route2Name
 	landmark  52,  60, ViridianForestName
 	landmark  52,  44, PewterCityName
 	landmark  64,  44, Route3Name
@@ -155,9 +153,9 @@ Landmarks:
 
 GemrootTownName:       rawchar "GEMROOT¯TOWN@"
 GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
-MoonflowerCityName:        rawchar "MOONFLOWER¯CITY@"
-AzaleaTownName:        rawchar "Azalea Town@"
-GoldenrodCityName:     rawchar "Goldenrod¯City@"
+MoonflowerCityName:    rawchar "MOONFLOWER¯CITY@"
+AzaleaTownName:        rawchar "MARIGOLD¯PORT@"
+GoldenrodCityName:     rawchar "BLOSSOM¯ACADEMY@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 OlivineCityName:       rawchar "Olivine¯City@"
 CianwoodCityName:      rawchar "Cianwood¯City@"
@@ -166,11 +164,10 @@ BlackthornCityName:    rawchar "Blackthorn¯City@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 SilverCaveName:        rawchar "Silver Cave@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
-MoonflowerOutskirtsName:   rawchar "Moonflower¯Outskirts@"
 RuinsOfAlphName:       rawchar "Ruins¯of Alph@"
 UnionCaveName:         rawchar "Union Cave@"
 SlowpokeWellName:      rawchar "Slowpoke¯Well@"
-RadioTowerName:        rawchar "Radio Tower@"
+RadioTowerName:        rawchar "TERRARIUM@"
 PowerPlantName:        rawchar "Power Plant@"
 NationalParkName:      rawchar "National¯Park@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
@@ -267,7 +264,7 @@ CliffCaveName:         rawchar "Cliff Cave@"
 YellowForestName:      rawchar "Yellow¯Forest@"
 QuietCaveName:         rawchar "Quiet Cave@"
 CherrygroveBayName:    rawchar "Glittervine¯Bay@"
-GoldenrodHarborName:   rawchar "Goldenrod¯Harbor@"
+GoldenrodHarborName:   rawchar "MT.¯LAVENDER@"
 MagnetTunnelName:      rawchar "Magnet¯Tunnel@"
 Route32CoastName:      rawchar "Route 32¯Coast@"
 Route34CoastName:      rawchar "Route 34¯Coast@"

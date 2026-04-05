@@ -145,7 +145,7 @@
 	tilecoll WALL, WINDOW, LADDER, FLOOR ; 90
 	tilecoll WINDOW, WALL, FLOOR, LADDER ; 91
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 92
-	tilecoll TOWN_MAP, WALL, FLOOR, TRASH_CAN ; 93
+	tilecoll TOWN_MAP, WALL, LADDER, TRASH_CAN ; 93
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 94
 	tilecoll WALL, WALL, FLOOR, WALL ; 95
 	tilecoll WALL, WALL, WALL, FLOOR ; 96
@@ -159,3 +159,4 @@
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 9e
 	tilecoll WALL, WALL, WALL, FLOOR ; 9f
 	tilecoll WINDOW, WALL, FLOOR, LADDER ; a0
+	tilecoll TOWN_MAP, WALL, FLOOR, TRASH_CAN ; a1
