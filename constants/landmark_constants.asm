@@ -8,6 +8,7 @@
 	const ROUTE_30           ; 04
 	const ROUTE_31           ; 05
 	const MOONFLOWER_CITY        ; 06
+	const MARIGOLD_PORT
 	const SPROUT_TOWER       ; 07
 	const RUINS_OF_ALPH      ; 08
 	const ROUTE_32           ; 09

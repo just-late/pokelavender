@@ -296,6 +296,10 @@ SECTION "MoonflowerGangApartment2F_BlockData", ROMX
 MoonflowerGangApartment2F_BlockData:
 	INCBIN "maps/MoonflowerGangApartment2F.ablk.lz"
 
+SECTION "MarigoldPort_BlockData", ROMX
+MarigoldPort_BlockData:
+	INCBIN "maps/MarigoldPort.ablk.lz"
+
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
 	INCBIN "maps/SproutTower1F.ablk.lz"

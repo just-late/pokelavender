@@ -706,4 +706,7 @@ ENDM
 	map_const ECRUTEAK_SHRINE_OUTSIDE,                     8, 11 ;  1
 	map_const ECRUTEAK_SHRINE_INSIDE,                      6,  6 ;  2
 
+	newgroup													 ; 38
+	map_const MARIGOLD_PORT,						      24, 14 ;  1
+
 DEF NUM_MAP_GROUPS EQU const_value ; 37

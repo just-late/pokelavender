@@ -121,6 +121,9 @@ INCLUDE "maps/MoonflowerIndigoBase1F.asm"
 INCLUDE "maps/MoonflowerGangApartment1F.asm"
 INCLUDE "maps/MoonflowerGangApartment2F.asm"
 
+SECTION "Marigold Port Scripts", ROMX
+
+INCLUDE "maps/MarigoldPort.asm"
 
 SECTION "Sprout Tower Scripts", ROMX
 

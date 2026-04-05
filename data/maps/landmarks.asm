@@ -12,8 +12,7 @@ Landmarks:
 	landmark  68,  68, GlittervineTownName
 	landmark  84,  68, Route2Name
 	landmark  92,  76, MoonflowerCityName
-	landmark 116,  92, AzaleaTownName
-	landmark 100, 116, GoldenrodCityName
+	landmark 116,  92, MarigoldPortName
 	landmark 108, 124, RadioTowerName
 	landmark 100, 132, GoldenrodHarborName
 	landmark  68,  92, MagnetTunnelName
@@ -73,6 +72,8 @@ Landmarks:
 	landmark  36, 120, Route34CoastName
 	landmark  44, 132, StormyBeachName
 	landmark  52, 132, MurkySwampName
+	landmark  0,    0, NoopLandmark ; TEMPORARY
+	landmark 100, 116, GoldenrodCityName
 ;	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
 	landmark  52,  76, ViridianCityName
@@ -154,8 +155,7 @@ Landmarks:
 GemrootTownName:       rawchar "GEMROOT¯TOWN@"
 GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
 MoonflowerCityName:    rawchar "MOONFLOWER¯CITY@"
-AzaleaTownName:        rawchar "MARIGOLD¯PORT@"
-GoldenrodCityName:     rawchar "BLOSSOM¯ACADEMY@"
+MarigoldPortName:      rawchar "MARIGOLD¯PORT@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 OlivineCityName:       rawchar "Olivine¯City@"
 CianwoodCityName:      rawchar "Cianwood¯City@"
@@ -295,3 +295,5 @@ SinjohRuinsName:       rawchar "Sinjoh¯Ruins@"
 MystriStageName:       rawchar "Mystri¯Stage@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
 SpecialMapName:        rawchar "?@"
+NoopLandmark:		   rawchar "?@"
+GoldenrodCityName:     rawchar "BLOSSOM¯ACADEMY@"
