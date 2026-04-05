@@ -3,7 +3,6 @@
 -ADD-
 
 * New player character overworld sprites and trainer sprites
-* Add Charmander to starters
 * Add content beyond Moonflower City
 * Add Blossom Academy
 * Add first bad guy team encounter "TEAM TBD"
@@ -23,8 +22,7 @@
 
 -FIX-
 
-* Fix wild mons not appearing
+* Fix wild mons not appearing (ROUTE 1 DONE)
 * Fix/cleanup all Anabel events
 * Fix Town map tilemap / tileset
-* Fix Moonflower Bike Shop Palettes (DONE)
-* Fix Rancid Gym fight (DONE)
+* Fix / add script to stop player after mom call in glittervine
