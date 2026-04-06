@@ -13,6 +13,7 @@ Landmarks:
 	landmark  84,  68, Route2Name
 	landmark  92,  76, MoonflowerCityName
 	landmark 116,  92, MarigoldPortName
+	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
 	landmark 100, 132, GoldenrodHarborName
 	landmark  68,  92, MagnetTunnelName
@@ -74,7 +75,6 @@ Landmarks:
 	landmark  52, 132, MurkySwampName
 	landmark  0,    0, NoopLandmark ; TEMPORARY
 	landmark 100, 116, GoldenrodCityName
-;	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
 	landmark  52,  76, ViridianCityName
 	landmark  52,  60, ViridianForestName

@@ -5,11 +5,12 @@
 	const GEMROOT_TOWN       ; 01
 	const ROUTE_1            ; 02
 	const GLITTERVINE_TOWN   ; 03
-	const ROUTE_30           ; 04
-	const ROUTE_31           ; 05
-	const MOONFLOWER_CITY        ; 06
-	const MARIGOLD_PORT
+	const ROUTE_2            ; 04
+	const MOONFLOWER_CITY    ; 05
+	const MARIGOLD_PORT		 ; 06
+DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07
+	const ROUTE_31           ; 05
 	const RUINS_OF_ALPH      ; 08
 	const ROUTE_32           ; 09
 	const ROUTE_32_COAST     ; 0a
@@ -68,10 +69,9 @@
 	const FAST_SHIP          ; 3f
 	const SINJOH_RUINS       ; 40
 	const MYSTRI_STAGE       ; 41
-DEF KANTO_LANDMARK EQU const_value
 	const PALLET_TOWN        ; 44
 	const VIRIDIAN_CITY      ; 46
-	const ROUTE_2            ; 47
+	const ROUTE_30            ; 47
 	const VIRIDIAN_FOREST    ; 48
 	const PEWTER_CITY        ; 49
 	const ROUTE_3            ; 4a
