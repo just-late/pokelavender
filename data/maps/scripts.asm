@@ -2,6 +2,7 @@ SECTION "Pokemon Center Scripts 1", ROMX
 
 INCLUDE "maps/GlittervinePokeCenter1F.asm"
 INCLUDE "maps/MoonflowerPokeCenter1F.asm"
+INCLUDE "maps/MarigoldPokeCenter1F.asm"
 INCLUDE "maps/AzaleaPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
 INCLUDE "maps/OlivinePokeCenter1F.asm"

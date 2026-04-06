@@ -2,6 +2,7 @@ SECTION "Special Map Blockdata", ROMX
 
 GlittervinePokeCenter1F_BlockData:
 MoonflowerPokeCenter1F_BlockData:
+MarigoldPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
