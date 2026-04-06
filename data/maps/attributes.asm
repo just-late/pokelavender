@@ -924,3 +924,5 @@ ENDM
 	map_attributes ValenciaHouse, VALENCIA_HOUSE, $0, 0
 	map_attributes ValenciaPort, VALENCIA_PORT, $0, 0
 	map_attributes MarigoldPokeCenter1F, MARIGOLD_POKECENTER_1F, $0, 0
+	map_attributes MarigoldNPCHouse1, MARIGOLD_NPC_HOUSE_1, $0, 0
+	map_attributes MarigoldNPCHouse2, MARIGOLD_NPC_HOUSE_2, $0, 0

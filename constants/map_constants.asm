@@ -715,5 +715,7 @@ ENDM
 	newgroup													 ; 38
 	map_const MARIGOLD_PORT,						      27, 14 ;  1
 	map_const MARIGOLD_POKECENTER_1F, 					   6,  4 ;  2
+	map_const MARIGOLD_NPC_HOUSE_1,						   4,  4 ;  3
+	map_const MARIGOLD_NPC_HOUSE_2,						   4,  4 ; 4
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

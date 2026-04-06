@@ -131,6 +131,8 @@ INCLUDE "maps/MoonflowerNPCApartment32F.asm"
 SECTION "Marigold Port Scripts", ROMX
 
 INCLUDE "maps/MarigoldPort.asm"
+INCLUDE "maps/MarigoldNPCHouse1.asm"
+INCLUDE "maps/MarigoldNPCHouse2.asm"
 
 SECTION "Sprout Tower Scripts", ROMX
 

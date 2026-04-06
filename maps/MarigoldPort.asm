@@ -6,6 +6,8 @@ MarigoldPort_MapScriptHeader:
     def_warp_events
 	warp_event 43,  9, PLAYERS_HOUSE_2F, 1
     warp_event 31,  9, MARIGOLD_POKECENTER_1F, 1
+    warp_event 25,  9, MARIGOLD_NPC_HOUSE_1, 1
+    warp_event 33, 15, MARIGOLD_NPC_HOUSE_2, 1
 
     def_coord_events
 

@@ -162,9 +162,9 @@ EcruteakDestinyKnotHouse_BlockData:
 MoonflowerNicknameSpeechHouse_BlockData:
 MoonflowerOnixTradeHouse_BlockData:
 ValeriesHouse_BlockData:
+MarigoldNPCHouse1_BlockData:
+MarigoldNPCHouse2_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
-
-
 
 SECTION "CeruleanPoliceStation_BlockData", ROMX
 CeruleanPoliceStation_BlockData:
