@@ -121,6 +121,12 @@ INCLUDE "maps/MoonflowerBikeShop.asm"
 INCLUDE "maps/MoonflowerIndigoBase1F.asm"
 INCLUDE "maps/MoonflowerGangApartment1F.asm"
 INCLUDE "maps/MoonflowerGangApartment2F.asm"
+INCLUDE "maps/MoonflowerNPCApartment11F.asm"
+INCLUDE "maps/MoonflowerNPCApartment12F.asm"
+INCLUDE "maps/MoonflowerNPCApartment21F.asm"
+INCLUDE "maps/MoonflowerNPCApartment22F.asm"
+INCLUDE "maps/MoonflowerNPCApartment31F.asm"
+INCLUDE "maps/MoonflowerNPCApartment32F.asm"
 
 SECTION "Marigold Port Scripts", ROMX
 

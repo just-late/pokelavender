@@ -13,8 +13,10 @@ MoonflowerCity_MapScriptHeader:
 	warp_event 19, 17, MOONFLOWER_BIKE_SHOP, 1
 	warp_event 31,  3, ROUTE_2_MOONFLOWER_GATE, 3
 	warp_event  9, 17, MOONFLOWER_INDIGO_BASE_1F, 1
-	warp_event 13, 17,  MOONFLOWER_GANG_APARTMENT_1F, 1
-;	warp_event 17, 19, MOONFLOWER_ONIX_TRADE_HOUSE, 1
+	warp_event 13, 17, MOONFLOWER_GANG_APARTMENT_1F, 1
+	warp_event 33, 17, MOONFLOWER_NPC_APARTMENT_1_1F, 1
+	warp_event 33, 27, MOONFLOWER_NPC_APARTMENT_2_1F, 1
+	warp_event  9, 27, MOONFLOWER_NPC_APARTMENT_3_1F, 1
 
 	def_coord_events
 	coord_event 2, 21, 1, TeamIndigoTrigger1
@@ -30,6 +32,7 @@ MoonflowerCity_MapScriptHeader:
 	bg_event 12, 11, BGEVENT_ITEM + RARE_CANDY, EVENT_MOONFLOWER_CITY_RARE_CANDY
 	bg_event 15, 11, BGEVENT_ITEM + PP_UP, EVENT_MOONFLOWER_CITY_PP_UP
 	bg_event  7, 17, BGEVENT_JUMPTEXT, PokeIndustriesSignText
+	bg_event 25, 17, BGEVENT_JUMPTEXT, MoonflowerForRentSignText
 
 	db 13 ; object_events
 	person_event SPRITE_GENTLEMAN,  8, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeGearGuy_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
@@ -526,7 +529,7 @@ MoonflowerNPC5Text:
 	para "It's full of mean"
 	line "guys at night."
 
-	para "…"
+	para "……………"
 
 	para "Why are you still"
 	line "here?"
@@ -572,6 +575,13 @@ PokeIndustriesSignText:
 	para "Working for the"
 	line "better of people"
 	cont "and #MON."
+	done
+
+MoonflowerForRentSignText:
+	text "APARTMENT FOR RENT"
+
+	para "Call THOMAS at"
+	line "1-800-FOR-RENT"
 	done
 
 PokeGearGuyWalksToYou_Movement:

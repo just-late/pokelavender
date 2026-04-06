@@ -160,3 +160,5 @@
 	tilecoll WALL, WALL, WALL, FLOOR ; 9f
 	tilecoll WINDOW, WALL, FLOOR, LADDER ; a0
 	tilecoll TOWN_MAP, WALL, FLOOR, TRASH_CAN ; a1
+	tilecoll FLOOR, FLOOR, WALL, WALL ; a2
+	tilecoll WALL, WALL, TV, RADIO ; a3

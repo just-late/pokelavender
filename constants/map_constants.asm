@@ -255,6 +255,12 @@ ENDM
 	map_const MOONFLOWER_INDIGO_BASE_1F,				  13,  5 ; 17
 	map_const MOONFLOWER_GANG_APARTMENT_1F,				   5,  4 ; 18
 	map_const MOONFLOWER_GANG_APARTMENT_2F,				   5,  4 ; 19
+	map_const MOONFLOWER_NPC_APARTMENT_1_1F,               5,  4 ; 20
+	map_const MOONFLOWER_NPC_APARTMENT_1_2F,               5,  4 ; 21
+	map_const MOONFLOWER_NPC_APARTMENT_2_1F,               5,  4 ; 22
+	map_const MOONFLOWER_NPC_APARTMENT_2_2F,               5,  4 ; 23
+	map_const MOONFLOWER_NPC_APARTMENT_3_1F,               5,  4 ; 24
+	map_const MOONFLOWER_NPC_APARTMENT_3_2F,               5,  4 ; 25
 
 	newgroup                                                     ; 11
 	map_const ROUTE_34,                                   10, 27 ;  1

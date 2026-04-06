@@ -205,6 +205,18 @@ PlayersNeighborsHouse_BlockData:
 GemrootNPCHouse2_BlockData:
 	INCBIN "maps/House1.ablk.lz"
 
+SECTION "MoonflowerNPCApartment11F_BlockData:", ROMX
+MoonflowerNPCApartment11F_BlockData:
+MoonflowerNPCApartment21F_BlockData:
+MoonflowerNPCApartment31F_BlockData:
+	INCBIN "maps/MoonflowerApartment1F.ablk.lz"
+
+SECTION "MoonflowerNPCApartment12F_BlockData:", ROMX
+MoonflowerNPCApartment12F_BlockData:
+MoonflowerNPCApartment22F_BlockData:
+MoonflowerNPCApartment32F_BlockData:
+	INCBIN "maps/MoonflowerApartment2F.ablk.lz"
+
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
 	INCBIN "maps/TradeCenter.ablk.lz"
