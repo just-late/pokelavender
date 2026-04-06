@@ -4,23 +4,27 @@ MarigoldPort_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 41, 9, PLAYERS_HOUSE_2F, 1
+	warp_event 43,  9, PLAYERS_HOUSE_2F, 1
 
     def_coord_events
 
     def_bg_events
-	bg_event 36, 12, BGEVENT_JUMPTEXT, MarigoldPortSignText
+	bg_event 38, 12, BGEVENT_JUMPTEXT, MarigoldPortSignText
 
-    db 9 ; object_events
-	person_event SPRITE_LASS, 13, 23, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC1Text, -1
+    db 13 ; object_events
+	person_event SPRITE_LASS, 13, 24, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC1Text, -1
 	person_event SPRITE_BUG_MANIAC, 11, 28, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC2Text, -1
-	person_event SPRITE_CHILD, 16, 29, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC3Text, -1
-	person_event SPRITE_BEACH_GUY, 10, 11, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC4Text, -1
+	person_event SPRITE_CHILD, 16, 30, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC3Text, -1
+	person_event SPRITE_BEACH_GUY, 10, 13, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC4Text, -1
 	person_event SPRITE_SAILOR, 20, 34, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor1Text, -1
 	person_event SPRITE_SAILOR, 19, 31, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor2Text, -1
-	person_event SPRITE_CUTE_GIRL, 23, 15, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortGirlText, -1
-	pokemon_event 14, 23, FURRET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MarigoldPortFurretText, -1
+	person_event SPRITE_CUTE_GIRL, 19, 47, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortGirlText, -1
+	pokemon_event 46, 19, FURRET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MarigoldPortFurretText, -1
 	pokemon_event 33, 19, MACHOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, MarigoldPortMachokeText, -1
+	object_event 35, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 35, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 14, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 14, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
 
 MarigoldPortSailor1Text:
     text "Ain't the salty"
@@ -36,13 +40,9 @@ MarigoldPortSailor2Text:
     done
 
 MarigoldPortGirlText:
-    text "I'm waiting for"
-    line "my boat to the"
-    cont "ACADEMY."
-
-    para "I hope it comes"
-    line "soon… FURRET is"
-    cont "getting hungry."
+    text "I'm watching the"
+    line "waves with my"
+    cont "FURRET."
     done
 
 MarigoldPortSignText:
@@ -96,4 +96,11 @@ MarigoldPortNPC4Text:
 
     para "OW! A KRABBY"
     line "pinched me!"
+    done
+
+MarigoldPortSailboatText:
+    text "The sailboat"
+    line "looks battered."
+
+    para "It's been well used."
     done
