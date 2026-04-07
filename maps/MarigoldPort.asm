@@ -1,34 +1,273 @@
 MarigoldPort_MapScriptHeader:
     def_scene_scripts
+	scene_script MarigoldPort_GoodsBoatScene
+	scene_script MarigoldPort_NoopScene
 
     def_callbacks
 
     def_warp_events
-	warp_event 43,  9, PLAYERS_HOUSE_2F, 1
-    warp_event 31,  9, MARIGOLD_POKECENTER_1F, 1
-    warp_event 25,  9, MARIGOLD_NPC_HOUSE_1, 1
-    warp_event 33, 15, MARIGOLD_NPC_HOUSE_2, 1
-    warp_event 17, 21, MARIGOLD_BOATHOUSE, 1
+	warp_event 61,  9, PLAYERS_HOUSE_2F, 1
+	warp_event 49,  9, MARIGOLD_POKECENTER_1F, 1
+	warp_event 43,  9, MARIGOLD_NPC_HOUSE_1, 1
+	warp_event 51, 15, MARIGOLD_NPC_HOUSE_2, 1
+	warp_event 35, 21, MARIGOLD_BOATHOUSE, 1
 
     def_coord_events
+	coord_event 12, 16, 0, TyphlosionsQuestTrigger1
+	coord_event 13, 16, 0, TyphlosionsQuestTrigger2
 
     def_bg_events
-	bg_event 38, 12, BGEVENT_JUMPTEXT, MarigoldPortSignText
+	bg_event 56, 12, BGEVENT_JUMPTEXT, MarigoldPortSignText
 
-    db 13 ; object_events
-	person_event SPRITE_LASS, 13, 24, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC1Text, -1
-	person_event SPRITE_BUG_MANIAC, 11, 28, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC2Text, -1
-	person_event SPRITE_CHILD, 16, 30, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC3Text, -1
-	person_event SPRITE_BEACH_GUY, 10, 13, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC4Text, -1
-	person_event SPRITE_SAILOR, 20, 34, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor1Text, -1
-	person_event SPRITE_SAILOR, 19, 35, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor2Text, -1
-	person_event SPRITE_CUTE_GIRL, 19, 47, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortGirlText, -1
-	pokemon_event 46, 19, FURRET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MarigoldPortFurretText, -1
-	pokemon_event 33, 19, MACHOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, MarigoldPortMachokeText, -1
-	object_event 35, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	object_event 35, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	object_event 14, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	object_event 14, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+    db 21 ; object_events
+	person_event SPRITE_SAILOR, 19, 11, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
+	person_event SPRITE_SAILOR, 22, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
+	person_event SPRITE_OFFICER, 12, 17, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
+	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	person_event SPRITE_FISHER, 19, 59, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldPortFisherScript, -1
+	person_event SPRITE_LASS, 13, 42, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC1Text, -1
+	person_event SPRITE_BUG_MANIAC, 11, 46, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC2Text, -1
+	person_event SPRITE_CHILD, 16, 48, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC3Text, -1
+	person_event SPRITE_BEACH_GUY, 10, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC4Text, -1
+	person_event SPRITE_SAILOR, 20, 52, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor1Text, -1
+	person_event SPRITE_SAILOR, 19, 53, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor2Text, -1
+	person_event SPRITE_CUTE_GIRL, 19, 65, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortGirlText, -1
+	pokemon_event 64, 19, FURRET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MarigoldPortFurretText, -1
+	pokemon_event 51, 19, MACHOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, MarigoldPortMachokeText, -1
+	object_event 53, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 53, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 32, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 32, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+
+	object_const_def
+	const GOODS_BOAT_SAILOR_1
+	const GOODS_BOAT_SAILOR_2
+	const MARIGOLD_PORT_OFFICER
+	const MARIGOLD_PORT_SAILBOAT_TOP
+	const MARIGOLD_PORT_SAILBOAT_BOTTOM
+
+MarigoldPort_GoodsBoatScene:
+	end
+
+MarigoldPort_NoopScene:
+	end
+
+TyphlosionsQuestTrigger1:
+	checkevent EVENT_DOING_BLAZE_QUEST
+	iffalsefwd .End
+	turnobject GOODS_BOAT_SAILOR_1, UP
+	showemote EMOTE_SHOCK, GOODS_BOAT_SAILOR_1, 30
+	opentext
+	writetext GoodsBoatSailorIntroText
+	waitbutton
+	closetext
+	turnobject GOODS_BOAT_SAILOR_1, RIGHT
+	applymovement PLAYER, PlayerWalksToBoat1_Movement
+	sjumpfwd MarigoldPortGoodsBoatScript
+.End:
+	end
+
+TyphlosionsQuestTrigger2:
+	checkevent EVENT_DOING_BLAZE_QUEST
+	iffalsefwd .End
+	showemote EMOTE_SHOCK, GOODS_BOAT_SAILOR_1, 30
+	turnobject GOODS_BOAT_SAILOR_1, UP
+	opentext
+	writetext GoodsBoatSailorIntroText
+	waitbutton
+	closetext
+	turnobject GOODS_BOAT_SAILOR_1, RIGHT
+	applymovement PLAYER, PlayerWalksToBoat2_Movement
+	sjumpfwd MarigoldPortGoodsBoatScript
+.End:
+	end
+
+MarigoldPortGoodsBoatScript:
+	opentext
+	writetext GoodsBoatSailorMainText
+	verbosegivekeyitem SECRETPOTION
+	setevent EVENT_DID_BLAZE_QUEST
+	waitbutton
+	closetext
+	pause 15
+	playmusic MUSIC_OFFICER_ENCOUNTER
+	opentext
+	writetext MarigoldOfficerHeyText
+	waitbutton
+	closetext
+	showemote EMOTE_SHOCK, GOODS_BOAT_SAILOR_1, 30
+	opentext
+	writetext GoodsBoatSailorHideText
+	waitbutton
+	closetext
+	applymovement PLAYER, PlayerHides_Movement
+	applyonemovement PLAYER, hide_object
+	pause 10
+	appear MARIGOLD_PORT_OFFICER
+	applymovement MARIGOLD_PORT_OFFICER, OfficerWalksToSailor_Movement
+	applymovement PLAYER, PlayerCameraMoves_Movement
+	opentext
+	writetext OfficerSuspicousText
+	waitbutton
+	closetext
+	pause 10
+	sjumpfwd MarigoldPortGoodsBoatScript2
+
+MarigoldPortGoodsBoatScript2:
+	applymovement MARIGOLD_PORT_OFFICER, OfficerLeavesSailor_Movement
+	disappear MARIGOLD_PORT_OFFICER
+	special RestartMapMusic
+	pause 10
+	applymovement PLAYER, PlayerCameraMovesBack_Movement
+	applyonemovement PLAYER, show_object
+	applyonemovement PLAYER, step_right
+	turnobject GOODS_BOAT_SAILOR_1, UP
+	opentext
+	writetext SailorYouCanComeOutText
+	waitbutton
+	closetext
+	turnobject PLAYER, DOWN
+	pause 10
+	applymovement GOODS_BOAT_SAILOR_1, GoodsBoatSailorLeaves_Movement
+	disappear GOODS_BOAT_SAILOR_1
+	disappear GOODS_BOAT_SAILOR_2
+	disappear MARIGOLD_PORT_SAILBOAT_TOP
+	disappear MARIGOLD_PORT_SAILBOAT_BOTTOM
+	opentext
+	writetext GoodsBoatSailedAwayText
+	waitbutton
+	closetext
+	setscene $1
+	end
+
+MarigoldPortFisherScript:
+    faceplayer
+	opentext
+	writetext MarigoldPortDollVendorText
+.Start:
+	special PlaceMoneyTopRight
+	loadmenu .MenuData
+	verticalmenu
+	closewindow
+	ifequalfwd $1, .TurtwigDoll
+	ifequalfwd $2, .TotodileDoll
+	ifequalfwd $3, .CharmanderDoll
+	endtext
+
+.TurtwigDoll:
+	checkmoney $0, 5000
+	ifequalfwd $2, .NotEnoughMoney
+	checkevent EVENT_DECO_TURTWIG_DOLL
+	iftruefwd .AlreadyBought
+	takemoney $0, 5000
+	setevent EVENT_DECO_TURTWIG_DOLL
+	writetext MarigoldPortTurtwigDollText
+	playsound SFX_TRANSACTION
+	waitbutton
+	writetext MarigoldPortTurtwigDollSentText
+	waitbutton
+	sjump .Start
+
+.TotodileDoll:
+	checkmoney $0, 5000
+	ifequalfwd $2, .NotEnoughMoney
+	checkevent EVENT_DECO_TOTODILE_DOLL
+	iftruefwd .AlreadyBought
+	takemoney $0, 5000
+	setevent EVENT_DECO_TOTODILE_DOLL
+	writetext MarigoldPortTotodileDollText
+	playsound SFX_TRANSACTION
+	waitbutton
+	writetext MarigoldPortTotodileDollSentText
+	waitbutton
+	sjump .Start
+
+.CharmanderDoll:
+	checkmoney $0, 5000
+	ifequalfwd $2, .NotEnoughMoney
+	checkevent EVENT_DECO_CHARMANDER_DOLL
+	iftruefwd .AlreadyBought
+	takemoney $0, 5000
+	setevent EVENT_DECO_CHARMANDER_DOLL
+	writetext MarigoldPortCharmanderDollText
+	playsound SFX_TRANSACTION
+	waitbutton
+	writetext MarigoldPortCharmanderDollSentText
+	waitbutton
+	sjump .Start
+
+.NotEnoughMoney:
+	writetext MarigoldPortNoMoneyText
+	waitbutton
+	sjump .Start
+
+.AlreadyBought:
+	writetext MarigoldPortAlreadyBoughtText
+	waitbutton
+	sjump .Start
+
+.MenuData:
+	db MENU_BACKUP_TILES
+	menu_coords 0, 2, 19, 11
+	dw .MenuData2
+	db 1 ; default option
+
+.MenuData2:
+	db $80 ; flags
+	db 4 ; items
+	db "TURTWIG     ¥5000@"
+	db "CHARMANDER  ¥5000@"
+	db "TOTODILE    ¥5000@"
+	db "CANCEL@"
+
+MarigoldPortDollVendorText:
+	text "Welcome! I have"
+	line "adorable #MON"
+	cont "DOLLS for sale."
+	done
+
+MarigoldPortTurtwigDollText:
+	text "<PLAYER> bought"
+	line "TURTWIG DOLL."
+	done
+
+MarigoldPortTurtwigDollSentText:
+	text "TURTWIG DOLL"
+	line "was sent home."
+	done
+
+MarigoldPortTotodileDollText:
+	text "<PLAYER> bought"
+	line "TOTODILE DOLL."
+	done
+
+MarigoldPortTotodileDollSentText:
+	text "TOTODILE DOLL"
+	line "was sent home."
+	done
+
+MarigoldPortCharmanderDollText:
+	text "<PLAYER> bought"
+	line "CHARMANDER DOLL."
+	done
+
+MarigoldPortCharmanderDollSentText:
+	text "CHARMANDER DOLL"
+	line "was sent home."
+	done
+
+MarigoldPortNoMoneyText:
+	text "You can't afford"
+	line "that!"
+	done
+
+MarigoldPortAlreadyBoughtText:
+	text "You already have"
+	line "that!"
+	done
 
 MarigoldPortSailor1Text:
     text "Ain't the salty"
@@ -108,3 +347,158 @@ MarigoldPortSailboatText:
 
     para "It's been well used."
     done
+
+GoodsBoatSailorIntroText:
+	text "???: Hey!"
+
+	para "BLAZE let me know"
+	line "you were coming!"
+
+	para "Get over here,"
+	line "fast!"
+	done
+
+GoodsBoatSailorMainText:
+	text "My name's TOM."
+
+	para "TOM: I'm on good"
+	line "terms with BLAZE."
+
+	para "Let's see…"
+
+	para "He wants me to"
+	line "give you this."
+	done
+
+MarigoldOfficerHeyText:
+	text "???: Hey!"
+	line "What's going on?"
+	done
+
+GoodsBoatSailorHideText:
+	text "Darnit! It's the"
+	line "cops!"
+
+	para "Ugh… Hide behind"
+	line "something, fast!"
+	done
+
+OfficerSuspicousText:
+	text "???: Hmm…"
+
+	para "I thought I saw"
+	line "a kid out here…"
+
+	para "This boat carries"
+	line "age-restriced"
+	cont "goods, right?"
+
+	para "TOM: …Uhh… Yeah."
+
+	para "???: Well… I hope"
+	line "I imagined that"
+	cont "kid."
+
+	para "I'll be keeping"
+	line "my eye on you."
+	done
+
+SailorYouCanComeOutText:
+	text "TOM: This was NOT"
+	line "worth the trouble"
+	cont "it caused."
+
+	para "Well… what's your"
+	line "name? <PLAYER>?"
+	
+	para "You can come"
+	line "out now, I guess."
+
+	para "Me and my buddy"
+	line "are gonna head"
+	cont "out."
+	done
+
+GoodsBoatSailedAwayText:
+	text "……………"
+	
+	para "Looks like TOM and"
+	line "his buddy sailed"
+	cont "away."
+	done
+
+PlayerWalksToBoat1_Movement:
+	step_down
+	step_down
+	step_down
+	turn_head_left
+	step_end
+
+PlayerWalksToBoat2_Movement:
+	step_down
+	step_down
+	step_left
+	step_down
+	turn_head_left
+	step_end
+
+PlayerHides_Movement:
+	fast_step_up
+	fast_step_up
+	fast_step_up
+	fast_step_up
+	fast_step_left
+	turn_head_down
+	step_end
+
+OfficerWalksToSailor_Movement:
+	step_left
+	step_left
+	step_left
+	step_left
+	step_down
+	step_down
+	step_down
+	step_down
+	step_down
+	step_left
+	step_down
+	step_down
+	turn_head_left
+	step_end
+
+OfficerLeavesSailor_Movement:
+	step_up
+	step_up
+	step_up
+	step_up
+	step_right
+	step_up
+	step_up
+	step_up
+	step_right
+	step_right
+	step_right
+	step_right
+	step_end
+
+GoodsBoatSailorLeaves_Movement:
+	step_right
+	step_right
+	step_down
+	step_end
+
+PlayerCameraMoves_Movement:
+	step_down
+	step_down
+	step_down
+	step_down
+	step_end
+
+PlayerCameraMovesBack_Movement:
+	step_up
+	step_up
+	step_up
+	step_up
+	turn_head_down
+	step_end

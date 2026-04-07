@@ -97,8 +97,6 @@ PokemonJournalDrLaventonScript:
 	done
 
 PlayersHousePC:
-	checkevent EVENT_MOM_SHOWED_HOW_TO_USE_PC
-	iffalsefwd .CoolBackground
 	opentext
 	special Special_PlayersHousePC
 	iftruefwd .Warp
@@ -106,16 +104,6 @@ PlayersHousePC:
 .Warp
 	warp NONE, 0, 0
 	end
-
-.CoolBackground
-	jumpthistext
-
-	text "It's your PC."
-	
-	para "It has a cool"
-	line "desktop background"
-	cont "you picked out!"
-	done
 
 DebugDudeScript:
 	faceplayer
@@ -127,6 +115,9 @@ DebugDudeScript:
 	givepoke DRAGONITE, PLAIN_FORM, 60, ORAN_BERRY
 	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
 	givepoke TYPHLOSION, PLAIN_FORM, 60, CHARCOAL
+	givemoney $0, 15000
+	setevent EVENT_DOING_BLAZE_QUEST
+	setevent EVENT_ALWAYS_SET
 	waitbutton
 .End:
 	closetext

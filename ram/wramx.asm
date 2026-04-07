@@ -1100,7 +1100,7 @@ wRadioTower5FSceneID:: db
 wRoute10NorthSceneID:: db
 wRoute23SceneID:: db
 wRoute24SceneID:: db
-	ds 1 ; unused
+wMarigoldPortSceneID:: db
 wRoute32SceneID:: db
 wRoute34SceneID:: db
 wRoute35NationalParkGateSceneID:: db

@@ -17,8 +17,11 @@ MarigoldBoathouse_MapScriptHeader:
     person_event SPRITE_POKEFAN_F, 5, 5, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldBoathouseNPC1Text, -1
     person_event SPRITE_CHILD,  5, 4, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldBoathouseNPC2Text, -1
 
+    object_const_def
+    const MARIGOLD_BOATHOUSE_BOATMAN
+
 MarigoldBoathouseBoatmanScript:
-    faceplayer
+    turnobject MARIGOLD_BOATHOUSE_BOATMAN, DOWN
     opentext
     writetext MarigoldBoatmanIntroText
 ;   yesorno

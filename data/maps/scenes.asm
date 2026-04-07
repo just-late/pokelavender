@@ -111,4 +111,5 @@ MapScenes::
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	scene_var YELLOW_FOREST,                          wYellowForestSceneID
+	scene_var MARIGOLD_PORT,						  wMarigoldPortSceneID
 	db -1

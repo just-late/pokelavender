@@ -713,7 +713,7 @@ ENDM
 	map_const ECRUTEAK_SHRINE_INSIDE,                      6,  6 ;  2
 
 	newgroup													 ; 38
-	map_const MARIGOLD_PORT,						      27, 14 ;  1
+	map_const MARIGOLD_PORT,						      36, 14 ;  1
 	map_const MARIGOLD_POKECENTER_1F, 					   6,  4 ;  2
 	map_const MARIGOLD_NPC_HOUSE_1,						   4,  4 ;  3
 	map_const MARIGOLD_NPC_HOUSE_2,						   4,  4 ;  4
