@@ -217,6 +217,10 @@ MoonflowerNPCApartment22F_BlockData:
 MoonflowerNPCApartment32F_BlockData:
 	INCBIN "maps/MoonflowerApartment2F.ablk.lz"
 
+SECTION "MarigoldBoathouse_BlockData:", ROMX
+MarigoldBoathouse_BlockData:
+	INCBIN "maps/MarigoldBoathouse.ablk.lz"
+
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
 	INCBIN "maps/TradeCenter.ablk.lz"
