@@ -131,6 +131,10 @@ Special_FadeBlackQuickly:
 	ld b, $4
 	jmp ConvertTimePalsDecHL
 
+Special_FadeToBlack::
+	ld c, 10
+	jmp FadeToBlack
+
 FillWhiteBGColor:
 	ldh a, [rSVBK]
 	push af

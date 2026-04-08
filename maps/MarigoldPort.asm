@@ -56,6 +56,8 @@ MarigoldPort_NoopScene:
 	end
 
 TyphlosionsQuestTrigger1:
+	checktime (1 << EVE) | (1 << NITE)
+	iffalsefwd .End
 	checkevent EVENT_DOING_BLAZE_QUEST
 	iffalsefwd .End
 	turnobject GOODS_BOAT_SAILOR_1, UP
@@ -71,6 +73,8 @@ TyphlosionsQuestTrigger1:
 	end
 
 TyphlosionsQuestTrigger2:
+	checktime (1 << EVE) | (1 << NITE)
+	iffalsefwd .End
 	checkevent EVENT_DOING_BLAZE_QUEST
 	iffalsefwd .End
 	showemote EMOTE_SHOCK, GOODS_BOAT_SAILOR_1, 30
@@ -88,6 +92,7 @@ TyphlosionsQuestTrigger2:
 MarigoldPortGoodsBoatScript:
 	opentext
 	writetext GoodsBoatSailorMainText
+	waitbutton
 	verbosegivekeyitem SECRETPOTION
 	setevent EVENT_DID_BLAZE_QUEST
 	waitbutton
@@ -114,28 +119,33 @@ MarigoldPortGoodsBoatScript:
 	waitbutton
 	closetext
 	pause 10
+	applymovement PLAYER, PlayerCameraMovesBack_Movement
 	sjumpfwd MarigoldPortGoodsBoatScript2
 
 MarigoldPortGoodsBoatScript2:
-	applymovement MARIGOLD_PORT_OFFICER, OfficerLeavesSailor_Movement
+	special Special_FadeBlackQuickly
+	turnobject PLAYER, LEFT
+	special Special_ReloadSpritesNoPalettes
 	disappear MARIGOLD_PORT_OFFICER
-	special RestartMapMusic
-	pause 10
-	applymovement PLAYER, PlayerCameraMovesBack_Movement
 	applyonemovement PLAYER, show_object
-	applyonemovement PLAYER, step_right
+	special Special_FadeInQuickly
+	special RestartMapMusic
+	pause 30
 	turnobject GOODS_BOAT_SAILOR_1, UP
 	opentext
 	writetext SailorYouCanComeOutText
 	waitbutton
 	closetext
-	turnobject PLAYER, DOWN
 	pause 10
+	applyonemovement PLAYER, step_right
+	turnobject PLAYER, DOWN
 	applymovement GOODS_BOAT_SAILOR_1, GoodsBoatSailorLeaves_Movement
 	disappear GOODS_BOAT_SAILOR_1
 	disappear GOODS_BOAT_SAILOR_2
 	disappear MARIGOLD_PORT_SAILBOAT_TOP
 	disappear MARIGOLD_PORT_SAILBOAT_BOTTOM
+	changeblock 5, 10, $D6
+	changeblock 5, 11, $D5
 	opentext
 	writetext GoodsBoatSailedAwayText
 	waitbutton
@@ -345,7 +355,8 @@ MarigoldPortSailboatText:
     text "The sailboat"
     line "looks battered."
 
-    para "It's been well used."
+    para "It's been through"
+	line "a lot."
     done
 
 GoodsBoatSailorIntroText:

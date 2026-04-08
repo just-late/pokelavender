@@ -59,6 +59,7 @@ FadeToBlack::
 	push bc
 	call SetBlackPals
 	pop bc
+	jr FadePalettes
 	; fallthrough
 
 FadePalettes::

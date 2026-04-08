@@ -48,6 +48,7 @@ SpecialsPointers::
 ;	add_special Special_UnusedMemoryGame
 	add_special FadeOutPalettes
 	add_special Special_FadeBlackQuickly
+	add_special Special_FadeToBlack
 	add_special FadeInPalettes
 	add_special Special_FadeInQuickly
 	add_special Special_ReloadSpritesNoPalettes
