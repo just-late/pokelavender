@@ -139,7 +139,7 @@ ENDM
 .NoPalmer
 	endcallback
 .ThursdayMorning
-	rematch REMATCH_GREEN_2, SPRITE_COPYCAT, SPRITE_BUGSY, 6, 1, DOWN
+	rematch REMATCH_GREEN_2, SPRITE_COPYCAT, SPRITE_FINN, 6, 1, DOWN
 	endcallback
 .ThursdayNight
 	rematch REMATCH_BROWN_3, SPRITE_CONSOLE, SPRITE_MORTY, 4, 2, DOWN
@@ -274,7 +274,7 @@ RematchGreen1Script:
 .Green1ThursdayDay
 	sjump RematchPalmerScript
 .Green1ThursdayMorning
-	sjump RematchBugsyScript
+	sjump RematchFinnScript
 
 RematchBlue1Script:
 	readvar VAR_WEEKDAY
@@ -401,8 +401,8 @@ RematchBlueScript:
 RematchFalknerScript:
 	rematch_script Falkner, FALKNER, ENGINE_GYM_LEADER_REMATCH_1
 
-RematchBugsyScript:
-	rematch_script Bugsy, BUGSY, ENGINE_GYM_LEADER_REMATCH_1
+RematchFinnScript:
+	rematch_script Finn, FINN, ENGINE_GYM_LEADER_REMATCH_1
 
 RematchWhitneyScript:
 	rematch_script Whitney, WHITNEY, ENGINE_GYM_LEADER_REMATCH_1
@@ -529,7 +529,7 @@ FalknerText_Greeting:
 	cont "you again!"
 	done
 
-BugsyText_Greeting:
+FinnText_Greeting:
 	text "Good to see you"
 	line "again! Behold my"
 	cont "bug research!"
@@ -724,7 +724,7 @@ FalknerText_WinLoss:
 	cont "the best trainer…"
 	done
 
-BugsyText_WinLoss:
+FinnText_WinLoss:
 	text "You must have"
 	line "studied a lot"
 	cont "about #MON!"
@@ -801,7 +801,7 @@ SabrinaText_Done:
 BlaineText_Done:
 BlueText_Done:
 FalknerText_Done:
-BugsyText_Done:
+FinnText_Done:
 WhitneyText_Done:
 MortyText_Done:
 ChuckText_Done:
@@ -853,12 +853,12 @@ FightingDojoScheduleWednesdayText:
 	done
 
 FightingDojoScheduleThursdayText:
-	text "Thursday: Bugsy,"
+	text "Thursday: Finn,"
 	line "???, Morty"
 	done
 
 FightingDojoScheduleThursdayPalmerText:
-	text "Thursday: Bugsy,"
+	text "Thursday: Finn,"
 	line "Palmer, Morty"
 	done
 

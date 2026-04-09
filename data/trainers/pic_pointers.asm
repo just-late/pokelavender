@@ -5,7 +5,7 @@ TrainerPicPointers::
 	dba CalPic
 	dba JackyPic
 	dba FalknerPic
-	dba BugsyPic
+	dba FinnPic
 	dba WhitneyPic
 	dba MortyPic
 	dba ChuckPic

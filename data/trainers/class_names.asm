@@ -5,7 +5,7 @@ TrainerClassNames::
 	li "<PK><MN> TRAINER" ; CAL
 	li "<PK><MN> TRAINER" ; JACKY
 	li "LEADER"           ; FALKNER
-	li "LEADER"           ; BUGSY
+	li "LEADER"           ; FINN
 	li "LEADER"           ; WHITNEY
 	li "LEADER"           ; MORTY
 	li "LEADER"           ; CHUCK

@@ -5,7 +5,7 @@ BTTrainerClassSprites:
 	db SPRITE_CHRIS         ; CAL
 	db SPRITE_CRYS          ; JACKY
 	db SPRITE_FALKNER       ; FALKNER
-	db SPRITE_BUGSY         ; BUGSY
+	db SPRITE_FINN         ; FINN
 	db SPRITE_WHITNEY       ; WHITNEY
 	db SPRITE_MORTY         ; MORTY
 	db SPRITE_CHUCK         ; CHUCK

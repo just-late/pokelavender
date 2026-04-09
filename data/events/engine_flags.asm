@@ -232,7 +232,7 @@ EngineFlags:
 	engine_flag wSwarmFlags, SWARMFLAGS_YANMA_SWARM_F
 
 	engine_flag wPokemonJournals, FALKNER_JOURNAL
-	engine_flag wPokemonJournals, BUGSY_JOURNAL
+	engine_flag wPokemonJournals, FINN_JOURNAL
 	engine_flag wPokemonJournals, WHITNEY_JOURNAL
 	engine_flag wPokemonJournals, MORTY_JOURNAL
 	engine_flag wPokemonJournals, CHUCK_JOURNAL

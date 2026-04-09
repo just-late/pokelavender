@@ -77,14 +77,6 @@ GenericTrainerBlackbeltYoshi:
 	cont "your #MON too!"
 	done
 
-GenericTrainerBlackbeltLao:
-	generictrainer BLACKBELT_T, LAO, EVENT_BEAT_BLACKBELT_LAO, BlackbeltLaoSeenText, BlackbeltLaoBeatenText
-
-	text "Fighting #MON"
-	line "are afraid of psy-"
-	cont "chics…"
-	done
-
 GenericTrainerBlackbeltNob:
 	generictrainer BLACKBELT_T, NOB, EVENT_BEAT_BLACKBELT_NOB, BlackbeltNobSeenText, BlackbeltNobBeatenText
 
@@ -217,15 +209,6 @@ BlackbeltYoshiSeenText:
 
 BlackbeltYoshiBeatenText:
 	text "This isn't real!"
-	done
-
-BlackbeltLaoSeenText:
-	text "We martial artists"
-	line "fear nothing!"
-	done
-
-BlackbeltLaoBeatenText:
-	text "That's shocking!"
 	done
 
 BlackbeltNobSeenText:

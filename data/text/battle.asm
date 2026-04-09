@@ -1688,16 +1688,17 @@ JackyFinalPkmnText:
 	prompt
 
 FalknerFinalPkmnText:
-	text "The wind is"
-	line "finally with us!"
+	text "It's time for a"
+	line "whole new kind of"
+	cont "music!"
 	prompt
 
-BugsyFinalPkmnText:
-	text "Even though it's"
-	line "my last #MON,"
+FinnFinalPkmnText:
+	text "You shall not"
+	line "defeat me!"
 
-	para "Bug #MON are"
-	line "tough!"
+	para "My legacy will live"
+	line "on!"
 	prompt
 
 WhitneyFinalPkmnText:

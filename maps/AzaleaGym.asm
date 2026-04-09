@@ -14,7 +14,7 @@ AzaleaGym_MapScriptHeader:
 	bg_event  6, 13, BGEVENT_READ, AzaleaGymStatue
 
 	def_object_events
-	object_event  5,  7, SPRITE_BUGSY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, AzaleaGymBugsyScript, -1
+	object_event  5,  7, SPRITE_FINN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, AzaleaGymFinnScript, -1
 	object_event  7, 13, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, AzaleaGymGuyScript, -1
 	object_event  5,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBug_catcherBenny, -1
 	object_event  8,  8, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBug_catcherAl, -1
@@ -23,8 +23,8 @@ AzaleaGym_MapScriptHeader:
 	object_event  5, 10, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTwinsAmyandmay2, -1
 
 AzaleaGymStatue:
-	gettrainername BUGSY, 1, $1
-	checkflag ENGINE_HIVEBADGE
+	gettrainername FINN, 1, $1
+	checkflag ENGINE_FISTBADGE
 	iftruefwd .Beaten
 	jumpstd gymstatue1
 .Beaten:
@@ -34,15 +34,15 @@ AzaleaGymStatue:
 .LyraToo
 	jumpstd gymstatue3
 
-AzaleaGymBugsyScript:
-	checkevent EVENT_BEAT_BUGSY
+AzaleaGymFinnScript:
+	checkevent EVENT_BEAT_FINN
 	iftrue_jumptextfaceplayer .AfterText
 	showtextfaceplayer .SeenText
 	winlosstext .BeatenText, 0
-	loadtrainer BUGSY, 1
+	loadtrainer FINN, 1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_BUGSY
+	setevent EVENT_BEAT_FINN
 	opentext
 	writethistext
 		text "<PLAYER> received"
@@ -50,7 +50,7 @@ AzaleaGymBugsyScript:
 		done
 	playsound SFX_GET_BADGE
 	waitsfx
-	setflag ENGINE_HIVEBADGE
+	setflag ENGINE_FISTBADGE
 	setmapscene AZALEA_TOWN, $1
 	setevent EVENT_BEAT_TWINS_AMY_AND_MAY
 	setevent EVENT_BEAT_BUG_CATCHER_BENNY
@@ -95,7 +95,7 @@ AzaleaGymBugsyScript:
 	done
 
 .SeenText:
-	text "I'm Bugsy!"
+	text "I'm Finn!"
 	line "I never lose when"
 
 	para "it comes to bug"
@@ -136,13 +136,13 @@ AzaleaGymBugsyScript:
 	done
 
 AzaleaGymGuyScript:
-	checkevent EVENT_BEAT_BUGSY
+	checkevent EVENT_BEAT_FINN
 	iftrue_jumptextfaceplayer .WinText
 	jumpthistextfaceplayer
 
 	text "Yo, challenger!"
 
-	para "Bugsy's young, but"
+	para "Finn's young, but"
 	line "his knowledge of"
 
 	para "bug #MON is for"

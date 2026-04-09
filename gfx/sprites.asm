@@ -34,8 +34,8 @@ FalknerSpriteGFX:: INCBIN "gfx/sprites/rancid.2bpp.lz"
 SECTION "WhitneySpriteGFX", ROMX
 WhitneySpriteGFX:: INCBIN "gfx/sprites/whitney.2bpp.lz"
 
-SECTION "BugsySpriteGFX", ROMX
-BugsySpriteGFX:: INCBIN "gfx/sprites/bugsy.2bpp.lz"
+SECTION "FinnSpriteGFX", ROMX
+FinnSpriteGFX:: INCBIN "gfx/sprites/finn.2bpp.lz"
 
 SECTION "MortySpriteGFX", ROMX
 MortySpriteGFX:: INCBIN "gfx/sprites/morty.2bpp.lz"

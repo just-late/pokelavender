@@ -39,7 +39,7 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass FALKNER ; 4
 
-	trainerclass BUGSY ; 5
+	trainerclass FINN ; 5
 
 	trainerclass WHITNEY ; 6
 

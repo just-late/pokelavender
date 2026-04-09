@@ -753,7 +753,7 @@
 ; Trainer Flags
 ; Johto Gym Leaders
 	const EVENT_BEAT_RANCID
-	const EVENT_BEAT_BUGSY
+	const EVENT_BEAT_FINN
 	const EVENT_BEAT_WHITNEY
 	const EVENT_BEAT_MORTY
 	const EVENT_BEAT_JASMINE

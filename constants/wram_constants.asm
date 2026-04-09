@@ -352,7 +352,7 @@ DEF DAYCARELADY_ACTIVE_F         EQU 7
 ; wPokemonJournals::
 	const_def
 	const FALKNER_JOURNAL ; Moonflower Pokémon Center
-	const BUGSY_JOURNAL ; Azalea Pokémon Center
+	const FINN_JOURNAL ; Azalea Pokémon Center
 	const WHITNEY_JOURNAL ; Goldenrod PokéCom Center
 	const MORTY_JOURNAL ; Ecruteak Pokémon Center
 	const CHUCK_JOURNAL ; Cianwood Pokémon Center

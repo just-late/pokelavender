@@ -15,8 +15,8 @@ JackyPic: INCBIN "gfx/trainers/jacky.2bpp.lz"
 SECTION "FalknerPic", ROMX
 FalknerPic: INCBIN "gfx/trainers/rancid.2bpp.lz"
 
-SECTION "BugsyPic", ROMX
-BugsyPic: INCBIN "gfx/trainers/bugsy.2bpp.lz"
+SECTION "FinnPic", ROMX
+FinnPic: INCBIN "gfx/trainers/finn.2bpp.lz"
 
 SECTION "WhitneyPic", ROMX
 WhitneyPic: INCBIN "gfx/trainers/whitney.2bpp.lz"

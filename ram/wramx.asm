@@ -1101,6 +1101,7 @@ wRoute10NorthSceneID:: db
 wRoute23SceneID:: db
 wRoute24SceneID:: db
 wMarigoldPortSceneID:: db
+wMarigoldGymSceneID:: db
 wRoute32SceneID:: db
 wRoute34SceneID:: db
 wRoute35NationalParkGateSceneID:: db
@@ -1124,7 +1125,6 @@ wShamoutiHotelRestaurantSceneID:: db
 wSproutTower3FSceneID:: db
 wTeamRocketBaseB2FSceneID:: db
 wTeamRocketBaseB3FSceneID:: db
-wTinTower1FSceneID:: db
 wTradeCenterSceneID:: db
 wUndergroundPathSwitchRoomEntrancesSceneID:: db
 wVermilionCitySceneID:: db

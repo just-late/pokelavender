@@ -7,7 +7,7 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   MALE   ; cal
 	db 252, PERFECT_DVS,   MALE   ; jacky
 	db 252, $BB, $BB, $BB, MALE   ; falkner
-	db 252, $BB, $BB, $BB, MALE   ; bugsy
+	db 252, $BB, $BB, $BB, MALE   ; finn
 	db 252, $CC, $CC, $CC, FEMALE ; whitney
 	db 252, $CC, $CC, $CC, MALE   ; morty
 	db 252, $DD, $DD, $DD, MALE   ; chuck

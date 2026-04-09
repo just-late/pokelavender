@@ -134,6 +134,7 @@ INCLUDE "maps/MarigoldPort.asm"
 INCLUDE "maps/MarigoldNPCHouse1.asm"
 INCLUDE "maps/MarigoldNPCHouse2.asm"
 INCLUDE "maps/MarigoldBoathouse.asm"
+INCLUDE "maps/MarigoldGym.asm"
 
 SECTION "Sprout Tower Scripts", ROMX
 

@@ -33,7 +33,7 @@ BossTrainers:
 JohtoGymLeaders:
 	db FALKNER
 	db WHITNEY
-	db BUGSY
+	db FINN
 	db MORTY
 	db CHUCK
 	db JASMINE

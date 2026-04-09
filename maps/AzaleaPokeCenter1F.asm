@@ -11,7 +11,7 @@ AzaleaPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalBugsyScript
+	bg_event 10,  1, BGEVENT_READ, PokemonJournalFinnScript
 
 	def_object_events
 	pc_nurse_event  5, 1
@@ -20,16 +20,16 @@ AzaleaPokeCenter1F_MapScriptHeader:
 	object_event  8,  1, SPRITE_SIGHTSEER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, AzaleaPokeCenter1FSightseermText, -1
 	object_event  2,  5, SPRITE_MATRON, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, AzaleaPokeCenter1FPokefanfText, -1
 
-PokemonJournalBugsyScript:
-	setflag ENGINE_READ_BUGSY_JOURNAL
+PokemonJournalFinnScript:
+	setflag ENGINE_READ_FINN_JOURNAL
 	jumpthistext
 
 	text "#MON Journal"
 
 	para "Special Feature:"
-	line "Leader Bugsy!"
+	line "Leader Finn!"
 
-	para "Bugsy is reported"
+	para "Finn is reported"
 	line "to have won the"
 
 	para "Bug-Catching Con-"

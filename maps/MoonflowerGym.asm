@@ -40,7 +40,7 @@ MoonflowerGymRancidScript:
 	writetext RancidIntroText
 	waitbutton
 	closetext
-	winlosstext FalknerWinLossText, 0
+	winlosstext RancidWinLossText, 0
 	loadtrainer FALKNER, 1
 	startbattle
 	reloadmapafterbattle
@@ -56,7 +56,6 @@ MoonflowerGymRancidScript:
 	setevent EVENT_BEAT_GUITARISTM_CLYDE
 	setevent EVENT_BEAT_GUITARISTF_JANET
 	writetext RancidPunkBadgeText
-	setmapscene MOONFLOWER_CITY, $2
 	promptbutton
 	verbosegivetmhm TM_VENOSHOCK
 	setevent EVENT_GOT_TM08_VENOSHOCK
@@ -144,7 +143,7 @@ RancidIntroText:
 	cont "party started!"
 	done
 
-FalknerWinLossText:
+RancidWinLossText:
 	text "OUUCH!"
 
 	para "I haven't had a"

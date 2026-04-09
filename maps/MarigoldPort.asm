@@ -11,6 +11,7 @@ MarigoldPort_MapScriptHeader:
 	warp_event 43,  9, MARIGOLD_NPC_HOUSE_1, 1
 	warp_event 51, 15, MARIGOLD_NPC_HOUSE_2, 1
 	warp_event 35, 21, MARIGOLD_BOATHOUSE, 1
+	warp_event 36,  9, MARIGOLD_GYM, 1
 
     def_coord_events
 	coord_event 12, 16, 0, TyphlosionsQuestTrigger1
@@ -18,6 +19,8 @@ MarigoldPort_MapScriptHeader:
 
     def_bg_events
 	bg_event 56, 12, BGEVENT_JUMPTEXT, MarigoldPortSignText
+	bg_event 38, 10, BGEVENT_JUMPTEXT, MarigoldPortGymSignText
+	bg_event 33, 21, BGEVENT_JUMPTEXT, MarigoldBoathouseSignText
 
     db 21 ; object_events
 	person_event SPRITE_SAILOR, 19, 11, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
@@ -436,6 +439,21 @@ GoodsBoatSailedAwayText:
 	para "Looks like TOM and"
 	line "his buddy sailed"
 	cont "away."
+	done
+
+MarigoldPortGymSignText:
+	text "MARIGOLD PORT"
+	line "#MON GYM"
+	cont "LEADER: FINN"
+
+	para "A FIGHTING-TYPE"
+	line "specialist shaped"
+	cont "by the sea!"
+	done
+
+MarigoldBoathouseSignText:
+	text "MARIGOLD PORT"
+	line "BOATHOUSE"
 	done
 
 PlayerWalksToBoat1_Movement:

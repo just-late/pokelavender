@@ -69,7 +69,7 @@ TMHMMoves:
 	db POISON_JAB   ; TM66 (Janine)
 	db AVALANCHE    ; TM67 (Pryce)
 	db GIGA_IMPACT  ; TM68 (Celadon Game Corner)
-	db U_TURN       ; TM69 (Bugsy)
+	db U_TURN       ; TM69 (Finn)
 	db FLASH        ; TM70 (Sprout Tower)
 	db STONE_EDGE   ; TM71 (Blue)
 	db VOLT_SWITCH  ; TM72 (Route 10)

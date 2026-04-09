@@ -13,7 +13,7 @@
 	const SPRITE_LYRA ; 09
 	const SPRITE_RIVAL ; 0a
 	const SPRITE_FALKNER ; 0b
-	const SPRITE_BUGSY ; 0c
+	const SPRITE_FINN ; 0c
 	const SPRITE_WHITNEY ; 0d
 	const SPRITE_MORTY ; 0e
 	const SPRITE_CHUCK ; 0f

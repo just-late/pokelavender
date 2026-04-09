@@ -118,7 +118,7 @@ Route23HiveBadgeTriggerScript:
 	opentext
 	writetext Route23OfficerNeedBadgeText
 	waitbutton
-	checkflag ENGINE_HIVEBADGE
+	checkflag ENGINE_FISTBADGE
 	iffalse_jumpopenedtext Route23OfficerNoBadgeText
 	checkscene
 	ifgreater $1, Route23OfficerHaveBadgeScript

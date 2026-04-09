@@ -248,7 +248,7 @@ KurtsHouseSignText:
 AzaleaGymSignText:
 	text "Azalea Town"
 	line "#MON Gym"
-	cont "Leader: Bugsy"
+	cont "Leader: Finn"
 
 	para "The Walking"
 	line "Bug #MON"

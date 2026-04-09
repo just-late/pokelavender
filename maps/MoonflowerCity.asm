@@ -517,7 +517,7 @@ MoonflowerGymSignText:
 	line "#MON GYM"
 	cont "LEADER: RANCID"
 
-	para "The funky POISON"
+	para "The funky POISON-"
 	line "TYPE TRAINER!"
 	done
 

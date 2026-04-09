@@ -7,7 +7,7 @@ TrainerGroups:
 	dba CalGroup
 	dba JackyGroup
 	dba FalknerGroup
-	dba BugsyGroup
+	dba FinnGroup
 	dba WhitneyGroup
 	dba MortyGroup
 	dba ChuckGroup

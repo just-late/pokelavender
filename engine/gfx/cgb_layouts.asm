@@ -949,7 +949,7 @@ _CGB_TrainerCard2:
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, BUGSY
+	ld a, FINN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
@@ -981,7 +981,7 @@ _CGB_TrainerCard2:
 	ld a, $2
 	call FillBoxWithByte
 
-	; Bugsy
+	; Finn
 	hlcoord 7, 10, wAttrmap
 	lb bc, 3, 3
 	ld a, $3

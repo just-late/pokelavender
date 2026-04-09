@@ -50,7 +50,7 @@ FinalText_SinglePhrases:
 	dw CalFinalPkmnText
 	dw JackyFinalPkmnText
 	dw FalknerFinalPkmnText
-	dw BugsyFinalPkmnText
+	dw FinnFinalPkmnText
 	dw WhitneyFinalPkmnText
 	dw MortyFinalPkmnText
 	dw ChuckFinalPkmnText

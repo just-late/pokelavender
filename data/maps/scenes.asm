@@ -100,7 +100,6 @@ MapScenes::
 	scene_var TEAM_ROCKET_BASE_B1F,                   wAlways0SceneID
 	scene_var TEAM_ROCKET_BASE_B2F,                   wTeamRocketBaseB2FSceneID
 	scene_var TEAM_ROCKET_BASE_B3F,                   wTeamRocketBaseB3FSceneID
-	scene_var TIN_TOWER_1F,                           wTinTower1FSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var TRAINER_HOUSE_B1F,                      wAlways0SceneID
 	scene_var UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, wUndergroundPathSwitchRoomEntrancesSceneID
@@ -112,4 +111,5 @@ MapScenes::
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	scene_var YELLOW_FOREST,                          wYellowForestSceneID
 	scene_var MARIGOLD_PORT,						  wMarigoldPortSceneID
+	scene_var MARIGOLD_GYM,							  wMarigoldGymSceneID
 	db -1

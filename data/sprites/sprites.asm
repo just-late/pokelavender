@@ -18,7 +18,7 @@ SpriteHeaders:
 	overworld_sprite LyraSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite RivalSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite FalknerSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite BugsySpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite FinnSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite WhitneySpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite MortySpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite ChuckSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
