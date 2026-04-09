@@ -523,14 +523,14 @@ DoPlayerMovement::
 	dw .SlowStep ; x0.5
 	dw .NormalStep ; x1
 	dw .FastStep ; x4
-	dw .Run ; x2, doubles animation speed
+	dw .Fast ; x2 (used for running shoes)
 	dw .JumpStep
 	dw .SlideStep
 	dw .TurningStep
 	dw .BackJumpStep
 	dw .InPlace
 	dw .SpinStep
-	dw .Fast ; x2
+	dw .Run ; x2, doubles animation speed
 	dw .StairsStep
 	assert_table_length NUM_STEPS
 
