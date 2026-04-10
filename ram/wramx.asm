@@ -1044,7 +1044,7 @@ wFarfetchdPosition:: db
 
 ; map triggers
 wAlways0SceneID:: db
-wAzaleaTownSceneID:: db
+wRoute2GlittervineGateSceneID:: db
 wBattleFacilitySceneID:: db
 wRoute39RuggedRoadGateSceneID:: db
 wRuggedRoadSouthSceneID:: db

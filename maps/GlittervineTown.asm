@@ -74,8 +74,6 @@ MeetProfAspen_Script:
 	applymovement GLITTERVINE_PROF_ASPEN, AspenExits_Movement
 	disappear GLITTERVINE_PROF_ASPEN
 	special RestartMapMusic
-	specialphonecall SPECIALCALL_WORRIED
-	setscene $1
 	end
 
 .PokedexQuestionLoop
