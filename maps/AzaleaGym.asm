@@ -14,7 +14,6 @@ AzaleaGym_MapScriptHeader:
 	bg_event  6, 13, BGEVENT_READ, AzaleaGymStatue
 
 	def_object_events
-	object_event  5,  7, SPRITE_FINN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, AzaleaGymFinnScript, -1
 	object_event  7, 13, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, AzaleaGymGuyScript, -1
 	object_event  5,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBug_catcherBenny, -1
 	object_event  8,  8, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBug_catcherAl, -1
@@ -33,107 +32,6 @@ AzaleaGymStatue:
 	jumpstd gymstatue2
 .LyraToo
 	jumpstd gymstatue3
-
-AzaleaGymFinnScript:
-	checkevent EVENT_BEAT_FINN
-	iftrue_jumptextfaceplayer .AfterText
-	showtextfaceplayer .SeenText
-	winlosstext .BeatenText, 0
-	loadtrainer FINN, 1
-	startbattle
-	reloadmapafterbattle
-	setevent EVENT_BEAT_FINN
-	opentext
-	writethistext
-		text "<PLAYER> received"
-		line "the Hive Badge."
-		done
-	playsound SFX_GET_BADGE
-	waitsfx
-	setflag ENGINE_FISTBADGE
-	setmapscene AZALEA_TOWN, $1
-	setevent EVENT_BEAT_TWINS_AMY_AND_MAY
-	setevent EVENT_BEAT_BUG_CATCHER_BENNY
-	setevent EVENT_BEAT_BUG_CATCHER_AL
-	setevent EVENT_BEAT_BUG_CATCHER_JOSH
-	writethistext
-		text "Do you know the"
-		line "benefits of the"
-		cont "Hive Badge?"
-
-		para "If you have it,"
-		line "#MON up to <LV>30"
-
-		para "will obey you,"
-		line "even traded ones."
-
-		para "#MON that know"
-		line "Cut will be able"
-
-		para "to use it outside"
-		line "of battle too."
-
-		para "Here, I also want"
-		line "you to have this."
-		done
-	promptbutton
-	verbosegivetmhm TM_U_TURN
-	setevent EVENT_GOT_TM69_U_TURN
-	jumpthisopenedtext
-
-	text "TM69 contains"
-	line "U-turn."
-
-	para "It lets your #-"
-	line "mon attack, then"
-
-	para "switch out right"
-	line "away."
-
-	para "Isn't that great?"
-	line "I discovered it!"
-	done
-
-.SeenText:
-	text "I'm Finn!"
-	line "I never lose when"
-
-	para "it comes to bug"
-	line "#MON."
-
-	para "My research is"
-	line "going to make me"
-
-	para "the authority on"
-	line "bug #MON!"
-
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
-	done
-
-.BeatenText:
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #MON!"
-
-	para "My research isn't"
-	line "complete yet."
-
-	para "OK, you win. Take"
-	line "this Badge."
-	done
-
-.AfterText:
-	text "Bug #MON are"
-	line "deep. There are"
-
-	para "many mysteries to"
-	line "be explored."
-
-	para "Study your favor-"
-	line "ites thoroughly."
-	done
 
 AzaleaGymGuyScript:
 	checkevent EVENT_BEAT_FINN

@@ -5,18 +5,19 @@ MarigoldGym_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-    warp_event 4, 17, MARIGOLD_PORT, 6
-    warp_event 5, 17, MARIGOLD_PORT, 6
+	warp_event 4, 17, MARIGOLD_PORT, 6
+	warp_event 5, 17, MARIGOLD_PORT, 6
 
     def_coord_events
-    coord_event 6, 9, 0, MarigoldGymUnlockStairsScript
+	coord_event 6, 9, 0, MarigoldGymUnlockStairsScript
 
     def_bg_events
 
     db 4 ; object events
-    person_event SPRITE_BILL, 1, 4, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldGymFinnScript, EVENT_BEAT_FINN
-    person_event SPRITE_BLACK_BELT, 7, 3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBlackbeltLao, -1
-    person_event SPRITE_BLACK_BELT, 6, 9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerBlackbeltAnder, -1
+	person_event SPRITE_BILL, 1, 4, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldGymFinnScript, EVENT_BEAT_FINN
+	person_event SPRITE_BLACK_BELT, 7, 3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBlackbeltLao, -1
+	person_event SPRITE_BLACK_BELT, 6, 9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerBlackbeltAnder, -1
+	person_event SPRITE_GYM_GUY, 16, 6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldGymGuyScript, -1
 
     object_const_def
     const MARIGOLD_GYM_FINN
@@ -67,6 +68,16 @@ MarigoldGymFinnScript:
     disappear MARIGOLD_GYM_FINN
     end
 
+MarigoldGymGuyScript:
+    faceplayer
+    opentext
+    checkflag ENGINE_FISTBADGE
+    iftrue_jumpopenedtext MarigoldGymGuyWowText
+    writetext MarigoldGymGuyMainText
+    waitbutton
+    closetext
+    end
+
 GenericTrainerBlackbeltLao:
     generictrainer BLACKBELT_T, LAO, EVENT_BEAT_BLACKBELT_LAO, BlackbeltLaoSeenText, BlackbeltLaoBeatenText
 
@@ -114,10 +125,10 @@ FinnIntro:
     cont "of the fist when I"
     cont "was very young."
 
-    para "After years of"
-    line "training, I learned"
-    cont "a new way of life"
-    cont "as a sailor."
+    para "After years, I"
+    line "learned a new way"
+    cont "of life as a"
+    cont "sailor."
 
     para "But, in my old"
     line "age, my eyesight"
@@ -198,4 +209,39 @@ FinnFightDoneText:
     para "If you ever find"
     line "me, we can have"
     cont "a rematch!"
+    done
+
+MarigoldGymGuyMainText:
+    text "FINN uses"
+    line "FIGHTING-TYPE"
+    cont "#MON with"
+    cont "powerful physical"
+    cont "strength."
+
+    para "But if you hit"
+    line "them with a"
+    cont "PSYCHIC #MON,"
+    cont "It'll knock 'em"
+    cont "out good."
+
+    para "Just remember:"
+    line "those tiles on"
+    cont "the floor make"
+    cont "you can't leave"
+    cont "once you go in!"
+
+    para "The stairs up to"
+    line "FINN's platform"
+    cont "won't open until"
+    cont "you beat all the"
+    cont "trainers."
+    done
+
+MarigoldGymGuyWowText:
+    text "Wow! You beat him!"
+
+    para "If you can keep"
+    line "it up, you'll be"
+    cont "the champ in no"
+    cont "time at all!"
     done
