@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, GLITTERVINE_TOWN, 1
+	warp_event  7,  0, MARIGOLD_PORT, 1
 
 	def_coord_events
 
@@ -113,7 +113,7 @@ DebugDudeScript:
 	iffalsefwd .End
 	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
 	givepoke DRAGONITE, PLAIN_FORM, 60, ORAN_BERRY
-	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
+	givepoke FURRET, PLAIN_FORM, 60, ORAN_BERRY
 	givepoke TYPHLOSION, PLAIN_FORM, 60, CHARCOAL
 	givemoney $0, 15000
 	setevent EVENT_DOING_BLAZE_QUEST
