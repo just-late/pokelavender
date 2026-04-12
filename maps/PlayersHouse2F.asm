@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, MARIGOLD_PORT, 1
+	warp_event  7,  0, MARIGOLD_CAVE_1F, 1
 
 	def_coord_events
 

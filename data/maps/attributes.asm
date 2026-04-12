@@ -927,4 +927,5 @@ ENDM
 	map_attributes MarigoldNPCHouse1, MARIGOLD_NPC_HOUSE_1, $0, 0
 	map_attributes MarigoldNPCHouse2, MARIGOLD_NPC_HOUSE_2, $0, 0
 	map_attributes MarigoldBoathouse, MARIGOLD_BOATHOUSE, $0, 0
-	map_attributes MarigoldGym, MARIGOLD_GYM, $0, 0,
+	map_attributes MarigoldGym, MARIGOLD_GYM, $0, 0
+	map_attributes MarigoldCave1F, MARIGOLD_CAVE_1F, $9, 0

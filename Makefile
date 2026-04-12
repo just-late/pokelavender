@@ -9,7 +9,7 @@ TITLE := POKELAV
 MCODE := PKLV
 ROMVERSION := 0x30
 
-FILLER := 0xff
+FILLER := 0x00
 
 ifneq ($(wildcard rgbds/.*),)
 RGBDS := rgbds/

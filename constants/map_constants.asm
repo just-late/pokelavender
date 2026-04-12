@@ -719,5 +719,6 @@ ENDM
 	map_const MARIGOLD_NPC_HOUSE_2,						   4,  4 ;  4
 	map_const MARIGOLD_BOATHOUSE,						   4,  4 ;  5
 	map_const MARIGOLD_GYM,                                5,  9 ;  6
+	map_const MARIGOLD_CAVE_1F, 						  19, 15 ;  7
 
-DEF NUM_MAP_GROUPS EQU const_value ; 37
+DEF NUM_MAP_GROUPS EQU const_value ; 38
