@@ -4,6 +4,7 @@ MarigoldPort_MapScriptHeader:
 	scene_script MarigoldPort_NoopScene
 
     def_callbacks
+	callback MAPCALLBACK_OBJECTS, CameronCallback
 
     def_warp_events
 	warp_event 61,  9, PLAYERS_HOUSE_2F, 1
@@ -23,6 +24,7 @@ MarigoldPort_MapScriptHeader:
 	bg_event 33, 21, BGEVENT_JUMPTEXT, MarigoldBoathouseSignText
 
     db 21 ; object_events
+	person_event SPRITE_BILL, 16, 32, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldPortCameronScript, EVENT_MARIGOLD_PORT_PHOTO
 	person_event SPRITE_SAILOR, 19, 11, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
 	person_event SPRITE_SAILOR, 22, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
 	person_event SPRITE_OFFICER, 12, 17, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
@@ -46,6 +48,7 @@ MarigoldPort_MapScriptHeader:
 	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
 
 	object_const_def
+	const MARIGOLD_PORT_CAMERON
 	const GOODS_BOAT_SAILOR_1
 	const GOODS_BOAT_SAILOR_2
 	const MARIGOLD_PORT_OFFICER
@@ -57,6 +60,16 @@ MarigoldPort_GoodsBoatScene:
 
 MarigoldPort_NoopScene:
 	end
+
+CameronCallback:
+	readvar VAR_WEEKDAY
+	ifequalfwd FRIDAY, .CameronAppears
+	disappear MARIGOLD_PORT_CAMERON
+	endcallback
+
+.CameronAppears:
+	appear MARIGOLD_PORT_CAMERON
+	endcallback
 
 TyphlosionsQuestTrigger1:
 	checktime (1 << EVE) | (1 << NITE)
@@ -241,6 +254,50 @@ MarigoldPortDollVendorText:
 	line "adorable #MON"
 	cont "DOLLS for sale."
 	done
+
+MarigoldPortCameronScript:
+	faceplayer
+	opentext
+	checkflag ENGINE_DAILY_PHOTOGRAPH
+	iftrue_jumpopenedtext MarigoldPortCameronAlreadyDoneText
+	writetext MarigoldPortCameronGreetingText
+	yesorno
+	iffalse_jumpopenedtext MarigoldPortCameronRefusedText
+	promptbutton
+	special Special_CianwoodPhotograph
+	ifequalfwd $0, .NoPicture
+	ifequalfwd $1, .EggPicture
+	setflag ENGINE_DAILY_PHOTOGRAPH
+	writetext MarigoldPortCameronHoldStillText
+	waitbutton
+	closetext
+	special FadeOutPalettes
+	special LoadMapPalettes
+	callasm LoadBlindingFlashPalette
+	pause 10
+	playsound SFX_DOUBLE_SLAP
+	waitsfx
+	pause 10
+	special FadeInPalettes_EnableDynNoApply
+	readmem wCurPartySpecies
+	pokepic 0
+	cry 0
+	waitsfx
+	closepokepic
+	opentext
+	writetext MarigoldPortCameronDoneText
+	special PlayCurMonCry
+	waitbutton
+	jumpthisopenedtext
+
+	text "Come again, OK?"
+	done
+
+.NoPicture:
+	jumpopenedtext MarigoldPortNoPictureText
+
+.EggPicture:
+	jumpopenedtext MarigoldPortEggPictureText
 
 MarigoldPortTurtwigDollText:
 	text "<PLAYER> bought"
@@ -454,6 +511,68 @@ MarigoldPortGymSignText:
 MarigoldBoathouseSignText:
 	text "MARIGOLD PORT"
 	line "BOATHOUSE"
+	done
+
+MarigoldPortCameronGreetingText:
+	text "Well! Don't you"
+	line "look photogenic?"
+
+	para "How about a"
+	line "picture with your"
+	cont "#MON?"
+	done
+
+MarigoldPortCameronHoldStillText:
+	text "Hold still!"
+
+	para "3… 2…… 1………"
+
+	para "Say cheese!"
+	done
+
+MarigoldPortCameronDoneText:
+	text "All done!"
+
+	para "Your "
+	text_ram wStringBuffer3
+	text ""
+	line "looks happier!"
+	done
+
+MarigoldPortCameronAlreadyDoneText:
+	text "I've already taken"
+	line "a photo for you"
+	cont "today!"
+
+	para "By the way, it"
+	line "looks great!"
+
+	para "I got a letter that"
+	line "said the DEV is"
+	cont "trying to figure"
+	cont "out how to make"
+	cont "photos you can"
+	cont "view."
+
+	para "I don't know what"
+	line "a DEV is, but it"
+	cont "sounds cool!"
+	done
+
+MarigoldPortCameronRefusedText:
+	text "Ah, well…"
+
+	para "You're a shy one!"
+	done
+
+MarigoldPortNoPictureText:
+	text "Oh, no picture?"
+	line "Come again, OK?"
+	done
+
+MarigoldPortEggPictureText:
+	text "An EGG? My talent"
+	line "is worth more…"
 	done
 
 PlayerWalksToBoat1_Movement:
