@@ -929,3 +929,4 @@ ENDM
 	map_attributes MarigoldBoathouse, MARIGOLD_BOATHOUSE, $0, 0
 	map_attributes MarigoldGym, MARIGOLD_GYM, $0, 0
 	map_attributes MarigoldCave1F, MARIGOLD_CAVE_1F, $9, 0
+	map_attributes MarigoldCave2F, MARIGOLD_CAVE_2F, $9, 0

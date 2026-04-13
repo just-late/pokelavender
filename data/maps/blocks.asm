@@ -325,6 +325,10 @@ SECTION "MarigoldCave1F_BlockData", ROMX
 MarigoldCave1F_BlockData:
 	INCBIN "maps/MarigoldCave1F.ablk.lz"
 
+SECTION "MarigoldCave2F_BlockData", ROMX
+MarigoldCave2F_BlockData:
+	INCBIN "maps/MarigoldCave2F.ablk.lz"
+
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
 	INCBIN "maps/SproutTower1F.ablk.lz"

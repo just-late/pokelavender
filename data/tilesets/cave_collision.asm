@@ -252,4 +252,5 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; fb
 	tilecoll WALL, FLOOR, WALL, CAVE ; fc
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; fd
-	tilecoll FLOOR, FLOOR, FLOOR, WARP_CARPET_DOWN ; fe
+	tilecoll FLOOR, WALL, FLOOR, WARP_CARPET_DOWN ; fe
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; ff
