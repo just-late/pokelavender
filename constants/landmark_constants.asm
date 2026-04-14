@@ -7,7 +7,8 @@
 	const GLITTERVINE_TOWN   ; 03
 	const ROUTE_2            ; 04
 	const MOONFLOWER_CITY    ; 05
-	const MARIGOLD_PORT		 ; 06
+	const ROUTE_3            ; 06
+	const MARIGOLD_PORT		 ; 07
 DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07
 	const ROUTE_31           ; 05
@@ -74,7 +75,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_30            ; 47
 	const VIRIDIAN_FOREST    ; 48
 	const PEWTER_CITY        ; 49
-	const ROUTE_3            ; 4a
 	const MT_MOON            ; 4b
 	const ROUTE_4            ; 4c
 	const CERULEAN_CITY      ; 4d

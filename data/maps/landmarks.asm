@@ -7,12 +7,13 @@ ENDM
 Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark  60, 100, GemrootTownName
-	landmark  68,  84, Route1Name
-	landmark  68,  68, GlittervineTownName
-	landmark  84,  68, Route2Name
-	landmark  92,  76, MoonflowerCityName
-	landmark 116,  92, MarigoldPortName
+	landmark  28, 108, GemrootTownName
+	landmark  44, 108, Route1Name
+	landmark  44,  92, GlittervineTownName
+	landmark  56,  92, Route2Name
+	landmark  60, 100, MoonflowerCityName
+	landmark  68, 100, Route3Name
+	landmark  68, 108, MarigoldPortName
 	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
 	landmark 100, 132, GoldenrodHarborName
@@ -73,7 +74,6 @@ Landmarks:
 	landmark  36, 120, Route34CoastName
 	landmark  44, 132, StormyBeachName
 	landmark  52, 132, MurkySwampName
-	landmark  0,    0, NoopLandmark ; TEMPORARY
 	landmark 100, 116, GoldenrodCityName
 	landmark  52, 100, PalletTownName
 	landmark  52,  76, ViridianCityName
