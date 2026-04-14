@@ -23,6 +23,9 @@ ENDM
 	connection west, GlittervineTown, GLITTERVINE_TOWN, 0
 ;   connection south, MoonflowerCity, MOONFLOWER_CITY, 0
 
+	map_attributes Route3, ROUTE_3, $05, 0 ; NORTH
+; 	connection north, MoonflowerCity, MOONFLOWER_CITY, 0
+
 	map_attributes MoonflowerCity, MOONFLOWER_CITY, $5, NORTH | SOUTH | WEST | EAST
 	connection north, MoonflowerOutskirts, MOONFLOWER_OUTSKIRTS, 0
 	connection south, Route32, ROUTE_32, 0
@@ -321,9 +324,6 @@ ENDM
 
 	map_attributes CeruleanCape, CERULEAN_CAPE, $2c, WEST
 	connection west, Route25, ROUTE_25, 0
-
-	map_attributes Route3, ROUTE_3, $2c, WEST
-	connection west, PewterCity, PEWTER_CITY, -5
 
 	map_attributes Route4, ROUTE_4, $2c, EAST
 	connection east, CeruleanCity, CERULEAN_CITY, -2
@@ -930,3 +930,4 @@ ENDM
 	map_attributes MarigoldGym, MARIGOLD_GYM, $0, 0
 	map_attributes MarigoldCave1F, MARIGOLD_CAVE_1F, $9, 0
 	map_attributes MarigoldCave2F, MARIGOLD_CAVE_2F, $9, 0
+	map_attributes DreamWorld, DREAM_WORLD, $45, 0

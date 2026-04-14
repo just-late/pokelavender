@@ -329,8 +329,6 @@ ENDM
 	map_const OAKS_LAB,                                    5,  6 ;  7
 
 	newgroup                                                     ; 14
-	map_const ROUTE_3,                                    36, 11 ;  2
-	map_const ROUTE_3_POKECENTER_1F,                       6,  4 ;  3
 	map_const PEWTER_CITY,                                20, 18 ;  4
 	map_const PEWTER_NIDORAN_SPEECH_HOUSE,                 4,  4 ;  5
 	map_const PEWTER_GYM,                                  5,  7 ;  6
@@ -713,6 +711,8 @@ ENDM
 	map_const ECRUTEAK_SHRINE_INSIDE,                      6,  6 ;  2
 
 	newgroup													 ; 38
+	map_const ROUTE_3,                                    22, 25 ;  2
+	map_const ROUTE_3_POKECENTER_1F,                       6,  4 ;  3
 	map_const MARIGOLD_PORT,						      36, 14 ;  1
 	map_const MARIGOLD_POKECENTER_1F, 					   6,  4 ;  2
 	map_const MARIGOLD_NPC_HOUSE_1,						   4,  4 ;  3
@@ -721,5 +721,6 @@ ENDM
 	map_const MARIGOLD_GYM,                                5,  9 ;  6
 	map_const MARIGOLD_CAVE_1F, 						  19, 15 ;  7
 	map_const MARIGOLD_CAVE_2F,							  15, 17 ;  8
+	map_const DREAM_WORLD, 								  22, 10 ;  9
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

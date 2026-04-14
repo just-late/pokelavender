@@ -2191,20 +2191,20 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER
-	db "Warren@"
+	db "WARREN@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 56, FEAROW
-	dbp 60, RATICATE
+	dbp 11, BUTTERFREE
+	dbp 12, MAREEP
 	db -1 ; end
 
 	; YOUNGSTER
-	db "Jimmy@"
+	db "JIMMY@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 60, RATICATE
-	dbp 60, ARBOK
-	dbp 60, PARASECT
+	dbp 10, EKANS
+	dbp 11, MAREEP
+	dbp 12, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER
@@ -2233,11 +2233,10 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER
-	db "Regis@"
+	db "ALFIE@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 58, GOLBAT
-	dbp 58, ELECTRODE
+	dbp 14, WOOPER
 	db -1 ; end
 
 	; YOUNGSTER
@@ -3878,12 +3877,11 @@ HikerGroup:
 	db -1 ; end
 
 	; HIKER
-	db "Bruce@"
+	db "BRUCE@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 57, GRAVELER
-	dbp 62, RHYDON
-	dbp 63, CLEFAIRY
+	dbp 14, ONIX
+	dbp 14, GEODUDE
 	db -1 ; end
 
 	; HIKER
@@ -5446,16 +5444,15 @@ SECTION "FirebreatherGroup", ROMX
 FirebreatherGroup:
 
 	; FIREBREATHER
-	db "Otis@"
+	db "OTIS@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 59, MAGMAR
-	dbp 58, WEEZING
-	dbp 61, MAGMAR
+	dbp 12, KOFFING
+	dbp 14, GROWLITHE
 	db -1 ; end
 
 	; FIREBREATHER
-	db "Dick@"
+	db "JOHN@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 53, CHARMANDER

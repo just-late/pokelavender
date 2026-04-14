@@ -13,6 +13,7 @@ MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
 ShamoutiPokeCenter1F_BlockData:
+Route3PokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
 PokeCenter2F_BlockData:
@@ -20,7 +21,6 @@ PokeCenter2F_BlockData:
 
 ViridianPokeCenter1F_BlockData:
 PewterPokeCenter1F_BlockData:
-Route3PokeCenter1F_BlockData:
 CeruleanPokeCenter1F_BlockData:
 VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
@@ -220,6 +220,10 @@ MoonflowerNPCApartment32F_BlockData:
 SECTION "MarigoldBoathouse_BlockData:", ROMX
 MarigoldBoathouse_BlockData:
 	INCBIN "maps/MarigoldBoathouse.ablk.lz"
+
+SECTION "DreamWorld_BlockData:", ROMX
+DreamWorld_BlockData:
+	INCBIN "maps/DreamWorld.ablk.lz"
 
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:

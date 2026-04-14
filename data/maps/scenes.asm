@@ -106,10 +106,11 @@ MapScenes::
 	scene_var VERMILION_CITY,                         wVermilionCitySceneID
 	scene_var VERMILION_PORT,                         wVermilionPortSceneID
 	scene_var VICTORY_ROAD_2F,                        wVictoryRoad2FSceneID
-	scene_var MOONFLOWER_GYM,                             wMoonflowerGymSceneID
+	scene_var MOONFLOWER_GYM,                         wMoonflowerGymSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	scene_var YELLOW_FOREST,                          wYellowForestSceneID
 	scene_var MARIGOLD_PORT,						  wMarigoldPortSceneID
 	scene_var MARIGOLD_GYM,							  wMarigoldGymSceneID
+	scene_var DREAM_WORLD,							  wAlways0SceneID
 	db -1
