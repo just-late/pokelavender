@@ -112,9 +112,7 @@ DebugDudeScript:
 	yesorno
 	iffalsefwd .End
 	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
-	givepoke DRAGONITE, PLAIN_FORM, 60, ORAN_BERRY
-	givepoke FURRET, PLAIN_FORM, 60, ORAN_BERRY
-	givepoke TYPHLOSION, PLAIN_FORM, 60, CHARCOAL
+	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
 	givemoney $0, 15000
 	setevent EVENT_DOING_BLAZE_QUEST
 	setevent EVENT_ALWAYS_SET
