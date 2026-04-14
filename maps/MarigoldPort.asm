@@ -4,6 +4,7 @@ MarigoldPort_MapScriptHeader:
 	scene_script MarigoldPort_NoopScene
 
     def_callbacks
+	callback MAPCALLBACK_NEWMAP, MarigoldPortFlyPoint
 	callback MAPCALLBACK_OBJECTS, CameronCallback
 
     def_warp_events
@@ -60,6 +61,10 @@ MarigoldPort_GoodsBoatScene:
 
 MarigoldPort_NoopScene:
 	end
+
+MarigoldPortFlyPoint:
+	setflag ENGINE_FLYPOINT_MARIGOLD
+	endcallback
 
 CameronCallback:
 	readvar VAR_WEEKDAY

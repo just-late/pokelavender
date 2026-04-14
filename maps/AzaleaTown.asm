@@ -51,7 +51,7 @@ AzaleaTown_MapScriptHeader:
 	const AZALEATOWN_KURT
 
 AzaleaTownFlypointCallback:
-	setflag ENGINE_FLYPOINT_AZALEA
+	setflag ENGINE_FLYPOINT_MARIGOLD
 	endcallback
 
 AzaleaTownRainScript:

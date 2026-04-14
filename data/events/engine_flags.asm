@@ -99,7 +99,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_GLITTERVINE
 	engine_flag wVisitedSpawns, SPAWN_VIOLET
 	engine_flag wVisitedSpawns, SPAWN_UNION_CAVE
-	engine_flag wVisitedSpawns, SPAWN_AZALEA
+	engine_flag wVisitedSpawns, SPAWN_MARIGOLD
 	engine_flag wVisitedSpawns, SPAWN_CIANWOOD
 	engine_flag wVisitedSpawns, SPAWN_GOLDENROD
 	engine_flag wVisitedSpawns, SPAWN_OLIVINE
