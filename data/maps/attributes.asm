@@ -32,10 +32,6 @@ ENDM
 	connection west, Route36, ROUTE_36, 0
 	connection east, Route31, ROUTE_31, 9
 
-	map_attributes AzaleaTown, AZALEA_TOWN, $5, WEST | EAST
-	connection west, Route34, ROUTE_34, -18
-	connection east, Route33, ROUTE_33, 0
-
 	map_attributes CianwoodCity, CIANWOOD_CITY, $35, EAST
 	connection east, Route41, ROUTE_41, 0
 
@@ -97,14 +93,11 @@ ENDM
 	connection west, MagnetTunnelEast, MAGNET_TUNNEL_EAST, 9
 	connection east, CherrygroveBay, CHERRYGROVE_BAY, 12
 
-	map_attributes Route33, ROUTE_33, $5, NORTH | WEST
-	connection north, Route32, ROUTE_32, 0
-	connection west, AzaleaTown, AZALEA_TOWN, 0
+	map_attributes Route33, ROUTE_33, $5, 0
 
-	map_attributes Route34, ROUTE_34, $5, NORTH | WEST | EAST
+	map_attributes Route34, ROUTE_34, $5, NORTH | WEST
 	connection north, GoldenrodCity, GOLDENROD_CITY, -7
 	connection west, Route34Coast, ROUTE_34_COAST, 0
-	connection east, AzaleaTown, AZALEA_TOWN, 18
 
 	map_attributes Route34Coast, ROUTE_34_COAST, $35, SOUTH | EAST
 	connection south, StormyBeach, STORMY_BEACH, 0

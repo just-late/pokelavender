@@ -192,7 +192,6 @@ INCLUDE "maps/UnionCaveB2F.asm"
 
 SECTION "Azalea Scripts", ROMX
 
-INCLUDE "maps/AzaleaTown.asm"
 INCLUDE "maps/AzaleaMart.asm"
 INCLUDE "maps/AzaleaGym.asm"
 INCLUDE "maps/CharcoalKiln.asm"

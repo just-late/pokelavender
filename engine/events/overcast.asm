@@ -1,36 +1,12 @@
 GetOvercastIndex::
 ; Some maps are overcast, depending on certain conditions
 	ld a, [wMapGroup]
-	cp GROUP_AZALEA_TOWN ; GROUP_ROUTE_33
-	jr z, .azalea_route_33
 	cp GROUP_LAKE_OF_RAGE ; GROUP_ROUTE_43
 	jr z, .lake_of_rage_route_43
 	cp GROUP_STORMY_BEACH ; GROUP_GOLDENROD_CITY, GROUP_MAGNET_TUNNEL_WEST, GROUP_ROUTE_34, GROUP_ROUTE_34_COAST
 	jr z, .stormy_beach_goldenrod_city_route_34
 .not_overcast:
 	xor a ; NOT_OVERCAST
-	ret
-
-.azalea_route_33:
-; Azalea Town and Route 33
-	ld a, [wMapNumber]
-	cp MAP_AZALEA_TOWN
-	jr z, .azalea_town
-	cp MAP_ROUTE_33
-	jr nz, .not_overcast
-.azalea_town
-; Not overcast until Slowpokes appear (Team Rocket beaten)
-	eventflagcheck EVENT_AZALEA_TOWN_SLOWPOKES
-	jr nz, .not_overcast
-; Overcast on Sunday, Tuesday, Thursday, and Saturday
-	call GetWeekday
-	cp MONDAY
-	jr z, .not_overcast
-	cp WEDNESDAY
-	jr z, .not_overcast
-	cp FRIDAY
-	jr z, .not_overcast
-	ld a, AZALEA_OVERCAST
 	ret
 
 .lake_of_rage_route_43:

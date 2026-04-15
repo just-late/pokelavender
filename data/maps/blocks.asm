@@ -432,14 +432,6 @@ SECTION "AzaleaGym_BlockData", ROMX
 AzaleaGym_BlockData:
 	INCBIN "maps/AzaleaGym.ablk.lz"
 
-SECTION "AzaleaTown_BlockData", ROMX
-AzaleaTown_BlockData:
-	INCBIN "maps/AzaleaTown.ablk.lz"
-
-SECTION "AzaleaTownRaining_BlockData", ROMX
-AzaleaTownRaining_BlockData:
-	INCBIN "maps/AzaleaTownRaining.ablk.lz"
-
 SECTION "CharcoalKiln_BlockData", ROMX
 CharcoalKiln_BlockData:
 	INCBIN "maps/CharcoalKiln.ablk.lz"

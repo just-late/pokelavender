@@ -30,7 +30,6 @@ MomPhoneInTown:
 	ifequalfwd GROUP_GEMROOT_TOWN, .newbark
 	ifequalfwd GROUP_GLITTERVINE_TOWN, .cherrygrove
 	ifequalfwd GROUP_MOONFLOWER_CITY, .violet
-	ifequalfwd GROUP_AZALEA_TOWN, .azalea
 	ifequalfwd GROUP_GOLDENROD_CITY, .goldenrod
 	farwritetext MomPhoneGenericAreaText
 	promptbutton

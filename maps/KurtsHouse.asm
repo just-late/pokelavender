@@ -5,8 +5,6 @@ KurtsHouse_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, KurtsHouseKurtCallback
 
 	def_warp_events
-	warp_event  3,  7, AZALEA_TOWN, 4
-	warp_event  4,  7, AZALEA_TOWN, 4
 
 	def_coord_events
 
@@ -314,7 +312,6 @@ endr
 	clearevent EVENT_AZALEA_TOWN_KURT
 	waitsfx
 	special RestartMapMusic
-	setmapscene AZALEA_TOWN, $2
 	end
 
 Kurt2:

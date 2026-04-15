@@ -95,9 +95,9 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_FUCHSIA
 	engine_flag wVisitedSpawns, SPAWN_CINNABAR
 	engine_flag wVisitedSpawns, SPAWN_INDIGO
-	engine_flag wVisitedSpawns, SPAWN_NEW_BARK
+	engine_flag wVisitedSpawns, SPAWN_GEMROOT
 	engine_flag wVisitedSpawns, SPAWN_GLITTERVINE
-	engine_flag wVisitedSpawns, SPAWN_VIOLET
+	engine_flag wVisitedSpawns, SPAWN_MOONFLOWER
 	engine_flag wVisitedSpawns, SPAWN_UNION_CAVE
 	engine_flag wVisitedSpawns, SPAWN_MARIGOLD
 	engine_flag wVisitedSpawns, SPAWN_CIANWOOD
