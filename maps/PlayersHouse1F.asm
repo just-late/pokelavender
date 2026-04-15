@@ -42,10 +42,6 @@ MeetMomScript:
 MomEventScript:
 	opentext
 	writetext MomIntroText
-	playsound SFX_ITEM
-	setflag ENGINE_POKEGEAR
-	setflag ENGINE_PHONE_CARD
-	addcellnum PHONE_MOM
 	promptbutton
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
@@ -121,10 +117,10 @@ PlayersHouse1FTVScript:
 MomScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
-	iftruefwd .MomAdventureScript
 	checkevent EVENT_SAW_MOM_AFTER_STARTER
 	iftrue_jumpopenedtext MomDoItText
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+	iftruefwd .MomAdventureScript
 	jumpthisopenedtext
 
 	text "You don't want"
@@ -146,7 +142,10 @@ MomScript:
 .MomAdventureScript:
 	setevent EVENT_SAW_MOM_AFTER_STARTER
 	writetext MomAdventureText
-	verbosegiveitem EXP_SHARE ; temporary
+	playsound SFX_ITEM
+	setflag ENGINE_POKEGEAR
+	setflag ENGINE_PHONE_CARD
+	addcellnum PHONE_MOM
 	writetext MomAdventureText2
 	waitbutton
 	closetext
@@ -156,27 +155,22 @@ MomIntroText:
 	text "Oh, <PLAYER>!"
 	line "You weren't awake?"
 
+	para "Today is the day"
+	line "the ELDER is"
+	cont "giving you your"
+	cont "#MON!"
+
 	para "Your friend ANABEL"
-	line "was just here."
+	line "came by and said"
+	cont "she was almost"
+	cont "ready to go."
 
-	para "She was shouting"
-	line "something about"
+	para "And <PLAYER>?"
 
-	para "an emergency,"
-	line "but that was all"
-	cont "I could hear."
-
-	para "It seems like"
-	line "you better find"
-	cont "her fast!"
-	
-	para "By the way, if"
-	line "you're going"
-	cont "to be a TRAINER,"
-	cont "you'll need this."
-	
-	para "<PLAYER> received"
-	line "#GEAR."
+	para "Make sure to say"
+	line "thank you to the"
+	cont "ELDER for your"
+	cont "#MON!"
 	done
 
 MomDSTText:
@@ -225,23 +219,44 @@ MomErrandText:
 	done
 
 MomAdventureText:
-	text "You're going on"
-	line "an adventure,"
-	cont "huh?"
+	text "Oh, is that your"
+	line "#MON from the"
+	cont "ELDER?"
 
-	para "…"
+	para "Hmm…"
 
-	para "Here."
+	para "…Well, I'm sure"
+	line "it's nice."
 
-	para "This will help"
-	line "you out."
+	para "By the way, I"
+	line "know you're going"
+	cont "on an adventure"
+	cont "to BLOSSOM ACADEMY."
+
+	para "Since you're going"
+	line "to be away from"
+	cont "home, I bought you"
+	cont "a #GEAR."
+
+	para "<PLAYER> received"
+	line "#GEAR!"
 	done
 
 MomAdventureText2:
-	text "I don't have any"
-	line "dialogue here yet,"
-	cont "so this is just"
-	cont "Placeholder Text."
+	text "That will allow"
+	line "us to keep in"
+	cont "touch."
+
+	para "Make sure to call"
+	line "me sometimes!"
+
+	para "Don't let your"
+	line "poor mother be"
+	cont "worried sick!"
+
+	para "……"
+
+	para "Goodbye, <PLAYER>!"
 	done
 
 MomDoItText:

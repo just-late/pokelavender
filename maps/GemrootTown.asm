@@ -18,6 +18,9 @@ GemrootTown_MapScriptHeader:
 	coord_event 34, 21,	0, TrainerTipsSignScript2
 	coord_event 34, 22,	0, TrainerTipsSignScript3
 	coord_event 31, 28, 0, AnabelEventTrigger
+	coord_event 34, 20, 1, MomPokegearTrigger1
+	coord_event 34, 21, 1, MomPokegearTrigger2
+	coord_event 34, 22, 1, MomPokegearTrigger3
 
 	def_bg_events
 	bg_event 31, 19, BGEVENT_JUMPTEXT, PlayersHouseSignText
@@ -26,8 +29,9 @@ GemrootTown_MapScriptHeader:
 	bg_event 11,  7, BGEVENT_JUMPTEXT, CommunityCenterSignText
 	bg_event 34, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
 	
-	db 8 ; object_events
+	db 9 ; object_events
 	person_event SPRITE_ANABEL, 27, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
+	person_event SPRITE_MOM, 20, 29, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
 	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AtuvaTravelerScript, -1
 	person_event SPRITE_FAT_GUY, 26, 4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
 	person_event SPRITE_CUTE_GIRL, 24, 26, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
@@ -38,6 +42,7 @@ GemrootTown_MapScriptHeader:
 
 	object_const_def
 	const GEMROOT_TOWN_ANABEL
+	const GEMROOT_TOWN_MOM
 
 GemrootTownFlyPoint:
 	setflag ENGINE_FLYPOINT_GEMROOT
@@ -52,7 +57,7 @@ TrainerTipsSignScript1:
 	turnobject PLAYER, UP
 	showtext TrainerTipsSignText
 	applyonemovement PLAYER, step_left
-.Skip
+.Skip:
 	end
 
 TrainerTipsSignScript2:
@@ -64,7 +69,7 @@ TrainerTipsSignScript2:
 	applyonemovement PLAYER, step_up
 	showtext TrainerTipsSignText
 	applyonemovement PLAYER, step_left
-.Skip
+.Skip:
 	end
 
 TrainerTipsSignScript3:
@@ -77,7 +82,76 @@ TrainerTipsSignScript3:
 	applyonemovement PLAYER, step_up
 	showtext TrainerTipsSignText
 	applyonemovement PLAYER, step_left
-.Skip
+.Skip:
+	end
+
+MomPokegearTrigger1:
+	appear GEMROOT_TOWN_MOM
+	playmusic MUSIC_MOM
+	turnobject PLAYER, LEFT
+	showemote EMOTE_SHOCK, PLAYER, 15
+	showtext GemrootMomIntroText
+	applymovement GEMROOT_TOWN_MOM, GemrootMomWalksToYou1_Movement
+	opentext
+	writetext GemrootMomMainText
+	playsound SFX_ITEM
+	setflag ENGINE_POKEGEAR
+	setflag ENGINE_PHONE_CARD
+	addcellnum PHONE_MOM
+	waitsfx
+	writetext GemrootMomByeText
+	waitbutton
+	closetext
+	applymovement GEMROOT_TOWN_MOM, GemrootMomLeaves1_Movement
+	disappear GEMROOT_TOWN_MOM
+	setscene $2
+	special RestartMapMusic
+	end
+
+MomPokegearTrigger2:
+	appear GEMROOT_TOWN_MOM
+	playmusic MUSIC_MOM
+	turnobject PLAYER, LEFT
+	showemote EMOTE_SHOCK, PLAYER, 15
+	showtext GemrootMomIntroText
+	applymovement GEMROOT_TOWN_MOM, GemrootMomWalksToYou2_Movement
+	opentext
+	writetext GemrootMomMainText
+	playsound SFX_ITEM
+	setflag ENGINE_POKEGEAR
+	setflag ENGINE_PHONE_CARD
+	addcellnum PHONE_MOM
+	waitsfx
+	writetext GemrootMomByeText
+	waitbutton
+	closetext
+	applymovement GEMROOT_TOWN_MOM, GemrootMomLeaves2_Movement
+	disappear GEMROOT_TOWN_MOM
+	setscene $2
+	special RestartMapMusic
+	end
+
+MomPokegearTrigger3:
+	appear GEMROOT_TOWN_MOM
+	playmusic MUSIC_MOM
+	turnobject PLAYER, LEFT
+	showemote EMOTE_SHOCK, PLAYER, 15
+	showtext GemrootMomIntroText
+	applymovement GEMROOT_TOWN_MOM, GemrootMomWalksToYou3_Movement
+	opentext
+	writetext GemrootMomMainText
+	playsound SFX_ITEM
+	setflag ENGINE_POKEGEAR
+	setflag ENGINE_PHONE_CARD
+	addcellnum PHONE_MOM
+	waitsfx
+	writetext GemrootMomByeText
+	waitbutton
+	closetext
+	applymovement GEMROOT_TOWN_MOM, GemrootMomLeaves3_Movement
+	disappear GEMROOT_TOWN_MOM
+	setscene $2
+	special RestartMapMusic
 	end
 
 TrainerTipsSignText:
@@ -247,3 +321,99 @@ FatGuyVenusaurText:
 	line "Grooooarrgh…"
 	done
 
+GemrootMomIntroText:
+	text "MOM: <PLAYER>!"
+	line "Wait!"
+	done
+
+GemrootMomMainText:
+	text "Oh, is that your"
+	line "#MON from the"
+	cont "ELDER?"
+
+	para "Hmm…"
+
+	para "…Well, I'm sure"
+	line "it's nice."
+
+	para "Remember, you got"
+	line "a #MON because"
+	cont "you're going to"
+	cont "BLOSSOM ACADEMY."
+
+	para "Don't get side-"
+	line "tracked!"
+
+	para "Since you're going"
+	line "to be away from"
+	cont "home, I bought you"
+	cont "a #GEAR."
+
+	para "<PLAYER> received"
+	line "#GEAR!"
+	done
+
+GemrootMomByeText:
+	text "That will allow"
+	line "us to keep in"
+	cont "touch."
+
+	para "Make sure to call"
+	line "me sometimes!"
+
+	para "Don't let your"
+	line "poor mother be"
+	cont "worried sick!"
+
+	para "……"
+
+	para "Goodbye, <PLAYER>!"
+	done
+
+GemrootMomWalksToYou1_Movement:
+	step_right
+	step_right
+	step_right
+	step_right
+	step_end
+
+GemrootMomWalksToYou2_Movement:
+	step_right
+	step_right
+	step_down
+	step_right
+	step_right
+	step_end
+
+GemrootMomWalksToYou3_Movement:
+	step_right
+	step_right
+	step_down
+	step_right
+	step_down
+	step_right
+	step_end
+
+GemrootMomLeaves1_Movement:
+	step_left
+	step_left
+	step_left
+	step_left
+	step_end
+
+GemrootMomLeaves2_Movement:
+	step_left
+	step_left
+	step_up
+	step_left
+	step_left
+	step_end
+
+GemrootMomLeaves3_Movement:
+	step_left
+	step_left
+	step_up
+	step_left
+	step_up
+	step_left
+	step_end

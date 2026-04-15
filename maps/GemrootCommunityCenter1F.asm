@@ -157,6 +157,7 @@ AnabelChallengeScript:
     setevent EVENT_ANABEL_IN_COMMUNITYCENTER
     setevent EVENT_ANABEL_GLITTERVINE_TOWN
     special HealPartyEvenForNuzlocke
+    setmapscene GEMROOT_TOWN, $1
     special RestartMapMusic
     end
 
@@ -170,6 +171,7 @@ AnabelChallengeScript:
     setevent EVENT_ANABEL_IN_COMMUNITYCENTER
     setevent EVENT_ANABEL_GLITTERVINE_TOWN
     special HealPartyEvenForNuzlocke
+    setmapscene GEMROOT_TOWN, $1
     special RestartMapMusic
     end
 
