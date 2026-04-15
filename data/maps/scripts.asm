@@ -190,14 +190,6 @@ INCLUDE "maps/UnionCaveB1FSouth.asm"
 INCLUDE "maps/UnionCaveB2F.asm"
 
 
-SECTION "Azalea Scripts", ROMX
-
-INCLUDE "maps/AzaleaMart.asm"
-INCLUDE "maps/AzaleaGym.asm"
-INCLUDE "maps/CharcoalKiln.asm"
-INCLUDE "maps/KurtsHouse.asm"
-
-
 SECTION "Slowpoke Well Scripts", ROMX
 
 INCLUDE "maps/SlowpokeWellEntrance.asm"

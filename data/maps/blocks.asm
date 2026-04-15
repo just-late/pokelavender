@@ -36,7 +36,6 @@ KantoPokeCenter2F_BlockData:
 
 GlittervineMart_BlockData:
 MoonflowerMart_BlockData:
-AzaleaMart_BlockData:
 EcruteakMart_BlockData:
 OlivineMart_BlockData:
 BlackthornMart_BlockData:
@@ -427,18 +426,6 @@ UnionCaveB1FSouth_BlockData:
 SECTION "UnionCaveB2F_BlockData", ROMX
 UnionCaveB2F_BlockData:
 	INCBIN "maps/UnionCaveB2F.ablk.lz"
-
-SECTION "AzaleaGym_BlockData", ROMX
-AzaleaGym_BlockData:
-	INCBIN "maps/AzaleaGym.ablk.lz"
-
-SECTION "CharcoalKiln_BlockData", ROMX
-CharcoalKiln_BlockData:
-	INCBIN "maps/CharcoalKiln.ablk.lz"
-
-SECTION "KurtsHouse_BlockData", ROMX
-KurtsHouse_BlockData:
-	INCBIN "maps/KurtsHouse.ablk.lz"
 
 SECTION "SlowpokeWellEntrance_BlockData", ROMX
 SlowpokeWellEntrance_BlockData:
