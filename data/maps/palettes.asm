@@ -32,7 +32,7 @@ ENDM
 	special_bg_pal map,      BLACKTHORN_GYM_2F,           PAL_SINGLE,    BlackthornGym1FPalette
 	special_bg_pal map,      CINNABAR_LAB,                PAL_SINGLE,    CinnabarLabPalette
 	special_bg_pal map,      CERULEAN_GYM,                PAL_SINGLE,    CeruleanGymPalette
-	special_bg_pal map,      MOONFLOWER_CITY,                 PAL_TIMEOFDAY, MoonflowerEcruteakPalette
+	special_bg_pal map,      MOONFLOWER_CITY,             PAL_TIMEOFDAY, MoonflowerEcruteakPalette
 	special_bg_pal map,      MURKY_SWAMP,                 PAL_SINGLE,    MurkySwampPalette
 	special_bg_pal map,      GOLDENROD_DEPT_STORE_ROOF,   PAL_TIMEOFDAY, GoldenrodDeptStoreRoofPalette
 	special_bg_pal map,      GOLDENROD_MUSEUM_1F,         PAL_SINGLE,    GoldenrodMuseumPalette
@@ -69,6 +69,7 @@ ENDM
 	special_bg_pal map,      SINJOH_RUINS,                PAL_TIMEOFDAY, SinjohRuinsPalette
 	special_bg_pal map,      MYSTRI_STAGE,                PAL_SINGLE,    MystriStagePalette
 	special_bg_pal map,      EMBEDDED_TOWER,              PAL_SINGLE,    EmbeddedTowerPalette
+	special_bg_pal map,      OVERCAST_GROVE,			  PAL_TIMEOFDAY, OvercastBGPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette

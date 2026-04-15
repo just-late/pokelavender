@@ -1088,4 +1088,8 @@ SECTION "Dream World Scripts", ROMX
 
 INCLUDE "maps/DreamWorld.asm"
 
+SECTION "Grove Scripts", ROMX
+
+INCLUDE "maps/OvercastGrove.asm"
+
 ENDSECTION

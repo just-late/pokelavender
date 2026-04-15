@@ -13,6 +13,7 @@ Landmarks:
 	landmark  56,  92, Route2Name
 	landmark  60, 100, MoonflowerCityName
 	landmark  68, 100, Route3Name
+	landmark  70,  98, OvercastGroveName
 	landmark  68, 108, MarigoldPortName
 	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
@@ -295,5 +296,5 @@ SinjohRuinsName:       rawchar "Sinjoh¯Ruins@"
 MystriStageName:       rawchar "Mystri¯Stage@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
 SpecialMapName:        rawchar "?@"
-NoopLandmark:		   rawchar "?@"
+OvercastGroveName:	   rawchar "OVERCAST¯GROVE@"
 GoldenrodCityName:     rawchar "BLOSSOM¯ACADEMY@"

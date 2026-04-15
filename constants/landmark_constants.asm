@@ -8,7 +8,8 @@
 	const ROUTE_2            ; 04
 	const MOONFLOWER_CITY    ; 05
 	const ROUTE_3            ; 06
-	const MARIGOLD_PORT		 ; 07
+	const OVERCAST_GROVE     ; 07
+	const MARIGOLD_PORT		 ; 08
 DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07
 	const ROUTE_31           ; 05
