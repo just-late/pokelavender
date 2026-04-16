@@ -5585,12 +5585,13 @@ JugglerGroup:
 ;	db -1 ; end
 
 	; JUGGLER
-	db "Fritz@"
+	db "FRITZ@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 45, MR__MIME
-	dbp 45, MAGMAR
-	dbp 45, MACHOKE
+	dbp  6, VOLTORB
+	dbp  8, VOLTORB
+	dbp 10, VOLTORB
+	dbp 12, VOLTORB
 	db -1 ; end
 
 	; JUGGLER

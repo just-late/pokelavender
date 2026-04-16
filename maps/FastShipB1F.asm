@@ -94,16 +94,6 @@ GenericTrainerPicnickerDebra:
 	line "in Kanto."
 	done
 
-GenericTrainerJugglerFritz:
-	generictrainer JUGGLER, FRITZ, EVENT_BEAT_JUGGLER_FRITZ, JugglerFritzSeenText, JugglerFritzBeatenText
-
-	text "No more ships for"
-	line "me. Next time,"
-
-	para "I'm taking the"
-	line "Magnet Train."
-	done
-
 GenericTrainerBakerSharyn:
 	generictrainer BAKER, SHARYN, EVENT_BEAT_BAKER_SHARYN, BakerSharynSeenText, BakerSharynBeatenText
 
@@ -261,16 +251,6 @@ PicnickerDebraSeenText:
 PicnickerDebraBeatenText:
 	text "Yow! You're too"
 	line "strong!"
-	done
-
-JugglerFritzSeenText:
-	text "Urrf…"
-	line "I'm seasick!"
-	done
-
-JugglerFritzBeatenText:
-	text "I can't move any-"
-	line "more…"
 	done
 
 BakerSharynSeenText:

@@ -1,6 +1,6 @@
 CutGrassBlockPointers:
 ; Which tileset are we in?
-	dbw TILESET_JOHTO_TRADITIONAL, .johto_traditional
+	dbw TILESET_GEMROOT, .johto_traditional
 	dbw TILESET_JOHTO_MODERN, .johto_modern
 	dbw TILESET_JOHTO_OVERCAST, .johto_overcast
 	dbw TILESET_KANTO, .kanto
@@ -85,7 +85,7 @@ CutGrassBlockPointers:
 	db -1
 
 WhirlpoolBlockPointers:
-	dbw TILESET_JOHTO_TRADITIONAL, .johto_traditional
+	dbw TILESET_GEMROOT, .johto_traditional
 	dbw TILESET_JOHTO_MODERN, .johto_modern
 	dbw TILESET_JOHTO_OVERCAST, .johto_overcast
 	db -1
