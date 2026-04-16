@@ -20,7 +20,7 @@ def read_tiles(filename):
 			for row in range(img.height // 8) for col in range(img.width // 8)]
 
 old_tiles = read_tiles(f'gfx/tilesets/{name}.png')
-new_tiles = read_tiles(f'gfx/tilesets/johto_common.png') + read_tiles(f'gfx/tilesets/{name}2.png')
+new_tiles = read_tiles(f'gfx/tilesets/atuva.png') + read_tiles(f'gfx/tilesets/{name}2.png')
 
 new_idxs = {}
 for (old_idx, old_tile) in enumerate(old_tiles):

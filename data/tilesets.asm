@@ -64,16 +64,16 @@ TilesetGemrootGFX0::
 TilesetJohto2GFX0::
 TilesetJohto3GFX0::
 TilesetJohto4GFX0::
-TilesetJohto5GFX0:: INCBIN "gfx/tilesets/johto_common.2bpp.lz"
+TilesetJohto5GFX0:: INCBIN "gfx/tilesets/atuva.2bpp.lz"
 
 TilesetGemrootGFX1::
-TilesetJohto5GFX1:: INCBIN "gfx/tilesets/gemroot.johto_common.2bpp.vram0.lz"
+TilesetJohto5GFX1:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram0.lz"
 
-TilesetJohto2GFX1:: INCBIN "gfx/tilesets/johto_modern.johto_common.2bpp.vram0.lz"
+TilesetJohto2GFX1:: INCBIN "gfx/tilesets/johto_modern.atuva.2bpp.vram0.lz"
 
-TilesetJohto3GFX1:: INCBIN "gfx/tilesets/johto_overcast.johto_common.2bpp.vram0.lz"
+TilesetJohto3GFX1:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram0.lz"
 
-TilesetJohto4GFX1:: INCBIN "gfx/tilesets/battle_tower_outside.johto_common.2bpp.lz"
+TilesetJohto4GFX1:: INCBIN "gfx/tilesets/battle_tower_outside.atuva.2bpp.lz"
 
 TilesetGemrootMeta:: INCBIN "data/tilesets/gemroot_metatiles.bin.lz"
 TilesetGemrootAttr:: INCBIN "data/tilesets/gemroot_attributes.bin.lz"
@@ -498,11 +498,11 @@ TilesetBarColl:: INCBIN "data/tilesets/bar_collision.bin.lz"
 SECTION "Tileset GFX2 Data", ROMX
 
 TilesetGemrootGFX2::
-TilesetJohto5GFX2:: INCBIN "gfx/tilesets/johto_traditional.johto_common.2bpp.vram1.lz"
+TilesetJohto5GFX2:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram1.lz"
 
-TilesetJohto2GFX2:: INCBIN "gfx/tilesets/johto_modern.johto_common.2bpp.vram1.lz"
+TilesetJohto2GFX2:: INCBIN "gfx/tilesets/johto_modern.atuva.2bpp.vram1.lz"
 
-TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.johto_common.2bpp.vram1.lz"
+TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
 
 TilesetJohto4GFX2::
 TilesetKanto1GFX2::
