@@ -14,8 +14,8 @@ Tilesets::
 	tileset TilesetJohto3
 	tileset TilesetJohto4
 	tileset TilesetJohto5
-	tileset TilesetKanto1
-	tileset TilesetKanto2
+	tileset TilesetBlossom1
+	tileset TilesetBlossom2
 	tileset TilesetShamouti
 	tileset TilesetValencia
 	tileset TilesetFaraway
@@ -98,19 +98,19 @@ TilesetJohto5Coll:: INCBIN "data/tilesets/ecruteak_shrine_collision.bin.lz"
 
 SECTION "Tileset Data - kanto (2)", ROMX
 
-TilesetKanto1GFX0::
-TilesetKanto2GFX0:: INCBIN "gfx/tilesets/kanto_common.2bpp.lz"
-TilesetKanto1GFX1:: INCBIN "gfx/tilesets/kanto.kanto_common.2bpp.lz"
+TilesetBlossom1GFX0::
+TilesetBlossom2GFX0:: INCBIN "gfx/tilesets/mainland.2bpp.lz"
+TilesetBlossom1GFX1:: INCBIN "gfx/tilesets/blossom.mainland.2bpp.lz"
 
-TilesetKanto2GFX1:: INCBIN "gfx/tilesets/indigo_plateau.kanto_common.2bpp.lz"
+TilesetBlossom2GFX1:: INCBIN "gfx/tilesets/indigo_plateau.mainland.2bpp.lz"
 
-TilesetKanto1Meta:: INCBIN "data/tilesets/kanto_metatiles.bin.lz"
-TilesetKanto1Attr:: INCBIN "data/tilesets/kanto_attributes.bin.lz"
-TilesetKanto1Coll:: INCBIN "data/tilesets/kanto_collision.bin.lz"
+TilesetBlossom1Meta:: INCBIN "data/tilesets/blossom_metatiles.bin.lz"
+TilesetBlossom1Attr:: INCBIN "data/tilesets/blossom_attributes.bin.lz"
+TilesetBlossom1Coll:: INCBIN "data/tilesets/blossom_collision.bin.lz"
 
-TilesetKanto2Meta:: INCBIN "data/tilesets/indigo_plateau_metatiles.bin.lz"
-TilesetKanto2Attr:: INCBIN "data/tilesets/indigo_plateau_attributes.bin.lz"
-TilesetKanto2Coll:: INCBIN "data/tilesets/indigo_plateau_collision.bin.lz"
+TilesetBlossom2Meta:: INCBIN "data/tilesets/indigo_plateau_metatiles.bin.lz"
+TilesetBlossom2Attr:: INCBIN "data/tilesets/indigo_plateau_attributes.bin.lz"
+TilesetBlossom2Coll:: INCBIN "data/tilesets/indigo_plateau_collision.bin.lz"
 
 
 SECTION "Tileset Data - shamouti_island", ROMX
@@ -505,8 +505,8 @@ TilesetJohto2GFX2:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram1.lz"
 TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
 
 TilesetJohto4GFX2::
-TilesetKanto1GFX2::
-TilesetKanto2GFX2::
+TilesetBlossom1GFX2::
+TilesetBlossom2GFX2::
 TilesetShamoutiGFX2::
 TilesetValenciaGFX2::
 TilesetFarawayGFX2::

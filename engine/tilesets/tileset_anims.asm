@@ -57,8 +57,8 @@ TilesetJohto5Anim::
 	dw vTiles2 tile $35, ReadTileFromBuffer
 	dw NULL,  DoneTileAnimation
 
-TilesetKanto1Anim::
-TilesetKanto2Anim::
+TilesetBlossom1Anim::
+TilesetBlossom2Anim::
 	dw vTiles2 tile $14, AnimateKantoWaterTile
 	dw vTiles2 tile $40, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileDown

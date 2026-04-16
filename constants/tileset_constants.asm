@@ -6,13 +6,13 @@
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 	const TILESET_ECRUTEAK_SHRINE      ; 05
 DEF NO_ROOF_TILESETS EQU const_value
-	const TILESET_KANTO                ; 06
+	const TILESET_BLOSSOM                ; 06
 	const TILESET_INDIGO_PLATEAU       ; 07
 	const TILESET_SHAMOUTI_ISLAND      ; 08
 	const TILESET_VALENCIA_ISLAND      ; 09
 	const TILESET_FARAWAY_ISLAND       ; 0a
 	const TILESET_JOHTO_HOUSE          ; 0b
-	const TILESET_KANTO_HOUSE          ; 0c
+	const TILESET_BLOSSOM_HOUSE          ; 0c
 	const TILESET_TRADITIONAL_HOUSE    ; 0d
 	const TILESET_POKECENTER           ; 0e
 	const TILESET_POKECOM_CENTER       ; 0f

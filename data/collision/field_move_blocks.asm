@@ -3,7 +3,7 @@ CutGrassBlockPointers:
 	dbw TILESET_GEMROOT, .gemroot
 	dbw TILESET_MOONFLOWER, .moonflower
 	dbw TILESET_JOHTO_OVERCAST, .johto_overcast
-	dbw TILESET_KANTO, .kanto
+	dbw TILESET_BLOSSOM, .kanto
 	dbw TILESET_INDIGO_PLATEAU, .indigo_plateau
 	dbw TILESET_PARK, .park
 	dbw TILESET_FOREST, .forest
