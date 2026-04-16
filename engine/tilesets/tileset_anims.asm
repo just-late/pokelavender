@@ -29,7 +29,7 @@ _AnimateTileset::
 ; Function address
 	jmp IndirectHL
 
-TilesetJohto1Anim::
+TilesetGemrootAnim::
 TilesetJohto2Anim::
 TilesetJohto3Anim::
 TilesetJohto4Anim::

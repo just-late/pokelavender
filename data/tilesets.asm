@@ -9,7 +9,7 @@ ENDM
 Tilesets::
 ; entries correspond to TILESET_* constants (see constants/tileset_constants.asm)
 	table_width TILESET_LENGTH, Tilesets
-	tileset TilesetJohto1
+	tileset TilesetGemroot
 	tileset TilesetJohto2
 	tileset TilesetJohto3
 	tileset TilesetJohto4
@@ -60,14 +60,14 @@ Tilesets::
 
 SECTION "Tileset Data - johto (5)", ROMX
 
-TilesetJohto1GFX0::
+TilesetGemrootGFX0::
 TilesetJohto2GFX0::
 TilesetJohto3GFX0::
 TilesetJohto4GFX0::
 TilesetJohto5GFX0:: INCBIN "gfx/tilesets/johto_common.2bpp.lz"
 
-TilesetJohto1GFX1::
-TilesetJohto5GFX1:: INCBIN "gfx/tilesets/johto_traditional.johto_common.2bpp.vram0.lz"
+TilesetGemrootGFX1::
+TilesetJohto5GFX1:: INCBIN "gfx/tilesets/gemroot.johto_common.2bpp.vram0.lz"
 
 TilesetJohto2GFX1:: INCBIN "gfx/tilesets/johto_modern.johto_common.2bpp.vram0.lz"
 
@@ -75,9 +75,9 @@ TilesetJohto3GFX1:: INCBIN "gfx/tilesets/johto_overcast.johto_common.2bpp.vram0.
 
 TilesetJohto4GFX1:: INCBIN "gfx/tilesets/battle_tower_outside.johto_common.2bpp.lz"
 
-TilesetJohto1Meta:: INCBIN "data/tilesets/johto_traditional_metatiles.bin.lz"
-TilesetJohto1Attr:: INCBIN "data/tilesets/johto_traditional_attributes.bin.lz"
-TilesetJohto1Coll:: INCBIN "data/tilesets/johto_traditional_collision.bin.lz"
+TilesetGemrootMeta:: INCBIN "data/tilesets/gemroot_metatiles.bin.lz"
+TilesetGemrootAttr:: INCBIN "data/tilesets/gemroot_attributes.bin.lz"
+TilesetGemrootColl:: INCBIN "data/tilesets/gemroot_collision.bin.lz"
 
 TilesetJohto2Meta:: INCBIN "data/tilesets/johto_modern_metatiles.bin.lz"
 TilesetJohto2Attr:: INCBIN "data/tilesets/johto_modern_attributes.bin.lz"
@@ -497,7 +497,7 @@ TilesetBarColl:: INCBIN "data/tilesets/bar_collision.bin.lz"
 
 SECTION "Tileset GFX2 Data", ROMX
 
-TilesetJohto1GFX2::
+TilesetGemrootGFX2::
 TilesetJohto5GFX2:: INCBIN "gfx/tilesets/johto_traditional.johto_common.2bpp.vram1.lz"
 
 TilesetJohto2GFX2:: INCBIN "gfx/tilesets/johto_modern.johto_common.2bpp.vram1.lz"
