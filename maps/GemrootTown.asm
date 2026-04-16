@@ -38,7 +38,7 @@ GemrootTown_MapScriptHeader:
 	person_event SPRITE_GRANNY, 19, 20, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
 	person_event SPRITE_GRAMPS,  6, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
 	person_event SPRITE_FISHER, 16,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptext, FisherText, -1
-	pokemon_event 6, 25, VENUSAUR, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GREEN, FatGuyVenusaurText, -1
+	pokemon_event  6, 25, BULBASAUR, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GREEN, FatGuyBulbasaurText, -1
 
 	object_const_def
 	const GEMROOT_TOWN_ANABEL
@@ -260,7 +260,7 @@ RiverGirlText:
 	done
 
 FatGuyTechnologyText:
-    text "VENUSAUR helps"
+    text "BULBASAUR helps"
 	line "get this place"
 	cont "HUMID!"
 	done
@@ -316,8 +316,8 @@ CommunityCenterSignText:
 	line "COMMUNITY CENTER"
 	done
 
-FatGuyVenusaurText:
-	text "VENUSAUR:"
+FatGuyBulbasaurText:
+	text "BULBASAUR:"
 	line "Grooooarrgh…"
 	done
 
