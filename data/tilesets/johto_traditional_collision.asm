@@ -138,7 +138,7 @@
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 89
 	tilecoll WATER, WATER, WALL, WALL ; 8a
 	tilecoll WATER, WATER, WALL, WALL ; 8b
-	tilecoll WALL, WALL, WALL, WALL ; 8c
+	tilecoll WARP_CARPET_UP, WARP_CARPET_UP, TALL_GRASS, TALL_GRASS ; 8c
 	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; 8d
 	tilecoll FLOOR, WALL, WALL, WALL ; 8e
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 8f

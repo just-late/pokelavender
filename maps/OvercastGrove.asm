@@ -4,10 +4,10 @@ OvercastGrove_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 12, 23, PLAYERS_HOUSE_2F, 1
-	warp_event 13, 23, PLAYERS_HOUSE_2F, 1
-	warp_event 14, 23, PLAYERS_HOUSE_2F, 1
-	warp_event 15, 23, PLAYERS_HOUSE_2F, 1
+	warp_event 12, 23, ROUTE_3, 4
+	warp_event 13, 23, ROUTE_3, 4
+	warp_event 14, 23, ROUTE_3, 4
+	warp_event 15, 23, ROUTE_3, 4
 
     def_coord_events
 
@@ -53,7 +53,7 @@ OvercastGroveYoungsterText:
 OvercastGroveSignText:
     text "OVERCAST GROVE"
     
-    para "A mysterious grove"
-    line "where it always"
-    cont "rains."
+    para "A mysterious"
+    line "clearing where it"
+    cont "always rains."
     done

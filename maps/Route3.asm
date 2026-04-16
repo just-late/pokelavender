@@ -8,6 +8,8 @@ Route3_MapScriptHeader:
 	warp_event  5,  3, PLAYERS_HOUSE_2F, 1
 	warp_event 11, 39, ROUTE_3_POKECENTER_1F, 1
 	warp_event  8, 37, MARIGOLD_CAVE_1F, 1
+	warp_event 20,  4, OVERCAST_GROVE, 2
+	warp_event 21,  4, OVERCAST_GROVE, 2
 
 	def_coord_events
 
@@ -16,7 +18,8 @@ Route3_MapScriptHeader:
 	bg_event 15,  9, BGEVENT_JUMPTEXT, Route3SignText
 	bg_event 35, 41, BGEVENT_ITEM + MOON_STONE, EVENT_ROUTE_3_HIDDEN_MOON_STONE
 
-	def_object_events
+	db 7 ; object events
+	person_event SPRITE_BUG_CATCHER,  6, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, Route3BugCatcherText, -1
 	object_event 26, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerYoungsterRegis, -1
 	object_event 28, 31, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerYoungsterJimmy, -1
 	object_event 12,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerYoungsterWarren, -1
@@ -140,4 +143,15 @@ MarigoldCaveText:
 	para "WARNING!"
 	line "Strong wild"
 	cont "#MON inside."
+	done
+
+Route3BugCatcherText:
+	text "I've heard there's"
+	line "some kind of"
+	cont "secret grove"
+	cont "filled with rare"
+	cont "#MON around here,"
+
+	para "but I can't find"
+	line "it anywhere."
 	done

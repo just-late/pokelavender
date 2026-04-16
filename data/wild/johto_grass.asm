@@ -1319,58 +1319,86 @@
 	def_grass_wildmons ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon  6, GROWLITHE
-	wildmon  5, GROWLITHE
-	wildmon  4, PIDGEY
-	wildmon  5, PIDGEY
-	wildmon  4, RATTATA
-	wildmon  5, RATTATA
-	wildmon  5, SNUBBULL
+	wildmon 6, GROWLITHE
+	wildmon 5, GROWLITHE
+	wildmon 4, PIDGEY
+	wildmon 5, PIDGEY
+	wildmon 4, RATTATA
+	wildmon 5, RATTATA
+	wildmon 5, SNUBBULL
 	; day
-	wildmon  6, GROWLITHE
-	wildmon  5, GROWLITHE
-	wildmon  4, PIDGEY
-	wildmon  5, PIDGEY
-	wildmon  4, RATTATA
-	wildmon  5, RATTATA
-	wildmon  5, HOPPIP
+	wildmon 6, GROWLITHE
+	wildmon 5, GROWLITHE
+	wildmon 4, PIDGEY
+	wildmon 5, PIDGEY
+	wildmon 4, RATTATA
+	wildmon 5, RATTATA
+	wildmon 5, HOPPIP
 	; nite
-	wildmon  6, ZUBAT
-	wildmon  5, ZUBAT
-	wildmon  4, HOOTHOOT
-	wildmon  5, HOOTHOOT
-	wildmon  4, SPINARAK
-	wildmon  4, CATERPIE
-	wildmon  5, PSYDUCK
+	wildmon 6, ZUBAT
+	wildmon 5, ZUBAT
+	wildmon 4, HOOTHOOT
+	wildmon 5, HOOTHOOT
+	wildmon 4, SPINARAK
+	wildmon 4, CATERPIE
+	wildmon 5, PSYDUCK
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon  8, PIDGEY
-	wildmon  9, RATTATA
-	wildmon  8, SENTRET
-	wildmon  8, MAREEP
-	wildmon  9, MAREEP
-	wildmon  8, TAUROS
+	wildmon 8, PIDGEY
+	wildmon 9, RATTATA
+	wildmon 8, SENTRET
+	wildmon 8, MAREEP
+	wildmon 9, MAREEP
+	wildmon 8, TAUROS
 	wildmon 10, TAUROS
 	; day
-	wildmon  8, PIDGEY
-	wildmon  9, RATTATA
-	wildmon  7, SENTRET
-	wildmon  8, MAREEP
-	wildmon  9, MAREEP
-	wildmon  8, SENTRET
+	wildmon 8, PIDGEY
+	wildmon 9, RATTATA
+	wildmon 7, SENTRET
+	wildmon 8, MAREEP
+	wildmon 9, MAREEP
+	wildmon 8, SENTRET
 	wildmon 10, TAUROS
 	; nite
-	wildmon  8, HOOTHOOT
-	wildmon  9, RATTATA
-	wildmon  8, ZUBAT
-	wildmon  8, MAREEP
-	wildmon  9, MAREEP
-	wildmon  8, ZUBAT
+	wildmon 8, HOOTHOOT
+	wildmon 9, RATTATA
+	wildmon 8, ZUBAT
+	wildmon 8, MAREEP
+	wildmon 9, MAREEP
+	wildmon 8, ZUBAT
 	wildmon 10, SPINARAK
 	end_grass_wildmons
+
+	def_grass_wildmons OVERCAST_GROVE
+	db 15 percent, 15 percent, 15 percent ; encounter rates: morn/day/nite
+	; morn
+	wildmon  8, PICHU
+	wildmon  7, SLOWPOKE
+	wildmon  8, SLOWPOKE
+	wildmon  8, EEVEE
+	wildmon  7, IGGLYBUFF
+	wildmon  8, YANMA
+	wildmon  8, SQUIRTLE
+	; day
+	wildmon  7, YANMA
+	wildmon  8, PICHU
+	wildmon  8, SLOWPOKE
+	wildmon  7, SLOWPOKE
+	wildmon  8, EEVEE
+	wildmon  8, PIKACHU
+	wildmon  7, BULBASAUR
+	; nite
+	wildmon  6, PICHU
+	wildmon  7, PIKACHU
+	wildmon  8, SLOWPOKE
+	wildmon  8, SLOWPOKE
+	wildmon  7, YANMA
+	wildmon  7, SLOWPOKE
+	wildmon  8, SQUIRTLE
+	end_grass_wildmons  
 
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
