@@ -69,7 +69,7 @@ TilesetJohto5GFX0:: INCBIN "gfx/tilesets/atuva.2bpp.lz"
 TilesetGemrootGFX1::
 TilesetJohto5GFX1:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram0.lz"
 
-TilesetJohto2GFX1:: INCBIN "gfx/tilesets/johto_modern.atuva.2bpp.vram0.lz"
+TilesetJohto2GFX1:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram0.lz"
 
 TilesetJohto3GFX1:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram0.lz"
 
@@ -79,9 +79,9 @@ TilesetGemrootMeta:: INCBIN "data/tilesets/gemroot_metatiles.bin.lz"
 TilesetGemrootAttr:: INCBIN "data/tilesets/gemroot_attributes.bin.lz"
 TilesetGemrootColl:: INCBIN "data/tilesets/gemroot_collision.bin.lz"
 
-TilesetJohto2Meta:: INCBIN "data/tilesets/johto_modern_metatiles.bin.lz"
-TilesetJohto2Attr:: INCBIN "data/tilesets/johto_modern_attributes.bin.lz"
-TilesetJohto2Coll:: INCBIN "data/tilesets/johto_modern_collision.bin.lz"
+TilesetJohto2Meta:: INCBIN "data/tilesets/moonflower_metatiles.bin.lz"
+TilesetJohto2Attr:: INCBIN "data/tilesets/moonflower_attributes.bin.lz"
+TilesetJohto2Coll:: INCBIN "data/tilesets/moonflower_collision.bin.lz"
 
 TilesetJohto3Meta:: INCBIN "data/tilesets/johto_overcast_metatiles.bin.lz"
 TilesetJohto3Attr:: INCBIN "data/tilesets/johto_overcast_attributes.bin.lz"
@@ -500,7 +500,7 @@ SECTION "Tileset GFX2 Data", ROMX
 TilesetGemrootGFX2::
 TilesetJohto5GFX2:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram1.lz"
 
-TilesetJohto2GFX2:: INCBIN "gfx/tilesets/johto_modern.atuva.2bpp.vram1.lz"
+TilesetJohto2GFX2:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram1.lz"
 
 TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
 

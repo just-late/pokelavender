@@ -19,7 +19,7 @@ block_data_filename  = 'data/maps/blocks.asm'
 block_filename_fmt   = 'maps/%s.ablk'
 
 tileset_names = [
-	'johto_traditional', 'johto_modern', 'battle_tower_outside', 'johto_overcast',
+	'johto_traditional', 'marigold', 'battle_tower_outside', 'johto_overcast',
 	'kanto', 'indigo_plateau', 'shamouti_island', 'valencia_island', 'faraway_island',
 	'johto_house', 'kanto_house', 'traditional_house', 'pokecenter', 'pokecom_center',
 	'mart', 'gate', 'gym', 'magnet_train', 'champions_room', 'port', 'lab',

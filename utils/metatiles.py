@@ -213,7 +213,7 @@ class Attributes(object):
 
 	tileset_palettes = {
 		'johto_traditional': lambda: Attributes.day_palette(),
-		'johto_modern': lambda: Attributes.day_palette(),
+		'marigold': lambda: Attributes.day_palette(),
 		'battle_tower_outside': lambda: Attributes.day_palette(),
 		'johto_overcast': lambda: Attributes.day_palette(),
 		'kanto': lambda: Attributes.day_palette(),

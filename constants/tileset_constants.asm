@@ -1,7 +1,7 @@
 ; Tilesets indexes (see data/tilesets.asm)
 	const_def 1
 	const TILESET_GEMROOT              ; 01
-	const TILESET_JOHTO_MODERN         ; 02
+	const TILESET_MOONFLOWER         ; 02
 	const TILESET_JOHTO_OVERCAST       ; 03
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 	const TILESET_ECRUTEAK_SHRINE      ; 05

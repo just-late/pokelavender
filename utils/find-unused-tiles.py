@@ -21,7 +21,7 @@ metatile_filename_fmt  = 'data/tilesets/%s_metatiles.bin'
 attribute_filename_fmt = 'data/tilesets/%s_attributes.bin'
 
 tileset_names = [
-	'johto_traditional', 'johto_modern', 'battle_tower_outside', 'johto_overcast',
+	'johto_traditional', 'marigold', 'battle_tower_outside', 'johto_overcast',
 	'kanto', 'indigo_plateau', 'shamouti_island', 'valencia_island', 'faraway_island',
 	'johto_house', 'kanto_house', 'traditional_house', 'pokecenter', 'pokecom_center',
 	'mart', 'gate', 'gym', 'magnet_train', 'champions_room', 'port', 'lab',
