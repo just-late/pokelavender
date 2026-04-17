@@ -24,12 +24,12 @@ MarigoldCave1F_MapScriptHeader:
 	smashrock_event 10,  9
 	smashrock_event 33, 21
 	person_event SPRITE_HIKER, 23, 17, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerHikerRussell, -1
-	person_event SPRITE_HIKER, 13, 10, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerDaniel, -1
+	person_event SPRITE_HIKER, 15,  9, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerDaniel, -1
 	person_event SPRITE_JUGGLER, 24, 11, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerJugglerFritz, -1
 	itemball_event 21, 23, GREAT_BALL, 1, EVENT_MARIGOLD_CAVE_1F_GREAT_BALL
 	itemball_event 31,  4, X_ATTACK, 1, EVENT_MARIGOLD_CAVE_1F_X_ATTACK
 	itemball_event 15,  2, POTION, 1, EVENT_MARIGOLD_CAVE_1F_POTION
-	itemball_event  5, 19, AWAKENING, 1, EVENT_MARIGOLD_CAVE_1F_AWAKENING
+	itemball_event  5, 20, AWAKENING, 1, EVENT_MARIGOLD_CAVE_1F_AWAKENING
 
 GenericTrainerHikerRussell:
 	generictrainer HIKER, RUSSELL, EVENT_BEAT_HIKER_RUSSELL, HikerRussellSeenText, HikerRussellBeatenText
