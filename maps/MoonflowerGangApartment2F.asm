@@ -19,9 +19,13 @@ MoonflowerGangApartment2F_MapScriptHeader:
     const_def 1 ; object constants
     const TYPHLOSIONS_BOSS
 
-GangApartment2FBossScript: ; add a side quest here later
+GangApartment2FBossScript:
     faceplayer
     opentext
+    checkevent EVENT_GOT_TM50_ROCK_SMASH
+    iftruefwd .FinishedQuest
+    checkevent EVENT_DID_BLAZE_QUEST
+    iftruefwd .GotVegetables
     writetext GangApartment2FBossIntroText
     waitbutton
     showemote EMOTE_QUESTION, PLAYER, 30
@@ -43,6 +47,30 @@ GangApartment2FBossScript: ; add a side quest here later
     waitbutton
     closetext
 	end
+
+.GotVegetables:
+    writetext GanagApartment2FBossDoneText
+    checkitem VEGETABLES
+    takekeyitem VEGETABLES
+    waitbutton
+    writetext .Text
+    playsound SFX_ITEM
+    waitsfx
+    writetext GangApartment2FBossRockSmashText
+    waitbutton
+    verbosegivetmhm TM_ROCK_SMASH
+    setevent EVENT_GOT_TM50_ROCK_SMASH
+    end
+
+.Text:
+    text "<PLAYER> handed"
+    line "over VEGETABLES."
+    done
+
+.FinishedQuest:
+    writetext GangApartment2FVegetablesText
+    waitbutton
+    closetext
 
 GangApartment2FBikerText:
     text "ROOOOOOAR!"
@@ -125,13 +153,42 @@ GangApartment2FBossShucksText:
     done
 
 GangApartment2FBossGreatText:
-    text "Great! I'll go"
-    line "open the entrance."
+    text "Great! You can"
+    line "be on your way,"
+    cont "then."
     done
 
 GangApartment2FBossEntranceText:
-    text "I moved the"
-    line "boulder downstairs."
+    text "Aww… hurry up!"
+    done
 
-    para "Good luck!"
+GanagApartment2FBossDoneText:
+    text "Nice!"
+    line "You got 'em?"
+    done
+
+GangApartment2FVegetablesText:
+    text "Man! Those… uh…"
+    line "VEGETABLES are"
+    cont "the good stuff!"
+    done
+
+GangApartment2FBossRockSmashText:
+    text "I promised I'd"
+    line "make it worth it"
+    cont "for you."
+
+    para "Here, take this"
+    line "TM."
+
+    para "It'll teach your"
+    line "#MON ROCK"
+    cont "SMASH, which lets"
+    cont "them break small"
+    cont "rocks outside of"
+    cont "battle."
+
+    para "It also packs a"
+    line "real punch in"
+    cont "battle!"
     done
