@@ -42,16 +42,6 @@ GangApartment2FBossScript: ; add a side quest here later
     writetext GangApartment2FBossGreatText
     waitbutton
     closetext
-    special FadeOutPalettes
-    wait 15
-    playsound SFX_STRENGTH
-    waitsfx
-    special Special_ReloadSpritesNoPalettes
-    disappear TYPHLOSIONS_BOSS
-    special Special_FadeInQuickly
-    setevent EVENT_BOULDER_IN_GANG_APARTMENT
-    setevent BLAZE_IN_APARTMENT_2F
-    clearevent BLAZE_IN_APARTMENT_1F
 	end
 
 GangApartment2FBikerText:
@@ -99,52 +89,33 @@ GangApartment2FBossIntroText:
     done
 
 GangApartment2FBossQuest1Text:
-    text "BLAZE: Well, it's"
-    line "kind of"
-    cont "embarrasing…"
+    text "I have something…"
+    line "…Uh, important being"
+    cont "delivered to me in"
+    cont "MARIGOLD PORT."
 
-    para "So, last week, I"
-    line "accidentally"
-    cont "flushed my"
-    cont "TYPHLOSION in his"
-    cont "# BALL down the"
-    cont "toilet."
+    para "It's called uh…"
+    line "well… it's…"
+    cont "a special kind of"
+    cont "vegetables."
 
-    para "The problem is,"
-    line "the sewers belong"
-    cont "to a different"
-    cont "gang, the CROBATS."
-
-    para "I just can't bear"
-    line "the thought of"
-    cont "poor TYPHLOSION"
-    cont "down there with"
-    cont "those rascals!"
+    para "My buddy brings it"
+    line "by for me once a"
+    cont "month, but last"
+    cont "time, the cops found"
+    cont "me and busted me."
     done
 
 GangApartment2FBossQuest2Text:
-    text "BLAZE: But if I go"
-    line "down there, the"
-    cont "CROBATS are gonna"
-    cont "eat me alive!"
+    text "If I go there"
+    line "again, they'll"
+    cont "probably lock me"
+    cont "up."
 
-    para "Because the sewers"
-    line "are their turf!"
+    para "That's why I need"
+    line "you to go for me!"
 
-    para "Chances are,"
-    line "though, they won't"
-    cont "bother you too"
-    cont "much."
-
-    para "Deep down, the"
-    line "CROBATS are real"
-    cont "softies."
-
-    para "Can you rescue my"
-    line "TYPHLOSION?"
-
-    para "I'll make it worth"
-    line "your while."
+    para "Can you?"
     done
 
 GangApartment2FBossShucksText:
