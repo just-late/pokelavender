@@ -10,6 +10,10 @@ MarigoldCave1F_MapScriptHeader:
 	warp_event 33,  5, MARIGOLD_CAVE_1F, 5
 	warp_event 35, 13, MARIGOLD_CAVE_1F, 4
 	warp_event 33, 27, MARIGOLD_PORT, 1
+	warp_event 10, 21, MARIGOLD_CAVE_1F, 1
+	warp_event 10, 15, MARIGOLD_CAVE_1F, 1
+	warp_event 15,  4, MARIGOLD_CAVE_1F, 1
+	warp_event 35,  2, MARIGOLD_CAVE_1F, 1
 
     def_coord_events
 
