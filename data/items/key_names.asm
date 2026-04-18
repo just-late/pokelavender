@@ -15,7 +15,7 @@ KeyItemNames::
 	li "SquirtBottle"
 	li "SilphScope2"
 	li "Mystery Egg"
-	li "SecretPotion"
+	li "“VEGETABLES”"
 	li "Go-Goggles"
 	li "Red Scale"
 	li "Card Key"

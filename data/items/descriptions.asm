@@ -272,7 +272,7 @@ KeyItemDescriptions:
 	dw SquirtBottleDesc
 	dw SilphScope2Desc
 	dw MysteryEggDesc
-	dw SecretPotionDesc
+	dw VegetablesDesc
 	dw GoGogglesDesc
 	dw RedScaleDesc
 	dw CardKeyDesc
@@ -1560,9 +1560,9 @@ GoGogglesDesc:
 	next "sand or hail."
 	done
 
-SecretPotionDesc:
-	text "Fully heals any"
-	next "#MON."
+VegetablesDesc:
+	text "Looks like ODDISH"
+	line "LEAVES."
 	done
 
 RedScaleDesc:

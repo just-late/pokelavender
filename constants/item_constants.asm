@@ -641,7 +641,7 @@ DEF NUM_WINGS EQU const_value
 	const SQUIRTBOTTLE ; 0c
 	const SILPHSCOPE2  ; 0d
 	const MYSTERY_EGG  ; 0e
-	const SECRETPOTION ; 0f
+	const VEGETABLES ; 0f
 	const GO_GOGGLES   ; 10
 	const RED_SCALE    ; 11
 	const CARD_KEY     ; 12
@@ -697,7 +697,7 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_RAINBOW_WING
 	const NAM_RED_SCALE
 	const NAM_S_S_TICKET
-	const NAM_SECRETPOTION
+	const NAM_VEGETABLES
 	const NAM_SHINY_CHARM
 	const NAM_SILPHSCOPE2
 	const NAM_SILVER_WING

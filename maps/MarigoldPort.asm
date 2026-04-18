@@ -114,7 +114,7 @@ MarigoldPortGoodsBoatScript:
 	opentext
 	writetext GoodsBoatSailorMainText
 	waitbutton
-	verbosegivekeyitem SECRETPOTION
+	verbosegivekeyitem VEGETABLES
 	setevent EVENT_DID_BLAZE_QUEST
 	waitbutton
 	closetext

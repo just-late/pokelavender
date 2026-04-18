@@ -274,7 +274,7 @@ KeyItemIconPointers:
 	dba SquirtBottleIcon
 	dba SilphScope2Icon
 	dba MysteryEggIcon
-	dba SecretPotionIcon
+	dba VegetablesIcon
 	dba GoGogglesIcon
 	dba RedScaleIcon
 	dba CardKeyIcon

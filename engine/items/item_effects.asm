@@ -296,7 +296,7 @@ KeyItemEffects:
 	dw SquirtBottle       ; SQUIRTBOTTLE
 	dw IsntTheTimeMessage ; SILPHSCOPE2
 	dw IsntTheTimeMessage ; MYSTERY_EGG
-	dw IsntTheTimeMessage ; SECRETPOTION
+	dw IsntTheTimeMessage ; VEGETABLES
 	dw IsntTheTimeMessage ; GO_GOGGLES
 	dw IsntTheTimeMessage ; RED_SCALE
 	dw CardKey            ; CARD_KEY

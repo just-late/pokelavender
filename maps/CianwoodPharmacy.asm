@@ -18,7 +18,7 @@ CianwoodPharmacy_MapScriptHeader:
 	object_event  4,  3, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, CianwoodPharmacist, -1
 
 CianwoodPharmacist:
-	checkevent EVENT_GOT_SECRETPOTION_FROM_PHARMACY
+	checkevent EVENT_GOT_VEGETABLES_FROM_PHARMACY
 	iftruefwd .Mart
 	checkevent EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
 	iffalsefwd .Mart
@@ -26,8 +26,8 @@ CianwoodPharmacist:
 	opentext
 	writetext PharmacistGiveSecretpotionText
 	promptbutton
-	verbosegivekeyitem SECRETPOTION
-	setevent EVENT_GOT_SECRETPOTION_FROM_PHARMACY
+	verbosegivekeyitem VEGETABLES
+	setevent EVENT_GOT_VEGETABLES_FROM_PHARMACY
 	writetext PharmacistDescribeSecretpotionText
 	waitbutton
 	closetext
@@ -62,7 +62,7 @@ PharmacistGiveSecretpotionText:
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SecretPotion is"
+	text "My Vegetables is"
 	line "a tad too strong."
 
 	para "I only offer it in"
