@@ -74,6 +74,7 @@ MeetProfAspen_Script:
 	applymovement GLITTERVINE_PROF_ASPEN, AspenExits_Movement
 	disappear GLITTERVINE_PROF_ASPEN
 	special RestartMapMusic
+	setevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	end
 
 .PokedexQuestionLoop

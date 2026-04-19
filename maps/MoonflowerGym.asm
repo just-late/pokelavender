@@ -59,6 +59,8 @@ MoonflowerGymRancidScript:
 	promptbutton
 	verbosegivetmhm TM_VENOSHOCK
 	setevent EVENT_GOT_TM08_VENOSHOCK
+	setmapscene MOONFLOWER_CITY, $2
+	clearevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	jumpopenedtext RancidTMVenoshockText
 
 GenericTrainerGuitarist_mClyde:

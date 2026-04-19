@@ -23,6 +23,10 @@ MoonflowerCity_MapScriptHeader:
 	coord_event 3, 21, 1, TeamIndigoTrigger2
 	coord_event 4, 21, 1, TeamIndigoTrigger3
 	coord_event 5, 21, 1, TeamIndigoTrigger4
+	coord_event 12, 26, 2, MoonflowerIndigoSpeechOnTop1
+	coord_event 13, 26, 2, MoonflowerIndigoSpeechOnTop2
+	coord_event 15, 28, 2, MoonflowerIndigoSpeechOnRight1
+	coord_event 15, 29, 2, MoonflowerIndigoSpeechOnRight2
 
 	def_bg_events
 	bg_event 29, 13, BGEVENT_JUMPTEXT, MoonflowerCitySignText
@@ -35,14 +39,22 @@ MoonflowerCity_MapScriptHeader:
 	bg_event 25, 17, BGEVENT_JUMPTEXT, MoonflowerForRentSignText
 	bg_event 28, 23, BGEVENT_READ, MoonflowerCityHM07Script
 
-	db 13 ; object_events
+	db 20 ; object_events
 	person_event SPRITE_GENTLEMAN,  8, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeGearGuy_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
 	person_event SPRITE_FIREBREATHER, 15, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown1_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
 	person_event SPRITE_FIREBREATHER, 19, 11, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown2_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
-	person_event SPRITE_ROCKET, 22, 2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGuyText, -1
-	person_event SPRITE_FAT_GUY, 23, 3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC7Text, -1
-	person_event SPRITE_ROCKET_GIRL, 22, 4, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGirlText, -1
+	person_event SPRITE_ROCKET, 22, 2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGuyText, EVENT_BEAT_RANCID
+	person_event SPRITE_FAT_GUY, 23, 3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC7Text, EVENT_BEAT_RANCID
+	person_event SPRITE_ROCKET_GIRL, 22, 4, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGirlText, EVENT_BEAT_RANCID
 	person_event SPRITE_BIRD_KEEPER, 21, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC6Text, EVENT_GOT_HM07_ROCK_SMASH
+	person_event SPRITE_GIOVANNI, 28, 12, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	person_event SPRITE_YOUNGSTER, 30, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	person_event SPRITE_BUG_CATCHER, 31, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	person_event SPRITE_LASS, 30, 14, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	person_event SPRITE_CUTE_GIRL, 30, 11, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	person_event SPRITE_GRANNY, 31, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	person_event SPRITE_GRAMPS, 29, 10, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	person_event SPRITE_ROCKET, 28, 14, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	person_event SPRITE_GRAMPS, 22, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC1Text, -1
 	person_event SPRITE_CHILD, 10, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC2Text, -1
 	person_event SPRITE_YOUNGSTER, 24, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC3Text, -1
@@ -58,6 +70,14 @@ MoonflowerCity_MapScriptHeader:
 	const INDIGO_FAT_GUY
 	const INDIGO_GRUNT2
 	const MOONFLOWER_BIRD_KEEPER
+	const MOONFLOWER_INDIGO_BOSS
+	const MOONFLOWER_SPEECH_BLOCKER_1 ; YOUNGSTER
+	const MOONFLOWER_SPEECH_BLOCKER_2 ; BUG_CATCHER
+	const MOONFLOWER_SPEECH_BLOCKER_3 ; LASS
+	const MOONFLOWER_SPEECH_BLOCKER_4 ; CUTE_GIRL
+	const MOONFLOWER_SPEECH_BLOCKER_5 ; GRANNY
+	const MOONFLOWER_SPEECH_BLOCKER_6 ; GRAMPS
+	const MOONFLOWER_SPEECH_BLOCKER_7 ; GRUNT
 
 MoonflowerCityFlyPoint:
 	setflag ENGINE_FLYPOINT_VIOLET
@@ -150,6 +170,112 @@ MoonflowerPokeGearGuy_Script:
 	line "they will!"
 	done
 
+MoonflowerIndigoSpeechOnTop1:
+	turnobject PLAYER, DOWN
+	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
+	turnobject MOONFLOWER_INDIGO_BOSS, UP
+	opentext
+	writetext MoonflowerIndigoBossComeJoinUsText
+	waitbutton
+	closetext
+	applyonemovement PLAYER, step_right
+	applyonemovement PLAYER, step_down
+	sjumpfwd MoonflowerIndigoSpeechScript
+
+MoonflowerIndigoSpeechOnTop2:
+	turnobject PLAYER, DOWN
+	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
+	turnobject MOONFLOWER_INDIGO_BOSS, UP
+	opentext
+	writetext MoonflowerIndigoBossComeJoinUsText
+	waitbutton
+	closetext
+	applyonemovement PLAYER, step_down
+	sjumpfwd MoonflowerIndigoSpeechScript
+
+MoonflowerIndigoSpeechOnRight1:
+	turnobject PLAYER, LEFT
+	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
+	turnobject MOONFLOWER_INDIGO_BOSS, RIGHT
+	opentext
+	writetext MoonflowerIndigoBossComeJoinUsText
+	waitbutton
+	closetext
+	applyonemovement PLAYER, step_down
+	turnobject PLAYER, LEFT
+	sjumpfwd MoonflowerIndigoSpeechScript
+
+MoonflowerIndigoSpeechOnRight2:
+	turnobject PLAYER, LEFT
+	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
+	turnobject MOONFLOWER_INDIGO_BOSS, RIGHT
+	opentext
+	writetext MoonflowerIndigoBossComeJoinUsText
+	waitbutton
+	closetext
+MoonflowerIndigoSpeechScript:
+	applyonemovement MOONFLOWER_INDIGO_BOSS, slow_step_left
+	turnobject MOONFLOWER_INDIGO_BOSS, DOWN
+	pause 5
+	showtext MoonflowerIndigoBossAreYouListeningText1
+	applyonemovement MOONFLOWER_INDIGO_BOSS, slow_step_right
+	applyonemovement MOONFLOWER_INDIGO_BOSS, slow_step_right
+	turnobject MOONFLOWER_INDIGO_BOSS, DOWN
+	pause 5
+	showtext MoonflowerIndigoBossAreYouListeningText2
+	pause 10
+	playmusic MUSIC_NATIONAL_PARK
+	opentext
+	writetext MoonflowerIndigoBossIntroText
+	waitbutton
+	closetext
+	showemote EMOTE_SHOCK, MOONFLOWER_SPEECH_BLOCKER_1, 10
+	showemote EMOTE_QUESTION, MOONFLOWER_SPEECH_BLOCKER_5, 15
+	turnobject MOONFLOWER_SPEECH_BLOCKER_4, UP
+	pause 5
+	turnobject MOONFLOWER_SPEECH_BLOCKER_2, RIGHT
+	pause 10
+	applyonemovement MOONFLOWER_INDIGO_BOSS, slow_step_left
+	turnobject MOONFLOWER_INDIGO_BOSS, DOWN
+	opentext
+	writetext MoonflowerIndigoBossMainText
+	waitbutton
+	closetext
+	turnobject MOONFLOWER_SPEECH_BLOCKER_2, UP
+	pause 5
+	turnobject MOONFLOWER_SPEECH_BLOCKER_5, LEFT
+	showemote EMOTE_SHOCK, MOONFLOWER_SPEECH_BLOCKER_5, 15
+	pause 10
+	showemote EMOTE_SLEEP, MOONFLOWER_SPEECH_BLOCKER_7, 10
+	pause 10
+	turnobject MOONFLOWER_SPEECH_BLOCKER_7, DOWN
+	applymovement MOONFLOWER_INDIGO_BOSS, MoonflowerIndigoBossLeaves_Movement
+	disappear MOONFLOWER_INDIGO_BOSS
+	showemote EMOTE_SHOCK, MOONFLOWER_SPEECH_BLOCKER_7, 10
+	applymovement MOONFLOWER_SPEECH_BLOCKER_7, MoonflowerIndigoGruntLeaves_Movement
+	disappear MOONFLOWER_SPEECH_BLOCKER_7
+	setscene $3
+	setevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	pause 10
+	special Special_FadeBlackQuickly
+	special Special_ReloadSpritesNoPalettes
+	disappear MOONFLOWER_SPEECH_BLOCKER_1
+	disappear MOONFLOWER_SPEECH_BLOCKER_2
+	disappear MOONFLOWER_SPEECH_BLOCKER_3
+	disappear MOONFLOWER_SPEECH_BLOCKER_4
+	disappear MOONFLOWER_SPEECH_BLOCKER_5
+	disappear MOONFLOWER_SPEECH_BLOCKER_6
+	special Special_FadeInQuickly
+	special RestartMapMusic
+	jumpthistext
+
+.AfterSpeechText:
+	text "………"
+
+	para "What a wierd"
+	line "speech…"
+	done
+
 MoonflowerPokeGearGuy_Text3:
 	text "Aha!"
 
@@ -177,6 +303,130 @@ MoonflowerPokeGearGuy_Text5:
 
 	para "Now then, go I"
 	line "must!"
+	done
+
+MoonflowerIndigoBossComeJoinUsText:
+	text "???: Ah!"
+	line "Come listen."
+	
+	para "I have something"
+	line "important to say."
+	done
+
+MoonflowerIndigoBossAreYouListeningText1:
+	text "???: You people"
+	line "over here!"
+
+	para "Are you all"
+	line "listening?"
+	
+	para "……"
+
+	para "Good!"
+	done
+
+MoonflowerIndigoBossAreYouListeningText2:
+	text "And you people"
+	line "over here!"
+
+	para "Are you all"
+	line "listening too?"
+	
+	para "………"
+
+	para "Great!"
+	done
+
+MoonflowerIndigoBossIntroText:
+	text "All right."
+	line "Now, I will begin."
+
+	para "The ATUVA REGION"
+	line "was once a place"
+	cont "where people"
+	cont "and #MON could"
+	cont "live in harmony."
+
+	para "That was in the"
+	line "past, however."
+
+	para "Now, in the past,"
+	line "there were four"
+	cont "GUARDIANS."
+
+	para "These strong"
+	line "#MON ruled"
+	cont "ATUVA."
+
+	para "However, time"
+	line "passed, and the"
+	cont "GUARDIANS put"
+	cont "ATUVA into the"
+	cont "care of humans."
+
+	para "As you can see,"
+	line "this has led to"
+	cont "a land torn apart"
+	cont "by chaos, gangs,"
+	cont "and criminals."
+
+	para "Were the GUARDIANS"
+	line "still awake, we"
+	cont "would be living"
+	cont "in a much better"
+	cont "world!"
+	
+	para "This is why,"
+	line "today, I will"
+	cont "introduce you to"
+	cont "TEAM INDIGO."
+	done
+
+MoonflowerIndigoBossMainText:
+	text "???: Now, calm"
+	line "down, calm down."
+
+	para "……"
+
+	para "TEAM INDIGO's"
+	line "goal is to wake"
+	cont "the ancient"
+	cont "GUARDIANS from"
+	cont "slumber,"
+
+	para "and bring glory"
+	line "to the ATUVA"
+	cont "REGION once"
+	cont "more!"
+
+	para "In ancient times,"
+	line "people lived"
+	cont "alongside"
+	cont "#MON, and"
+	cont "alongside the"
+	cont "GUARDIANS."
+
+	para "The GUARDIANS"
+	line "were the #MON"
+	cont "that brought ATUVA"
+	cont "to life."
+
+	para "This is why I,"
+	line "and many others,"
+	cont "seek to restore"
+	cont "them."
+
+	para "……"
+
+	para "That is all I"
+	line "have to say today."
+
+	para "I encourage you"
+	line "to consider"
+	cont "contributing to"
+	cont "our cause."
+
+	para "Now, I will go."
 	done
 
 PokeGearCampaignClown1_Script:
@@ -701,4 +951,27 @@ GruntWalksToYou2_Movement:
 
 GruntWalksBack2_Movement:
 	step_left
+	step_end
+
+MoonflowerIndigoBossLeaves_Movement:
+	step_up
+	step_up
+	step_up
+	step_up
+	step_up
+	step_up
+	step_end
+
+MoonflowerIndigoGruntLeaves_Movement:
+	fast_step_left
+	fast_step_up
+	fast_step_up
+	fast_step_up
+	fast_step_left
+	fix_facing
+	jump_step_right
+	remove_fixed_facing
+	slow_step_left
+	step_left
+	fast_step_up
 	step_end
