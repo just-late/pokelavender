@@ -100,9 +100,9 @@ VermilionPortWalkUpToShipScript:
 	iffalsefwd VermilionPortNotRidingMoveAwayScript
 	writetext VermilionPortAskTicketText
 	promptbutton
-	checkkeyitem S_S_TICKET
+	checkkeyitem BOAT_PASS
 	iffalsefwd .NoTicket
-	writetext VermilionPortSSTicketText
+	writetext VermilionPortBoatPassText
 	waitbutton
 	closetext
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
@@ -159,9 +159,9 @@ VermilionPortSailorScript:
 	iffalse VermilionPortNotRidingScript
 	writetext VermilionPortAskTicketText
 	promptbutton
-	checkkeyitem S_S_TICKET
+	checkkeyitem BOAT_PASS
 	iffalsefwd .NoTicket
-	writetext VermilionPortSSTicketText
+	writetext VermilionPortBoatPassText
 	waitbutton
 	closetext
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
@@ -229,7 +229,7 @@ VermilionPortComeAgainText:
 	line "again!"
 	done
 
-VermilionPortSSTicketText:
+VermilionPortBoatPassText:
 	text "<PLAYER> flashed"
 	line "the S.S.Ticket."
 

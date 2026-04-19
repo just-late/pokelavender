@@ -168,6 +168,11 @@ RancidPunkBadgeText:
 	line "even traded ones,"
 	cont "up to <LV>20."
 
+	para "It also lets you"
+	line "use HM07--ROCK"
+	cont "SMASH--outside of"
+	cont "battle."
+
 	para "Here--take this"
 	line "too."
 	done

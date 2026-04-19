@@ -740,8 +740,8 @@ CardKeyIcon:: INCBIN "gfx/items/card_key.2bpp.lz"
 SECTION "BasementKeyIcon", ROMX
 BasementKeyIcon:: INCBIN "gfx/items/basement_key.2bpp.lz"
 
-SECTION "SSTicketIcon", ROMX
-SSTicketIcon:: INCBIN "gfx/items/s_s_ticket.2bpp.lz"
+SECTION "BoatPassIcon", ROMX
+BoatPassIcon:: INCBIN "gfx/items/boat_pass.2bpp.lz"
 
 SECTION "PassIcon", ROMX
 PassIcon:: INCBIN "gfx/items/pass.2bpp.lz"

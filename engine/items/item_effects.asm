@@ -307,7 +307,7 @@ KeyItemEffects:
 	dw IsntTheTimeMessage ; SILVER_WING
 	dw IsntTheTimeMessage ; CLEAR_BELL
 	dw IsntTheTimeMessage ; GS_BALL
-	dw IsntTheTimeMessage ; S_S_TICKET
+	dw IsntTheTimeMessage ; BOAT_PASS
 	dw IsntTheTimeMessage ; PASS
 	dw IsntTheTimeMessage ; ORANGETICKET
 	dw IsntTheTimeMessage ; MYSTICTICKET

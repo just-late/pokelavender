@@ -283,7 +283,7 @@ KeyItemDescriptions:
 	dw SilverWingDesc
 	dw ClearBellDesc
 	dw GSBallDesc
-	dw SSTicketDesc
+	dw BoatPassDesc
 	dw PassDesc
 	dw OrangeTicketDesc
 	dw MysticTicketDesc
@@ -1562,7 +1562,7 @@ GoGogglesDesc:
 
 VegetablesDesc:
 	text "Looks like ODDISH"
-	line "LEAVES."
+	next "LEAVES."
 	done
 
 RedScaleDesc:
@@ -1579,9 +1579,9 @@ BasementKeyDesc:
 	text "Opens doors."
 	done
 
-SSTicketDesc:
-	text "A ticket for the"
-	next "S.S.Aqua."
+BoatPassDesc:
+	text "Allows passage"
+	next "on any boat."
 	done
 
 PassDesc:

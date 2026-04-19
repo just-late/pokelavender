@@ -285,7 +285,7 @@ KeyItemIconPointers:
 	dba SilverWingIcon
 	dba ClearBellIcon
 	dba GSBallIcon
-	dba SSTicketIcon
+	dba BoatPassIcon
 	dba PassIcon
 	dba OrangeTicketIcon
 	dba MysticTicketIcon

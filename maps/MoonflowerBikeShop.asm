@@ -40,6 +40,7 @@ MoonflowerBikeShopNPC1Script:
     showemote EMOTE_SHOCK, MOONFLOWER_BIKE_SHOP_CLERK, 30
     showtext MoonflowerBikeShopNPC1Text2
     verbosegivekeyitem BICYCLE
+    setevent EVENT_GOT_BICYCLE
     showtext MoonflowerBikeShopNPC1Text3
     end
 

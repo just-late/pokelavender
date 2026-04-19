@@ -2426,7 +2426,7 @@ _AskItemMoveText::
 SECTION "Text_AreYouABoyOrAreYouAGirl", ROMX
 Text_AreYouABoyOrAreYouAGirl::
 	text "Which photo is on"
-	line "your Trainer Card?"
+	line "your TRAINER CARD?"
 	done
 
 SECTION "Text_SoThisIsYou", ROMX
@@ -3093,7 +3093,7 @@ _ItemsDiscardedText::
 
 SECTION "_ItemsOakWarningText", ROMX
 _ItemsOakWarningText::
-	text "Oak: <PLAYER>!"
+	text "ASPEN: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	done

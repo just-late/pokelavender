@@ -33,6 +33,7 @@ MoonflowerCity_MapScriptHeader:
 	bg_event 15, 11, BGEVENT_ITEM + PP_UP, EVENT_MOONFLOWER_CITY_PP_UP
 	bg_event  7, 17, BGEVENT_JUMPTEXT, PokeIndustriesSignText
 	bg_event 25, 17, BGEVENT_JUMPTEXT, MoonflowerForRentSignText
+	bg_event 28, 23, BGEVENT_READ, MoonflowerCityHM07Script
 
 	db 13 ; object_events
 	person_event SPRITE_GENTLEMAN,  8, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeGearGuy_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
@@ -41,12 +42,12 @@ MoonflowerCity_MapScriptHeader:
 	person_event SPRITE_ROCKET, 22, 2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGuyText, -1
 	person_event SPRITE_FAT_GUY, 23, 3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC7Text, -1
 	person_event SPRITE_ROCKET_GIRL, 22, 4, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGirlText, -1
+	person_event SPRITE_BIRD_KEEPER, 21, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC6Text, EVENT_GOT_HM07_ROCK_SMASH
 	person_event SPRITE_GRAMPS, 22, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC1Text, -1
 	person_event SPRITE_CHILD, 10, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC2Text, -1
 	person_event SPRITE_YOUNGSTER, 24, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC3Text, -1
 	person_event SPRITE_SCHOOLBOY, 19, 20, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC4Text, -1
 	person_event SPRITE_BIKER, 28, 24, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC5Text, -1
-	person_event SPRITE_BIRD_KEEPER, 21, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC6Text, -1
 	pokemon_event 6, 26, RATICATE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MoonflowerCitySignText, -1
 
 	const_def 1 ; object constants
@@ -56,6 +57,7 @@ MoonflowerCity_MapScriptHeader:
 	const INDIGO_GRUNT1
 	const INDIGO_FAT_GUY
 	const INDIGO_GRUNT2
+	const MOONFLOWER_BIRD_KEEPER
 
 MoonflowerCityFlyPoint:
 	setflag ENGINE_FLYPOINT_VIOLET
@@ -475,24 +477,21 @@ MoonflowerCityNPC2Text:
 	done
 
 MoonflowerCityNPC3Text:
-	text "The new DEPARTMENT"
-	line "STORE just opened."
+	text "The police in this"
+	line "town are really"
+	cont "lazy."
 
-	para "They have anything"
-	line "a trainer could"
-	cont "want!"
-	
-	para "There's more stock"
-	line "available once"
-	cont "you've collected"
-	cont "some BADGES."
+	para "That explains all"
+	line "the gangs that have"
+	cont "sprouted up around"
+	cont "the city!"
 
-	para "For example, you"
-	line "need three BADGES"
-	cont "to shop for"
-	
-	para "evolutionary"
-	line "stones."
+	para "Heck, even the"
+	line "GYM is a hangout"
+	cont "spot for 'em!"
+
+	para "That should be so"
+	line "obvious!"
 	done
 
 MoonflowerCityNPC4Text:
@@ -538,10 +537,10 @@ MoonflowerNPC5Text:
 	done
 
 MoonflowerNPC6Text:
-	text "Do you like my"
-	line "new haircut?"
-
-	para "I sure do!"
+	text "I saw someone drop"
+	line "something shiny"
+	cont "in the trash can"
+	cont "by that lamp-post."
 	done
 
 MoonflowerNPC7Text:
@@ -582,6 +581,42 @@ MoonflowerForRentSignText:
 
 	para "Call THOMAS at"
 	line "1-800-FOR-RENT"
+	done
+
+MoonflowerCityHM07Script:
+	opentext
+	checkevent EVENT_GOT_HM07_ROCK_SMASH
+	iftruefwd .NothingText
+	writetext MoonflowerTrashCanText1
+	waitbutton
+	verbosegivetmhm HM_ROCK_SMASH
+	setevent EVENT_GOT_HM07_ROCK_SMASH
+	waitbutton
+	closetext
+	showemote EMOTE_SHOCK, MOONFLOWER_BIRD_KEEPER, 30
+	jumptext MoonflowerBirdKeeperAnythingGoodText
+
+.NothingText:
+	jumpthisopenedtext
+	text "There's nothing"
+	line "else here……"
+	done
+
+MoonflowerBirdKeeperAnythingGoodText:
+	text "GUY: WHAT?"
+
+	para "I thought there"
+	line "was maybe some"
+	cont "good stuff in"
+	cont "there, but an HM?"
+
+	para "Man, I should've"
+	line "dug through there!"
+	done
+
+MoonflowerTrashCanText1:
+	text "Something in"
+	line "there looks shiny!"
 	done
 
 PokeGearGuyWalksToYou_Movement:

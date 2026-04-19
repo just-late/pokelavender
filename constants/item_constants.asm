@@ -652,7 +652,7 @@ DEF NUM_WINGS EQU const_value
 	const SILVER_WING  ; 17
 	const CLEAR_BELL   ; 18
 	const GS_BALL      ; 19
-	const S_S_TICKET   ; 1a
+	const BOAT_PASS   ; 1a
 	const PASS         ; 1b
 	const ORANGETICKET ; 1c
 	const MYSTICTICKET ; 1d
@@ -696,7 +696,7 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_POTENT_LURE
 	const NAM_RAINBOW_WING
 	const NAM_RED_SCALE
-	const NAM_S_S_TICKET
+	const NAM_BOAT_PASS
 	const NAM_VEGETABLES
 	const NAM_SHINY_CHARM
 	const NAM_SILPHSCOPE2
