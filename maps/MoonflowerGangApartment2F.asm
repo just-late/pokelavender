@@ -22,7 +22,7 @@ MoonflowerGangApartment2F_MapScriptHeader:
 GangApartment2FBossScript:
     faceplayer
     opentext
-    checkevent EVENT_GOT_TM50_ROCK_SMASH
+    checkevent EVENT_GOT_HM07_ROCK_SMASH
     iftruefwd .FinishedQuest
     checkevent EVENT_DID_BLAZE_QUEST
     iftruefwd .GotVegetables
@@ -58,8 +58,8 @@ GangApartment2FBossScript:
     waitsfx
     writetext GangApartment2FBossRockSmashText
     waitbutton
-    verbosegivetmhm TM_ROCK_SMASH
-    setevent EVENT_GOT_TM50_ROCK_SMASH
+    verbosegivetmhm HM_ROCK_SMASH
+    setevent EVENT_GOT_HM07_ROCK_SMASH
     end
 
 .Text:
@@ -179,7 +179,7 @@ GangApartment2FBossRockSmashText:
     cont "for you."
 
     para "Here, take this"
-    line "TM."
+    line "HM."
 
     para "It'll teach your"
     line "#MON ROCK"
@@ -187,6 +187,11 @@ GangApartment2FBossRockSmashText:
     cont "them break small"
     cont "rocks outside of"
     cont "battle."
+
+    para "You'll need the"
+    line "PUNK BADGE to use"
+    cont "it outside of"
+    cont "battle, though."
 
     para "It also packs a"
     line "real punch in"

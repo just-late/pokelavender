@@ -1849,7 +1849,7 @@ _NameRaterPerfectNameText::
 SECTION "_NameRaterEggText", ROMX
 _NameRaterEggText::
 	text "Whoa… That's just"
-	line "an Egg."
+	line "an EGG."
 	done
 
 SECTION "_NameRaterSameNameText", ROMX
@@ -1883,14 +1883,14 @@ Text_ABoostedStringBuffer2ExpPoints::
 	line "a boosted"
 	cont ""
 	text_decimal wStringBuffer2, 3, 6
-	text " Exp. Points!"
+	text " EXP. POINTS!"
 	prompt
 
 SECTION "Text_StringBuffer2ExpPoints", ROMX
 Text_StringBuffer2ExpPoints::
 	line ""
 	text_decimal wStringBuffer2, 3, 6
-	text " Exp. Points!"
+	text " EXP. POINTS!"
 	prompt
 
 SECTION "Text_GoPkmn", ROMX
@@ -1991,7 +1991,7 @@ _TMHMNotCompatibleText::
 
 SECTION "_BadgeRequiredText", ROMX
 _BadgeRequiredText::
-	text "Sorry! A new Badge"
+	text "Sorry! A new BADGE"
 	line "is required."
 	prompt
 
@@ -2005,24 +2005,24 @@ SECTION "_UseCutText", ROMX
 _UseCutText::
 	text_ram wStringBuffer2
 	text " used"
-	line "Cut!"
+	line "CUT!"
 	prompt
 
 SECTION "_CutNothingText", ROMX
 _CutNothingText::
 	text "There's nothing to"
-	line "Cut here."
+	line "CUT here."
 	prompt
 
 SECTION "_AskFlashText", ROMX
 _AskFlashText::
 	text "It's pitch black."
-	line "Want to use Flash?"
+	line "Want to use FLASH?"
 	done
 
 SECTION "_BlindingFlashText", ROMX
 _BlindingFlashText::
-	text "A blinding Flash"
+	text "A blinding flash"
 	line "lights the area!"
 	text_promptbutton
 	text_end
@@ -2031,32 +2031,32 @@ SECTION "_UsedSurfText", ROMX
 _UsedSurfText::
 	text_ram wStringBuffer2
 	text " used"
-	line "Surf!"
+	line "SURF!"
 	done
 
 SECTION "_CantSurfText", ROMX
 _CantSurfText::
-	text "You can't Surf"
+	text "You can't SURF"
 	line "here."
 	prompt
 
 SECTION "_AlreadySurfingText", ROMX
 _AlreadySurfingText::
 	text "You're already"
-	line "Surfing."
+	line "SURFING."
 	prompt
 
 SECTION "_AskSurfText", ROMX
 _AskSurfText::
 	text "The water is calm."
-	line "Want to Surf?"
+	line "Want to SURF?"
 	done
 
 SECTION "_UseWaterfallText", ROMX
 _UseWaterfallText::
 	text_ram wStringBuffer2
 	text " used"
-	line "Waterfall!"
+	line "WATERFALL!"
 	done
 
 SECTION "_HugeWaterfallText", ROMX
@@ -2068,20 +2068,20 @@ _HugeWaterfallText::
 SECTION "_AskWaterfallText", ROMX
 _AskWaterfallText::
 	text "Do you want to use"
-	line "Waterfall?"
+	line "WATERFALL?"
 	done
 
 SECTION "_UseDigText", ROMX
 _UseDigText::
 	text_ram wStringBuffer2
 	text " used"
-	line "Dig!"
+	line "DIG!"
 	done
 
 SECTION "_UseEscapeRopeText", ROMX
 _UseEscapeRopeText::
 	text "<PLAYER> used an"
-	line "Escape Rope."
+	line "ESCAPE ROPE."
 	done
 
 SECTION "_CantUseDigText", ROMX
@@ -2102,7 +2102,7 @@ SECTION "_UseStrengthText", ROMX
 _UseStrengthText::
 	text_ram wStringBuffer2
 	text " used"
-	line "Strength!"
+	line "STRENGTH!"
 	done
 
 SECTION "_MoveBoulderText", ROMX
@@ -2118,7 +2118,7 @@ _AskStrengthText::
 	line "able to move this."
 
 	para "Want to use"
-	line "Strength?"
+	line "STRENGTH?"
 	done
 
 SECTION "_BouldersMoveText", ROMX
@@ -2137,7 +2137,7 @@ SECTION "_UseWhirlpoolText", ROMX
 _UseWhirlpoolText::
 	text_ram wStringBuffer2
 	text " used"
-	line "Whirlpool!"
+	line "WHIRLPOOL!"
 	prompt
 
 SECTION "_MayPassWhirlpoolText", ROMX
@@ -2155,14 +2155,14 @@ _AskWhirlpoolText::
 	line "the way."
 
 	para "Want to use"
-	line "Whirlpool?"
+	line "WHIRLPOOL?"
 	done
 
 SECTION "_UseHeadbuttText", ROMX
 _UseHeadbuttText::
 	text_ram wStringBuffer2
 	text " did a"
-	line "Headbutt!"
+	line "HEADBUTT!"
 	prompt
 
 SECTION "_HeadbuttNothingText", ROMX
@@ -2175,7 +2175,7 @@ _AskHeadbuttText::
 	text "A #MON could be"
 	line "in this tree."
 
-	para "Want to Headbutt"
+	para "Want to HEADBUTT"
 	line "it?"
 	done
 
@@ -2183,11 +2183,7 @@ SECTION "_UseRockSmashText", ROMX
 _UseRockSmashText::
 	text_ram wStringBuffer2
 	text " used"
-if DEF(FAITHFUL)
-	line "Rock Smash!"
-else
-	line "Brick Break!"
-endc
+	line "ROCK SMASH!"
 	prompt
 
 SECTION "_MaySmashText", ROMX
@@ -2200,14 +2196,8 @@ SECTION "_AskRockSmashText", ROMX
 _AskRockSmashText::
 	text "This rock looks"
 	line "breakable."
-
-if DEF(FAITHFUL)
-	para "Want to use Rock"
-	line "Smash?"
-else
-	para "Want to use Brick"
-	line "Break?"
-endc
+	para "Want to use ROCK"
+	line "SMASH?"
 	done
 
 SECTION "_RodBiteText", ROMX
@@ -2246,15 +2236,15 @@ _GotOffBikeText::
 SECTION "_AskCutText", ROMX
 _AskCutText::
 	text "This tree can be"
-	line "Cut!"
+	line "CUT!"
 
-	para "Want to use Cut?"
+	para "Want to use CUT?"
 	done
 
 SECTION "_CanCutText", ROMX
 _CanCutText::
 	text "This tree can be"
-	line "Cut!"
+	line "CUT!"
 	done
 
 SECTION "_FoundItemText", ROMX
@@ -2339,11 +2329,7 @@ _PoisonFaintText::
 SECTION "_UseSweetHoneyText", ROMX
 _UseSweetHoneyText::
 	text "<PLAYER> spread"
-if DEF(FAITHFUL)
-	line "the Honey!"
-else
-	line "the Sweet Honey!"
-endc
+	line "the SWEET HONEY!"
 	done
 
 SECTION "_SweetHoneyNothingText", ROMX
@@ -2369,7 +2355,7 @@ _UseSacredAshText::
 
 SECTION "Text_AnEGGCantHoldAnItem", ROMX
 Text_AnEGGCantHoldAnItem::
-	text "An Egg can't hold"
+	text "An EGG can't hold"
 	line "an item."
 	prompt
 

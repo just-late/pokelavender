@@ -344,8 +344,8 @@ YesNoMenuDataHeader::
 .MenuData2
 	db $c0 ; flags
 	db 2
-	db "Yes@"
-	db "No@"
+	db "YES@"
+	db "NO@"
 
 NoYesMenuDataHeader::
 	db MENU_BACKUP_TILES
@@ -356,8 +356,8 @@ NoYesMenuDataHeader::
 .MenuData2
 	db $c0 ; flags
 	db 2
-	db "No@"
-	db "Yes@"
+	db "NO@"
+	db "YES@"
 
 OffsetMenuDataHeader::
 	call _OffsetMenuDataHeader

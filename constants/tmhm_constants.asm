@@ -48,55 +48,50 @@ ENDM
 	add_tm DIG          ; $1b
 	add_tm PSYCHIC      ; $1c
 	add_tm SHADOW_BALL  ; $1d
-	add_tm ROCK_SMASH   ; $1e
-if !DEF(FAITHFUL)
-DEF TM_BRICK_BREAK    EQU TM_ROCK_SMASH
-DEF BRICK_BREAK_TMNUM EQU ROCK_SMASH_TMNUM
-endc
-	add_tm DOUBLE_TEAM  ; $1f
-	add_tm REFLECT      ; $20
-	add_tm FLASH_CANNON ; $21
-	add_tm FLAMETHROWER ; $22
-	add_tm SLUDGE_BOMB  ; $23
-	add_tm SANDSTORM    ; $24
-	add_tm FIRE_BLAST   ; $25
-	add_tm SWIFT        ; $26
-	add_tm AERIAL_ACE   ; $27
-	add_tm SUBSTITUTE   ; $28
-	add_tm FACADE       ; $29
-	add_tm FLAME_CHARGE ; $2a
-	add_tm REST         ; $2b
-	add_tm ATTRACT      ; $2c
-	add_tm THIEF        ; $2d
-	add_tm STEEL_WING   ; $2e
-	add_tm ROCK_SLIDE   ; $2f
-	add_tm DAZZLINGLEAM ; $30
-	add_tm LEECH_LIFE   ; $31
-	add_tm ROOST        ; $32
-	add_tm FOCUS_BLAST  ; $33
-	add_tm ENERGY_BALL  ; $34
-	add_tm FALSE_SWIPE  ; $35
-	add_tm SCALD        ; $36
-	add_tm X_SCISSOR    ; $37
-	add_tm WILD_CHARGE  ; $38
-	add_tm DARK_PULSE   ; $39
-	add_tm DRAGON_PULSE ; $3a
-	add_tm DRAIN_PUNCH  ; $3b
-	add_tm WILL_O_WISP  ; $3c
-	add_tm ACROBATICS   ; $3d
-	add_tm WATER_PULSE  ; $3e
-	add_tm EXPLOSION    ; $3f
-	add_tm SHADOW_CLAW  ; $40
-	add_tm POISON_JAB   ; $41
-	add_tm AVALANCHE    ; $42
-	add_tm GIGA_IMPACT  ; $43
-	add_tm U_TURN       ; $44
-	add_tm FLASH        ; $45
-	add_tm STONE_EDGE   ; $46
-	add_tm VOLT_SWITCH  ; $47
-	add_tm THUNDER_WAVE ; $48
-	add_tm GYRO_BALL    ; $49
-	add_tm SWORDS_DANCE ; $4a
+	add_tm DOUBLE_TEAM  ; $1e
+	add_tm REFLECT      ; $1f
+	add_tm FLASH_CANNON ; $20
+	add_tm FLAMETHROWER ; $21
+	add_tm SLUDGE_BOMB  ; $22
+	add_tm SANDSTORM    ; $23
+	add_tm FIRE_BLAST   ; $24
+	add_tm SWIFT        ; $25
+	add_tm AERIAL_ACE   ; $26
+	add_tm SUBSTITUTE   ; $27
+	add_tm FACADE       ; $28
+	add_tm FLAME_CHARGE ; $29
+	add_tm REST         ; $2a
+	add_tm ATTRACT      ; $2b
+	add_tm THIEF        ; $2c
+	add_tm STEEL_WING   ; $2d
+	add_tm ROCK_SLIDE   ; $2e
+	add_tm DAZZLINGLEAM ; $2f
+	add_tm LEECH_LIFE   ; $30
+	add_tm ROOST        ; $31
+	add_tm FOCUS_BLAST  ; $32
+	add_tm ENERGY_BALL  ; $33
+	add_tm FALSE_SWIPE  ; $34
+	add_tm SCALD        ; $35
+	add_tm X_SCISSOR    ; $36
+	add_tm WILD_CHARGE  ; $37
+	add_tm DARK_PULSE   ; $38
+	add_tm DRAGON_PULSE ; $39
+	add_tm DRAIN_PUNCH  ; $3a
+	add_tm WILL_O_WISP  ; $3b
+	add_tm ACROBATICS   ; $3c
+	add_tm WATER_PULSE  ; $3d
+	add_tm EXPLOSION    ; $3e
+	add_tm SHADOW_CLAW  ; $3f
+	add_tm POISON_JAB   ; $40
+	add_tm AVALANCHE    ; $41
+	add_tm GIGA_IMPACT  ; $42
+	add_tm U_TURN       ; $43
+	add_tm FLASH        ; $44
+	add_tm STONE_EDGE   ; $45
+	add_tm VOLT_SWITCH  ; $46
+	add_tm THUNDER_WAVE ; $47
+	add_tm GYRO_BALL    ; $48
+	add_tm SWORDS_DANCE ; $49
 DEF NUM_TMS = __tmhm_value__ - 1
 
 MACRO add_hm
@@ -107,12 +102,13 @@ MACRO add_hm
 	add_tmnum \1
 ENDM
 
-	add_hm CUT          ; $4b
-	add_hm FLY          ; $4c
-	add_hm SURF         ; $4d
-	add_hm STRENGTH     ; $4e
-	add_hm WHIRLPOOL    ; $4f
-	add_hm WATERFALL    ; $50
+	add_hm CUT          ; $4a
+	add_hm FLY          ; $4b
+	add_hm SURF         ; $4c
+	add_hm STRENGTH     ; $4d
+	add_hm WHIRLPOOL    ; $4e
+	add_hm WATERFALL    ; $4f
+	add_hm ROCK_SMASH   ; $50
 DEF NUM_HMS = __tmhm_value__ - NUM_TMS - 1
 
 MACRO add_mt

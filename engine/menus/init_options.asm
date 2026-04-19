@@ -441,9 +441,9 @@ InitialOptions_NuzlockeMode:
 	ret
 
 NoString:
-	db "No @"
+	db "NO @"
 YesString:
-	db "Yes@"
+	db "YES@"
 AllString:
 	db "All@"
 ModernString:

@@ -304,8 +304,8 @@ BT_PartySelect:
 .EggMenuData:
 	db $c0 ; flags
 	db 2 ; items
-	db "Stats@"
-	db "Cancel@"
+	db "STATS@"
+	db "CANCEL@"
 
 .MenuHeader:
 	db $00 ; flags
@@ -316,10 +316,10 @@ BT_PartySelect:
 .MenuData:
 	db $c0 ; flags
 	db 4 ; items
-	db "Enter@"
-	db "Stats@"
-	db "Moves@"
-	db "Cancel@"
+	db "ENTER@"
+	db "STATS@"
+	db "MOVES@"
+	db "CANCEL@"
 
 .BannedMenuHeader:
 	db $00 ; flags
@@ -330,12 +330,12 @@ BT_PartySelect:
 .BannedMenuData:
 	db $c0 ; flags
 	db 3 ; items
-	db "Stats@"
-	db "Moves@"
-	db "Cancel@"
+	db "STATS@"
+	db "MOVES@"
+	db "CANCEL@"
 
 BTText_EnterBattle:
-	db "Enter battle?@"
+	db "ENTER BATTLE?@"
 
 BTText_SameSpecies:
 	text "The #MON must"
@@ -369,8 +369,8 @@ BT_ConfirmPartySelection:
 .YesNoMenuData:
 	db $c0 ; flags
 	db 2 ; items
-	db "Yes@"
-	db "No@"
+	db "YES@"
+	db "NO@"
 
 BT_DisplayMenu:
 	call CopyMenuHeader
@@ -606,7 +606,7 @@ PlacePartyNicknames:
 	ret
 
 .Cancel:
-	db "Cancel@"
+	db "CANCEL@"
 
 PlacePartyHPBar:
 	xor a
@@ -837,10 +837,10 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "Able@"
+	db "ABLE@"
 
 .string_not_able
-	db "Not able@"
+	db "NOT ABLE@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -912,9 +912,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "Able@"
+	db "ABLE@"
 .string_not_able
-	db "Not able@"
+	db "NOT ABLE@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -1005,10 +1005,10 @@ PlacePartyMonRemindable:
 	ret
 
 .string_able
-	db "Able@"
+	db "ABLE@"
 
 .string_not_able
-	db "Not able@"
+	db "NOT ABLE@"
 
 PlacePartyMonBattleTower:
 	ld bc, 0
@@ -1047,22 +1047,22 @@ PlacePartyMonBattleTower:
 	jr .loop
 
 .Banned
-	db "Banned@"
+	db "BANNED@"
 
 .Able
-	db "Able@"
+	db "ABLE@"
 
 .First
-	db "First@"
+	db "FIRST@"
 
 .Second
-	db "Second@"
+	db "SECOND@"
 
 .Third
-	db "Third@"
+	db "THIRD@"
 
 .LastFoe
-	db "Last foe@"
+	db "LAST FOE@"
 
 PartyMenuCheckEgg:
 	push hl

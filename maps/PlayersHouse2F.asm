@@ -114,9 +114,10 @@ DebugDudeScript:
 	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
 	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
 	givemoney $0, 15000
-	givetmhm TM_ROCK_SMASH
+	givetmhm HM_ROCK_SMASH
 	setevent EVENT_DOING_BLAZE_QUEST
 	setevent EVENT_ALWAYS_SET
+	setflag ENGINE_PUNKBADGE
 	waitbutton
 .End:
 	closetext

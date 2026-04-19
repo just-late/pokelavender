@@ -1490,12 +1490,24 @@ RockSmashFromMenuScript:
 	special UpdateTimePals
 
 RockSmashScript:
+;	ld de, ENGINE_PUNKBADGE
+;	call CheckEngineFlag
+;	jr c, .QuitRockSmash
+	checkflag ENGINE_PUNKBADGE
+	iffalsefwd .QuitRockSmash
 	callasm PrepareOverworldMove
 	farwritetext _UseRockSmashText
 	closetext
 	waitsfx
 	scall FieldMovePokepicScript
 	setflag ENGINE_ROCK_SMASH_ACTIVE
+	sjumpfwd AutoRockSmashScript
+
+.QuitRockSmash:
+	farwritetext _BadgeRequiredText
+	closetext
+	end
+
 AutoRockSmashScript:
 	playsound SFX_STRENGTH
 	earthquake 84
@@ -1509,7 +1521,6 @@ AutoRockSmashScript:
 	startbattle
 	reloadmapafterbattle
 	end
-
 .no_battle
 	callasm RockItemEncounter
 	iffalsefwd .no_item
@@ -1539,7 +1550,7 @@ AskRockSmashScript:
 	farjumptext _MaySmashText
 
 HasRockSmash:
-	lb de, ROCK_SMASH, TM_ROCK_SMASH
+	lb de, ROCK_SMASH, HM_ROCK_SMASH
 	call CheckPartyMove
 	; a = carry ? 1 : 0
 	sbc a

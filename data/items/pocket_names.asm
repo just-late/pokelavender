@@ -9,14 +9,14 @@ ItemPocketNames:
 	assert_table_length NUM_POCKETS
 
 .Item:
-	db "Item Pocket@"
+	db "ITEM POCKET@"
 .Medicine:
-	db "Med.Pocket@"
+	db "MED.POCKET@"
 .Ball:
-	db "Ball Pocket@"
+	db "BALL POCKET@"
 .TM:
-	db "TM Pocket@"
+	db "TM POCKET@"
 .Berry:
-	db "Berry Pocket@"
+	db "BERRY POCKET@"
 .Key:
-	db "Key Pocket@"
+	db "KEY POCKET@"
