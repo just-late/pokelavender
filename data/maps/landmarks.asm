@@ -14,6 +14,7 @@ Landmarks:
 	landmark  60, 100, MoonflowerCityName
 	landmark  68, 100, Route3Name
 	landmark  70,  98, OvercastGroveName
+	landmark  68,  92, MarigoldCaveName
 	landmark  68, 108, MarigoldPortName
 	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
@@ -68,7 +69,6 @@ Landmarks:
 	landmark  84,  92, Route32Name
 	landmark  92, 112, Route32CoastName
 	landmark  84, 124, UnionCaveName
-	landmark  76, 124, Route33Name
 	landmark  76, 116, SlowpokeWellName
 	landmark  52, 124, IlexForestName
 	landmark  52, 108, Route34Name
@@ -156,6 +156,7 @@ Landmarks:
 GemrootTownName:       rawchar "GEMROOT¯TOWN@"
 GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
 MoonflowerCityName:    rawchar "MOONFLOWER¯CITY@"
+MarigoldCaveName:	   rawchar "MARIGOLD¯CAVE@"
 MarigoldPortName:      rawchar "MARIGOLD¯PORT@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 OlivineCityName:       rawchar "Olivine¯City@"
@@ -235,7 +236,6 @@ Route29Name:           rawchar "Route 29@"
 Route30Name:           rawchar "Route 30@"
 Route31Name:           rawchar "Route 31@"
 Route32Name:           rawchar "Route 32@"
-Route33Name:           rawchar "Route 33@"
 Route34Name:           rawchar "Route 34@"
 Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"

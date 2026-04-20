@@ -218,9 +218,7 @@ ENDM
 	map_const CERULEAN_COUPLE_HOUSE,                       4,  4 ; 22
 	map_const CERULEAN_WATER_SHOW_SPEECH_HOUSE,            4,  4 ; 23
 
-	newgroup                                                     ;  8
-	map_const AZALEA_POKECENTER_1F,                        6,  4 ;  1
-	map_const ROUTE_33,                                   10,  9 ;  6
+	newgroup                                                     ;  8 ; unused
 
 	newgroup                                                     ;  9
 	map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE,             4,  4 ;  1

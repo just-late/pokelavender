@@ -1484,34 +1484,6 @@
 	wildmon 7, GASTLY
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_33
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 9, RATTATA
-	wildmon 9, SPEAROW
-	wildmon 9, GEODUDE
-	wildmon 10, HOPPIP
-	wildmon 10, EKANS, ARBOK_JOHTO_FORM
-	wildmon 9, SUNKERN
-	wildmon 10, SUNKERN
-	; day
-	wildmon 9, RATTATA
-	wildmon 9, SPEAROW
-	wildmon 9, GEODUDE
-	wildmon 10, HOPPIP
-	wildmon 10, EKANS, ARBOK_JOHTO_FORM
-	wildmon 9, SUNKERN
-	wildmon 10, SUNKERN
-	; nite
-	wildmon 9, RATTATA
-	wildmon 9, ZUBAT
-	wildmon 9, GEODUDE
-	wildmon 10, ZUBAT
-	wildmon 10, RATTATA
-	wildmon 9, ODDISH
-	wildmon 10, ODDISH
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

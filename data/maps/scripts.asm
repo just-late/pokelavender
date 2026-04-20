@@ -3,7 +3,6 @@ SECTION "Pokemon Center Scripts 1", ROMX
 INCLUDE "maps/GlittervinePokeCenter1F.asm"
 INCLUDE "maps/MoonflowerPokeCenter1F.asm"
 INCLUDE "maps/MarigoldPokeCenter1F.asm"
-INCLUDE "maps/AzaleaPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
 INCLUDE "maps/OlivinePokeCenter1F.asm"
 INCLUDE "maps/CianwoodPokeCenter1F.asm"
@@ -1030,9 +1029,8 @@ INCLUDE "maps/Route3MoonflowerGate.asm"
 INCLUDE "maps/Route32.asm"
 
 
-SECTION "Routes 33-35 Scripts", ROMX
+SECTION "Routes 34-35 Scripts", ROMX
 
-INCLUDE "maps/Route33.asm"
 INCLUDE "maps/Route34.asm"
 INCLUDE "maps/Route35.asm"
 INCLUDE "maps/Route35CoastNorth.asm"

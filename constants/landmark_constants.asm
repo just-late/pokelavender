@@ -9,7 +9,8 @@
 	const MOONFLOWER_CITY    ; 05
 	const ROUTE_3            ; 06
 	const OVERCAST_GROVE     ; 07
-	const MARIGOLD_PORT		 ; 08
+	const MARIGOLD_CAVE      ; 08
+	const MARIGOLD_PORT		 ; 09
 DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07
 	const ROUTE_31           ; 05
@@ -17,7 +18,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_32           ; 09
 	const ROUTE_32_COAST     ; 0a
 	const UNION_CAVE         ; 0b
-	const ROUTE_33           ; 0c
 	const AZALEA_TOWN        ; 0d
 	const SLOWPOKE_WELL      ; 0e
 	const ILEX_FOREST        ; 0f

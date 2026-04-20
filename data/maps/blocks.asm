@@ -4,7 +4,6 @@ GlittervinePokeCenter1F_BlockData:
 MoonflowerPokeCenter1F_BlockData:
 MarigoldPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
-AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
 OlivinePokeCenter1F_BlockData:
 SnowtopPokeCenter1F_BlockData:
@@ -1840,14 +1839,6 @@ Route31_BlockData:
 SECTION "Route32_BlockData", ROMX
 Route32_BlockData:
 	INCBIN "maps/Route32.ablk.lz"
-
-SECTION "Route33_BlockData", ROMX
-Route33_BlockData:
-	INCBIN "maps/Route33.ablk.lz"
-
-SECTION "Route33Raining_BlockData", ROMX
-Route33Raining_BlockData:
-	INCBIN "maps/Route33Raining.ablk.lz"
 
 SECTION "Route34_BlockData", ROMX
 Route34_BlockData:

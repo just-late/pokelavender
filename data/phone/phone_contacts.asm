@@ -29,7 +29,7 @@ PhoneContacts:
 	phone BUG_CATCHER,  WADE1,                 ROUTE_31,                  %1111, WadePhoneScript1,    %1111, WadePhoneScript2
 	phone FISHER,       RALPH1,                ROUTE_32,                  %1111, RalphPhoneScript1,   %1111, RalphPhoneScript2
 	phone PICNICKER,    LIZ1,                  ROUTE_32,                  %1111, LizPhoneScript1,     %1111, LizPhoneScript2
-	phone HIKER,        ANTHONY1,              ROUTE_33,                  %1111, AnthonyPhoneScript1, %1111, AnthonyPhoneScript2
+	phone HIKER,        ANTHONY1,              ROUTE_32,                  %1111, AnthonyPhoneScript1, %1111, AnthonyPhoneScript2
 	phone CAMPER,       TODD1,                 ROUTE_34,                  %1111, ToddPhoneScript1,    %1111, ToddPhoneScript2
 	phone PICNICKER,    GINA1,                 ROUTE_34,                  %1111, GinaPhoneScript1,    %1111, GinaPhoneScript2
 	phone JUGGLER,      IRWIN1,                ROUTE_35,                  %1111, IrwinPhoneScript1,   %1111, IrwinPhoneScript2

@@ -16,11 +16,9 @@ AnthonyPhoneScript1:
 	farsjump AnthonyHangUpScript
 
 .WantsBattle:
-	getlandmarkname ROUTE_33, $2
 	farsjump AnthonyReminderScript
 
 .AlreadySwarming:
-	getlandmarkname ROUTE_33, $2
 	farsjump AnthonyHurryScript
 
 AnthonyPhoneScript2:
@@ -44,7 +42,6 @@ AnthonyFridayNight:
 	setflag ENGINE_ANTHONY_FRIDAY_NIGHT
 
 AnthonyWantsBattle:
-	getlandmarkname ROUTE_33, $2
 	setflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	farsjump PhoneScript_WantsToBattle_Male
 

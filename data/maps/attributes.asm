@@ -87,11 +87,8 @@ ENDM
 
 	map_attributes Route32, ROUTE_32, $5, NORTH | SOUTH | WEST | EAST
 	connection north, MoonflowerCity, MOONFLOWER_CITY, 0
-	connection south, Route33, ROUTE_33, 0
 	connection west, MagnetTunnelEast, MAGNET_TUNNEL_EAST, 9
 	connection east, CherrygroveBay, CHERRYGROVE_BAY, 12
-
-	map_attributes Route33, ROUTE_33, $5, 0
 
 	map_attributes Route34, ROUTE_34, $5, NORTH | WEST
 	connection north, GoldenrodCity, GOLDENROD_CITY, -7
@@ -562,7 +559,6 @@ ENDM
 	map_attributes Route10PokeCenter1F, ROUTE_10_POKECENTER_1F, $0, 0
 	map_attributes PowerPlant, POWER_PLANT, $0, 0
 	map_attributes BillsHouse, BILLS_HOUSE, $0, 0
-	map_attributes AzaleaPokeCenter1F, AZALEA_POKECENTER_1F, $0, 0
 	map_attributes LakeOfRageHiddenPowerHouse, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, $0, 0
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
