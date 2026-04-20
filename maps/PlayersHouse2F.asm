@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
+	warp_event  7,  0, MOONFLOWER_CITY, 5
 
 	def_coord_events
 
@@ -117,6 +117,7 @@ DebugDudeScript:
 	givetmhm HM_ROCK_SMASH
 	setevent EVENT_DOING_BLAZE_QUEST
 	setevent EVENT_ALWAYS_SET
+	setmapscene MOONFLOWER_CITY, $2
 .End:
 	closetext
 	end

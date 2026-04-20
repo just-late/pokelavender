@@ -169,7 +169,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a8
 	tilecoll FLOOR, WALL, FLOOR, WALL ; a9
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; aa
-	tilecoll FLOOR, WALL, FLOOR, FLOOR ; ab
+	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, FLOOR ; ab
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ac
 	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; ad
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; ae
@@ -252,3 +252,4 @@
 	tilecoll WALL, FLOOR, WALL, FLOOR ; fb
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; fc
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; fd
+	tilecoll FLOOR, FLOOR, FLOOR, WARP_CARPET_DOWN ; fe

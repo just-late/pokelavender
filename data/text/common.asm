@@ -3093,9 +3093,8 @@ _ItemsDiscardedText::
 
 SECTION "_ItemsOakWarningText", ROMX
 _ItemsOakWarningText::
-	text "ASPEN: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "This isn't the"
+	line "time to use that!"
 	done
 
 SECTION "_PokemonSwapItemText", ROMX

@@ -4,7 +4,7 @@ MoonflowerNPCApartment22F_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event  5,  1, MOONFLOWER_NPC_APARTMENT_1_1F, 3
+	warp_event  5,  1, MOONFLOWER_NPC_APARTMENT_2_1F, 3
 
     def_coord_events
 

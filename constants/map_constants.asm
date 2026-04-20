@@ -587,7 +587,6 @@ ENDM
 	map_const GLITTERVINE_EVOLUTION_SPEECH_HOUSE,          4,  4 ; 10
 	map_const ROUTE_30_BERRY_SPEECH_HOUSE,                 4,  4 ; 11
 	map_const MR_POKEMONS_HOUSE,                           4,  4 ; 12
-	map_const ROUTE_31_MOONFLOWER_GATE,                        5,  4 ; 13
 	map_const ROUTE_2_GLITTERVINE_GATE,					   5,  4 ; 14
 
 	newgroup                                                     ; 27
@@ -706,17 +705,18 @@ ENDM
 	map_const ECRUTEAK_SHRINE_INSIDE,                      6,  6 ;  2
 
 	newgroup													 ; 38
-	map_const ROUTE_3,                                    22, 25 ;  2
+	map_const ROUTE_3_MOONFLOWER_GATE,                     5,  4 ;  1
+	map_const ROUTE_3,                                    22, 26 ;  2
 	map_const ROUTE_3_POKECENTER_1F,                       6,  4 ;  3
-	map_const MARIGOLD_PORT,						      36, 14 ;  1
-	map_const MARIGOLD_POKECENTER_1F, 					   6,  4 ;  2
-	map_const MARIGOLD_NPC_HOUSE_1,						   4,  4 ;  3
-	map_const MARIGOLD_NPC_HOUSE_2,						   4,  4 ;  4
-	map_const MARIGOLD_BOATHOUSE,						   4,  4 ;  5
-	map_const MARIGOLD_GYM,                                5,  9 ;  6
-	map_const MARIGOLD_CAVE_1F, 						  19, 15 ;  7
-	map_const MARIGOLD_CAVE_2F,							  15, 17 ;  8
-	map_const DREAM_WORLD, 								  22, 10 ;  9
-	map_const OVERCAST_GROVE,							  17, 14 ; 10
+	map_const MARIGOLD_PORT,						      36, 14 ;  4
+	map_const MARIGOLD_POKECENTER_1F, 					   6,  4 ;  5
+	map_const MARIGOLD_NPC_HOUSE_1,						   4,  4 ;  6
+	map_const MARIGOLD_NPC_HOUSE_2,						   4,  4 ;  7
+	map_const MARIGOLD_BOATHOUSE,						   4,  4 ;  8
+	map_const MARIGOLD_GYM,                                5,  9 ;  9
+	map_const MARIGOLD_CAVE_1F, 						  19, 15 ; 10
+	map_const MARIGOLD_CAVE_2F,							  15, 17 ; 11
+	map_const DREAM_WORLD, 								  22, 10 ; 12
+	map_const OVERCAST_GROVE,							  17, 14 ; 13
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

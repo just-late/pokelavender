@@ -5,8 +5,8 @@ Route31_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, Route31CheckMomCall
 
 	def_warp_events
-	warp_event  4,  6, ROUTE_31_MOONFLOWER_GATE, 3
-	warp_event  4,  7, ROUTE_31_MOONFLOWER_GATE, 4
+	warp_event  4,  6, ROUTE_3_MOONFLOWER_GATE, 3
+	warp_event  4,  7, ROUTE_3_MOONFLOWER_GATE, 4
 	warp_event 34,  5, DARK_CAVE_MOONFLOWER_ENTRANCE, 1
 
 	def_coord_events

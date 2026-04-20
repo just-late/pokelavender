@@ -26,6 +26,8 @@ GangApartment2FBossScript:
     iftruefwd .FinishedQuest
     checkevent EVENT_DID_BLAZE_QUEST
     iftruefwd .GotVegetables
+    checkevent EVENT_DOING_BLAZE_QUEST
+    iftruefwd .Directions
     writetext GangApartment2FBossIntroText
     waitbutton
     showemote EMOTE_QUESTION, PLAYER, 30
@@ -44,8 +46,7 @@ GangApartment2FBossScript:
 
 .GangApartment2FBossQuestScript:
     writetext GangApartment2FBossGreatText
-    waitbutton
-    closetext
+    sjumpfwd .Directions
 	end
 
 .GotVegetables:
@@ -71,6 +72,13 @@ GangApartment2FBossScript:
     writetext GangApartment2FVegetablesText
     waitbutton
     closetext
+    end
+
+.Directions:
+    writetext GangApartment2FBossEntranceText
+    waitbutton
+    closetext
+    end
 
 GangApartment2FBikerText:
     text "ROOOOOOAR!"
@@ -118,9 +126,10 @@ GangApartment2FBossIntroText:
 
 GangApartment2FBossQuest1Text:
     text "I have something…"
-    line "…Uh, important being"
-    cont "delivered to me in"
-    cont "MARIGOLD PORT."
+    line "…uh, important"
+    cont "being delivered to"
+    cont "me in MARIGOLD"
+    cont "PORT."
 
     para "It's called uh…"
     line "well… it's…"
@@ -159,7 +168,14 @@ GangApartment2FBossGreatText:
     done
 
 GangApartment2FBossEntranceText:
-    text "Aww… hurry up!"
+    text "He'll be at the"
+    line "dock at the far"
+    cont "west end of town."
+
+    para "He only comes by"
+    line "in the night, so"
+    cont "make sure you"
+    cont "come after dark."
     done
 
 GanagApartment2FBossDoneText:

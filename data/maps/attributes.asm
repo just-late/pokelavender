@@ -26,11 +26,9 @@ ENDM
 	map_attributes Route3, ROUTE_3, $05, 0 ; NORTH
 ; 	connection north, MoonflowerCity, MOONFLOWER_CITY, 0
 
-	map_attributes MoonflowerCity, MOONFLOWER_CITY, $5, NORTH | SOUTH | WEST | EAST
-	connection north, MoonflowerOutskirts, MOONFLOWER_OUTSKIRTS, 0
-	connection south, Route32, ROUTE_32, 0
-	connection west, Route36, ROUTE_36, 0
-	connection east, Route31, ROUTE_31, 9
+	map_attributes MoonflowerCity, MOONFLOWER_CITY, $5, NORTH | SOUTH
+	connection north, Route2, ROUTE_2, 0
+	connection south, Route3, ROUTE_3, 0
 
 	map_attributes CianwoodCity, CIANWOOD_CITY, $35, EAST
 	connection east, Route41, ROUTE_41, 0
@@ -828,7 +826,7 @@ ENDM
 	map_attributes GlittervineEvolutionSpeechHouse, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, $0, 0
 	map_attributes Route30BerrySpeechHouse, ROUTE_30_BERRY_SPEECH_HOUSE, $0, 0
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $0, 0
-	map_attributes Route31MoonflowerGate, ROUTE_31_MOONFLOWER_GATE, $0, 0
+	map_attributes Route3MoonflowerGate, ROUTE_3_MOONFLOWER_GATE, $0, 0
 	map_attributes Route2GlittervineGate, ROUTE_2_GLITTERVINE_GATE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
 	map_attributes PewterMuseumOfScience1F, PEWTER_MUSEUM_OF_SCIENCE_1F, $0, 0

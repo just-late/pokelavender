@@ -58,6 +58,7 @@ Route40BattleTowerGate_BlockData:
 YellowForestGate_BlockData:
 Route43Gate_BlockData:
 Route43MahoganyGate_BlockData:
+Route3MoonflowerGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
 Route1ViridianGate_BlockData:
@@ -74,7 +75,6 @@ Route12Gate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate1F.ablk.lz"
 
 Route2GlittervineGate_BlockData:
-Route31MoonflowerGate_BlockData:
 Route36MoonflowerGate_BlockData:
 IlexForestAzaleaGate_BlockData:
 GoldenrodHarborGate_BlockData:

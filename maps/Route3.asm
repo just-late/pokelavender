@@ -5,27 +5,27 @@ Route3_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, Route3FlyPoint
 
 	def_warp_events
-	warp_event  5,  3, PLAYERS_HOUSE_2F, 1
-	warp_event 11, 39, ROUTE_3_POKECENTER_1F, 1
-	warp_event  8, 37, MARIGOLD_CAVE_1F, 1
-	warp_event 20,  4, OVERCAST_GROVE, 2
-	warp_event 21,  4, OVERCAST_GROVE, 2
+	warp_event  5,  5, ROUTE_3_MOONFLOWER_GATE, 1
+	warp_event 11, 41, ROUTE_3_POKECENTER_1F, 1
+	warp_event  8, 39, MARIGOLD_CAVE_1F, 1
+	warp_event 20,  6, OVERCAST_GROVE, 2
+	warp_event 21,  6, OVERCAST_GROVE, 2
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  6, 38, BGEVENT_JUMPTEXT, MarigoldCaveText
-	bg_event 15,  9, BGEVENT_JUMPTEXT, Route3SignText
-	bg_event 35, 41, BGEVENT_ITEM + MOON_STONE, EVENT_ROUTE_3_HIDDEN_MOON_STONE
+	bg_event  6, 40, BGEVENT_JUMPTEXT, MarigoldCaveText
+	bg_event 15, 11, BGEVENT_JUMPTEXT, Route3SignText
+	bg_event 35, 43, BGEVENT_ITEM + MOON_STONE, EVENT_ROUTE_3_HIDDEN_MOON_STONE
 
 	db 7 ; object events
-	person_event SPRITE_BUG_CATCHER,  6, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, Route3BugCatcherText, -1
-	object_event 26, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerYoungsterRegis, -1
-	object_event 28, 31, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerYoungsterJimmy, -1
-	object_event 12,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerYoungsterWarren, -1
-	object_event 13, 46, SPRITE_FIREBREATHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerFirebreatherOtis, -1
-	object_event  4, 39, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerHikerBruce, -1
-	itemball_event 25, 47, BIG_ROOT, 1, EVENT_ROUTE_3_BIG_ROOT
+	person_event SPRITE_BUG_CATCHER,  8, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, Route3BugCatcherText, -1
+	object_event 26, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerYoungsterRegis, -1
+	object_event 28, 33, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerYoungsterJimmy, -1
+	object_event 12,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerYoungsterWarren, -1
+	object_event 13, 48, SPRITE_FIREBREATHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerFirebreatherOtis, -1
+	object_event  4, 41, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerHikerBruce, -1
+	itemball_event 25, 49, BIG_ROOT, 1, EVENT_ROUTE_3_BIG_ROOT
 
 Route3FlyPoint:
 	setflag ENGINE_FLYPOINT_MT_MOON

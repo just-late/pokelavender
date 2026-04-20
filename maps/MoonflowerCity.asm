@@ -17,6 +17,8 @@ MoonflowerCity_MapScriptHeader:
 	warp_event 33, 17, MOONFLOWER_NPC_APARTMENT_1_1F, 1
 	warp_event 33, 27, MOONFLOWER_NPC_APARTMENT_2_1F, 1
 	warp_event  9, 27, MOONFLOWER_NPC_APARTMENT_3_1F, 1
+	warp_event 12, 35, ROUTE_3_MOONFLOWER_GATE, 1
+	warp_event 13, 35, ROUTE_3_MOONFLOWER_GATE, 2
 
 	def_coord_events
 	coord_event 2, 21, 1, TeamIndigoTrigger1
@@ -171,28 +173,25 @@ MoonflowerPokeGearGuy_Script:
 	done
 
 MoonflowerIndigoSpeechOnTop1:
-	turnobject PLAYER, DOWN
-	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
-	turnobject MOONFLOWER_INDIGO_BOSS, UP
 	opentext
-	writetext MoonflowerIndigoBossComeJoinUsText
+	writetext MoonflowerSpeechGoingOnText
 	waitbutton
 	closetext
-	applyonemovement PLAYER, step_right
-	applyonemovement PLAYER, step_down
-	sjumpfwd MoonflowerIndigoSpeechScript
+	applyonemovement PLAYER, fix_facing
+	applyonemovement PLAYER, step_up
+	applyonemovement PLAYER, remove_fixed_facing
+	end
 
 MoonflowerIndigoSpeechOnTop2:
-	turnobject PLAYER, DOWN
-	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
-	turnobject MOONFLOWER_INDIGO_BOSS, UP
 	opentext
-	writetext MoonflowerIndigoBossComeJoinUsText
+	writetext MoonflowerSpeechGoingOnText
 	waitbutton
 	closetext
-	applyonemovement PLAYER, step_down
-	sjumpfwd MoonflowerIndigoSpeechScript
-
+	applyonemovement PLAYER, fix_facing
+	applyonemovement PLAYER, step_up
+	applyonemovement PLAYER, remove_fixed_facing
+	end
+	
 MoonflowerIndigoSpeechOnRight1:
 	turnobject PLAYER, LEFT
 	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
@@ -867,6 +866,16 @@ MoonflowerBirdKeeperAnythingGoodText:
 MoonflowerTrashCanText1:
 	text "Something in"
 	line "there looks shiny!"
+	done
+
+MoonflowerSpeechGoingOnText:
+	text "There's some kind"
+	line "of speech going"
+	cont "on."
+
+	para "Maybe try"
+	line "listening from"
+	cont "another place?"
 	done
 
 PokeGearGuyWalksToYou_Movement:
