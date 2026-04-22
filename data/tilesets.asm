@@ -55,6 +55,7 @@ Tilesets::
 	tileset TilesetBattleFactory
 	tileset TilesetSnowtopMountain
 	tileset TilesetBar
+	tileset TilesetBlossomCity
 	assert_table_length NUM_TILESETS
 
 
@@ -494,6 +495,14 @@ TilesetBarMeta:: INCBIN "data/tilesets/bar_metatiles.bin.lz"
 TilesetBarAttr:: INCBIN "data/tilesets/bar_attributes.bin.lz"
 TilesetBarColl:: INCBIN "data/tilesets/bar_collision.bin.lz"
 
+SECTION "Tileset Data - blossom city", ROMX
+
+TilesetBlossomCityGFX0:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram0.lz"
+TilesetBlossomCityGFX1:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram1.lz"
+
+TilesetBlossomCityMeta:: INCBIN "data/tilesets/blossom_city_metatiles.bin.lz"
+TilesetBlossomCityAttr:: INCBIN "data/tilesets/blossom_city_attributes.bin.lz"
+TilesetBlossomCityColl:: INCBIN "data/tilesets/blossom_city_collision.bin.lz"
 
 SECTION "Tileset GFX2 Data", ROMX
 
@@ -503,6 +512,8 @@ TilesetJohto5GFX2:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram1.lz"
 TilesetJohto2GFX2:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram1.lz"
 
 TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
+
+TilesetBlossomCityGFX2:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram1.lz"
 
 TilesetJohto4GFX2::
 TilesetBlossom1GFX2::
