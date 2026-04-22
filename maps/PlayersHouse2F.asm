@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, MOONFLOWER_CITY, 5
+	warp_event  7,  0, BLOSSOM_CITY, 1
 
 	def_coord_events
 

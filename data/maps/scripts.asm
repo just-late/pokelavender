@@ -137,6 +137,10 @@ INCLUDE "maps/MarigoldGym.asm"
 INCLUDE "maps/MarigoldCave1F.asm"
 INCLUDE "maps/MarigoldCave2F.asm"
 
+SECTION "Blossom City Scripts", ROMX
+
+INCLUDE "maps/BlossomCity.asm"
+
 SECTION "Sprout Tower Scripts", ROMX
 
 INCLUDE "maps/SproutTower1F.asm"

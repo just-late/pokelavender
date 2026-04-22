@@ -335,6 +335,10 @@ SECTION "OvercastGrove_BlockData", ROMX
 OvercastGrove_BlockData:
 	INCBIN "maps/OvercastGrove.ablk.lz"
 
+SECTION "BlossomCity_BlockData", ROMX
+BlossomCity_BlockData:
+	INCBIN "maps/BlossomCity.ablk.lz"
+
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
 	INCBIN "maps/SproutTower1F.ablk.lz"
