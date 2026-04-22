@@ -4,7 +4,7 @@ LyraPhoneScript:
 	getcurlandmarkname $1
 	readvar VAR_LANDMARK
 	; Special-case too-long landmark names
-	ifnotequal CELADON_UNIVERSITY, .not_celadon_university
+	ifnotequal MARIGOLD_PORT, .not_celadon_university
 	getstring .CeladonUniversity, $1
 	sjumpfwd .got_landmark
 .not_celadon_university

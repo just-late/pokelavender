@@ -212,4 +212,6 @@ SpriteHeaders:
 	overworld_sprite GardeniaSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite ChrisRunSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite KrisRunSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite DittoTilesSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE_DITTO
+	overworld_sprite DittoTiles2SpriteGFX, STANDING_SPRITE, PAL_OW_BLUE_DITTO
 	assert_table_length NUM_OVERWORLD_SPRITES

@@ -16,6 +16,7 @@ Landmarks:
 	landmark  70,  98, OvercastGroveName
 	landmark  68,  92, MarigoldCaveName
 	landmark  68, 108, MarigoldPortName
+	landmark 100, 124, BlossomCityName
 	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
 	landmark 100, 132, GoldenrodHarborName
@@ -104,7 +105,6 @@ Landmarks:
 	landmark 142,  58, LavRadioTowerName
 	landmark 142,  62, SoulHouseName
 	landmark  84,  60, CeladonCityName
-	landmark  82,  62, CeladonUniversityName
 	landmark 108,  60, SaffronCityName
 	landmark 124,  76, Route11Name
 	landmark 140,  76, Route12Name
@@ -158,6 +158,7 @@ GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
 MoonflowerCityName:    rawchar "MOONFLOWER¯CITY@"
 MarigoldCaveName:	   rawchar "MARIGOLD¯CAVE@"
 MarigoldPortName:      rawchar "MARIGOLD¯PORT@"
+BlossomCityName:	   rawchar "BLOSSOM¯CITY"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 OlivineCityName:       rawchar "Olivine¯City@"
 CianwoodCityName:      rawchar "Cianwood¯City@"
@@ -196,7 +197,6 @@ MtMoonName:            rawchar "Mt.Moon@"
 RockTunnelName:        rawchar "Rock Tunnel@"
 LavRadioTowerName:     rawchar "Lav.Radio¯Tower@"
 SoulHouseName:         rawchar "House of¯Souls@"
-CeladonUniversityName: rawchar "Celadon¯University@"
 SafariZoneName:        rawchar "Safari Zone@"
 SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
 PokemonMansionName:    rawchar "Pokémon¯Mansion@"

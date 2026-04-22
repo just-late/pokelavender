@@ -610,3 +610,9 @@ ChrisRunSpriteGFX:: INCBIN "gfx/sprites/chris_run.2bpp.lz"
 
 SECTION "KrisRunSpriteGFX", ROMX
 KrisRunSpriteGFX:: INCBIN "gfx/sprites/kris_run.2bpp.lz"
+
+SECTION "DittoTilesSpriteGFX", ROMX
+DittoTilesSpriteGFX:: INCBIN "gfx/sprites/ditto_tiles.2bpp.lz"
+
+SECTION "DittoTiles2SpriteGFX", ROMX
+DittoTiles2SpriteGFX:: INCBIN "gfx/sprites/ditto_tiles_2.2bpp.lz"

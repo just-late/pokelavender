@@ -13,12 +13,13 @@ BlossomCity_MapScriptHeader:
     def_bg_events
 	bg_event 31, 30, BGEVENT_JUMPTEXT, BlossomCitySignText
 	bg_event 24, 29, BGEVENT_JUMPTEXT, BlossomCityParkSignText
-	bg_event 22, 32, BGEVENT_JUMPTEXT, BlossomCityApartmentSignText
+	bg_event 22, 32, BGEVENT_JUMPTEXT, BlossomCityRadioSignText
 	bg_event 22, 15, BGEVENT_JUMPTEXT, BlossomCitySouvenirShopSignText
 	bg_event 11, 16, BGEVENT_JUMPTEXT, BlossomCityGameCornerSignText
 	bg_event  7,  8, BGEVENT_JUMPTEXT, BlossomCityLabSignText
+	bg_event 24, 11, BGEVENT_JUMPTEXT, BlossomCityDecorSignText
 
-    db 20 ; object events
+    db 26 ; object events
 	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
@@ -31,15 +32,21 @@ BlossomCity_MapScriptHeader:
 ;	person_event SPRITE_SAILOR, 35, 14,
 ;	person_event SPRITE_SAILOR, 40, 12,
 ;	person_event SPRITE_SAILOR, 39, 14,
-	person_event SPRITE_CUTE_GIRL, 15, 23, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_SCRIPT, 0, 0, -1,
-	person_event SPRITE_YOUNGSTER, 14, 23, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, BlossomCityOrderingGuyText, -1,
+	person_event SPRITE_CUTE_GIRL, 15, 23, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_SCRIPT, 0, 0, -1,
+	person_event SPRITE_YOUNGSTER, 14, 23, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptext, BlossomCityOrderingGuyText, -1,
 	person_event SPRITE_RECEPTIONIST, 14, 21, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, -1
-	person_event SPRITE_BUG_CATCHER, 15, 25, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityLineNPC1Text, -1
-	person_event SPRITE_COWGIRL, 15, 24, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityLineNPC2Text, -1,
+	person_event SPRITE_BUG_CATCHER, 15, 25, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityLineNPC1Text, -1
+	person_event SPRITE_COWGIRL, 15, 24, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityLineNPC2Text, -1,
 	person_event SPRITE_CLERK, 13, 21, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityClerkSoldOutText, -1
 	person_event SPRITE_POKEFAN_M, 17, 13, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityCoinCaseGuyText, -1
 	person_event SPRITE_MATRON, 28, 27, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityParkNPCText, -1,
 	pokemon_event 22, 12, WOBBUFFET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, BlossomCityWobbuffetText, -1
+	person_event SPRITE_CLERK,  9, 24, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityDollSellerText, -1
+	object_event 24, 10, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, MAGNEMITE, -1, -1, PAL_NPC_GRAY, PERSONTYPE_COMMAND, jumptext, BlossomCityMagnemiteDollText, -1
+	object_event 12, 14, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
+	object_event 13, 13, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
+	object_event 14, 13, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
+	object_event 12, 13, SPRITE_DITTO_TILES_2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
 
 BlossomCitySignText:
     text "BLOSSOM CITY"
@@ -55,8 +62,9 @@ BlossomCityParkSignText:
     line "PARK"
     done
 
-BlossomCityApartmentSignText:
-    text "BLOSSOM APARTMENTS"
+BlossomCityRadioSignText:
+    text "BLOSSOM RADIO"
+    line "STUDIO"
     done
 
 BlossomCitySouvenirShopSignText:
@@ -155,4 +163,30 @@ BlossomCityParkNPCText:
 
 BlossomCityWobbuffetText:
     text "Wobbu! Wobbu!"
+    done
+
+BlossomCityDecorSignText:
+    text "NOVELTY"
+    line "# DOLLS"
+
+    para "Find our DECOR"
+    line "STORE inside"
+    cont "the DEPARTMENT"
+    cont "STORE!"
+    done
+
+BlossomCityDollSellerText:
+    text "Do you want"
+    line "your own # DOLL"
+    cont "like this?"
+
+    para "Check out our"
+    line "store inside!"
+    done
+
+BlossomCityMagnemiteDollText:
+    text "It's a MAGNEMITE"
+    line "DOLL!"
+
+    para "Cute!"
     done

@@ -93,6 +93,17 @@ TilesetPortAnim::
 
 TilesetBlossomCityAnim::
 	dw vTiles2 tile $7d, AnimateWaterTile
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  StandingTileFrame8
+	dw NULL,  DoneTileAnimation
 
 TilesetGym1Anim::
 	dw NULL,  LavaBubbleAnim2

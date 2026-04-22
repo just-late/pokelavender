@@ -11,6 +11,7 @@
 	const OVERCAST_GROVE     ; 07
 	const MARIGOLD_CAVE      ; 08
 	const MARIGOLD_PORT		 ; 09
+	const BLOSSOM_CITY       ; 10
 DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07
 	const ROUTE_31           ; 05
@@ -99,7 +100,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const LAV_RADIO_TOWER    ; 5f
 	const SOUL_HOUSE         ; 60
 	const CELADON_CITY       ; 61
-	const CELADON_UNIVERSITY ; 62
 	const SAFFRON_CITY       ; 63
 	const ROUTE_11           ; 64
 	const ROUTE_12           ; 65
