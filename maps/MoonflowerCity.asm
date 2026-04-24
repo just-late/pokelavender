@@ -230,6 +230,7 @@ MoonflowerPokeGearGuy_Script:
 	faceplayer
 	opentext
 	writetext MoonflowerPokeGearGuy_Text4
+	waitbutton
 	setflag ENGINE_MAP_CARD
 	writetext ReceivedMapCardText
 	playsound SFX_ITEM
@@ -290,13 +291,38 @@ MoonflowerMeetRivalAfterSpeechScript:
 	writetext MoonflowerRival2Text
 	promptbutton
 	special SpecialNameRival
+	opentext
 	writetext MoonflowerRival3Text
 	waitbutton
 	closetext
-	winlosstext MoonflowerRivalWinLossText, 0
+	winlosstext MoonflowerRivalWinText, MoonflowerRivalLossText
 	loadtrainer RIVAL0, 1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
-	reloadmapafterbattle
+    dontrestartmapmusic
+    reloadmap
+    special DeleteSavedMusic
+    playmusic MUSIC_RIVAL_AFTER
+    iftruefwd .AfterYourDefeat
+    sjumpfwd .AfterVictorious
+	
+.AfterYourDefeat:
+	setevent EVENT_BEAT_RIVAL_IN_MOONFLOWER
+	playmusic MUSIC_RIVAL_AFTER
+	opentext
+	writetext MoonflowerRival5Text
+	waitbutton
+	closetext
+	playsound SFX_TACKLE
+	applyonemovement PLAYER, fix_facing
+	applyonemovement PLAYER, jump_step_right
+	applyonemovement PLAYER, remove_fixed_facing
+	applymovement MOONFLOWER_CITY_RIVAL, MoonflowerCityRivalLeaves_Movement
+	disappear MOONFLOWER_CITY_RIVAL
+	special RestartMapMusic
+	end
+
+.AfterVictorious:
 	setevent EVENT_BEAT_RIVAL_IN_MOONFLOWER
 	playmusic MUSIC_RIVAL_AFTER
 	opentext
@@ -341,7 +367,7 @@ MoonflowerIndigoBossComeJoinUsText:
 	done
 
 MoonflowerIndigoBossAreYouListeningText1:
-	text "???: You people"
+	text "You people"
 	line "over here!"
 
 	para "Are you all"
@@ -365,7 +391,7 @@ MoonflowerIndigoBossAreYouListeningText2:
 	done
 
 MoonflowerIndigoBossIntroText:
-	text "All right."
+	text "???: All right."
 	line "Now, I will begin."
 
 	para "The ATUVA REGION"
@@ -605,7 +631,7 @@ TeamIndigoTrigger4:
 	end
 
 IndigoGruntText:
-	text "Hey! What?!"
+	text "PUNK: Hey! What?!"
 
 	para "What's a kid like"
 	line "you doing here?"
@@ -618,9 +644,10 @@ IndigoGruntText:
 	done
 
 DontMessWithTeamIndigoText:
-	text "That should teach"
-	line "you not to mess"
-	cont "with TEAM INDIGO!"
+	text "PUNK: That should"
+	line "teach you not"
+	cont "to mess with"
+	cont "TEAM INDIGO!"
 	done
 
 MoonflowerPokeGearGuy_Text1:
@@ -768,7 +795,8 @@ MoonflowerCityNPC3Text:
 	cont "spot for 'em!"
 
 	para "That should be so"
-	line "obvious!"
+	line "easy to shut"
+	cont "down!"
 	done
 
 MoonflowerCityNPC4Text:
@@ -965,19 +993,59 @@ MoonflowerRival3Text:
 	cont "BLOSSOM ACADEMY!"
 	done
 
-MoonflowerRivalWinLossText:
+MoonflowerRivalWinText:
 	text "Huh! Are you"
 	line "happy you won?"
 	done
 
 MoonflowerRival4Text:
-	text "<RIVAL>: …Well,"
-	line "maybe you're good"
-	cont "enough."
+	text "…Listen."
+	line "You didn't win"
+	cont "because I'm weak."
 
-	para "Still, you"
-	line "seem like a"
-	cont "wimp to me."
+	para "It's my #MON's"
+	line "fault."
+
+	para "You're nothing but"
+	line "a lucky wimp."
+
+	para "…You don't get"
+	line "what I'm saying?"
+
+	para "Whatever."
+
+	para "Just don't get"
+	line "in my way."
+
+	para "…And don't make"
+	line "me tell you that"
+	cont "twice."
+
+	para "I don't need"
+	line "weaklings."
+	done
+
+MoonflowerRivalLossText:
+	text "I knew you"
+	line "were a wimp."
+	done
+
+MoonflowerRival5Text:
+	text "…I thought so."
+
+	para "I have no idea"
+	line "how you got in"
+	cont "to the ACADEMY."
+
+	para "Last time I"
+	line "checked, they took"
+	cont "in GOOD trainers."
+
+	para "People with"
+	line "talent."
+
+	para "Not weaklings like"
+	line "you."
 
 	para "…You don't get"
 	line "what I'm saying?"

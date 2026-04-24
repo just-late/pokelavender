@@ -5,7 +5,7 @@ Route3_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, Route3FlyPoint
 
 	def_warp_events
-	warp_event  5,  5, ROUTE_3_MOONFLOWER_GATE, 1
+	warp_event  5,  5, ROUTE_3_MOONFLOWER_GATE, 3
 	warp_event 11, 41, ROUTE_3_POKECENTER_1F, 1
 	warp_event  8, 39, MARIGOLD_CAVE_1F, 1
 	warp_event 20,  6, OVERCAST_GROVE, 2

@@ -1380,6 +1380,8 @@ endc
 	db -1 ; end
 
 
+; Rival group (Jax)
+
 SECTION "Rival0Group", ROMX
 Rival0Group:
 
@@ -1387,9 +1389,9 @@ Rival0Group:
 	db "<RIVAL>@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 12, MAREEP
-		db NO_ITEM
 	dbp 13, MUNCHLAX
+		db NO_ITEM
+	dbp 15, LARVITAR
 		db NO_ITEM
 	db -1 ; end
 
@@ -1413,6 +1415,7 @@ Rival0Group:
 		db ORAN_BERRY
 	db -1 ; end
 
+; Rival group (Anabel)
 
 SECTION "Rival1Group", ROMX
 Rival1Group:
@@ -1430,7 +1433,7 @@ Rival1Group:
 	db "ANABEL@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 5, CHARMANDER
+	dbp 5, CYNDAQUIL
 		db NO_ITEM
 	db -1 ; end
 

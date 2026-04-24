@@ -111,8 +111,9 @@ DebugDudeScript:
 	writetext DebugDudeText
 	yesorno
 	iffalsefwd .End
-	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
-	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
+	givepoke SPINARAK, PLAIN_FORM, 1,ORAN_BERRY
+;	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
+;	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
 	givemoney $0, 15000
 	givetmhm HM_ROCK_SMASH
 	setevent EVENT_DOING_BLAZE_QUEST

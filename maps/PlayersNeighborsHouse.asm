@@ -23,14 +23,15 @@ NeighborAdventureScript:
 	faceplayer
 	opentext
 	writetext GrannyAdventureText
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
-	iftruefwd .GotPokemon
-	checkevent EVENT_BEAT_RANCID
-	iftruefwd .GotGymBadge
-	checkevent EVENT_BEAT_MORTY
-	iftruefwd .GotFourBadges
+	waitbutton
 	checkevent EVENT_BEAT_CLAIR
 	iftruefwd .GotEightBadges
+	checkevent EVENT_BEAT_MORTY
+	iftruefwd .GotFourBadges
+	checkevent EVENT_BEAT_RANCID
+	iftruefwd .GotGymBadge
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
+	iftruefwd .GotPokemon
 	waitbutton
 	closetext
 	end
@@ -80,9 +81,10 @@ GrannyAdventureText:
 
 GotFirstPokemonText:
 	text "Wow, you got your"
-	line "#MON! Such a"
+	line "first #MON!"
 	
-	para "big step forward."
+	para "Such a big step"
+	line "forward!"
 	done
 
 GotFirstGymBadgeText:

@@ -291,7 +291,7 @@ FirePokeBallScript:
     writetext ChoseMonText
     promptbutton
     waitsfx
-    givepoke CHARMANDER, PLAIN_FORM, 5, ORAN_BERRY
+    givepoke CYNDAQUIL, PLAIN_FORM, 5, ORAN_BERRY
     setscene $1
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
@@ -326,7 +326,7 @@ FirePokeBallScript:
     end
 
 TakeFireMonText:
-    text "Take CHARMANDER?"
+    text "Take CYNDAQUIL?"
     done
 
 AnabelTakesTotodileText:
@@ -457,7 +457,7 @@ ItsAPokemonText:
 
 AnabelTakesCyndaquilText:
     text "ANABEL: Then I'll"
-    line "take CHARMANDER!"
+    line "take CYNDAQUIL!"
     done
 
 AnabelCutePokemonText:

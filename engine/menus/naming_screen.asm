@@ -117,7 +117,7 @@ NamingScreen:
 
 .Rival:
 	ld hl, RivalSpriteGFX
-	lb bc, BANK(RivalSpriteGFX), SPRITE_ANIM_INDEX_RED_WALK
+	lb bc, BANK(RivalSpriteGFX), SPRITE_ANIM_INDEX_GREEN_WALK
 	call .LoadSprite
 	hlcoord 5, 2
 	ld de, .RivalNameString
@@ -125,7 +125,7 @@ NamingScreen:
 	jmp .StoreSpriteIconParams
 
 .RivalNameString:
-	db "Rival's name?@"
+	db "Boy's name?@"
 
 .TrendyPhrase:
 	ld hl, ArtistSpriteGFX

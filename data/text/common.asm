@@ -3242,6 +3242,7 @@ SECTION "_ElmText2", ROMX
 _ElmText2::
 	text "Here at BLOSSOM"
 	line "ACADEMY we study"
+	cont "magnificent"
 	cont "creatures that we"
 	cont "call #MON.@"
 	text_end
@@ -3265,15 +3266,14 @@ _ElmText5::
 	line "everything about"
 	cont "#MON yet."
 
-	para "There are so many"
-	line "secrets waiting to"
-	cont "be uncovered!"
+	para "That's why you're"
+	line "coming to BLOSSOM"
+	cont "ACADEMY, to study"
+	cont "them."
 
-	para "That's why I study"
-	line "#MON every day."
-	
-	para "Now then, enough"
-	line "about me."
+	para "Now, enough about"
+	line "me. Tell me about"
+	cont "yourself."
 	prompt
 
 SECTION "_ElmText6", ROMX
@@ -3310,7 +3310,7 @@ _WarnVBAText::
 if !DEF(DEBUG)
 	text "Warning!"
 
-	para "This Game Boy"
+	para "This GAME BOY"
 	line "emulator has bugs"
 
 	para "that may crash"
@@ -3340,10 +3340,10 @@ _ClockTimeMayBeWrongText::
 SECTION "_ClockSetWithControlPadText", ROMX
 _ClockSetWithControlPadText::
 	text "Set with the"
-	line "Control Pad."
+	line "CONTROL PAD."
 
-	para "Confirm: A Button"
-	line "Cancel:  B Button"
+	para "CONFIRM: A BUTTON"
+	line "CANCEL:  B BUTTON"
 	done
 
 SECTION "_ClockIsThisOKText", ROMX
