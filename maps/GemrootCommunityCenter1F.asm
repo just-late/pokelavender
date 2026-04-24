@@ -102,7 +102,7 @@ AnabelChallengeTrigger1:
     sjumpfwd AnabelChallengeScript
 
 AnabelChallengeTrigger2:
-    playmusic MUSIC_RIVAL_ENCOUNTER
+    playmusic MUSIC_LYRA_ENCOUNTER_HGSS
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     turnobject PLAYER, LEFT
     showtext AnabelChallengeText
