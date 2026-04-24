@@ -57,6 +57,7 @@ MoonflowerCity_MapScriptHeader:
 	person_event SPRITE_GRANNY, 31, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	person_event SPRITE_GRAMPS, 29, 10, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	person_event SPRITE_ROCKET, 28, 14, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	person_event SPRITE_RIVAL, 28, 10, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_RIVAL_IN_MOONFLOWER
 	person_event SPRITE_GRAMPS, 22, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC1Text, -1
 	person_event SPRITE_CHILD, 10, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC2Text, -1
 	person_event SPRITE_YOUNGSTER, 24, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC3Text, -1
@@ -80,6 +81,7 @@ MoonflowerCity_MapScriptHeader:
 	const MOONFLOWER_SPEECH_BLOCKER_5 ; GRANNY
 	const MOONFLOWER_SPEECH_BLOCKER_6 ; GRAMPS
 	const MOONFLOWER_SPEECH_BLOCKER_7 ; GRUNT
+	const MOONFLOWER_CITY_RIVAL ; RIVAL
 
 MoonflowerCityFlyPoint:
 	setflag ENGINE_FLYPOINT_VIOLET
@@ -115,62 +117,6 @@ PokeGearGuy_SceneScript:
 	setscene $1
 	special RestartMapMusic
 	end
-
-MoonflowerPokeGearGuy_Script:
-	checkevent EVENT_GOT_POKEGEAR_QUESTION1
-	iffalsefwd .FindTheClowns
-	checkevent EVENT_GOT_POKEGEAR_QUESTION2
-	iffalsefwd .FindTheClowns
-	playmusic MUSIC_SHOW_ME_AROUND
-	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
-	faceplayer
-	opentext
-	writetext MoonflowerPokeGearGuy_Text3
-	waitbutton
-	closetext
-	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
-	faceplayer
-	opentext
-	writetext MoonflowerPokeGearGuy_Text4
-	setflag ENGINE_MAP_CARD
-	writetext ReceivedMapCardText
-	playsound SFX_ITEM
-	waitsfx
-	closetext
-	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
-	faceplayer
-	opentext
-	writetext MoonflowerPokeGearGuy_Text5
-	waitbutton
-	closetext
-	readvar VAR_FACING
-	ifequalfwd UP, .Up
-	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearGuyLeaves1_Movement
-	disappear MOONFLOWER_POKEGEAR_GUY
-	disappear MOONFLOWER_POKEGEAR_CLOWN1
-	disappear MOONFLOWER_POKEGEAR_CLOWN2
-	setevent EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
-	end
-
-.Up
-	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearGuyLeaves2_Movement
-	disappear MOONFLOWER_POKEGEAR_GUY
-	disappear MOONFLOWER_POKEGEAR_CLOWN1
-	disappear MOONFLOWER_POKEGEAR_CLOWN2
-	setevent EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
-	end
-
-.FindTheClowns
-	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
-	faceplayer
-	jumpthistext
-
-	text "You must find the"
-	line "#CLOWNS!"
-
-	para "Ask you questions"
-	line "they will!"
-	done
 
 MoonflowerIndigoSpeechOnTop1:
 	opentext
@@ -266,23 +212,105 @@ MoonflowerIndigoSpeechScript:
 	disappear MOONFLOWER_SPEECH_BLOCKER_6
 	special Special_FadeInQuickly
 	special RestartMapMusic
+	sjumpfwd MoonflowerMeetRivalAfterSpeechScript
+
+MoonflowerPokeGearGuy_Script:
+	checkevent EVENT_GOT_POKEGEAR_QUESTION1
+	iffalsefwd .FindTheClowns
+	checkevent EVENT_GOT_POKEGEAR_QUESTION2
+	iffalsefwd .FindTheClowns
+	playmusic MUSIC_SHOW_ME_AROUND
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
+	faceplayer
+	opentext
+	writetext MoonflowerPokeGearGuy_Text3
+	waitbutton
+	closetext
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
+	faceplayer
+	opentext
+	writetext MoonflowerPokeGearGuy_Text4
+	setflag ENGINE_MAP_CARD
+	writetext ReceivedMapCardText
+	playsound SFX_ITEM
+	waitsfx
+	closetext
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
+	faceplayer
+	opentext
+	writetext MoonflowerPokeGearGuy_Text5
+	waitbutton
+	closetext
+	readvar VAR_FACING
+	ifequalfwd UP, .Up
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearGuyLeaves1_Movement
+	disappear MOONFLOWER_POKEGEAR_GUY
+	disappear MOONFLOWER_POKEGEAR_CLOWN1
+	disappear MOONFLOWER_POKEGEAR_CLOWN2
+	setevent EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
+	end
+
+.Up
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearGuyLeaves2_Movement
+	disappear MOONFLOWER_POKEGEAR_GUY
+	disappear MOONFLOWER_POKEGEAR_CLOWN1
+	disappear MOONFLOWER_POKEGEAR_CLOWN2
+	setevent EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
+	end
+
+.FindTheClowns
+	applymovement MOONFLOWER_POKEGEAR_GUY, PokeGearCampaignSpin_Movement
+	faceplayer
 	jumpthistext
 
-.AfterSpeechText:
-	text "………"
+	text "You must find the"
+	line "#CLOWNS!"
 
-	para "What a wierd"
-	line "speech…"
+	para "Ask you questions"
+	line "they will!"
 	done
 
-MoonflowerPokeGearGuy_Text3:
-	text "Aha!"
-
-	para "Those are the"
-	line "TOKENS!"
-
-	para "Let's see here…"
-	done
+MoonflowerMeetRivalAfterSpeechScript:
+	applymovement MOONFLOWER_CITY_RIVAL, MoonflowerCityRivalWalksToYou_Movement
+	turnobject PLAYER, LEFT
+	playmusic MUSIC_RIVAL_ENCOUNTER
+	opentext
+	writetext MoonflowerRival1Text
+	waitbutton
+	closetext
+	turnobject MOONFLOWER_CITY_RIVAL, DOWN
+	pause 15
+	opentext
+	writetext MoonflowerRivalWimpText
+	waitbutton
+	closetext
+	showemote EMOTE_SHOCK, MOONFLOWER_CITY_RIVAL, 15
+	turnobject MOONFLOWER_CITY_RIVAL, RIGHT
+	opentext
+	writetext MoonflowerRival2Text
+	promptbutton
+	special SpecialNameRival
+	writetext MoonflowerRival3Text
+	waitbutton
+	closetext
+	winlosstext MoonflowerRivalWinLossText, 0
+	loadtrainer RIVAL0, 1
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_RIVAL_IN_MOONFLOWER
+	playmusic MUSIC_RIVAL_AFTER
+	opentext
+	writetext MoonflowerRival4Text
+	waitbutton
+	closetext
+	playsound SFX_TACKLE
+	applyonemovement PLAYER, fix_facing
+	applyonemovement PLAYER, jump_step_right
+	applyonemovement PLAYER, remove_fixed_facing
+	applymovement MOONFLOWER_CITY_RIVAL, MoonflowerCityRivalLeaves_Movement
+	disappear MOONFLOWER_CITY_RIVAL
+	special RestartMapMusic
+	end
 
 MoonflowerPokeGearGuy_Text4:
 	text "This is it!"
@@ -878,6 +906,99 @@ MoonflowerSpeechGoingOnText:
 	cont "another place?"
 	done
 
+MoonflowerRival1Text:
+	text "???: Did you"
+	line "hear that guy's"
+	cont "speech?"
+
+	para "I just don't"
+	line "understand it."
+
+	para "What he said"
+	line "about waking the"
+	cont "GUARDIANS…"
+
+	para "Well, I study"
+	line "the ancient"
+	cont "GUARDIANS and…"
+
+	para "The GUARDIANS"
+	line "only awaken when"
+	cont "they sense the"
+	cont "region is in"
+	cont "danger…"
+	done
+
+MoonflowerRivalWimpText:
+	text "…I don't even"
+	line "need to tell you"
+	cont "this."
+
+	para "You look like a"
+	line "wimp to me."
+	done
+
+MoonflowerRival2Text:
+	text "???: What's that?"
+
+	para "You're going to"
+	line "study at BLOSSOM"
+	cont "ACADEMY?"
+
+	para "That's where I"
+	line "study right now."
+	
+	para "I can't believe"
+	line "YOU got in…"
+
+	para "Anyway, my name's…"
+	done
+
+MoonflowerRival3Text:
+	text "<RIVAL>: Still,"
+	line "you look like a"
+	cont "wimp."
+
+	para "Let me see if"
+	line "you're good"
+	cont "enough to go to"
+	cont "BLOSSOM ACADEMY!"
+	done
+
+MoonflowerRivalWinLossText:
+	text "Huh! Are you"
+	line "happy you won?"
+	done
+
+MoonflowerRival4Text:
+	text "<RIVAL>: …Well,"
+	line "maybe you're good"
+	cont "enough."
+
+	para "Still, you"
+	line "seem like a"
+	cont "wimp to me."
+
+	para "…You don't get"
+	line "what I'm saying?"
+
+	para "Whatever."
+
+	para "Just don't get"
+	line "in my way."
+
+	para "…And don't make"
+	line "me tell you that"
+	cont "twice."
+
+	para "I don't need"
+	line "weaklings."
+	done
+
+MoonflowerPokeGearGuy_Text3:
+	text "Aha!"
+	done
+
 PokeGearGuyWalksToYou_Movement:
 	step_up
 	step_up
@@ -983,4 +1104,22 @@ MoonflowerIndigoGruntLeaves_Movement:
 	slow_step_left
 	step_left
 	fast_step_up
+	step_end
+
+MoonflowerCityRivalWalksToYou_Movement:
+	step_right
+	step_right
+	step_down
+	step_right
+	step_right
+	step_end
+
+MoonflowerCityRivalLeaves_Movement:
+	step_left
+	step_down
+	step_down
+	step_left
+	step_down
+	step_down
+	step_down
 	step_end

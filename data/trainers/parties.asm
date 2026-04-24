@@ -1384,17 +1384,17 @@ SECTION "Rival0Group", ROMX
 Rival0Group:
 
 	; RIVAL0
-	db "boy@"
+	db "<RIVAL>@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, RATTATA
+	dbp 12, MAREEP
 		db NO_ITEM
-	dbp 5, TURTWIG
-		db ORAN_BERRY
+	dbp 13, MUNCHLAX
+		db NO_ITEM
 	db -1 ; end
 
 	; RIVAL0
-	db "boy@"
+	db "<RIVAL>@"
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 4, RATTATA
@@ -1404,7 +1404,7 @@ Rival0Group:
 	db -1 ; end
 
 	; RIVAL0
-	db "boy@"
+	db "<RIVAL>@"
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 4, RATTATA

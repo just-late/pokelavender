@@ -82,7 +82,7 @@ SpecialNameRival:
 	jmp InitName
 
 .DefaultRivalName:
-	db "Silver@"
+	db "JAX@"
 
 SpecialTrendyPhrase:
 	ld b, $3 ; trendy phrase
