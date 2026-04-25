@@ -111,14 +111,20 @@ DebugDudeScript:
 	writetext DebugDudeText
 	yesorno
 	iffalsefwd .End
-	givepoke SPINARAK, PLAIN_FORM, 1,ORAN_BERRY
+	playsound SFX_ENTER_DOOR
+	special Special_FadeBlackQuickly
+	writevar VAR_MOVEMENT, PLAYER_TAUROS
+	waitsfx
+	special UpdatePlayerSprite
+	warpfacing DOWN, GEMROOT_TOWN, 27, 20
+;	givepoke SPINARAK, PLAIN_FORM, 1,ORAN_BERRY
 ;	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
 ;	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
-	givemoney $0, 15000
-	givetmhm HM_ROCK_SMASH
-	setevent EVENT_DOING_BLAZE_QUEST
-	setevent EVENT_ALWAYS_SET
-	setmapscene MOONFLOWER_CITY, $2
+;	givemoney $0, 15000
+;	givetmhm HM_ROCK_SMASH
+;	setevent EVENT_DOING_BLAZE_QUEST
+;	setevent EVENT_ALWAYS_SET
+;	setmapscene MOONFLOWER_CITY, $2
 .End:
 	closetext
 	end
@@ -145,5 +151,6 @@ PlayerRadioText4:
 
 DebugDudeText:
 	text "DEBUG DUDE:"
-	line "Want some #MON?"
+	line "Want to ride on"
+	cont "a TAUROS?"
 	done

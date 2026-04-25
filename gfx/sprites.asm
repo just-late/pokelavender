@@ -616,3 +616,6 @@ DittoTilesSpriteGFX:: INCBIN "gfx/sprites/ditto_tiles.2bpp.lz"
 
 SECTION "DittoTiles2SpriteGFX", ROMX
 DittoTiles2SpriteGFX:: INCBIN "gfx/sprites/ditto_tiles_2.2bpp.lz"
+
+SECTION "TaurosOWSpriteGFX", ROMX
+TaurosOWSpriteGFX:: INCBIN "gfx/sprites/tauros.2bpp.lz"

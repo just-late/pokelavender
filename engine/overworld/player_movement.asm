@@ -41,6 +41,8 @@ DoPlayerMovement::
 	jr z, .Surf
 	cp PLAYER_SKATE
 	jr z, .Ice
+	cp PLAYER_TAUROS
+	jr z, .Normal
 
 .Normal:
 	call .CheckForced

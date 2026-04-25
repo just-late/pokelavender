@@ -416,9 +416,11 @@ GetBugCatchingContestMusic:
 
 GetPlayerStateMusic:
 	ld a, [wPlayerState]
+	cp PLAYER_TAUROS
+	ld e, MUSIC_BICYCLE_XY
+	ret z
 	cp PLAYER_SURF_PIKA
 	ld e, MUSIC_SURFING_PIKACHU
-	ret z
 	cp PLAYER_SURF
 	jmp nz, GetMapMusic
 	call RegionCheck
