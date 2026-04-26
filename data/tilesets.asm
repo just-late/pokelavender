@@ -14,8 +14,7 @@ Tilesets::
 	tileset TilesetJohto3
 	tileset TilesetJohto4
 	tileset TilesetJohto5
-	tileset TilesetBlossom1
-	tileset TilesetBlossom2
+	tileset TilesetMountain
 	tileset TilesetShamouti
 	tileset TilesetValencia
 	tileset TilesetFaraway
@@ -97,21 +96,14 @@ TilesetJohto5Attr:: INCBIN "data/tilesets/ecruteak_shrine_attributes.bin.lz"
 TilesetJohto5Coll:: INCBIN "data/tilesets/ecruteak_shrine_collision.bin.lz"
 
 
-SECTION "Tileset Data - kanto (2)", ROMX
+SECTION "Tileset Data - mountain", ROMX
 
-TilesetBlossom1GFX0::
-TilesetBlossom2GFX0:: INCBIN "gfx/tilesets/mainland.2bpp.lz"
-TilesetBlossom1GFX1:: INCBIN "gfx/tilesets/blossom.mainland.2bpp.lz"
+TilesetMountainGFX0:: INCBIN "gfx/tilesets/mountain.2bpp.lz"
+TilesetMountainGFX1:: INCBIN "gfx/tilesets/mountain.2bpp.vram0.lz"
 
-TilesetBlossom2GFX1:: INCBIN "gfx/tilesets/indigo_plateau.mainland.2bpp.lz"
-
-TilesetBlossom1Meta:: INCBIN "data/tilesets/blossom_metatiles.bin.lz"
-TilesetBlossom1Attr:: INCBIN "data/tilesets/blossom_attributes.bin.lz"
-TilesetBlossom1Coll:: INCBIN "data/tilesets/blossom_collision.bin.lz"
-
-TilesetBlossom2Meta:: INCBIN "data/tilesets/indigo_plateau_metatiles.bin.lz"
-TilesetBlossom2Attr:: INCBIN "data/tilesets/indigo_plateau_attributes.bin.lz"
-TilesetBlossom2Coll:: INCBIN "data/tilesets/indigo_plateau_collision.bin.lz"
+TilesetMountainMeta:: INCBIN "data/tilesets/mountain_metatiles.bin.lz"
+TilesetMountainAttr:: INCBIN "data/tilesets/mountain_attributes.bin.lz"
+TilesetMountainColl:: INCBIN "data/tilesets/mountain_collision.bin.lz"
 
 
 SECTION "Tileset Data - shamouti_island", ROMX
@@ -497,8 +489,8 @@ TilesetBarColl:: INCBIN "data/tilesets/bar_collision.bin.lz"
 
 SECTION "Tileset Data - blossom city", ROMX
 
-TilesetBlossomCityGFX0:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram0.lz"
-TilesetBlossomCityGFX1:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram1.lz"
+TilesetBlossomCityGFX0:: INCBIN "gfx/tilesets/blossom_city.2bpp.lz"
+TilesetBlossomCityGFX1:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram0.lz"
 
 TilesetBlossomCityMeta:: INCBIN "data/tilesets/blossom_city_metatiles.bin.lz"
 TilesetBlossomCityAttr:: INCBIN "data/tilesets/blossom_city_attributes.bin.lz"
@@ -514,6 +506,8 @@ TilesetJohto2GFX2:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram1.lz"
 TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
 
 TilesetBlossomCityGFX2:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram1.lz"
+
+TilesetMountainGFX2:: INCBIN "gfx/tilesets/mountain.2bpp.vram1.lz"
 
 TilesetJohto4GFX2::
 TilesetBlossom1GFX2::

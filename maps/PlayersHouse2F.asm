@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, MOONFLOWER_CITY, 1
+	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
 
 	def_coord_events
 
@@ -114,7 +114,6 @@ DebugDudeScript:
 	playsound SFX_ENTER_DOOR
 	special Special_FadeBlackQuickly
 	writevar VAR_MOVEMENT, PLAYER_TAUROS
-	waitsfx
 	special UpdatePlayerSprite
 	warpfacing DOWN, GEMROOT_TOWN, 27, 20
 ;	givepoke SPINARAK, PLAIN_FORM, 1,ORAN_BERRY
