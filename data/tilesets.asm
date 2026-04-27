@@ -48,7 +48,6 @@ Tilesets::
 	tileset TilesetTunnel
 	tileset TilesetForest
 	tileset TilesetPark
-	tileset TilesetSafari
 	tileset TilesetRuins
 	tileset TilesetAlph
 	tileset TilesetPokemonMansion
@@ -91,17 +90,6 @@ TilesetJohto4Attr:: INCBIN "data/tilesets/battle_tower_outside_attributes.bin.lz
 TilesetJohto4Coll:: INCBIN "data/tilesets/battle_tower_outside_collision.bin.lz"
 
 
-SECTION "Tileset Data - mountain (1)", ROMX
-
-TilesetMountainGFX0:: INCBIN "gfx/tilesets/mountain.2bpp.lz"
-
-TilesetMountainGFX1:: INCBIN "gfx/tilesets/mountain.2bpp.vram0.lz"
-
-TilesetMountainMeta:: INCBIN "data/tilesets/mountain_metatiles.bin.lz" 
-TilesetMountainAttr:: INCBIN "data/tilesets/mountain_attributes.bin.lz"
-TilesetMountainColl:: INCBIN "data/tilesets/mountain_collision.bin.lz"
-
-
 SECTION "Tileset Data - kanto (2)", ROMX
 
 TilesetBlossom1GFX0::
@@ -127,6 +115,17 @@ TilesetShamoutiGFX1:: INCBIN "gfx/tilesets/shamouti_island.2bpp.vram1.lz"
 TilesetShamoutiMeta:: INCBIN "data/tilesets/shamouti_island_metatiles.bin.lz"
 TilesetShamoutiAttr:: INCBIN "data/tilesets/shamouti_island_attributes.bin.lz"
 TilesetShamoutiColl:: INCBIN "data/tilesets/shamouti_island_collision.bin.lz"
+
+	
+SECTION "Tileset Data - mountain", ROMX
+
+TilesetMountainGFX0:: INCBIN "gfx/tilesets/mountain.2bpp.vram0.lz"
+
+TilesetMountainGFX1:: INCBIN "gfx/tilesets/mountain.2bpp.vram1.lz"
+
+TilesetMountainMeta:: INCBIN "data/tilesets/mountain_metatiles.bin.lz" 
+TilesetMountainAttr:: INCBIN "data/tilesets/mountain_attributes.bin.lz"
+TilesetMountainColl:: INCBIN "data/tilesets/mountain_collision.bin.lz"
 
 
 SECTION "Tileset Data - valencia_island", ROMX
@@ -435,16 +434,6 @@ TilesetParkAttr:: INCBIN "data/tilesets/park_attributes.bin.lz"
 TilesetParkColl:: INCBIN "data/tilesets/park_collision.bin.lz"
 
 
-SECTION "Tileset Data - safari_zone", ROMX
-
-TilesetSafariGFX0:: INCBIN "gfx/tilesets/safari_zone.2bpp.vram0.lz"
-TilesetSafariGFX1:: INCBIN "gfx/tilesets/safari_zone.2bpp.vram1.lz"
-
-TilesetSafariMeta:: INCBIN "data/tilesets/safari_zone_metatiles.bin.lz"
-TilesetSafariAttr:: INCBIN "data/tilesets/safari_zone_attributes.bin.lz"
-TilesetSafariColl:: INCBIN "data/tilesets/safari_zone_collision.bin.lz"
-
-
 SECTION "Tileset Data - ruins_of_alph and alph_word_room", ROMX
 
 TilesetRuinsGFX0::
@@ -520,8 +509,7 @@ TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
 
 TilesetBlossomCityGFX2:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram1.lz"
 
-TilesetMountainGFX2:: INCBIN "gfx/tilesets/mountain.2bpp.vram1.lz"
-
+TilesetMountainGFX2::
 TilesetJohto4GFX2::
 TilesetBlossom1GFX2::
 TilesetBlossom2GFX2::

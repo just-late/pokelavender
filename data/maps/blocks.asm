@@ -331,6 +331,10 @@ SECTION "BlossomCity_BlockData", ROMX
 BlossomCity_BlockData:
 	INCBIN "maps/BlossomCity.ablk.lz"
 
+SECTION "GraniteVillage_BlockData", ROMX
+GraniteVillage_BlockData:
+	INCBIN "maps/GraniteVillage.ablk.lz"
+
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
 	INCBIN "maps/SproutTower1F.ablk.lz"

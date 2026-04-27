@@ -196,12 +196,13 @@ ENDM
 	map_const ROUTE_19_BEACH_HOUSE,                        4,  4 ; 22
 
 	newgroup                                                     ;  7
-	map_const ROUTE_10_POKECENTER_1F,                      6,  4 ;  8
-	map_const POWER_PLANT,                                10,  9 ; 10
-	map_const BILLS_HOUSE,                                 4,  4 ; 11
-	map_const ROUTE_4,                                    33, 10 ; 12
-	map_const ROUTE_24,                                   14, 20 ; 13
-	map_const ROUTE_25,                                   17, 21 ; 14
+	map_const GRANITE_VILLAGE,							  24, 14 ;  1
+	map_const ROUTE_10_POKECENTER_1F,                      6,  4 ;  2
+	map_const POWER_PLANT,                                10,  9 ;  3
+	map_const BILLS_HOUSE,                                 4,  4 ;  4
+	map_const ROUTE_4,                                    33, 10 ;  5
+	map_const ROUTE_24,                                   14, 20 ;  6
+	map_const ROUTE_25,                                   17, 21 ;  7
 
 	newgroup                                                     ;  8
 	map_const BLOSSOM_CITY,								  20, 24 ;  1

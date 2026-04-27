@@ -17,6 +17,8 @@ Landmarks:
 	landmark  68,  92, MarigoldCaveName
 	landmark  68, 108, MarigoldPortName
 	landmark 100, 124, BlossomCityName
+	landmark 124,  68, MountainPassName
+	landmark 116,  52, GraniteVillageName
 	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
 	landmark 100, 132, GoldenrodHarborName
@@ -156,6 +158,7 @@ MoonflowerCityName:    rawchar "MOONFLOWER¯CITY@"
 MarigoldCaveName:	   rawchar "MARIGOLD¯CAVE@"
 MarigoldPortName:      rawchar "MARIGOLD¯PORT@"
 BlossomCityName:	   rawchar "BLOSSOM¯CITY"
+GraniteVillageName:	   rawchar "GRANITE¯VILLAGE"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 OlivineCityName:       rawchar "Olivine¯City@"
 CianwoodCityName:      rawchar "Cianwood¯City@"
@@ -168,6 +171,7 @@ RuinsOfAlphName:       rawchar "Ruins¯of Alph@"
 UnionCaveName:         rawchar "Union Cave@"
 SlowpokeWellName:      rawchar "Slowpoke¯Well@"
 RadioTowerName:        rawchar "TERRARIUM@"
+MountainPassName:	   rawchar "MOUNTAIN¯PASS"
 PowerPlantName:        rawchar "Power Plant@"
 NationalParkName:      rawchar "National¯Park@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"

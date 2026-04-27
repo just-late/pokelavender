@@ -9,7 +9,7 @@ MapGroupRoofs:
 	db ROOF_VIOLET   ; 4 (Ecruteak City)
 	db ROOF_AZALEA   ; 5 (Blackthorn City)
 	db -1            ; 6
-	db -1            ; 7
+	db ROOF_AZALEA   ; 7 (Granite Village)
 	db ROOF_AZALEA   ; 8 (Azalea Town)
 	db ROOF_AZALEA   ; 9 (Lake of Rage)
 	db ROOF_VIOLET   ; 10 (Moonflower City)

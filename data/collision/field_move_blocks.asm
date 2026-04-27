@@ -7,7 +7,6 @@ CutGrassBlockPointers:
 	dbw TILESET_INDIGO_PLATEAU, .indigo_plateau
 	dbw TILESET_PARK, .park
 	dbw TILESET_FOREST, .forest
-	dbw TILESET_SAFARI_ZONE, .safari_zone
 	dbw TILESET_SHAMOUTI_ISLAND, .shamouti_island
 	dbw TILESET_VALENCIA_ISLAND, .valencia_island
 	dbw TILESET_FARAWAY_ISLAND, .faraway_island
@@ -52,24 +51,6 @@ CutGrassBlockPointers:
 	db $3b, $37
 	db $4b, $47
 	db $57, $0b
-	db -1
-
-.safari_zone
-	db $03, $01
-	db $07, $03
-	db $24, $20
-	db $25, $21
-	db $26, $22
-	db $27, $23
-	db $28, $0a
-	db $29, $0a
-	db $2a, $0a
-	db $2b, $0a
-	db $2c, $28
-	db $2d, $29
-	db $2e, $2a
-	db $2f, $2b
-	db $4b, $27
 	db -1
 
 .faraway_island

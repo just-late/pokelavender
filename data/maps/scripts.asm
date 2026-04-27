@@ -140,6 +140,10 @@ SECTION "Blossom City Scripts", ROMX
 
 INCLUDE "maps/BlossomCity.asm"
 
+SECTION "Granite Village Scripts", ROMX
+
+INCLUDE "maps/GraniteVillage.asm"
+
 SECTION "Sprout Tower Scripts", ROMX
 
 INCLUDE "maps/SproutTower1F.asm"

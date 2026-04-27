@@ -12,6 +12,8 @@
 	const MARIGOLD_CAVE      ; 08
 	const MARIGOLD_PORT		 ; 09
 	const BLOSSOM_CITY       ; 10
+	const MOUNTAIN_PASS      ; 11
+	const GRANITE_VILLAGE    ; 12
 DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07
 	const ROUTE_31           ; 05

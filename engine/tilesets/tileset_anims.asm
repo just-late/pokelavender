@@ -33,7 +33,6 @@ TilesetGemrootAnim::
 TilesetJohto2Anim::
 TilesetJohto3Anim::
 TilesetJohto4Anim::
-TilesetMountainAnim::
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw vTiles2 tile $1c, AnimateRainPuddleTile
 	dw vTiles2 tile $1d, AnimateRainWaterTile
@@ -55,6 +54,20 @@ TilesetMountainAnim::
 	dw wTileAnimBuffer, ScrollTileDown
 	dw NULL,  DoNothing
 	dw vTiles2 tile $35, ReadTileFromBuffer
+	dw NULL,  DoneTileAnimation
+
+TilesetMountainAnim::
+	dw vTiles2 tile $14, AnimateWaterTile
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 TilesetBlossom1Anim::
@@ -217,19 +230,6 @@ TilesetForestAnim::
 	dw wTileAnimBuffer, ScrollTileDown
 	dw NULL,  DoNothing
 	dw vTiles2 tile $40, ReadTileFromBuffer
-	dw NULL,  DoneTileAnimation
-
-TilesetSafariAnim::
-	dw vTiles2 tile $14, AnimateKantoWaterTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  AnimateKantoFlowerTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 TilesetFarawayAnim::
