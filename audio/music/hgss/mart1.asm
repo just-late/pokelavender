@@ -9,8 +9,8 @@ Music_mart_Ch1:
 	volume 7, 7
 	octave 5
 	note_type 6, 15, 8
-	tempo 256
 	duty_cycle 2
+	tempo 240
 	note C_, 1
 	note E_, 1
 	note F_, 1

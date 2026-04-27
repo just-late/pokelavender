@@ -6,7 +6,6 @@
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 	const TILESET_MOUNTAIN      ; 05
 DEF NO_ROOF_TILESETS EQU const_value
-	const TILESET_BLOSSOM                ; 06
 	const TILESET_INDIGO_PLATEAU       ; 07
 	const TILESET_SHAMOUTI_ISLAND      ; 08
 	const TILESET_VALENCIA_ISLAND      ; 09
@@ -48,7 +47,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_SNOWTOP_MOUNTAIN     ; 2d
 	const TILESET_BAR                  ; 2e
 	const TILESET_BLOSSOM_CITY         ; 2f
-DEF NUM_TILESETS EQU const_value - 1
+DEF NUM_TILESETS EQU const_value - 2
 
 ; wTileset struct size
 DEF TILESET_LENGTH EQU 15
