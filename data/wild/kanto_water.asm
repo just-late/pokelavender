@@ -168,13 +168,6 @@
 	wildmon  55, POLIWHIRL
 	end_water_wildmons
 
-	def_water_wildmons CERULEAN_CITY
-	db 4 percent ; encounter rate
-	wildmon  55, GOLDEEN
-	wildmon  50, GOLDEEN
-	wildmon  55, SEAKING
-	end_water_wildmons
-
 	def_water_wildmons VERMILION_CITY
 	db 6 percent ; encounter rate
 	wildmon  45, TENTACOOL
@@ -201,13 +194,6 @@
 	wildmon  55, TENTACOOL
 	wildmon  50, TENTACOOL
 	wildmon  55, TENTACRUEL
-	end_water_wildmons
-
-	def_water_wildmons CERULEAN_CAPE
-	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
-	wildmon  52, POLIWHIRL
-	wildmon  54, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons URAGA_CHANNEL_EAST
@@ -243,20 +229,6 @@
 	wildmon  54, TENTACOOL
 	wildmon  56, TENTACOOL
 	wildmon  58, TENTACRUEL
-	end_water_wildmons
-
-	def_water_wildmons CERULEAN_CAVE_1F
-	db 6 percent ; encounter rate
-	wildmon  60, SLOWBRO
-	wildmon  63, GOLDUCK
-	wildmon  66, GYARADOS
-	end_water_wildmons
-
-	def_water_wildmons CERULEAN_CAVE_B1F
-	db 6 percent ; encounter rate
-	wildmon  60, SLOWKING
-	wildmon  63, GOLDUCK
-	wildmon  66, GYARADOS
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_HUB

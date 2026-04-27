@@ -13,7 +13,7 @@ Tilesets::
 	tileset TilesetJohto2
 	tileset TilesetJohto3
 	tileset TilesetJohto4
-	tileset TilesetJohto5
+	tileset TilesetMountain
 	tileset TilesetBlossom1
 	tileset TilesetBlossom2
 	tileset TilesetShamouti
@@ -59,16 +59,14 @@ Tilesets::
 	assert_table_length NUM_TILESETS
 
 
-SECTION "Tileset Data - johto (5)", ROMX
+SECTION "Tileset Data - johto (4)", ROMX
 
 TilesetGemrootGFX0::
 TilesetJohto2GFX0::
 TilesetJohto3GFX0::
-TilesetJohto4GFX0::
-TilesetJohto5GFX0:: INCBIN "gfx/tilesets/atuva.2bpp.lz"
+TilesetJohto4GFX0:: INCBIN "gfx/tilesets/atuva.2bpp.lz"
 
-TilesetGemrootGFX1::
-TilesetJohto5GFX1:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram0.lz"
+TilesetGemrootGFX1:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram0.lz"
 
 TilesetJohto2GFX1:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram0.lz"
 
@@ -92,9 +90,16 @@ TilesetJohto4Meta:: INCBIN "data/tilesets/battle_tower_outside_metatiles.bin.lz"
 TilesetJohto4Attr:: INCBIN "data/tilesets/battle_tower_outside_attributes.bin.lz"
 TilesetJohto4Coll:: INCBIN "data/tilesets/battle_tower_outside_collision.bin.lz"
 
-TilesetJohto5Meta:: INCBIN "data/tilesets/ecruteak_shrine_metatiles.bin.lz" 
-TilesetJohto5Attr:: INCBIN "data/tilesets/ecruteak_shrine_attributes.bin.lz"
-TilesetJohto5Coll:: INCBIN "data/tilesets/ecruteak_shrine_collision.bin.lz"
+
+SECTION "Tileset Data - mountain (1)", ROMX
+
+TilesetMountainGFX0:: INCBIN "gfx/tilesets/mountain.2bpp.lz"
+
+TilesetMountainGFX1:: INCBIN "gfx/tilesets/mountain.2bpp.vram0.lz"
+
+TilesetMountainMeta:: INCBIN "data/tilesets/mountain_metatiles.bin.lz" 
+TilesetMountainAttr:: INCBIN "data/tilesets/mountain_attributes.bin.lz"
+TilesetMountainColl:: INCBIN "data/tilesets/mountain_collision.bin.lz"
 
 
 SECTION "Tileset Data - kanto (2)", ROMX
@@ -504,16 +509,18 @@ TilesetBlossomCityMeta:: INCBIN "data/tilesets/blossom_city_metatiles.bin.lz"
 TilesetBlossomCityAttr:: INCBIN "data/tilesets/blossom_city_attributes.bin.lz"
 TilesetBlossomCityColl:: INCBIN "data/tilesets/blossom_city_collision.bin.lz"
 
+
 SECTION "Tileset GFX2 Data", ROMX
 
-TilesetGemrootGFX2::
-TilesetJohto5GFX2:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram1.lz"
+TilesetGemrootGFX2:: INCBIN "gfx/tilesets/gemroot.atuva.2bpp.vram1.lz"
 
 TilesetJohto2GFX2:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram1.lz"
 
 TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
 
 TilesetBlossomCityGFX2:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram1.lz"
+
+TilesetMountainGFX2:: INCBIN "gfx/tilesets/mountain.2bpp.vram1.lz"
 
 TilesetJohto4GFX2::
 TilesetBlossom1GFX2::

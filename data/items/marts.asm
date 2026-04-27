@@ -23,7 +23,6 @@ Marts:
 	dw ViridianMart
 	dw PewterMart
 	dw MtMoonMart
-	dw CeruleanMart
 	dw LavenderMart
 	dw VermilionMart
 	dw Celadon2FMart1
@@ -320,20 +319,6 @@ MtMoonMart:
 	db SUPER_REPEL
 	db MIRAGE_MAIL
 	db PORTRAITMAIL
-	db -1
-
-CeruleanMart:
-	db 10 ; # items
-	db GREAT_BALL
-	db ULTRA_BALL
-	db DIVE_BALL
-	db SUPER_POTION
-	db SUPER_REPEL
-	db FULL_HEAL
-	db X_DEFEND
-	db X_ATTACK
-	db DIRE_HIT
-	db SURF_MAIL
 	db -1
 
 LavenderMart:

@@ -84,11 +84,8 @@ Landmarks:
 	landmark  64,  44, Route3Name
 	landmark  76,  44, MtMoonName
 	landmark  92,  44, Route4Name
-	landmark 108,  44, CeruleanCityName
-	landmark 100,  36, CeruleanCaveName
 	landmark 108,  36, Route24Name
 	landmark 124,  28, Route25Name
-	landmark 140,  28, CeruleanCapeName
 	landmark 108,  52, Route5Name
 	landmark 114,  66, UndergroundName
 	landmark 108,  68, Route6Name
@@ -183,7 +180,6 @@ IcePathName:           rawchar "Ice Path@"
 PalletTownName:        rawchar "Pallet Town@"
 ViridianCityName:      rawchar "Viridian¯City@"
 PewterCityName:        rawchar "Pewter City@"
-CeruleanCityName:      rawchar "Cerulean¯City@"
 LavenderTownName:      rawchar "Lavender¯Town@"
 VermilionCityName:     rawchar "Vermilion¯City@"
 CeladonCityName:       rawchar "Celadon¯City@"
@@ -201,8 +197,6 @@ SafariZoneName:        rawchar "Safari Zone@"
 SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
 PokemonMansionName:    rawchar "Pokémon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"
-CeruleanCaveName:      rawchar "Cerulean¯Cave@"
-CeruleanCapeName:      rawchar "Cerulean¯Cape@"
 LuckyIslandName:       rawchar "Lucky¯Island@"
 Route1Name:            rawchar "ROUTE 1@"
 Route2Name:            rawchar "ROUTE 2@"

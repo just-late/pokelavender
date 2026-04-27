@@ -294,36 +294,22 @@ ENDM
 	connection west, Route7, ROUTE_7, 6
 	connection east, Route8, ROUTE_8, 4
 
-	map_attributes Route5, ROUTE_5, $f, NORTH | SOUTH
-	connection north, CeruleanCity, CERULEAN_CITY, -5
+	map_attributes Route5, ROUTE_5, $f, SOUTH
 	connection south, SaffronCity, SAFFRON_CITY, -5
 
-	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | SOUTH | WEST | EAST
-	connection north, Route24, ROUTE_24, 0
-	connection south, Route5, ROUTE_5, 5
-	connection west, Route4, ROUTE_4, 2
-	connection east, Route9, ROUTE_9, 4
-
-	map_attributes Route24, ROUTE_24, $2c, SOUTH | EAST
-	connection south, CeruleanCity, CERULEAN_CITY, 0
+	map_attributes Route24, ROUTE_24, $2c, EAST
 	connection east, Route25, ROUTE_25, 0
 
-	map_attributes Route25, ROUTE_25, $2c, WEST | EAST
+	map_attributes Route25, ROUTE_25, $2c, WEST
 	connection west, Route24, ROUTE_24, 0
-	connection east, CeruleanCape, CERULEAN_CAPE, 0
 
-	map_attributes CeruleanCape, CERULEAN_CAPE, $2c, WEST
-	connection west, Route25, ROUTE_25, 0
-
-	map_attributes Route4, ROUTE_4, $2c, EAST
-	connection east, CeruleanCity, CERULEAN_CITY, -2
+	map_attributes Route4, ROUTE_4, $2c, 0
 
 	map_attributes Route8, ROUTE_8, $2c, WEST | EAST
 	connection west, SaffronCity, SAFFRON_CITY, -4
 	connection east, LavenderTown, LAVENDER_TOWN, 0
 
-	map_attributes Route9, ROUTE_9, $2c, WEST | EAST
-	connection west, CeruleanCity, CERULEAN_CITY, -4
+	map_attributes Route9, ROUTE_9, $2c, EAST
 	connection east, Route10North, ROUTE_10_NORTH, -6
 
 	map_attributes Route10North, ROUTE_10_NORTH, $2c, SOUTH | WEST
@@ -547,16 +533,6 @@ ENDM
 	map_attributes SeafoamIslandsB2F, SEAFOAM_ISLANDS_B2F, $9, 0
 	map_attributes SeafoamIslandsB3F, SEAFOAM_ISLANDS_B3F, $9, 0
 	map_attributes SeafoamIslandsB4F, SEAFOAM_ISLANDS_B4F, $9, 0
-	map_attributes CeruleanGymBadgeSpeechHouse, CERULEAN_GYM_BADGE_SPEECH_HOUSE, $0, 0
-	map_attributes CeruleanPoliceStation, CERULEAN_POLICE_STATION, $0, 0
-	map_attributes CeruleanTradeSpeechHouse, CERULEAN_TRADE_SPEECH_HOUSE, $0, 0
-	map_attributes CeruleanPokeCenter1F, CERULEAN_POKECENTER_1F, $0, 0
-	map_attributes CeruleanGym, CERULEAN_GYM, $0, 0
-	map_attributes CeruleanMart, CERULEAN_MART, $0, 0
-	map_attributes CeruleanBikeShop, CERULEAN_BIKE_SHOP, $0, 0
-	map_attributes CeruleanBerryPowderHouse, CERULEAN_BERRY_POWDER_HOUSE, $0, 0
-	map_attributes CeruleanCoupleHouse, CERULEAN_COUPLE_HOUSE, $0, 0
-	map_attributes CeruleanWaterShowSpeechHouse, CERULEAN_WATER_SHOW_SPEECH_HOUSE, $0, 0
 	map_attributes Route3PokeCenter1F, ROUTE_3_POKECENTER_1F, $0, 0
 	map_attributes Route10PokeCenter1F, ROUTE_10_POKECENTER_1F, $0, 0
 	map_attributes PowerPlant, POWER_PLANT, $0, 0
@@ -833,9 +809,6 @@ ENDM
 	map_attributes ViridianForestViridianGate, VIRIDIAN_FOREST_VIRIDIAN_GATE, $0, 0
 	map_attributes ViridianForestPewterGate, VIRIDIAN_FOREST_PEWTER_GATE, $0, 0
 	map_attributes Route1ViridianGate, ROUTE_1_VIRIDIAN_GATE, $0, 0
-	map_attributes CeruleanCave1F, CERULEAN_CAVE_1F, $9, 0
-	map_attributes CeruleanCave2F, CERULEAN_CAVE_2F, $9, 0
-	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $9, 0
 	map_attributes Route39RuggedRoadGate, ROUTE_39_RUGGED_ROAD_GATE, $0, 0
 	map_attributes SnowtopMountainInside, SNOWTOP_MOUNTAIN_INSIDE, $d5, 0
 	map_attributes SnowtopMountainOutside, SNOWTOP_MOUNTAIN_OUTSIDE, $0, 0

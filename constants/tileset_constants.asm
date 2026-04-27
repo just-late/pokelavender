@@ -4,7 +4,7 @@
 	const TILESET_MOONFLOWER         ; 02
 	const TILESET_JOHTO_OVERCAST       ; 03
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
-	const TILESET_ECRUTEAK_SHRINE      ; 05
+	const TILESET_MOUNTAIN      ; 05
 DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_BLOSSOM                ; 06
 	const TILESET_INDIGO_PLATEAU       ; 07

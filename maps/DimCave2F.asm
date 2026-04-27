@@ -5,7 +5,6 @@ DimCave2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, DimCave2FBouldersLand
 
 	def_warp_events
-	warp_event 15,  1, CERULEAN_CAPE, 2
 	warp_event 29,  5, DIM_CAVE_3F, 4
 	warp_event 27, 25, DIM_CAVE_3F, 5
 	warp_event 14, 20, DIM_CAVE_3F, 6 ; hole

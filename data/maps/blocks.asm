@@ -20,7 +20,6 @@ PokeCenter2F_BlockData:
 
 ViridianPokeCenter1F_BlockData:
 PewterPokeCenter1F_BlockData:
-CeruleanPokeCenter1F_BlockData:
 VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
 LavenderPokeCenter1F_BlockData:
@@ -40,7 +39,6 @@ OlivineMart_BlockData:
 BlackthornMart_BlockData:
 ViridianMart_BlockData:
 PewterMart_BlockData:
-CeruleanMart_BlockData:
 VermilionMart_BlockData:
 LavenderMart_BlockData:
 SaffronMart_BlockData:
@@ -119,9 +117,6 @@ GoldenrodHappinessRater_BlockData:
 GoldenrodPPSpeechHouse_BlockData:
 GoldenrodHoneyHouse_BlockData:
 GuideGentsHouse_BlockData:
-CeruleanGymBadgeSpeechHouse_BlockData:
-CeruleanTradeSpeechHouse_BlockData:
-CeruleanCoupleHouse_BlockData:
 FuchsiaBillSpeechHouse_BlockData:
 FuchsiaSafariBallHouse_BlockData:
 SaffronRichSpeechHouse_BlockData:
@@ -164,10 +159,7 @@ MarigoldNPCHouse1_BlockData:
 MarigoldNPCHouse2_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
 
-SECTION "CeruleanPoliceStation_BlockData", ROMX
-CeruleanPoliceStation_BlockData:
-CeruleanBerryPowderHouse_BlockData:
-CeruleanWaterShowSpeechHouse_BlockData:
+SECTION "CeladonMansionRoofHouse_BlockData", ROMX
 CeladonMansionRoofHouse_BlockData:
 VermilionHouseFishingSpeechHouse_BlockData:
 VermilionPollutionSpeechHouse_BlockData:
@@ -1068,34 +1060,6 @@ MountMoonB2F_BlockData:
 SECTION "MountMoonSquare_BlockData", ROMX
 MountMoonSquare_BlockData:
 	INCBIN "maps/MountMoonSquare.ablk.lz"
-
-SECTION "CeruleanGym_BlockData", ROMX
-CeruleanGym_BlockData:
-	INCBIN "maps/CeruleanGym.ablk.lz"
-
-SECTION "CeruleanCity_BlockData", ROMX
-CeruleanCity_BlockData:
-	INCBIN "maps/CeruleanCity.ablk.lz"
-
-SECTION "CeruleanBikeShop_BlockData", ROMX
-CeruleanBikeShop_BlockData:
-	INCBIN "maps/CeruleanBikeShop.ablk.lz"
-
-SECTION "CeruleanCave1F_BlockData", ROMX
-CeruleanCave1F_BlockData:
-	INCBIN "maps/CeruleanCave1F.ablk.lz"
-
-SECTION "CeruleanCave2F_BlockData", ROMX
-CeruleanCave2F_BlockData:
-	INCBIN "maps/CeruleanCave2F.ablk.lz"
-
-SECTION "CeruleanCaveB1F_BlockData", ROMX
-CeruleanCaveB1F_BlockData:
-	INCBIN "maps/CeruleanCaveB1F.ablk.lz"
-
-SECTION "CeruleanCape_BlockData", ROMX
-CeruleanCape_BlockData:
-	INCBIN "maps/CeruleanCape.ablk.lz"
 
 SECTION "BillsHouse_BlockData", ROMX
 BillsHouse_BlockData:

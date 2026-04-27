@@ -19,9 +19,6 @@ MapScenes::
 	scene_var BRUNOS_ROOM,                            wBrunosRoomSceneID
 	scene_var BURNED_TOWER_1F,                        wBurnedTower1FSceneID
 	scene_var BURNED_TOWER_B1F,                       wBurnedTowerB1FSceneID
-	scene_var CERULEAN_CAPE,                          wCeruleanCapeSceneID
-	scene_var CERULEAN_CAVE_1F,                       wCeruleanCave1FSceneID
-	scene_var CERULEAN_GYM,                           wCeruleanGymSceneID
 	scene_var GLITTERVINE_TOWN,                       wGlittervineTownSceneID
 	scene_var CIANWOOD_CITY,                          wCianwoodCitySceneID
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
