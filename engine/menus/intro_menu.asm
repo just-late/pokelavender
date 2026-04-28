@@ -566,6 +566,8 @@ Continue_DisplayGameTime:
 ProfElmSpeech:
 	farcall InitClock
 	farcall Special_SetDayOfWeek
+	ld hl, wInitialOptions
+	res COLOR_VARY_OPT, [hl]
 	ld c, 31
 	call FadeToBlack
 	call ClearTileMap
@@ -671,7 +673,7 @@ ElmText2:
 	xor a
 	ld [wStereoPanningMask], a
 	ld [wCryTracks], a
-	ld de, GLACEON - 1
+	ld de, AMPHAROS - 1
 	call PlayCryHeader
 	call WaitSFX
 	ld hl, ElmText3

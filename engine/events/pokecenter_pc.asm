@@ -46,8 +46,8 @@ PokemonCenterPC:
 	dw TurnOffPC, .String_TurnOff
 
 .String_PlayersPC:  db "<PLAYER>'s PC@"
-.String_BillsPC:    db "Bill's PC@"
-.String_OaksPC:     db "Prof.Oak's PC@"
+.String_BillsPC:    db "HANA's PC@"
+.String_OaksPC:     db "ASPEN's PC@"
 .String_HallOfFame: db "Hall of Fame@"
 .String_TurnOff:    db "Turn Off@"
 
