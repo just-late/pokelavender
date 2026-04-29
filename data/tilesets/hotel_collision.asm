@@ -100,7 +100,7 @@
 	tilecoll WALL, WALL, DOOR, WALL ; 63
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 64
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 65
-	tilecoll FLOOR, WALL, FLOOR, WALL ; 66
+	tilecoll FLOOR, WALL, TRASH_CAN, WALL ; 66
 	tilecoll WALL, WALL, WATER_COOLER, WALL ; 67
 	tilecoll WALL, WALL, DOOR, WALL ; 68
 	tilecoll WALL, WALL, WALL, WALL ; 69

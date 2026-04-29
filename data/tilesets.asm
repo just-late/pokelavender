@@ -48,8 +48,6 @@ Tilesets::
 	tileset TilesetTunnel
 	tileset TilesetForest
 	tileset TilesetPark
-	tileset TilesetRuins
-	tileset TilesetAlph
 	tileset TilesetPokemonMansion
 	tileset TilesetBattleFactory
 	tileset TilesetSnowtopMountain
@@ -434,22 +432,6 @@ TilesetParkAttr:: INCBIN "data/tilesets/park_attributes.bin.lz"
 TilesetParkColl:: INCBIN "data/tilesets/park_collision.bin.lz"
 
 
-SECTION "Tileset Data - ruins_of_alph and alph_word_room", ROMX
-
-TilesetRuinsGFX0::
-TilesetAlphGFX0:: INCBIN "gfx/tilesets/ruins_of_alph.2bpp.vram0.lz"
-TilesetRuinsGFX1::
-TilesetAlphGFX1:: INCBIN "gfx/tilesets/ruins_of_alph.2bpp.vram1.lz"
-
-TilesetRuinsMeta:: INCBIN "data/tilesets/ruins_of_alph_metatiles.bin.lz"
-TilesetRuinsAttr:: INCBIN "data/tilesets/ruins_of_alph_attributes.bin.lz"
-TilesetRuinsColl:: INCBIN "data/tilesets/ruins_of_alph_collision.bin.lz"
-
-TilesetAlphMeta:: INCBIN "data/tilesets/alph_word_room_metatiles.bin.lz"
-TilesetAlphAttr:: INCBIN "data/tilesets/alph_word_room_attributes.bin.lz"
-TilesetAlphColl:: INCBIN "data/tilesets/alph_word_room_collision.bin.lz"
-
-
 SECTION "Tileset Data - pokemon_mansion", ROMX
 
 TilesetPokemonMansionGFX0:: INCBIN "gfx/tilesets/pokemon_mansion.2bpp.vram0.lz"
@@ -547,7 +529,6 @@ TilesetForestGFX2::
 TilesetParkGFX2::
 TilesetSafariGFX2::
 TilesetRuinsGFX2::
-TilesetAlphGFX2::
 TilesetPokemonMansionGFX2::
 TilesetBattleFactoryGFX2::
 TilesetSnowtopMountainGFX2::
