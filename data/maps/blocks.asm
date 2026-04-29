@@ -21,7 +21,6 @@ PokeCenter2F_BlockData:
 ViridianPokeCenter1F_BlockData:
 PewterPokeCenter1F_BlockData:
 VermilionPokeCenter1F_BlockData:
-Route10PokeCenter1F_BlockData:
 LavenderPokeCenter1F_BlockData:
 CeladonPokeCenter1F_BlockData:
 SaffronPokeCenter1F_BlockData:
@@ -1069,10 +1068,6 @@ SECTION "MountMoonSquare_BlockData", ROMX
 MountMoonSquare_BlockData:
 	INCBIN "maps/MountMoonSquare.ablk.lz"
 
-SECTION "BillsHouse_BlockData", ROMX
-BillsHouse_BlockData:
-	INCBIN "maps/BillsHouse.ablk.lz"
-
 SECTION "VermilionGym_BlockData", ROMX
 VermilionGym_BlockData:
 	INCBIN "maps/VermilionGym.ablk.lz"
@@ -1105,10 +1100,6 @@ RockTunnel2F_BlockData:
 SECTION "RockTunnelB1F_BlockData", ROMX
 RockTunnelB1F_BlockData:
 	INCBIN "maps/RockTunnelB1F.ablk.lz"
-
-SECTION "PowerPlant_BlockData", ROMX
-PowerPlant_BlockData:
-	INCBIN "maps/PowerPlant.ablk.lz"
 
 SECTION "DimCave1F_BlockData", ROMX
 DimCave1F_BlockData:
@@ -1673,10 +1664,6 @@ SECTION "Route3_BlockData", ROMX
 Route3_BlockData:
 	INCBIN "maps/Route3.ablk.lz"
 
-SECTION "Route4_BlockData", ROMX
-Route4_BlockData:
-	INCBIN "maps/Route4.ablk.lz"
-
 SECTION "Route5_BlockData", ROMX
 Route5_BlockData:
 	INCBIN "maps/Route5.ablk.lz"
@@ -1783,14 +1770,6 @@ Route22Past_BlockData:
 SECTION "Route23_BlockData", ROMX
 Route23_BlockData:
 	INCBIN "maps/Route23.ablk.lz"
-
-SECTION "Route24_BlockData", ROMX
-Route24_BlockData:
-	INCBIN "maps/Route24.ablk.lz"
-
-SECTION "Route25_BlockData", ROMX
-Route25_BlockData:
-	INCBIN "maps/Route25.ablk.lz"
 
 SECTION "Route26_BlockData", ROMX
 Route26_BlockData:

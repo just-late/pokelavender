@@ -14,13 +14,6 @@
 	wildmon  45, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_4
-	db 4 percent ; encounter rate
-	wildmon  55, GOLDEEN
-	wildmon  60, SEAKING
-	wildmon  55, GOLDEEN
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_6
 	db 2 percent ; encounter rate
 	wildmon  45, PSYDUCK
@@ -117,20 +110,6 @@
 	wildmon  35, TENTACRUEL
 	wildmon  35, KINGLER
 	wildmon  35, GYARADOS
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_24
-	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
-	wildmon  50, GOLDEEN
-	wildmon  52, SEAKING
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_25
-	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
-	wildmon  50, GOLDEEN
-	wildmon  52, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_26

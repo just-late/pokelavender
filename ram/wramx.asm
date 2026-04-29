@@ -1092,11 +1092,11 @@ wOlivineCitySceneID:: db
 wOlivinePortSceneID:: db
 wPokecenter2FSceneID:: db
 wPokemonLeagueGateSceneID:: db
-wPowerPlantSceneID:: db
+ds 1 ; unused
 wRadioTower5FSceneID:: db
 wRoute10NorthSceneID:: db
 wRoute23SceneID:: db
-wRoute24SceneID:: db
+ds 1 ; unused
 wMarigoldPortSceneID:: db
 wMarigoldGymSceneID:: db
 wRoute32SceneID:: db

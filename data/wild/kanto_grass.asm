@@ -336,34 +336,6 @@
 	wildmon 60, NOCTOWL
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_4
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 54, FEAROW
-	wildmon 54, RATICATE
-	wildmon 56, ARBOK, ARBOK_KANTO_FORM
-	wildmon 57, SANDSLASH
-	wildmon 57, ARBOK, ARBOK_KANTO_FORM
-	wildmon 58, PRIMEAPE
-	wildmon 59, PRIMEAPE
-	; day
-	wildmon 54, FEAROW
-	wildmon 54, RATICATE
-	wildmon 56, ARBOK, ARBOK_KANTO_FORM
-	wildmon 57, SANDSLASH
-	wildmon 57, ARBOK, ARBOK_KANTO_FORM
-	wildmon 58, PRIMEAPE
-	wildmon 59, PRIMEAPE
-	; nite
-	wildmon 54, RATICATE
-	wildmon 54, RATICATE
-	wildmon 56, RATICATE
-	wildmon 57, GOLBAT
-	wildmon 57, RATICATE
-	wildmon 58, CLEFAIRY
-	wildmon 59, CLEFABLE
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -922,62 +894,6 @@
 	wildmon 39, QUAGSIRE
 	wildmon 40, QUAGSIRE
 	wildmon 42, DITTO
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_24
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
-	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
-	; day
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
-	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
-	; nite
-	wildmon 48, VENOMOTH
-	wildmon 48, VENOMOTH
-	wildmon 51, NOCTOWL
-	wildmon 50, GLOOM
-	wildmon 49, GLOOM
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_25
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
-	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
-	; day
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
-	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
-	; nite
-	wildmon 48, VENOMOTH
-	wildmon 48, VENOMOTH
-	wildmon 51, NOCTOWL
-	wildmon 50, GLOOM
-	wildmon 49, GLOOM
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_26

@@ -59,7 +59,6 @@ MapScenes::
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
 	scene_var POKEMON_LEAGUE_GATE,                    wPokemonLeagueGateSceneID
-	scene_var POWER_PLANT,                            wPowerPlantSceneID
 	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID
 	scene_var ROUTE_10_NORTH,                         wRoute10NorthSceneID
 	scene_var ROUTE_16_17_GATE,                       wAlways0SceneID
@@ -67,7 +66,6 @@ MapScenes::
 	scene_var ROUTE_18_WEST,                          wAlways0SceneID
 	scene_var ROUTE_22_PAST,                          wAlways0SceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
-	scene_var ROUTE_24,                               wRoute24SceneID
 	scene_var ROUTE_32,                               wRoute32SceneID
 	scene_var ROUTE_34,                               wRoute34SceneID
 	scene_var ROUTE_34_ILEX_FOREST_GATE,              wAlways0SceneID

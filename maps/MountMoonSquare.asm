@@ -6,7 +6,6 @@ MountMoonSquare_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, MountMoonSquareDisappearRockCallback
 
 	def_warp_events
-	warp_event 21, 11, ROUTE_4, 2
 	warp_event 13,  7, MOUNT_MOON_GIFT_SHOP, 1
 
 	def_coord_events

@@ -126,8 +126,6 @@ InitMapNameSign::
 	ret z
 	cp UNDERGROUND
 	ret z
-	cp POWER_PLANT
-	ret z
 	cp SOUL_HOUSE
 	ret z
 	cp CINNABAR_LAB

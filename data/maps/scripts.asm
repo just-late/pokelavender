@@ -32,7 +32,6 @@ SECTION "Pokemon Center Scripts 4", ROMX
 INCLUDE "maps/SilverCavePokeCenter1F.asm"
 INCLUDE "maps/ShamoutiPokeCenter1F.asm"
 INCLUDE "maps/Route3PokeCenter1F.asm"
-INCLUDE "maps/Route10PokeCenter1F.asm"
 INCLUDE "maps/Route32PokeCenter1F.asm"
 INCLUDE "maps/GoldenrodPokecomCenter1F.asm"
 INCLUDE "maps/GoldenrodPokecomCenterOffice.asm"
@@ -544,11 +543,6 @@ INCLUDE "maps/MountMoonGiftShop.asm"
 INCLUDE "maps/MountMoonSquare.asm"
 
 
-SECTION "Bill's House Scripts", ROMX
-
-INCLUDE "maps/BillsHouse.asm"
-
-
 SECTION "Vermilion Scripts", ROMX
 
 INCLUDE "maps/VermilionCity.asm"
@@ -573,7 +567,6 @@ SECTION "Rock Tunnel Scripts", ROMX
 INCLUDE "maps/RockTunnel1F.asm"
 INCLUDE "maps/RockTunnel2F.asm"
 INCLUDE "maps/RockTunnelB1F.asm"
-INCLUDE "maps/PowerPlant.asm"
 
 
 SECTION "Dim Cave Scripts", ROMX
@@ -901,7 +894,7 @@ INCLUDE "maps/FarawayIsland.asm"
 INCLUDE "maps/FarawayJungle.asm"
 
 
-SECTION "Routes 1-4 Scripts", ROMX
+SECTION "Routes 1-3 Scripts", ROMX
 
 INCLUDE "maps/Route1.asm"
 INCLUDE "maps/Route1ViridianGate.asm"
@@ -911,7 +904,6 @@ INCLUDE "maps/Route2.asm"
 INCLUDE "maps/Route2NuggetSpeechHouse.asm"
 INCLUDE "maps/Route2MoonflowerGate.asm"
 INCLUDE "maps/Route3.asm"
-INCLUDE "maps/Route4.asm"
 
 
 SECTION "Routes 5-8 Scripts", ROMX
@@ -986,10 +978,8 @@ INCLUDE "maps/Route22Past.asm"
 INCLUDE "maps/Route23.asm"
 
 
-SECTION "Routes 24-26 Scripts", ROMX
+SECTION "Routes 26 Scripts", ROMX
 
-INCLUDE "maps/Route24.asm"
-INCLUDE "maps/Route25.asm"
 INCLUDE "maps/Route26.asm"
 INCLUDE "maps/GemrootNPCHouse2.asm"
 INCLUDE "maps/GemrootNPCHouse1.asm"

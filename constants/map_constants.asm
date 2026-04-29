@@ -198,12 +198,6 @@ ENDM
 	newgroup                                                     ;  7
 	map_const GRANITE_VILLAGE,							  24, 14 ;  1
 	map_const GRANITE_INN_1F,							   9,  6 ;  2
-	map_const ROUTE_10_POKECENTER_1F,                      6,  4 ;  3
-	map_const POWER_PLANT,                                10,  9 ;  4
-	map_const BILLS_HOUSE,                                 4,  4 ;  5
-	map_const ROUTE_4,                                    33, 10 ;  6
-	map_const ROUTE_24,                                   14, 20 ;  7
-	map_const ROUTE_25,                                   17, 21 ;  8
 
 	newgroup                                                     ;  8
 	map_const BLOSSOM_CITY,								  20, 24 ;  1

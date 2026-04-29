@@ -98,7 +98,6 @@ Landmarks:
 	landmark 124,  44, Route9Name
 	landmark 140,  52, Route10Name
 	landmark 140,  44, RockTunnelName
-	landmark 148,  52, PowerPlantName
 	landmark 148,  44, DimCaveName
 	landmark 140,  60, LavenderTownName
 	landmark 142,  58, LavRadioTowerName
@@ -172,7 +171,6 @@ UnionCaveName:         rawchar "Union Cave@"
 SlowpokeWellName:      rawchar "Slowpoke¯Well@"
 RadioTowerName:        rawchar "TERRARIUM@"
 MountainPassName:	   rawchar "MOUNTAIN¯PASS"
-PowerPlantName:        rawchar "Power Plant@"
 NationalParkName:      rawchar "National¯Park@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
 TinTowerName:          rawchar "Bell Tower@"
