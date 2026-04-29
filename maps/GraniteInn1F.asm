@@ -21,7 +21,7 @@ GraniteInn1F_MapScriptHeader:
 ;	bg_event 17,  7
 
     db 4 ; object events
-	person_event SPRITE_AGATHA,  8,  4, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, GraniteInnkeeperScript, -1
+	person_event SPRITE_INNKEEPER,  8,  4, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, GraniteInnkeeperScript, -1
 	person_event SPRITE_RICH_BOY,  8,  6, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_INDIGO_IN_GRANITE_INN
 	person_event SPRITE_GENTLEMAN,  8, 12, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GraniteInn1FGentlemanText, -1 
 	person_event SPRITE_CLERK, 3, 13, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GraniteInn1FJanitorText, -1
