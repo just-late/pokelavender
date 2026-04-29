@@ -479,3 +479,26 @@ HiddenGrottoText:
 	para "Will you follow"
 	line "it?"
 	done
+
+WaterCoolerWantADrinkText:
+	text "¥10 for a cup"
+	line "of water!"
+
+	para "Want a drink?"
+	done
+
+WaterCoolerHotOrColdText:
+	text "Do you want"
+	line "hot or cold"
+	cont "water?"
+	done
+
+WaterCoolerHotWaterText:
+	text "Ouch! That was"
+	line "too hot!"
+	done
+
+WaterCoolerColdWaterText:
+	text "Ahh! Nice and"
+	line "refreshing!"
+	done

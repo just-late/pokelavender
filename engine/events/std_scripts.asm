@@ -56,6 +56,7 @@ StdScripts::
 	dw VendingMachineScript
 	dw TreeGrottoScript
 	dw CaveGrottoScript
+	dw WaterCoolerScript
 
 PokeCenterNurseScript:
 	opentext
@@ -1772,3 +1773,60 @@ _HiddenGrottoBackupMap:
 	ld a, [wMapNumber]
 	ld [wBackupMapNumber], a
 	ret
+
+WaterCoolerScript:
+	opentext
+	farwritetext WaterCoolerWantADrinkText
+	yesorno
+	iftruefwd WaterCoolerHotOrCold
+	closetext
+	end
+
+WaterCoolerHotOrCold:
+	checkmoney $0, 10
+	ifequalfwd $2, .NotEnoughMoney
+	farwritetext WaterCoolerHotOrColdText
+	special PlaceMoneyTopRight
+	loadmenu .MenuData
+	verticalmenu
+	closewindow
+	ifequalfwd $1, .HotWater
+	ifequalfwd $2, .ColdWater
+	endtext
+
+.NotEnoughMoney:
+	farwritetext VendingMachineNoMoneyText
+	waitbutton
+	closetext
+	end
+
+.HotWater:
+	takemoney $0, 10
+	playsound SFX_BURN
+	farwritetext WaterCoolerHotWaterText
+	waitsfx
+	waitbutton
+	closetext
+	end
+
+.ColdWater:
+	takemoney $0, 10
+	playsound SFX_PUDDLE
+	farwritetext WaterCoolerColdWaterText
+	waitsfx
+	waitbutton
+	closetext
+	end
+
+.MenuData:
+	db MENU_BACKUP_TILES
+	menu_coords 0, 2, 19, 11
+	dw .MenuData2
+	db 1 ; default option
+
+.MenuData2:
+	db $80 ; flags
+	db 3 ; items
+	db "HOT WATER @"
+	db "COLD WATER@"
+	db "CANCEL    @"
