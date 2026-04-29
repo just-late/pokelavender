@@ -3942,18 +3942,17 @@ GruntMGroup:
 
 	; unused
 	; GRUNTM
-	db "Grunt@"
+	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
 	db -1 ; end
 
 	; GRUNTM
-	db "Grunt@"
+	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 8, RATTATA
-	dbp 10, ZUBAT
-	dbp 10, GASTLY
+	dbp 18, SNEASEL
+	dbp 20, LARVITAR
 	db -1 ; end
 
 	; GRUNTM
@@ -4222,7 +4221,7 @@ SECTION "GruntFGroup", ROMX
 GruntFGroup:
 
 	; GRUNTF
-	db "Grunt@"
+	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 10, ZUBAT
@@ -4230,14 +4229,14 @@ GruntFGroup:
 	db -1 ; end
 
 	; GRUNTF
-	db "Grunt@"
+	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 35, ARBOK
+	dbp 25, GYARADOS
 	db -1 ; end
 
 	; GRUNTF
-	db "Grunt@"
+	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 36, UMBREON

@@ -40,8 +40,8 @@ TrainerClassNames::
 	li "FISHERMAN"        ; FISHER
 	li "BIRD KEEPER"      ; BIRD_KEEPER
 	li "HIKER"            ; HIKER
-	li "ROCKET"           ; GRUNTM
-	li "ROCKET"           ; GRUNTF
+	li "INDIGO"           ; GRUNTM
+	li "INDIGO"           ; GRUNTF
 	li "#FAN"             ; POKEFANM
 	li "#FAN"             ; POKEFANF
 	li "OFFICER"          ; OFFICERM
