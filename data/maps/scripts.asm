@@ -143,6 +143,7 @@ INCLUDE "maps/BlossomCity.asm"
 SECTION "Granite Village Scripts", ROMX
 
 INCLUDE "maps/GraniteVillage.asm"
+INCLUDE "maps/GraniteInn1F.asm"
 
 SECTION "Sprout Tower Scripts", ROMX
 
