@@ -334,6 +334,10 @@ SECTION "GraniteVillage_BlockData", ROMX
 GraniteVillage_BlockData:
 	INCBIN "maps/GraniteVillage.ablk.lz"
 
+SECTION "GraniteVillageTrainTrack_BlockData", ROMX
+GraniteVillageTrainTrack_BlockData:
+	INCBIN "maps/GraniteVillageTrainTrack.ablk.lz"
+
 SECTION "GraniteInn1F_BlockData", ROMX
 GraniteInn1F_BlockData:
 	INCBIN "maps/GraniteInn1F.ablk.lz"

@@ -4,36 +4,36 @@ GraniteVillage_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 21, 13, PLAYERS_HOUSE_2F, 1
+	warp_event 21, 17, PLAYERS_HOUSE_2F, 1
 
     def_coord_events
-	coord_event 11, 21, 0, GraniteVillageIndigoBlockerTrigger
-	coord_event 19, 14, 1, GraniteVillageInnCutsceneTrigger1
-	coord_event 19, 15, 1, GraniteVillageInnCutsceneTrigger2
-	coord_event 20, 16, 1, GraniteVillageInnCutsceneTrigger3
-	coord_event 21, 16, 1, GraniteVillageInnCutsceneTrigger4
+	coord_event 11, 25, 0, GraniteVillageIndigoBlockerTrigger
+	coord_event 19, 18, 1, GraniteVillageInnCutsceneTrigger1
+	coord_event 19, 19, 1, GraniteVillageInnCutsceneTrigger2
+	coord_event 20, 20, 1, GraniteVillageInnCutsceneTrigger3
+	coord_event 21, 20, 1, GraniteVillageInnCutsceneTrigger4
 
     def_bg_events
-	bg_event  9, 20, BGEVENT_READ, GraniteVillageStatueScript
-	bg_event 12, 20, BGEVENT_READ, GraniteVillageStatueScript
-	bg_event  5, 14, BGEVENT_JUMPTEXT, GraniteVillageHanasHouseSignText
-	bg_event 12, 16, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
-	bg_event 13, 16, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
-	bg_event 12, 17, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
-	bg_event 13, 17, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
-	bg_event 10, 12, BGEVENT_JUMPTEXT, GraniteVillageSignText
-	bg_event 22, 13, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
-	bg_event 23, 13, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
+	bg_event  9, 24, BGEVENT_READ, GraniteVillageStatueScript
+	bg_event 12, 24, BGEVENT_READ, GraniteVillageStatueScript
+	bg_event  5, 18, BGEVENT_JUMPTEXT, GraniteVillageHanasHouseSignText
+	bg_event 12, 20, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
+	bg_event 13, 20, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
+	bg_event 12, 21, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
+	bg_event 13, 21, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
+	bg_event 10, 16, BGEVENT_JUMPTEXT, GraniteVillageSignText
+	bg_event 22, 17, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
+	bg_event 23, 17, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
 
     db 8 ; object_events
-	person_event SPRITE_RIVAL, 16, 14, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_RIVAL_IN_GRANITE_VILLAGE
-	person_event SPRITE_CUTE_GIRL, 15, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_GRANITE_VILLAGE_GREET_SCENE
-	person_event SPRITE_ROCKET, 21, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, GraniteVillageIndigoGruntScript, EVENT_INDIGO_BLOCK_GRANITE_VILLAGE
-	person_event SPRITE_ROCKET_GIRL, 13, 21, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
-	person_event SPRITE_GRANNY,  8,  9, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, -1
-	person_event SPRITE_GRAMPS, 15, 35, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, 0, -1
-	person_event SPRITE_HIKER, 10, 25, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, -1
-	person_event SPRITE_DRAGON_TAMER,  6, 12, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, 0, -1
+	person_event SPRITE_RIVAL, 20, 14, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_RIVAL_IN_GRANITE_VILLAGE
+	person_event SPRITE_CUTE_GIRL, 19, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_GRANITE_VILLAGE_GREET_SCENE
+	person_event SPRITE_ROCKET, 25, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, GraniteVillageIndigoGruntScript, EVENT_INDIGO_BLOCK_GRANITE_VILLAGE
+	person_event SPRITE_ROCKET_GIRL, 17, 21, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
+	person_event SPRITE_GRANNY, 12,  9, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, -1
+	person_event SPRITE_GRAMPS, 19, 35, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, 0, -1
+	person_event SPRITE_HIKER, 14, 25, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, -1
+	person_event SPRITE_DRAGON_TAMER, 10, 12, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, 0, -1
 
     const_def 1 ; object constants
     const GRANITE_VILLAGE_RIVAL

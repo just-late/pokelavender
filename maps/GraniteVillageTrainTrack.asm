@@ -1,0 +1,2 @@
+GraniteVillageTrainTrack_MapScriptHeader:
+    

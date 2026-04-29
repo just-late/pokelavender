@@ -196,8 +196,9 @@ ENDM
 	map_const ROUTE_19_BEACH_HOUSE,                        4,  4 ; 22
 
 	newgroup                                                     ;  7
-	map_const GRANITE_VILLAGE,							  24, 14 ;  1
-	map_const GRANITE_INN_1F,							   9,  6 ;  2
+	map_const GRANITE_VILLAGE,							  24, 16 ;  1
+	map_const GRANITE_VILLAGE_TRAIN_TRACK,				  24,  7 ;  2
+	map_const GRANITE_INN_1F,							   9,  6 ;  3
 
 	newgroup                                                     ;  8
 	map_const BLOSSOM_CITY,								  20, 24 ;  1

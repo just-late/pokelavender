@@ -381,7 +381,11 @@ ENDM
 	; probably connect to a sea route later
 	map_attributes MarigoldPort, MARIGOLD_PORT, $35, 0
 
-	map_attributes GraniteVillage, GRANITE_VILLAGE, $71, 0 ; SOUTH
+	map_attributes GraniteVillage, GRANITE_VILLAGE, $71, NORTH ; SOUTH
+	connection north, GraniteVillageTrainTrack, GRANITE_VILLAGE_TRAIN_TRACK, 0
+
+	map_attributes GraniteVillageTrainTrack, GRANITE_VILLAGE_TRAIN_TRACK, $05, SOUTH
+	connection south, GraniteVillage, GRANITE_VILLAGE, 0
 
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
