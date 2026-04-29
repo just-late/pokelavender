@@ -2832,7 +2832,7 @@ _PokecenterPCWhoseText::
 
 SECTION "_PokecenterBillsPCText", ROMX
 _PokecenterBillsPCText::
-	text "Bill's PC"
+	text "HANA's PC"
 	line "accessed."
 
 	para "#MON Storage"
