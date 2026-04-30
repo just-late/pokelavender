@@ -308,6 +308,24 @@ ItemNames::
 	li "BLUESKY MAIL"
 	li "MUSIC MAIL"
 	li "MIRAGE MAIL"
+
+	li "VENUSAURITE"
+	li "CHARIZITE X"
+	li "CHARIZITE Y"
+	li "BLASTOISITE"
+	li "ALAKAZITE"
+	li "GENGARITE"
+	li "BEEDRILLITE"
+	li "SLOWBRONITE"
+	li "PINSIRITE"
+	li "GYARADOSITE"
+	li "AERODACTITE"
+	li "AMPHAROSITE"
+	li "STEELIXITE"
+	li "SCIZORITE"
+	li "HERACRONITE"
+	li "HOUNDOOMITE"
+	li "TYRANARITE"
 	assert_list_length NUM_ITEMS + 1
 
 	setcharmap default

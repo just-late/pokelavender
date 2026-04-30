@@ -254,6 +254,23 @@ ItemDescriptions:
 	dw BlueSkyMailDesc
 	dw MusicMailDesc
 	dw MirageMailDesc
+	dw VenusauriteDesc
+	dw CharizarditeXDesc
+	dw CharizarditeYDesc
+	dw BlastoisiniteDesc
+	dw AlakaziteDesc
+	dw GengariteDesc
+	dw BeedrilliteDesc
+	dw SlowbroniteDesc
+	dw PinsiriteDesc
+	dw GyaradositeDesc
+	dw AerodactyliteDesc
+	dw AmpharositeDesc
+	dw SteelixiteDesc
+	dw ScizoriteDesc
+	dw HeracroniteDesc
+	dw HoundoominiteDesc
+	dw TyranitariteDesc
 	assert_table_length NUM_ITEMS
 
 KeyItemDescriptions:
@@ -288,6 +305,7 @@ KeyItemDescriptions:
 	dw OrangeTicketDesc
 	dw MysticTicketDesc
 	dw OldSeaMapDesc
+	dw MegaRingDesc
 	dw HarshLureDesc
 	dw PotentLureDesc
 	dw MalignLureDesc
@@ -1460,6 +1478,91 @@ RedCardDesc:
 	next "when hit. (Hold)"
 	done
 
+VenusauriteDesc:
+	text "Mega evolves"
+	next "VENUSAUR. (Hold)"
+	done
+
+CharizarditeXDesc:
+	text "Mega evolves"
+	next "CHARIZARD. (Hold)"
+	done
+
+CharizarditeYDesc:
+	text "Mega evolves"
+	next "CHARIZARD. (Hold)"
+	done
+
+BlastoisiniteDesc:
+	text "Mega evolves"
+	next "BLASTOISE. (Hold)"
+	done
+
+AlakaziteDesc:
+	text "Mega evolves"
+	next "ALAKAZAM. (Hold)"
+	done
+
+GengariteDesc:
+	text "Mega evolves"
+	next "GENGAR. (Hold)"
+	done
+
+BeedrilliteDesc:
+	text "Mega evolves"
+	next "BEEDRILL. (Hold)"
+	done
+
+SlowbroniteDesc:
+	text "Mega evolves"
+	next "SLOWBRO. (Hold)"
+	done
+
+PinsiriteDesc:
+	text "Mega evolves"
+	next "PINSIR. (Hold)"
+	done
+
+GyaradositeDesc:
+	text "Mega evolves"
+	next "GYARADOS. (Hold)"
+	done
+
+AerodactyliteDesc:
+	text "Mega evolves"
+	next "AERODACTYL. (Hold)"
+	done
+
+AmpharositeDesc:
+	text "Mega evolves"
+	next "AMPHAROS. (Hold)"
+	done
+
+SteelixiteDesc:
+	text "Mega evolves"
+	next "STEELIX. (Hold)"
+	done
+
+ScizoriteDesc:
+	text "Mega evolves"
+	next "SCIZOR. (Hold)"
+	done
+
+HeracroniteDesc:
+	text "Mega evolves"
+	next "HERACROSS. (Hold)"
+	done
+
+HoundoominiteDesc:
+	text "Mega evloves"
+	next "HOUNDOOM. (Hold)"
+	done
+
+TyranitariteDesc:
+	text "Mega evolves"
+	next "TYRANITAR. (Hold)"
+	done
+
 ClearAmuletDesc:
 	text "Prevents stat-"
 	next "lowering by foes."
@@ -1638,6 +1741,11 @@ MysticTicketDesc:
 OldSeaMapDesc:
 	text "A faded sea chart"
 	next "of a small island."
+	done
+
+MegaRingDesc:
+	text "This ring carries"
+	next "mysterious power."
 	done
 
 HarshLureDesc:
