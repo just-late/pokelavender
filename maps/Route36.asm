@@ -72,7 +72,7 @@ Route36SuicuneScript:
 	end
 
 SudowoodoScript:
-	checkkeyitem SQUIRTBOTTLE
+	checkkeyitem WAILMER_PAIL
 	iftruefwd .Fight
 	waitsfx
 	playsound SFX_SANDSTORM
@@ -128,7 +128,7 @@ Route36FloriaScript:
 .FloriaMessage:
 	checkevent EVENT_FOUGHT_SUDOWOODO
 	iftrue_jumptextfaceplayer FloriaTextAfterSudowoodo
-	checkevent EVENT_GOT_SQUIRTBOTTLE
+	checkevent EVENT_GOT_WAILMER_PAIL
 	iftrue_jumptextfaceplayer FloriaTextAfterSquirtBottle
 	jumptextfaceplayer FloriaTextAfterPlainBadge
 

@@ -230,7 +230,7 @@
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; e5
 	tilecoll WALL, HEADBUTT_TREE, WALL, HEADBUTT_TREE ; e6
 	tilecoll HEADBUTT_TREE, WALL, HEADBUTT_TREE, WALL ; e7
-	tilecoll FLOOR, FLOOR, FLOOR, WALL ; e8
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; e8
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; e9
 	tilecoll WALL, WALL, WALL, WALL ; ea
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; eb

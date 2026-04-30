@@ -26,28 +26,28 @@ FlowerShopTeacherScript:
 	iftruefwd .MetFloria
 	checkflag ENGINE_PLAINBADGE
 	iffalse_jumptextfaceplayer GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text
-	checkevent EVENT_GOT_SQUIRTBOTTLE
+	checkevent EVENT_GOT_WAILMER_PAIL
 	iftrue_jumptextfaceplayer GoldenrodFlowerShopTeacherStopMySisterText
 	faceplayer
 	opentext
 	writetext GoldenrodFlowerShopTeacherBetterThanWhitneyText
 	promptbutton
-	verbosegivekeyitem SQUIRTBOTTLE
-	setevent EVENT_GOT_SQUIRTBOTTLE
+	verbosegivekeyitem WAILMER_PAIL
+	setevent EVENT_GOT_WAILMER_PAIL
 	closetext
 	end
 
 .MetFloria:
 	checkflag ENGINE_PLAINBADGE
 	iffalse_jumptextfaceplayer GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText
-	checkevent EVENT_GOT_SQUIRTBOTTLE
+	checkevent EVENT_GOT_WAILMER_PAIL
 	iftrue_jumptextfaceplayer GoldenrodFlowerShopTeacherDontDoAnythingDangerousText
 	faceplayer
 	opentext
 	writetext GoldenrodFlowerShopTeacherHeresTheSquirtbottleText
 	promptbutton
-	verbosegivekeyitem SQUIRTBOTTLE
-	setevent EVENT_GOT_SQUIRTBOTTLE
+	verbosegivekeyitem WAILMER_PAIL
+	setevent EVENT_GOT_WAILMER_PAIL
 	closetext
 	end
 

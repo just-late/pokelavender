@@ -293,7 +293,7 @@ KeyItemEffects:
 	dw TypeChart          ; TYPE_CHART
 	dw GBCSounds          ; GBC_SOUNDS
 	dw BlueCard           ; BLUE_CARD
-	dw SquirtBottle       ; SQUIRTBOTTLE
+	dw SquirtBottle       ; WAILMER_PAIL
 	dw IsntTheTimeMessage ; SILPHSCOPE2
 	dw IsntTheTimeMessage ; MYSTERY_EGG
 	dw IsntTheTimeMessage ; VEGETABLES

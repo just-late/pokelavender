@@ -269,7 +269,7 @@ KeyItemDescriptions:
 	dw TypeChartDesc
 	dw GBCSoundsDesc
 	dw BlueCardDesc
-	dw SquirtBottleDesc
+	dw WailmerPailDesc
 	dw SilphScope2Desc
 	dw MysteryEggDesc
 	dw VegetablesDesc
@@ -1526,12 +1526,12 @@ OldRodDesc:
 	done
 
 GoodRodDesc:
-	text "A good Rod for"
+	text "A good ROD for"
 	next "catching #MON."
 	done
 
 SuperRodDesc:
-	text "The best Rod for"
+	text "The best ROD for"
 	next "catching #MON."
 	done
 
@@ -1550,8 +1550,8 @@ MysteryEggDesc:
 	next "from Mr.#MON."
 	done
 
-SquirtBottleDesc:
-	text "A bottle used for"
+WailmerPailDesc:
+	text "A nifty pail for"
 	next "watering plants."
 	done
 

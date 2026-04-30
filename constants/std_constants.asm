@@ -56,3 +56,4 @@
 	const treegrotto
 	const cavegrotto
 	const watercooler
+	const softloamysoil

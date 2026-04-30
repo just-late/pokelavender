@@ -502,3 +502,10 @@ WaterCoolerColdWaterText:
 	text "Ahh! Nice and"
 	line "refreshing!"
 	done
+
+PlantABerryText:
+	text "It's a patch of"
+	line "soft, loamy soil."
+	
+	para "Plant a berry?"
+	done

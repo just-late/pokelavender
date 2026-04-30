@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, GRANITE_INN_1F, 1
+	warp_event  7,  0, PLAYERS_HOUSE_1F, 1
 
 	def_coord_events
 
@@ -111,17 +111,12 @@ DebugDudeScript:
 	writetext DebugDudeText
 	yesorno
 	iffalsefwd .End
-	playsound SFX_ENTER_DOOR
-	special Special_FadeBlackQuickly
-	writevar VAR_MOVEMENT, PLAYER_TAUROS
-	waitsfx
-	special UpdatePlayerSprite
-	warpfacing DOWN, GEMROOT_TOWN, 27, 20
 ;	givepoke SPINARAK, PLAIN_FORM, 1,ORAN_BERRY
-;	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
+	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
 ;	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
 ;	givemoney $0, 15000
 ;	givetmhm HM_ROCK_SMASH
+	verbosegivekeyitem WAILMER_PAIL
 ;	setevent EVENT_DOING_BLAZE_QUEST
 ;	setevent EVENT_ALWAYS_SET
 ;	setmapscene MOONFLOWER_CITY, $2

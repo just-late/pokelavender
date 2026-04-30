@@ -638,10 +638,10 @@ DEF NUM_WINGS EQU const_value
 	const TYPE_CHART   ; 09
 	const GBC_SOUNDS   ; 0a
 	const BLUE_CARD    ; 0b
-	const SQUIRTBOTTLE ; 0c
+	const WAILMER_PAIL ; 0c
 	const SILPHSCOPE2  ; 0d
 	const MYSTERY_EGG  ; 0e
-	const VEGETABLES ; 0f
+	const VEGETABLES   ; 0f
 	const GO_GOGGLES   ; 10
 	const RED_SCALE    ; 11
 	const CARD_KEY     ; 12
@@ -652,7 +652,7 @@ DEF NUM_WINGS EQU const_value
 	const SILVER_WING  ; 17
 	const CLEAR_BELL   ; 18
 	const GS_BALL      ; 19
-	const BOAT_PASS   ; 1a
+	const BOAT_PASS    ; 1a
 	const PASS         ; 1b
 	const ORANGETICKET ; 1c
 	const MYSTICTICKET ; 1d
@@ -697,12 +697,12 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_RAINBOW_WING
 	const NAM_RED_SCALE
 	const NAM_BOAT_PASS
-	const NAM_VEGETABLES
 	const NAM_SHINY_CHARM
 	const NAM_SILPHSCOPE2
 	const NAM_SILVER_WING
-	const NAM_SQUIRTBOTTLE
 	const NAM_SUPER_ROD
 	const NAM_TYPE_CHART
+	const NAM_VEGETABLES
+	const NAM_WAILMER_PAIL
 	const NAM_WING_CASE
 	assert const_value - 1 == NUM_KEY_ITEMS

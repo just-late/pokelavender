@@ -722,8 +722,8 @@ ItemfinderIcon:: INCBIN "gfx/items/itemfinder.2bpp.lz"
 SECTION "MysteryEggIcon", ROMX
 MysteryEggIcon:: INCBIN "gfx/items/mystery_egg.2bpp.lz"
 
-SECTION "SquirtBottleIcon", ROMX
-SquirtBottleIcon:: INCBIN "gfx/items/squirtbottle.2bpp.lz"
+SECTION "WailmerPailIcon", ROMX
+WailmerPailIcon:: INCBIN "gfx/items/wailmer_pail.2bpp.lz"
 
 SECTION "VegetablesIcon", ROMX
 VegetablesIcon:: INCBIN "gfx/items/vegetables.2bpp.lz"

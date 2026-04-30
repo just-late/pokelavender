@@ -77,6 +77,10 @@ MACRO bg_event
 	redef {_NUM_BG_EVENTS} += 1
 ENDM
 
+MACRO soil_event
+	bg_event \1, \2, BGEVENT_JUMPSTD, softloamysoil
+ENDM
+
 MACRO def_object_events
 	REDEF _NUM_OBJECT_EVENTS EQUS "_NUM_OBJECT_EVENTS_\@"
 	if !_NARG
