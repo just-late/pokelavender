@@ -228,7 +228,7 @@ ENDM
 	map_const MAGNET_TUNNEL_EAST,                         10, 11 ; 14
 	map_const MOONFLOWER_OUTSKIRTS,                       20, 10 ; 15
 	map_const MOONFLOWER_BIKE_SHOP,						   4,  4 ; 16
-	map_const MOONFLOWER_INDIGO_BASE_1F,				  13,  5 ; 17
+	map_const COBB_BUILDING_1F,				               9,  6 ; 17
 	map_const MOONFLOWER_GANG_APARTMENT_1F,				   5,  4 ; 18
 	map_const MOONFLOWER_GANG_APARTMENT_2F,				   5,  4 ; 19
 	map_const MOONFLOWER_NPC_APARTMENT_1_1F,               5,  4 ; 20

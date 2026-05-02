@@ -12,7 +12,7 @@ MoonflowerCity_MapScriptHeader:
 	warp_event 27, 27, MOONFLOWER_POKECENTER_1F, 1
 	warp_event 19, 17, MOONFLOWER_BIKE_SHOP, 1
 	warp_event 31,  3, ROUTE_2_MOONFLOWER_GATE, 3
-	warp_event  9, 17, MOONFLOWER_INDIGO_BASE_1F, 1
+	warp_event  9, 17, COBB_BUILDING_1F, 1
 	warp_event 13, 17, MOONFLOWER_GANG_APARTMENT_1F, 1
 	warp_event 33, 17, MOONFLOWER_NPC_APARTMENT_1_1F, 1
 	warp_event 33, 27, MOONFLOWER_NPC_APARTMENT_2_1F, 1
@@ -874,7 +874,8 @@ MoonflowerRocketGirlText:
 	done
 
 PokeIndustriesSignText:
-	text "# INDUSTRIES"
+	text "COBB CORP."
+	line "MOONFLOWER BRANCH"
 
 	para "Working for the"
 	line "better of people"
