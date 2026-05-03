@@ -310,6 +310,10 @@ SECTION "MarigoldPort_BlockData", ROMX
 MarigoldPort_BlockData:
 	INCBIN "maps/MarigoldPort.ablk.lz"
 
+SECTION "MarigoldPortLowTide_BlockData", ROMX
+MarigoldPortLowTide_BlockData:
+	INCBIN "maps/MarigoldPortLowTide.ablk.lz"
+
 SECTION "MarigoldGym_BlockData", ROMX
 MarigoldGym_BlockData:
 	INCBIN "maps/MarigoldGym.ablk.lz"
