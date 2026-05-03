@@ -149,7 +149,7 @@
 	tilecoll LEFT_WALL, FLOOR, LEFT_WALL, FLOOR ; 94
 	tilecoll LEFT_WALL, WALL, FLOOR, FLOOR ; 95
 	tilecoll WALL, WALL, FLOOR, RIGHT_WALL ; 96
-	tilecoll TOP_WALL, WALL, FLOOR, WALL ; 97
+	tilecoll WALL, WALL, FLOOR, WALL ; 97
 	tilecoll WALL, FLOOR, WALL, WALL ; 98
 	tilecoll FLOOR, WALL, WALL, WALL ; 99
 	tilecoll WALL, FLOOR, WALL, WALL ; 9a

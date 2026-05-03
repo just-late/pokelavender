@@ -7,11 +7,9 @@ MarigoldPort_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, MarigoldPortFlyPoint
 	callback MAPCALLBACK_TILES, MarigoldPortTideCallback
 	callback MAPCALLBACK_OBJECTS, CameronCallback
-	callback MAPCALLBACK_OBJECTS, MarigoldPortLowTideItemsCallback
-	callback MAPCALLBACK_OBJECTS, MarigoldPortLowTideObjectsCallback
 
     def_warp_events
-	warp_event 61,  9, PLAYERS_HOUSE_2F, 1
+	warp_event 61,  9, MARIGOLD_CAVE_1F, 6
 	warp_event 49,  9, MOONFLOWER_GANG_APARTMENT_2F, 1
 	warp_event 43,  9, MARIGOLD_NPC_HOUSE_1, 1
 	warp_event 51, 15, MARIGOLD_NPC_HOUSE_2, 1
@@ -50,6 +48,8 @@ MarigoldPort_MapScriptHeader:
 	object_event 32, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
 	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
 	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	person_event SPRITE_CHILD, 16, 25, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortBeachKidText, EVENT_MARIGOLD_PORT_HIGH_TIDE
+	person_event SPRITE_TWIN, 18, 19, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortBeachKid2Text, EVENT_MARIGOLD_PORT_HIGH_TIDE
 
 	object_const_def
 	const MARIGOLD_PORT_CAMERON
@@ -82,7 +82,7 @@ CameronCallback:
 	endcallback
 
 MarigoldPortTideCallback:
-	checktime (1 << MORN) | (1 << NITE)
+	checktime (1 << MORN) | (1 << EVE)
 	iftruefwd .LowTide
 	changemapblocks MarigoldPort_BlockData
 	setevent EVENT_MARIGOLD_PORT_HIGH_TIDE
@@ -596,6 +596,16 @@ MarigoldPortNoPictureText:
 MarigoldPortEggPictureText:
 	text "An EGG? My talent"
 	line "is worth more…"
+	done
+
+MarigoldPortBeachKidText:
+	text "Hi! Do you"
+	line "like sand?"
+	done
+
+MarigoldPortBeachKid2Text:
+	text "Hello! I love"
+	line "water #MON!"
 	done
 
 PlayerWalksToBoat1_Movement:

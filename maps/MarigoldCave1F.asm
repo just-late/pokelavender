@@ -4,7 +4,7 @@ MarigoldCave1F_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 21,  5, PLAYERS_HOUSE_2F, 1
+	warp_event 21,  5, ROUTE_3, 3
 	warp_event  3, 25, MARIGOLD_CAVE_2F, 1
 	warp_event 35,  3, MARIGOLD_CAVE_2F, 2
 	warp_event 33,  5, MARIGOLD_CAVE_1F, 5
