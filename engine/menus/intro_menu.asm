@@ -564,6 +564,10 @@ Continue_DisplayGameTime:
 	jmp PrintNum
 
 ProfElmSpeech:
+	call ClearBGPalettes
+    call ClearSprites
+    call ClearTileMap
+	farcall DoIntroText
 	farcall InitClock
 	farcall Special_SetDayOfWeek
 	ld hl, wInitialOptions
@@ -662,6 +666,10 @@ endc
 
 	ld hl, ElmText7
 	jmp PrintText
+
+BeforeYouBeginSpeech:
+	text_far _BeforeYouBeginText
+	text_end
 
 ElmText1:
 	text_far _ElmText1
