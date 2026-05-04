@@ -567,9 +567,10 @@ ProfElmSpeech:
 	call ClearBGPalettes
     call ClearSprites
     call ClearTileMap
-	farcall DoIntroText
 	farcall InitClock
 	farcall Special_SetDayOfWeek
+	ld hl, BeforeYouBeginSpeech
+	call PrintText
 	ld hl, wInitialOptions
 	res COLOR_VARY_OPT, [hl]
 	ld c, 31
