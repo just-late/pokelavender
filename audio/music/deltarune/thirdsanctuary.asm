@@ -59,9 +59,31 @@ Music_ThirdSanctuary_Ch1:
 	note_type 12, 15, 8
 	rest 4
 	octave 4
-	sound_call .sub8
+	sound_call .sub9
+	rest 4
+	octave 4
+	note C#, 2
 	octave 3
+	note G#, 2
+	note F#, 2
+	note G#, 2
+	octave 4
+	volume_envelope 15, 1
+	note C#, 2
+	volume_envelope 15, 8
+	note C#, 2
+	octave 3
+	note G#, 2
+	note F#, 2
+	octave 4
+	note F_, 2
 	note_type 12, 15, 8
+	rest 4
+	note D#, 2
+	note F_, 2
+	note D#, 2
+	note F_, 2
+	octave 3
 	rest 16
 	rest 16
 	rest 16
@@ -73,9 +95,6 @@ Music_ThirdSanctuary_Ch1:
 	rest 16
 	rest 16
 	rest 16
-	rest 16
-	rest 16
-	rest 2
 	sound_loop 0, .mainLoop
 
 .sub1:
@@ -96,7 +115,8 @@ Music_ThirdSanctuary_Ch1:
 	sound_ret
 
 .sub2:
-	tempo 128
+	duty_cycle 2
+	tempo 116
 	note C#, 2
 	octave 3
 	note G#, 2
@@ -215,6 +235,23 @@ Music_ThirdSanctuary_Ch1:
 	note G#, 2
 	sound_ret
 
+.sub9:
+	note C#, 2
+	octave 3
+	note G#, 2
+	note F#, 2
+	note G#, 2
+	octave 4
+	volume_envelope 15, 1
+	note C#, 2
+	volume_envelope 15, 8
+	note C#, 2
+	octave 3
+	note G#, 2
+	note F#, 2
+	note G#, 2
+	sound_ret
+
 Music_ThirdSanctuary_Ch2:
 	note_type 12, 15, 8
 .mainLoop:
@@ -254,17 +291,29 @@ Music_ThirdSanctuary_Ch2:
 	note_type 12, 12, 8
 	rest 16
 	rest 2
-	sound_call .sub4
-	octave 3
+	sound_call .sub9
 	note_type 12, 12, 8
 	rest 4
-	sound_call .sub4
 	octave 3
+	sound_call .sub9
 	note_type 12, 12, 8
 	rest 4
+	octave 3
 	sound_call .sub7
 	octave 3
 	note_type 12, 12, 8
+	rest 4
+	sound_call .sub8
+	note_type 12, 12, 8
+	rest 4
+	octave 2
+	note G#, 2
+	octave 3
+	note C#, 2
+	octave 2
+	note G#, 2
+	octave 3
+	note C#, 2
 	rest 16
 	rest 16
 	rest 16
@@ -276,10 +325,22 @@ Music_ThirdSanctuary_Ch2:
 	rest 16
 	rest 16
 	rest 16
-	rest 16
-	rest 16
-	rest 2
 	sound_loop 0, .mainLoop
+
+.sub1:
+	note F#, 2
+	note C#, 2
+	note D#, 2
+	note C#, 2
+	volume_envelope 8, 1
+	note F#, 2
+	volume_envelope 8, 8
+	note F#, 2
+	note C#, 2
+	octave 2
+	note A#, 2
+	note G#, 2
+	sound_ret
 
 .sub2:
 	note F#, 2
@@ -313,7 +374,7 @@ Music_ThirdSanctuary_Ch2:
 	note F_, 2
 	sound_ret
 
-.sub1:
+.sub4:
 	note F#, 2
 	note C#, 2
 	note D#, 2
@@ -362,21 +423,6 @@ Music_ThirdSanctuary_Ch2:
 	note F_, 2
 	sound_ret
 
-.sub4:
-	note F#, 2
-	note C#, 2
-	note D#, 2
-	note C#, 2
-	volume_envelope 8, 1
-	note F#, 2
-	volume_envelope 8, 8
-	note F#, 2
-	note C#, 2
-	octave 2
-	note A#, 2
-	note G#, 2
-	sound_ret
-
 .sub7:
 	note F#, 2
 	note C#, 2
@@ -394,17 +440,49 @@ Music_ThirdSanctuary_Ch2:
 	note F_, 2
 	sound_ret
 
+.sub8:
+	note F#, 2
+	note C#, 2
+	note D#, 2
+	note C#, 2
+	volume_envelope 8, 1
+	note F#, 2
+	volume_envelope 8, 8
+	note F#, 2
+	note C#, 2
+	octave 2
+	note G#, 2
+	octave 3
+	note G_, 2
+	octave 2
+	sound_ret
+
+.sub9:
+	note F#, 2
+	note C#, 2
+	note D#, 2
+	note C#, 2
+	volume_envelope 8, 1
+	note F#, 2
+	volume_envelope 8, 8
+	note F#, 2
+	note C#, 2
+	octave 2
+	note A#, 2
+	note G#, 2
+	sound_ret
+
 Music_ThirdSanctuary_Ch3:
 	note_type 12, 1, 0
 .mainLoop:
 	rest 16
 	rest 16
-	rest 16
-	rest 16
-	rest 8
-	rest 8
-	rest 8
 	octave 2
+	rest 16
+	rest 16
+	rest 8
+	rest 8
+	rest 8
 	note A#, 2
 	rest 16
 	rest 16
@@ -431,6 +509,14 @@ Music_ThirdSanctuary_Ch3:
 	rest 16
 	rest 16
 	rest 16
+	rest 12
+	octave 2
+	note A#, 2
+	rest 16
+	rest 4
+	note A#, 2
+	rest 16
+	octave 5
 	rest 16
 	rest 16
 	rest 16
@@ -441,10 +527,7 @@ Music_ThirdSanctuary_Ch3:
 	rest 16
 	rest 16
 	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
+	rest 12
 	sound_loop 0, .mainLoop
 
 Music_ThirdSanctuary_Ch4:
@@ -489,9 +572,18 @@ Music_ThirdSanctuary_Ch4:
 	sound_call .sub2
 	drum_speed 12
 	octave 5
-	sound_call .sub2
-	octave 4
+	sound_call .sub3
+	octave 5
+	sound_call .sub3
 	drum_speed 12
+	octave 5
+	drum_note 6, 2
+	octave 4
+	drum_note 12, 2
+	octave 5
+	drum_note 1, 2
+	drum_note 6, 2
+	octave 4
 	rest 16
 	rest 16
 	rest 16
@@ -503,8 +595,6 @@ Music_ThirdSanctuary_Ch4:
 	rest 16
 	rest 16
 	rest 16
-	rest 16
-	rest 14
 	sound_loop 0, .mainLoop
 
 .sub1:
@@ -527,6 +617,25 @@ Music_ThirdSanctuary_Ch4:
 	sound_ret
 
 .sub2:
+	drum_note 6, 2
+	drum_note 1, 2
+	drum_note 6, 2
+	drum_note 1, 2
+	drum_note 6, 2
+	drum_note 6, 2
+	octave 4
+	drum_note 12, 2
+	octave 5
+	drum_note 6, 2
+	drum_note 6, 2
+	octave 4
+	drum_note 12, 2
+	octave 5
+	drum_note 1, 1
+	drum_note 1, 1
+	sound_ret
+
+.sub3:
 	drum_note 6, 2
 	drum_note 1, 2
 	drum_note 6, 2
