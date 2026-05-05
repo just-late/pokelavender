@@ -211,6 +211,7 @@
 	const SPRITE_DITTO_TILES_2 ; cf
 	const SPRITE_TAUROS_OW ; d0
 	const SPRITE_INNKEEPER ; d1
+	const SPRITE_CRYS_RUN  ; d2
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

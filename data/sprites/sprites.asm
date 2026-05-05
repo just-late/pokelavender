@@ -216,4 +216,5 @@ SpriteHeaders:
 	overworld_sprite DittoTiles2SpriteGFX, STANDING_SPRITE, PAL_OW_BLUE_DITTO
 	overworld_sprite TaurosOWSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite InnkeeperSpriteGFX, STANDING_SPRITE, PAL_OW_RED
+	overworld_sprite CrysRunSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	assert_table_length NUM_OVERWORLD_SPRITES
