@@ -523,7 +523,7 @@ ENDM
 	map_const ROUTE_27,                                   40,  9 ;  3
 	map_const GEMROOT_TOWN,                               18, 18 ;  4
 	map_const GEMROOT_NICKNAME_SPEECH_HOUSE,               4,  4 ;  5
-	map_const GEMROOT_COMMUNITY_CENTER_1F,                 6,  6 ;  6
+	map_const GEMROOT_COMMUNITY_CENTER_1F,                12,  6 ;  6
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
 	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  8
 	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
