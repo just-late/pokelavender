@@ -7,16 +7,16 @@ ENDM
 Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark  28, 108, GemrootTownName
-	landmark  44, 108, Route1Name
-	landmark  44,  92, GlittervineTownName
-	landmark  56,  92, Route2Name
-	landmark  60, 100, MoonflowerCityName
-	landmark  68, 100, Route3Name
-	landmark  70,  98, OvercastGroveName
-	landmark  68,  92, MarigoldCaveName
-	landmark  68, 108, MarigoldPortName
-	landmark 100, 124, BlossomCityName
+	landmark  76,  92, GemrootTownName
+	landmark  84,  88, Route1Name
+	landmark  84,  76, GlittervineTownName
+	landmark  92,  76, Route2Name
+	landmark 100,  76, MoonflowerCityName
+	landmark 100,  92, Route3Name
+	landmark 104,  91, OvercastGroveName
+	landmark 108, 100, MarigoldCaveName
+	landmark 108, 116, MarigoldPortName
+	landmark  52, 116, BlossomCityName
 	landmark 124,  68, MountainPassName
 	landmark 116,  52, GraniteVillageName
 	assert_table_length KANTO_LANDMARK
