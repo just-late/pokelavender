@@ -622,3 +622,6 @@ TaurosOWSpriteGFX:: INCBIN "gfx/sprites/tauros.2bpp.lz"
 
 SECTION "InnkeeperSpriteGFX", ROMX
 InnkeeperSpriteGFX:: INCBIN "gfx/sprites/innkeeper.2bpp.lz"
+
+SECTION "CrysRunSpriteGFX", ROMX
+CrysRunSpriteGFX:: INCBIN "gfx/sprites/crys_run.2bpp.lz"

@@ -4,37 +4,37 @@ GemrootCommunityCenter1F_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 5, 11, GEMROOT_TOWN, 3  ; 1
-	warp_event 6, 11, GEMROOT_TOWN, 3  ; 2
+	warp_event 17, 11, GEMROOT_TOWN, 3  ; 1
+	warp_event 18, 11, GEMROOT_TOWN, 3  ; 2
 
     def_coord_events
-	coord_event  5,  5, 0, PlayerWalksToAnabel1
-	coord_event  6,  5, 0, PlayerWalksToAnabel2
-	coord_event  5,  4, 0, PickYourMonScript
-	coord_event  6,  4, 0, PickYourMonScript
-	coord_event  5,  4, 1, AnabelChallengeTrigger1
-    coord_event  6,  4, 1, AnabelChallengeTrigger2
+	coord_event 17,  5, 0, PlayerWalksToAnabel1
+	coord_event 18,  5, 0, PlayerWalksToAnabel2
+	coord_event 17,  4, 0, PickYourMonScript
+	coord_event 18,  4, 0, PickYourMonScript
+;	coord_event 17,  4, 1, AnabelChallengeTrigger1
+;	coord_event 18,  4, 1, AnabelChallengeTrigger2
 
     def_bg_events
-	bg_event  0, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event  1, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event  2, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event  3, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event  9, 8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
-	bg_event 10, 8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
-	bg_event  8, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event  9, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event 10, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event 11, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 12,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
+	bg_event 13,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
+	bg_event 14,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
+	bg_event 15,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
+	bg_event 21,  8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
+	bg_event 22,  8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
+	bg_event 20,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 21,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 22,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 23,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 
     db 7 ; object events
-	person_event  SPRITE_ELDER,  1,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GemrootElderScript, -1
-	object_event  4,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
-	object_event  5,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
-	object_event  6,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
-	person_event  SPRITE_ANABEL, 3,  4, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER
-	person_event  SPRITE_SAGE, 6,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterSageText, -1
-	person_event  SPRITE_POKEFAN_F, 6,  1, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterLadyText, -1
+	person_event SPRITE_ELDER,  1, 19, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GemrootElderScript, -1
+	object_event 16,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
+	object_event 17,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
+	object_event 18,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
+	person_event SPRITE_ANABEL,  3, 16, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER
+	person_event SPRITE_SAGE,  6, 21, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterSageText, -1
+	person_event SPRITE_POKEFAN_F,  6, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterLadyText, -1
 
     object_const_def
     const GEMROOT_COMMUNITYCENTER_ELDER
@@ -44,9 +44,9 @@ GemrootCommunityCenter1F_MapScriptHeader:
     const GEMROOT_COMMUNITYCENTER_ANABEL
 
 PlayerWalksToAnabel1:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .skip
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .skip
+;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_up
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
@@ -55,9 +55,9 @@ PlayerWalksToAnabel1:
     end
 
 PlayerWalksToAnabel2:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .skip
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .skip
+;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_left
@@ -278,8 +278,8 @@ FirePokeBallScript:
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
-    pokepic CHARMANDER
-    cry CHARMANDER
+    pokepic CYNDAQUIL
+    cry CYNDAQUIL
     waitbutton
     closepokepic
     opentext
@@ -296,16 +296,16 @@ FirePokeBallScript:
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
-    opentext
-    writetext AnabelTakesTotodileText
-    waitbutton
-    closetext
-    disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;   opentext
+;   writetext AnabelTakesTotodileText
+;   waitbutton
+;   closetext
+;   disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -511,36 +511,40 @@ ElderAdventureText:
     done
 
 ElderGemrootTraditionText:
-    text "ELDER: Hello,"
-    line "children. Today"
-    cont "is the day"
+    text "ELDER: Good to"
+    line "see you, <PLAYER>!"
 
-    para "you get to pick"
-    line "your first"
-    cont "#MON."
+    para "You're probably"
+    line "wondering why I"
+    cont "called you."
 
-    para "I'm very excited,"
-    line "as this is the"
+    para "You see, I have"
+    line "an acquaintance"
+    cont "named PROF. ASPEN."
 
-    para "100th year of"
-    line "holding up our"
+    para "He studies"
+    line "ancient #MON"
+    cont "mythology,"
 
-    para "ancient tradition"
-    line "here in Gemroot"
-    cont "Town."
+    para "and he dropped a"
+    line "parcel off for"
+    cont "me in GLITTERVINE"
+    cont "TOWN's MART."
 
-    para "Ah, the tradition?"
-    line "Every year, the"
+    para "In my old age,"
+    line "I can't get it"
+    cont "myself."
 
-    para "ELDER of the town"
-    line "chooses two"
+    para "That's why"
+    line "I need you to!"
 
-    para "young children to"
-    line "become #MON"
-    cont "trainers."
+    para "Pick one of these"
+    line "#MON I have"
+    cont "on the table,"
 
-    para "Now then, <PLAYER>"
-    line "pick a #MON."
+    para "and take it with"
+    line "you to protect"
+    cont "you on ROUTE 1."
     done
 
 ElderWaitPickMonText:
@@ -569,10 +573,9 @@ GemrootCommunityFoodText:
 
 GemrootAncientMuralText:
     text "It's a mural"
-    line "depicting two"
+    line "depicting four"
 
-    para "ancient dragon"
-    line "#MON."
+    para "ancient #MON."
     done
 
 GemrootHistoryBooksText:
