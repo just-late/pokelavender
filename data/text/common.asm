@@ -3237,31 +3237,6 @@ _BeforeYouBeginText::
 	para "you were scammed."
 	line "Get your money"
 	cont "back immediately."
-	
-	para "In the world you"
-	line "are about to"
-	cont "enter, you will"
-	cont "embark on a grand"
-	cont "adventure where"
-	cont "you are the hero."
-
-	para "Avoid your"
-	line "emulator's"
-	cont "speedup key,"
-
-	para "and take your time"
-	line "exploring. There"
-	cont "is no rush."
-	
-	para "Speak to people"
-	line "wherever you go,"
-	cont "be it forests,"
-	cont "towns, or caves."
-
-	para "With that in mind,"
-	line "you are ready to"
-	cont "enter the ATUVA"
-	cont "REGION!"
 	done
 
 SECTION "_ElmText1", ROMX
