@@ -63,6 +63,9 @@ SpriteAnimFrameData:
 	dw .Frameset_DexSlowpoke
 	dw .Frameset_TownMapFly
 	dw .Frameset_GreenWalk
+	dw .Frameset_PurpleWalk
+	dw .Framset_PinkWalk
+	dw .Frameset_BrownWalk
 	assert_table_length NUM_SPRITE_ANIM_FRAMESETS
 
 .Frameset_00:
@@ -118,6 +121,27 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_GREEN_WALK_2,  8
 	oamframe SPRITE_ANIM_OAMSET_GREEN_WALK_1,  8
 	oamframe SPRITE_ANIM_OAMSET_GREEN_WALK_2,  8, OAM_X_FLIP
+	oamrestart
+
+.Frameset_PurpleWalk:
+	oamframe SPRITE_ANIM_OAMSET_PURPLE_WALK_1,  8
+	oamframe SPRITE_ANIM_OAMSET_PURPLE_WALK_2,  8
+	oamframe SPRITE_ANIM_OAMSET_PURPLE_WALK_1,  8
+	oamframe SPRITE_ANIM_OAMSET_PURPLE_WALK_2,  8, OAM_X_FLIP
+	oamrestart
+
+.Framset_PinkWalk:
+	oamframe SPRITE_ANIM_OAMSET_PINK_WALK_1, 8
+	oamframe SPRITE_ANIM_OAMSET_PINK_WALK_2, 8
+	oamframe SPRITE_ANIM_OAMSET_PINK_WALK_1, 8
+	oamframe SPRITE_ANIM_OAMSET_PINK_WALK_2, 8, OAM_X_FLIP
+	oamrestart
+
+.Frameset_BrownWalk:
+	oamframe SPRITE_ANIM_OAMSET_BROWN_WALK_1, 8
+	oamframe SPRITE_ANIM_OAMSET_BROWN_WALK_2, 8
+	oamframe SPRITE_ANIM_OAMSET_BROWN_WALK_1, 8
+	oamframe SPRITE_ANIM_OAMSET_BROWN_WALK_1, 8, OAM_X_FLIP
 	oamrestart
 
 .Frameset_TextEntryCursor:
