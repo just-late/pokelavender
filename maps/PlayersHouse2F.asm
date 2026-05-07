@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
+	warp_event  7,  0, BLOSSOM_CITY, 1
 
 	def_coord_events
 
@@ -120,6 +120,8 @@ DebugDudeScript:
 ;	setevent EVENT_DOING_BLAZE_QUEST
 ;	setevent EVENT_ALWAYS_SET
 ;	setmapscene MOONFLOWER_CITY, $2
+	setflag ENGINE_POKEGEAR
+	setflag ENGINE_MAP_CARD
 .End:
 	closetext
 	end
