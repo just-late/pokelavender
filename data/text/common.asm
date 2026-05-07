@@ -2425,8 +2425,8 @@ _AskItemMoveText::
 
 SECTION "Text_AreYouABoyOrAreYouAGirl", ROMX
 Text_AreYouABoyOrAreYouAGirl::
-	text "Which photo is on"
-	line "your TRAINER CARD?"
+	text "Choose your"
+	line "character."
 	done
 
 SECTION "Text_SoThisIsYou", ROMX

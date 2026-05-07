@@ -977,18 +977,24 @@ ShrinkPlayer:
 	ld hl, Shrink2Pic
 	call ShrinkFrame
 
-	ld c, 16
-	call DelayFrames
+;	ld c, 16
+;	call DelayFrames
 
-	hlcoord 6, 4
-	lb bc, 7, 7
-	call ClearBox
+;	ld hl, Shrink3Pic
+;	call ShrinkFrame
 
-	ld c, 6
-	call DelayFrames
+;	ld c, 16
+;	call DelayFrames
 
-	call Intro_PlacePlayerSprite
-	call LoadFrame
+;	hlcoord 6, 4
+;	lb bc, 7, 7
+;	call ClearBox
+
+;	ld c, 6
+;	call DelayFrames
+
+;	call Intro_PlacePlayerSprite
+;	call LoadFrame
 
 	ld c, 50
 	call DelayFrames
