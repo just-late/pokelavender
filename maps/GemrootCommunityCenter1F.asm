@@ -68,8 +68,8 @@ PlayerWalksToAnabel2:
     end
 
 PickYourMonScript:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .skip
+;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .skip
     showtext ElderWaitPickMonText
     applyonemovement PLAYER, step_up
 .skip
@@ -273,8 +273,8 @@ GemrootAnabelScript:
     end
 
 FirePokeBallScript:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .ItsAPokemonScript3
+;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .ItsAPokemonScript3
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -335,8 +335,8 @@ AnabelTakesTotodileText:
     done
 
 WaterPokeBallScript:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .ItsAPokemonScript2
+;    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .ItsAPokemonScript2
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -358,22 +358,22 @@ WaterPokeBallScript:
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
-    opentext
-    writetext AnabelTakesTurtwigText
-    waitbutton
-    closetext
-    disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
-    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+;  applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;    opentext
+;    writetext AnabelTakesTurtwigText
+;    waitbutton
+;    closetext
+;    disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+;    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
     turnobject GEMROOT_COMMUNITYCENTER_ELDER, UP
     opentext
     writetext ElderAdventureText
@@ -399,8 +399,8 @@ AnabelTakesTurtwigText:
     done
 
 GrassPokeBallScript:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .ItsAPokemonScript1
+;    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;    iftruefwd .ItsAPokemonScript1
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -422,15 +422,15 @@ GrassPokeBallScript:
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
-    opentext
-    writetext AnabelTakesCyndaquilText
-    waitbutton
-    waitbutton
-    closetext
-    disappear GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;    opentext
+;    writetext AnabelTakesCyndaquilText
+;    waitbutton
+;    waitbutton
+;    closetext
+;    disappear GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+;    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -491,23 +491,20 @@ ChoseMonText:
     done
 
 ElderAdventureText:
-    text "Well, children,"
-    line "You are about to" 
-    
-    para "set out on the"
-    line "biggest journey of"
-    cont "your life."
+    text "Remember, to"
+    line "get to GLITTERVINE"
+    cont "TOWN, you need to"
+    cont "follow ROUTE 1."
 
-    para "It will be full of"
-    line "challenges to"
-    cont "overcome."
+    para "Once you get"
+    line "there, just stop"
+    cont "by the mart."
 
-    para "But it will also"
-    line "be full of good,"
-    cont "happy times to"
-    cont "remember."
+    para "The clerk will"
+    line "know who you are."
 
-    para "I wish you luck."
+    para "Thanks for your"
+    line "help, <PLAYER>!"
     done
 
 ElderGemrootTraditionText:
@@ -573,7 +570,7 @@ GemrootCommunityFoodText:
 
 GemrootAncientMuralText:
     text "It's a mural"
-    line "depicting four"
+    line "depicting two"
 
     para "ancient #MON."
     done
