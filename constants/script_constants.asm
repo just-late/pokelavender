@@ -254,8 +254,6 @@ DEF NUM_FRUIT_TREES EQU const_value - 1
 	const HIDDENGROTTO_LAKE_OF_RAGE            ; 10
 	const HIDDENGROTTO_BELLCHIME_TRAIL         ; 11
 	const HIDDENGROTTO_ROUTE_44                ; 12
-	const HIDDENGROTTO_ROUTE_45                ; 13
-	const HIDDENGROTTO_ROUTE_46                ; 14
 	const HIDDENGROTTO_SINJOH_RUINS            ; 15
 	const HIDDENGROTTO_SILVER_CAVE             ; 16
 DEF NUM_HIDDEN_GROTTOES EQU const_value - 1

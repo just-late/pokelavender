@@ -9,7 +9,6 @@ OlivinePokeCenter1F_BlockData:
 SnowtopPokeCenter1F_BlockData:
 CianwoodPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
-BlackthornPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
 ShamoutiPokeCenter1F_BlockData:
 Route3PokeCenter1F_BlockData:
@@ -35,7 +34,6 @@ GlittervineMart_BlockData:
 MoonflowerMart_BlockData:
 EcruteakMart_BlockData:
 OlivineMart_BlockData:
-BlackthornMart_BlockData:
 ViridianMart_BlockData:
 PewterMart_BlockData:
 VermilionMart_BlockData:
@@ -129,9 +127,6 @@ GemrootNicknameSpeechHouse_BlockData:
 	INCBIN "maps/House3.ablk.lz"
 
 MahoganyRedGyaradosSpeechHouse_BlockData:
-BlackthornDragonSpeechHouse_BlockData:
-BlackthornEmysHouse_BlockData:
-MoveDeletersHouse_BlockData:
 LakeOfRageMagikarpHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
@@ -906,18 +901,6 @@ IcePathB2FBlackthornSide_BlockData:
 SECTION "IcePathB3F_BlockData", ROMX
 IcePathB3F_BlockData:
 	INCBIN "maps/IcePathB3F.ablk.lz"
-
-SECTION "BlackthornGym1F_BlockData", ROMX
-BlackthornGym1F_BlockData:
-	INCBIN "maps/BlackthornGym1F.ablk.lz"
-
-SECTION "BlackthornGym2F_BlockData", ROMX
-BlackthornGym2F_BlockData:
-	INCBIN "maps/BlackthornGym2F.ablk.lz"
-
-SECTION "BlackthornCity_BlockData", ROMX
-BlackthornCity_BlockData:
-	INCBIN "maps/BlackthornCity.ablk.lz"
 
 SECTION "DragonsDenB1F_BlockData", ROMX
 DragonsDenB1F_BlockData:
@@ -1870,14 +1853,6 @@ Route43Raining_BlockData:
 SECTION "Route44_BlockData", ROMX
 Route44_BlockData:
 	INCBIN "maps/Route44.ablk.lz"
-
-SECTION "Route45_BlockData", ROMX
-Route45_BlockData:
-	INCBIN "maps/Route45.ablk.lz"
-
-SECTION "Route46_BlockData", ROMX
-Route46_BlockData:
-	INCBIN "maps/Route46.ablk.lz"
 
 SECTION "Route47_BlockData", ROMX
 Route47_BlockData:

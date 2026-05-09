@@ -7,7 +7,6 @@ MapGroupRoofs:
 	db ROOF_AZALEA   ; 2 (Mahogany Town)
 	db -1            ; 3
 	db ROOF_VIOLET   ; 4 (Ecruteak City)
-	db ROOF_AZALEA   ; 5 (Blackthorn City)
 	db -1            ; 6
 	db ROOF_AZALEA   ; 7 (Granite Village)
 	db ROOF_AZALEA   ; 8 (Azalea Town)

@@ -210,13 +210,6 @@
 	wildmon 30, POLIWHIRL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_45
-	db 2 percent ; encounter rate
-	wildmon 20, MAGIKARP
-	wildmon 15, MAGIKARP
-	wildmon 5, MAGIKARP
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_47
 	db 3 percent ; encounter rate
 	wildmon 20, TENTACOOL
@@ -292,13 +285,6 @@
 	wildmon 25, MAGIKARP
 	wildmon 20, MAGIKARP
 	wildmon 25, GYARADOS
-	end_water_wildmons
-
-	def_water_wildmons BLACKTHORN_CITY
-	db 4 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE

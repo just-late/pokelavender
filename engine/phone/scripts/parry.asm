@@ -14,7 +14,7 @@ ParryPhoneScript1:
 	farsjump ParryBattleWithMeScript
 
 .WantsBattle:
-	getlandmarkname ROUTE_45, $2
+	getlandmarkname ROUTE_1, $2
 	farsjump ParryHaventYouGottenToScript
 
 ParryPhoneScript2:
@@ -35,6 +35,6 @@ ParryFridayDay:
 	setflag ENGINE_PARRY_FRIDAY_AFTERNOON
 
 ParryWantsBattle:
-	getlandmarkname ROUTE_45, $2
+	getlandmarkname ROUTE_1, $2
 	setflag ENGINE_PARRY_READY_FOR_REMATCH
 	farsjump PhoneScript_WantsToBattle_Male

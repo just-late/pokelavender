@@ -1736,62 +1736,6 @@
 	wildmon 34, GLIGAR
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_45
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 33, GEODUDE
-	wildmon 35, GRAVELER
-	wildmon 34, DONPHAN
-	wildmon 34, URSARING
-	wildmon 34, DONPHAN
-	wildmon 36, SKARMORY
-	wildmon 37, SKARMORY
-	; day
-	wildmon 33, GEODUDE
-	wildmon 35, GRAVELER
-	wildmon 34, URSARING
-	wildmon 34, DONPHAN
-	wildmon 34, URSARING
-	wildmon 36, SKARMORY
-	wildmon 37, SKARMORY
-	; nite
-	wildmon 33, GEODUDE
-	wildmon 35, GRAVELER
-	wildmon 34, GLIGAR
-	wildmon 34, GLIGAR
-	wildmon 34, GRAVELER
-	wildmon 36, GRAVELER
-	wildmon 37, GRAVELER
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_46
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 2, GEODUDE
-	wildmon 2, SPEAROW
-	wildmon 3, GEODUDE
-	wildmon 2, PHANPY
-	wildmon 2, RATTATA
-	wildmon 3, RATTATA
-	wildmon 3, RATTATA
-	; day
-	wildmon 2, GEODUDE
-	wildmon 2, SPEAROW
-	wildmon 3, GEODUDE
-	wildmon 2, JIGGLYPUFF
-	wildmon 2, RATTATA
-	wildmon 3, RATTATA
-	wildmon 3, RATTATA
-	; nite
-	wildmon 2, GEODUDE
-	wildmon 2, RATTATA
-	wildmon 3, GEODUDE
-	wildmon 2, RATTATA
-	wildmon 2, RATTATA
-	wildmon 3, RATTATA
-	wildmon 3, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_47
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

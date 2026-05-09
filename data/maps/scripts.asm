@@ -11,7 +11,6 @@ INCLUDE "maps/CianwoodPokeCenter1F.asm"
 SECTION "Pokemon Center Scripts 2", ROMX
 
 INCLUDE "maps/MahoganyPokeCenter1F.asm"
-INCLUDE "maps/BlackthornPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 INCLUDE "maps/ViridianPokeCenter1F.asm"
 INCLUDE "maps/PewterPokeCenter1F.asm"
@@ -440,22 +439,11 @@ INCLUDE "maps/IcePathB2FBlackthornSide.asm"
 INCLUDE "maps/IcePathB3F.asm"
 
 
-SECTION "Blackthorn Scripts", ROMX
-
-INCLUDE "maps/BlackthornCity.asm"
-INCLUDE "maps/BlackthornMart.asm"
-INCLUDE "maps/BlackthornDragonSpeechHouse.asm"
-INCLUDE "maps/BlackthornEmysHouse.asm"
-INCLUDE "maps/MoveDeletersHouse.asm"
-
-
 SECTION "Dragon's Den Scripts", ROMX
 
 INCLUDE "maps/DragonsDen1F.asm"
 INCLUDE "maps/DragonsDenB1F.asm"
 INCLUDE "maps/DragonShrine.asm"
-INCLUDE "maps/BlackthornGym1F.asm" ; shares text with DragonsDen1F.asm
-INCLUDE "maps/BlackthornGym2F.asm"
 
 
 SECTION "Victory Road Scripts", ROMX
@@ -1045,8 +1033,6 @@ INCLUDE "maps/Route44.asm"
 
 SECTION "Routes 45-47 Scripts", ROMX
 
-INCLUDE "maps/Route45.asm"
-INCLUDE "maps/Route46.asm"
 INCLUDE "maps/Route47.asm"
 
 

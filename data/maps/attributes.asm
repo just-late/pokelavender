@@ -57,9 +57,6 @@ ENDM
 	map_attributes LakeOfRage, LAKE_OF_RAGE, $5, SOUTH
 	connection south, Route43, ROUTE_43, 5
 
-	map_attributes BlackthornCity, BLACKTHORN_CITY, $71, SOUTH
-	connection south, Route45, ROUTE_45, -2
-
 	map_attributes SilverCaveOutside, SILVER_CAVE_OUTSIDE, $71, EAST
 	connection east, Route28, ROUTE_28, 6
 
@@ -73,20 +70,13 @@ ENDM
 	map_attributes Route28, ROUTE_28, $71, WEST
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -6
 
-	connection north, Route46, ROUTE_46, 10
-	connection west, GlittervineTown, GLITTERVINE_TOWN, 0
-	connection east, GemrootTown, GEMROOT_TOWN, 0
-
 	map_attributes Route30, ROUTE_30, $5, NORTH | SOUTH
 	connection north, Route31, ROUTE_31, -10
-	connection south, GlittervineTown, GLITTERVINE_TOWN, -5
 
 	map_attributes Route31, ROUTE_31, $5, SOUTH | WEST
 	connection south, Route30, ROUTE_30, 10
-	connection west, MoonflowerCity, MOONFLOWER_CITY, -9
 
 	map_attributes Route32, ROUTE_32, $5, NORTH | SOUTH | WEST | EAST
-	connection north, MoonflowerCity, MOONFLOWER_CITY, 0
 	connection west, MagnetTunnelEast, MAGNET_TUNNEL_EAST, 9
 	connection east, CherrygroveBay, CHERRYGROVE_BAY, 12
 
@@ -153,13 +143,6 @@ ENDM
 
 	map_attributes Route44, ROUTE_44, $71, WEST
 	connection west, MahoganyTown, MAHOGANY_TOWN, 0
-
-	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
-	connection north, BlackthornCity, BLACKTHORN_CITY, 2
-	connection west, Route46, ROUTE_46, 37
-
-	map_attributes Route46, ROUTE_46, $5, SOUTH | EAST
-	connection east, Route45, ROUTE_45, -37
 
 	map_attributes BlossomCity, BLOSSOM_CITY, $31, 0
 
@@ -516,13 +499,6 @@ ENDM
 	map_attributes EcruteakDestinyKnotHouse, ECRUTEAK_DESTINY_KNOT_HOUSE, $0, 0
 	map_attributes EcruteakShrineOutside, ECRUTEAK_SHRINE_OUTSIDE, $0, 0
 	map_attributes EcruteakShrineInside, ECRUTEAK_SHRINE_INSIDE, $0, 0
-	map_attributes BlackthornGym1F, BLACKTHORN_GYM_1F, $0, 0
-	map_attributes BlackthornGym2F, BLACKTHORN_GYM_2F, $0, 0
-	map_attributes BlackthornDragonSpeechHouse, BLACKTHORN_DRAGON_SPEECH_HOUSE, $0, 0
-	map_attributes BlackthornEmysHouse, BLACKTHORN_EMYS_HOUSE, $0, 0
-	map_attributes BlackthornMart, BLACKTHORN_MART, $0, 0
-	map_attributes BlackthornPokeCenter1F, BLACKTHORN_POKECENTER_1F, $0, 0
-	map_attributes MoveDeletersHouse, MOVE_DELETERS_HOUSE, $0, 0
 	map_attributes CinnabarPokeCenter1F, CINNABAR_POKECENTER_1F, $0, 0
 	map_attributes Route19FuchsiaGate, ROUTE_19_FUCHSIA_GATE, $0, 0
 	map_attributes SeafoamIslands1F, SEAFOAM_ISLANDS_1F, $9, 0
