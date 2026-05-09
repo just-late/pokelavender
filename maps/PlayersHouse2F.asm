@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, BLOSSOM_CITY, 1
+	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
 
 	def_coord_events
 
@@ -112,7 +112,10 @@ DebugDudeScript:
 	yesorno
 	iffalsefwd .End
 ;	givepoke SPINARAK, PLAIN_FORM, 1,ORAN_BERRY
-	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
+;	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
+	givepoke TURTWIG, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke GROTLE, PLAIN_FORM, 20, ORAN_BERRY
+	givepoke TORTERRA, PLAIN_FORM, 40, ORAN_BERRY
 ;	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
 ;	givemoney $0, 15000
 ;	givetmhm HM_ROCK_SMASH

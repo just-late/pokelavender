@@ -280,7 +280,7 @@ InitPokegearTilemap:
 	jmp Pokegear_UpdateClock
 
 .switch
-	db " Switch▶@"
+	db " SWITCH▶@"
 
 .Map:
 	call PokegearMap
@@ -748,7 +748,7 @@ PokegearMap_UpdateCursorPosition:
 	ret
 
 TownMap_GetJohtoLandmarkLimits:
-	lb de, MARIGOLD_PORT, GEMROOT_TOWN
+	lb de, BLOSSOM_CITY, GEMROOT_TOWN
 	ret
 
 TownMap_GetKantoLandmarkLimits:
