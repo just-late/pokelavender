@@ -11,12 +11,12 @@ if !DEF(MONOCHROME)
 	RGB 00, 00, 00
 ; water and shores
 	RGB 20, 15, 03
-	RGB 12, 25, 01
+	RGB 15, 23, 06
 	RGB 13, 12, 31
 	RGB 18, 19, 31
 ; land and mountains
 	RGB 22, 31, 10
-	RGB 12, 25, 01
+	RGB 15, 23, 06
 	RGB 24, 18, 07
 	RGB 20, 15, 03
 ; water routes
@@ -25,19 +25,19 @@ if !DEF(MONOCHROME)
 	RGB 13, 12, 31
 	RGB 18, 19, 31
 ; cities
-	RGB 31, 19, 24
-	RGB 12, 25, 01
+	RGB 27, 14, 02
+	RGB 15, 23, 06
 	RGB 30, 10, 06
 	RGB 04, 04, 04
 ; land routes
-	RGB 31, 31, 31
-	RGB 12, 25, 01
+	RGB 29, 29, 22
+	RGB 15, 23, 06
 	RGB 05, 14, 00
 	RGB 04, 04, 04
 ; decorations
-	RGB 31, 31, 07
-	RGB 12, 25, 01
-	RGB 24, 18, 07
+	RGB 31, 21, 10
+	RGB 15, 23, 06
+	RGB 26, 15, 05
 	RGB 04, 04, 04
 else
 	MONOCHROME_RGB_FOUR
