@@ -114,17 +114,18 @@ DebugDudeScript:
 ;	givepoke SPINARAK, PLAIN_FORM, 1,ORAN_BERRY
 ;	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
 	givepoke MUDKIP, PLAIN_FORM, 5, ORAN_BERRY
-	givepoke MARSHTOMP, PLAIN_FORM, 20, ORAN_BERRY
-	givepoke SWAMPERT, PLAIN_FORM, 40, ORAN_BERRY
+	givepoke TURTWIG, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke CYNDAQUIL, PLAIN_FORM, 5, ORAN_BERRY
 ;	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
 ;	givemoney $0, 15000
 ;	givetmhm HM_ROCK_SMASH
-	verbosegivekeyitem WAILMER_PAIL
+;	verbosegivekeyitem WAILMER_PAIL
 ;	setevent EVENT_DOING_BLAZE_QUEST
 ;	setevent EVENT_ALWAYS_SET
 ;	setmapscene MOONFLOWER_CITY, $2
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
+	setflag ENGINE_POKEDEX
 .End:
 	closetext
 	end
