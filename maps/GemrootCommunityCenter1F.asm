@@ -319,6 +319,7 @@ FirePokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    setmapscene GEMROOT_TOWN, $1
     end
 
 .ItsAPokemonScript3
@@ -382,6 +383,7 @@ WaterPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    setmapscene GEMROOT_TOWN, $1
     end
 
 .ItsAPokemonScript2
@@ -442,6 +444,7 @@ GrassPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    setmapscene GEMROOT_TOWN, $1
     end
 
 .ItsAPokemonScript1
