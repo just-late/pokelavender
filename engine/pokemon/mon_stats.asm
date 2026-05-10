@@ -122,13 +122,13 @@ endr
 	ret
 
 AllStatNames:
-	db   "Health<NEXT>"
+	db   "HEALTH<NEXT>"
 MostStatNames:
-	db   "Attack"
-	next "Defense"
-	next "Sp.Atk"
-	next "Sp.Def"
-	next "Speed"
+	db   "ATTACK"
+	next "DEFENSE"
+	next "SP.ATK"
+	next "SP.DEF"
+	next "SPEED"
 	next "@"
 
 PrintStatDifferences:

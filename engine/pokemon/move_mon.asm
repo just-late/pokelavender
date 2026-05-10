@@ -735,11 +735,11 @@ Special_HyperTrain:
 
 .Strings:
 	db "HP@"
-	db "Speed@"
-	db "Attack@"
-	db "Sp.Atk@"
-	db "Defense@"
-	db "Sp.Def@"
+	db "SPEED"
+	db "ATTACK@"
+	db "SP.ATK@"
+	db "DEFENSE@"
+	db "SP.DEF@"
 
 .TrainWhichStat:
 	text "Train which of"
