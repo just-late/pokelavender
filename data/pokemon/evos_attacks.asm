@@ -3751,71 +3751,58 @@ TyphlosionHisuianEvosAttacks:
 	db 81, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-TotodileEvosAttacks:
-	evo_data EVOLVE_LEVEL, 18, CROCONAW
+MudkipEvosAttacks: ; based on gen 7 learnset
+	evo_data EVOLVE_LEVEL, 16, MARSHTOMP
 	db -1 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 6, WATER_GUN
-	db 8, RAGE
-	db 13, BITE
-	db 15, SCARY_FACE
-	db 20, METAL_CLAW ; Ice Fang → egg move
-	db 22, REVERSAL ; Flail → similar move
-	db 27, AGILITY ; Feraligatr move
-	db 29, CRUNCH
-	db 34, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	db 36, SLASH
-	db 41, SCREECH
-	db 43, THRASH
-	db 48, AQUA_TAIL
-	db 50, CLOSE_COMBAT ; Superpower → similar move
-	db 56, HYDRO_PUMP
+	db 1, GROWL
+	db 1, TACKLE
+	db 4, WATER_GUN
+	db 9, MUD_SLAP
+	db 12, FORESIGHT
+	db 17, COUNTER ; Bide → similar move
+	db 20, MUD_SLAP ; Mud Sport → similar move
+	db 25, ROCK_THROW
+	db 28, PROTECT
+	db 33, WHIRLPOOL
+	db 36, TAKE_DOWN
+	db 41, HYDRO_PUMP
+	db 44, DOUBLE_EDGE ; Endeavor → maybe similar move
 	db -1 ; no more level-up moves
 
-CroconawEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, FERALIGATR
+MarshtompEvosAttacks: ; based on gen 7 learnset
+	evo_data EVOLVE_LEVEL, 36, SWAMPERT
 	db -1 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 6, WATER_GUN
-	db 8, RAGE
-	db 13, BITE
-	db 15, SCARY_FACE
-	db 21, METAL_CLAW ; Ice Fang → egg move
-	db 24, REVERSAL ; Flail → similar move
-	db 30, AGILITY ; Feraligatr move
-	db 33, CRUNCH
-	db 39, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	db 42, SLASH
-	db 48, SCREECH
-	db 51, THRASH
-	db 57, AQUA_TAIL
-	db 60, CLOSE_COMBAT ; Superpower → similar move
-	db 66, HYDRO_PUMP
+	db 1, GROWL
+	db 1, TACKLE
+	db 4, WATER_GUN
+	db 9, MUD_SLAP
+	db 12, FORESIGHT
+	db 18, COUNTER ; Bide → similar move
+	db 22, MUD_SLAP ; Mud Bomb → similar move
+	db 28, ROCK_SLIDE
+	db 32, PROTECT
+	db 38, SURF ; Muddy Water → similar move
+	db 42, TAKE_DOWN
+	db 48, EARTHQUAKE
+	db 52, DOUBLE_EDGE ; Endeavor → maybe similar move
 	db -1 ; no more level-up moves
 
-FeraligatrEvosAttacks:
+SwampertEvosAttacks: ; based on gen 7 learnset
 	db -1 ; no more evolutions
-	db 1, NIGHT_SLASH ; evolution move
-	db 1, SCRATCH
-	db 1, LEER
-	db 6, WATER_GUN
-	db 8, RAGE
-	db 13, BITE
-	db 15, SCARY_FACE
-	db 21, METAL_CLAW ; Ice Fang → egg move
-	db 24, REVERSAL ; Flail → similar move
-	db 32, AGILITY
-	db 37, CRUNCH
-	db 45, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	db 50, SLASH
-	db 56, SCREECH
-	db 62, THRASH
-	db 68, OUTRAGE ; HGSS tutor move
-	db 73, AQUA_TAIL
-	db 78, CLOSE_COMBAT ; Superpower → similar move
-	db 84, HYDRO_PUMP
+	db 1, GROWL
+	db 1, TACKLE
+	db 4, WATER_GUN
+	db 9, MUD_SLAP
+	db 12, FORESIGHT
+	db 18, COUNTER ; Bide → similar move
+	db 22, MUD_SLAP ; Mud Bomb → similar move
+	db 28, ROCK_SLIDE
+	db 32, PROTECT
+	db 39, SURF ; Muddy Water → similar move
+	db 44, TAKE_DOWN
+	db 51, EARTHQUAKE
+	db 56, DOUBLE_EDGE ; Endeavor → maybe similar move
+	db 63, KARATE_CHOP ; Hammer Arm → maybe similar move
 	db -1 ; no more level-up moves
 
 SentretEvosAttacks:

@@ -158,9 +158,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  13 ; Cyndaquil
 	db  14,  35 ; Quilava
 	db  36, 100 ; Typhlosion
-	db   1,  17 ; Totodile
-	db  18,  29 ; Croconaw
-	db  30, 100 ; Feraligatr
+	db   1,  17 ; Mudkip
+	db  18,  29 ; Marshtomp
+	db  30, 100 ; Swampert
 	db   1,  14 ; Sentret
 	db  15, 100 ; Furret
 	db   1,  19 ; Hoothoot

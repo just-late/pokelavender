@@ -157,9 +157,9 @@ AnimationPointers:
 	dw CyndaquilAnimation
 	dw QuilavaAnimation
 	dw TyphlosionPlainAnimation
-	dw TotodileAnimation
-	dw CroconawAnimation
-	dw FeraligatrAnimation
+	dw MudkipAnimation
+	dw MarshtompAnimation
+	dw SwampertAnimation
 	dw SentretAnimation
 	dw FurretAnimation
 	dw HoothootAnimation

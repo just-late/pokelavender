@@ -157,9 +157,9 @@ EvolutionMoves::
 	db NO_MOVE      ; CYNDAQUIL
 	db NO_MOVE      ; QUILAVA
 	db FIRE_PUNCH   ; TYPHLOSION
-	db NO_MOVE      ; TOTODILE
-	db NO_MOVE      ; CROCONAW
-	db NIGHT_SLASH  ; FERALIGATR
+	db NO_MOVE      ; MUDKIP
+	db NO_MOVE      ; MARSHTOMP
+	db NIGHT_SLASH  ; SWAMPERT
 	db NO_MOVE      ; SENTRET
 	db AGILITY      ; FURRET
 	db NO_MOVE      ; HOOTHOOT

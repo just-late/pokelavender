@@ -95,12 +95,12 @@ LyraPhoneScript2:
 
 .LyrasEgg:
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .lyrasegg_totodile
+	iftruefwd .lyrasegg_mudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .lyrasegg_turtwig
 	getstring .Chicory, $1
 	sjumpfwd .lyrasegg_end
-.lyrasegg_totodile
+.lyrasegg_mudkip
 	getstring .Cinder, $1
 	sjumpfwd .lyrasegg_end
 .lyrasegg_turtwig:

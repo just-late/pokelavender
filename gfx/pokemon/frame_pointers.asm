@@ -157,9 +157,9 @@ FramesPointers:
 	dw CyndaquilFrames
 	dw QuilavaFrames
 	dw TyphlosionPlainFrames
-	dw TotodileFrames
-	dw CroconawFrames
-	dw FeraligatrFrames
+	dw MudkipFrames
+	dw MarshtompFrames
+	dw SwampertFrames
 	dw SentretFrames
 	dw FurretFrames
 	dw HoothootFrames

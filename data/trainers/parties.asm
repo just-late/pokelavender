@@ -57,7 +57,7 @@ CarrieGroup:
 	dbp 60, TYPHLOSION
 		db QUICK_CLAW
 		db SUNNY_DAY, THUNDERPUNCH, FLAMETHROWER, SUBSTITUTE
-	dbp 60, FERALIGATR
+	dbp 60, SWAMPERT
 		db LUM_BERRY
 		db SURF, CRUNCH, ICE_PUNCH, ROCK_SLIDE
 	dbp 60, SKARMORY
@@ -85,7 +85,7 @@ CalGroup:
 	dbp 60, TORTERRA
 		db SITRUS_BERRY
 		db GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
-	dbp 60, FERALIGATR
+	dbp 60, SWAMPERT
 		db LUM_BERRY
 		db SURF, CRUNCH, ICE_PUNCH, ROCK_SLIDE
 	dbp 60, STEELIX
@@ -107,7 +107,7 @@ JackyGroup:
 	db "Jacky@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
-	dbp 60, FERALIGATR
+	dbp 60, SWAMPERT
 		db LUM_BERRY
 		db SURF, CRUNCH, ICE_PUNCH, ROCK_SLIDE
 	dbp 60, TORTERRA
@@ -1411,7 +1411,7 @@ Rival0Group:
 	; party
 	dbp 4, RATTATA
 		db NO_ITEM
-	dbp 5, TOTODILE
+	dbp 5, MUDKIP
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1441,7 +1441,7 @@ Rival1Group:
 	db "ANABEL@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 5, TOTODILE
+	dbp 5, MUDKIP
 		db NO_ITEM
 	db -1 ; end
 
@@ -1517,7 +1517,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	dbp 22, CROCONAW
+	dbp 22, MARSHTOMP
 		db ORAN_BERRY
 		ev_spread 32 Atk, 72 Spe
 		db LEER, RAGE, WATER_GUN, BITE
@@ -1595,7 +1595,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 232 Atk
 		db SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	dbp 43, FERALIGATR
+	dbp 43, SWAMPERT
 		db SITRUS_BERRY
 		ev_spread 160 Atk, 72 Spe
 		db SLASH, SURF, CRUNCH, NIGHT_SLASH
@@ -1668,7 +1668,7 @@ Rival1Group:
 	dbp 46, ALAKAZAM
 		db BRIGHTPOWDER
 		db DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	dbp 49, FERALIGATR
+	dbp 49, SWAMPERT
 		db SITRUS_BERRY
 		db CRUNCH, SURF, SLASH, SCARY_FACE
 	db -1 ; end
@@ -1761,7 +1761,7 @@ Rival2Group:
 		db BRIGHTPOWDER
 		ev_spread 252 SAt, 204 Spe
 		db DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	dbp 65, FERALIGATR
+	dbp 65, SWAMPERT
 		db MYSTIC_WATER
 		ev_spread 204 Atk, 252 Spe
 		db WATERFALL, CRUNCH, SLASH, SCARY_FACE
@@ -1834,7 +1834,7 @@ Rival2Group:
 	dbp 70, ALAKAZAM
 		db BRIGHTPOWDER
 		db RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	dbp 72, FERALIGATR
+	dbp 72, SWAMPERT
 		db LEFTOVERS
 		db SURF, CRUNCH, SLASH, OUTRAGE
 	db -1 ; end
@@ -1865,7 +1865,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 5, TOTODILE
+	dbp 5, MUDKIP
 		db "Toto@"
 	db -1 ; end
 
@@ -1922,7 +1922,7 @@ Lyra1Group:
 	dbp 15, MAREEP
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
-	dbp 18, CROCONAW
+	dbp 18, MARSHTOMP
 		db ORAN_BERRY, "Toto@"
 		ev_spread 72 Atk
 	db -1 ; end
@@ -1985,7 +1985,7 @@ Lyra1Group:
 	dbp 32, FLAAFFY
 		db NO_ITEM, "@"
 		ev_spread 100 HP, 100 SAt
-	dbp 37, CROCONAW
+	dbp 37, MARSHTOMP
 		db ORAN_BERRY, "Toto@"
 		ev_spread 200 Atk
 	db -1 ; end
@@ -2057,7 +2057,7 @@ Lyra1Group:
 	dbp 46, AMPHAROS
 		db NO_ITEM, "@"
 		ev_spread 132 HP, 132 SAt
-	dbp 47, FERALIGATR
+	dbp 47, SWAMPERT
 		db SITRUS_BERRY, "Toto@"
 		ev_spread 252 Atk, 12 Spe
 	db -1 ; end
@@ -2116,7 +2116,7 @@ Lyra2Group:
 		db NO_ITEM, "@"
 	dbp 68, FARIGIRAF
 		db NO_ITEM, "@"
-	dbp 72, FERALIGATR
+	dbp 72, SWAMPERT
 		db SITRUS_BERRY, "Toto@"
 	db -1 ; end
 
@@ -8946,7 +8946,7 @@ CooltrainerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 63, SCYTHER
-	dbp 62, CROCONAW
+	dbp 62, MARSHTOMP
 	dbp 62, WARTORTLE
 	db -1 ; end
 
@@ -9199,7 +9199,7 @@ endc
 	; party
 	dbp 37, MARILL
 	dbp 35, WARTORTLE
-	dbp 35, CROCONAW
+	dbp 35, MARSHTOMP
 	db -1 ; end
 
 	; COOLTRAINERF
@@ -9480,7 +9480,7 @@ VeteranMGroup:
 	db "Matthew@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
-	dbp 41, FERALIGATR
+	dbp 41, SWAMPERT
 		db KINGS_ROCK
 		db SCARY_FACE, METAL_CLAW, CRUNCH, WATERFALL
 	dbp 40, AMPHAROS
@@ -9929,7 +9929,7 @@ ProfElmGroup:
 	dbp LEVEL_FROM_BADGES + 4, JIGGLYPUFF
 	dbp LEVEL_FROM_BADGES + 5, CYNDAQUIL
 	dbp LEVEL_FROM_BADGES + 5, TURTWIG
-	dbp LEVEL_FROM_BADGES + 5, TOTODILE
+	dbp LEVEL_FROM_BADGES + 5, MUDKIP
 	db -1 ; end
 
 	; PROF_ELM
@@ -9941,7 +9941,7 @@ ProfElmGroup:
 	dbp LEVEL_FROM_BADGES + 4, WIGGLYTUFF
 	dbp LEVEL_FROM_BADGES + 5, QUILAVA
 	dbp LEVEL_FROM_BADGES + 5, GROTLE
-	dbp LEVEL_FROM_BADGES + 5, CROCONAW
+	dbp LEVEL_FROM_BADGES + 5, MARSHTOMP
 	db -1 ; end
 
 	; PROF_ELM
@@ -9953,7 +9953,7 @@ ProfElmGroup:
 	dbp LEVEL_FROM_BADGES + 5, WIGGLYTUFF
 	dbp LEVEL_FROM_BADGES + 6, TYPHLOSION
 	dbp LEVEL_FROM_BADGES + 6, TORTERRA
-	dbp LEVEL_FROM_BADGES + 6, FERALIGATR
+	dbp LEVEL_FROM_BADGES + 6, SWAMPERT
 	db -1 ; end
 
 	; PROF_ELM
@@ -9966,7 +9966,7 @@ ProfElmGroup:
 	dbp LEVEL_FROM_BADGES + 8, HERACROSS
 	dbp LEVEL_FROM_BADGES + 9, TYPHLOSION
 	dbp LEVEL_FROM_BADGES + 9, TORTERRA
-	dbp LEVEL_FROM_BADGES + 9, FERALIGATR
+	dbp LEVEL_FROM_BADGES + 9, SWAMPERT
 	db -1 ; end
 
 

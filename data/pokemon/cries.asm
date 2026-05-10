@@ -163,9 +163,9 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   $347,  $080 ; Cyndaquil
 	mon_cry CRY_CYNDAQUIL,   $321,  $120 ; Quilava
 	mon_cry CRY_TYPHLOSION,  $f00,  $0d4 ; Typhlosion
-	mon_cry CRY_TOTODILE,    $46c,  $0e8 ; Totodile
-	mon_cry CRY_TOTODILE,    $440,  $110 ; Croconaw
-	mon_cry CRY_TOTODILE,    $3fc,  $180 ; Feraligatr
+	mon_cry CRY_PSYDUCK,     $46c,  $0e8 ; Mudkip Celadonk
+	mon_cry CRY_ODDISH,      $0ea,  $0e0 ; Marshtomp SourApple
+	mon_cry CRY_ODDISH,      $50d,  $1b2 ; Swampert Celadonk
 	mon_cry CRY_SENTRET,     $08a,  $0b8 ; Sentret
 	mon_cry CRY_SENTRET,     $06b,  $102 ; Furret
 	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; Hoothoot

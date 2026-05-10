@@ -181,7 +181,7 @@ UndergroundRivalBattleScript:
 	showtext UndergroundRivalBeforeText
 	setevent EVENT_RIVAL_UNDERGROUND_PATH
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .Totodile
+	iftruefwd .Mudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .Turtwig
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
@@ -192,7 +192,7 @@ UndergroundRivalBattleScript:
 	reloadmapafterbattle
 	sjumpfwd .FinishRivalBattle
 
-.Totodile:
+.Mudkip:
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
 	setlasttalked UNDERGROUNDPATHSWITCHROOMENTRANCES_RIVAL
 	loadtrainer RIVAL1, RIVAL1_10

@@ -37,7 +37,7 @@ AlphabeticalPokedexOrder:
 	dp CLOYSTER
 	dp CORSOLA
 	dp CROBAT
-	dp CROCONAW
+	dp MARSHTOMP
 	dp CUBONE
 	dp CURSOLA
 	dp CYNDAQUIL
@@ -68,7 +68,7 @@ AlphabeticalPokedexOrder:
 	dp FARIGIRAF
 	dp FARFETCH_D
 	dp FEAROW
-	dp FERALIGATR
+	dp SWAMPERT
 	dp FLAAFFY
 	dp FLAREON
 	dp FORRETRESS
@@ -259,7 +259,7 @@ AlphabeticalPokedexOrder:
 	dp TOGEKISS
 	dp TOGETIC
 	dp TORTERRA
-	dp TOTODILE
+	dp MUDKIP
 	dp TURTWIG
 	dp TYPHLOSION
 	dp TYRANITAR

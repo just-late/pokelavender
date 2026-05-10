@@ -202,7 +202,7 @@ MarigoldPortFisherScript:
 	verticalmenu
 	closewindow
 	ifequalfwd $1, .TurtwigDoll
-	ifequalfwd $2, .TotodileDoll
+	ifequalfwd $2, .MudkipDoll
 	ifequalfwd $3, .CharmanderDoll
 	endtext
 
@@ -220,17 +220,17 @@ MarigoldPortFisherScript:
 	waitbutton
 	sjump .Start
 
-.TotodileDoll:
+.MudkipDoll:
 	checkmoney $0, 5000
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_TOTODILE_DOLL
+	checkevent EVENT_DECO_MUDKIP_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 5000
-	setevent EVENT_DECO_TOTODILE_DOLL
-	writetext MarigoldPortTotodileDollText
+	setevent EVENT_DECO_MUDKIP_DOLL
+	writetext MarigoldPortMudkipDollText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext MarigoldPortTotodileDollSentText
+	writetext MarigoldPortMudkipDollSentText
 	waitbutton
 	sjump .Start
 
@@ -269,7 +269,7 @@ MarigoldPortFisherScript:
 	db 4 ; items
 	db "TURTWIG     ¥5000@"
 	db "CHARMANDER  ¥5000@"
-	db "TOTODILE    ¥5000@"
+	db "MUDKIP    ¥5000@"
 	db "CANCEL@"
 
 MarigoldPortDollVendorText:
@@ -332,13 +332,13 @@ MarigoldPortTurtwigDollSentText:
 	line "was sent home."
 	done
 
-MarigoldPortTotodileDollText:
+MarigoldPortMudkipDollText:
 	text "<PLAYER> bought"
-	line "TOTODILE DOLL."
+	line "MUDKIP DOLL."
 	done
 
-MarigoldPortTotodileDollSentText:
-	text "TOTODILE DOLL"
+MarigoldPortMudkipDollSentText:
+	text "MUDKIP DOLL"
 	line "was sent home."
 	done
 

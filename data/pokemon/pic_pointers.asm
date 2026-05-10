@@ -161,9 +161,9 @@ PokemonPicPointers::
 	pics Cyndaquil
 	pics Quilava
 	pics TyphlosionPlain
-	pics Totodile
-	pics Croconaw
-	pics Feraligatr
+	pics Mudkip
+	pics Marshtomp
+	pics Swampert
 	pics Sentret
 	pics Furret
 	pics Hoothoot

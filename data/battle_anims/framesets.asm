@@ -203,7 +203,7 @@ BattleAnimFrameData:
 	dw .Frameset_Vortex ; c6
 	dw .Frameset_ShrinkingGlow           ; BATTLEANIMFRAMESET_SHRINKING_GLOW
 	dw .Frameset_BulkUp ; c7
-	dw .Frameset_MudShot                 ; BATTLEANIMFRAMESET_MUD_SHOT
+	dw .Frameset_MudShot                 ; BATTLEANIMFRAMESET_MUD_SLAP
 	dw .Frameset_ShrinkingRingSmall ; c9
 	dw .Frameset_ShrinkingRingBig ; ca
 	dw .Frameset_PulsingEnergyOrbBig ; cb

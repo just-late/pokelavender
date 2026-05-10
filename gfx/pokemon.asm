@@ -492,17 +492,17 @@ SECTION "TyphlosionHisuian Pics", ROMX
 TyphlosionHisuianFrontpic: INCBIN "gfx/pokemon/typhlosion_hisuian/front.animated.2bpp.lz"
 TyphlosionHisuianBackpic:  INCBIN "gfx/pokemon/typhlosion_hisuian/back.2bpp.lz"
 
-SECTION "Totodile Pics", ROMX
-TotodileFrontpic: INCBIN "gfx/pokemon/totodile/front.animated.2bpp.lz"
-TotodileBackpic:  INCBIN "gfx/pokemon/totodile/back.2bpp.lz"
+SECTION "Mudkip Pics", ROMX
+MudkipFrontpic: INCBIN "gfx/pokemon/mudkip/front.animated.2bpp.lz"
+MudkipBackpic:  INCBIN "gfx/pokemon/mudkip/back.2bpp.lz"
 
-SECTION "Croconaw Pics", ROMX
-CroconawFrontpic: INCBIN "gfx/pokemon/croconaw/front.animated.2bpp.lz"
-CroconawBackpic:  INCBIN "gfx/pokemon/croconaw/back.2bpp.lz"
+SECTION "Marshtomp Pics", ROMX
+MarshtompFrontpic: INCBIN "gfx/pokemon/marshtomp/front.animated.2bpp.lz"
+MarshtompBackpic:  INCBIN "gfx/pokemon/marshtomp/back.2bpp.lz"
 
-SECTION "Feraligatr Pics", ROMX
-FeraligatrFrontpic: INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
-FeraligatrBackpic:  INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
+SECTION "Swampert Pics", ROMX
+SwampertFrontpic: INCBIN "gfx/pokemon/swampert/front.animated.2bpp.lz"
+SwampertBackpic:  INCBIN "gfx/pokemon/swampert/back.2bpp.lz"
 
 SECTION "Sentret Pics", ROMX
 SentretFrontpic: INCBIN "gfx/pokemon/sentret/front.animated.2bpp.lz"

@@ -161,9 +161,9 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; CYNDAQUIL
 	iconpal RED, PINK ; QUILAVA
 	iconpal RED, PINK ; TYPHLOSION
-	iconpal AZURE, TEAL ; TOTODILE
-	iconpal AZURE, TEAL ; CROCONAW
-	iconpal AZURE, TEAL ; FERALIGATR
+	iconpal AZURE, TEAL ; MUDKIP
+	iconpal AZURE, TEAL ; MARSHTOMP
+	iconpal AZURE, TEAL ; SWAMPERT
 	iconpal BROWN, PURPLE ; SENTRET
 	iconpal BROWN, RED ; FURRET
 	iconpal BROWN, RED ; HOOTHOOT

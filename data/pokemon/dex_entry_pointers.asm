@@ -158,9 +158,9 @@ PokedexDataPointerTable:
 	dba CyndaquilPokedexEntry
 	dba QuilavaPokedexEntry
 	dba TyphlosionPlainPokedexEntry
-	dba TotodilePokedexEntry
-	dba CroconawPokedexEntry
-	dba FeraligatrPokedexEntry
+	dba MudkipPokedexEntry
+	dba MarshtompPokedexEntry
+	dba SwampertPokedexEntry
 	dba SentretPokedexEntry
 	dba FurretPokedexEntry
 	dba HoothootPokedexEntry

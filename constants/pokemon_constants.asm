@@ -179,9 +179,9 @@
 	const CYNDAQUIL  ; 9b
 	const QUILAVA    ; 9c
 	const TYPHLOSION ; 9d
-	const TOTODILE   ; 9e
-	const CROCONAW   ; 9f
-	const FERALIGATR ; a0
+	const MUDKIP   ; 9e
+	const MARSHTOMP   ; 9f
+	const SWAMPERT ; a0
 	const SENTRET    ; a1
 	const FURRET     ; a2
 	const HOOTHOOT   ; a3

@@ -110,7 +110,7 @@ Route34LyraTrigger2:
 	showtext Route34LyraChallengeText
 	setevent EVENT_LYRA_ROUTE_34
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .Totodile
+	iftruefwd .Mudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .Turtwig
 	winlosstext Route34LyraWinText, Route34LyraLossText
@@ -123,7 +123,7 @@ Route34LyraTrigger2:
 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
 	sjumpfwd .AfterBattle
 
-.Totodile:
+.Mudkip:
 	winlosstext Route34LyraWinText, Route34LyraLossText
 	setlasttalked ROUTE34_LYRA
 	loadtrainer LYRA1, LYRA1_5

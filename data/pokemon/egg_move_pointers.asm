@@ -157,9 +157,9 @@ EggMovePointers::
 	dw CyndaquilEggMoves      ; Cyndaquil
 	dw NoEggMoves             ; Quilava
 	dw NoEggMoves             ; Typhlosion
-	dw TotodileEggMoves       ; Totodile
-	dw NoEggMoves             ; Croconaw
-	dw NoEggMoves             ; Feraligatr
+	dw MudkipEggMoves       ; Mudkip
+	dw NoEggMoves             ; Marshtomp
+	dw NoEggMoves             ; Swampert
 	dw SentretEggMoves        ; Sentret
 	dw NoEggMoves             ; Furret
 	dw HoothootEggMoves       ; Hoothoot

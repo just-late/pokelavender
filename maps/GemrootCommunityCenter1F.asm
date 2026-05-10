@@ -111,8 +111,8 @@ AnabelChallengeTrigger2:
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
 AnabelChallengeScript:
     winlosstext CommunityCenterAnabelWinText, CommunityCenterAnabelLossText
-    checkevent EVENT_GOT_TOTODILE_FROM_ELDER
-    iftruefwd .Totodile
+    checkevent EVENT_GOT_MUDKIP_FROM_ELDER
+    iftruefwd .Mudkip
     checkevent EVENT_GOT_TURTWIG_FROM_ELDER
     iftruefwd .Turtwig
     loadtrainer RIVAL1, RIVAL1_3
@@ -125,7 +125,7 @@ AnabelChallengeScript:
     iftruefwd .AfterYourDefeat
     sjumpfwd .AfterVictorious
 
-.Totodile
+.Mudkip
     loadtrainer RIVAL1, RIVAL1_1
     loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
     startbattle
@@ -299,7 +299,7 @@ FirePokeBallScript:
 ;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
 ;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
 ;   opentext
-;   writetext AnabelTakesTotodileText
+;   writetext AnabelTakesMudkipText
 ;   waitbutton
 ;   closetext
 ;   disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
@@ -329,9 +329,9 @@ TakeFireMonText:
     text "Take CYNDAQUIL?"
     done
 
-AnabelTakesTotodileText:
+AnabelTakesMudkipText:
     text "ANABEL: Then I'll"
-    line "take TOTODILE!"
+    line "take MUDKIP!"
     done
 
 WaterPokeBallScript:
@@ -340,8 +340,8 @@ WaterPokeBallScript:
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
-    pokepic TOTODILE
-    cry TOTODILE
+    pokepic MUDKIP
+    cry MUDKIP
     waitbutton
     closepokepic
     opentext
@@ -349,11 +349,11 @@ WaterPokeBallScript:
     yesorno
     iffalse_jumpopenedtext DidntChooseMonText
     disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
-    setevent EVENT_GOT_TOTODILE_FROM_ELDER
+    setevent EVENT_GOT_MUDKIP_FROM_ELDER
     writetext ChoseMonText
     promptbutton
     waitsfx
-    givepoke TOTODILE, PLAIN_FORM, 5, ORAN_BERRY
+    givepoke MUDKIP, PLAIN_FORM, 5, ORAN_BERRY
     setscene $1
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
@@ -390,7 +390,7 @@ WaterPokeBallScript:
 
 
 TakeWaterMonText:
-    text "Take TOTODILE?"
+    text "Take MUDKIP?"
     done
 
 AnabelTakesTurtwigText:

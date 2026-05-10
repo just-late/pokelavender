@@ -44,7 +44,7 @@ MountMoon1FTrigger0:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext MountMoonRivalTextBefore
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .Totodile
+	iftruefwd .Mudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .Turtwig
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
@@ -55,7 +55,7 @@ MountMoon1FTrigger0:
 	reloadmapafterbattle
 	sjumpfwd .FinishBattle
 
-.Totodile:
+.Mudkip:
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON1F_RIVAL
 	loadtrainer RIVAL2, 1

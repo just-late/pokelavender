@@ -157,9 +157,9 @@ FootprintPointers::
 	dw CyndaquilFootprint
 	dw QuilavaFootprint
 	dw TyphlosionFootprint
-	dw TotodileFootprint
-	dw CroconawFootprint
-	dw FeraligatrFootprint
+	dw MudkipFootprint
+	dw MarshtompFootprint
+	dw SwampertFootprint
 	dw SentretFootprint
 	dw FurretFootprint
 	dw HoothootFootprint

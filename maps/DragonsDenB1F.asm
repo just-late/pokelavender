@@ -146,7 +146,7 @@ DragonsDenB1FRivalScript:
 	iftruefwd .GiveTurtwigEgg
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .GiveCyndaquilEgg
-	giveegg TOTODILE
+	giveegg MUDKIP
 	sjumpfwd .GotRivalsEgg
 
 .GiveTurtwigEgg:

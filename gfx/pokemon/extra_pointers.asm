@@ -157,9 +157,9 @@ AnimationExtraPointers:
 	dw CyndaquilAnimationExtra
 	dw QuilavaAnimationExtra
 	dw TyphlosionPlainAnimationExtra
-	dw TotodileAnimationExtra
-	dw CroconawAnimationExtra
-	dw FeraligatrAnimationExtra
+	dw MudkipAnimationExtra
+	dw MarshtompAnimationExtra
+	dw SwampertAnimationExtra
 	dw SentretAnimationExtra
 	dw FurretAnimationExtra
 	dw HoothootAnimationExtra

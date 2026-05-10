@@ -4055,18 +4055,18 @@ BattleAnim_GunkShot:
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $60, $4, $10
 .loop2
 	anim_sound 6, 2, SFX_BUBBLE_BEAM
-	anim_obj ANIM_OBJ_MUD_SHOT, 64, 92, $4
+	anim_obj ANIM_OBJ_MUD_SLAP, 64, 92, $4
 	anim_wait 4
-	anim_obj ANIM_OBJ_MUD_SHOT, 64, 92, $4
+	anim_obj ANIM_OBJ_MUD_SLAP, 64, 92, $4
 	anim_wait 4
 	anim_sound 6, 2, SFX_BUBBLE_BEAM
 	anim_obj ANIM_OBJ_INK_SPLASH, 136, 56, $5c
 	anim_obj ANIM_OBJ_INK_SPLASH, 136, 56, $e8
 	anim_obj ANIM_OBJ_INK_SPLASH, 136, 56, $d0
 	anim_obj ANIM_OBJ_INK_SPLASH, 136, 56, $50
-	anim_obj ANIM_OBJ_MUD_SHOT, 64, 92, $4
+	anim_obj ANIM_OBJ_MUD_SLAP, 64, 92, $4
 	anim_wait 4
-	anim_obj ANIM_OBJ_MUD_SHOT, 64, 92, $4
+	anim_obj ANIM_OBJ_MUD_SLAP, 64, 92, $4
 	anim_wait 4
 	anim_loop 4, .loop2
 	anim_wait 4

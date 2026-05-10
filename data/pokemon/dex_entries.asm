@@ -1518,7 +1518,7 @@ MewPokedexEntry::
 
 SECTION "TurtwigPokedexEntry", ROMX
 TurtwigPokedexEntry::
-	db "TINY LEAF@"
+	db "Tiny Leaf@"
 	db   "It becomes more"
 	next "energetic the more"
 	next "sunlight there is."
@@ -1528,7 +1528,7 @@ TurtwigPokedexEntry::
 
 SECTION "GrotlePokedexEntry", ROMX
 GrotlePokedexEntry::
-	db "GROVE@"
+	db "Grove@"
 	db   "It appears where"
 	next "there is clean"
 	next "spring water."
@@ -1538,7 +1538,7 @@ GrotlePokedexEntry::
 
 SECTION "TorterraPokedexEntry", ROMX
 TorterraPokedexEntry::
-	db "CONTINENT@"
+	db "Continent@"
 	db   "This remarkable,"
 	next "large #MON is"
 	next "treated by some as"
@@ -1576,35 +1576,35 @@ TyphlosionPlainPokedexEntry::
 	next "sign that it is"
 	next "ready to battle.@"
 
-SECTION "TotodilePokedexEntry", ROMX
-TotodilePokedexEntry::
-	db "Big Jaw@"
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
+SECTION "MudkipPokedexEntry", ROMX
+MudkipPokedexEntry::
+	db "Mud Fish@"
+	db   "To alert it, the fin"
+	next "on its head senses"
+	next "the flow of water."
+	page "It has the strength"
+	next "to heft boulders."
+	next "@"
 
-SECTION "CroconawPokedexEntry", ROMX
-CroconawPokedexEntry::
-	db "Big Jaw@"
-	db   "The tips of its"
-	next "fangs are slanted"
-	next "backward. Once"
-	page "those fangs clamp"
-	next "down, the prey has"
-	next "no hope of escape.@"
+SECTION "MarshtompPokedexEntry", ROMX
+MarshtompPokedexEntry::
+	db "Mud Fish@"
+	db   "Its sturdy legs"
+	next "give it sure"
+	next "footing, even in"
+	page "mud. It burrows into"
+	next "dirt to sleep."
+	next "@"
 
-SECTION "FeraligatrPokedexEntry", ROMX
-FeraligatrPokedexEntry::
-	db "Big Jaw@"
-	db   "Although it has a"
-	next "massive body, its"
-	next "powerful hind legs"
-	page "enable it to move"
-	next "quickly, even on"
-	next "the ground.@"
+SECTION "SwampertPokedexEntry", ROMX
+SwampertPokedexEntry::
+	db "Mud Fish@"
+	db   "SWAMPERT predicts"
+	next "storms by sensing"
+	next "subtle differences"
+	page "in the sounds of"
+	next "waves and tidal"
+	next "winds.@"
 
 SECTION "SentretPokedexEntry", ROMX
 SentretPokedexEntry::

@@ -161,9 +161,9 @@ MiniIconPointers:
 	mini_icon Cyndaquil
 	mini_icon Quilava
 	mini_icon Typhlosion
-	mini_icon Totodile
-	mini_icon Croconaw
-	mini_icon Feraligatr
+	mini_icon Mudkip
+	mini_icon Marshtomp
+	mini_icon Swampert
 	mini_icon Sentret
 	mini_icon Furret
 	mini_icon Hoothoot

@@ -553,7 +553,7 @@ CyndaquilEggMoves:
 	db QUICK_ATTACK
 	db $ff
 
-TotodileEggMoves:
+MudkipEggMoves:
 	db DRAGON_DANCE
 	db METAL_CLAW
 	db CRUNCH

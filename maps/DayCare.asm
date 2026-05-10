@@ -121,7 +121,7 @@ DayCareLadyScript:
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .GiveCyndaquilEgg
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
-	iftruefwd .GiveTotodileEgg
+	iftruefwd .GiveMudkipEgg
 	giveegg TURTWIG
 	sjumpfwd .GotLyrasEgg
 
@@ -129,8 +129,8 @@ DayCareLadyScript:
 	giveegg CYNDAQUIL
 	sjumpfwd .GotLyrasEgg
 
-.GiveTotodileEgg:
-	giveegg TOTODILE
+.GiveMudkipEgg:
+	giveegg MUDKIP
 .GotLyrasEgg
 	iffalse_jumpopenedtext DayCareText_PartyAndBoxFull
 	farwritetext _ReceivedEggText
