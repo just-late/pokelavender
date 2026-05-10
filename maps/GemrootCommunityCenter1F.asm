@@ -371,10 +371,10 @@ WaterPokeBallScript:
 ;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
 ;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
 ;    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
+    applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
     turnobject GEMROOT_COMMUNITYCENTER_ELDER, UP
     opentext
     writetext ElderAdventureText
@@ -495,19 +495,32 @@ ChoseMonText:
 
 ElderAdventureText:
     text "Remember, to"
-    line "get to GLITTERVINE"
-    cont "TOWN, you need to"
-    cont "follow ROUTE 1."
+    line "get to BLOSSOM"
+    cont "ACADEMY, you'll"
 
-    para "Once you get"
-    line "there, just stop"
-    cont "by the mart."
+    para "need to travel"
+    line "to MARIGOLD PORT."
 
-    para "The clerk will"
-    line "know who you are."
+    para "Once you're there,"
+    line "DR. LAVENTON told"
+    cont "me he'd be"
+    cont "waiting for you."
 
-    para "Thanks for your"
-    line "help, <PLAYER>!"
+    para "While you're on"
+    line "your way, you may"
+    cont "as well challenge"
+    cont "the #MON GYMS in"
+    
+    para "MOONFLOWER CITY"
+    line "and MARIGOLD PORT."
+
+    para "Good luck,"
+    line "<PLAYER>!"
+
+    para "…Oh, and don't"
+    line "forget to talk to"
+    cont "your MOM before"
+    cont "you leave."
     done
 
 ElderGemrootTraditionText:
@@ -518,33 +531,31 @@ ElderGemrootTraditionText:
     line "wondering why I"
     cont "called you."
 
-    para "You see, I have"
-    line "an acquaintance"
-    cont "named PROF. ASPEN."
+    para "Well, since you"
+    line "were accepted to"
+    cont "BLOSSOM ACADEMY,"
 
-    para "He studies"
-    line "ancient #MON"
-    cont "mythology,"
+    para "I've decided to"
+    line "give you a #MON"
+    cont "to keep you"
+    cont "company on your"
+    cont "way."
 
-    para "and he dropped a"
-    line "parcel off for"
-    cont "me in GLITTERVINE"
-    cont "TOWN's MART."
+    para "After all, it's"
+    line "a long journey"
+    cont "from here to the"
+    cont "ACADEMY."
 
-    para "In my old age,"
-    line "I can't get it"
-    cont "myself."
+    para "It would be no"
+    line "good for you to"
+    cont "go by yourself."
 
-    para "That's why"
-    line "I need you to!"
+    para "That's why I"
+    line "want you to pick"
+    cont "from one of the"
 
-    para "Pick one of these"
-    line "#MON I have"
-    cont "on the table,"
-
-    para "and take it with"
-    line "you to protect"
-    cont "you on ROUTE 1."
+    para "#MON on this"
+    line "table."
     done
 
 ElderWaitPickMonText:
