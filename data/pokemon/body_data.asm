@@ -158,15 +158,15 @@ PokemonBodyData:
 	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; DRAGONITE
 	body_data  20, 1220, BIPEDAL_TAIL, PURPLE ; MEWTWO
 	body_data   4,   40, BIPEDAL_TAIL, PINK   ; MEW
-	body_data   9,   64, QUADRUPED,    GREEN  ; TURTWIG
-	body_data  12,  158, QUADRUPED,    GREEN  ; GROTLE
-	body_data  18, 1005, QUADRUPED,    GREEN  ; TORTERRA
+	body_data   4,   10, QUADRUPED,    GREEN  ; TURTWIG
+	body_data  11,   97, QUADRUPED,    GREEN  ; GROTLE
+	body_data  22, 3100, QUADRUPED,    GREEN  ; TORTERRA
 	body_data   5,   79, BIPEDAL,      YELLOW ; CYNDAQUIL
 	body_data   9,  190, QUADRUPED,    YELLOW ; QUILAVA
 	body_data  17,  795, QUADRUPED,    YELLOW ; TYPHLOSION
-	body_data   6,   95, BIPEDAL_TAIL, BLUE   ; MUDKIP
-	body_data  11,  250, BIPEDAL_TAIL, BLUE   ; MARSHTOMP
-	body_data  23,  888, BIPEDAL_TAIL, BLUE   ; SWAMPERT
+	body_data   4,   76, QUADRUPED,    BLUE   ; MUDKIP
+	body_data   7,  280, BIPEDAL_TAIL, BLUE   ; MARSHTOMP
+	body_data  15,  819, BIPEDAL_TAIL, BLUE   ; SWAMPERT
 	body_data   8,   60, QUADRUPED,    BROWN  ; SENTRET
 	body_data  18,  325, QUADRUPED,    BROWN  ; FURRET
 	body_data   7,  212, WINGS,        BROWN  ; HOOTHOOT
