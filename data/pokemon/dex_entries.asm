@@ -1579,12 +1579,12 @@ TyphlosionPlainPokedexEntry::
 SECTION "MudkipPokedexEntry", ROMX
 MudkipPokedexEntry::
 	db "Mud Fish@"
-	db   "To alert it, the fin"
-	next "on its head senses"
-	next "the flow of water."
-	page "It has the strength"
-	next "to heft boulders."
-	next "@"
+	db   "To alert it, the"
+	next "fin on its head"
+	next "senses the flow of"
+	page "water. It has the"
+	next "strength to heft"
+	next "boulders.@"
 
 SECTION "MarshtompPokedexEntry", ROMX
 MarshtompPokedexEntry::
