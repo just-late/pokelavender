@@ -1584,10 +1584,10 @@ BattleAnimFrameData:
 	battleoamdelete
 
 .Frameset_WoodHammer:
-	battleoamframe BATTLEANIMOAMSET_EB,  2
-	battleoamframe BATTLEANIMOAMSET_EB,  2, OAM_X_FLIP
-	battleoamframe BATTLEANIMOAMSET_EB,  2, OAM_X_FLIP, OAM_Y_FLIP
-	battleoamframe BATTLEANIMOAMSET_EB,  2, OAM_Y_FLIP
+	battleoamframe BATTLEANIMOAMSET_CD,  2
+	battleoamframe BATTLEANIMOAMSET_CD,  2, OAM_X_FLIP
+	battleoamframe BATTLEANIMOAMSET_CD,  2, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLEANIMOAMSET_CD,  2, OAM_Y_FLIP
 	battleoamrestart
 
 .Frameset_InkSplash:
