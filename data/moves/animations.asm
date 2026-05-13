@@ -2014,7 +2014,7 @@ BattleAnim_Rest:
 BattleAnim_Facade:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
-	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_MISC_2
+	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_WOOD_HAMMER
 	anim_call BattleAnim_TargetObj_2Row
 	anim_bgeffect ANIM_BG_BOUNCE_DOWN, $0, $1, $0
 	anim_setbgpal PAL_BATTLE_BG_USER, PAL_BTLCUSTOM_RED
@@ -2761,7 +2761,7 @@ BattleAnim_Flash:
 	anim_ret
 
 BattleAnim_Astonish:
-	anim_2gfx ANIM_GFX_SHINE, ANIM_GFX_MISC_2
+	anim_2gfx ANIM_GFX_SHINE, ANIM_GFX_WOOD_HAMMER
 	anim_battlergfx_2row
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
 	anim_bgeffect ANIM_BG_BATTLEROBJ_1ROW, $0, $0, $0
@@ -2824,7 +2824,7 @@ BattleAnim_Substitute:
 	anim_ret
 
 BattleAnim_Minimize:
-	anim_1gfx ANIM_GFX_MISC_2
+	anim_1gfx ANIM_GFX_WOOD_HAMMER
 .loop
 	anim_sound 0, 1, SFX_SLUDGE_BOMB
 	anim_bgeffect ANIM_BG_RETURN_MON, $0, $1, $0
@@ -4124,29 +4124,27 @@ BattleAnim_MudSlap:
 	anim_ret
 
 BattleAnim_WoodHammer:
-	anim_3gfx ANIM_GFX_EGG, ANIM_GFX_SMOKE_PUFF, ANIM_GFX_POISON
-	anim_obp0 $f0
-	anim_sound 6, 2, SFX_TACKLE
-	anim_obj ANIM_OBJ_OCTAZOOKA, 64, 92, $4
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 64, 92, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 80, 84, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 96, 76, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 112, 68, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 126, 60, $0
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_GREEN
+	anim_3gfx ANIM_GFX_WOOD_HAMMER, ANIM_GFX_PLANT, ANIM_GFX_HIT
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $2
+	anim_sound 0, 1, SFX_EGG_BOMB
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 48, $0
+	anim_wait 1
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $4, $10
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $1c
+	anim_obj ANIM_OBJ_WOOD_HAMMER, 136, 56, $5c
+	anim_wait 1
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $50
+	anim_obj ANIM_OBJ_WOOD_HAMMER, 136, 56, $e8
+	anim_wait 1
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $dc
+	anim_obj ANIM_OBJ_WOOD_HAMMER, 136, 56, $d0
+	anim_wait 1
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $90
+	anim_obj ANIM_OBJ_WOOD_HAMMER, 136, 56, $50
 	anim_wait 4
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
-	anim_bgeffect ANIM_BG_FADE_MON_TO_BLACK_REPEATING, $0, BG_EFFECT_TARGET, $40
-	anim_sound 0, 0, SFX_AEROBLAST
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $5c
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $e8
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $d0
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $50
-	anim_wait 40
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $2
+	anim_wait 60
 	anim_ret
 
 BattleAnim_Spikes:
