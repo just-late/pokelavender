@@ -450,7 +450,7 @@ HorseaEggMoves:
 	db DISABLE
 	db DRAGON_RAGE
 	db DRAGONBREATH
-	db OCTAZOOKA
+	db WOOD_HAMMER
 	db SPLASH
 	db HAZE
 	db WATER_PULSE
@@ -845,7 +845,7 @@ CorsolaGalarianEggMoves:
 RemoraidEggMoves:
 	db SPLASH
 	db HAZE
-	db OCTAZOOKA
+	db WOOD_HAMMER
 	db ROCK_BLAST
 	db SCREECH
 	db SUPERSONIC

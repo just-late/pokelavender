@@ -190,7 +190,7 @@ MoveNames::
 	li "BELLY DRUM"
 	li "SLUDGE BOMB"
 	li "MUD-SLAP"
-	li "OCTAZOOKA"
+	li "WOOD HAMMER"
 	li "SPIKES"
 	li "ZAP CANNON"
 	li "FORESIGHT"

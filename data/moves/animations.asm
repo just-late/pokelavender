@@ -4122,7 +4122,7 @@ BattleAnim_MudSlap:
 	anim_call BattleAnimSub_SandOrMud
 	anim_ret
 
-BattleAnim_Octazooka:
+BattleAnim_WoodHammer:
 	anim_3gfx ANIM_GFX_EGG, ANIM_GFX_SMOKE_PUFF, ANIM_GFX_POISON
 	anim_obp0 $f0
 	anim_sound 6, 2, SFX_TACKLE

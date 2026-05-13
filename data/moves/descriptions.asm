@@ -190,7 +190,7 @@ MoveDescriptions::
 	dw BellyDrumDescription
 	dw SludgeBombDescription
 	dw MudSlapDescription
-	dw OctazookaDescription
+	dw WoodHammerDescription
 	dw SpikesDescription
 	dw ZapCannonDescription
 	dw ForesightDescription
@@ -492,9 +492,9 @@ MudSlapDescription:
 	next "lowers accuracy."
 	done
 
-OctazookaDescription:
-	text "An attack that may"
-	next "lower accuracy."
+WoodHammerDescription:
+	text "A body slam that"
+	next "hurts the user."
 	done
 
 SonicboomDescription:

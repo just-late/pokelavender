@@ -153,7 +153,7 @@ EvolutionMoves::
 	db NO_MOVE      ; MEW
 	db NO_MOVE      ; TURTWIG
 	db NO_MOVE      ; GROTLE
-	db NO_MOVE      ; TORTERRA
+	db WOOD_HAMMER  ; TORTERRA
 	db NO_MOVE      ; CYNDAQUIL
 	db NO_MOVE      ; QUILAVA
 	db FIRE_PUNCH   ; TYPHLOSION
@@ -227,7 +227,7 @@ endc
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
 	db NO_MOVE      ; REMORAID
-	db OCTAZOOKA    ; OCTILLERY
+	db WOOD_HAMMER    ; OCTILLERY
 	db NO_MOVE      ; DELIBIRD
 	db NO_MOVE      ; MANTINE
 	db NO_MOVE      ; SKARMORY

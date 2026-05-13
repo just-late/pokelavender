@@ -3650,8 +3650,8 @@ GrotleEvosAttacks:
 
 TorterraEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, EARTHQUAKE ; evolution move
 	db 1, ABSORB
+	db 1, WOOD_HAMMER ; evolution move
 	db 1, RAZOR_LEAF
 	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Withdraw → similar move
@@ -5200,7 +5200,7 @@ RemoraidEvosAttacks:
 
 OctilleryEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, OCTAZOOKA ; evolution move
+	db 1, WOOD_HAMMER ; evolution move
 	db 1, ROCK_BLAST
 	db 1, POWER_WHIP ; new move
 	db 1, WATER_GUN
