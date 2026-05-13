@@ -159,7 +159,7 @@ EvolutionMoves::
 	db FIRE_PUNCH   ; TYPHLOSION
 	db NO_MOVE      ; MUDKIP
 	db NO_MOVE      ; MARSHTOMP
-	db NIGHT_SLASH  ; SWAMPERT
+	db MUD_FLOOD    ; SWAMPERT
 	db NO_MOVE      ; SENTRET
 	db AGILITY      ; FURRET
 	db NO_MOVE      ; HOOTHOOT

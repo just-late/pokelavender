@@ -166,7 +166,7 @@ MoveDescriptions::
 	dw SlashDescription
 	dw SubstituteDescription
 	dw GigaImpactDescription
-	dw SketchDescription
+	dw MudFloodDescription
 	dw DrainPunchDescription
 	dw ThiefDescription
 	dw WillOWispDescription
@@ -1062,9 +1062,9 @@ StruggleDescription:
 	next "PP are exhausted."
 	done
 
-SketchDescription:
-	text "Copies the foe's"
-	next "move permanently."
+MudFloodDescription:
+	text "Drenches the field"
+	next "in muddy water."
 	done
 
 ThiefDescription:

@@ -3541,16 +3541,17 @@ BattleAnim_Struggle:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Sketch:
-	anim_1gfx ANIM_GFX_OBJECTS
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING, $0, $1, $20
-	anim_sound 0, 0, SFX_SKETCH
-	anim_obj ANIM_OBJ_SKETCH,   9, 0,  10, 0, $0
-	anim_wait 80
-	anim_incbgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING
-	anim_call BattleAnim_ShowMon_0
-	anim_wait 1
+BattleAnim_MudFlood:
+	anim_setobjpal PAL_BATTLE_OB_BROWN, PAL_BTLCUSTOM_BROWN
+	anim_1gfx ANIM_GFX_BUBBLE
+	anim_bgeffect ANIM_BG_SURF, $0, $0, $0
+	anim_obj ANIM_OBJ_SURF,  11, 0,  13, 0, $8
+.loop
+	anim_sound 0, 1, SFX_SURF
+	anim_wait 112
+	anim_loop 1, .loop
+	anim_incobj 1
+	anim_wait 56
 	anim_ret
 
 BattleAnim_DrainPunch:

@@ -3598,7 +3598,7 @@ MewtwoEvosAttacks:
 
 MewEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SKETCH ; Reflect Type → new move
+	db 1, MUD_FLOOD ; Reflect Type → new move
 	db 1, TELEPORT ; event move
 	db 1, TACKLE ; Pound → similar move
 	db 1, TRANSFORM
@@ -3789,6 +3789,7 @@ MarshtompEvosAttacks: ; based on gen 7 learnset
 
 SwampertEvosAttacks: ; based on gen 7 learnset
 	db -1 ; no more evolutions
+	db 1, MUD_FLOOD ; evolution move, custom signature move
 	db 1, GROWL
 	db 1, TACKLE
 	db 4, WATER_GUN
@@ -5424,16 +5425,16 @@ StantlerEvosAttacks:
 
 SmeargleEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SKETCH
-	db 11, SKETCH
-	db 21, SKETCH
-	db 31, SKETCH
-	db 41, SKETCH
-	db 51, SKETCH
-	db 61, SKETCH
-	db 71, SKETCH
-	db 81, SKETCH
-	db 91, SKETCH
+	db 1, MUD_FLOOD
+	db 11, MUD_FLOOD
+	db 21, MUD_FLOOD
+	db 31, MUD_FLOOD
+	db 41, MUD_FLOOD
+	db 51, MUD_FLOOD
+	db 61, MUD_FLOOD
+	db 71, MUD_FLOOD
+	db 81, MUD_FLOOD
+	db 91, MUD_FLOOD
 	db -1 ; no more level-up moves
 
 TyrogueEvosAttacks:

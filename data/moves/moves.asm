@@ -222,7 +222,7 @@ endc
 	move SLASH,           EFFECT_NORMAL_HIT,         70, NORMAL,    100, 20,   0, PHYSICAL
 	move SUBSTITUTE,      EFFECT_SUBSTITUTE,          0, NORMAL,     -1, 10,   0, STATUS
 	move GIGA_IMPACT,     EFFECT_HYPER_BEAM,        150, NORMAL,     90,  5,   0, PHYSICAL
-	move SKETCH,          EFFECT_SKETCH,              0, NORMAL,     -1,  1,   0, STATUS
+	move MUD_FLOOD,       EFFECT_SP_DEF_DOWN_HIT,   120, GROUND,     95, 10,  10, SPECIAL
 	move DRAIN_PUNCH,     EFFECT_LEECH_HIT,          75, FIGHTING,  100, 10,   0, PHYSICAL
 	move THIEF,           EFFECT_THIEF,              60, DARK,      100, 25, 100, PHYSICAL
 	move WILL_O_WISP,     EFFECT_BURN,                0, FIRE,       85, 15,   0, STATUS

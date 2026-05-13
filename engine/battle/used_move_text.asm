@@ -121,7 +121,7 @@ MoveTable:
 	db SUPER_FANG
 	db SLASH
 	db SUBSTITUTE
-	db SKETCH
+	db MUD_FLOOD
 	db THIEF
 	db CURSE
 	db AEROBLAST

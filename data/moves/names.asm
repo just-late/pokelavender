@@ -166,7 +166,7 @@ MoveNames::
 	li "SLASH"
 	li "SUBSITUTE"
 	li "GIGA IMPACT"
-	li "SKETCH"
+	li "MUD FLOOD"
 	li "DRAIN PUNCH"
 	li "THIEF"
 	li "WILL-O-WISP"

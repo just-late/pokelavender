@@ -2290,7 +2290,7 @@ RestorePPEffect:
 
 .ppup2
 	ld a, [hl]
-	cp SKETCH
+	cp MUD_FLOOD
 	jr z, .CantUsePPUpOnSketch
 
 	ld bc, MON_PP - MON_MOVES

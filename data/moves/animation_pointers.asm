@@ -168,7 +168,7 @@ BattleAnimations::
 	fardw BattleAnim_Slash
 	fardw BattleAnim_Substitute
 	fardw BattleAnim_GigaImpact
-	fardw BattleAnim_Sketch
+	fardw BattleAnim_MudFlood
 	fardw BattleAnim_DrainPunch
 	fardw BattleAnim_Thief
 	fardw BattleAnim_WillOWisp
