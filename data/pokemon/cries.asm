@@ -179,9 +179,9 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Lanturn
 	mon_cry CRY_PICHU,       $000,  $140 ; Pichu
 	mon_cry CRY_BELLOSSOM,   $061,  $091 ; Cleffa
-	mon_cry CRY_CHIKORITA,     $0e8,  $0e8 ; Igglybuff
-	mon_cry CRY_SENTRET,     $000,  $100 ; Togepi
-	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togetic
+	mon_cry CRY_CHIKORITA,   $0e8,  $0e8 ; Igglybuff
+	mon_cry CRY_GOOMY,       $0b4,  $0ea ; Goomy myRattata
+	mon_cry CRY_CHATOT,     -$01a,  $2e6 ; Sligoo Ax6
 	mon_cry CRY_NATU,       -$067,  $100 ; Natu
 	mon_cry CRY_NATU,       -$0a7,  $168 ; Xatu
 	mon_cry CRY_MAREEP,      $022,  $0d8 ; Mareep
@@ -276,7 +276,7 @@ PokemonCries::
 	mon_cry CRY_GOLEM,       $000,  $100 ; Tangrowth
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electivire
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; Magmortar
-	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togekiss
+	mon_cry CRY_VULPIX,     -$107,  $0ca ; Goodra Ax6
 	mon_cry CRY_TOTODILE,    $031,  $0c8 ; Yanmega
 	mon_cry CRY_VENONAT,     $03d,  $160 ; Leafeon
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Glaceon

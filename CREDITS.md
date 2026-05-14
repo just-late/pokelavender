@@ -18,6 +18,8 @@ and many more. Please make yourselves known.
 ## Cries:
 * SourApple
 * Celadonk
+* Ax6
+* myRattata
 
 ## Music:
 * Mmmmmm
