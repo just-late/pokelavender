@@ -42,6 +42,7 @@ Marts:
 	dw BattleFactoryMart1
 	dw BattleFactoryMart2
 	dw BattleFactoryMart3
+	dw BlossomSouvenirShop
 	assert_table_length NUM_MARTS
 
 GlittervineMart:
@@ -517,4 +518,13 @@ BattleFactoryMart3:
 	db ROOM_SERVICE, 24
 	db LIFE_ORB,     48
 	db MINT_LEAF,    32
+	db -1
+
+BlossomSouvenirShop:
+	db 5 ; # items
+	db FLOWER_MAIL
+	db MUSIC_MAIL
+	db BLUESKY_MAIL
+	db SUN_STONE
+	db PREMIER_BALL
 	db -1

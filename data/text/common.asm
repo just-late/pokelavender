@@ -4095,6 +4095,22 @@ _BuenaComeAgainText::
 	line "back again!"
 	done
 
+SECTION "_BlossomSouvenirWelcomeText", ROMX
+_BlossomSouvenirWelcomeText::
+	text "Welcome to the"
+	line "BLOSSOM SOUVENIR"
+	cont "SHOP!"
+
+	para "How may I"
+	line "help you?"
+	done
+
+SECTION "_BlossomSouvenirComeAgainText", ROMX
+_BlossomSouvenirComeAgainText::
+	text "Okay… please come"
+	line "again!"
+	done
+
 SECTION "Text_ExcuseMeYoureNotReady", ROMX
 Text_ExcuseMeYoureNotReady::
 	text "Excuse me."
