@@ -45,6 +45,7 @@ bank_ends.txt
 *.sn*
 *.sa*
 *.sg1
+*.ss*
 
 # vim configuration
 # http://www.vim.org/scripts/script.php?script_id=441
