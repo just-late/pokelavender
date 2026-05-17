@@ -189,11 +189,6 @@
 	const MUSIC_VERDANTURF_TOWN_RSE            ; b9
 	const MUSIC_MARINE_TUBE_B2W2               ; bb ; unused
 	const MUSIC_LEGENDARY_BATTLE_XY            ; bc ; unused
-	const MUSIC_WILD_BATTLE_PRISM              ; bd ; unused
-	const MUSIC_TRAINER_BATTLE_PRISM           ; be ; unused
-	const MUSIC_GYM_LEADER_BATTLE_PRISM        ; bf ; unused
-	const MUSIC_PALETTE_BATTLE_PRISM           ; c0 ; unused
-	const MUSIC_UNDERTALE_MEGALOVANIA          ; c1 ; unused
 	const MUSIC_RIVAL_THEME					   ; c2
 DEF NUM_MUSIC_SONGS EQU const_value
 
