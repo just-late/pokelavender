@@ -565,4 +565,7 @@ INCLUDE "audio/music/m02/lugiassong.asm"
 SECTION "Song - undertale/megalovania", ROMX
 INCLUDE "audio/music/undertale/megalovania.asm"
 
+SECTION "Song - rivalstheme", ROMX
+INCLUDE "audio/music/rivalstheme.asm"
+
 ENDSECTION
