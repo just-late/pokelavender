@@ -6,6 +6,7 @@ AlphabeticalPokedexOrder:
 	dp AERODACTYL
 	dp AIPOM
 	dp ALAKAZAM
+	dp ALTARIA
 	dp AMBIPOM
 	dp AMPHAROS
 	dp ANNIHILAPE
@@ -172,7 +173,6 @@ AlphabeticalPokedexOrder:
 	dp NIDORINO
 	dp NINETALES
 	dp NOCTOWL
-	dp ALTARIA
 	dp ODDISH
 	dp OMANYTE
 	dp OMASTAR
@@ -210,10 +210,10 @@ AlphabeticalPokedexOrder:
 	dp RAPIDASH
 	dp RATICATE
 	dp RATTATA
-	dp SWABLU
 	dp RHYDON
 	dp RHYHORN
 	dp RHYPERIOR
+	dp SABLEYE
 	dp SANDSHREW
 	dp SANDSLASH
 	dp SCIZOR
@@ -231,7 +231,6 @@ AlphabeticalPokedexOrder:
 	dp SLOWKING
 	dp SLOWPOKE
 	dp SLUGMA
-	dp SABLEYE
 	dp SMOOCHUM
 	dp SNEASEL
 	dp SNEASLER
@@ -248,6 +247,7 @@ AlphabeticalPokedexOrder:
 	dp SUICUNE
 	dp SUNFLORA
 	dp SUNKERN
+	dp SWABLU
 	dp SWINUB
 	dp SYLVEON
 	dp TANGELA
