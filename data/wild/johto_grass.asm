@@ -343,17 +343,17 @@
 	wildmon 22, NATU
 	wildmon 18, NATU
 	wildmon 24, NATU
-	wildmon 20, SMEARGLE
-	wildmon 22, SMEARGLE
-	wildmon 22, SMEARGLE
+	wildmon 20, SABLEYE
+	wildmon 22, SABLEYE
+	wildmon 22, SABLEYE
 	; day
 	wildmon 20, NATU
 	wildmon 22, NATU
 	wildmon 18, NATU
 	wildmon 24, NATU
-	wildmon 20, SMEARGLE
-	wildmon 22, SMEARGLE
-	wildmon 22, SMEARGLE
+	wildmon 20, SABLEYE
+	wildmon 22, SABLEYE
+	wildmon 22, SABLEYE
 	; nite
 	wildmon 22, NATU
 	wildmon 24, NATU
@@ -1575,7 +1575,7 @@
 	wildmon 14, PIDGEY
 	wildmon 15, PIDGEOTTO
 	wildmon 16, GROWLITHE
-	wildmon 14, SMEARGLE
+	wildmon 14, SABLEYE
 	wildmon 15, LEDIAN
 	wildmon 16, PIDGEOTTO
 	; day
@@ -1583,7 +1583,7 @@
 	wildmon 14, GROWLITHE
 	wildmon 15, PIDGEOTTO
 	wildmon 16, GROWLITHE
-	wildmon 14, SMEARGLE
+	wildmon 14, SABLEYE
 	wildmon 15, PIDGEY
 	wildmon 16, PIDGEOTTO
 	; nite

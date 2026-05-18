@@ -229,8 +229,8 @@ PokemonBodyData:
 	body_data   4,   65, QUADRUPED,    BROWN  ; SWINUB
 	body_data  11,  558, QUADRUPED,    BROWN  ; PILOSWINE
 	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
-	body_data   6,  120, FINS,         GRAY   ; REMORAID
-	body_data   9,  285, TENTACLES,    RED    ; OCTILLERY
+	body_data   4,   12, WINGS,        BLUE   ; SWABLU
+	body_data  11,  206, WINGS,        BLUE   ; ALTARIA
 	body_data   9,  160, WINGS,        RED    ; DELIBIRD
 	body_data  21, 2200, WINGS,        PURPLE ; MANTINE
 	body_data  17,  505, WINGS,        GRAY   ; SKARMORY
@@ -241,7 +241,7 @@ PokemonBodyData:
 	body_data  11, 1200, QUADRUPED,    GRAY   ; DONPHAN
 	body_data   6,  325, HEAD_LEGS,    RED    ; PORYGON2
 	body_data  14,  712, QUADRUPED,    BROWN  ; STANTLER
-	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; SMEARGLE
+	body_data   5,  110, BIPEDAL,      PURPLE ; SABLEYE
 	body_data   7,  210, BIPEDAL,      PURPLE ; TYROGUE
 	body_data  14,  480, BIPEDAL_TAIL, BROWN  ; HITMONTOP
 	body_data   4,   60, BIPEDAL,      PINK   ; SMOOCHUM

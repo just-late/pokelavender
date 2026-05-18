@@ -222,8 +222,8 @@ AnimationPointers:
 	dw SwinubAnimation
 	dw PiloswineAnimation
 	dw CorsolaPlainAnimation
-	dw RemoraidAnimation
-	dw OctilleryAnimation
+	dw SwabluAnimation
+	dw AltariaAnimation
 	dw DelibirdAnimation
 	dw MantineAnimation
 	dw SkarmoryAnimation
@@ -234,7 +234,7 @@ AnimationPointers:
 	dw DonphanAnimation
 	dw Porygon2Animation
 	dw StantlerAnimation
-	dw SmeargleAnimation
+	dw SableyeAnimation
 	dw TyrogueAnimation
 	dw HitmontopAnimation
 	dw SmoochumAnimation

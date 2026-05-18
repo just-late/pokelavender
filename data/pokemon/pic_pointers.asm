@@ -226,8 +226,8 @@ PokemonPicPointers::
 	pics Swinub
 	pics Piloswine
 	pics CorsolaPlain
-	pics Remoraid
-	pics Octillery
+	pics Swablu
+	pics Altaria
 	pics Delibird
 	pics Mantine
 	pics Skarmory
@@ -238,7 +238,7 @@ PokemonPicPointers::
 	pics Donphan
 	pics Porygon2
 	pics Stantler
-	pics Smeargle
+	pics Sableye
 	pics Tyrogue
 	pics Hitmontop
 	pics Smoochum

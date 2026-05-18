@@ -226,8 +226,8 @@ MiniIconPointers:
 	mini_icon Swinub
 	mini_icon Piloswine
 	mini_icon Corsola
-	mini_icon Remoraid
-	mini_icon Octillery
+	mini_icon Swablu
+	mini_icon Altaria
 	mini_icon Delibird
 	mini_icon Mantine
 	mini_icon Skarmory
@@ -238,7 +238,7 @@ MiniIconPointers:
 	mini_icon Donphan
 	mini_icon Porygon2
 	mini_icon Stantler
-	mini_icon Smeargle
+	mini_icon Sableye
 	mini_icon Tyrogue
 	mini_icon Hitmontop
 	mini_icon Smoochum

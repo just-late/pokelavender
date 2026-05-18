@@ -222,8 +222,8 @@ FootprintPointers::
 	dw SwinubFootprint
 	dw PiloswineFootprint
 	dw CorsolaFootprint
-	dw RemoraidFootprint
-	dw OctilleryFootprint
+	dw SwabluFootprint
+	dw AltariaFootprint
 	dw DelibirdFootprint
 	dw MantineFootprint
 	dw SkarmoryFootprint
@@ -234,7 +234,7 @@ FootprintPointers::
 	dw DonphanFootprint
 	dw Porygon2Footprint
 	dw StantlerFootprint
-	dw SmeargleFootprint
+	dw SableyeFootprint
 	dw TyrogueFootprint
 	dw HitmontopFootprint
 	dw SmoochumFootprint

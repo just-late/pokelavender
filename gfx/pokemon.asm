@@ -724,13 +724,13 @@ SECTION "Mamoswine Pics", ROMX
 MamoswineFrontpic: INCBIN "gfx/pokemon/mamoswine/front.animated.2bpp.lz"
 MamoswineBackpic:  INCBIN "gfx/pokemon/mamoswine/back.2bpp.lz"
 
-SECTION "Remoraid Pics", ROMX
-RemoraidFrontpic: INCBIN "gfx/pokemon/remoraid/front.animated.2bpp.lz"
-RemoraidBackpic:  INCBIN "gfx/pokemon/remoraid/back.2bpp.lz"
+SECTION "Swablu Pics", ROMX
+SwabluFrontpic: INCBIN "gfx/pokemon/swablu/front.animated.2bpp.lz"
+SwabluBackpic:  INCBIN "gfx/pokemon/swablu/back.2bpp.lz"
 
-SECTION "Octillery Pics", ROMX
-OctilleryFrontpic: INCBIN "gfx/pokemon/octillery/front.animated.2bpp.lz"
-OctilleryBackpic:  INCBIN "gfx/pokemon/octillery/back.2bpp.lz"
+SECTION "Altaria Pics", ROMX
+AltariaFrontpic: INCBIN "gfx/pokemon/altaria/front.animated.2bpp.lz"
+AltariaBackpic:  INCBIN "gfx/pokemon/altaria/back.2bpp.lz"
 
 SECTION "Delibird Pics", ROMX
 DelibirdFrontpic: INCBIN "gfx/pokemon/delibird/front.animated.2bpp.lz"
@@ -772,9 +772,9 @@ SECTION "PorygonZ Pics", ROMX
 PorygonZFrontpic: INCBIN "gfx/pokemon/porygon_z/front.animated.2bpp.lz"
 PorygonZBackpic:  INCBIN "gfx/pokemon/porygon_z/back.2bpp.lz"
 
-SECTION "Smeargle Pics", ROMX
-SmeargleFrontpic: INCBIN "gfx/pokemon/smeargle/front.animated.2bpp.lz"
-SmeargleBackpic:  INCBIN "gfx/pokemon/smeargle/back.2bpp.lz"
+SECTION "Sableye Pics", ROMX
+SableyeFrontpic: INCBIN "gfx/pokemon/sableye/front.animated.2bpp.lz"
+SableyeBackpic:  INCBIN "gfx/pokemon/sableye/back.2bpp.lz"
 
 SECTION "Tyrogue Pics", ROMX
 TyrogueFrontpic: INCBIN "gfx/pokemon/tyrogue/front.animated.2bpp.lz"

@@ -226,8 +226,8 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; SWINUB
 	iconpal BROWN, GREEN ; PILOSWINE
 	iconpal PINK, AZURE ; CORSOLA
-	iconpal BLUE, GRAY ; REMORAID
-	iconpal RED, TEAL ; OCTILLERY
+	iconpal BLUE, GRAY ; SWABLU
+	iconpal RED, TEAL ; ALTARIA
 	iconpal RED, PINK ; DELIBIRD
 	iconpal BLUE, WHITE ; MANTINE
 	iconpal GRAY, GREEN ; SKARMORY
@@ -238,7 +238,7 @@ OverworldMonIconColors::
 	iconpal GRAY, RED ; DONPHAN
 	iconpal BLUE, PURPLE ; PORYGON2
 	iconpal BROWN, GREEN ; STANTLER
-	iconpal BROWN, GREEN ; SMEARGLE
+	iconpal BROWN, GREEN ; SABLEYE
 	iconpal BROWN, AZURE ; TYROGUE
 	iconpal BROWN, AZURE ; HITMONTOP
 	iconpal PURPLE, PINK ; SMOOCHUM

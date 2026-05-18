@@ -223,8 +223,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  32 ; Swinub
 	db  33,  44 ; Piloswine
 	db   1, 100 ; Corsola
-	db   1,  24 ; Remoraid
-	db  25, 100 ; Octillery
+	db   1,  24 ; Swablu
+	db  25, 100 ; Altaria
 	db   1, 100 ; Delibird
 	db   1, 100 ; Mantine
 	db  10, 100 ; Skarmory
@@ -235,7 +235,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  25, 100 ; Donphan
 	db  20,  39 ; Porygon2
 	db   1,  29 ; Stantler
-	db   1, 100 ; Smeargle
+	db   1, 100 ; Sableye
 	db   1,  19 ; Tyrogue
 	db  20, 100 ; Hitmontop
 	db   1,  19 ; Smoochum

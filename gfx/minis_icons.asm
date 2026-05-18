@@ -1117,15 +1117,15 @@ CorsolaMini::     INCBIN "gfx/minis/corsola.2bpp.lz"
 CorsolaMiniMask:: INCBIN "gfx/minis/corsola_mask.1bpp.lz"
 CorsolaIcon::     INCBIN "gfx/icons/corsola.2bpp.lz"
 
-SECTION "Remoraid Mini Icon", ROMX
-RemoraidMini::     INCBIN "gfx/minis/remoraid.2bpp.lz"
-RemoraidMiniMask:: INCBIN "gfx/minis/remoraid_mask.1bpp.lz"
-RemoraidIcon::     INCBIN "gfx/icons/remoraid.2bpp.lz"
+SECTION "Swablu Mini Icon", ROMX
+SwabluMini::     INCBIN "gfx/minis/swablu.2bpp.lz"
+SwabluMiniMask:: INCBIN "gfx/minis/swablu_mask.1bpp.lz"
+SwabluIcon::     INCBIN "gfx/icons/swablu.2bpp.lz"
 
-SECTION "Octillery Mini Icon", ROMX
-OctilleryMini::     INCBIN "gfx/minis/octillery.2bpp.lz"
-OctilleryMiniMask:: INCBIN "gfx/minis/octillery_mask.1bpp.lz"
-OctilleryIcon::     INCBIN "gfx/icons/octillery.2bpp.lz"
+SECTION "Altaria Mini Icon", ROMX
+AltariaMini::     INCBIN "gfx/minis/altaria.2bpp.lz"
+AltariaMiniMask:: INCBIN "gfx/minis/altaria_mask.1bpp.lz"
+AltariaIcon::     INCBIN "gfx/icons/altaria.2bpp.lz"
 
 SECTION "Delibird Mini Icon", ROMX
 DelibirdMini::     INCBIN "gfx/minis/delibird.2bpp.lz"
@@ -1177,10 +1177,10 @@ StantlerMini::     INCBIN "gfx/minis/stantler.2bpp.lz"
 StantlerMiniMask:: INCBIN "gfx/minis/stantler_mask.1bpp.lz"
 StantlerIcon::     INCBIN "gfx/icons/stantler.2bpp.lz"
 
-SECTION "Smeargle Mini Icon", ROMX
-SmeargleMini::     INCBIN "gfx/minis/smeargle.2bpp.lz"
-SmeargleMiniMask:: INCBIN "gfx/minis/smeargle_mask.1bpp.lz"
-SmeargleIcon::     INCBIN "gfx/icons/smeargle.2bpp.lz"
+SECTION "Sableye Mini Icon", ROMX
+SableyeMini::     INCBIN "gfx/minis/sableye.2bpp.lz"
+SableyeMiniMask:: INCBIN "gfx/minis/sableye_mask.1bpp.lz"
+SableyeIcon::     INCBIN "gfx/icons/sableye.2bpp.lz"
 
 SECTION "Tyrogue Mini Icon", ROMX
 TyrogueMini::     INCBIN "gfx/minis/tyrogue.2bpp.lz"

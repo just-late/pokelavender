@@ -222,8 +222,8 @@ FramesPointers:
 	dw SwinubFrames
 	dw PiloswineFrames
 	dw CorsolaPlainFrames
-	dw RemoraidFrames
-	dw OctilleryFrames
+	dw SwabluFrames
+	dw AltariaFrames
 	dw DelibirdFrames
 	dw MantineFrames
 	dw SkarmoryFrames
@@ -234,7 +234,7 @@ FramesPointers:
 	dw DonphanFrames
 	dw Porygon2Frames
 	dw StantlerFrames
-	dw SmeargleFrames
+	dw SableyeFrames
 	dw TyrogueFrames
 	dw HitmontopFrames
 	dw SmoochumFrames

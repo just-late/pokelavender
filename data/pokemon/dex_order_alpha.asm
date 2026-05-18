@@ -172,7 +172,7 @@ AlphabeticalPokedexOrder:
 	dp NIDORINO
 	dp NINETALES
 	dp NOCTOWL
-	dp OCTILLERY
+	dp ALTARIA
 	dp ODDISH
 	dp OMANYTE
 	dp OMASTAR
@@ -210,7 +210,7 @@ AlphabeticalPokedexOrder:
 	dp RAPIDASH
 	dp RATICATE
 	dp RATTATA
-	dp REMORAID
+	dp SWABLU
 	dp RHYDON
 	dp RHYHORN
 	dp RHYPERIOR
@@ -231,7 +231,7 @@ AlphabeticalPokedexOrder:
 	dp SLOWKING
 	dp SLOWPOKE
 	dp SLUGMA
-	dp SMEARGLE
+	dp SABLEYE
 	dp SMOOCHUM
 	dp SNEASEL
 	dp SNEASLER

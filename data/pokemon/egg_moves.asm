@@ -842,16 +842,13 @@ CorsolaGalarianEggMoves:
 	db ICICLE_SPEAR
 	db $ff
 
-RemoraidEggMoves:
-	db SPLASH
+SwabluEggMoves:
+	db ASTONISH
+	db DRAGON_PULSE ; Dragon Rush = similar move
+	db SCREECH ; Feather Dance = similar move
 	db HAZE
-	db WOOD_HAMMER
-	db ROCK_BLAST
-	db SCREECH
-	db SUPERSONIC
-	db AURORA_BEAM
-	db GUNK_SHOT
-	db WATER_PULSE
+	db ROOST
+	db DRAGON_DANCE ; Tail Wind = new move
 	db $ff
 
 DelibirdEggMoves:
@@ -896,6 +893,13 @@ StantlerEggMoves:
 	db DOUBLE_KICK
 	db EXTRASENSORY
 	db RAGE
+	db $ff
+
+SableyeEggMoves:
+	db FEINT_ATTACK
+	db RECOVER
+	db SUCKER_PUNCH
+	db METAL_CLAW
 	db $ff
 
 TyrogueEggMoves:

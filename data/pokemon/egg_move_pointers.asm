@@ -222,8 +222,8 @@ EggMovePointers::
 	dw SwinubEggMoves         ; Swinub
 	dw NoEggMoves             ; Piloswine
 	dw CorsolaPlainEggMoves   ; Corsola
-	dw RemoraidEggMoves       ; Remoraid
-	dw NoEggMoves             ; Octillery
+	dw SwabluEggMoves         ; Swablu
+	dw NoEggMoves             ; Altaria
 	dw DelibirdEggMoves       ; Delibird
 	dw NoEggMoves             ; Mantine
 	dw SkarmoryEggMoves       ; Skarmory
@@ -234,7 +234,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Donphan
 	dw NoEggMoves             ; Porygon2
 	dw StantlerEggMoves       ; Stantler
-	dw NoEggMoves             ; Smeargle
+	dw SableyeEggMoves        ; Sableye
 	dw TyrogueEggMoves        ; Tyrogue
 	dw NoEggMoves             ; Hitmontop
 	dw SmoochumEggMoves       ; Smoochum

@@ -2226,25 +2226,25 @@ CorsolaPlainPokedexEntry::
 	next "cannot survive in"
 	next "polluted water.@"
 
-SECTION "RemoraidPokedexEntry", ROMX
-RemoraidPokedexEntry::
-	db "Jet@"
-	db   "To escape from an"
-	next "attacker, it may"
-	next "shoot water out of"
-	page "its mouth, then"
-	next "use that force to"
-	next "swim backward.@"
+SECTION "SwabluPokedexEntry", ROMX
+SwabluPokedexEntry::
+	db "Cotton Bird@"
+	db   "It is thought to"
+	next "bring good weather"
+	next "by ATUVA REGION"
+	page "locals. Its wings"
+	next "are like cotton"
+	next "tufts.@"
 
-SECTION "OctilleryPokedexEntry", ROMX
-OctilleryPokedexEntry::
-	db "Jet@"
-	db   "Its instinct is to"
-	next "bury itself in"
-	next "holes. It often"
-	page "steals the nesting"
-	next "holes of others to"
-	next "sleep in them.@"
+SECTION "AltariaPokedexEntry", ROMX
+AltariaPokedexEntry::
+	db "Humming@"
+	db   "On sunny days, it"
+	next "flies freely in the"
+	next "sky and disappears"
+	page "among the clouds."
+	next "It sings a lovely"
+	next "soprano.@"
 
 SECTION "DelibirdPokedexEntry", ROMX
 DelibirdPokedexEntry::
@@ -2346,15 +2346,15 @@ StantlerPokedexEntry::
 	next "powder that aids"
 	next "in sleeping.@"
 
-SECTION "SmearglePokedexEntry", ROMX
-SmearglePokedexEntry::
-	db "Painter@"
-	db   "The color of the"
-	next "mysterious fluid"
-	next "secreted from its"
-	page "tail is predeter-"
-	next "mined for each"
-	next "Smeargle.@"
+SECTION "SableyePokedexEntry", ROMX
+SableyePokedexEntry::
+	db "Darkness@"
+	db   "It feeds on gem-"
+	next "stone crystals."
+	next "In darkness, its"
+	page "eyes sparkle with"
+	next "the glitter of"
+	next "jewels.@"
 
 SECTION "TyroguePokedexEntry", ROMX
 TyroguePokedexEntry::
@@ -2614,7 +2614,7 @@ MantykePokedexEntry::
 	next "#MON frolic and"
 	page "skim the tops of"
 	next "the waves with"
-	next "Remoraid.@"
+	next "Swablu.@"
 
 SECTION "WeavilePokedexEntry", ROMX
 WeavilePokedexEntry::

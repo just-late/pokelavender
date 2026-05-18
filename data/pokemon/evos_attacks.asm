@@ -5179,49 +5179,40 @@ CorsolaGalarianEvosAttacks:
 	db 55, MIRROR_COAT
 	db -1 ; no more level-up moves
 
-RemoraidEvosAttacks:
-	evo_data EVOLVE_LEVEL, 25, OCTILLERY
+SwabluEvosAttacks:
+	evo_data EVOLVE_LEVEL, 25, ALTARIA
 	db -1 ; no more evolutions
-	db 1, WRAP ; Sw/Sh move
-	db 1, WATER_GUN
-	db 6, FORESIGHT ; Lock-On → new move
-	db 10, PSYBEAM
-	db 14, AURORA_BEAM
-	db 18, BUBBLE_BEAM
-	db 22, FOCUS_ENERGY
-	db 26, WATER_PULSE
-	db 30, FLAMETHROWER ; Signal Beam → TM move
-	db 34, ICE_BEAM
-	db 38, SEED_BOMB ; Bullet Seed → tutor move
-	db 42, GUNK_SHOT ; Hydro Pump → new move
-	db 46, HYDRO_PUMP ; Hyper Beam → Hydro Pump
-	db 50, AURA_SPHERE ; Soak → new move
-	db 54, HYPER_BEAM
+	db 1, GROWL
+	db 1, PECK
+	db 4, DISARM_VOICE
+	db 8, LIGHT_SCREEN ; Mist → differnt protecting move
+	db 12, FURY_STRIKES ; Fury Attack
+	db 16, ROOST ; Round → new move
+	db 20, DRAGON_RAGE ; Dragon Breath → similar move
+	db 24, SAFEGUARD
+	db 28, SING
+	db 32, ASTONISH ; Cotton Guard → egg move
+	db 36, TAKE_DOWN
+	db 40, MOONBLAST
+	db 44, PERISH_SONG
 	db -1 ; no more level-up moves
 
-OctilleryEvosAttacks:
+AltariaEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, WOOD_HAMMER ; evolution move
-	db 1, ROCK_BLAST
-	db 1, POWER_WHIP ; new move
-	db 1, WATER_GUN
-	db 6, FORESIGHT ; Constrict → new move
-	db 10, PSYBEAM
-	db 14, AURORA_BEAM
-	db 18, BUBBLE_BEAM
-	db 22, FOCUS_ENERGY
-	db 26, WRAP ; Wring Out → new move
-	db 28, WATER_PULSE
-	db 34, FLAMETHROWER ; Signal Beam → TM move
-	db 40, ICE_BEAM
-	db 46, SEED_BOMB ; Bullet Seed → tutor move
-	db 52, GUNK_SHOT ; Hydro Pump → new move
-	db 58, HYDRO_PUMP ; Hyper Beam → Hydro Pump
-if !DEF(FAITHFUL)
-	db 58, FIRE_BLAST ; new move
-endc
-	db 64, AURA_SPHERE ; Soak → new move
-	db 70, HYPER_BEAM
+	db 1, GROWL
+	db 1, PECK
+	db 4, DISARM_VOICE
+	db 8, LIGHT_SCREEN ; Mist → differnt protecting move
+	db 20, DRAGON_RAGE ; Dragon Breath → similar move
+	db 24, SAFEGUARD
+	db 32, ASTONISH ; Cotton Guard → egg move
+	db 35, AERIAL_ACE ; Twister → new move
+	db 37, TAKE_DOWN
+	db 40, MOONBLAST
+	db 44, SCREECH ; Feather Dance → similar move
+	db 50, BRAVE_BIRD
+	db 55, DRAGON_PULSE ; Dragon Rush → similar move
+	db 60, PERISH_SONG
 	db -1 ; no more level-up moves
 
 DelibirdEvosAttacks:
@@ -5423,18 +5414,24 @@ StantlerEvosAttacks:
 	db 60, DOUBLE_EDGE ; new move
 	db -1 ; no more level-up moves
 
-SmeargleEvosAttacks:
+SableyeEvosAttacks: ; gen 9 learnset
 	db -1 ; no more evolutions
-	db 1, MUD_FLOOD
-	db 11, MUD_FLOOD
-	db 21, MUD_FLOOD
-	db 31, MUD_FLOOD
-	db 41, MUD_FLOOD
-	db 51, MUD_FLOOD
-	db 61, MUD_FLOOD
-	db 71, MUD_FLOOD
-	db 81, MUD_FLOOD
-	db 91, MUD_FLOOD
+	db 1, LEER
+	db 1, TACKLE
+	db 9, FEINT_ATTACK ; Shadow Sneak → Feint Attack
+	db 15, TAKE_DOWN
+	db 18, PROTECT ; Detect → similar move
+	db 20, SHADOW_CLAW
+	db 22, CONFUSE_RAY
+	db 25, KNOCK_OFF
+	db 28, PSYBEAM
+	db 33, NIGHT_SLASH
+	db 39, POWER_GEM
+	db 42, ZEN_HEADBUTT
+	db 45, SHADOW_BALL
+	db 50, RECOVER
+	db 53, MEAN_LOOK ; Parting Shot → old move
+	db 56, PAIN_SPLIT ; Phantom Force → old move
 	db -1 ; no more level-up moves
 
 TyrogueEvosAttacks:
@@ -5902,7 +5899,7 @@ MunchlaxEvosAttacks:
 	db -1 ; no more level-up moves
 
 MantykeEvosAttacks:
-	evo_data EVOLVE_PARTY, REMORAID, MANTINE
+	evo_data EVOLVE_PARTY, SWABLU, MANTINE
 	db -1 ; no more evolutions
 	db 1, GUST ; event move
 	db 1, TACKLE

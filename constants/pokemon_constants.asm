@@ -244,8 +244,8 @@
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
 	const CORSOLA    ; de
-	const REMORAID   ; df
-	const OCTILLERY  ; e0
+	const SWABLU     ; df
+	const ALTARIA    ; e0
 	const DELIBIRD   ; e1
 	const MANTINE    ; e2
 	const SKARMORY   ; e3
@@ -256,7 +256,7 @@
 	const DONPHAN    ; e8
 	const PORYGON2   ; e9
 	const STANTLER   ; ea
-	const SMEARGLE   ; eb
+	const SABLEYE    ; eb
 	const TYROGUE    ; ec
 	const HITMONTOP  ; ed
 	const SMOOCHUM   ; ee

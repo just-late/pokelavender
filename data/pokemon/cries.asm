@@ -228,8 +228,8 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   $1fe,  $140 ; Swinub
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Piloswine
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Corsola
-	mon_cry CRY_REMORAID,    $00d,  $100 ; Remoraid
-	mon_cry CRY_TOTODILE,    $000,  $180 ; Octillery
+	mon_cry CRY_TOGETIC,     $010,  $017 ; Swablu FrostedGeulleisia
+	mon_cry CRY_NIDORAN_M,   $045,  $155 ; Altaria SourApple
 	mon_cry CRY_TEDDIURSA,   $002,  $06a ; Delibird
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantine
 	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; Skarmory
@@ -240,7 +240,7 @@ PokemonCries::
 	mon_cry CRY_DONPHAN,     $000,  $1a0 ; Donphan
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; Porygon2
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Stantler
-	mon_cry CRY_PICHU,      -$21a,  $1f0 ; Smeargle
+	mon_cry CRY_CATERPIE,    $ee3,  $100 ; Sableye SourApple
 	mon_cry CRY_TYROGUE,     $02c,  $108 ; Tyrogue
 	mon_cry CRY_SLUGMA,      $000,  $100 ; Hitmontop
 	mon_cry CRY_MARILL,      $068,  $100 ; Smoochum

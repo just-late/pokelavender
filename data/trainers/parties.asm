@@ -931,7 +931,7 @@ MistyGroup:
 	dbp 73, LANTURN
 		db NEVERMELTICE
 		db SURF, THUNDERBOLT, ICE_BEAM, CONFUSE_RAY
-	dbp 74, OCTILLERY
+	dbp 74, ALTARIA
 		db CHARCOAL
 		db FIRE_BLAST, ICE_BEAM, HYDRO_PUMP, POWER_WHIP
 	dbp 75, STARMIE
@@ -3087,7 +3087,7 @@ FisherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 34, GOLDEEN
-	dbp 36, REMORAID
+	dbp 36, SWABLU
 	dbp 36, SEAKING
 	db -1 ; end
 
@@ -3096,7 +3096,7 @@ FisherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 36, GOLDEEN
-	dbp 38, REMORAID
+	dbp 38, SWABLU
 	dbp 38, SEAKING
 	db -1 ; end
 
@@ -3108,7 +3108,7 @@ FisherGroup:
 		db WATERFALL, FURY_STRIKES, POISON_JAB, RAIN_DANCE
 	dbp 40, SEAKING
 		db WATERFALL, BODY_SLAM, POISON_JAB, AGILITY
-	dbp 42, OCTILLERY
+	dbp 42, ALTARIA
 		db PSYBEAM, AURORA_BEAM, WOOD_HAMMER, HYPER_BEAM
 	db -1 ; end
 
@@ -3191,9 +3191,9 @@ FisherGroup:
 	db "Edgar@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 36, REMORAID
+	dbp 36, SWABLU
 		db FLAMETHROWER, PSYBEAM, AURORA_BEAM, BUBBLE_BEAM
-	dbp 36, REMORAID
+	dbp 36, SWABLU
 		db ICE_BEAM, PSYBEAM, AURORA_BEAM, BUBBLE_BEAM
 	db -1 ; end
 
@@ -3202,8 +3202,8 @@ FisherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 44, SHELLDER
-	dbp 46, OCTILLERY
-	dbp 44, REMORAID
+	dbp 46, ALTARIA
+	dbp 44, SWABLU
 	dbp 46, CLOYSTER
 	db -1 ; end
 
@@ -3211,8 +3211,8 @@ FisherGroup:
 	db "Martin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 56, REMORAID
-	dbp 58, OCTILLERY
+	dbp 56, SWABLU
+	dbp 58, ALTARIA
 	db -1 ; end
 
 	; FISHER
@@ -3269,7 +3269,7 @@ FisherGroup:
 	db "Francis@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 4, REMORAID
+	dbp LEVEL_FROM_BADGES + 4, SWABLU
 	dbp LEVEL_FROM_BADGES + 5, CHINCHOU
 	dbp LEVEL_FROM_BADGES + 4, QWILFISH
 	db -1 ; end
@@ -6745,10 +6745,10 @@ BreederGroup:
 	db "Carlene@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 58, SMEARGLE, FEMALE
+	dbp 58, SABLEYE, FEMALE
 		db WISE_GLASSES, ABILITY_1 | NAT_NEUTRAL
 		db SPORE, NASTY_PLOT, HYPER_VOICE, PSYCHIC_M
-	dbp 58, SMEARGLE, FEMALE
+	dbp 58, SABLEYE, FEMALE
 		db MUSCLE_BAND, ABILITY_1 | NAT_NEUTRAL
 		db SPORE, SWORDS_DANCE, BODY_SLAM, EARTHQUAKE
 	dbp 62, DITTO, FEMALE
@@ -7000,7 +7000,7 @@ SwimmerMGroup:
 	db "Harold@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 60, REMORAID
+	dbp 60, SWABLU
 	dbp 58, SEADRA
 	db -1 ; end
 
@@ -7039,7 +7039,7 @@ SwimmerMGroup:
 	dbp 16, TENTACOOL
 	dbp 19, STARYU
 	dbp 17, TENTACOOL
-	dbp 19, REMORAID
+	dbp 19, SWABLU
 	db -1 ; end
 
 	; SWIMMERM
@@ -7112,7 +7112,7 @@ SwimmerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 58, QUAGSIRE
-	dbp 58, OCTILLERY
+	dbp 58, ALTARIA
 	dbp 62, QUAGSIRE
 	db -1 ; end
 
@@ -7429,9 +7429,9 @@ SwimmerFGroup:
 	db "Caroline@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 3, REMORAID
-	dbp LEVEL_FROM_BADGES + 3, REMORAID
-	dbp LEVEL_FROM_BADGES + 3, REMORAID
+	dbp LEVEL_FROM_BADGES + 3, SWABLU
+	dbp LEVEL_FROM_BADGES + 3, SWABLU
+	dbp LEVEL_FROM_BADGES + 3, SWABLU
 	db -1 ; end
 
 	; SWIMMERF
@@ -7453,7 +7453,7 @@ SwimmerFGroup:
 	db "Sally@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 1, REMORAID
+	dbp LEVEL_FROM_BADGES + 1, SWABLU
 	dbp LEVEL_FROM_BADGES + 3, MANTINE
 	db -1 ; end
 
@@ -7500,16 +7500,16 @@ SwimmerFGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 57, MANTINE
-	dbp 57, OCTILLERY
+	dbp 57, ALTARIA
 	db -1 ; end
 
 	; SWIMMERF
 	db "Rachel@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 53, REMORAID
-	dbp 53, REMORAID
-	dbp 53, REMORAID
+	dbp 53, SWABLU
+	dbp 53, SWABLU
+	dbp 53, SWABLU
 	dbp 55, MANTINE
 	db -1 ; end
 
@@ -8536,7 +8536,7 @@ ArtistGroup:
 	db "Alina@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_DVS | TRAINERTYPE_MOVES
 	; party
-	dbp 57, SMEARGLE
+	dbp 57, SABLEYE
 		db MIRACLE_SEED, DVS_HP_GRASS ; green
 		db SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
 	db -1 ; end
@@ -8545,14 +8545,14 @@ ArtistGroup:
 	db "Marlene@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_DVS | TRAINERTYPE_MOVES
 	; party
-	; TODO: fix DVs to appropriately color Smeargles
-	dbp 55, SMEARGLE
+	; TODO: fix DVs to appropriately color Sableyes
+	dbp 55, SABLEYE
 		db CHARCOAL, DVS_HP_FIRE ; red
 		db FIRE_BLAST, FLAMETHROWER, EARTH_POWER, WILL_O_WISP
-	dbp 55, SMEARGLE
+	dbp 55, SABLEYE
 		db MAGNET, DVS_HP_ELECTRIC ; yellow
 		db THUNDER, THUNDERBOLT, THUNDER_WAVE, RAIN_DANCE
-	dbp 55, SMEARGLE
+	dbp 55, SABLEYE
 		db MYSTIC_WATER, DVS_HP_WATER ; blue
 		db HYDRO_PUMP, SURF, ICE_BEAM, SCALD
 	db -1 ; end
@@ -8561,7 +8561,7 @@ ArtistGroup:
 	db "Rin@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_DVS | TRAINERTYPE_MOVES
 	; party
-	dbp 64, SMEARGLE
+	dbp 64, SABLEYE
 		db TWISTEDSPOON, DVS_HP_PSYCHIC ; pink
 		db PSYCHIC_M, SPORE, CALM_MIND, RECOVER
 	db -1 ; end
@@ -9608,7 +9608,7 @@ VeteranFGroup:
 	dbp 39, TOGEKISS
 		db LEFTOVERS
 		db FLY, FRESH_SNACK, AURA_SPHERE, EXTREMESPEED
-	dbp 39, OCTILLERY
+	dbp 39, ALTARIA
 		db QUICK_CLAW
 		db SURF, ICE_BEAM, PSYBEAM, SEED_BOMB
 	dbp 37, HERACROSS
@@ -9679,7 +9679,7 @@ ProtonGroup:
 	dbp 40, QWILFISH
 		db BRIGHTPOWDER
 		db MINIMIZE, BUBBLE_BEAM, PAIN_SPLIT, ROLLOUT
-	dbp 40, OCTILLERY
+	dbp 40, ALTARIA
 		db LUM_BERRY
 		db WOOD_HAMMER, POWER_WHIP, FLAMETHROWER, ICE_BEAM
 	dbp 41, WEEZING

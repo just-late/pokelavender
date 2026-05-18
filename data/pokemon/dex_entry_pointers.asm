@@ -223,8 +223,8 @@ PokedexDataPointerTable:
 	dba SwinubPokedexEntry
 	dba PiloswinePokedexEntry
 	dba CorsolaPlainPokedexEntry
-	dba RemoraidPokedexEntry
-	dba OctilleryPokedexEntry
+	dba SwabluPokedexEntry
+	dba AltariaPokedexEntry
 	dba DelibirdPokedexEntry
 	dba MantinePokedexEntry
 	dba SkarmoryPokedexEntry
@@ -235,7 +235,7 @@ PokedexDataPointerTable:
 	dba DonphanPokedexEntry
 	dba Porygon2PokedexEntry
 	dba StantlerPokedexEntry
-	dba SmearglePokedexEntry
+	dba SableyePokedexEntry
 	dba TyroguePokedexEntry
 	dba HitmontopPokedexEntry
 	dba SmoochumPokedexEntry

@@ -226,8 +226,8 @@ endc
 	db NO_MOVE      ; SWINUB
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
-	db NO_MOVE      ; REMORAID
-	db WOOD_HAMMER    ; OCTILLERY
+	db NO_MOVE      ; SWABLU
+	db WOOD_HAMMER    ; ALTARIA
 	db NO_MOVE      ; DELIBIRD
 	db NO_MOVE      ; MANTINE
 	db NO_MOVE      ; SKARMORY
@@ -238,7 +238,7 @@ endc
 	db FURY_STRIKES ; DONPHAN
 	db NO_MOVE      ; PORYGON2
 	db NO_MOVE      ; STANTLER
-	db NO_MOVE      ; SMEARGLE
+	db NO_MOVE      ; SABLEYE
 	db NO_MOVE      ; TYROGUE
 	db LOW_KICK     ; HITMONTOP
 	db NO_MOVE      ; SMOOCHUM

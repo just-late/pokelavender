@@ -66,7 +66,7 @@ OverqwilFootprint::
 PinecoFootprint::
 PupitarFootprint::
 QwilfishFootprint::
-RemoraidFootprint::
+SwabluFootprint::
 SeadraFootprint::
 SeakingFootprint::
 SeelFootprint::
@@ -242,7 +242,7 @@ TeddiursaFootprint:: INCBIN "gfx/footprints/teddiursa.1bpp.lz"
 UrsaringFootprint:: INCBIN "gfx/footprints/ursaring.1bpp.lz"
 SwinubFootprint:: INCBIN "gfx/footprints/swinub.1bpp.lz"
 PiloswineFootprint:: INCBIN "gfx/footprints/piloswine.1bpp.lz"
-OctilleryFootprint:: INCBIN "gfx/footprints/octillery.1bpp.lz"
+AltariaFootprint:: INCBIN "gfx/footprints/altaria.1bpp.lz"
 DelibirdFootprint:: INCBIN "gfx/footprints/delibird.1bpp.lz"
 SkarmoryFootprint:: INCBIN "gfx/footprints/skarmory.1bpp.lz"
 HoundourFootprint:: INCBIN "gfx/footprints/houndour.1bpp.lz"
@@ -251,7 +251,7 @@ PhanpyFootprint:: INCBIN "gfx/footprints/phanpy.1bpp.lz"
 DonphanFootprint:: INCBIN "gfx/footprints/donphan.1bpp.lz"
 Porygon2Footprint:: INCBIN "gfx/footprints/porygon2.1bpp.lz"
 StantlerFootprint:: INCBIN "gfx/footprints/stantler.1bpp.lz"
-SmeargleFootprint:: INCBIN "gfx/footprints/smeargle.1bpp.lz"
+SableyeFootprint:: INCBIN "gfx/footprints/sableye.1bpp.lz"
 TyrogueFootprint:: INCBIN "gfx/footprints/tyrogue.1bpp.lz"
 HitmontopFootprint:: INCBIN "gfx/footprints/hitmontop.1bpp.lz"
 SmoochumFootprint:: INCBIN "gfx/footprints/smoochum.1bpp.lz"

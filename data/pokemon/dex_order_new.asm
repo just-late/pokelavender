@@ -176,7 +176,7 @@ NewPokedexOrder:
 	dp MIME_JR_
 	dp MR__MIME
 	dp MR__RIME
-	dp SMEARGLE
+	dp SABLEYE
 	dp FARFETCH_D
 	dp SIRFETCH_D
 	dp NATU
@@ -194,8 +194,8 @@ NewPokedexOrder:
 	dp CLOYSTER
 	dp CORSOLA
 	dp CURSOLA
-	dp REMORAID
-	dp OCTILLERY
+	dp SWABLU
+	dp ALTARIA
 	dp CHINCHOU
 	dp LANTURN
 	dp SEEL

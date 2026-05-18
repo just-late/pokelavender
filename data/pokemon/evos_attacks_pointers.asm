@@ -226,8 +226,8 @@ EvosAttacksPointers::
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
 	dw CorsolaPlainEvosAttacks
-	dw RemoraidEvosAttacks
-	dw OctilleryEvosAttacks
+	dw SwabluEvosAttacks
+	dw AltariaEvosAttacks
 	dw DelibirdEvosAttacks
 	dw MantineEvosAttacks
 	dw SkarmoryEvosAttacks
@@ -238,7 +238,7 @@ EvosAttacksPointers::
 	dw DonphanEvosAttacks
 	dw Porygon2EvosAttacks
 	dw StantlerEvosAttacks
-	dw SmeargleEvosAttacks
+	dw SableyeEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
 	dw SmoochumEvosAttacks
