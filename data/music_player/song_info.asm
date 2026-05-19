@@ -194,5 +194,6 @@ SongInfo:
 	song_info "Marine Tube", ORIGIN_B2W2, COMPOSER_GO_ICHINOSE, COMPOSER_MMMMMM
 	song_info "Vs.Legendary", ORIGIN_XY, COMPOSER_JUNICHI_MASUDA, COMPOSER_MMMMMM
 	song_info "Memories            (Rival's theme)", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
+	song_info "Marigold Cave", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
 	assert_list_length NUM_MUSIC_SONGS - 1
 	db -1 ; end

@@ -553,4 +553,7 @@ INCLUDE "audio/music/m02/lugiassong.asm"
 SECTION "Song - rivalstheme", ROMX
 INCLUDE "audio/music/rivalstheme.asm"
 
+SECTION "Song - cave", ROMX
+INCLUDE "audio/music/cave.asm"
+
 ENDSECTION

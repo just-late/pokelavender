@@ -1,11 +1,11 @@
-Music_cave:
+Music_Cave:
 	channel_count 4
-	channel 1, Music_cave_Ch1
-	channel 2, Music_cave_Ch2
-	channel 3, Music_cave_Ch3
-	channel 4, Music_cave_Ch4
+	channel 1, Music_Cave_Ch1
+	channel 2, Music_Cave_Ch2
+	channel 3, Music_Cave_Ch3
+	channel 4, Music_Cave_Ch4
 
-Music_cave_Ch1:
+Music_Cave_Ch1:
 	volume 7, 7
 	note_type 12, 10, 8
 	octave 3
@@ -148,7 +148,7 @@ Music_cave_Ch1:
 	note A_, 3
 	sound_ret
 
-Music_cave_Ch2:
+Music_Cave_Ch2:
 	duty_cycle 1
 	vibrato 2, 1, 1
 	note_type 12, 7, 8
@@ -266,7 +266,7 @@ Music_cave_Ch2:
 	note A#, 3
 	sound_ret
 
-Music_cave_Ch3:
+Music_Cave_Ch3:
 	note_type 12, 1, 0
 	octave 3
 	note D_, 9
@@ -377,7 +377,7 @@ Music_cave_Ch3:
 	octave 3
 	sound_jump .mainLoopCh3
 
-Music_cave_Ch4:
+Music_Cave_Ch4:
 	toggle_noise 0
 	toggle_noise
 	toggle_noise 1
