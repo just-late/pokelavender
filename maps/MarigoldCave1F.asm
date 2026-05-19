@@ -184,6 +184,13 @@ MarigoldCaveGruntGreatText:
 	para "We'll head out."
 	line "This was a great"
 	cont "success."
+
+	para "I'll put in a"
+	line "good word for you"
+	cont "when we get back."
+
+	para "GRUNT B: Thank"
+	line "you, ma'am!"
 	done
 
 MarigoldCaveGruntByeText:
