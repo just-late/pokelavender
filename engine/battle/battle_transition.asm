@@ -632,15 +632,27 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	dec b
 	jr nz, .loop2
 
-	ld hl, .armored_mewtwo_pals
+	ld hl, .indigo_pals
 	ld a, [wOtherTrainerClass]
 	cp GIOVANNI
-	jr nz, .not_armored_mewtwo
+	jr z, .got_palette
+	cp GRUNTM
+	jr z, .got_palette
+	cp GRUNTF
+	jr z, .got_palette
+	cp PROTON
+	jr z, .got_palette
+	cp PETREL
+	jr z, .got_palette
+	cp ARCHER
+	jr z, .got_palette
+	cp ARIANA
+	jr nz, .not_indigo_pals
 	ld a, [wOtherTrainerID]
 	cp GIOVANNI1
 	jr z, .got_palette
 
-.not_armored_mewtwo
+.not_indigo_pals
 	ld hl, .timepals
 	call .timeofdaypal
 .got_palette
@@ -713,6 +725,9 @@ INCLUDE "gfx/overworld/mewtwo_battle.pal"
 
 .black_pals
 INCLUDE "gfx/overworld/black.pal"
+
+.indigo_pals
+INCLUDE "gfx/overworld/indigo_battle.pal"
 
 pusho
 opt b.X
