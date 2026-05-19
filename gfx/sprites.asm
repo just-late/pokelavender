@@ -625,3 +625,9 @@ InnkeeperSpriteGFX:: INCBIN "gfx/sprites/innkeeper.2bpp.lz"
 
 SECTION "CrysRunSpriteGFX", ROMX
 CrysRunSpriteGFX:: INCBIN "gfx/sprites/crys_run.2bpp.lz"
+
+SECTION "CorsolaOWSpriteGFX", ROMX
+CorsolaOWSpriteGFX:: INCBIN "gfx/sprites/corsola.2bpp.lz"
+
+SECTION "NidokingOWSpriteGFX", ROMX
+NidokingOWSpriteGFX:: INCBIN "gfx/sprites/nidoking.2bpp.lz"

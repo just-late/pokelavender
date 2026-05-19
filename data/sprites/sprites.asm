@@ -217,4 +217,6 @@ SpriteHeaders:
 	overworld_sprite TaurosOWSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite InnkeeperSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite CrysRunSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite CorsolaOWSpriteGFX, WALKING_SPRITE, PAL_OW_CORSOLA
+	overworld_sprite NidokingOWSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	assert_table_length NUM_OVERWORLD_SPRITES
