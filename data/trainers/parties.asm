@@ -1380,7 +1380,7 @@ Rival0Group:
 	; party
 	dbp 13, MUNCHLAX
 		db NO_ITEM
-	dbp 15, LARVITAR
+	dbp 15, CORSOLA
 		db NO_ITEM
 	db -1 ; end
 
@@ -4213,15 +4213,16 @@ GruntFGroup:
 	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, ZUBAT
-	dbp 12, EKANS
+	dbp 12, ZUBAT
+	dbp 14, MAREEP
 	db -1 ; end
 
 	; GRUNTF
 	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 25, GYARADOS
+	dbp 16, SWABLU
+	dbp 18, LARVITAR
 	db -1 ; end
 
 	; GRUNTF

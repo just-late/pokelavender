@@ -249,7 +249,7 @@
 	tilecoll FLOOR, WALL, FLOOR, WALL ; f8
 	tilecoll LEDGE_DOWN_LEFT, FLOOR, WALL, WALL ; f9
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; fa
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; fb
+	tilecoll WALL, WALL, WALL, WALL ; fb
 	tilecoll WALL, FLOOR, WALL, CAVE ; fc
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; fd
 	tilecoll FLOOR, WALL, FLOOR, WARP_CARPET_DOWN ; fe

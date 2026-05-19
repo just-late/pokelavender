@@ -108,4 +108,5 @@ MapScenes::
 	scene_var MARIGOLD_PORT,						  wMarigoldPortSceneID
 	scene_var MARIGOLD_GYM,							  wMarigoldGymSceneID
 	scene_var DREAM_WORLD,							  wAlways0SceneID
+	scene_var MARIGOLD_CAVE_1F,						  wMarigoldCave1FSceneID
 	db -1
