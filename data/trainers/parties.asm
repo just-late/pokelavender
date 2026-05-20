@@ -3940,30 +3940,24 @@ GruntMGroup:
 	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, SNEASEL
-	dbp 20, LARVITAR
+	dbp 12, SNEASEL
+	dbp 12, LARVITAR
 	db -1 ; end
 
 	; GRUNTM
-	db "Grunt@"
-	db TRAINERTYPE_PERSONALITY
+	db "GRUNT@"
+	db TRAINERTYPE_NORMAL
 	; party
-	dbp 33, RATICATE, MALE | ALOLAN_FORM
-		db ABILITY_1 | NAT_NEUTRAL
-	dbp 33, SNEASEL, MALE
-		db ABILITY_1 | NAT_NEUTRAL
+	dbp 10, MEOWTH
+	dbp 11, SENTRET
 	db -1 ; end
 
 	; GRUNTM
-	db "Grunt@"
-	db TRAINERTYPE_PERSONALITY
+	db "GRUNT@"
+	db TRAINERTYPE_NORMAL
 	; party
-	dbp 32, GRIMER, MALE
-		db ABILITY_1 | NAT_NEUTRAL
-	dbp 33, HOUNDOUR, MALE
-		db ABILITY_1 | NAT_NEUTRAL
-	dbp 34, MUK, MALE | ALOLAN_FORM
-		db ABILITY_1 | NAT_NEUTRAL
+	dbp 11, MEOWTH
+	dbp 12, SNEASEL
 	db -1 ; end
 
 	; GRUNTM
@@ -4213,24 +4207,23 @@ GruntFGroup:
 	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, ZUBAT
-	dbp 14, MAREEP
+	dbp  8, ZUBAT
+	dbp  9, MAREEP
 	db -1 ; end
 
 	; GRUNTF
 	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, SWABLU
-	dbp 18, LARVITAR
+	dbp 14, SWABLU
+	dbp 16, LARVITAR
 	db -1 ; end
 
 	; GRUNTF
 	db "GRUNT@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 36, UMBREON
-	dbp 35, GLOOM
+	dbp 11, MAREEP
 	db -1 ; end
 
 	; GRUNTF

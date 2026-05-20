@@ -31,17 +31,17 @@ MarigoldCave1F_MapScriptHeader:
 	person_event SPRITE_ROCKET_GIRL, 15, 34, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
 	person_event SPRITE_NIDOKING_OW, 15, 33, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
 	person_event SPRITE_CORSOLA_OW, 15, 32, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_CORSOLA, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
-	object_event 32, 12, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_OW_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
-;	person_event SPRITE_ROCKET,  2, 32
-;	person_event SPRITE_ROCKET_GIRL, 13, 10
-	smashrock_event 31, 20
+	object_event 32, 12, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
+	person_event SPRITE_ROCKET,  4, 31, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM2, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
+	person_event SPRITE_ROCKET_GIRL, 22,  6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerGruntF1, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
+	smashrock_event 32, 22
 	smashrock_event 10,  9
 	smashrock_event 33, 21
 	person_event SPRITE_HIKER, 23, 17, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerHikerRussell, -1
 	person_event SPRITE_HIKER, 15,  9, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerHikerDaniel, -1
 	person_event SPRITE_JUGGLER, 24, 11, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerJugglerFritz, -1
 	itemball_event 21, 23, GREAT_BALL, 1, EVENT_MARIGOLD_CAVE_1F_GREAT_BALL
-	itemball_event 31,  4, X_ATTACK, 1, EVENT_MARIGOLD_CAVE_1F_X_ATTACK
+	itemball_event 31, 26, X_ATTACK, 1, EVENT_MARIGOLD_CAVE_1F_X_ATTACK
 	itemball_event 15,  2, POTION, 1, EVENT_MARIGOLD_CAVE_1F_POTION
 	itemball_event  5, 20, AWAKENING, 1, EVENT_MARIGOLD_CAVE_1F_AWAKENING
 
@@ -254,11 +254,30 @@ GenericTrainerHikerDaniel:
 GenericTrainerJugglerFritz:
 	generictrainer JUGGLER, FRITZ, EVENT_BEAT_JUGGLER_FRITZ, JugglerFritzSeenText, JugglerFritzBeatenText
 
-	text "No more ships for"
-	line "me. Next time,"
+	text "I saw a bunch"
+	line "of guys in blue"
+	cont "come by earlier."
 
-	para "I'm taking the"
-	line "Magnet Train."
+	para "They had funny"
+	line "hats on!"
+	done
+
+GenericTrainerGruntM2:
+	generictrainer GRUNTM, 2, EVENT_BEAT_GRUNTM_2, GruntM2SeenText, GruntM2BeatenText
+
+	text "I've been beat"
+	line "by two kids in"
+	cont "a row!"
+
+	para "First that mean"
+	line "guy, and now you!"
+	done
+
+GenericTrainerGruntF1:
+	generictrainer GRUNTF, 1, EVENT_BEAT_GRUNTF_1, GruntF1SeenText, GruntF1BeatenText
+
+	text "You beat me, and"
+	line "I won't forget it!"
 	done
 
 HikerRussellSeenText:
@@ -295,4 +314,30 @@ JugglerFritzSeenText:
 JugglerFritzBeatenText:
     text "Shoot! I'm"
     line "beaten!"
+	done
+
+GruntM2SeenText:
+	text "I forbid"
+	line "you to go any"
+	cont "further!"
+	done
+
+GruntM2BeatenText:
+	text "Have mercy!"
+	done
+
+GruntF1SeenText:
+	text "What are you"
+	line "doing here?"
+
+	para "Don't you know"
+	line "we're in the middle"
+	cont "of an operation?"
+
+	para "This is no place"
+	line "for children!"
+	done
+
+GruntF1BeatenText:
+	text "Wh-who are you?"
 	done
