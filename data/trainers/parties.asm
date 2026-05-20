@@ -3687,7 +3687,7 @@ HikerGroup:
 	db -1 ; end
 
 	; HIKER
-	db "Russell@"
+	db "RUSSELL@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 6, GEODUDE
@@ -3800,7 +3800,7 @@ HikerGroup:
 	db -1 ; end
 
 	; HIKER
-	db "Daniel@"
+	db "DANIEL@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 12, ONIX
