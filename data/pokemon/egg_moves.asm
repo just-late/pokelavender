@@ -999,5 +999,9 @@ MunchlaxEggMoves:
 	db GUNK_SHOT
 	db $ff
 
+OranguruEggMoves:
+	db DREAM_EATER
+	db $ff
+
 NoEggMoves:
 	db $ff

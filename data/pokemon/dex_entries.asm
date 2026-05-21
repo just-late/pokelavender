@@ -2895,6 +2895,16 @@ AnnihilapePokedexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
+SECTION "OranguruPokedexEntry", ROMX
+OranguruPokedexEntry::
+	db "Sage@"
+	db   "It knows the deep"
+	next "forest by heart."
+	next "If it comes across"
+	page "an injured #MON"
+	next "it will find the"
+	next "herbs to heal it.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

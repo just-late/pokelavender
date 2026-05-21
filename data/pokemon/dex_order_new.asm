@@ -196,6 +196,7 @@ NewPokedexOrder:
 	dp CURSOLA
 	dp SWABLU
 	dp ALTARIA
+	dp ORANGURU
 	dp CHINCHOU
 	dp LANTURN
 	dp SEEL

@@ -177,6 +177,7 @@ AlphabeticalPokedexOrder:
 	dp OMANYTE
 	dp OMASTAR
 	dp ONIX
+	dp ORANGURU
 	dp OVERQWIL
 	dp PARAS
 	dp PARASECT

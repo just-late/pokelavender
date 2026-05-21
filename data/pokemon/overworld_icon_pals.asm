@@ -295,6 +295,7 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
+	iconpal WHITE, PURPLE ; ORANGURU
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

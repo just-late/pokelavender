@@ -291,6 +291,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Farigiraf
 	dw NoEggMoves             ; Clodsire
 	dw NoEggMoves             ; Annihilape
+	dw OranguruEggMoves		  ; Oranguru
 	assert_table_length NUM_SPECIES
 
 	dw NoEggMoves                ; Gyarados (Red Form)

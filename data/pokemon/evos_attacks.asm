@@ -6485,6 +6485,25 @@ AnnihilapeEvosAttacks:
 	db 53, OUTRAGE
 	db -1 ; no more level-up moves
 
+OranguruEvosAttacks: ; new learnset
+	db -1 ; no more evolutions
+	db 1, CONFUSION
+	db 7, LEER
+	db 11, MEAN_LOOK
+	db 15, BODY_SLAM
+	db 18, BULK_UP
+	db 22, FEINT_ATTACK
+	db 25, NASTY_PLOT
+	db 29, ZEN_HEADBUTT
+	db 32, PSYCHIC_M
+	db 36, DARK_PULSE
+	db 39, CALM_MIND
+	db 43, FUTURE_SIGHT
+	db 46, LIGHT_SCREEN
+	db 46, REFLECT
+	db 50, TRICK_ROOM
+	db -1 ; no more level-up moves
+
 EggEvosAttacks::
 	db -1 ; no more evolutions
 	db -1 ; no more level-up moves

@@ -14,6 +14,8 @@ and many more. Please make yourselves known.
 * FrenchOrange
 * AzureKeys, PiaCarrot
 * FrenchOrange
+* SupahShanti
+* leParagon
 
 ## Cries:
 * SourApple
@@ -31,7 +33,6 @@ and many more. Please make yourselves known.
 * GACT
 * Monstarules
 * TriteHexagon 
-* LevusBevus, GRonnoc, Cat333Pokemon, and KoolBoyMan for some music from Pokémon Prism (available in the music player).
 
 ## Battle Animations:
 * SourApple

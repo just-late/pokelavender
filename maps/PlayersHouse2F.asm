@@ -117,20 +117,14 @@ DebugDudeScript:
 	givepoke SWABLU, PLAIN_FORM, 40, ORAN_BERRY
 	givepoke ALTARIA, PLAIN_FORM, 40, ORAN_BERRY
 	givepoke GOOMY, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke ORANGURU, PLAIN_FORM, 40, NO_ITEM
 	closetext
-;	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
-;	givemoney $0, 15000
 	givetmhm HM_ROCK_SMASH
-;	verbosegivekeyitem WAILMER_PAIL
 	setevent EVENT_ALWAYS_SET
-;	setmapscene MOONFLOWER_CITY, $2
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_POKEDEX
 	setflag ENGINE_PUNKBADGE
-	special Special_FadeBlackQuickly
-	disappear PLAYER
-	warpfacing DOWN, BOAT_CUTSCENE, 12, 4
 .End:
 	end
 

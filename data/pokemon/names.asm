@@ -255,7 +255,7 @@ PokemonNames::
 	rawchar "AZURILL@@@"
 	rawchar "WYNAUT@@@@"
 	rawchar "AMBIPOM@@@"
-	rawchar "Egg@@@@@@@"
+	rawchar "EGG@@@@@@@"
 	rawchar "?256?@@@@@"
 	rawchar "MISMAGIUS@"
 	rawchar "HONCHKROW@"
@@ -292,4 +292,5 @@ PokemonNames::
 	rawchar "FARIGIRAF@"
 	rawchar "CLODSIRE@@"
 	rawchar "ANNIHILAPE"
+	rawchar "ORANGURU@@"
 	assert_table_length NUM_SPECIES + 1
