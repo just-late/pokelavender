@@ -1878,4 +1878,8 @@ SECTION "BattleFactoryBattleRoom_BlockData", ROMX
 BattleFactoryBattleRoom_BlockData:
 	INCBIN "maps/BattleFactoryBattleRoom.ablk.lz"
 
+SECTION "BoatCutscene_BlockData", ROMX
+BoatCutscene_BlockData:
+	INCBIN "maps/BoatCutscene.ablk.lz"
+
 ENDSECTION

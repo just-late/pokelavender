@@ -117,6 +117,7 @@ DebugDudeScript:
 	givepoke SWABLU, PLAIN_FORM, 40, ORAN_BERRY
 	givepoke ALTARIA, PLAIN_FORM, 40, ORAN_BERRY
 	givepoke GOOMY, PLAIN_FORM, 5, ORAN_BERRY
+	closetext
 ;	givepoke GYARADOS, PLAIN_FORM, 60, ORAN_BERRY
 ;	givemoney $0, 15000
 	givetmhm HM_ROCK_SMASH
@@ -127,8 +128,10 @@ DebugDudeScript:
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_POKEDEX
 	setflag ENGINE_PUNKBADGE
+	special Special_FadeBlackQuickly
+	disappear PLAYER
+	warpfacing DOWN, BOAT_CUTSCENE, 12, 4
 .End:
-	closetext
 	end
 
 PlayerRadioText1:

@@ -862,3 +862,4 @@ ENDM
 	map_attributes DreamWorld, DREAM_WORLD, $45, 0
 	map_attributes OvercastGrove, OVERCAST_GROVE, $5, 0
 	map_attributes GraniteInn1F, GRANITE_INN_1F, $0, 0
+	map_attributes BoatCutscene, BOAT_CUTSCENE, $35, 0

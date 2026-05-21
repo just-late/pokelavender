@@ -687,5 +687,6 @@ ENDM
 	map_const MARIGOLD_CAVE_2F,							  15, 17 ; 11
 	map_const DREAM_WORLD, 								  22, 10 ; 12
 	map_const OVERCAST_GROVE,							  17, 14 ; 13
+	map_const BOAT_CUTSCENE,							   9,  5 ; 14
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

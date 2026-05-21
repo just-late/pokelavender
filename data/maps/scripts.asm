@@ -1049,4 +1049,8 @@ SECTION "Grove Scripts", ROMX
 
 INCLUDE "maps/OvercastGrove.asm"
 
+SECTION "Boat Cutscene Scripts", ROMX
+
+INCLUDE "maps/BoatCutscene.asm"
+
 ENDSECTION

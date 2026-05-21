@@ -1,5 +1,6 @@
 BlossomCity_MapScriptHeader:
     def_scene_scripts
+    scene_script BlossomCity_BoatArrivalScene
 
     def_callbacks
 
@@ -47,6 +48,9 @@ BlossomCity_MapScriptHeader:
 
 BlossomCitySouvenirReceptionistScript:
     pokemart MARTTYPE_BLOSSOM_SOUVENIR, MART_BLOSSOM_SOUVENIR
+
+BlossomCity_BoatArrivalScene:
+    end
 
 BlossomCitySignText:
     text "BLOSSOM CITY"
