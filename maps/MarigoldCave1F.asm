@@ -17,7 +17,7 @@ MarigoldCave1F_MapScriptHeader:
 	warp_event 35,  2, MARIGOLD_CAVE_1F, 1
 
     def_coord_events
-	coord_event 34, 14, 0, MarigoldCaveSableyeEvent
+	coord_event 34, 14, 0, MarigoldCaveUrsalunaEvent
 
     def_bg_events
 	bg_event 21, 24, BGEVENT_ITEM + GREAT_BALL, EVENT_MARIGOLD_CAVE_1F_HIDDEN_GREAT_BALL
@@ -25,7 +25,7 @@ MarigoldCave1F_MapScriptHeader:
 	bg_event 21,  2, BGEVENT_ITEM + PARALYZEHEAL, EVENT_MARIGOLD_CAVE_1F_HIDDEN_PARALYZEHEAL
 
     db 16 ; object events
-	object_event 32, 12, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, SABLEYE, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
+	object_event 32, 12, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, URSALUNA, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
 	person_event SPRITE_RIVAL, 15, 31, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
 	person_event SPRITE_ROCKET, 13, 32, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
 	person_event SPRITE_ROCKET_GIRL, 15, 34, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_INDIGO_MARIGOLD_CAVE
@@ -46,7 +46,7 @@ MarigoldCave1F_MapScriptHeader:
 	itemball_event  5, 20, AWAKENING, 1, EVENT_MARIGOLD_CAVE_1F_AWAKENING
 
 	const_def 1 ; object constants
-	const MARIGOLD_CAVE_SABLEYE
+	const MARIGOLD_CAVE_URSALUNA
 	const MARIGOLD_CAVE_RIVAL
 	const MARIGOLD_CAVE_GRUNT_1
 	const MARIGOLD_CAVE_GRUNT_2
@@ -57,7 +57,7 @@ MarigoldCave1F_MapScriptHeader:
 MarigoldCaveNoopScene:
 	end
 
-MarigoldCaveSableyeEvent:
+MarigoldCaveUrsalunaEvent:
 	pause 5
 	turnobject PLAYER, DOWN
 	setscene $1
@@ -138,7 +138,7 @@ MarigoldAfterBeatingIndigo:
 	waitbutton
 	closetext
 	playsound SFX_MASTER_BALL
-	disappear MARIGOLD_CAVE_SABLEYE
+	disappear MARIGOLD_CAVE_URSALUNA
 	appear MARIGOLD_CAVE_POKEBALL
 	pause 10
 	waitsfx
