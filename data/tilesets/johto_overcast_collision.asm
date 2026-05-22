@@ -206,8 +206,8 @@
 	tilecoll LEDGE_DOWN, FLOOR, WALL, FLOOR ; cd
 	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; ce
 	tilecoll FLOOR, BOTTOM_WALL, WALL, CAVE ; cf
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d0
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d1
+	tilecoll TOP_WALL, WALL, FLOOR, WALL ; d0
+	tilecoll WALL, TOP_WALL, WALL, FLOOR ; d1
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d2
 	tilecoll TOP_WALL, WALL, FLOOR, WALL ; d3
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d4
