@@ -110,7 +110,7 @@ clean: tidy
 	find gfx maps data/tilesets -name '*.lz' -delete
 	find gfx \( -name '*.[12]bpp' -o -name '*.2bpp.vram[012]' -o -name '*.2bpp.vram[012]p' \) -delete
 	find gfx/pokemon -mindepth 1 \( -name 'bitmask.asm' -o -name 'frames.asm' \
-		-o -name 'front.animated.tilemap' -o -name 'front.dimensions' \) -delete
+		-o -name 'front.animated.tilemap' -o -name 'front.dimensions' -o -name 'front.gbcpal' \) -delete
 	find data/tilesets -name '*_collision.bin' -delete
 	find -name '*.sav' -delete
 	$(MAKE) clean -C tools/
