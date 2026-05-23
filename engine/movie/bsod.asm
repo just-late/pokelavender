@@ -90,21 +90,21 @@ BSODPalette:
 INCLUDE "gfx/splash/bsod.pal"
 
 BSODMessage:
-	text  "      #MON"
-	next1 " Polished Crystal"
-	next  "       ERROR"
+	text  "      #MON     "
+	next1 "      LAVENDER    "
+	next  "       ERROR      "
 	next1 "------------------"
 	next  "Please report this"
 	next1 "crash to the deve-"
-	next1 "loper, Rangi42, at"
-	next1 "tinyurl.com/pkpc3."
+	next1 "loper, just_late, "
+	next1 "on Discord."
 	next  "Error:"
 	done
 
 VBABSODMessage:
 	text  "      #MON"
-	next1 " Polished Crystal"
-	next  "       ERROR"
+	next1 "      LAVENDER    "
+	next  "       ERROR      "
 	next1 "------------------"
 	next  "Please use a more"
 	next1 "accurate emulator,"
