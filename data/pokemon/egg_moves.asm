@@ -1003,5 +1003,20 @@ OranguruEggMoves:
 	db DREAM_EATER
 	db $ff
 
+TrapinchEggMoves:
+	db FOCUS_ENERGY
+	db GUST
+	db QUICK_ATTACK
+	db $ff
+
+CroagunkEggMoves:
+	db BULLET_PUNCH
+	db CROSS_CHOP
+	db DYNAMICPUNCH
+	db HEADBUTT
+	db TOXIC ; new
+	db VENOSHOCK ; new
+	db $ff
+
 NoEggMoves:
 	db $ff

@@ -296,6 +296,11 @@ MiniIconPointers:
 	mini_icon Clodsire
 	mini_icon Annihilape
 	mini_icon Oranguru
+	mini_icon Trapinch
+	mini_icon Vibrava
+	mini_icon Flygon
+	mini_icon Croagunk
+	mini_icon Croagunk
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

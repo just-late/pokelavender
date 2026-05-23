@@ -298,4 +298,9 @@ PokemonCries::
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
 	mon_cry CRY_DONPHAN,	 $3fe,  $436 ; Oranguru
+	mon_cry CRY_CYNDAQUIL,   $2f4,  $129 ; Trapinch SourApple
+	mon_cry CRY_SLUGMA,      $2c2,  $0f3 ; Vibrava SourApple
+	mon_cry CRY_KRABBY,      $cda,  $132 ; Flygon SourApple
+	mon_cry CRY_DIGLETT,    -$133,  $125 ; Croagunk Ax6
+	mon_cry CRY_SLOWKING,    $002,  $2c6 ; Toxicroak Ax6
 	assert_table_length NUM_SPECIES

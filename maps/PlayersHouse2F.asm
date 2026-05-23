@@ -6,7 +6,7 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, MARIGOLD_CAVE_1F, 1
+	warp_event  7,  0, BLOSSOM_CITY, 1
 
 	def_coord_events
 
@@ -113,11 +113,11 @@ DebugDudeScript:
 	iffalsefwd .End
 ;	givepoke SPINARAK, PLAIN_FORM, 1,ORAN_BERRY
 ;	givepoke VENUSAUR, PLAIN_FORM, 60, ORAN_BERRY
-	givepoke QUILAVA, PLAIN_FORM, 20, ORAN_BERRY
-	givepoke SWABLU, PLAIN_FORM, 40, ORAN_BERRY
-	givepoke ALTARIA, PLAIN_FORM, 40, ORAN_BERRY
-	givepoke GOOMY, PLAIN_FORM, 5, ORAN_BERRY
-	givepoke ORANGURU, PLAIN_FORM, 40, NO_ITEM
+	givepoke TRAPINCH, PLAIN_FORM, 20, ORAN_BERRY
+	givepoke VIBRAVA, PLAIN_FORM, 40, ORAN_BERRY
+	givepoke FLYGON, PLAIN_FORM, 45, ORAN_BERRY
+	givepoke CROAGUNK, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke TOXICROAK, PLAIN_FORM, 40, NO_ITEM
 	closetext
 	givetmhm HM_ROCK_SMASH
 	setevent EVENT_ALWAYS_SET

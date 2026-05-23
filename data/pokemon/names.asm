@@ -293,4 +293,9 @@ PokemonNames::
 	rawchar "CLODSIRE@@"
 	rawchar "ANNIHILAPE"
 	rawchar "ORANGURU@@"
+	rawchar "TRAPINCH@@"
+	rawchar "VIBRAVA@@@"
+	rawchar "FLYGON@@@@"
+	rawchar "CROAGUNK@@"
+	rawchar "TOXICROAK@"
 	assert_table_length NUM_SPECIES + 1

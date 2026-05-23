@@ -296,6 +296,11 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
 	iconpal WHITE, PURPLE ; ORANGURU
+	iconpal ORANGE, BROWN ; TRAPINCH
+	iconpal YELLOW, GREEN ; VIBRAVA
+	iconpal GREEN, RED ; FLYGON
+	iconpal ORANGE, BLUE ; CROAGUNK
+	iconpal ORANGE, BLUE ; TOXICROAK
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

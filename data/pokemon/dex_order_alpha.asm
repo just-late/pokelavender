@@ -37,6 +37,7 @@ AlphabeticalPokedexOrder:
 	dp CLODSIRE
 	dp CLOYSTER
 	dp CORSOLA
+	dp CROAGUNK
 	dp CROBAT
 	dp MARSHTOMP
 	dp CUBONE
@@ -72,6 +73,7 @@ AlphabeticalPokedexOrder:
 	dp SWAMPERT
 	dp FLAAFFY
 	dp FLAREON
+	dp FLYGON
 	dp FORRETRESS
 	dp FURRET
 	dp GASTLY
@@ -161,6 +163,7 @@ AlphabeticalPokedexOrder:
 	dp MOLTRES
 	dp MR__MIME
 	dp MR__RIME
+	dp MUDKIP
 	dp MUK
 	dp MUNCHLAX
 	dp MURKROW
@@ -260,7 +263,8 @@ AlphabeticalPokedexOrder:
 	dp TOGEKISS
 	dp TOGETIC
 	dp TORTERRA
-	dp MUDKIP
+	dp TOXICROAK
+	dp TRAPINCH
 	dp TURTWIG
 	dp TYPHLOSION
 	dp TYRANITAR
@@ -273,6 +277,7 @@ AlphabeticalPokedexOrder:
 	dp VENOMOTH
 	dp VENONAT
 	dp VENUSAUR
+	dp VIBRAVA
 	dp VICTREEBEL
 	dp VILEPLUME
 	dp VOLTORB

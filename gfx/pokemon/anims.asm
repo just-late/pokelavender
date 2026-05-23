@@ -242,6 +242,11 @@ FarigirafAnimation:  INCLUDE "gfx/pokemon/farigiraf/anim.asm"
 ClodsireAnimation:   INCLUDE "gfx/pokemon/clodsire/anim.asm"
 AnnihilapeAnimation: INCLUDE "gfx/pokemon/annihilape/anim.asm"
 OranguruAnimation:   INCLUDE "gfx/pokemon/oranguru/anim.asm"
+TrapinchAnimation:   INCLUDE "gfx/pokemon/trapinch/anim.asm"
+VibravaAnimation:    INCLUDE "gfx/pokemon/vibrava/anim.asm"
+FlygonAnimation:     INCLUDE "gfx/pokemon/flygon/anim.asm"
+CroagunkAnimation:   INCLUDE "gfx/pokemon/croagunk/anim.asm"
+ToxicroakAnimation:  INCLUDE "gfx/pokemon/toxicroak/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

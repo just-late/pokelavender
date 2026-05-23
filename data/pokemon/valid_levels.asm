@@ -293,4 +293,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
 	db  40, 100 ; Oranguru
+	db   1,  40 ; Trapinch
+	db  35,  50 ; Vibrava
+	db  45, 100 ; Flygon
+	db   1,  40 ; Croagunk
+	db  37, 100 ; Toxicroak
 	assert_table_length NUM_SPECIES

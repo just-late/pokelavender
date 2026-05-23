@@ -292,6 +292,11 @@ AnimationExtraPointers:
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
 	dw OranguruAnimationExtra
+	dw TrapinchAnimationExtra
+	dw VibravaAnimationExtra
+	dw FlygonAnimationExtra
+	dw CroagunkAnimationExtra
+	dw ToxicroakAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

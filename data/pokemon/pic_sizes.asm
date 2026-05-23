@@ -311,6 +311,11 @@ INCLUDE "gfx/pokemon/farigiraf/front.dimensions"
 INCLUDE "gfx/pokemon/clodsire/front.dimensions"
 INCLUDE "gfx/pokemon/annihilape/front.dimensions"
 INCLUDE "gfx/pokemon/oranguru/front.dimensions"
+INCLUDE "gfx/pokemon/trapinch/front.dimensions"
+INCLUDE "gfx/pokemon/vibrava/front.dimensions"
+INCLUDE "gfx/pokemon/flygon/front.dimensions"
+INCLUDE "gfx/pokemon/croagunk/front.dimensions"
+INCLUDE "gfx/pokemon/toxicroak/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

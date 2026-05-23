@@ -292,6 +292,11 @@ AnimationPointers:
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation
 	dw OranguruAnimation
+	dw TrapinchAnimation
+	dw VibravaAnimation
+	dw FlygonAnimation
+	dw CroagunkAnimation
+	dw ToxicroakAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

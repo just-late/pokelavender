@@ -296,6 +296,11 @@ PokemonPicPointers::
 	pics Clodsire
 	pics Annihilape
 	pics Oranguru
+	pics Trapinch
+	pics Vibrava
+	pics Flygon
+	pics Croagunk
+	pics Toxicroak
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

@@ -296,6 +296,11 @@ EvosAttacksPointers::
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw OranguruEvosAttacks
+	dw TrapinchEvosAttacks
+	dw VibravaEvosAttacks
+	dw FlygonEvosAttacks
+	dw CroagunkEvosAttacks
+	dw ToxicroakEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

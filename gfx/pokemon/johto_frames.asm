@@ -130,6 +130,11 @@ FarigirafFrames:  INCLUDE "gfx/pokemon/farigiraf/frames.asm"
 ClodsireFrames:   INCLUDE "gfx/pokemon/clodsire/frames.asm"
 AnnihilapeFrames: INCLUDE "gfx/pokemon/annihilape/frames.asm"
 OranguruFrames:   INCLUDE "gfx/pokemon/oranguru/frames.asm"
+TrapinchFrames:   INCLUDE "gfx/pokemon/trapinch/frames.asm"
+VibravaFrames:    INCLUDE "gfx/pokemon/vibrava/frames.asm"
+FlygonFrames:     INCLUDE "gfx/pokemon/flygon/frames.asm"
+CroagunkFrames:   INCLUDE "gfx/pokemon/croagunk/frames.asm"
+ToxicroakFrames:  INCLUDE "gfx/pokemon/toxicroak/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

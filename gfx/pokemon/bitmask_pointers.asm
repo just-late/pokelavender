@@ -292,6 +292,11 @@ BitmasksPointers:
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
 	dw OranguruBitmasks
+	dw TrapinchBitmasks
+	dw VibravaBitmasks
+	dw FlygonBitmasks
+	dw CroagunkBitmasks
+	dw ToxicroakBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

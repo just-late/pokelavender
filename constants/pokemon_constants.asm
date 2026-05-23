@@ -314,6 +314,11 @@
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
 	const ORANGURU   ; 124
+	const TRAPINCH   ; 125
+	const VIBRAVA    ; 126
+	const FLYGON     ; 127
+	const CROAGUNK   ; 128
+	const TOXICROAK  ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 124
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

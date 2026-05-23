@@ -299,6 +299,11 @@ PokemonBodyData:
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data  15,  760, BIPEDAL,	   WHITE  ; ORANGURU
+	body_data   7,  150, INSECTOID,	   BROWN  ; TRAPINCH
+	body_data  11,  153, MULTIWINGS,   GREEN  ; VIBRAVA
+	body_data  20,  820, WINGS,		   GREEN  ; FLYGON
+	body_data   7,  230, BIPEDAL,	   BLUE   ; CROAGUNK
+	body_data  13,  444, BIPEDAL,      BLUE   ; TOXICROAK
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

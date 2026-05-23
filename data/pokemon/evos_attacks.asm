@@ -6485,7 +6485,7 @@ AnnihilapeEvosAttacks:
 	db 53, OUTRAGE
 	db -1 ; no more level-up moves
 
-OranguruEvosAttacks: ; new learnset
+OranguruEvosAttacks: ; new learnset based on gen 7
 	db -1 ; no more evolutions
 	db 1, CONFUSION
 	db 7, LEER
@@ -6503,6 +6503,86 @@ OranguruEvosAttacks: ; new learnset
 	db 46, REFLECT
 	db 50, TRICK_ROOM
 	db -1 ; no more level-up moves
+
+TrapinchEvosAttacks: ; new learnset based on gen 3
+	evo_data EVOLVE_LEVEL, 35, VIBRAVA
+	db -1 ; no more evolutions
+	db 1, BITE
+	db 1, ASTONISH
+	db 9, MUD_SLAP
+	db 17, FEINT_ATTACK
+	db 25, ROCK_SLIDE
+	db 33, CRUNCH
+	db 41, DIG
+	db 49, SANDSTORM
+	db 57, HYPER_BEAM
+	db -1 ; no more level-up moves
+
+VibravaEvosAttacks: ; new learnset based on gen 3
+	evo_data EVOLVE_LEVEL, 45, FLYGON
+	db -1 ; no more evolutions
+	db 1, BITE
+	db 1, FEINT_ATTACK
+	db 1, MUD_SLAP
+	db 9, FEINT_ATTACK
+	db 17, MUD_SLAP
+	db 25, CRUNCH
+	db 33, DRAGONBREATH
+	db 37, SANDSTORM
+	db 41, SCREECH
+	db 50, HYPER_BEAM
+	db 60, EARTHQUAKE
+	db -1 ; no more level-up moves
+
+FlygonEvosAttacks: ; new learnset based on gen 3
+	db -1 ; no more evolutions
+	db 1, SANDSTORM ; evolution move
+	db 1, BITE
+	db 1, FEINT_ATTACK
+	db 1, MUD_SLAP
+	db 9, BITE
+	db 17, MUD_SLAP
+	db 27, CRUNCH
+	db 35, DRAGONBREATH
+	db 40, SANDSTORM
+	db 45, SCREECH
+	db 47, HYPER_BEAM
+	db 51, EARTHQUAKE
+	db 55, DRAGON_PULSE
+	db 60, DRAGON_DANCE
+	db -1 ; no more level-up moves
+
+CroagunkEvosAttacks: ; based on gen 4 set
+	evo_data EVOLVE_LEVEL, 37, TOXICROAK
+	db -1 ; no more evolutions
+	db 1, ASTONISH
+	db 3, MUD_SLAP
+	db 8, POISON_STING
+	db 15, PURSUIT
+	db 17, FEINT_ATTACK
+	db 24, SWAGGER
+	db 30, SUCKER_PUNCH
+	db 36, NASTY_PLOT
+	db 38, POISON_JAB
+	db 43, SLUDGE_BOMB
+	db -1 ; no more level-up moves
+
+ToxicroakEvosAttacks: ; based on gen 4 set
+	db -1 ; no more evolutions
+	db 1, ASTONISH
+	db 1, MUD_SLAP
+	db 1, POISON_STING
+	db 3, MUD_SLAP
+	db 8, POISON_STING
+	db 14, PURSUIT
+	db 17, FEINT_ATTACK
+	db 23, SWAGGER
+	db 30, SUCKER_PUNCH
+	db 36, NASTY_PLOT
+	db 41, POISON_JAB
+	db 49, SLUDGE_BOMB
+	db 54, CRUNCH
+	db -1  ; no more level-up moves
 
 EggEvosAttacks::
 	db -1 ; no more evolutions

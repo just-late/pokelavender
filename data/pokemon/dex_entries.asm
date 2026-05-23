@@ -2905,6 +2905,56 @@ OranguruPokedexEntry::
 	next "it will find the"
 	next "herbs to heal it.@"
 
+SECTION "TrapinchPokedexEntry", ROMX
+TrapinchPokedexEntry::
+	db "Ant Pit@"
+	db   "It lives in arid"
+	next "deserts. It makes"
+	next "a sloping pit trap"
+	page "where it waits for"
+	next "prey."
+	next "@"
+
+SECTION "VibravaPokedexEntry", ROMX
+VibravaPokedexEntry::
+	db "Vibration@"
+	db   "It generates ultra-"
+	next "sonic waves by"
+	next "flapping its wings."
+	page "After making its"
+	next "prey faint, it melts"
+	next "the prey with acid.@"
+
+SECTION "FlygonPokdexEntry", ROMX
+FlygonPokedexEntry::
+	db "Mystic@"
+	db   "It is nicknamed “The"
+	next "Desert Spirit” be-"
+	next "cause when it flaps"
+	page "its wings it sounds"
+	next "like a woman's"
+	next "singing.@"
+
+SECTION "CroagunkPokedexEntry", ROMX
+CroagunkPokedexEntry::
+	db "Toxic Mouth@"
+	db   "Fluid squeezed from"
+	next "its finger, albeit"
+	next "poisonous, is a"
+	page "significant ingred-"
+	next "ient in remedies"
+	next "for back pain.@"
+
+SECTION "ToxicroakPokedexEntry", ROMX
+ToxicroakPokedexEntry::
+	db "Toxic Mouth@"
+	db   "It has a poison sac"
+	next "at its throat. When"
+	next "it croaks, the"
+	page "poison is churned"
+	next "for greater potent-"
+	next "cy.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

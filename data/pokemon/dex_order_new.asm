@@ -126,6 +126,8 @@ NewPokedexOrder:
 	dp WEEZING
 	dp GRIMER
 	dp MUK
+	dp CROAGUNK
+	dp TOXICROAK
 	dp MAGNEMITE
 	dp MAGNETON
 	dp MAGNEZONE
@@ -165,6 +167,9 @@ NewPokedexOrder:
 	dp FARIGIRAF
 	dp TAUROS
 	dp MILTANK
+	dp TRAPINCH
+	dp VIBRAVA
+	dp FLYGON
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR

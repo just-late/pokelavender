@@ -1517,6 +1517,26 @@ SECTION "Oranguru Pics", ROMX
 OranguruFrontpic: INCBIN "gfx/pokemon/oranguru/front.animated.2bpp.lz"
 OranguruBackpic:  INCBIN "gfx/pokemon/oranguru/back.2bpp.lz"
 
+SECTION "Trapinch Pics", ROMX
+TrapinchFrontpic: INCBIN "gfx/pokemon/trapinch/front.animated.2bpp.lz"
+TrapinchBackpic:  INCBIN "gfx/pokemon/trapinch/back.2bpp.lz"
+
+SECTION "Vibrava Pics", ROMX
+VibravaFrontpic: INCBIN "gfx/pokemon/vibrava/front.animated.2bpp.lz"
+VibravaBackpic:  INCBIN "gfx/pokemon/vibrava/back.2bpp.lz"
+
+SECTION "Flygon Pics", ROMX
+FlygonFrontpic: INCBIN "gfx/pokemon/flygon/front.animated.2bpp.lz"
+FlygonBackpic:  INCBIN "gfx/pokemon/flygon/back.2bpp.lz"
+
+SECTION "Croagunk Pics", ROMX
+CroagunkFrontpic: INCBIN "gfx/pokemon/croagunk/front.animated.2bpp.lz"
+CroagunkBackpic:  INCBIN "gfx/pokemon/croagunk/back.2bpp.lz"
+
+SECTION "Toxicroak Pics", ROMX
+ToxicroakFrontpic: INCBIN "gfx/pokemon/toxicroak/front.animated.2bpp.lz"
+ToxicroakBackpic:  INCBIN "gfx/pokemon/toxicroak/back.2bpp.lz"
+
 SECTION "SneaselPlain Pics", ROMX
 SneaselPlainFrontpic: INCBIN "gfx/pokemon/sneasel_plain/front.animated.2bpp.lz"
 SneaselPlainBackpic:  INCBIN "gfx/pokemon/sneasel_plain/back.2bpp.lz"

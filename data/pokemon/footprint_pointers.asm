@@ -292,6 +292,11 @@ FootprintPointers::
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
 	dw OranguruFootprint
+	dw TrapinchFootprint
+	dw VibravaFootprint
+	dw FlygonFootprint
+	dw CroagunkFootprint
+	dw ToxicroakFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

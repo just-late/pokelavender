@@ -292,6 +292,11 @@ FramesPointers:
 	dw ClodsireFrames
 	dw AnnihilapeFrames
 	dw OranguruFrames
+	dw TrapinchFrames
+	dw VibravaFrames
+	dw FlygonFrames
+	dw CroagunkFrames
+	dw ToxicroakFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

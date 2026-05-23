@@ -241,6 +241,12 @@ FarigirafBitmasks:  INCLUDE "gfx/pokemon/farigiraf/bitmask.asm"
 ClodsireBitmasks:   INCLUDE "gfx/pokemon/clodsire/bitmask.asm"
 AnnihilapeBitmasks: INCLUDE "gfx/pokemon/annihilape/bitmask.asm"
 OranguruBitmasks:   INCLUDE "gfx/pokemon/oranguru/bitmask.asm"
+TrapinchBitmasks:   INCLUDE "gfx/pokemon/trapinch/bitmask.asm"
+VibravaBitmasks:    INCLUDE "gfx/pokemon/vibrava/bitmask.asm"
+FlygonBitmasks:     INCLUDE "gfx/pokemon/flygon/bitmask.asm"
+CroagunkBitmasks:   INCLUDE "gfx/pokemon/croagunk/bitmask.asm"
+ToxicroakBitmasks:  INCLUDE "gfx/pokemon/toxicroak/bitmask.asm"
+
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

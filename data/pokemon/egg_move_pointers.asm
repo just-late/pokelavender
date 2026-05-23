@@ -292,6 +292,11 @@ EggMovePointers::
 	dw NoEggMoves             ; Clodsire
 	dw NoEggMoves             ; Annihilape
 	dw OranguruEggMoves		  ; Oranguru
+	dw TrapinchEggMoves		  ; Trapinch
+	dw NoEggMoves			  ; Vibrava
+	dw NoEggMoves			  ; Flygon
+	dw CroagunkEggMoves		  ; Croagunk
+	dw NoEggMoves			  ; Toxicroak
 	assert_table_length NUM_SPECIES
 
 	dw NoEggMoves                ; Gyarados (Red Form)

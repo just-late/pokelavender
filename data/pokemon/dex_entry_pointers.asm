@@ -293,6 +293,11 @@ PokedexDataPointerTable:
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
 	dba OranguruPokedexEntry
+	dba TrapinchPokedexEntry
+	dba VibravaPokedexEntry
+	dba FlygonPokedexEntry
+	dba CroagunkPokedexEntry
+	dba ToxicroakPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
