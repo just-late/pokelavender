@@ -3,7 +3,7 @@
 
 BadgeBaseLevels:
 	db 4  ; 0 badges
-	db 8  ; 1 badge (falkner)
+	db 8  ; 1 badge (rancid)
 	db 12 ; 2 badges (finn)
 	db 16 ; 3 badges (whitney)
 	db 20 ; 4 badges (morty)
