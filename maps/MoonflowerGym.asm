@@ -57,7 +57,7 @@ MoonflowerGymRancidScript:
 	setevent EVENT_BEAT_GUITARISTF_JANET
 	writetext RancidPunkBadgeText
 	promptbutton
-	verbosegivetmhm TM_VENOSHOCK
+	verbosegivetmhm TM_POISON_JAB
 	setevent EVENT_GOT_TM08_VENOSHOCK
 	setmapscene MOONFLOWER_CITY, $2
 	clearevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS

@@ -191,7 +191,7 @@ MACRO pokemon_event
 ENDM
 
 MACRO pc_nurse_event
-	object_event \1, \2, SPRITE_BOWING_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumpstd, pokecenternurse, -1
+	object_event \1, \2, SPRITE_BOWING_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumpstd, pokecenternurse, -1
 ENDM
 
 MACRO mart_clerk_event
