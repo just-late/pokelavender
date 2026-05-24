@@ -110,16 +110,16 @@ Characteristics:
 	next1 "ous"
 	done
 .Chara_SAt2:
-	text  "Thoroughly"
-	next1 "cunning"
+	text  "Loves to"
+	next1 "sing"
 	done
 .Chara_SAt3:
 	text  "Often lost"
 	next1 "in thought"
 	done
 .Chara_SAt4:
-	text  "Very"
-	next1 "finicky"
+	text  "Takes naps"
+	next1 "often"
 	done
 
 .Chara_SDf0:
@@ -127,8 +127,8 @@ Characteristics:
 	next1 "willed"
 	done
 .Chara_SDf1:
-	text  "Somewhat"
-	next1 "vain"
+	text  "Extra"
+	next1 "careful"
 	done
 .Chara_SDf2:
 	text  "Strongly"
