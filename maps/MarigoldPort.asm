@@ -95,8 +95,8 @@ MarigoldPortTideCallback:
 	endcallback
 
 TyphlosionsQuestTrigger1:
-	checktime (1 << EVE) | (1 << NITE)
-	iffalsefwd .End
+;	checktime (1 << EVE) | (1 << NITE)
+;	iffalsefwd .End
 	checkevent EVENT_DOING_BLAZE_QUEST
 	iffalsefwd .End
 	turnobject GOODS_BOAT_SAILOR_1, UP
@@ -112,8 +112,8 @@ TyphlosionsQuestTrigger1:
 	end
 
 TyphlosionsQuestTrigger2:
-	checktime (1 << EVE) | (1 << NITE)
-	iffalsefwd .End
+;	checktime (1 << EVE) | (1 << NITE)
+;	iffalsefwd .End
 	checkevent EVENT_DOING_BLAZE_QUEST
 	iffalsefwd .End
 	showemote EMOTE_SHOCK, GOODS_BOAT_SAILOR_1, 30

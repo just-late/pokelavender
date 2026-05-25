@@ -1882,4 +1882,8 @@ SECTION "BoatCutscene_BlockData", ROMX
 BoatCutscene_BlockData:
 	INCBIN "maps/BoatCutscene.ablk.lz"
 
+SECTION "CanyonDepths_BlockData", ROMX
+CanyonDepths_BlockData:
+	INCBIN "maps/CanyonDepths.ablk.lz"
+
 ENDSECTION

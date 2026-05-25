@@ -672,6 +672,7 @@ ENDM
 	newgroup                                                     ; 37
 	map_const ECRUTEAK_SHRINE_OUTSIDE,                     8, 11 ;  1
 	map_const ECRUTEAK_SHRINE_INSIDE,                      6,  6 ;  2
+	map_const CANYON_DEPTHS,							  10, 32 ;  3
 
 	newgroup													 ; 38
 	map_const ROUTE_3_MOONFLOWER_GATE,                     5,  4 ;  1
