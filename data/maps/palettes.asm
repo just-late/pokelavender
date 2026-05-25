@@ -69,7 +69,7 @@ ENDM
 	special_bg_pal map,      OVERCAST_GROVE,			  PAL_TIMEOFDAY, OvercastBGPalette
 	special_bg_pal map,      BLOSSOM_CITY,				  PAL_TIMEOFDAY, BlossomCityPalette
 	special_bg_pal map,      GRANITE_VILLAGE,		      PAL_TIMEOFDAY, MountainPalette
-	special_bg_pal map,      CANYON_DEPTHS,				  PAL_TIMEOFDAY, SnowtopMountainPalette
+	special_bg_pal map,      CANYON_1F,		       		  PAL_TIMEOFDAY, BGCanyonPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
@@ -145,6 +145,9 @@ endr
 	RGB_MONOCHROME_DARK
 	RGB_MONOCHROME_BLACK
 endc
+
+BGCanyonPalette:
+INCLUDE "gfx/tilesets/bg_canyon.pal"
 
 BattleFactoryPalette:
 if !DEF(MONOCHROME)

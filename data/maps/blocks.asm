@@ -1886,4 +1886,8 @@ SECTION "CanyonDepths_BlockData", ROMX
 CanyonDepths_BlockData:
 	INCBIN "maps/CanyonDepths.ablk.lz"
 
+SECTION "Canyon1F_BlockData", ROMX
+Canyon1F_BlockData:
+	INCBIN "maps/Canyon1F.ablk.lz"
+
 ENDSECTION

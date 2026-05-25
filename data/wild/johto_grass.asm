@@ -1344,6 +1344,10 @@
 	wildmon 6, HOUNDOUR
 	end_grass_wildmons
 
+;	def_grass_wildmons CANYON_DEPTHS
+;	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+
 	def_grass_wildmons ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

@@ -56,6 +56,7 @@ INCLUDE "maps/HiddenCaveGrotto.asm" ; shares text with HiddenTreeGrotto.asm
 SECTION "Canyon Scripts", ROMX
 
 INCLUDE "maps/CanyonDepths.asm"
+INCLUDE "maps/Canyon1F.asm"
 
 SECTION "Battle Tower Scripts", ROMX
 

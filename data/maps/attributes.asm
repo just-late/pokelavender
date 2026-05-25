@@ -864,3 +864,4 @@ ENDM
 	map_attributes GraniteInn1F, GRANITE_INN_1F, $0, 0
 	map_attributes BoatCutscene, BOAT_CUTSCENE, $35, 0
 	map_attributes CanyonDepths, CANYON_DEPTHS, $5, 0
+	map_attributes Canyon1F, CANYON_1F, $5, 0
