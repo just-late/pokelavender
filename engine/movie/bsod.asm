@@ -96,8 +96,8 @@ BSODMessage:
 	next1 "------------------"
 	next  "Please report this"
 	next1 "crash to the deve-"
-	next1 "loper, just_late, "
-	next1 "on Discord."
+	next1 "loper, Late, in   "
+	next1 "the pklv discord. "
 	next  "Error:"
 	done
 
