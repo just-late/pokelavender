@@ -191,6 +191,7 @@
 	const MUSIC_LEGENDARY_BATTLE_XY            ; bc ; unused
 	const MUSIC_RIVAL_THEME					   ; c2
 	const MUSIC_CAVE						   ; c3
+	const MUSIC_EGG_LOTTO						   ; c4
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/special_map_music.asm)

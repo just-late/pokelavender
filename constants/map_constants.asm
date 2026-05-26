@@ -190,6 +190,7 @@ ENDM
 
 	newgroup                                                     ;  8
 	map_const BLOSSOM_CITY,								  20, 24 ;  1
+	map_const BLOSSOM_GAME_CORNER,						  11,  7 ;  2
 
 	newgroup                                                     ;  9
 	map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE,             4,  4 ;  1

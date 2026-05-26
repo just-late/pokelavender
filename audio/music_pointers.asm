@@ -191,4 +191,5 @@ Music:
 	dba Music_LegendaryBattleXY
 	dba Music_RivalsTheme
 	dba Music_Cave
+	dba Music_EggLottery
 	assert_table_length NUM_MUSIC_SONGS

@@ -1890,4 +1890,8 @@ SECTION "Canyon1F_BlockData", ROMX
 Canyon1F_BlockData:
 	INCBIN "maps/Canyon1F.ablk.lz"
 
+SECTION "BlossomGameCorner_BlockData", ROMX
+BlossomGameCorner_BlockData:
+	INCBIN "maps/BlossomGameCorner.ablk.lz"
+
 ENDSECTION

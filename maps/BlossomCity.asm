@@ -5,6 +5,7 @@ BlossomCity_MapScriptHeader:
 
     def_warp_events
 	warp_event  9, 27, PLAYERS_HOUSE_2F, 1
+	warp_event 12, 15, BLOSSOM_GAME_CORNER, 1
 
     def_coord_events
 ;	coord_event 33, 33, 0, BlossomCityAnabelBattleTrigger1
@@ -20,11 +21,11 @@ BlossomCity_MapScriptHeader:
 	bg_event 24, 11, BGEVENT_JUMPTEXT, BlossomCityDecorSignText
 
     db 24 ; object events
-    object_event 12, 14, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
+	object_event 12, 14, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
 	object_event 13, 13, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
 	object_event 14, 13, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
 	object_event 12, 13, SPRITE_DITTO_TILES_2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
-    object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
+	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1

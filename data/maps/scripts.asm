@@ -141,6 +141,7 @@ INCLUDE "maps/MarigoldCave2F.asm"
 SECTION "Blossom City Scripts", ROMX
 
 INCLUDE "maps/BlossomCity.asm"
+INCLUDE "maps/BlossomGameCorner.asm"
 
 SECTION "Granite Village Scripts", ROMX
 
