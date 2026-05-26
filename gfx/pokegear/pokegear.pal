@@ -1,6 +1,6 @@
 if !DEF(MONOCHROME)
 ; male interface and text
-	RGB 31, 31, 31
+	RGB 28, 31, 20
 	RGB 11, 15, 23
 	RGB 04, 07, 12
 	RGB 00, 00, 00
@@ -10,35 +10,35 @@ if !DEF(MONOCHROME)
 	RGB 13, 13, 13
 	RGB 00, 00, 00
 ; water and shores
-	RGB 20, 15, 03
+	RGB 28, 31, 20
 	RGB 15, 23, 06
-	RGB 13, 12, 31
-	RGB 18, 19, 31
+	RGB 11, 12, 28
+	RGB 00, 00, 00
 ; land and mountains
 	RGB 22, 31, 10
 	RGB 15, 23, 06
 	RGB 24, 18, 07
-	RGB 20, 15, 03
+	RGB 00, 00, 00
 ; water routes
-	RGB 27, 31, 27
+	RGB 28, 31, 20
 	RGB 03, 03, 10
 	RGB 13, 12, 31
-	RGB 18, 19, 31
+	RGB 00, 00, 00
 ; cities
-	RGB 27, 14, 02
+	RGB 31, 16, 05
 	RGB 15, 23, 06
-	RGB 30, 10, 06
-	RGB 04, 04, 04
+	RGB 21, 09, 00
+	RGB 00, 00, 00
 ; land routes
-	RGB 29, 29, 22
+	RGB 28, 31, 20
 	RGB 15, 23, 06
 	RGB 05, 14, 00
-	RGB 04, 04, 04
+	RGB 00, 00, 00
 ; decorations
 	RGB 31, 21, 10
 	RGB 15, 23, 06
 	RGB 26, 15, 05
-	RGB 04, 04, 04
+	RGB 00, 00, 00
 else
 	MONOCHROME_RGB_FOUR
 
