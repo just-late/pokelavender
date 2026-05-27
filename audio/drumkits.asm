@@ -5,21 +5,22 @@ Drumkits:
 	dr Drumkit3
 	dr Drumkit4
 	dr Drumkit5
+	dr Drumkit6
 
 Drumkit0:
-	dr Drum00    ; rest
-	dr Snare1    ; c
-	dr Snare2    ; c#
-	dr Snare3    ; d
-	dr Snare4    ; d#
-	dr Drum05    ; e
-	dr Triangle1 ; f
-	dr Triangle2 ; f#
-	dr HiHat1    ; g
-	dr Snare5    ; g#
-	dr Snare6    ; a
-	dr Snare7    ; a#
-	dr HiHat2    ; b
+	dr Drum00
+	dr Snare1
+	dr Snare2
+	dr Snare3
+	dr Snare4
+	dr Drum05
+	dr Triangle1
+	dr Triangle2
+	dr Kick2
+	dr Snare5
+	dr Snare6
+	dr Snare7
+	dr HiHat2
 Drumkit1:
 	dr Drum00
 	dr HiHat1
@@ -90,9 +91,22 @@ Drumkit5:
 	dr Snare14
 	dr Snare13
 	dr Kick2
+Drumkit6:
+	dr Drum00
+	dr Drum00
+	dr Drum00
+	dr Drum00
+	dr Drum00
+	dr Kick1
+	dr Crash2
+	dr Drum00
+	dr Kick3
+	dr Drum00
+	dr HiHat4
+	dr Drum00
+	dr Snare15
 
 Drum00:
-; unused
 	noise_note 32, 1, 1, 0
 	sound_ret
 
@@ -105,7 +119,7 @@ Snare2:
 	sound_ret
 
 Snare3:
-	noise_note 32, 10, 1, 51
+	noise_note 32, 4, 3, 51
 	sound_ret
 
 Snare4:
@@ -130,8 +144,9 @@ Triangle2:
 	noise_note 32, 6, 1, 42
 	sound_ret
 
-HiHat1:
-	noise_note 32, 8, 1, 16
+Kick2:
+	noise_note 32, 10, 8, 107
+	noise_note 32, 7, 1, 0
 	sound_ret
 
 Snare5:
@@ -148,6 +163,10 @@ Snare7:
 
 HiHat2:
 	noise_note 32, 10, 1, 16
+	sound_ret
+
+HiHat1:
+	noise_note 32, 8, 1, 16
 	sound_ret
 
 HiHat3:
@@ -180,10 +199,6 @@ Snare11:
 	noise_note 32, 6, 1, 34
 	sound_ret
 
-Drum20:
-	noise_note 32, 1, 1, 17
-	sound_ret
-
 Drum21:
 	sound_ret
 
@@ -208,6 +223,10 @@ Triangle5:
 	noise_note 48, 9, 1, 24
 	sound_ret
 
+Drum20:
+	noise_note 32, 1, 1, 17
+	sound_ret
+
 Drum27:
 	noise_note 39, 9, 2, 16
 	sound_ret
@@ -222,9 +241,17 @@ Drum29:
 	noise_note 51, 1, 1, 0
 	sound_ret
 
-Crash1:
-	noise_note 51, 8, 8, 21
-	noise_note 32, 6, 5, 18
+Crash2:
+	noise_note 32, 8, 4, 18
+	sound_ret
+
+Drum33:
+	noise_note 32, 10, 1, 49
+	sound_ret
+
+Drum35:
+	noise_note 51, 8, 1, 0
+	noise_note 51, 1, 1, 0
 	sound_ret
 
 Drum31:
@@ -237,25 +264,25 @@ Drum32:
 	noise_note 51, 1, 1, 17
 	sound_ret
 
-Drum33:
-	noise_note 32, 10, 1, 49
-	sound_ret
-
-Crash2:
-	noise_note 32, 8, 4, 18
-	sound_ret
-
-Drum35:
-	noise_note 51, 8, 1, 0
-	noise_note 51, 1, 1, 0
-	sound_ret
-
 Drum36:
 	noise_note 51, 8, 1, 33
 	noise_note 51, 1, 1, 17
 	sound_ret
 
-Kick2:
-	noise_note 32, 10, 8, 107
-	noise_note 32, 7, 1, 0
+Crash1:
+	noise_note 51, 8, 8, 21
+	noise_note 32, 6, 5, 18
+	sound_ret
+
+Snare15:
+	noise_note 32, 4, 3, 51
+	sound_ret
+
+HiHat4:
+	noise_note 32, 5, 2, 17
+	sound_ret
+
+Kick3:
+	noise_note 32, 6, 8, 107
+	noise_note 32, 5, 1, 0
 	sound_ret
