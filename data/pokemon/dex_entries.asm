@@ -1518,7 +1518,7 @@ MewPokedexEntry::
 
 SECTION "TurtwigPokedexEntry", ROMX
 TurtwigPokedexEntry::
-	db "TINY LEAF@"
+	db "Tiny Leaf@"
 	db   "It becomes more"
 	next "energetic the more"
 	next "sunlight there is."
@@ -1528,7 +1528,7 @@ TurtwigPokedexEntry::
 
 SECTION "GrotlePokedexEntry", ROMX
 GrotlePokedexEntry::
-	db "GROVE@"
+	db "Grove@"
 	db   "It appears where"
 	next "there is clean"
 	next "spring water."
@@ -1538,7 +1538,7 @@ GrotlePokedexEntry::
 
 SECTION "TorterraPokedexEntry", ROMX
 TorterraPokedexEntry::
-	db "CONTINENT@"
+	db "Continent@"
 	db   "This remarkable,"
 	next "large #MON is"
 	next "treated by some as"
@@ -1576,35 +1576,35 @@ TyphlosionPlainPokedexEntry::
 	next "sign that it is"
 	next "ready to battle.@"
 
-SECTION "TotodilePokedexEntry", ROMX
-TotodilePokedexEntry::
-	db "Big Jaw@"
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
+SECTION "MudkipPokedexEntry", ROMX
+MudkipPokedexEntry::
+	db "Mud Fish@"
+	db   "To alert it, the"
+	next "fin on its head"
+	next "senses the flow of"
+	page "water. It has the"
+	next "strength to heft"
+	next "boulders.@"
 
-SECTION "CroconawPokedexEntry", ROMX
-CroconawPokedexEntry::
-	db "Big Jaw@"
-	db   "The tips of its"
-	next "fangs are slanted"
-	next "backward. Once"
-	page "those fangs clamp"
-	next "down, the prey has"
-	next "no hope of escape.@"
+SECTION "MarshtompPokedexEntry", ROMX
+MarshtompPokedexEntry::
+	db "Mud Fish@"
+	db   "Its sturdy legs"
+	next "give it sure"
+	next "footing, even in"
+	page "mud. It burrows into"
+	next "dirt to sleep."
+	next "@"
 
-SECTION "FeraligatrPokedexEntry", ROMX
-FeraligatrPokedexEntry::
-	db "Big Jaw@"
-	db   "Although it has a"
-	next "massive body, its"
-	next "powerful hind legs"
-	page "enable it to move"
-	next "quickly, even on"
-	next "the ground.@"
+SECTION "SwampertPokedexEntry", ROMX
+SwampertPokedexEntry::
+	db "Mud Fish@"
+	db   "SWAMPERT predicts"
+	next "storms by sensing"
+	next "subtle differences"
+	page "in the sounds of"
+	next "waves and tidal"
+	next "winds.@"
 
 SECTION "SentretPokedexEntry", ROMX
 SentretPokedexEntry::
@@ -2226,25 +2226,25 @@ CorsolaPlainPokedexEntry::
 	next "cannot survive in"
 	next "polluted water.@"
 
-SECTION "RemoraidPokedexEntry", ROMX
-RemoraidPokedexEntry::
-	db "Jet@"
-	db   "To escape from an"
-	next "attacker, it may"
-	next "shoot water out of"
-	page "its mouth, then"
-	next "use that force to"
-	next "swim backward.@"
+SECTION "SwabluPokedexEntry", ROMX
+SwabluPokedexEntry::
+	db "Cotton Bird@"
+	db   "It is thought to"
+	next "bring good weather"
+	next "by ATUVA REGION"
+	page "locals. Its wings"
+	next "are like cotton"
+	next "tufts.@"
 
-SECTION "OctilleryPokedexEntry", ROMX
-OctilleryPokedexEntry::
-	db "Jet@"
-	db   "Its instinct is to"
-	next "bury itself in"
-	next "holes. It often"
-	page "steals the nesting"
-	next "holes of others to"
-	next "sleep in them.@"
+SECTION "AltariaPokedexEntry", ROMX
+AltariaPokedexEntry::
+	db "Humming@"
+	db   "On sunny days, it"
+	next "flies freely in the"
+	next "sky and disappears"
+	page "among the clouds."
+	next "It sings a lovely"
+	next "soprano.@"
 
 SECTION "DelibirdPokedexEntry", ROMX
 DelibirdPokedexEntry::
@@ -2346,15 +2346,15 @@ StantlerPokedexEntry::
 	next "powder that aids"
 	next "in sleeping.@"
 
-SECTION "SmearglePokedexEntry", ROMX
-SmearglePokedexEntry::
-	db "Painter@"
-	db   "The color of the"
-	next "mysterious fluid"
-	next "secreted from its"
-	page "tail is predeter-"
-	next "mined for each"
-	next "Smeargle.@"
+SECTION "SableyePokedexEntry", ROMX
+SableyePokedexEntry::
+	db "Darkness@"
+	db   "It feeds on gem-"
+	next "stone crystals."
+	next "In darkness, its"
+	page "eyes sparkle with"
+	next "the glitter of"
+	next "jewels.@"
 
 SECTION "TyroguePokedexEntry", ROMX
 TyroguePokedexEntry::
@@ -2614,7 +2614,7 @@ MantykePokedexEntry::
 	next "#MON frolic and"
 	page "skim the tops of"
 	next "the waves with"
-	next "Remoraid.@"
+	next "Swablu.@"
 
 SECTION "WeavilePokedexEntry", ROMX
 WeavilePokedexEntry::
@@ -2894,6 +2894,66 @@ AnnihilapePokedexEntry::
 	page "gained power unfe-"
 	next "ttered by its"
 	next "physical body.@"
+
+SECTION "OranguruPokedexEntry", ROMX
+OranguruPokedexEntry::
+	db "Sage@"
+	db   "It knows the deep"
+	next "forest by heart."
+	next "If it comes across"
+	page "an injured #MON"
+	next "it will find the"
+	next "herbs to heal it.@"
+
+SECTION "TrapinchPokedexEntry", ROMX
+TrapinchPokedexEntry::
+	db "Ant Pit@"
+	db   "It lives in arid"
+	next "deserts. It makes"
+	next "a sloping pit trap"
+	page "where it waits for"
+	next "prey."
+	next "@"
+
+SECTION "VibravaPokedexEntry", ROMX
+VibravaPokedexEntry::
+	db "Vibration@"
+	db   "It generates ultra-"
+	next "sonic waves by"
+	next "flapping its wings."
+	page "After making its"
+	next "prey faint, it melts"
+	next "the prey with acid.@"
+
+SECTION "FlygonPokdexEntry", ROMX
+FlygonPokedexEntry::
+	db "Mystic@"
+	db   "It is nicknamed “The"
+	next "Desert Spirit” be-"
+	next "cause when it flaps"
+	page "its wings it sounds"
+	next "like a woman's"
+	next "singing.@"
+
+SECTION "CroagunkPokedexEntry", ROMX
+CroagunkPokedexEntry::
+	db "Toxic Mouth@"
+	db   "Fluid squeezed from"
+	next "its finger, albeit"
+	next "poisonous, is a"
+	page "significant ingred-"
+	next "ient in remedies"
+	next "for back pain.@"
+
+SECTION "ToxicroakPokedexEntry", ROMX
+ToxicroakPokedexEntry::
+	db "Toxic Mouth@"
+	db   "It has a poison sac"
+	next "at its throat. When"
+	next "it croaks, the"
+	page "poison is churned"
+	next "for greater potent-"
+	next "cy.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::

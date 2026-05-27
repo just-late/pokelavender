@@ -8,9 +8,9 @@ NewPokedexOrder:
 	dp CYNDAQUIL
 	dp QUILAVA
 	dp TYPHLOSION
-	dp TOTODILE
-	dp CROCONAW
-	dp FERALIGATR
+	dp MUDKIP
+	dp MARSHTOMP
+	dp SWAMPERT
 	dp PIDGEY
 	dp PIDGEOTTO
 	dp PIDGEOT
@@ -126,6 +126,8 @@ NewPokedexOrder:
 	dp WEEZING
 	dp GRIMER
 	dp MUK
+	dp CROAGUNK
+	dp TOXICROAK
 	dp MAGNEMITE
 	dp MAGNETON
 	dp MAGNEZONE
@@ -165,6 +167,9 @@ NewPokedexOrder:
 	dp FARIGIRAF
 	dp TAUROS
 	dp MILTANK
+	dp TRAPINCH
+	dp VIBRAVA
+	dp FLYGON
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR
@@ -176,7 +181,7 @@ NewPokedexOrder:
 	dp MIME_JR_
 	dp MR__MIME
 	dp MR__RIME
-	dp SMEARGLE
+	dp SABLEYE
 	dp FARFETCH_D
 	dp SIRFETCH_D
 	dp NATU
@@ -194,8 +199,9 @@ NewPokedexOrder:
 	dp CLOYSTER
 	dp CORSOLA
 	dp CURSOLA
-	dp REMORAID
-	dp OCTILLERY
+	dp SWABLU
+	dp ALTARIA
+	dp ORANGURU
 	dp CHINCHOU
 	dp LANTURN
 	dp SEEL

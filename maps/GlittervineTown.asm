@@ -75,6 +75,7 @@ MeetProfAspen_Script:
 	disappear GLITTERVINE_PROF_ASPEN
 	special RestartMapMusic
 	setevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
+	setscene GLITTERVINE_TOWN, $1
 	end
 
 .PokedexQuestionLoop

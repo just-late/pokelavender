@@ -2079,3 +2079,74 @@ Cry_Rattata_Ch8:
 	noise_note 1, 10, 2, 57
 	noise_note 8, 9, 1, 73
 	sound_ret
+
+Cry_Goomy: ; by myRattata
+	channel_count 3
+	channel 5, Cry_Goomy_Ch5
+	channel 6, Cry_Goomy_Ch6
+	channel 8, Cry_Goomy_Ch8
+
+Cry_Goomy_Ch5:
+	duty_cycle_pattern 3, 3, 0, 0
+	square_note 9, 15, 2, 1150
+	square_note 1,  0, 0, 1
+	square_note 9, 15, 2, 1300
+	square_note 1,  0, 0, 1
+	square_note 9, 15, 2, 1350
+	square_note 1,  0, 0, 1
+	duty_cycle_pattern 3, 0, 3, 0
+	square_note 6,  8, 3, 1570
+	sound_ret
+
+Cry_Goomy_Ch6:
+	duty_cycle_pattern 1, 3, 0, 2
+	square_note 10,  5, 7, 1300
+	square_note 1,  0, 7, 300
+	square_note 10,  5, 7, 1500
+	square_note 1,  0, 7, 300
+	square_note 10,  5, 7, 1600
+	square_note 1,  0, 7, 300
+	square_note 16, 13, 5, 1646
+	square_note 1, 13, 5, 1646
+	duty_cycle_pattern 3, 2, 0, 0
+	square_note 3,  7, 6, 1500
+	square_note 1,  0, 0, 1
+	square_note 3,  7, 6, 1400
+	square_note 1,  0, 0, 1
+	square_note 3,  7, 4, 1300
+	sound_ret
+	
+Cry_Goomy_Ch8:
+	noise_note 2,  0, 1, $00
+Cry_Goomy_Ch8_branch:
+	noise_note 4,  2, 3, $66
+	noise_note 6,  0, 0, $00
+	sound_loop 3, Cry_Goomy_Ch8_branch
+	noise_note 10,  4, 7, $21
+	noise_note 10,  4, 7, $46
+	noise_note 10,  3, 7, $21
+	sound_ret
+
+Cry_Chatot: ; by Ax6
+	channel_count 3
+	channel 5, Cry_Chatot_Ch5
+	channel 6, Cry_Chatot_Ch6
+	channel 8, Cry_Chatot_Ch8
+
+Cry_Chatot_Ch5:
+	duty_cycle_pattern 0, 1 ,2 ,3
+	square_note  5, 13, 3, $0740
+	square_note 10, 12, 6, $0720
+	square_note  1,  0, 0, $0000
+	square_note 16, 14, 5, $0760
+	sound_ret
+
+Cry_Chatot_Ch6:
+	duty_cycle_pattern 1, 0, 0, 2
+	square_note  2, 12, 3, $0701
+	square_note  3, 12, 3, $0708
+	square_note 10, 10, 6, $06f1
+	square_note  1,  0, 0, $0000
+	square_note 16, 13, 7, $0741
+Cry_Chatot_Ch8:
+	sound_ret

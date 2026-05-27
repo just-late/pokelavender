@@ -102,6 +102,12 @@ SpriteAnimOAMData:
 	spriteanimoam $04, .OAMData_GreenWalk              ; SPRITE_ANIM_OAMSET_GREEN_WALK_2
 	spriteanimoam $00, .OAMData_PartyMon               ; SPRITE_ANIM_OAMSET_PARTY_MON_1
 	spriteanimoam $04, .OAMData_PartyMon               ; SPRITE_ANIM_OAMSET_PARTY_MON_2
+	spriteanimoam $00, .OAMData_PurpleWalk			   ; SPRITE_ANIM_OAMSET_PURPLE_WALK_1
+	spriteanimoam $04, .OAMData_PurpleWalk			   ; SPRITE_ANIM_OAMSET_PURPLE_WALK_2
+	spriteanimoam $00, .OAMData_PinkWalk			   ; SPRITE_ANIM_OAMSET_PINK_WALK_1
+	spriteanimoam $04, .OAMData_PinkWalk			   ; SPRITE_ANIM_OAMSET_PINK_WALK_2
+	spriteanimoam $00, .OAMData_BrownWalk			   ; SPRITE_ANIM_OAMSET_BROWN_WALK_1
+	spriteanimoam $04, .OAMData_BrownWalk			   ; SPRITE_ANIM_OAMSET_BROWN_WALK_2
 	assert_table_length NUM_SPRITE_ANIM_OAMSETS
 
 .OAMData_1x1_Palette0:
@@ -796,3 +802,24 @@ SpriteAnimOAMData:
 	dsprite -1,  0,  0,  0, $01, $2
 	dsprite  0,  0, -1,  0, $02, $2
 	dsprite  0,  0,  0,  0, $03, $2
+
+.OAMData_PurpleWalk:
+	db 4
+	dsprite -1,  0, -1,  0, $00, $4
+	dsprite -1,  0,  0,  0, $01, $4
+	dsprite  0,  0, -1,  0, $02, $4
+	dsprite  0,  0,  0,  0, $03, $4
+
+.OAMData_PinkWalk:
+	db 4
+	dsprite -1,  0, -1,  0, $00, $6
+	dsprite -1,  0,  0,  0, $01, $6
+	dsprite  0,  0, -1,  0, $02, $6
+	dsprite  0,  0,  0,  0, $03, $6
+
+.OAMData_BrownWalk:
+	db 4
+	dsprite -1,  0, -1,  0, $00, $3
+	dsprite -1,  0,  0,  0, $01, $3
+	dsprite  0,  0, -1,  0, $02, $3
+	dsprite  0,  0,  0,  0, $03, $3

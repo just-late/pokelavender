@@ -564,8 +564,13 @@ Continue_DisplayGameTime:
 	jmp PrintNum
 
 ProfElmSpeech:
+	call ClearBGPalettes
+    call ClearSprites
+    call ClearTileMap
 	farcall InitClock
 	farcall Special_SetDayOfWeek
+	ld hl, BeforeYouBeginSpeech
+	call PrintText
 	ld hl, wInitialOptions
 	res COLOR_VARY_OPT, [hl]
 	ld c, 31
@@ -662,6 +667,10 @@ endc
 
 	ld hl, ElmText7
 	jmp PrintText
+
+BeforeYouBeginSpeech:
+	text_far _BeforeYouBeginText
+	text_end
 
 ElmText1:
 	text_far _ElmText1
@@ -968,18 +977,24 @@ ShrinkPlayer:
 	ld hl, Shrink2Pic
 	call ShrinkFrame
 
-	ld c, 16
-	call DelayFrames
+;	ld c, 16
+;	call DelayFrames
 
-	hlcoord 6, 4
-	lb bc, 7, 7
-	call ClearBox
+;	ld hl, Shrink3Pic
+;	call ShrinkFrame
 
-	ld c, 6
-	call DelayFrames
+;	ld c, 16
+;	call DelayFrames
 
-	call Intro_PlacePlayerSprite
-	call LoadFrame
+;	hlcoord 6, 4
+;	lb bc, 7, 7
+;	call ClearBox
+
+;	ld c, 6
+;	call DelayFrames
+
+;	call Intro_PlacePlayerSprite
+;	call LoadFrame
 
 	ld c, 50
 	call DelayFrames

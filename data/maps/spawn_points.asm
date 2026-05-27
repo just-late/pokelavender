@@ -36,7 +36,6 @@ SpawnPoints:
 	spawn MAHOGANY_TOWN,              15, 14
 	spawn ROUTE_48,                   11,  6
 	spawn LAKE_OF_RAGE,               21, 29
-	spawn BLACKTHORN_CITY,            21, 30
 	spawn SILVER_CAVE_OUTSIDE,        23, 14
 	spawn FAST_SHIP_CABINS_SW_SSW_NW,  6,  2
 

@@ -13,7 +13,7 @@ ENDM
 
 RoamMaps:
 	list_start RoamMaps
-	roam_map ROUTE_30, ROUTE_46
+	roam_map ROUTE_30
 	roam_map ROUTE_30, ROUTE_31
 	roam_map ROUTE_31, ROUTE_30, ROUTE_32, ROUTE_36
 	roam_map ROUTE_32, ROUTE_36, ROUTE_31, ROUTE_35
@@ -26,8 +26,7 @@ RoamMaps:
 	roam_map ROUTE_39, ROUTE_38
 	roam_map ROUTE_42, ROUTE_43, ROUTE_44, ROUTE_37, ROUTE_38
 	roam_map ROUTE_43, ROUTE_42, ROUTE_44
-	roam_map ROUTE_44, ROUTE_42, ROUTE_43, ROUTE_45
-	roam_map ROUTE_45, ROUTE_44, ROUTE_46
-	roam_map ROUTE_46, ROUTE_45
+	roam_map ROUTE_44, ROUTE_42, ROUTE_43
+	roam_map ROUTE_44
 	assert_list_length NUM_ROAMMON_MAPS
 	db -1

@@ -158,15 +158,15 @@ PokemonBodyData:
 	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; DRAGONITE
 	body_data  20, 1220, BIPEDAL_TAIL, PURPLE ; MEWTWO
 	body_data   4,   40, BIPEDAL_TAIL, PINK   ; MEW
-	body_data   9,   64, QUADRUPED,    GREEN  ; TURTWIG
-	body_data  12,  158, QUADRUPED,    GREEN  ; GROTLE
-	body_data  18, 1005, QUADRUPED,    GREEN  ; TORTERRA
+	body_data   4,   10, QUADRUPED,    GREEN  ; TURTWIG
+	body_data  11,   97, QUADRUPED,    GREEN  ; GROTLE
+	body_data  22, 3100, QUADRUPED,    GREEN  ; TORTERRA
 	body_data   5,   79, BIPEDAL,      YELLOW ; CYNDAQUIL
 	body_data   9,  190, QUADRUPED,    YELLOW ; QUILAVA
 	body_data  17,  795, QUADRUPED,    YELLOW ; TYPHLOSION
-	body_data   6,   95, BIPEDAL_TAIL, BLUE   ; TOTODILE
-	body_data  11,  250, BIPEDAL_TAIL, BLUE   ; CROCONAW
-	body_data  23,  888, BIPEDAL_TAIL, BLUE   ; FERALIGATR
+	body_data   4,   76, QUADRUPED,    BLUE   ; MUDKIP
+	body_data   7,  280, BIPEDAL_TAIL, BLUE   ; MARSHTOMP
+	body_data  15,  819, BIPEDAL_TAIL, BLUE   ; SWAMPERT
 	body_data   8,   60, QUADRUPED,    BROWN  ; SENTRET
 	body_data  18,  325, QUADRUPED,    BROWN  ; FURRET
 	body_data   7,  212, WINGS,        BROWN  ; HOOTHOOT
@@ -229,8 +229,8 @@ PokemonBodyData:
 	body_data   4,   65, QUADRUPED,    BROWN  ; SWINUB
 	body_data  11,  558, QUADRUPED,    BROWN  ; PILOSWINE
 	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
-	body_data   6,  120, FINS,         GRAY   ; REMORAID
-	body_data   9,  285, TENTACLES,    RED    ; OCTILLERY
+	body_data   4,   12, WINGS,        BLUE   ; SWABLU
+	body_data  11,  206, WINGS,        BLUE   ; ALTARIA
 	body_data   9,  160, WINGS,        RED    ; DELIBIRD
 	body_data  21, 2200, WINGS,        PURPLE ; MANTINE
 	body_data  17,  505, WINGS,        GRAY   ; SKARMORY
@@ -241,7 +241,7 @@ PokemonBodyData:
 	body_data  11, 1200, QUADRUPED,    GRAY   ; DONPHAN
 	body_data   6,  325, HEAD_LEGS,    RED    ; PORYGON2
 	body_data  14,  712, QUADRUPED,    BROWN  ; STANTLER
-	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; SMEARGLE
+	body_data   5,  110, BIPEDAL,      PURPLE ; SABLEYE
 	body_data   7,  210, BIPEDAL,      PURPLE ; TYROGUE
 	body_data  14,  480, BIPEDAL_TAIL, BROWN  ; HITMONTOP
 	body_data   4,   60, BIPEDAL,      PINK   ; SMOOCHUM
@@ -298,6 +298,12 @@ PokemonBodyData:
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
+	body_data  15,  760, BIPEDAL,	   WHITE  ; ORANGURU
+	body_data   7,  150, INSECTOID,	   BROWN  ; TRAPINCH
+	body_data  11,  153, MULTIWINGS,   GREEN  ; VIBRAVA
+	body_data  20,  820, WINGS,		   GREEN  ; FLYGON
+	body_data   7,  230, BIPEDAL,	   BLUE   ; CROAGUNK
+	body_data  13,  444, BIPEDAL,      BLUE   ; TOXICROAK
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

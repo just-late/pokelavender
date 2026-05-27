@@ -31,16 +31,18 @@ SpawnPlayer:
 	ld hl, MAPOBJECT_PALETTE
 	add hl, bc
 	ld a, [wPlayerGender]
-	lb de, PAL_NPC_RED, PERSONTYPE_SCRIPT
+	lb de, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT
 	and a ; PLAYER_MALE
 	jr z, .ok
-	assert PAL_NPC_RED + 1 == PAL_NPC_BLUE
+;	assert PAL_NPC_PURPLE + 1 == PAL_NPC_PINK
 	inc d
+	lb de, PAL_NPC_PINK, PERSONTYPE_SCRIPT
 	dec a ; PLAYER_FEMALE
 	jr z, .ok
 	; PLAYER_ENBY
-	assert PAL_NPC_BLUE + 1 == PAL_NPC_GREEN
+;	assert PAL_NPC_PURPLE + 1 == PAL_NPC_BROWN
 	inc d
+	lb de, PAL_NPC_BROWN, PERSONTYPE_SCRIPT
 .ok
 	ld [hl], d
 	ld hl, MAPOBJECT_TYPE

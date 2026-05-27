@@ -24,7 +24,7 @@ Route7_MapScriptHeader:
 GenericTrainerBreederCarlene:
 	generictrainer BREEDER, CARLENE, EVENT_BEAT_BREEDER_CARLENE, .SeenText, .BeatenText
 
-	text "I make my Smeargle"
+	text "I make my Sableye"
 	line "Sketch a move,"
 
 	para "then breed it"

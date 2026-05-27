@@ -159,18 +159,6 @@ ENDM
 	map_const ECRUTEAK_CHERISH_BALL_HOUSE,                 4,  4 ; 16
 	map_const ECRUTEAK_DESTINY_KNOT_HOUSE,                 4,  4 ; 17
 
-	newgroup                                                     ;  5
-	map_const BLACKTHORN_GYM_1F,                           5,  9 ;  1
-	map_const BLACKTHORN_GYM_2F,                           5,  9 ;  2
-	map_const BLACKTHORN_DRAGON_SPEECH_HOUSE,              4,  4 ;  3
-	map_const BLACKTHORN_EMYS_HOUSE,                       4,  4 ;  4
-	map_const BLACKTHORN_MART,                             6,  4 ;  5
-	map_const BLACKTHORN_POKECENTER_1F,                    6,  4 ;  6
-	map_const MOVE_DELETERS_HOUSE,                         4,  4 ;  7
-	map_const ROUTE_45,                                   12, 46 ;  8
-	map_const ROUTE_46,                                   10, 18 ;  9
-	map_const BLACKTHORN_CITY,                            20, 19 ; 10
-
 	newgroup                                                     ;  6
 	map_const CINNABAR_POKECENTER_1F,                      6,  4 ;  1
 	map_const SEAFOAM_ISLANDS_1F,                         17, 18 ;  2
@@ -202,6 +190,7 @@ ENDM
 
 	newgroup                                                     ;  8
 	map_const BLOSSOM_CITY,								  20, 24 ;  1
+	map_const BLOSSOM_GAME_CORNER,						  11,  7 ;  2
 
 	newgroup                                                     ;  9
 	map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE,             4,  4 ;  1
@@ -228,7 +217,7 @@ ENDM
 	map_const MAGNET_TUNNEL_EAST,                         10, 11 ; 14
 	map_const MOONFLOWER_OUTSKIRTS,                       20, 10 ; 15
 	map_const MOONFLOWER_BIKE_SHOP,						   4,  4 ; 16
-	map_const MOONFLOWER_INDIGO_BASE_1F,				  13,  5 ; 17
+	map_const COBB_BUILDING_1F,				               9,  6 ; 17
 	map_const MOONFLOWER_GANG_APARTMENT_1F,				   5,  4 ; 18
 	map_const MOONFLOWER_GANG_APARTMENT_2F,				   5,  4 ; 19
 	map_const MOONFLOWER_NPC_APARTMENT_1_1F,               5,  4 ; 20
@@ -523,7 +512,7 @@ ENDM
 	map_const ROUTE_27,                                   40,  9 ;  3
 	map_const GEMROOT_TOWN,                               18, 18 ;  4
 	map_const GEMROOT_NICKNAME_SPEECH_HOUSE,               4,  4 ;  5
-	map_const GEMROOT_COMMUNITY_CENTER_1F,                 6,  6 ;  6
+	map_const GEMROOT_COMMUNITY_CENTER_1F,                12,  6 ;  6
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
 	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  8
 	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
@@ -684,6 +673,8 @@ ENDM
 	newgroup                                                     ; 37
 	map_const ECRUTEAK_SHRINE_OUTSIDE,                     8, 11 ;  1
 	map_const ECRUTEAK_SHRINE_INSIDE,                      6,  6 ;  2
+	map_const CANYON_DEPTHS,							  10, 32 ;  3
+	map_const CANYON_1F,								  20, 32 ;  4
 
 	newgroup													 ; 38
 	map_const ROUTE_3_MOONFLOWER_GATE,                     5,  4 ;  1
@@ -699,5 +690,6 @@ ENDM
 	map_const MARIGOLD_CAVE_2F,							  15, 17 ; 11
 	map_const DREAM_WORLD, 								  22, 10 ; 12
 	map_const OVERCAST_GROVE,							  17, 14 ; 13
+	map_const BOAT_CUTSCENE,							   9,  5 ; 14
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

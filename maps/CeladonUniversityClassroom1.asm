@@ -214,7 +214,7 @@ CeladonUniversityClassroom1BlackboardText:
 
 CeladonUniversityClassroom1Bookshelf1Text:
 	text "It's a book about"
-	line "Smeargle, a"
+	line "Sableye, a"
 	cont "#MON artist."
 
 	para "It's full of beau-"

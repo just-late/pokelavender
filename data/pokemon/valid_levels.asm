@@ -158,9 +158,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  13 ; Cyndaquil
 	db  14,  35 ; Quilava
 	db  36, 100 ; Typhlosion
-	db   1,  17 ; Totodile
-	db  18,  29 ; Croconaw
-	db  30, 100 ; Feraligatr
+	db   1,  17 ; Mudkip
+	db  18,  29 ; Marshtomp
+	db  30, 100 ; Swampert
 	db   1,  14 ; Sentret
 	db  15, 100 ; Furret
 	db   1,  19 ; Hoothoot
@@ -223,8 +223,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  32 ; Swinub
 	db  33,  44 ; Piloswine
 	db   1, 100 ; Corsola
-	db   1,  24 ; Remoraid
-	db  25, 100 ; Octillery
+	db   1,  24 ; Swablu
+	db  25, 100 ; Altaria
 	db   1, 100 ; Delibird
 	db   1, 100 ; Mantine
 	db  10, 100 ; Skarmory
@@ -235,7 +235,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  25, 100 ; Donphan
 	db  20,  39 ; Porygon2
 	db   1,  29 ; Stantler
-	db   1, 100 ; Smeargle
+	db   1, 100 ; Sableye
 	db   1,  19 ; Tyrogue
 	db  20, 100 ; Hitmontop
 	db   1,  19 ; Smoochum
@@ -292,4 +292,10 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
+	db  40, 100 ; Oranguru
+	db   1,  40 ; Trapinch
+	db  35,  50 ; Vibrava
+	db  45, 100 ; Flygon
+	db   1,  40 ; Croagunk
+	db  37, 100 ; Toxicroak
 	assert_table_length NUM_SPECIES

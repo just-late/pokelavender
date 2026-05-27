@@ -20,7 +20,6 @@ RadioTower1F_MapScriptHeader:
 	object_event  5,  6, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, RadioTower1FReceptionistScript, -1
 	object_event 17,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, RadioTower1FLassText, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 17,  3, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, RadioTower1FYoungsterText, EVENT_GOLDENROD_CITY_CIVILIANS
-	object_event 14,  1, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM3, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 12,  6, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, RadioTower1FRadioCardWomanScript, EVENT_GOLDENROD_CITY_CIVILIANS
 
 	object_const_def
@@ -199,16 +198,6 @@ RadioTower1FRadioCardWomanScript:
 
 	para "got it wrong."
 	line "Please try again!"
-	done
-
-GenericTrainerGruntM3:
-	generictrainer GRUNTM, 3, EVENT_BEAT_ROCKET_GRUNTM_3, GruntM3SeenText, GruntM3BeatenText
-
-	text "You're too strong."
-
-	para "Our plan could be"
-	line "ruined. I must"
-	cont "warn the others…"
 	done
 
 RadioTower1FWhitneyScript:
@@ -463,26 +452,6 @@ RadioTower1FYoungsterText:
 	para "I only know what"
 	line "she sounds like,"
 	cont "though."
-	done
-
-GruntM3SeenText:
-	text "We've finally"
-	line "taken over the"
-	cont "Radio Tower!"
-
-	para "Now everyone will"
-	line "get to experience"
-
-	para "the true terror of"
-	line "Team Rocket!"
-
-	para "We'll show you"
-	line "how scary we are!"
-	done
-
-GruntM3BeatenText:
-	text "Too strong! We"
-	line "must watch you…"
 	done
 
 RadioTower1FWhitney1Text:

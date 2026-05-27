@@ -538,18 +538,6 @@ INCLUDE "audio/music/sm/wildbattle.asm"
 SECTION "Song - swsh/gymleaderbattle", ROMX
 INCLUDE "audio/music/swsh/gymleaderbattle.asm"
 
-SECTION "Song - prism/wildbattle", ROMX
-INCLUDE "audio/music/prism/wildbattle.asm"
-
-SECTION "Song - prism/trainerbattle", ROMX
-INCLUDE "audio/music/prism/trainerbattle.asm"
-
-SECTION "Song - prism/gymleaderbattle", ROMX
-INCLUDE "audio/music/prism/gymleaderbattle.asm"
-
-SECTION "Song - prism/palettebattle", ROMX
-INCLUDE "audio/music/prism/palettebattle.asm"
-
 SECTION "Song - go/wildbattle", ROMX
 INCLUDE "audio/music/go/wildbattle.asm"
 
@@ -562,7 +550,13 @@ INCLUDE "audio/music/stadium/mewtwobattle.asm"
 SECTION "Song - m02/lugiassong", ROMX
 INCLUDE "audio/music/m02/lugiassong.asm"
 
-SECTION "Song - undertale/megalovania", ROMX
-INCLUDE "audio/music/undertale/megalovania.asm"
+SECTION "Song - rivalstheme", ROMX
+INCLUDE "audio/music/rivalstheme.asm"
+
+SECTION "Song - cave", ROMX
+INCLUDE "audio/music/cave.asm"
+
+SECTION "Song - lottery", ROMX
+INCLUDE "audio/music/lottery.asm"
 
 ENDSECTION

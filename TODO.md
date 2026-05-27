@@ -5,7 +5,7 @@
 * New player character overworld sprites and trainer sprites
 * Add content beyond Moonflower City
 * Add Blossom Academy
-* Add first bad guy team encounter "TEAM TBD"
+* Add first bad guy team encounter "TEAM INDIGO"
 * Write/arrange new music for:
     Titlescreen (DONE),
     Mom (DONE),
@@ -25,4 +25,3 @@
 * Fix wild mons not appearing (ROUTE 1 DONE)
 * Fix/cleanup all Anabel events
 * Fix Town map tilemap / tileset
-* Fix / add script to stop player after mom call in glittervine

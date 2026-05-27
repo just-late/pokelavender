@@ -161,9 +161,9 @@ PokemonPicPointers::
 	pics Cyndaquil
 	pics Quilava
 	pics TyphlosionPlain
-	pics Totodile
-	pics Croconaw
-	pics Feraligatr
+	pics Mudkip
+	pics Marshtomp
+	pics Swampert
 	pics Sentret
 	pics Furret
 	pics Hoothoot
@@ -226,8 +226,8 @@ PokemonPicPointers::
 	pics Swinub
 	pics Piloswine
 	pics CorsolaPlain
-	pics Remoraid
-	pics Octillery
+	pics Swablu
+	pics Altaria
 	pics Delibird
 	pics Mantine
 	pics Skarmory
@@ -238,7 +238,7 @@ PokemonPicPointers::
 	pics Donphan
 	pics Porygon2
 	pics Stantler
-	pics Smeargle
+	pics Sableye
 	pics Tyrogue
 	pics Hitmontop
 	pics Smoochum
@@ -295,6 +295,12 @@ PokemonPicPointers::
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
+	pics Oranguru
+	pics Trapinch
+	pics Vibrava
+	pics Flygon
+	pics Croagunk
+	pics Toxicroak
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

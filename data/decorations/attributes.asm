@@ -48,14 +48,14 @@ DecorationAttributes:
 	decoration DECO_DOLL,     SQUIRTLE,          SET_UP_DOLL,        EVENT_DECO_SQUIRTLE_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     TURTWIG,         SET_UP_DOLL,        EVENT_DECO_TURTWIG_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CYNDAQUIL,         SET_UP_DOLL,        EVENT_DECO_CYNDAQUIL_DOLL,          SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     TOTODILE,          SET_UP_DOLL,        EVENT_DECO_TOTODILE_DOLL,           SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     MUDKIP,          SET_UP_DOLL,        EVENT_DECO_MUDKIP_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     POLIWAG,           SET_UP_DOLL,        EVENT_DECO_POLIWAG_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     MAREEP,            SET_UP_DOLL,        EVENT_DECO_MAREEP_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     GOOMY,            SET_UP_DOLL,        EVENT_DECO_TOGEPI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     MAGIKARP,          SET_UP_DOLL,        EVENT_DECO_MAGIKARP_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     ODDISH,            SET_UP_DOLL,        EVENT_DECO_ODDISH_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     GENGAR,            SET_UP_DOLL,        EVENT_DECO_GENGAR_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     OCTILLERY,         SET_UP_DOLL,        EVENT_DECO_OCTILLERY_DOLL,          SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     ALTARIA,         SET_UP_DOLL,        EVENT_DECO_ALTARIA_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     DITTO,             SET_UP_DOLL,        EVENT_DECO_DITTO_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     VOLTORB,           SET_UP_DOLL,        EVENT_DECO_VOLTORB_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     ABRA,              SET_UP_DOLL,        EVENT_DECO_ABRA_DOLL,               SPRITE_MON_DOLL_1

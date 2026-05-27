@@ -7,10 +7,10 @@ ENDM
 SpriteHeaders:
 ; entries correspond to SPRITE_* constants
 	table_width SPRITEDATA_LENGTH, SpriteHeaders
-	overworld_sprite ChrisSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite ChrisBikeSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite ChrisSurfSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite KrisSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite ChrisSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite ChrisBikeSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite ChrisSurfSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite KrisSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite KrisBikeSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KrisSurfSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite MomSpriteGFX, WALKING_SPRITE, PAL_OW_RED
@@ -204,7 +204,7 @@ SpriteHeaders:
 	overworld_sprite KatySpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite AlolanExeggutorSpriteGFX, BIG_GYARADOS_SPRITE, PAL_OW_BROWN
 	overworld_sprite SoldierSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite CrysSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite CrysSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite CrysBikeSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite CrysSurfSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite ThortonSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
@@ -216,4 +216,7 @@ SpriteHeaders:
 	overworld_sprite DittoTiles2SpriteGFX, STANDING_SPRITE, PAL_OW_BLUE_DITTO
 	overworld_sprite TaurosOWSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite InnkeeperSpriteGFX, STANDING_SPRITE, PAL_OW_RED
+	overworld_sprite CrysRunSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite CorsolaOWSpriteGFX, WALKING_SPRITE, PAL_OW_CORSOLA
+	overworld_sprite NidokingOWSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	assert_table_length NUM_OVERWORLD_SPRITES

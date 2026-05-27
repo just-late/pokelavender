@@ -28,8 +28,6 @@ ENDM
 	special_bg_pal map,      SILVER_CAVE_ITEM_ROOMS,      PAL_SINGLE,    SilverCavePalette
 	special_bg_pal map,      DRAGON_SHRINE,               PAL_SINGLE,    DragonShrinePalette
 	special_bg_pal map,      ECRUTEAK_CITY,               PAL_TIMEOFDAY, MoonflowerEcruteakPalette
-	special_bg_pal map,      BLACKTHORN_GYM_1F,           PAL_SINGLE,    BlackthornGym1FPalette
-	special_bg_pal map,      BLACKTHORN_GYM_2F,           PAL_SINGLE,    BlackthornGym1FPalette
 	special_bg_pal map,      CINNABAR_LAB,                PAL_SINGLE,    CinnabarLabPalette  
 	special_bg_pal map,      MOONFLOWER_CITY,             PAL_TIMEOFDAY, MoonflowerEcruteakPalette
 	special_bg_pal map,      MURKY_SWAMP,                 PAL_SINGLE,    MurkySwampPalette
@@ -71,6 +69,7 @@ ENDM
 	special_bg_pal map,      OVERCAST_GROVE,			  PAL_TIMEOFDAY, OvercastBGPalette
 	special_bg_pal map,      BLOSSOM_CITY,				  PAL_TIMEOFDAY, BlossomCityPalette
 	special_bg_pal map,      GRANITE_VILLAGE,		      PAL_TIMEOFDAY, MountainPalette
+	special_bg_pal map,      CANYON_1F,		       		  PAL_TIMEOFDAY, BGCanyonPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
@@ -146,6 +145,9 @@ endr
 	RGB_MONOCHROME_DARK
 	RGB_MONOCHROME_BLACK
 endc
+
+BGCanyonPalette:
+INCLUDE "gfx/tilesets/bg_canyon.pal"
 
 BattleFactoryPalette:
 if !DEF(MONOCHROME)
@@ -1020,19 +1022,6 @@ endr
 	RGB_MONOCHROME_BLACK
 	MONOCHROME_RGB_FOUR_NIGHT
 	MONOCHROME_RGB_FOUR_NIGHT
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-BlackthornGym1FPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/BlackthornGym1F.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_DARK

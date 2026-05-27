@@ -81,21 +81,21 @@
 	db 4 percent ; encounter rate
 	wildmon 20, HORSEA
 	wildmon 25, TENTACOOL
-	wildmon 30, OCTILLERY
+	wildmon 30, ALTARIA
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
 	wildmon 20, HORSEA
 	wildmon 25, TENTACRUEL
-	wildmon 30, OCTILLERY
+	wildmon 30, ALTARIA
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent ; encounter rate
 	wildmon 25, HORSEA
 	wildmon 30, SEADRA
-	wildmon 30, OCTILLERY
+	wildmon 30, ALTARIA
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
@@ -186,7 +186,7 @@
 	db 3 percent ; encounter rate
 	wildmon 20, TENTACOOL
 	wildmon 20, MANTINE
-	wildmon 20, REMORAID
+	wildmon 20, SWABLU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_42
@@ -208,13 +208,6 @@
 	wildmon 25, POLIWAG
 	wildmon 30, POLIWAG
 	wildmon 30, POLIWHIRL
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_45
-	db 2 percent ; encounter rate
-	wildmon 20, MAGIKARP
-	wildmon 15, MAGIKARP
-	wildmon 5, MAGIKARP
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_47
@@ -256,7 +249,7 @@
 	db 6 percent ; encounter rate
 	wildmon 20, TENTACOOL
 	wildmon 20, MANTINE
-	wildmon 20, REMORAID
+	wildmon 20, SWABLU
 	end_water_wildmons
 
 	def_water_wildmons GOLDENROD_CITY
@@ -292,13 +285,6 @@
 	wildmon 25, MAGIKARP
 	wildmon 20, MAGIKARP
 	wildmon 25, GYARADOS
-	end_water_wildmons
-
-	def_water_wildmons BLACKTHORN_CITY
-	db 4 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE

@@ -293,7 +293,7 @@ KeyItemEffects:
 	dw TypeChart          ; TYPE_CHART
 	dw GBCSounds          ; GBC_SOUNDS
 	dw BlueCard           ; BLUE_CARD
-	dw SquirtBottle       ; SQUIRTBOTTLE
+	dw SquirtBottle       ; WAILMER_PAIL
 	dw IsntTheTimeMessage ; SILPHSCOPE2
 	dw IsntTheTimeMessage ; MYSTERY_EGG
 	dw IsntTheTimeMessage ; VEGETABLES
@@ -2290,7 +2290,7 @@ RestorePPEffect:
 
 .ppup2
 	ld a, [hl]
-	cp SKETCH
+	cp MUD_FLOOD
 	jr z, .CantUsePPUpOnSketch
 
 	ld bc, MON_PP - MON_MOVES

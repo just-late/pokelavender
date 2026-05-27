@@ -157,9 +157,9 @@ FramesPointers:
 	dw CyndaquilFrames
 	dw QuilavaFrames
 	dw TyphlosionPlainFrames
-	dw TotodileFrames
-	dw CroconawFrames
-	dw FeraligatrFrames
+	dw MudkipFrames
+	dw MarshtompFrames
+	dw SwampertFrames
 	dw SentretFrames
 	dw FurretFrames
 	dw HoothootFrames
@@ -222,8 +222,8 @@ FramesPointers:
 	dw SwinubFrames
 	dw PiloswineFrames
 	dw CorsolaPlainFrames
-	dw RemoraidFrames
-	dw OctilleryFrames
+	dw SwabluFrames
+	dw AltariaFrames
 	dw DelibirdFrames
 	dw MantineFrames
 	dw SkarmoryFrames
@@ -234,7 +234,7 @@ FramesPointers:
 	dw DonphanFrames
 	dw Porygon2Frames
 	dw StantlerFrames
-	dw SmeargleFrames
+	dw SableyeFrames
 	dw TyrogueFrames
 	dw HitmontopFrames
 	dw SmoochumFrames
@@ -291,6 +291,12 @@ FramesPointers:
 	dw FarigirafFrames
 	dw ClodsireFrames
 	dw AnnihilapeFrames
+	dw OranguruFrames
+	dw TrapinchFrames
+	dw VibravaFrames
+	dw FlygonFrames
+	dw CroagunkFrames
+	dw ToxicroakFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

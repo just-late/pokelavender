@@ -161,9 +161,9 @@ EvosAttacksPointers::
 	dw CyndaquilEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionPlainEvosAttacks
-	dw TotodileEvosAttacks
-	dw CroconawEvosAttacks
-	dw FeraligatrEvosAttacks
+	dw MudkipEvosAttacks
+	dw MarshtompEvosAttacks
+	dw SwampertEvosAttacks
 	dw SentretEvosAttacks
 	dw FurretEvosAttacks
 	dw HoothootEvosAttacks
@@ -226,8 +226,8 @@ EvosAttacksPointers::
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
 	dw CorsolaPlainEvosAttacks
-	dw RemoraidEvosAttacks
-	dw OctilleryEvosAttacks
+	dw SwabluEvosAttacks
+	dw AltariaEvosAttacks
 	dw DelibirdEvosAttacks
 	dw MantineEvosAttacks
 	dw SkarmoryEvosAttacks
@@ -238,7 +238,7 @@ EvosAttacksPointers::
 	dw DonphanEvosAttacks
 	dw Porygon2EvosAttacks
 	dw StantlerEvosAttacks
-	dw SmeargleEvosAttacks
+	dw SableyeEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
 	dw SmoochumEvosAttacks
@@ -295,6 +295,12 @@ EvosAttacksPointers::
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
+	dw OranguruEvosAttacks
+	dw TrapinchEvosAttacks
+	dw VibravaEvosAttacks
+	dw FlygonEvosAttacks
+	dw CroagunkEvosAttacks
+	dw ToxicroakEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

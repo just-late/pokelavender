@@ -161,9 +161,9 @@ MiniIconPointers:
 	mini_icon Cyndaquil
 	mini_icon Quilava
 	mini_icon Typhlosion
-	mini_icon Totodile
-	mini_icon Croconaw
-	mini_icon Feraligatr
+	mini_icon Mudkip
+	mini_icon Marshtomp
+	mini_icon Swampert
 	mini_icon Sentret
 	mini_icon Furret
 	mini_icon Hoothoot
@@ -226,8 +226,8 @@ MiniIconPointers:
 	mini_icon Swinub
 	mini_icon Piloswine
 	mini_icon Corsola
-	mini_icon Remoraid
-	mini_icon Octillery
+	mini_icon Swablu
+	mini_icon Altaria
 	mini_icon Delibird
 	mini_icon Mantine
 	mini_icon Skarmory
@@ -238,7 +238,7 @@ MiniIconPointers:
 	mini_icon Donphan
 	mini_icon Porygon2
 	mini_icon Stantler
-	mini_icon Smeargle
+	mini_icon Sableye
 	mini_icon Tyrogue
 	mini_icon Hitmontop
 	mini_icon Smoochum
@@ -295,6 +295,12 @@ MiniIconPointers:
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
+	mini_icon Oranguru
+	mini_icon Trapinch
+	mini_icon Vibrava
+	mini_icon Flygon
+	mini_icon Croagunk
+	mini_icon Croagunk
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

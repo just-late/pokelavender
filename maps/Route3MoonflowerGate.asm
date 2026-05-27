@@ -20,7 +20,7 @@ Route3MoonflowerGate_MapScriptHeader:
 Route3MoonflowerGateOfficerText:
 	text "Hi there!"
 	line "Did you visit"
-	cont "# INDUSTRIES?"
+	cont "COBB CORP.?"
 	done
 
 Route3MoonflowerGateCooltrainerFText:

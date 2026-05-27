@@ -179,9 +179,9 @@
 	const CYNDAQUIL  ; 9b
 	const QUILAVA    ; 9c
 	const TYPHLOSION ; 9d
-	const TOTODILE   ; 9e
-	const CROCONAW   ; 9f
-	const FERALIGATR ; a0
+	const MUDKIP   ; 9e
+	const MARSHTOMP   ; 9f
+	const SWAMPERT ; a0
 	const SENTRET    ; a1
 	const FURRET     ; a2
 	const HOOTHOOT   ; a3
@@ -244,8 +244,8 @@
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
 	const CORSOLA    ; de
-	const REMORAID   ; df
-	const OCTILLERY  ; e0
+	const SWABLU     ; df
+	const ALTARIA    ; e0
 	const DELIBIRD   ; e1
 	const MANTINE    ; e2
 	const SKARMORY   ; e3
@@ -256,7 +256,7 @@
 	const DONPHAN    ; e8
 	const PORYGON2   ; e9
 	const STANTLER   ; ea
-	const SMEARGLE   ; eb
+	const SABLEYE    ; eb
 	const TYROGUE    ; ec
 	const HITMONTOP  ; ed
 	const SMOOCHUM   ; ee
@@ -313,7 +313,13 @@
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
-DEF NUM_SPECIES EQU const_value - 1 ; 123
+	const ORANGURU   ; 124
+	const TRAPINCH   ; 125
+	const VIBRAVA    ; 126
+	const FLYGON     ; 127
+	const CROAGUNK   ; 128
+	const TOXICROAK  ; 129
+DEF NUM_SPECIES EQU const_value - 1 ; 124
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
 DEF CANCEL EQU -1

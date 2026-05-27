@@ -2425,8 +2425,8 @@ _AskItemMoveText::
 
 SECTION "Text_AreYouABoyOrAreYouAGirl", ROMX
 Text_AreYouABoyOrAreYouAGirl::
-	text "Which photo is on"
-	line "your TRAINER CARD?"
+	text "Choose your"
+	line "character."
 	done
 
 SECTION "Text_SoThisIsYou", ROMX
@@ -3227,6 +3227,17 @@ _InitialOptionsText::
 	line "you want to play"
 	cont "#MON LAVENDER."
 	prompt
+
+SECTION "_BeforeYouBeginText", ROMX
+_BeforeYouBeginText::
+	text "This is a free fan"
+	line "game. If you paid"
+	cont "money for this,"
+
+	para "you were scammed."
+	line "Get your money"
+	cont "back immediately."
+	done
 
 SECTION "_ElmText1", ROMX
 _ElmText1::
@@ -4082,6 +4093,22 @@ SECTION "_BuenaComeAgainText", ROMX
 _BuenaComeAgainText::
 	text "Oh. Please come"
 	line "back again!"
+	done
+
+SECTION "_BlossomSouvenirWelcomeText", ROMX
+_BlossomSouvenirWelcomeText::
+	text "Welcome to the"
+	line "BLOSSOM SOUVENIR"
+	cont "SHOP!"
+
+	para "How may I"
+	line "help you?"
+	done
+
+SECTION "_BlossomSouvenirComeAgainText", ROMX
+_BlossomSouvenirComeAgainText::
+	text "Okay… please come"
+	line "again!"
 	done
 
 SECTION "Text_ExcuseMeYoureNotReady", ROMX

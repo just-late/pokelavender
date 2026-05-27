@@ -6,6 +6,7 @@ AlphabeticalPokedexOrder:
 	dp AERODACTYL
 	dp AIPOM
 	dp ALAKAZAM
+	dp ALTARIA
 	dp AMBIPOM
 	dp AMPHAROS
 	dp ANNIHILAPE
@@ -36,8 +37,9 @@ AlphabeticalPokedexOrder:
 	dp CLODSIRE
 	dp CLOYSTER
 	dp CORSOLA
+	dp CROAGUNK
 	dp CROBAT
-	dp CROCONAW
+	dp MARSHTOMP
 	dp CUBONE
 	dp CURSOLA
 	dp CYNDAQUIL
@@ -68,9 +70,10 @@ AlphabeticalPokedexOrder:
 	dp FARIGIRAF
 	dp FARFETCH_D
 	dp FEAROW
-	dp FERALIGATR
+	dp SWAMPERT
 	dp FLAAFFY
 	dp FLAREON
+	dp FLYGON
 	dp FORRETRESS
 	dp FURRET
 	dp GASTLY
@@ -160,6 +163,7 @@ AlphabeticalPokedexOrder:
 	dp MOLTRES
 	dp MR__MIME
 	dp MR__RIME
+	dp MUDKIP
 	dp MUK
 	dp MUNCHLAX
 	dp MURKROW
@@ -172,11 +176,11 @@ AlphabeticalPokedexOrder:
 	dp NIDORINO
 	dp NINETALES
 	dp NOCTOWL
-	dp OCTILLERY
 	dp ODDISH
 	dp OMANYTE
 	dp OMASTAR
 	dp ONIX
+	dp ORANGURU
 	dp OVERQWIL
 	dp PARAS
 	dp PARASECT
@@ -210,10 +214,10 @@ AlphabeticalPokedexOrder:
 	dp RAPIDASH
 	dp RATICATE
 	dp RATTATA
-	dp REMORAID
 	dp RHYDON
 	dp RHYHORN
 	dp RHYPERIOR
+	dp SABLEYE
 	dp SANDSHREW
 	dp SANDSLASH
 	dp SCIZOR
@@ -231,7 +235,6 @@ AlphabeticalPokedexOrder:
 	dp SLOWKING
 	dp SLOWPOKE
 	dp SLUGMA
-	dp SMEARGLE
 	dp SMOOCHUM
 	dp SNEASEL
 	dp SNEASLER
@@ -248,6 +251,7 @@ AlphabeticalPokedexOrder:
 	dp SUICUNE
 	dp SUNFLORA
 	dp SUNKERN
+	dp SWABLU
 	dp SWINUB
 	dp SYLVEON
 	dp TANGELA
@@ -259,7 +263,8 @@ AlphabeticalPokedexOrder:
 	dp TOGEKISS
 	dp TOGETIC
 	dp TORTERRA
-	dp TOTODILE
+	dp TOXICROAK
+	dp TRAPINCH
 	dp TURTWIG
 	dp TYPHLOSION
 	dp TYRANITAR
@@ -272,6 +277,7 @@ AlphabeticalPokedexOrder:
 	dp VENOMOTH
 	dp VENONAT
 	dp VENUSAUR
+	dp VIBRAVA
 	dp VICTREEBEL
 	dp VILEPLUME
 	dp VOLTORB

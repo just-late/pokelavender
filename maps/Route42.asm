@@ -104,13 +104,13 @@ Route42LyraScript:
 	winlosstext Route42LyraWinText, Route42LyraLossText
 	setlasttalked ROUTE42_LYRA
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .Totodile
+	iftruefwd .Mudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .Turtwig
 	loadtrainer LYRA1, LYRA1_7
 	sjumpfwd .AfterBattle
 
-.Totodile:
+.Mudkip:
 	loadtrainer LYRA1, LYRA1_8
 	sjumpfwd .AfterBattle
 

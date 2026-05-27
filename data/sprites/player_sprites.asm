@@ -21,6 +21,6 @@ CrysStateSprites:
 	db PLAYER_BIKE,      SPRITE_CRYS_BIKE
 	db PLAYER_SURF,      SPRITE_CRYS_SURF
 	db PLAYER_SURF_PIKA,   SPRITE_SURFING_PIKACHU
-	db PLAYER_RUN,       SPRITE_CRYS ; TODO: Make more running shoes sprites
+	db PLAYER_RUN,       SPRITE_CRYS_RUN
 	db PLAYER_TAUROS, SPRITE_TAUROS_OW	
 	db -1 ; end

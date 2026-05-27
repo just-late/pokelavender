@@ -157,9 +157,9 @@ AnimationExtraPointers:
 	dw CyndaquilAnimationExtra
 	dw QuilavaAnimationExtra
 	dw TyphlosionPlainAnimationExtra
-	dw TotodileAnimationExtra
-	dw CroconawAnimationExtra
-	dw FeraligatrAnimationExtra
+	dw MudkipAnimationExtra
+	dw MarshtompAnimationExtra
+	dw SwampertAnimationExtra
 	dw SentretAnimationExtra
 	dw FurretAnimationExtra
 	dw HoothootAnimationExtra
@@ -222,8 +222,8 @@ AnimationExtraPointers:
 	dw SwinubAnimationExtra
 	dw PiloswineAnimationExtra
 	dw CorsolaPlainAnimationExtra
-	dw RemoraidAnimationExtra
-	dw OctilleryAnimationExtra
+	dw SwabluAnimationExtra
+	dw AltariaAnimationExtra
 	dw DelibirdAnimationExtra
 	dw MantineAnimationExtra
 	dw SkarmoryAnimationExtra
@@ -234,7 +234,7 @@ AnimationExtraPointers:
 	dw DonphanAnimationExtra
 	dw Porygon2AnimationExtra
 	dw StantlerAnimationExtra
-	dw SmeargleAnimationExtra
+	dw SableyeAnimationExtra
 	dw TyrogueAnimationExtra
 	dw HitmontopAnimationExtra
 	dw SmoochumAnimationExtra
@@ -291,6 +291,12 @@ AnimationExtraPointers:
 	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
+	dw OranguruAnimationExtra
+	dw TrapinchAnimationExtra
+	dw VibravaAnimationExtra
+	dw FlygonAnimationExtra
+	dw CroagunkAnimationExtra
+	dw ToxicroakAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

@@ -189,9 +189,7 @@ Music:
 	dba Music_VerdanturfTown
 	dba Music_MarineTubeB2W2
 	dba Music_LegendaryBattleXY
-	dba Music_WildBattlePrism
-	dba Music_TrainerBattlePrism
-	dba Music_GymLeaderBattlePrism
-	dba Music_PaletteBattlePrism
-	dba Music_Megalovania
+	dba Music_RivalsTheme
+	dba Music_Cave
+	dba Music_EggLottery
 	assert_table_length NUM_MUSIC_SONGS

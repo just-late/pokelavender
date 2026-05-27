@@ -21,7 +21,7 @@ GraniteVillage_MapScriptHeader:
 	bg_event 13, 20, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
 	bg_event 12, 21, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
 	bg_event 13, 21, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
-	bg_event 10, 16, BGEVENT_JUMPTEXT, GraniteVillageSignText
+	bg_event  8, 17, BGEVENT_JUMPTEXT, GraniteVillageSignText
 	bg_event 22, 17, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
 	bg_event 23, 17, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
 

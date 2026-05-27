@@ -157,9 +157,9 @@ FootprintPointers::
 	dw CyndaquilFootprint
 	dw QuilavaFootprint
 	dw TyphlosionFootprint
-	dw TotodileFootprint
-	dw CroconawFootprint
-	dw FeraligatrFootprint
+	dw MudkipFootprint
+	dw MarshtompFootprint
+	dw SwampertFootprint
 	dw SentretFootprint
 	dw FurretFootprint
 	dw HoothootFootprint
@@ -222,8 +222,8 @@ FootprintPointers::
 	dw SwinubFootprint
 	dw PiloswineFootprint
 	dw CorsolaFootprint
-	dw RemoraidFootprint
-	dw OctilleryFootprint
+	dw SwabluFootprint
+	dw AltariaFootprint
 	dw DelibirdFootprint
 	dw MantineFootprint
 	dw SkarmoryFootprint
@@ -234,7 +234,7 @@ FootprintPointers::
 	dw DonphanFootprint
 	dw Porygon2Footprint
 	dw StantlerFootprint
-	dw SmeargleFootprint
+	dw SableyeFootprint
 	dw TyrogueFootprint
 	dw HitmontopFootprint
 	dw SmoochumFootprint
@@ -291,6 +291,12 @@ FootprintPointers::
 	dw FarigirafFootprint
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
+	dw OranguruFootprint
+	dw TrapinchFootprint
+	dw VibravaFootprint
+	dw FlygonFootprint
+	dw CroagunkFootprint
+	dw ToxicroakFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

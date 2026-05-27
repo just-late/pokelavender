@@ -15,12 +15,12 @@ FishGroups:
 	fishgroup 55 percent, (55 + 5) percent, .Pond_Old,             .Pond_Good,             .Pond_Super
 	fishgroup 60 percent, (60 + 3) percent, .Dratini_Old,          .Dratini_Good,          .Dratini_Super
 	fishgroup 60 percent, (65 + 5) percent, .Qwilfish_Swarm_Old,   .Qwilfish_Swarm_Good,   .Qwilfish_Swarm_Super
-	fishgroup 60 percent, (60 + 3) percent, .Remoraid_Swarm_Old,   .Remoraid_Swarm_Good,   .Remoraid_Swarm_Super
+	fishgroup 60 percent, (60 + 3) percent, .Swablu_Swarm_Old,   .Swablu_Swarm_Good,   .Swablu_Swarm_Super
 	fishgroup 60 percent, (60 + 3) percent, .Gyarados_Old,         .Gyarados_Good,         .Gyarados_Super
 	fishgroup 55 percent, (55 + 1) percent, .Dratini_2_Old,        .Dratini_2_Good,        .Dratini_2_Super
 	fishgroup 60 percent, (60 + 3) percent, .WhirlIslands_Old,     .WhirlIslands_Good,     .WhirlIslands_Super
 	fishgroup 60 percent, (60 + 3) percent, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
-	fishgroup 60 percent, (60 + 3) percent, .Remoraid_Old,         .Remoraid_Good,         .Remoraid_Super
+	fishgroup 60 percent, (60 + 3) percent, .Swablu_Old,         .Swablu_Good,         .Swablu_Super
 	fishgroup 65 percent, (65 + 5) percent, .Hisuian_Qwilfish_Old, .Hisuian_Qwilfish_Good, .Hisuian_Qwilfish_Super
 	assert_table_length NUM_FISHGROUPS
 
@@ -137,20 +137,20 @@ ENDM
 	fishentry  90 percent + 1, QWILFISH,   40
 	fishentry 100 percent,     QWILFISH,   40
 
-.Remoraid_Swarm_Old:
+.Swablu_Swarm_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     REMORAID,   10
-.Remoraid_Swarm_Good:
+	fishentry 100 percent,     MAGIKARP,   10
+.Swablu_Swarm_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     REMORAID,   20
-	fishentry  90 percent + 1, REMORAID,   20
-	fishentry 100 percent,     REMORAID,   20
-.Remoraid_Swarm_Super:
-	fishentry  40 percent,     REMORAID,   40
-	fishentry  70 percent,     REMORAID,   40
-	fishentry  90 percent + 1, REMORAID,   40
-	fishentry 100 percent,     REMORAID,   40
+	fishentry  70 percent,     MAGIKARP,   20
+	fishentry  90 percent + 1, MAGIKARP,   20
+	fishentry 100 percent,     MAGIKARP,   20
+.Swablu_Swarm_Super:
+	fishentry  40 percent,     MAGIKARP,   40
+	fishentry  70 percent,     MAGIKARP,   40
+	fishentry  90 percent + 1, MAGIKARP,   40
+	fishentry 100 percent,     MAGIKARP,   40
 
 .Gyarados_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
@@ -212,20 +212,20 @@ ENDM
 	fishentry  90 percent + 1, MAGIKARP,   40
 	fishentry 100 percent,     QWILFISH,   40
 
-.Remoraid_Old:
+.Swablu_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
 	fishentry 100 percent,     POLIWAG,    10
-.Remoraid_Good:
+.Swablu_Good:
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     POLIWAG,    20
 	fishentry  90 percent + 1, POLIWAG,    20
 	fishentry 100 percent,     POLIWAG,    20
-.Remoraid_Super:
+.Swablu_Super:
 	fishentry  40 percent,     POLIWAG,    40
 	fishentry  70 percent,     POLIWAG,    40
 	fishentry  90 percent + 1, MAGIKARP,   40
-	fishentry 100 percent,     REMORAID,   40
+	fishentry 100 percent,     MAGIKARP,   40
 
 .Hisuian_Qwilfish_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10

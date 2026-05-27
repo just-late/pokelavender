@@ -9,12 +9,13 @@ Route1_MapScriptHeader:
 
 	def_bg_events
 	bg_event 15, 21, BGEVENT_JUMPTEXT, Route1SignText
+	soil_event 12, 3
+	soil_event 13, 3
 
 	db 4 ; object events
 	person_event SPRITE_LASS, 22, 12, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC1Text, -1
 	person_event SPRITE_SCHOOLBOY, 32, 12, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC2Text, -1
-	cuttree_event 13, 25, EVENT_ROUTE_1_CUT_TREE
-	fruittree_event 13,  7, FRUITTREE_ROUTE_1, PECHA_BERRY, PAL_NPC_PINK
+	cuttree_event 13, 25, EVENT_ROUTE_1_CUT_TREE 
 
 Route1NPC1Text:
 	text "See those ledges?"

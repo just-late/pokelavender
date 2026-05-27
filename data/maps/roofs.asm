@@ -7,7 +7,6 @@ MapGroupRoofs:
 	db ROOF_AZALEA   ; 2 (Mahogany Town)
 	db -1            ; 3
 	db ROOF_VIOLET   ; 4 (Ecruteak City)
-	db ROOF_AZALEA   ; 5 (Blackthorn City)
 	db -1            ; 6
 	db ROOF_AZALEA   ; 7 (Granite Village)
 	db ROOF_AZALEA   ; 8 (Azalea Town)
@@ -39,6 +38,6 @@ MapGroupRoofs:
 	db ROOF_AZALEA   ; 34 (Sinjoh Ruins)
 	db -1            ; 35
 	db ROOF_VIOLET   ; 36 (Rugged Road)
-	db ROOF_STATUE   ; 37 (Ecruteak Shrine)
+	db ROOF_AZALEA   ; 37 (Canyon)
 	db ROOF_OLIVINE  ; 38 (Marigold Port)
 	assert_table_length NUM_MAP_GROUPS + 1

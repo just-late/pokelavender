@@ -158,9 +158,9 @@ PokedexDataPointerTable:
 	dba CyndaquilPokedexEntry
 	dba QuilavaPokedexEntry
 	dba TyphlosionPlainPokedexEntry
-	dba TotodilePokedexEntry
-	dba CroconawPokedexEntry
-	dba FeraligatrPokedexEntry
+	dba MudkipPokedexEntry
+	dba MarshtompPokedexEntry
+	dba SwampertPokedexEntry
 	dba SentretPokedexEntry
 	dba FurretPokedexEntry
 	dba HoothootPokedexEntry
@@ -223,8 +223,8 @@ PokedexDataPointerTable:
 	dba SwinubPokedexEntry
 	dba PiloswinePokedexEntry
 	dba CorsolaPlainPokedexEntry
-	dba RemoraidPokedexEntry
-	dba OctilleryPokedexEntry
+	dba SwabluPokedexEntry
+	dba AltariaPokedexEntry
 	dba DelibirdPokedexEntry
 	dba MantinePokedexEntry
 	dba SkarmoryPokedexEntry
@@ -235,7 +235,7 @@ PokedexDataPointerTable:
 	dba DonphanPokedexEntry
 	dba Porygon2PokedexEntry
 	dba StantlerPokedexEntry
-	dba SmearglePokedexEntry
+	dba SableyePokedexEntry
 	dba TyroguePokedexEntry
 	dba HitmontopPokedexEntry
 	dba SmoochumPokedexEntry
@@ -292,6 +292,12 @@ PokedexDataPointerTable:
 	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
+	dba OranguruPokedexEntry
+	dba TrapinchPokedexEntry
+	dba VibravaPokedexEntry
+	dba FlygonPokedexEntry
+	dba CroagunkPokedexEntry
+	dba ToxicroakPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

@@ -38,7 +38,7 @@ VictoryRoadRivalLeft:
 	showtext VictoryRoadRivalBeforeText
 	setevent EVENT_RIVAL_VICTORY_ROAD
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .GotTotodile
+	iftruefwd .GotMudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .GotTurtwig
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
@@ -49,7 +49,7 @@ VictoryRoadRivalLeft:
 	reloadmapafterbattle
 	sjumpfwd .AfterBattle
 
-.GotTotodile:
+.GotMudkip:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD2F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_10

@@ -1,6 +1,6 @@
 PlayersHouse1F_MapScriptHeader:
 	def_scene_scripts
-	scene_script MomAutoWalk0
+	scene_script MomAutoWalk
 
 	def_callbacks
 
@@ -27,7 +27,7 @@ PlayersHouse1F_MapScriptHeader:
 	object_const_def
 	const PLAYERSHOUSE1F_MOM1
 
-MomAutoWalk0:
+MomAutoWalk:
 	sdefer MeetMomScript
 	end
 
@@ -84,8 +84,8 @@ PlayersHouse1FFridgeText:
 	text "Let's see what's"
 	line "in the fridge…"
 
-	para "Fresh Water and"
-	line "tasty Lemonade!"
+	para "FRESH WATER and"
+	line "tasty LEMONADE!"
 	done
 
 PlayersHouse1FSinkText:
@@ -95,10 +95,9 @@ PlayersHouse1FSinkText:
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "MOM's specialty!"
 
-	para "Cinnabar Volcano"
-	line "Burger!"
+	para "Fried ice cream!"
 	done
 
 PlayersHouse1FTVScript:
@@ -153,24 +152,20 @@ MomScript:
 
 MomIntroText:
 	text "Oh, <PLAYER>!"
-	line "You weren't awake?"
 
-	para "Today is the day"
-	line "the ELDER is"
-	cont "giving you your"
-	cont "#MON!"
+	para "The ELDER just"
+	line "came by asking"
+	cont "for you!"
 
-	para "Your friend ANABEL"
-	line "came by and said"
-	cont "she was almost"
-	cont "ready to go."
+	para "He said you"
+	line "should meet him"
+	cont "in the COMMUNITY"
+	cont "CENTER."
 
-	para "And <PLAYER>?"
-
-	para "Make sure to say"
-	line "thank you to the"
-	cont "ELDER for your"
-	cont "#MON!"
+	para "That's in town."
+	line "You already knew"
+	cont "that, though,"
+	cont "right?"
 	done
 
 MomDSTText:

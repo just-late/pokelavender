@@ -89,7 +89,7 @@ PlateauRivalBattleTrigger2:
 	showtext PlateauRivalText1
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .RivalTotodile
+	iftruefwd .RivalMudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .RivalTurtwig
 	; Cyndaquil
@@ -101,7 +101,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .RivalPostBattle
 
-.RivalTotodile:
+.RivalMudkip:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 4
@@ -152,7 +152,7 @@ PlateauRivalBattleTrigger2:
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_LYRA
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .LyraTotodile
+	iftruefwd .LyraMudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .LyraTurtwig
 	; Cyndaquil
@@ -164,7 +164,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .LyraPostBattle
 
-.LyraTotodile:
+.LyraMudkip:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 2

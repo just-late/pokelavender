@@ -7,16 +7,16 @@ ENDM
 Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark  28, 108, GemrootTownName
-	landmark  44, 108, Route1Name
-	landmark  44,  92, GlittervineTownName
-	landmark  56,  92, Route2Name
-	landmark  60, 100, MoonflowerCityName
-	landmark  68, 100, Route3Name
-	landmark  70,  98, OvercastGroveName
-	landmark  68,  92, MarigoldCaveName
-	landmark  68, 108, MarigoldPortName
-	landmark 100, 124, BlossomCityName
+	landmark  76,  92, GemrootTownName
+	landmark  84,  88, Route1Name
+	landmark  84,  76, GlittervineTownName
+	landmark  92,  76, Route2Name
+	landmark 100,  76, MoonflowerCityName
+	landmark 100,  92, Route3Name
+	landmark 104,  91, OvercastGroveName
+	landmark 108, 100, MarigoldCaveName
+	landmark 108, 116, MarigoldPortName
+	landmark  52, 116, BlossomCityName
 	landmark 124,  68, MountainPassName
 	landmark 116,  52, GraniteVillageName
 	assert_table_length KANTO_LANDMARK
@@ -56,11 +56,8 @@ Landmarks:
 	landmark 108,  28, LakeOfRageName
 	landmark 120,  44, Route44Name
 	landmark 128,  40, IcePathName
-	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
-	landmark 132,  64, Route45Name
 	landmark 116,  68, DarkCaveName
-	landmark 124,  88, Route46Name
 	landmark 144,  60, SilverCaveName
 	landmark 102, 124, FastShipName
 	landmark 120,  28, SinjohRuinsName
@@ -156,13 +153,12 @@ GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
 MoonflowerCityName:    rawchar "MOONFLOWER¯CITY@"
 MarigoldCaveName:	   rawchar "MARIGOLD¯CAVE@"
 MarigoldPortName:      rawchar "MARIGOLD¯PORT@"
-BlossomCityName:	   rawchar "BLOSSOM¯CITY"
-GraniteVillageName:	   rawchar "GRANITE¯VILLAGE"
+BlossomCityName:	   rawchar "BLOSSOM¯CITY@"
+GraniteVillageName:	   rawchar "GRANITE¯VILLAGE@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 OlivineCityName:       rawchar "Olivine¯City@"
 CianwoodCityName:      rawchar "Cianwood¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
-BlackthornCityName:    rawchar "Blackthorn¯City@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 SilverCaveName:        rawchar "Silver Cave@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
@@ -243,8 +239,6 @@ Route41Name:           rawchar "Route 41@"
 Route42Name:           rawchar "Route 42@"
 Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"
-Route45Name:           rawchar "Route 45@"
-Route46Name:           rawchar "Route 46@"
 Route47Name:           rawchar "Route 47@"
 Route48Name:           rawchar "Route 48@"
 DarkCaveName:          rawchar "Dark Cave@"

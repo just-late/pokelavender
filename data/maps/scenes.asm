@@ -63,7 +63,6 @@ MapScenes::
 	scene_var ROUTE_10_NORTH,                         wRoute10NorthSceneID
 	scene_var ROUTE_16_17_GATE,                       wAlways0SceneID
 	scene_var ROUTE_18_GATE,                          wAlways0SceneID
-	scene_var ROUTE_18_WEST,                          wAlways0SceneID
 	scene_var ROUTE_22_PAST,                          wAlways0SceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
 	scene_var ROUTE_32,                               wRoute32SceneID
@@ -85,18 +84,15 @@ MapScenes::
 	scene_var RUINS_OF_ALPH_OMANYTE_CHAMBER,          wRuinsOfAlphOmanyteChamberSceneID
 	scene_var RUINS_OF_ALPH_OUTSIDE,                  wRuinsOfAlphOutsideSceneID
 	scene_var RUINS_OF_ALPH_RESEARCH_CENTER,          wRuinsOfAlphResearchCenterSceneID
-	scene_var SAFFRON_TRAIN_STATION,                  wAlways0SceneID
 	scene_var SEAGALLOP_FERRY_NAVEL_GATE,             wSeagallopFerryNavelGateSceneID
 	scene_var SEAGALLOP_FERRY_SHAMOUTI_GATE,          wSeagallopFerryShamoutiGateSceneID
 	scene_var SEAGALLOP_FERRY_VERMILION_GATE,         wSeagallopFerryVermilionGateSceneID
 	scene_var SHAMOUTI_HOTEL_RESTAURANT,              wShamoutiHotelRestaurantSceneID
 	scene_var SNOWTOP_MOUNTAIN_OUTSIDE,               wSnowtopMountainOutsideSceneID
 	scene_var SPROUT_TOWER_3F,                        wSproutTower3FSceneID
-	scene_var TEAM_ROCKET_BASE_B1F,                   wAlways0SceneID
 	scene_var TEAM_ROCKET_BASE_B2F,                   wTeamRocketBaseB2FSceneID
 	scene_var TEAM_ROCKET_BASE_B3F,                   wTeamRocketBaseB3FSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
-	scene_var TRAINER_HOUSE_B1F,                      wAlways0SceneID
 	scene_var UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, wUndergroundPathSwitchRoomEntrancesSceneID
 	scene_var VERMILION_CITY,                         wVermilionCitySceneID
 	scene_var VERMILION_PORT,                         wVermilionPortSceneID
@@ -107,5 +103,6 @@ MapScenes::
 	scene_var YELLOW_FOREST,                          wYellowForestSceneID
 	scene_var MARIGOLD_PORT,						  wMarigoldPortSceneID
 	scene_var MARIGOLD_GYM,							  wMarigoldGymSceneID
-	scene_var DREAM_WORLD,							  wAlways0SceneID
+	scene_var MARIGOLD_CAVE_1F,						  wMarigoldCave1FSceneID
+	scene_var CANYON_DEPTHS,					      wCanyonDepthsSceneID
 	db -1

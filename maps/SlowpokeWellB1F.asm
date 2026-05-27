@@ -14,8 +14,6 @@ SlowpokeWellB1F_MapScriptHeader:
 	def_object_events
 	object_event  5,  2, SPRITE_PROTON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerProton2, EVENT_SLOWPOKE_WELL_ROCKETS
 	object_event 15,  7, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM29, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event  5,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerGruntM2, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event 10,  4, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGruntF1, EVENT_SLOWPOKE_WELL_ROCKETS
 	object_event  0, 17, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, end, NULL, EVENT_SLOWPOKE_WELL_KURT
 	object_event  7,  4, SPRITE_SLOWPOKETAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, SlowpokeWellB1FSlowpokeWithMailScript, EVENT_SLOWPOKE_WELL_SLOWPOKES
 	object_event  6,  2, SPRITE_SLOWPOKETAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, SlowpokeWellB1FTaillessSlowpokeScript, EVENT_SLOWPOKE_WELL_SLOWPOKES
@@ -82,27 +80,6 @@ Proton2Script:
 	special HealParty
 	pause 15
 	end
-
-GenericTrainerGruntM2:
-	generictrainer GRUNTM, 2, EVENT_BEAT_ROCKET_GRUNTM_2, GruntM2SeenText, GruntM2BeatenText
-
-	text "We need the money,"
-	line "but selling Slow-"
-	cont "pokeTails?"
-
-	para "It's tough being a"
-	line "Rocket Grunt!"
-	done
-
-GenericTrainerGruntF1:
-	generictrainer GRUNTF, 1, EVENT_BEAT_ROCKET_GRUNTF_1, GruntF1SeenText, GruntF1BeatenText
-
-	text "SlowpokeTails"
-	line "grow back fast!"
-
-	para "What's wrong with"
-	line "selling them?"
-	done
 
 SlowpokeWellB1FSlowpokeWithMailScript:
 	faceplayer
@@ -201,32 +178,7 @@ TrainerProton2WhenTalkText:
 	line "fun watching us"
 	cont "stir up trouble!"
 	done
-
-GruntM2SeenText:
-	text "Quit taking Slow-"
-	line "pokeTails?"
-
-	para "If we obeyed you,"
-	line "Team Rocket's rep"
-	cont "would be ruined!"
-	done
-
-GruntM2BeatenText:
-	text "Just…"
-	line "Too strong…"
-	done
-
-GruntF1SeenText:
-	text "Stop taking Tails?"
-
-	para "Yeah, just try to"
-	line "defeat all of us!"
-	done
-
-GruntF1BeatenText:
-	text "You rotten brat!"
-	done
-
+	
 SlowpokeWellB1FSlowpokeWithMailText:
 	text "A Slowpoke with"
 	line "its tail cut off…"

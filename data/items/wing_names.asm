@@ -1,9 +1,9 @@
 WingNames::
 	list_start WingNames
-	li "Health Wing"
-	li "Muscle Wing"
-	li "Resist Wing"
-	li "Swift Wing"
-	li "Genius Wing"
-	li "Clever Wing"
+	li "HEALTH WING"
+	li "MUSCLE WING"
+	li "RESIST WING"
+	li "SWFIT WING"
+	li "GENIUS WING"
+	li "CLEVER WING"
 	assert_list_length NUM_WINGS

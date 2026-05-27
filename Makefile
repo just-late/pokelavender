@@ -25,7 +25,7 @@ RGBASM_FLAGS     = -E -Q8 -P includes.asm -Weverything -Wnumeric-string=2 -Wtrun
 RGBASM_VC_FLAGS  = $(RGBASM_FLAGS) -DVIRTUAL_CONSOLE
 RGBLINK_FLAGS    = -M -n $(ROM_NAME).sym    -m $(ROM_NAME).map    -p $(FILLER)
 RGBLINK_VC_FLAGS = -M -n $(ROM_NAME)_vc.sym -m $(ROM_NAME)_vc.map -p $(FILLER)
-RGBFIX_FLAGS     = -csjv -t $(TITLE) -i $(MCODE) -n $(ROMVERSION) -p $(FILLER) -k 01 -l 0x33 -m 0x10 -r 3
+RGBFIX_FLAGS     = -csjv -t $(TITLE) -i $(MCODE) -n $(ROMVERSION) -p $(FILLER) -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3
 
 ifeq ($(filter faithful,$(MAKECMDGOALS)),faithful)
 MODIFIERS := $(MODIFIERS)-faithful
@@ -110,7 +110,7 @@ clean: tidy
 	find gfx maps data/tilesets -name '*.lz' -delete
 	find gfx \( -name '*.[12]bpp' -o -name '*.2bpp.vram[012]' -o -name '*.2bpp.vram[012]p' \) -delete
 	find gfx/pokemon -mindepth 1 \( -name 'bitmask.asm' -o -name 'frames.asm' \
-		-o -name 'front.animated.tilemap' -o -name 'front.dimensions' \) -delete
+		-o -name 'front.animated.tilemap' -o -name 'front.dimensions' -o -name 'front.gbcpal' \) -delete
 	find data/tilesets -name '*_collision.bin' -delete
 	find -name '*.sav' -delete
 	$(MAKE) clean -C tools/

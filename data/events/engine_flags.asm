@@ -106,7 +106,6 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_MAHOGANY
 	engine_flag wVisitedSpawns, SPAWN_YELLOW_FOREST
 	engine_flag wVisitedSpawns, SPAWN_LAKE_OF_RAGE
-	engine_flag wVisitedSpawns, SPAWN_BLACKTHORN
 	engine_flag wVisitedSpawns, SPAWN_MT_SILVER
 	engine_flag wVisitedSpawns, SPAWN_SHAMOUTI
 	engine_flag wVisitedSpawns, SPAWN_VALENCIA
@@ -286,4 +285,4 @@ EngineFlags:
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_CELEBI_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_SUDOWOODO_F
 
-	assert_table_length NUM_ENGINE_FLAGS
+	assert_table_length NUM_ENGINE_FLAGS - 1

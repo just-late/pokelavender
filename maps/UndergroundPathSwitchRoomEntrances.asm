@@ -37,7 +37,6 @@ UndergroundPathSwitchRoomEntrances_MapScriptHeader:
 	object_event 17,  2, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM13, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 11,  2, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM11, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event  3,  2, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM25, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
-	object_event 19, 12, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGruntF3, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event  3, 25, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, UndergroundPathSwitchRoomEntrances_TeacherText, -1
 	object_event  8, 24, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, UndergroundPathSwitchRoomEntrances_SuperNerd1Text, -1
 	object_event 19, 25, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, UndergroundPathSwitchRoomEntrances_SuperNerd2Text, -1
@@ -181,7 +180,7 @@ UndergroundRivalBattleScript:
 	showtext UndergroundRivalBeforeText
 	setevent EVENT_RIVAL_UNDERGROUND_PATH
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .Totodile
+	iftruefwd .Mudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .Turtwig
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
@@ -192,7 +191,7 @@ UndergroundRivalBattleScript:
 	reloadmapafterbattle
 	sjumpfwd .FinishRivalBattle
 
-.Totodile:
+.Mudkip:
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
 	setlasttalked UNDERGROUNDPATHSWITCHROOMENTRANCES_RIVAL
 	loadtrainer RIVAL1, RIVAL1_10
@@ -265,14 +264,6 @@ GenericTrainerGruntM13:
 	text "You must have ice"
 	line "in your veins to"
 	cont "dis Team Rocket."
-	done
-
-GenericTrainerGruntF3:
-	generictrainer GRUNTF, 3, EVENT_BEAT_ROCKET_GRUNTF_3, GruntF3SeenText, GruntF3BeatenText
-
-	text "Go wherever you'd"
-	line "like! Get lost!"
-	cont "See if I care!"
 	done
 
 Switch1Script:
@@ -875,22 +866,6 @@ GruntM13BeatenText:
 SwitchRoomText_Switch1:
 	text "It's labeled"
 	line "Switch 1."
-	done
-
-GruntF3SeenText:
-	text "Are you lost? No,"
-	line "you can't be."
-
-	para "You don't have"
-	line "that scared look."
-
-	para "I'll give you"
-	line "something to be"
-	cont "scared about!"
-	done
-
-GruntF3BeatenText:
-	text "How could you?"
 	done
 
 SwitchRoomText_OffTurnOn:

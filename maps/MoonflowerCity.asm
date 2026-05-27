@@ -12,7 +12,7 @@ MoonflowerCity_MapScriptHeader:
 	warp_event 27, 27, MOONFLOWER_POKECENTER_1F, 1
 	warp_event 19, 17, MOONFLOWER_BIKE_SHOP, 1
 	warp_event 31,  3, ROUTE_2_MOONFLOWER_GATE, 3
-	warp_event  9, 17, MOONFLOWER_INDIGO_BASE_1F, 1
+	warp_event  9, 17, COBB_BUILDING_1F, 1
 	warp_event 13, 17, MOONFLOWER_GANG_APARTMENT_1F, 1
 	warp_event 33, 17, MOONFLOWER_NPC_APARTMENT_1_1F, 1
 	warp_event 33, 27, MOONFLOWER_NPC_APARTMENT_2_1F, 1
@@ -57,7 +57,7 @@ MoonflowerCity_MapScriptHeader:
 	person_event SPRITE_GRANNY, 31, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	person_event SPRITE_GRAMPS, 29, 10, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	person_event SPRITE_ROCKET, 28, 14, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_RIVAL, 28, 10, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_BEAT_RIVAL_IN_MOONFLOWER
+	person_event SPRITE_RIVAL, 28, 10, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	person_event SPRITE_GRAMPS, 22, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC1Text, -1
 	person_event SPRITE_CHILD, 10, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC2Text, -1
 	person_event SPRITE_YOUNGSTER, 24, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC3Text, -1
@@ -320,6 +320,7 @@ MoonflowerMeetRivalAfterSpeechScript:
 	applymovement MOONFLOWER_CITY_RIVAL, MoonflowerCityRivalLeaves_Movement
 	disappear MOONFLOWER_CITY_RIVAL
 	special RestartMapMusic
+	special HealPartyEvenForNuzlocke
 	end
 
 .AfterVictorious:
@@ -336,6 +337,7 @@ MoonflowerMeetRivalAfterSpeechScript:
 	applymovement MOONFLOWER_CITY_RIVAL, MoonflowerCityRivalLeaves_Movement
 	disappear MOONFLOWER_CITY_RIVAL
 	special RestartMapMusic
+	special HealPartyEvenForNuzlocke
 	end
 
 MoonflowerPokeGearGuy_Text4:
@@ -874,7 +876,8 @@ MoonflowerRocketGirlText:
 	done
 
 PokeIndustriesSignText:
-	text "# INDUSTRIES"
+	text "COBB CORP."
+	line "MOONFLOWER BRANCH"
 
 	para "Working for the"
 	line "better of people"

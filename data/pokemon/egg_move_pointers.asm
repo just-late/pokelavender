@@ -157,9 +157,9 @@ EggMovePointers::
 	dw CyndaquilEggMoves      ; Cyndaquil
 	dw NoEggMoves             ; Quilava
 	dw NoEggMoves             ; Typhlosion
-	dw TotodileEggMoves       ; Totodile
-	dw NoEggMoves             ; Croconaw
-	dw NoEggMoves             ; Feraligatr
+	dw MudkipEggMoves       ; Mudkip
+	dw NoEggMoves             ; Marshtomp
+	dw NoEggMoves             ; Swampert
 	dw SentretEggMoves        ; Sentret
 	dw NoEggMoves             ; Furret
 	dw HoothootEggMoves       ; Hoothoot
@@ -222,8 +222,8 @@ EggMovePointers::
 	dw SwinubEggMoves         ; Swinub
 	dw NoEggMoves             ; Piloswine
 	dw CorsolaPlainEggMoves   ; Corsola
-	dw RemoraidEggMoves       ; Remoraid
-	dw NoEggMoves             ; Octillery
+	dw SwabluEggMoves         ; Swablu
+	dw NoEggMoves             ; Altaria
 	dw DelibirdEggMoves       ; Delibird
 	dw NoEggMoves             ; Mantine
 	dw SkarmoryEggMoves       ; Skarmory
@@ -234,7 +234,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Donphan
 	dw NoEggMoves             ; Porygon2
 	dw StantlerEggMoves       ; Stantler
-	dw NoEggMoves             ; Smeargle
+	dw SableyeEggMoves        ; Sableye
 	dw TyrogueEggMoves        ; Tyrogue
 	dw NoEggMoves             ; Hitmontop
 	dw SmoochumEggMoves       ; Smoochum
@@ -291,6 +291,12 @@ EggMovePointers::
 	dw NoEggMoves             ; Farigiraf
 	dw NoEggMoves             ; Clodsire
 	dw NoEggMoves             ; Annihilape
+	dw OranguruEggMoves		  ; Oranguru
+	dw TrapinchEggMoves		  ; Trapinch
+	dw NoEggMoves			  ; Vibrava
+	dw NoEggMoves			  ; Flygon
+	dw CroagunkEggMoves		  ; Croagunk
+	dw NoEggMoves			  ; Toxicroak
 	assert_table_length NUM_SPECIES
 
 	dw NoEggMoves                ; Gyarados (Red Form)

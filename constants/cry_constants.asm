@@ -53,7 +53,7 @@
 	const CRY_SENTRET
 	const CRY_SLOWKING
 	const CRY_CYNDAQUIL
-	const CRY_TURTWIG
+	const CRY_CHIKORITA
 	const CRY_TOTODILE
 	const CRY_GLIGAR
 	const CRY_BELLOSSOM
@@ -72,5 +72,9 @@
 	const CRY_TYROGUE
 	const CRY_DUNSPARCE
 	const CRY_DONPHAN
+
+; gen 3+
+	const CRY_CHATOT
+	const CRY_GOOMY
 
 DEF NUM_CRIES EQU const_value

@@ -450,7 +450,7 @@ HorseaEggMoves:
 	db DISABLE
 	db DRAGON_RAGE
 	db DRAGONBREATH
-	db OCTAZOOKA
+	db WOOD_HAMMER
 	db SPLASH
 	db HAZE
 	db WATER_PULSE
@@ -553,7 +553,7 @@ CyndaquilEggMoves:
 	db QUICK_ATTACK
 	db $ff
 
-TotodileEggMoves:
+MudkipEggMoves:
 	db DRAGON_DANCE
 	db METAL_CLAW
 	db CRUNCH
@@ -842,16 +842,13 @@ CorsolaGalarianEggMoves:
 	db ICICLE_SPEAR
 	db $ff
 
-RemoraidEggMoves:
-	db SPLASH
+SwabluEggMoves:
+	db ASTONISH
+	db DRAGON_PULSE ; Dragon Rush = similar move
+	db SCREECH ; Feather Dance = similar move
 	db HAZE
-	db OCTAZOOKA
-	db ROCK_BLAST
-	db SCREECH
-	db SUPERSONIC
-	db AURORA_BEAM
-	db GUNK_SHOT
-	db WATER_PULSE
+	db ROOST
+	db DRAGON_DANCE ; Tail Wind = new move
 	db $ff
 
 DelibirdEggMoves:
@@ -896,6 +893,13 @@ StantlerEggMoves:
 	db DOUBLE_KICK
 	db EXTRASENSORY
 	db RAGE
+	db $ff
+
+SableyeEggMoves:
+	db FEINT_ATTACK
+	db RECOVER
+	db SUCKER_PUNCH
+	db METAL_CLAW
 	db $ff
 
 TyrogueEggMoves:
@@ -993,6 +997,25 @@ MunchlaxEggMoves:
 	db DOUBLE_EDGE
 	db LICK
 	db GUNK_SHOT
+	db $ff
+
+OranguruEggMoves:
+	db DREAM_EATER
+	db $ff
+
+TrapinchEggMoves:
+	db FOCUS_ENERGY
+	db GUST
+	db QUICK_ATTACK
+	db $ff
+
+CroagunkEggMoves:
+	db BULLET_PUNCH
+	db CROSS_CHOP
+	db DYNAMICPUNCH
+	db HEADBUTT
+	db TOXIC ; new
+	db VENOSHOCK ; new
 	db $ff
 
 NoEggMoves:

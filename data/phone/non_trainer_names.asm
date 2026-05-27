@@ -12,7 +12,7 @@ NonTrainerCallerNames:
 	assert_table_length NUM_NONTRAINER_PHONECONTACTS + 1
 
 .mom:
-	text  "Mom:"
+	text  "MOM:"
 	done
 .bill:
 	text  "Bill:"

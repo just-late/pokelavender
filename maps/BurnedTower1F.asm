@@ -66,7 +66,7 @@ BurnedTowerRivalBattleScript:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext BurnedTowerRival_BeforeText
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
-	iftruefwd .totodile
+	iftruefwd .mudkip
 	checkevent EVENT_GOT_TURTWIG_FROM_ELDER
 	iftruefwd .turtwig
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
@@ -77,7 +77,7 @@ BurnedTowerRivalBattleScript:
 	reloadmapafterbattle
 	sjumpfwd .returnfrombattle
 
-.totodile
+.mudkip
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_7

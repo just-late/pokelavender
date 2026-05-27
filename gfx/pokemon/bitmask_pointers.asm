@@ -157,9 +157,9 @@ BitmasksPointers:
 	dw CyndaquilBitmasks
 	dw QuilavaBitmasks
 	dw TyphlosionPlainBitmasks
-	dw TotodileBitmasks
-	dw CroconawBitmasks
-	dw FeraligatrBitmasks
+	dw MudkipBitmasks
+	dw MarshtompBitmasks
+	dw SwampertBitmasks
 	dw SentretBitmasks
 	dw FurretBitmasks
 	dw HoothootBitmasks
@@ -222,8 +222,8 @@ BitmasksPointers:
 	dw SwinubBitmasks
 	dw PiloswineBitmasks
 	dw CorsolaPlainBitmasks
-	dw RemoraidBitmasks
-	dw OctilleryBitmasks
+	dw SwabluBitmasks
+	dw AltariaBitmasks
 	dw DelibirdBitmasks
 	dw MantineBitmasks
 	dw SkarmoryBitmasks
@@ -234,7 +234,7 @@ BitmasksPointers:
 	dw DonphanBitmasks
 	dw Porygon2Bitmasks
 	dw StantlerBitmasks
-	dw SmeargleBitmasks
+	dw SableyeBitmasks
 	dw TyrogueBitmasks
 	dw HitmontopBitmasks
 	dw SmoochumBitmasks
@@ -291,6 +291,12 @@ BitmasksPointers:
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
+	dw OranguruBitmasks
+	dw TrapinchBitmasks
+	dw VibravaBitmasks
+	dw FlygonBitmasks
+	dw CroagunkBitmasks
+	dw ToxicroakBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

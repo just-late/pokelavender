@@ -17,7 +17,7 @@ GemrootTown_MapScriptHeader:
 	coord_event 34, 20, 0, TrainerTipsSignScript1
 	coord_event 34, 21,	0, TrainerTipsSignScript2
 	coord_event 34, 22,	0, TrainerTipsSignScript3
-	coord_event 31, 28, 0, AnabelEventTrigger
+;	coord_event 31, 28, 0, AnabelEventTrigger
 	coord_event 34, 20, 1, MomPokegearTrigger1
 	coord_event 34, 21, 1, MomPokegearTrigger2
 	coord_event 34, 22, 1, MomPokegearTrigger3
@@ -26,7 +26,7 @@ GemrootTown_MapScriptHeader:
 	bg_event 31, 19, BGEVENT_JUMPTEXT, PlayersHouseSignText
 	bg_event 34, 27, BGEVENT_JUMPTEXT, AnabelsHouseSignText
 	bg_event 14, 13, BGEVENT_JUMPTEXT, GemrootTownSignText
-	bg_event 11,  7, BGEVENT_JUMPTEXT, CommunityCenterSignText
+	bg_event 14,  6, BGEVENT_JUMPTEXT, CommunityCenterSignText
 	bg_event 34, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
 	
 	db 9 ; object_events
@@ -36,7 +36,7 @@ GemrootTown_MapScriptHeader:
 	person_event SPRITE_FAT_GUY, 26, 4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
 	person_event SPRITE_CUTE_GIRL, 24, 26, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
 	person_event SPRITE_GRANNY, 19, 20, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
-	person_event SPRITE_GRAMPS,  6, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
+	person_event SPRITE_GRAMPS,  7, 16, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
 	person_event SPRITE_FISHER, 16,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptext, FisherText, -1
 	pokemon_event  6, 25, BULBASAUR, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GREEN, FatGuyBulbasaurText, -1
 
@@ -166,27 +166,27 @@ TrainerTipsSignText:
 	cont "trouble."
 	done
 
-AnabelEventTrigger:
-	checkevent EVENT_ANABEL_GEMROOT_SCENE
-	iftruefwd .End
-	appear GEMROOT_TOWN_ANABEL
-	playsound SFX_TACKLE
-	turnobject PLAYER, UP
-	applymovement PLAYER, PlayerJumpsBackMovement
-	applyonemovement GEMROOT_TOWN_ANABEL, step_down
-	showtext GemrootAnabelIntroText
-	pause 5
-	turnobject GEMROOT_TOWN_ANABEL, UP
-	pause 10
-	turnobject GEMROOT_TOWN_ANABEL, DOWN
-	showtext GemrootAnabelForgotText
-	applyonemovement GEMROOT_TOWN_ANABEL, step_up
-	playsound SFX_ENTER_DOOR
-	disappear GEMROOT_TOWN_ANABEL
-	setevent EVENT_ANABEL_GEMROOT_SCENE
-	clearevent EVENT_ANABEL_BEDROOM_SCENE
-.End
-	end
+;AnabelEventTrigger:
+;	checkevent EVENT_ANABEL_GEMROOT_SCENE
+;	iftruefwd .End
+;	appear GEMROOT_TOWN_ANABEL
+;	playsound SFX_TACKLE
+;	turnobject PLAYER, UP
+;	applymovement PLAYER, PlayerJumpsBackMovement
+;	applyonemovement GEMROOT_TOWN_ANABEL, step_down
+;	showtext GemrootAnabelIntroText
+;	pause 5
+;	turnobject GEMROOT_TOWN_ANABEL, UP
+;	pause 10
+;	turnobject GEMROOT_TOWN_ANABEL, DOWN
+;	showtext GemrootAnabelForgotText
+;	applyonemovement GEMROOT_TOWN_ANABEL, step_up
+;	playsound SFX_ENTER_DOOR
+;	disappear GEMROOT_TOWN_ANABEL
+;	setevent EVENT_ANABEL_GEMROOT_SCENE
+;	clearevent EVENT_ANABEL_BEDROOM_SCENE
+;.End
+;	end
 
 GemrootAnabelIntroText:
 	text "ANABEL: Woah!"

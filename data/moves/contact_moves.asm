@@ -87,6 +87,7 @@ ContactMoves:
 	db WATERFALL
 	db WILD_CHARGE
 	db WING_ATTACK
+	db WOOD_HAMMER
 	db WRAP
 	db X_SCISSOR
 	db ZEN_HEADBUTT

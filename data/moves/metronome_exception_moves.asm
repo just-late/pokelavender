@@ -8,7 +8,7 @@ MetronomeExcepts:
 	db METRONOME
 	db MIRROR_COAT
 	db PROTECT
-	db SKETCH
+	db MUD_FLOOD
 	db SLEEP_TALK
 	db THIEF
 	db TRANSFORM

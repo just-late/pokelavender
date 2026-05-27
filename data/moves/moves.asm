@@ -222,7 +222,7 @@ endc
 	move SLASH,           EFFECT_NORMAL_HIT,         70, NORMAL,    100, 20,   0, PHYSICAL
 	move SUBSTITUTE,      EFFECT_SUBSTITUTE,          0, NORMAL,     -1, 10,   0, STATUS
 	move GIGA_IMPACT,     EFFECT_HYPER_BEAM,        150, NORMAL,     90,  5,   0, PHYSICAL
-	move SKETCH,          EFFECT_SKETCH,              0, NORMAL,     -1,  1,   0, STATUS
+	move MUD_FLOOD,       EFFECT_SP_DEF_DOWN_HIT,   100, GROUND,     95, 10,  10, SPECIAL
 	move DRAIN_PUNCH,     EFFECT_LEECH_HIT,          75, FIGHTING,  100, 10,   0, PHYSICAL
 	move THIEF,           EFFECT_THIEF,              60, DARK,      100, 25, 100, PHYSICAL
 	move WILL_O_WISP,     EFFECT_BURN,                0, FIRE,       85, 15,   0, STATUS
@@ -246,11 +246,7 @@ endc
 	move BELLY_DRUM,      EFFECT_BELLY_DRUM,          0, NORMAL,     -1, 10,   0, STATUS
 	move SLUDGE_BOMB,     EFFECT_POISON_HIT,         90, POISON,    100, 10,  30, SPECIAL
 	move MUD_SLAP,        EFFECT_ACCURACY_DOWN_HIT,  20, GROUND,    100, 10, 100, SPECIAL
-if DEF(FAITHFUL)
-	move OCTAZOOKA,       EFFECT_ACCURACY_DOWN_HIT,  65, WATER,      85, 10,  50, SPECIAL
-else
-	move OCTAZOOKA,       EFFECT_ACCURACY_DOWN_HIT,  75, WATER,      95, 10,  30, SPECIAL
-endc
+	move WOOD_HAMMER,     EFFECT_RECOIL_HIT,        120, GRASS,     100, 15,   0, PHYSICAL
 	move SPIKES,          EFFECT_SPIKES,              0, GROUND,     -1, 20,   0, STATUS
 	move ZAP_CANNON,      EFFECT_PARALYZE_HIT,      120, ELECTRIC,   50,  5, 100, SPECIAL
 	move FORESIGHT,       EFFECT_FORESIGHT,           0, NORMAL,     -1, 40,   0, STATUS

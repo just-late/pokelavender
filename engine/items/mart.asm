@@ -33,6 +33,7 @@ OpenMartDialog::
 	dw TMMart
 	dw BlueCardMart
 	dw BTMart
+	dw BlossomSouvenirMart
 
 MartDialog:
 	xor a ; MARTTYPE_STANDARD, STANDARDMART_HOWMAYIHELPYOU
@@ -165,6 +166,15 @@ BTMart:
 	call MartTextbox
 	call BTBuyMenu
 	ld hl, Text_BTMart_ComeAgain
+	jmp MartTextbox
+
+BlossomSouvenirMart:
+	call FarReadMart
+	call LoadStandardMenuHeader
+	ld hl, Text_BlossomSouvenir_Welcome
+	call MartTextbox
+	call BuyMenu
+	ld hl, Text_BlossomSouvenir_ComeAgain
 	jmp MartTextbox
 
 LoadMartPointer:
@@ -1349,6 +1359,16 @@ Text_BlueCardMart_ComeAgain:
 	text_far _BuenaComeAgainText
 	text_end
 
+Text_BlossomSouvenir_Welcome:
+	; Welcome to the BLOSSOM SOUVENIR SHOP! How may I help you?
+	text_far _BlossomSouvenirWelcomeText
+	text_end
+
+Text_BlossomSouvenir_ComeAgain:
+	; Okay… please come again!
+	text_far _BlossomSouvenirComeAgainText
+	text_end
+
 Text_BTMart_HowMayIHelpYou:
 	; Welcome to the Exchange Service Corner! You can trade in your BP for prizes.
 	text_far BTMartHowMayIHelpYouText
@@ -1468,9 +1488,9 @@ MenuDataHeader_BuySell:
 .menudata2
 	db $80 ; strings
 	db 3 ; items
-	db "Buy@"
-	db "Sell@"
-	db "Quit@"
+	db "BUY@"
+	db "SELL@"
+	db "QUIT@"
 
 Text_Mart_HereYouGo:
 Text_BTMart_HereYouGo:

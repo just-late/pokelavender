@@ -93,7 +93,7 @@ BattleCommand_sketch:
 	sub l
 	ld h, a
 	ld a, [hl]
-	cp SKETCH
+	cp MUD_FLOOD
 	jr nz, .finished_overwriting_sketch
 
 	ld [hl], b

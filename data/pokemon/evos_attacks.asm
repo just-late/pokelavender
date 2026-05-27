@@ -3598,7 +3598,7 @@ MewtwoEvosAttacks:
 
 MewEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SKETCH ; Reflect Type → new move
+	db 1, MUD_FLOOD ; Reflect Type → new move
 	db 1, TELEPORT ; event move
 	db 1, TACKLE ; Pound → similar move
 	db 1, TRANSFORM
@@ -3650,8 +3650,8 @@ GrotleEvosAttacks:
 
 TorterraEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, EARTHQUAKE ; evolution move
 	db 1, ABSORB
+	db 1, WOOD_HAMMER ; evolution move
 	db 1, RAZOR_LEAF
 	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Withdraw → similar move
@@ -3751,71 +3751,59 @@ TyphlosionHisuianEvosAttacks:
 	db 81, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-TotodileEvosAttacks:
-	evo_data EVOLVE_LEVEL, 18, CROCONAW
+MudkipEvosAttacks: ; based on gen 7 learnset
+	evo_data EVOLVE_LEVEL, 16, MARSHTOMP
 	db -1 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 6, WATER_GUN
-	db 8, RAGE
-	db 13, BITE
-	db 15, SCARY_FACE
-	db 20, METAL_CLAW ; Ice Fang → egg move
-	db 22, REVERSAL ; Flail → similar move
-	db 27, AGILITY ; Feraligatr move
-	db 29, CRUNCH
-	db 34, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	db 36, SLASH
-	db 41, SCREECH
-	db 43, THRASH
-	db 48, AQUA_TAIL
-	db 50, CLOSE_COMBAT ; Superpower → similar move
-	db 56, HYDRO_PUMP
+	db 1, GROWL
+	db 1, TACKLE
+	db 4, WATER_GUN
+	db 9, MUD_SLAP
+	db 12, FORESIGHT
+	db 17, COUNTER ; Bide → similar move
+	db 20, MUD_SLAP ; Mud Sport → similar move
+	db 25, ROCK_THROW
+	db 28, PROTECT
+	db 33, WHIRLPOOL
+	db 36, TAKE_DOWN
+	db 41, HYDRO_PUMP
+	db 44, DOUBLE_EDGE ; Endeavor → maybe similar move
 	db -1 ; no more level-up moves
 
-CroconawEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, FERALIGATR
+MarshtompEvosAttacks: ; based on gen 7 learnset
+	evo_data EVOLVE_LEVEL, 36, SWAMPERT
 	db -1 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 6, WATER_GUN
-	db 8, RAGE
-	db 13, BITE
-	db 15, SCARY_FACE
-	db 21, METAL_CLAW ; Ice Fang → egg move
-	db 24, REVERSAL ; Flail → similar move
-	db 30, AGILITY ; Feraligatr move
-	db 33, CRUNCH
-	db 39, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	db 42, SLASH
-	db 48, SCREECH
-	db 51, THRASH
-	db 57, AQUA_TAIL
-	db 60, CLOSE_COMBAT ; Superpower → similar move
-	db 66, HYDRO_PUMP
+	db 1, GROWL
+	db 1, TACKLE
+	db 4, WATER_GUN
+	db 9, MUD_SLAP
+	db 12, FORESIGHT
+	db 18, COUNTER ; Bide → similar move
+	db 22, MUD_SLAP ; Mud Bomb → similar move
+	db 28, ROCK_SLIDE
+	db 32, PROTECT
+	db 38, SURF ; Muddy Water → similar move
+	db 42, TAKE_DOWN
+	db 48, EARTHQUAKE
+	db 52, DOUBLE_EDGE ; Endeavor → maybe similar move
 	db -1 ; no more level-up moves
 
-FeraligatrEvosAttacks:
+SwampertEvosAttacks: ; based on gen 7 learnset
 	db -1 ; no more evolutions
-	db 1, NIGHT_SLASH ; evolution move
-	db 1, SCRATCH
-	db 1, LEER
-	db 6, WATER_GUN
-	db 8, RAGE
-	db 13, BITE
-	db 15, SCARY_FACE
-	db 21, METAL_CLAW ; Ice Fang → egg move
-	db 24, REVERSAL ; Flail → similar move
-	db 32, AGILITY
-	db 37, CRUNCH
-	db 45, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	db 50, SLASH
-	db 56, SCREECH
-	db 62, THRASH
-	db 68, OUTRAGE ; HGSS tutor move
-	db 73, AQUA_TAIL
-	db 78, CLOSE_COMBAT ; Superpower → similar move
-	db 84, HYDRO_PUMP
+	db 1, MUD_FLOOD ; evolution move, custom signature move
+	db 1, GROWL
+	db 1, TACKLE
+	db 4, WATER_GUN
+	db 9, MUD_SLAP
+	db 12, FORESIGHT
+	db 18, COUNTER ; Bide → similar move
+	db 22, MUD_SLAP ; Mud Bomb → similar move
+	db 28, ROCK_SLIDE
+	db 32, PROTECT
+	db 39, SURF ; Muddy Water → similar move
+	db 44, TAKE_DOWN
+	db 51, EARTHQUAKE
+	db 56, DOUBLE_EDGE ; Endeavor → maybe similar move
+	db 63, KARATE_CHOP ; Hammer Arm → maybe similar move
 	db -1 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -5191,49 +5179,40 @@ CorsolaGalarianEvosAttacks:
 	db 55, MIRROR_COAT
 	db -1 ; no more level-up moves
 
-RemoraidEvosAttacks:
-	evo_data EVOLVE_LEVEL, 25, OCTILLERY
+SwabluEvosAttacks:
+	evo_data EVOLVE_LEVEL, 25, ALTARIA
 	db -1 ; no more evolutions
-	db 1, WRAP ; Sw/Sh move
-	db 1, WATER_GUN
-	db 6, FORESIGHT ; Lock-On → new move
-	db 10, PSYBEAM
-	db 14, AURORA_BEAM
-	db 18, BUBBLE_BEAM
-	db 22, FOCUS_ENERGY
-	db 26, WATER_PULSE
-	db 30, FLAMETHROWER ; Signal Beam → TM move
-	db 34, ICE_BEAM
-	db 38, SEED_BOMB ; Bullet Seed → tutor move
-	db 42, GUNK_SHOT ; Hydro Pump → new move
-	db 46, HYDRO_PUMP ; Hyper Beam → Hydro Pump
-	db 50, AURA_SPHERE ; Soak → new move
-	db 54, HYPER_BEAM
+	db 1, GROWL
+	db 1, PECK
+	db 4, DISARM_VOICE
+	db 8, LIGHT_SCREEN ; Mist → differnt protecting move
+	db 12, FURY_STRIKES ; Fury Attack
+	db 16, ROOST ; Round → new move
+	db 20, DRAGON_RAGE ; Dragon Breath → similar move
+	db 24, SAFEGUARD
+	db 28, SING
+	db 32, ASTONISH ; Cotton Guard → egg move
+	db 36, TAKE_DOWN
+	db 40, MOONBLAST
+	db 44, PERISH_SONG
 	db -1 ; no more level-up moves
 
-OctilleryEvosAttacks:
+AltariaEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, OCTAZOOKA ; evolution move
-	db 1, ROCK_BLAST
-	db 1, POWER_WHIP ; new move
-	db 1, WATER_GUN
-	db 6, FORESIGHT ; Constrict → new move
-	db 10, PSYBEAM
-	db 14, AURORA_BEAM
-	db 18, BUBBLE_BEAM
-	db 22, FOCUS_ENERGY
-	db 26, WRAP ; Wring Out → new move
-	db 28, WATER_PULSE
-	db 34, FLAMETHROWER ; Signal Beam → TM move
-	db 40, ICE_BEAM
-	db 46, SEED_BOMB ; Bullet Seed → tutor move
-	db 52, GUNK_SHOT ; Hydro Pump → new move
-	db 58, HYDRO_PUMP ; Hyper Beam → Hydro Pump
-if !DEF(FAITHFUL)
-	db 58, FIRE_BLAST ; new move
-endc
-	db 64, AURA_SPHERE ; Soak → new move
-	db 70, HYPER_BEAM
+	db 1, GROWL
+	db 1, PECK
+	db 4, DISARM_VOICE
+	db 8, LIGHT_SCREEN ; Mist → differnt protecting move
+	db 20, DRAGON_RAGE ; Dragon Breath → similar move
+	db 24, SAFEGUARD
+	db 32, ASTONISH ; Cotton Guard → egg move
+	db 35, AERIAL_ACE ; Twister → new move
+	db 37, TAKE_DOWN
+	db 40, MOONBLAST
+	db 44, SCREECH ; Feather Dance → similar move
+	db 50, BRAVE_BIRD
+	db 55, DRAGON_PULSE ; Dragon Rush → similar move
+	db 60, PERISH_SONG
 	db -1 ; no more level-up moves
 
 DelibirdEvosAttacks:
@@ -5435,18 +5414,24 @@ StantlerEvosAttacks:
 	db 60, DOUBLE_EDGE ; new move
 	db -1 ; no more level-up moves
 
-SmeargleEvosAttacks:
+SableyeEvosAttacks: ; gen 9 learnset
 	db -1 ; no more evolutions
-	db 1, SKETCH
-	db 11, SKETCH
-	db 21, SKETCH
-	db 31, SKETCH
-	db 41, SKETCH
-	db 51, SKETCH
-	db 61, SKETCH
-	db 71, SKETCH
-	db 81, SKETCH
-	db 91, SKETCH
+	db 1, LEER
+	db 1, TACKLE
+	db 9, FEINT_ATTACK ; Shadow Sneak → Feint Attack
+	db 15, TAKE_DOWN
+	db 18, PROTECT ; Detect → similar move
+	db 20, SHADOW_CLAW
+	db 22, CONFUSE_RAY
+	db 25, KNOCK_OFF
+	db 28, PSYBEAM
+	db 33, NIGHT_SLASH
+	db 39, POWER_GEM
+	db 42, ZEN_HEADBUTT
+	db 45, SHADOW_BALL
+	db 50, RECOVER
+	db 53, MEAN_LOOK ; Parting Shot → old move
+	db 56, PAIN_SPLIT ; Phantom Force → old move
 	db -1 ; no more level-up moves
 
 TyrogueEvosAttacks:
@@ -5914,7 +5899,7 @@ MunchlaxEvosAttacks:
 	db -1 ; no more level-up moves
 
 MantykeEvosAttacks:
-	evo_data EVOLVE_PARTY, REMORAID, MANTINE
+	evo_data EVOLVE_PARTY, SWABLU, MANTINE
 	db -1 ; no more evolutions
 	db 1, GUST ; event move
 	db 1, TACKLE
@@ -6499,6 +6484,105 @@ AnnihilapeEvosAttacks:
 	db 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
 	db 53, OUTRAGE
 	db -1 ; no more level-up moves
+
+OranguruEvosAttacks: ; new learnset based on gen 7
+	db -1 ; no more evolutions
+	db 1, CONFUSION
+	db 7, LEER
+	db 11, MEAN_LOOK
+	db 15, BODY_SLAM
+	db 18, BULK_UP
+	db 22, FEINT_ATTACK
+	db 25, NASTY_PLOT
+	db 29, ZEN_HEADBUTT
+	db 32, PSYCHIC_M
+	db 36, DARK_PULSE
+	db 39, CALM_MIND
+	db 43, FUTURE_SIGHT
+	db 46, LIGHT_SCREEN
+	db 46, REFLECT
+	db 50, TRICK_ROOM
+	db -1 ; no more level-up moves
+
+TrapinchEvosAttacks: ; new learnset based on gen 3
+	evo_data EVOLVE_LEVEL, 35, VIBRAVA
+	db -1 ; no more evolutions
+	db 1, BITE
+	db 1, ASTONISH
+	db 9, MUD_SLAP
+	db 17, FEINT_ATTACK
+	db 25, ROCK_SLIDE
+	db 33, CRUNCH
+	db 41, DIG
+	db 49, SANDSTORM
+	db 57, HYPER_BEAM
+	db -1 ; no more level-up moves
+
+VibravaEvosAttacks: ; new learnset based on gen 3
+	evo_data EVOLVE_LEVEL, 45, FLYGON
+	db -1 ; no more evolutions
+	db 1, BITE
+	db 1, FEINT_ATTACK
+	db 1, MUD_SLAP
+	db 9, FEINT_ATTACK
+	db 17, MUD_SLAP
+	db 25, CRUNCH
+	db 33, DRAGONBREATH
+	db 37, SANDSTORM
+	db 41, SCREECH
+	db 50, HYPER_BEAM
+	db 60, EARTHQUAKE
+	db -1 ; no more level-up moves
+
+FlygonEvosAttacks: ; new learnset based on gen 3
+	db -1 ; no more evolutions
+	db 1, SANDSTORM ; evolution move
+	db 1, BITE
+	db 1, FEINT_ATTACK
+	db 1, MUD_SLAP
+	db 9, BITE
+	db 17, MUD_SLAP
+	db 27, CRUNCH
+	db 35, DRAGONBREATH
+	db 40, SANDSTORM
+	db 45, SCREECH
+	db 47, HYPER_BEAM
+	db 51, EARTHQUAKE
+	db 55, DRAGON_PULSE
+	db 60, DRAGON_DANCE
+	db -1 ; no more level-up moves
+
+CroagunkEvosAttacks: ; based on gen 4 set
+	evo_data EVOLVE_LEVEL, 37, TOXICROAK
+	db -1 ; no more evolutions
+	db 1, ASTONISH
+	db 3, MUD_SLAP
+	db 8, POISON_STING
+	db 15, PURSUIT
+	db 17, FEINT_ATTACK
+	db 24, SWAGGER
+	db 30, SUCKER_PUNCH
+	db 36, NASTY_PLOT
+	db 38, POISON_JAB
+	db 43, SLUDGE_BOMB
+	db -1 ; no more level-up moves
+
+ToxicroakEvosAttacks: ; based on gen 4 set
+	db -1 ; no more evolutions
+	db 1, ASTONISH
+	db 1, MUD_SLAP
+	db 1, POISON_STING
+	db 3, MUD_SLAP
+	db 8, POISON_STING
+	db 14, PURSUIT
+	db 17, FEINT_ATTACK
+	db 23, SWAGGER
+	db 30, SUCKER_PUNCH
+	db 36, NASTY_PLOT
+	db 41, POISON_JAB
+	db 49, SLUDGE_BOMB
+	db 54, CRUNCH
+	db -1  ; no more level-up moves
 
 EggEvosAttacks::
 	db -1 ; no more evolutions

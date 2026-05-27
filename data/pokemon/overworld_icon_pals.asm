@@ -161,9 +161,9 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; CYNDAQUIL
 	iconpal RED, PINK ; QUILAVA
 	iconpal RED, PINK ; TYPHLOSION
-	iconpal AZURE, TEAL ; TOTODILE
-	iconpal AZURE, TEAL ; CROCONAW
-	iconpal AZURE, TEAL ; FERALIGATR
+	iconpal AZURE, TEAL ; MUDKIP
+	iconpal AZURE, TEAL ; MARSHTOMP
+	iconpal AZURE, TEAL ; SWAMPERT
 	iconpal BROWN, PURPLE ; SENTRET
 	iconpal BROWN, RED ; FURRET
 	iconpal BROWN, RED ; HOOTHOOT
@@ -226,8 +226,8 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; SWINUB
 	iconpal BROWN, GREEN ; PILOSWINE
 	iconpal PINK, AZURE ; CORSOLA
-	iconpal BLUE, GRAY ; REMORAID
-	iconpal RED, TEAL ; OCTILLERY
+	iconpal BLUE, GRAY ; SWABLU
+	iconpal RED, TEAL ; ALTARIA
 	iconpal RED, PINK ; DELIBIRD
 	iconpal BLUE, WHITE ; MANTINE
 	iconpal GRAY, GREEN ; SKARMORY
@@ -238,7 +238,7 @@ OverworldMonIconColors::
 	iconpal GRAY, RED ; DONPHAN
 	iconpal BLUE, PURPLE ; PORYGON2
 	iconpal BROWN, GREEN ; STANTLER
-	iconpal BROWN, GREEN ; SMEARGLE
+	iconpal BROWN, GREEN ; SABLEYE
 	iconpal BROWN, AZURE ; TYROGUE
 	iconpal BROWN, AZURE ; HITMONTOP
 	iconpal PURPLE, PINK ; SMOOCHUM
@@ -295,6 +295,12 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
+	iconpal WHITE, PURPLE ; ORANGURU
+	iconpal ORANGE, BROWN ; TRAPINCH
+	iconpal YELLOW, GREEN ; VIBRAVA
+	iconpal GREEN, RED ; FLYGON
+	iconpal ORANGE, BLUE ; CROAGUNK
+	iconpal ORANGE, BLUE ; TOXICROAK
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

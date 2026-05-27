@@ -4,37 +4,37 @@ GemrootCommunityCenter1F_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 5, 11, GEMROOT_TOWN, 3  ; 1
-	warp_event 6, 11, GEMROOT_TOWN, 3  ; 2
+	warp_event 17, 11, GEMROOT_TOWN, 3  ; 1
+	warp_event 18, 11, GEMROOT_TOWN, 3  ; 2
 
     def_coord_events
-	coord_event  5,  5, 0, PlayerWalksToAnabel1
-	coord_event  6,  5, 0, PlayerWalksToAnabel2
-	coord_event  5,  4, 0, PickYourMonScript
-	coord_event  6,  4, 0, PickYourMonScript
-	coord_event  5,  4, 1, AnabelChallengeTrigger1
-    coord_event  6,  4, 1, AnabelChallengeTrigger2
+	coord_event 17,  5, 0, PlayerWalksToAnabel1
+	coord_event 18,  5, 0, PlayerWalksToAnabel2
+	coord_event 17,  4, 0, PickYourMonScript
+	coord_event 18,  4, 0, PickYourMonScript
+;	coord_event 17,  4, 1, AnabelChallengeTrigger1
+;	coord_event 18,  4, 1, AnabelChallengeTrigger2
 
     def_bg_events
-	bg_event  0, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event  1, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event  2, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event  3, 5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event  9, 8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
-	bg_event 10, 8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
-	bg_event  8, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event  9, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event 10, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event 11, 5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 12,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
+	bg_event 13,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
+	bg_event 14,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
+	bg_event 15,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
+	bg_event 21,  8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
+	bg_event 22,  8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
+	bg_event 20,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 21,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 22,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 23,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 
     db 7 ; object events
-	person_event  SPRITE_ELDER,  1,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GemrootElderScript, -1
-	object_event  4,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
-	object_event  5,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
-	object_event  6,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
-	person_event  SPRITE_ANABEL, 3,  4, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER
-	person_event  SPRITE_SAGE, 6,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterSageText, -1
-	person_event  SPRITE_POKEFAN_F, 6,  1, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterLadyText, -1
+	person_event SPRITE_ELDER,  1, 19, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GemrootElderScript, -1
+	object_event 16,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
+	object_event 17,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
+	object_event 18,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
+	person_event SPRITE_ANABEL,  3, 16, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER
+	person_event SPRITE_SAGE,  6, 21, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterSageText, -1
+	person_event SPRITE_POKEFAN_F,  6, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterLadyText, -1
 
     object_const_def
     const GEMROOT_COMMUNITYCENTER_ELDER
@@ -44,9 +44,9 @@ GemrootCommunityCenter1F_MapScriptHeader:
     const GEMROOT_COMMUNITYCENTER_ANABEL
 
 PlayerWalksToAnabel1:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .skip
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .skip
+;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_up
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
@@ -55,9 +55,9 @@ PlayerWalksToAnabel1:
     end
 
 PlayerWalksToAnabel2:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .skip
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .skip
+;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_up
     applyonemovement PLAYER, step_left
@@ -68,8 +68,8 @@ PlayerWalksToAnabel2:
     end
 
 PickYourMonScript:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .skip
+;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .skip
     showtext ElderWaitPickMonText
     applyonemovement PLAYER, step_up
 .skip
@@ -111,8 +111,8 @@ AnabelChallengeTrigger2:
     turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
 AnabelChallengeScript:
     winlosstext CommunityCenterAnabelWinText, CommunityCenterAnabelLossText
-    checkevent EVENT_GOT_TOTODILE_FROM_ELDER
-    iftruefwd .Totodile
+    checkevent EVENT_GOT_MUDKIP_FROM_ELDER
+    iftruefwd .Mudkip
     checkevent EVENT_GOT_TURTWIG_FROM_ELDER
     iftruefwd .Turtwig
     loadtrainer RIVAL1, RIVAL1_3
@@ -125,7 +125,7 @@ AnabelChallengeScript:
     iftruefwd .AfterYourDefeat
     sjumpfwd .AfterVictorious
 
-.Totodile
+.Mudkip
     loadtrainer RIVAL1, RIVAL1_1
     loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
     startbattle
@@ -273,13 +273,13 @@ GemrootAnabelScript:
     end
 
 FirePokeBallScript:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .ItsAPokemonScript3
+;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .ItsAPokemonScript3
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
-    pokepic CHARMANDER
-    cry CHARMANDER
+    pokepic CYNDAQUIL
+    cry CYNDAQUIL
     waitbutton
     closepokepic
     opentext
@@ -296,16 +296,16 @@ FirePokeBallScript:
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
-    opentext
-    writetext AnabelTakesTotodileText
-    waitbutton
-    closetext
-    disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;   opentext
+;   writetext AnabelTakesMudkipText
+;   waitbutton
+;   closetext
+;   disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -319,6 +319,7 @@ FirePokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    setmapscene GEMROOT_TOWN, $1
     end
 
 .ItsAPokemonScript3
@@ -329,19 +330,19 @@ TakeFireMonText:
     text "Take CYNDAQUIL?"
     done
 
-AnabelTakesTotodileText:
+AnabelTakesMudkipText:
     text "ANABEL: Then I'll"
-    line "take TOTODILE!"
+    line "take MUDKIP!"
     done
 
 WaterPokeBallScript:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .ItsAPokemonScript2
+;    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   iftruefwd .ItsAPokemonScript2
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
-    pokepic TOTODILE
-    cry TOTODILE
+    pokepic MUDKIP
+    cry MUDKIP
     waitbutton
     closepokepic
     opentext
@@ -349,27 +350,27 @@ WaterPokeBallScript:
     yesorno
     iffalse_jumpopenedtext DidntChooseMonText
     disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
-    setevent EVENT_GOT_TOTODILE_FROM_ELDER
+    setevent EVENT_GOT_MUDKIP_FROM_ELDER
     writetext ChoseMonText
     promptbutton
     waitsfx
-    givepoke TOTODILE, PLAIN_FORM, 5, ORAN_BERRY
+    givepoke MUDKIP, PLAIN_FORM, 5, ORAN_BERRY
     setscene $1
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
-    opentext
-    writetext AnabelTakesTurtwigText
-    waitbutton
-    closetext
-    disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
+;  applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;    opentext
+;    writetext AnabelTakesTurtwigText
+;    waitbutton
+;    closetext
+;    disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
+;    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -382,6 +383,7 @@ WaterPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    setmapscene GEMROOT_TOWN, $1
     end
 
 .ItsAPokemonScript2
@@ -390,7 +392,7 @@ WaterPokeBallScript:
 
 
 TakeWaterMonText:
-    text "Take TOTODILE?"
+    text "Take MUDKIP?"
     done
 
 AnabelTakesTurtwigText:
@@ -399,8 +401,8 @@ AnabelTakesTurtwigText:
     done
 
 GrassPokeBallScript:
-    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    iftruefwd .ItsAPokemonScript1
+;    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;    iftruefwd .ItsAPokemonScript1
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
     refreshscreen
@@ -422,15 +424,15 @@ GrassPokeBallScript:
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
-    opentext
-    writetext AnabelTakesCyndaquilText
-    waitbutton
-    waitbutton
-    closetext
-    disappear GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;    opentext
+;    writetext AnabelTakesCyndaquilText
+;    waitbutton
+;    waitbutton
+;    closetext
+;    disappear GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
+;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
+;    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -442,6 +444,7 @@ GrassPokeBallScript:
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_right
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_up
+    setmapscene GEMROOT_TOWN, $1
     end
 
 .ItsAPokemonScript1
@@ -491,56 +494,68 @@ ChoseMonText:
     done
 
 ElderAdventureText:
-    text "Well, children,"
-    line "You are about to" 
+    text "Remember, to"
+    line "get to BLOSSOM"
+    cont "ACADEMY, you'll"
+
+    para "need to travel"
+    line "to MARIGOLD PORT."
+
+    para "Once you're there,"
+    line "DR. LAVENTON told"
+    cont "me he'd be"
+    cont "waiting for you."
+
+    para "While you're on"
+    line "your way, you may"
+    cont "as well challenge"
+    cont "the #MON GYMS in"
     
-    para "set out on the"
-    line "biggest journey of"
-    cont "your life."
+    para "MOONFLOWER CITY"
+    line "and MARIGOLD PORT."
 
-    para "It will be full of"
-    line "challenges to"
-    cont "overcome."
+    para "Good luck,"
+    line "<PLAYER>!"
 
-    para "But it will also"
-    line "be full of good,"
-    cont "happy times to"
-    cont "remember."
-
-    para "I wish you luck."
+    para "…Oh, and don't"
+    line "forget to talk to"
+    cont "your MOM before"
+    cont "you leave."
     done
 
 ElderGemrootTraditionText:
-    text "ELDER: Hello,"
-    line "children. Today"
-    cont "is the day"
+    text "ELDER: Good to"
+    line "see you, <PLAYER>!"
 
-    para "you get to pick"
-    line "your first"
-    cont "#MON."
+    para "You're probably"
+    line "wondering why I"
+    cont "called you."
 
-    para "I'm very excited,"
-    line "as this is the"
+    para "Well, since you"
+    line "were accepted to"
+    cont "BLOSSOM ACADEMY,"
 
-    para "100th year of"
-    line "holding up our"
+    para "I've decided to"
+    line "give you a #MON"
+    cont "to keep you"
+    cont "company on your"
+    cont "way."
 
-    para "ancient tradition"
-    line "here in Gemroot"
-    cont "Town."
+    para "After all, it's"
+    line "a long journey"
+    cont "from here to the"
+    cont "ACADEMY."
 
-    para "Ah, the tradition?"
-    line "Every year, the"
+    para "It would be no"
+    line "good for you to"
+    cont "go by yourself."
 
-    para "ELDER of the town"
-    line "chooses two"
+    para "That's why I"
+    line "want you to pick"
+    cont "from one of the"
 
-    para "young children to"
-    line "become #MON"
-    cont "trainers."
-
-    para "Now then, <PLAYER>"
-    line "pick a #MON."
+    para "#MON on this"
+    line "table."
     done
 
 ElderWaitPickMonText:
@@ -571,8 +586,7 @@ GemrootAncientMuralText:
     text "It's a mural"
     line "depicting two"
 
-    para "ancient dragon"
-    line "#MON."
+    para "ancient #MON."
     done
 
 GemrootHistoryBooksText:

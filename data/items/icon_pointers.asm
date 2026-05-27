@@ -271,7 +271,7 @@ KeyItemIconPointers:
 	dba TypeChartIcon
 	dba GBCSoundsIcon
 	dba BlueCardIcon
-	dba SquirtBottleIcon
+	dba WailmerPailIcon
 	dba SilphScope2Icon
 	dba MysteryEggIcon
 	dba VegetablesIcon

@@ -168,7 +168,7 @@ BattleAnimations::
 	fardw BattleAnim_Slash
 	fardw BattleAnim_Substitute
 	fardw BattleAnim_GigaImpact
-	fardw BattleAnim_Sketch
+	fardw BattleAnim_MudFlood
 	fardw BattleAnim_DrainPunch
 	fardw BattleAnim_Thief
 	fardw BattleAnim_WillOWisp
@@ -192,7 +192,7 @@ BattleAnimations::
 	fardw BattleAnim_BellyDrum
 	fardw BattleAnim_SludgeBomb
 	fardw BattleAnim_MudSlap
-	fardw BattleAnim_Octazooka
+	fardw BattleAnim_WoodHammer
 	fardw BattleAnim_Spikes
 	fardw BattleAnim_ZapCannon
 	fardw BattleAnim_Foresight

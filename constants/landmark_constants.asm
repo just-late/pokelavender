@@ -65,11 +65,8 @@ DEF KANTO_LANDMARK EQU const_value
 	const LAKE_OF_RAGE       ; 36
 	const ROUTE_44           ; 37
 	const ICE_PATH           ; 38
-	const BLACKTHORN_CITY    ; 39
 	const DRAGONS_DEN        ; 3a
-	const ROUTE_45           ; 3b
 	const DARK_CAVE          ; 3c
-	const ROUTE_46           ; 3d
 	const SILVER_CAVE        ; 3e
 	const FAST_SHIP          ; 3f
 	const SINJOH_RUINS       ; 40

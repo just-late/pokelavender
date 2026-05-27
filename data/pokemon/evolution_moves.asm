@@ -153,13 +153,13 @@ EvolutionMoves::
 	db NO_MOVE      ; MEW
 	db NO_MOVE      ; TURTWIG
 	db NO_MOVE      ; GROTLE
-	db NO_MOVE      ; TORTERRA
+	db WOOD_HAMMER  ; TORTERRA
 	db NO_MOVE      ; CYNDAQUIL
 	db NO_MOVE      ; QUILAVA
 	db FIRE_PUNCH   ; TYPHLOSION
-	db NO_MOVE      ; TOTODILE
-	db NO_MOVE      ; CROCONAW
-	db NIGHT_SLASH  ; FERALIGATR
+	db NO_MOVE      ; MUDKIP
+	db NO_MOVE      ; MARSHTOMP
+	db MUD_FLOOD    ; SWAMPERT
 	db NO_MOVE      ; SENTRET
 	db AGILITY      ; FURRET
 	db NO_MOVE      ; HOOTHOOT
@@ -191,11 +191,7 @@ EvolutionMoves::
 	db NO_MOVE      ; JUMPLUFF
 	db NO_MOVE      ; AIPOM
 	db NO_MOVE      ; SUNKERN
-if DEF(FAITHFUL)
 	db NO_MOVE      ; SUNFLORA
-else
-	db EMBER        ; SUNFLORA
-endc
 	db NO_MOVE      ; YANMA
 	db NO_MOVE      ; WOOPER
 	db ANCIENTPOWER ; QUAGSIRE
@@ -226,8 +222,8 @@ endc
 	db NO_MOVE      ; SWINUB
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
-	db NO_MOVE      ; REMORAID
-	db OCTAZOOKA    ; OCTILLERY
+	db NO_MOVE      ; SWABLU
+	db WOOD_HAMMER    ; ALTARIA
 	db NO_MOVE      ; DELIBIRD
 	db NO_MOVE      ; MANTINE
 	db NO_MOVE      ; SKARMORY
@@ -238,7 +234,7 @@ endc
 	db FURY_STRIKES ; DONPHAN
 	db NO_MOVE      ; PORYGON2
 	db NO_MOVE      ; STANTLER
-	db NO_MOVE      ; SMEARGLE
+	db NO_MOVE      ; SABLEYE
 	db NO_MOVE      ; TYROGUE
 	db LOW_KICK     ; HITMONTOP
 	db NO_MOVE      ; SMOOCHUM
@@ -295,6 +291,12 @@ endc
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
+	db NO_MOVE      ; ORANGURU
+	db NO_MOVE		; TRAPINCH
+	db NO_MOVE		; VIBRAVA
+	db SANDSTORM	; FLYGON
+	db NO_MOVE		; CROAGUNK
+	db NO_MOVE  	; TOXICROAK
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

@@ -57,6 +57,7 @@ StdScripts::
 	dw TreeGrottoScript
 	dw CaveGrottoScript
 	dw WaterCoolerScript
+	dw SoftLoamySoilScript
 
 PokeCenterNurseScript:
 	opentext
@@ -1830,3 +1831,15 @@ WaterCoolerHotOrCold:
 	db "HOT WATER @"
 	db "COLD WATER@"
 	db "CANCEL    @"
+
+SoftLoamySoilScript:
+	opentext
+	farwritetext PlantABerryText
+	yesorno
+	iftruefwd .BerryScript
+	closetext
+	end
+
+.BerryScript:
+	closetext
+	end

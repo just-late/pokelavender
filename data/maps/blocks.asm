@@ -9,7 +9,6 @@ OlivinePokeCenter1F_BlockData:
 SnowtopPokeCenter1F_BlockData:
 CianwoodPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
-BlackthornPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
 ShamoutiPokeCenter1F_BlockData:
 Route3PokeCenter1F_BlockData:
@@ -35,7 +34,6 @@ GlittervineMart_BlockData:
 MoonflowerMart_BlockData:
 EcruteakMart_BlockData:
 OlivineMart_BlockData:
-BlackthornMart_BlockData:
 ViridianMart_BlockData:
 PewterMart_BlockData:
 VermilionMart_BlockData:
@@ -129,9 +127,6 @@ GemrootNicknameSpeechHouse_BlockData:
 	INCBIN "maps/House3.ablk.lz"
 
 MahoganyRedGyaradosSpeechHouse_BlockData:
-BlackthornDragonSpeechHouse_BlockData:
-BlackthornEmysHouse_BlockData:
-MoveDeletersHouse_BlockData:
 LakeOfRageMagikarpHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
@@ -294,9 +289,9 @@ SECTION "MoonflowerBikeShop_BlockData", ROMX
 MoonflowerBikeShop_BlockData:
 	INCBIN "maps/MoonflowerBikeShop.ablk.lz"
 
-SECTION "MoonflowerIndigoBase1F_BlockData", ROMX
-MoonflowerIndigoBase1F_BlockData:
-	INCBIN "maps/MoonflowerIndigoBase1F.ablk.lz"
+SECTION "CobbBuilding1F_BlockData", ROMX
+CobbBuilding1F_BlockData:
+	INCBIN "maps/CobbBuilding1F.ablk.lz"
 
 SECTION "MoonflowerGangApartment1F_BlockData", ROMX
 MoonflowerGangApartment1F_BlockData:
@@ -309,6 +304,10 @@ MoonflowerGangApartment2F_BlockData:
 SECTION "MarigoldPort_BlockData", ROMX
 MarigoldPort_BlockData:
 	INCBIN "maps/MarigoldPort.ablk.lz"
+
+SECTION "MarigoldPortLowTide_BlockData", ROMX
+MarigoldPortLowTide_BlockData:
+	INCBIN "maps/MarigoldPortLowTide.ablk.lz"
 
 SECTION "MarigoldGym_BlockData", ROMX
 MarigoldGym_BlockData:
@@ -902,18 +901,6 @@ IcePathB2FBlackthornSide_BlockData:
 SECTION "IcePathB3F_BlockData", ROMX
 IcePathB3F_BlockData:
 	INCBIN "maps/IcePathB3F.ablk.lz"
-
-SECTION "BlackthornGym1F_BlockData", ROMX
-BlackthornGym1F_BlockData:
-	INCBIN "maps/BlackthornGym1F.ablk.lz"
-
-SECTION "BlackthornGym2F_BlockData", ROMX
-BlackthornGym2F_BlockData:
-	INCBIN "maps/BlackthornGym2F.ablk.lz"
-
-SECTION "BlackthornCity_BlockData", ROMX
-BlackthornCity_BlockData:
-	INCBIN "maps/BlackthornCity.ablk.lz"
 
 SECTION "DragonsDenB1F_BlockData", ROMX
 DragonsDenB1F_BlockData:
@@ -1867,14 +1854,6 @@ SECTION "Route44_BlockData", ROMX
 Route44_BlockData:
 	INCBIN "maps/Route44.ablk.lz"
 
-SECTION "Route45_BlockData", ROMX
-Route45_BlockData:
-	INCBIN "maps/Route45.ablk.lz"
-
-SECTION "Route46_BlockData", ROMX
-Route46_BlockData:
-	INCBIN "maps/Route46.ablk.lz"
-
 SECTION "Route47_BlockData", ROMX
 Route47_BlockData:
 	INCBIN "maps/Route47.ablk.lz"
@@ -1898,5 +1877,21 @@ BattleFactoryHallway_BlockData:
 SECTION "BattleFactoryBattleRoom_BlockData", ROMX
 BattleFactoryBattleRoom_BlockData:
 	INCBIN "maps/BattleFactoryBattleRoom.ablk.lz"
+
+SECTION "BoatCutscene_BlockData", ROMX
+BoatCutscene_BlockData:
+	INCBIN "maps/BoatCutscene.ablk.lz"
+
+SECTION "CanyonDepths_BlockData", ROMX
+CanyonDepths_BlockData:
+	INCBIN "maps/CanyonDepths.ablk.lz"
+
+SECTION "Canyon1F_BlockData", ROMX
+Canyon1F_BlockData:
+	INCBIN "maps/Canyon1F.ablk.lz"
+
+SECTION "BlossomGameCorner_BlockData", ROMX
+BlossomGameCorner_BlockData:
+	INCBIN "maps/BlossomGameCorner.ablk.lz"
 
 ENDSECTION

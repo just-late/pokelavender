@@ -18,7 +18,6 @@ Marts:
 	dw YellowForestMart
 	dw MahoganyMart1
 	dw MahoganyMart2
-	dw BlackthornMart
 	dw IndigoPlateauMart
 	dw ViridianMart
 	dw PewterMart
@@ -43,6 +42,7 @@ Marts:
 	dw BattleFactoryMart1
 	dw BattleFactoryMart2
 	dw BattleFactoryMart3
+	dw BlossomSouvenirShop
 	assert_table_length NUM_MARTS
 
 GlittervineMart:
@@ -253,21 +253,6 @@ MahoganyMart2:
 	db SUPER_REPEL
 	db REVIVE
 	db FLOWER_MAIL
-	db -1
-
-BlackthornMart:
-	db 11 ; # items
-	db GREAT_BALL
-	db ULTRA_BALL
-	db DUSK_BALL
-	db HYPER_POTION
-	db MAX_POTION
-	db FULL_HEAL
-	db REVIVE
-	db MAX_REPEL
-	db X_DEFEND
-	db X_ATTACK
-	db MUSIC_MAIL
 	db -1
 
 IndigoPlateauMart:
@@ -533,4 +518,13 @@ BattleFactoryMart3:
 	db ROOM_SERVICE, 24
 	db LIFE_ORB,     48
 	db MINT_LEAF,    32
+	db -1
+
+BlossomSouvenirShop:
+	db 5 ; # items
+	db FLOWER_MAIL
+	db MUSIC_MAIL
+	db BLUESKY_MAIL
+	db SUN_STONE
+	db PREMIER_BALL
 	db -1

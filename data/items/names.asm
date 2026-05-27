@@ -289,7 +289,7 @@ ItemNames::
 	li "BIG PEARL"
 	li "PEARL STRING"
 	li "STARDUST"
-	li "STAT PIECE"
+	li "STAR PIECE"
 	li "BRICK PIECE"
 	li "RARE BONE"
 	li "SLOWPOKETAIL"

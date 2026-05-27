@@ -113,7 +113,7 @@ BattleCommand_transform:
 	inc de
 	and a
 	jr z, .done_move
-	cp SKETCH
+	cp MUD_FLOOD
 	ld a, 1
 	jr z, .done_move
 	ld a, 5

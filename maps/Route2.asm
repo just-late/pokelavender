@@ -63,20 +63,15 @@ GenericTrainerYoungsterAlbert:
 GenericTrainerBugCatcherDon:
 	generictrainer BUG_CATCHER, DON, EVENT_BEAT_BUG_CATCHER_DON, .SeenText, .BeatenText
 
-	text "These bugs are"
-	line "bugging me so"
-	cont "much!"
-
-	para "I've never won"
-	line "a single battle…"
+	text "I better catch"
+	line "new ones now!"
 	done
 
 .SeenText
-	text "This battle will"
-	line "Win-Lose, and"
-	cont "you'll lose!"
+	text "Check out my"
+	line "cool BUG #MON!"
 	done
 
 .BeatenText
-	text "I lost…?"
+	text "Shucks…"
 	done

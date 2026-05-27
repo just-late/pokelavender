@@ -19,6 +19,7 @@ GlittervinePokeCenter1F_MapScriptHeader:
 	person_event SPRITE_HIKER,  1,  8, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC2Text, -1
 	person_event SPRITE_GENTLEMAN, 6, 11, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC3Text, -1
 	person_event SPRITE_LADY,  4,  9, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC4Text, -1
+	pokemon_event  6,  1, SNUBBULL, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, GlittervinePokeCenter1FSnubbullText, -1
 
 PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
@@ -27,9 +28,9 @@ PokemonJournalRedScript:
 	text "#MON JOURNAL"
 
 	para "SPECIAL FEATURE:"
-	line "MOD CO."
+	line "COBB CORP."
 
-	para "MOD CO. has been"
+	para "COBB CORP. has been"
 	line "working hard for"
 	cont "our sake since"
 	cont "they bought SILPH"
@@ -40,7 +41,7 @@ PokemonJournalRedScript:
 	line "been massively"
 	cont "improved!"
 
-	para "We owe MOD CO."
+	para "We owe COBB CORP."
 	line "a big thank you!"
 	done
 
@@ -98,4 +99,8 @@ GlittervinePokeCenter1FNPC4Text:
 
 	para "only place with"
 	line "a subscription."
+	done
+
+GlittervinePokeCenter1FSnubbullText:
+	text "Graooragh!"
 	done
