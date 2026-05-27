@@ -1095,7 +1095,7 @@ wPokemonLeagueGateSceneID:: db
 wRadioTower5FSceneID:: db
 wRoute10NorthSceneID:: db
 wRoute23SceneID:: db
-ds 1 ; unused
+wCanyonDepthsSceneID:: db
 wMarigoldPortSceneID:: db
 wMarigoldGymSceneID:: db
 wRoute32SceneID:: db
