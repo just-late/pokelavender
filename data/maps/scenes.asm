@@ -48,8 +48,6 @@ MapScenes::
 	scene_var KOGAS_ROOM,                             wKogasRoomSceneID
 	scene_var LANCES_ROOM,                            wLancesRoomSceneID
 	scene_var LAVENDER_TOWN,                          wLavenderTownSceneID
-	scene_var MAHOGANY_MART_1F,                       wMahoganyMart1FSceneID
-	scene_var MAHOGANY_TOWN,                          wMahoganyTownSceneID
 	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID
 	scene_var MOUNT_MOON_SQUARE,                      wAlways0SceneID
 	scene_var MR_POKEMONS_HOUSE,                      wMrPokemonsHouseSceneID
@@ -72,7 +70,6 @@ MapScenes::
 	scene_var ROUTE_36,                               wRoute36SceneID
 	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateSceneID
 	scene_var ROUTE_39_RUGGED_ROAD_GATE,              wRoute39RuggedRoadGateSceneID
-	scene_var ROUTE_42,                               wRoute42SceneID
 	scene_var ROUTE_43_GATE,                          wRoute43GateSceneID
 	scene_var ROUTE_47,                               wRoute47SceneID
 	scene_var ROUTE_48,                               wRoute48SceneID

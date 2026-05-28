@@ -8,7 +8,6 @@ EcruteakPokeCenter1F_BlockData:
 OlivinePokeCenter1F_BlockData:
 SnowtopPokeCenter1F_BlockData:
 CianwoodPokeCenter1F_BlockData:
-MahoganyPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
 ShamoutiPokeCenter1F_BlockData:
 Route3PokeCenter1F_BlockData:
@@ -73,7 +72,6 @@ Route36MoonflowerGate_BlockData:
 IlexForestAzaleaGate_BlockData:
 GoldenrodHarborGate_BlockData:
 Route38EcruteakGate_BlockData:
-Route42EcruteakGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
 Route7SaffronGate_BlockData:
@@ -126,7 +124,6 @@ GemrootNPCHouse1_BlockData:
 GemrootNicknameSpeechHouse_BlockData:
 	INCBIN "maps/House3.ablk.lz"
 
-MahoganyRedGyaradosSpeechHouse_BlockData:
 LakeOfRageMagikarpHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
@@ -849,18 +846,9 @@ SECTION "MountMortarB1F_BlockData", ROMX
 MountMortarB1F_BlockData:
 	INCBIN "maps/MountMortarB1F.ablk.lz"
 
-SECTION "MahoganyMart1F_BlockData", ROMX
-MahoganyMart1F_BlockData:
+SECTION "MountMoonGiftShop_BlockData", ROMX
 MountMoonGiftShop_BlockData:
 	INCBIN "maps/GiftShop.ablk.lz"
-
-SECTION "MahoganyGym_BlockData", ROMX
-MahoganyGym_BlockData:
-	INCBIN "maps/MahoganyGym.ablk.lz"
-
-SECTION "MahoganyTown_BlockData", ROMX
-MahoganyTown_BlockData:
-	INCBIN "maps/MahoganyTown.ablk.lz"
 
 SECTION "LakeOfRage_BlockData", ROMX
 LakeOfRage_BlockData:
@@ -1838,10 +1826,6 @@ SECTION "Route41_BlockData", ROMX
 Route41_BlockData:
 	INCBIN "maps/Route41.ablk.lz"
 
-SECTION "Route42_BlockData", ROMX
-Route42_BlockData:
-	INCBIN "maps/Route42.ablk.lz"
-
 SECTION "Route43_BlockData", ROMX
 Route43_BlockData:
 	INCBIN "maps/Route43.ablk.lz"
@@ -1849,10 +1833,6 @@ Route43_BlockData:
 SECTION "Route43Raining_BlockData", ROMX
 Route43Raining_BlockData:
 	INCBIN "maps/Route43Raining.ablk.lz"
-
-SECTION "Route44_BlockData", ROMX
-Route44_BlockData:
-	INCBIN "maps/Route44.ablk.lz"
 
 SECTION "Route47_BlockData", ROMX
 Route47_BlockData:

@@ -450,9 +450,9 @@ RespawnRoamingRaikou:
 	ld [wRoamMon1Species], a
 	ld a, 50
 	ld [wRoamMon1Level], a
-	ld a, GROUP_ROUTE_42
+	ld a, GROUP_ROUTE_9
 	ld [wRoamMon1MapGroup], a
-	ld a, MAP_ROUTE_42
+	ld a, MAP_ROUTE_9
 	ld [wRoamMon1MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon1HP], a

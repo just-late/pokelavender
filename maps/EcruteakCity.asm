@@ -5,8 +5,6 @@ EcruteakCity_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, EcruteakCityFlyPoint
 
 	def_warp_events
-	warp_event 35, 26, ROUTE_42_ECRUTEAK_GATE, 1
-	warp_event 35, 27, ROUTE_42_ECRUTEAK_GATE, 2
 	warp_event 23, 11, ECRUTEAK_HOUSE, 1
 	warp_event 17,  9, ECRUTEAK_SHRINE_OUTSIDE, 3
 	warp_event 18,  9, ECRUTEAK_SHRINE_OUTSIDE, 4

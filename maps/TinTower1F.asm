@@ -133,7 +133,6 @@ TinTower1FSuicuneBattleScript:
 	disappear TINTOWER1F_SUICUNE
 	setevent EVENT_FOUGHT_SUICUNE
 	setevent EVENT_SAW_SUICUNE_ON_ROUTE_42
-	setmapscene ROUTE_42, $0
 	setevent EVENT_SAW_SUICUNE_ON_ROUTE_36
 	setmapscene ROUTE_36, $0
 	setevent EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY

@@ -6,8 +6,6 @@ Route43MahoganyGate_MapScriptHeader:
 	def_warp_events
 	warp_event  4,  0, ROUTE_43, 1
 	warp_event  5,  0, ROUTE_43, 2
-	warp_event  4,  7, MAHOGANY_TOWN, 5
-	warp_event  5,  7, MAHOGANY_TOWN, 5
 
 	def_coord_events
 

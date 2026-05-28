@@ -4,7 +4,6 @@ MapGroupRoofs:
 	table_width 1, MapGroupRoofs
 	db -1            ; 0
 	db ROOF_OLIVINE  ; 1 (Olivine City)
-	db ROOF_AZALEA   ; 2 (Mahogany Town)
 	db -1            ; 3
 	db ROOF_VIOLET   ; 4 (Ecruteak City)
 	db -1            ; 6

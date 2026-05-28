@@ -10,7 +10,6 @@ INCLUDE "maps/CianwoodPokeCenter1F.asm"
 
 SECTION "Pokemon Center Scripts 2", ROMX
 
-INCLUDE "maps/MahoganyPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 INCLUDE "maps/ViridianPokeCenter1F.asm"
 INCLUDE "maps/PewterPokeCenter1F.asm"
@@ -411,14 +410,6 @@ INCLUDE "maps/MountMortar1FOutside.asm"
 INCLUDE "maps/MountMortar1FInside.asm"
 INCLUDE "maps/MountMortar2FInside.asm"
 INCLUDE "maps/MountMortarB1F.asm"
-
-
-SECTION "Mahogany Scripts", ROMX
-
-INCLUDE "maps/MahoganyTown.asm"
-INCLUDE "maps/MahoganyMart1F.asm"
-INCLUDE "maps/MahoganyGym.asm"
-INCLUDE "maps/MahoganyRedGyaradosSpeechHouse.asm"
 
 
 SECTION "Lake of Rage Scripts", ROMX
@@ -1028,12 +1019,9 @@ INCLUDE "maps/Route41.asm"
 
 SECTION "Routes 42-44 Scripts", ROMX
 
-INCLUDE "maps/Route42.asm"
-INCLUDE "maps/Route42EcruteakGate.asm"
 INCLUDE "maps/Route43.asm"
 INCLUDE "maps/Route43Gate.asm"
 INCLUDE "maps/Route43MahoganyGate.asm"
-INCLUDE "maps/Route44.asm"
 
 
 SECTION "Routes 45-47 Scripts", ROMX

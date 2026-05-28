@@ -205,7 +205,6 @@ TrainerBug_catcherWade1:
 	checkevent EVENT_CLEARED_RADIO_TOWER
 	iftruefwd .LoadFight3
 .Fight2:
-	checkflag ENGINE_FLYPOINT_MAHOGANY
 	iftruefwd .LoadFight2
 .Fight1:
 	checkflag ENGINE_FLYPOINT_GOLDENROD

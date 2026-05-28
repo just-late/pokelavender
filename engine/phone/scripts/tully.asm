@@ -16,11 +16,11 @@ TullyPhoneScript1:
 	farsjump TullyNoItemScript
 
 .WantsBattle:
-	getlandmarkname ROUTE_42, $2
+	getlandmarkname ROUTE_1, $2
 	farsjump TullyForwardScript
 
 .WaterStone:
-	getlandmarkname ROUTE_42, $2
+	getlandmarkname ROUTE_1, $2
 	farsjump TullyHurryScript
 
 TullyPhoneScript2:
@@ -50,11 +50,11 @@ TullySundayNight:
 	setflag ENGINE_TULLY_SUNDAY_NIGHT
 
 TullyWantsBattle:
-	getlandmarkname ROUTE_42, $2
+	getlandmarkname ROUTE_1, $2
 	setflag ENGINE_TULLY_READY_FOR_REMATCH
 	farsjump PhoneScript_WantsToBattle_Male
 
 TullyFoundWaterStone:
 	setflag ENGINE_TULLY_HAS_WATER_STONE
-	getlandmarkname ROUTE_42, $2
+	getlandmarkname ROUTE_1, $2
 	farsjump PhoneScript_FoundItem_Male

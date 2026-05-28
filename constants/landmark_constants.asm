@@ -58,12 +58,9 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_48           ; 2f
 	const YELLOW_FOREST      ; 30
 	const QUIET_CAVE         ; 31
-	const ROUTE_42           ; 32
 	const MT_MORTAR          ; 33
-	const MAHOGANY_TOWN      ; 34
 	const ROUTE_43           ; 35
 	const LAKE_OF_RAGE       ; 36
-	const ROUTE_44           ; 37
 	const ICE_PATH           ; 38
 	const DRAGONS_DEN        ; 3a
 	const DARK_CAVE          ; 3c

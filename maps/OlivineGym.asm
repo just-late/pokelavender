@@ -38,7 +38,6 @@ OlivineGymJasmineScript:
 	waitsfx
 	setflag ENGINE_MINERALBADGE
 	clearevent EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
-	setmapscene ROUTE_42, $1
 .FightDone:
 	checkevent EVENT_GOT_TM23_IRON_TAIL
 	iftrue_jumpopenedtext Jasmine_GoodLuck

@@ -44,15 +44,9 @@ ENDM
 	connection west, Route40, ROUTE_40, 7
 	connection east, Route35CoastNorth, ROUTE_35_COAST_NORTH, 3
 
-	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | WEST | EAST
+	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | WEST
 	connection south, Route37, ROUTE_37, 5
 	connection west, Route38, ROUTE_38, 5
-	connection east, Route42, ROUTE_42, 9
-
-	map_attributes MahoganyTown, MAHOGANY_TOWN, $71, NORTH | WEST | EAST
-	connection north, Route43, ROUTE_43, 0
-	connection west, Route42, ROUTE_42, 0
-	connection east, Route44, ROUTE_44, 0
 
 	map_attributes LakeOfRage, LAKE_OF_RAGE, $5, SOUTH
 	connection south, Route43, ROUTE_43, 5
@@ -132,17 +126,8 @@ ENDM
 	connection west, CianwoodCity, CIANWOOD_CITY, 0
 	connection east, GoldenrodHarbor, GOLDENROD_HARBOR, 3
 
-	map_attributes Route42, ROUTE_42, $5, SOUTH | WEST | EAST
-	connection south, MoonflowerOutskirts, MOONFLOWER_OUTSKIRTS, 5
-	connection west, EcruteakCity, ECRUTEAK_CITY, -9
-	connection east, MahoganyTown, MAHOGANY_TOWN, 0
-
-	map_attributes Route43, ROUTE_43, $5, NORTH | SOUTH
+	map_attributes Route43, ROUTE_43, $5, NORTH
 	connection north, LakeOfRage, LAKE_OF_RAGE, -5
-	connection south, MahoganyTown, MAHOGANY_TOWN, 0
-
-	map_attributes Route44, ROUTE_44, $71, WEST
-	connection west, MahoganyTown, MAHOGANY_TOWN, 0
 
 	map_attributes BlossomCity, BLOSSOM_CITY, $31, 0
 
@@ -309,9 +294,7 @@ ENDM
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, NORTH
 	connection north, CherrygroveBay, CHERRYGROVE_BAY, 0
 
-	map_attributes MoonflowerOutskirts, MOONFLOWER_OUTSKIRTS, $5, NORTH | SOUTH
-	connection north, Route42, ROUTE_42, -5
-	connection south, MoonflowerCity, MOONFLOWER_CITY, 0
+	map_attributes MoonflowerOutskirts, MOONFLOWER_OUTSKIRTS, $5, 0
 
 	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $5, SOUTH
 	connection south, MagnetTunnelEast, MAGNET_TUNNEL_EAST, -2
@@ -422,7 +405,6 @@ ENDM
 	map_attributes OlivineLighthouse4F, OLIVINE_LIGHTHOUSE_4F, $0, 0
 	map_attributes OlivineLighthouse5F, OLIVINE_LIGHTHOUSE_5F, $0, 0
 	map_attributes OlivineLighthouse6F, OLIVINE_LIGHTHOUSE_6F, $0, 0
-	map_attributes MahoganyMart1F, MAHOGANY_MART_1F, $0, 0
 	map_attributes TeamRocketBaseB1F, TEAM_ROCKET_BASE_B1F, $0, 0
 	map_attributes TeamRocketBaseB2F, TEAM_ROCKET_BASE_B2F, $0, 0
 	map_attributes TeamRocketBaseB3F, TEAM_ROCKET_BASE_B3F, $0, 0
@@ -471,10 +453,6 @@ ENDM
 	map_attributes Route38EcruteakGate, ROUTE_38_ECRUTEAK_GATE, $0, 0
 	map_attributes Route39Barn, ROUTE_39_BARN, $0, 0
 	map_attributes Route39Farmhouse, ROUTE_39_FARMHOUSE, $0, 0
-	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
-	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
-	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0
-	map_attributes Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $0, 0
 	map_attributes DiglettsCave, DIGLETTS_CAVE, $9, 0
 	map_attributes MountMoon1F, MOUNT_MOON_1F, $9, 0
 	map_attributes MountMoonB1F, MOUNT_MOON_B1F, $9, 0

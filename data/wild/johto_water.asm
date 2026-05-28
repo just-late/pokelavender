@@ -189,13 +189,6 @@
 	wildmon 20, SWABLU
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_42
-	db 4 percent ; encounter rate
-	wildmon 20, GOLDEEN
-	wildmon 20, GOLDEEN
-	wildmon 20, SEAKING
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_43
 	db 2 percent ; encounter rate
 	wildmon 25, MAGIKARP
@@ -203,7 +196,7 @@
 	wildmon 10, MAGIKARP
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_44
+	def_water_wildmons ROUTE_1
 	db 2 percent ; encounter rate
 	wildmon 25, POLIWAG
 	wildmon 30, POLIWAG

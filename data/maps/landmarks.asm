@@ -49,12 +49,9 @@ Landmarks:
 	landmark  12,  92, Route48Name
 	landmark  12,  84, YellowForestName
 	landmark  12, 108, QuietCaveName
-	landmark  92,  44, Route42Name
 	landmark  84,  44, MtMortarName
-	landmark 108,  44, MahoganyTownName
 	landmark 108,  36, Route43Name
 	landmark 108,  28, LakeOfRageName
-	landmark 120,  44, Route44Name
 	landmark 128,  40, IcePathName
 	landmark 132,  36, DragonsDenName
 	landmark 116,  68, DarkCaveName

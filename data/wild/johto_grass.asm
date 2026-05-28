@@ -1712,34 +1712,6 @@
 	wildmon 18, MURKROW
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_42
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 20, EKANS, ARBOK_JOHTO_FORM
-	wildmon 22, MANKEY
-	wildmon 22, RATTATA
-	wildmon 23, RATICATE
-	wildmon 21, SPEAROW
-	wildmon 24, ARBOK, ARBOK_JOHTO_FORM
-	wildmon 24, PRIMEAPE
-	; day
-	wildmon 20, EKANS, ARBOK_JOHTO_FORM
-	wildmon 22, MANKEY
-	wildmon 22, RATTATA
-	wildmon 23, RATICATE
-	wildmon 21, SPEAROW
-	wildmon 24, ARBOK, ARBOK_JOHTO_FORM
-	wildmon 24, PRIMEAPE
-	; nite
-	wildmon 20, RATTATA
-	wildmon 22, ZUBAT
-	wildmon 22, RATICATE
-	wildmon 23, GOLBAT
-	wildmon 21, MARILL
-	wildmon 24, GLIGAR
-	wildmon 24, GLIGAR
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -1766,34 +1738,6 @@
 	wildmon 23, VENOMOTH
 	wildmon 23, MAREEP
 	wildmon 23, MAREEP
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_44
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 31, TANGELA
-	wildmon 29, LICKITUNG
-	wildmon 30, BELLSPROUT
-	wildmon 32, WEEPINBELL
-	wildmon 32, LICKITUNG
-	wildmon 34, LICKITUNG
-	wildmon 34, LICKITUNG
-	; day
-	wildmon 31, TANGELA
-	wildmon 29, LICKITUNG
-	wildmon 30, BELLSPROUT
-	wildmon 32, WEEPINBELL
-	wildmon 32, LICKITUNG
-	wildmon 34, LICKITUNG
-	wildmon 34, LICKITUNG
-	; nite
-	wildmon 31, TANGELA
-	wildmon 29, POLIWAG
-	wildmon 30, BELLSPROUT
-	wildmon 32, WEEPINBELL
-	wildmon 32, POLIWHIRL
-	wildmon 34, GLIGAR
-	wildmon 34, GLIGAR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_47

@@ -1021,18 +1021,7 @@ RadioChannels:
 
 .EvolutionRadio:
 ; This station airs in the Lake of Rage area when Rocket are still in Mahogany.
-	ld a, [wStatusFlags]
-	bit STATUSFLAGS_ROCKET_SIGNAL_F, a
-	jr z, NoRadioStation
-	ld a, [wPokegearMapPlayerIconLandmark]
-	cp MAHOGANY_TOWN
-	jr z, .ok
-	cp ROUTE_43
-	jr z, .ok
-	cp LAKE_OF_RAGE
-	jr nz, NoRadioStation
-.ok
-	jmp LoadStation_EvolutionRadio
+	jr NoRadioStation
 
 .InJohto:
 ; if in Johto or on the S.S. Aqua, set carry

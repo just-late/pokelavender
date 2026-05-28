@@ -44,15 +44,6 @@ ENDM
 	map_const ROUTE_35_COAST_SOUTH,                       26, 14 ; 16
 	map_const OLIVINE_CITY_ROUTE_35_COAST_DUAL,           26,  3 ; 17
 
-	newgroup                                                     ;  2
-	map_const MAHOGANY_RED_GYARADOS_SPEECH_HOUSE,          4,  4 ;  1
-	map_const MAHOGANY_GYM,                                5,  9 ;  2
-	map_const MAHOGANY_POKECENTER_1F,                      6,  4 ;  3
-	map_const ROUTE_42_ECRUTEAK_GATE,                      5,  4 ;  4
-	map_const ROUTE_42,                                   30,  9 ;  5
-	map_const ROUTE_44,                                   30,  9 ;  6
-	map_const MAHOGANY_TOWN,                              10,  9 ;  7
-
 	newgroup                                                     ;  3
 	map_const SPROUT_TOWER_1F,                             8,  8 ;  1
 	map_const SPROUT_TOWER_2F,                             8,  8 ;  2
@@ -91,7 +82,6 @@ ENDM
 	map_const OLIVINE_LIGHTHOUSE_4F,                      10,  9 ; 35
 	map_const OLIVINE_LIGHTHOUSE_5F,                      10,  9 ; 36
 	map_const OLIVINE_LIGHTHOUSE_6F,                      10,  9 ; 37
-	map_const MAHOGANY_MART_1F,                            4,  4 ; 38
 	map_const TEAM_ROCKET_BASE_B1F,                       15,  9 ; 39
 	map_const TEAM_ROCKET_BASE_B2F,                       15,  9 ; 40
 	map_const TEAM_ROCKET_BASE_B3F,                       15,  9 ; 41

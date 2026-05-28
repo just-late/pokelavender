@@ -6,8 +6,6 @@ Route42EcruteakGate_MapScriptHeader:
 	def_warp_events
 	warp_event  0,  4, ECRUTEAK_CITY, 1
 	warp_event  0,  5, ECRUTEAK_CITY, 2
-	warp_event  9,  4, ROUTE_42, 1
-	warp_event  9,  5, ROUTE_42, 2
 
 	def_coord_events
 

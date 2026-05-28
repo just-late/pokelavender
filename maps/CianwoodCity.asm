@@ -73,11 +73,6 @@ CianwoodCitySuicuneAndEusine:
 	setscene $0
 	clearevent EVENT_SAW_SUICUNE_ON_ROUTE_42
 	checkevent EVENT_GOT_HM05_WHIRLPOOL
-	iftruefwd .NoLyra
-	setmapscene ROUTE_42, $1
-	sjumpfwd .Continue
-.NoLyra
-	setmapscene ROUTE_42, $2
 .Continue
 	checkevent EVENT_BEAT_EUSINE
 	iftrue DoNothingScript

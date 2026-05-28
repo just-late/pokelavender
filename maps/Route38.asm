@@ -200,7 +200,6 @@ TrainerSchoolboyChad1:
 	checkevent EVENT_CLEARED_RADIO_TOWER
 	iftruefwd .LoadFight2
 .Fight1:
-	checkflag ENGINE_FLYPOINT_MAHOGANY
 	iftruefwd .LoadFight1
 .LoadFight0:
 	loadtrainer SCHOOLBOY, CHAD1
