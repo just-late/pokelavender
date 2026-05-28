@@ -192,4 +192,5 @@ Music:
 	dba Music_RivalsTheme
 	dba Music_Cave
 	dba Music_EggLottery
+	dba Music_Underwater
 	assert_table_length NUM_MUSIC_SONGS

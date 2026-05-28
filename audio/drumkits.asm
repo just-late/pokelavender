@@ -95,7 +95,7 @@ Drumkit6:
 	dr Drum00
 	dr Drum00
 	dr Drum00
-	dr Drum00
+	dr Wave
 	dr Drum00
 	dr Kick1
 	dr Crash2
@@ -274,15 +274,21 @@ Crash1:
 	noise_note 32, 6, 5, 18
 	sound_ret
 
-Snare15:
-	noise_note 32, 4, 3, 51
+Kick3:
+	noise_note 32, 6, 8, 107
+	noise_note 32, 5, 1, 0
 	sound_ret
 
 HiHat4:
 	noise_note 32, 5, 2, 17
 	sound_ret
 
-Kick3:
-	noise_note 32, 6, 8, 107
-	noise_note 32, 5, 1, 0
+Snare15:
+	noise_note 32, 4, 3, 51
+	sound_ret
+
+Wave:
+	noise_note 36, 2, 8, 33
+	noise_note 32, 3, 7, 18
+	noise_note 28, 1, 8, 3
 	sound_ret

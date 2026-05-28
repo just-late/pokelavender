@@ -559,4 +559,7 @@ INCLUDE "audio/music/cave.asm"
 SECTION "Song - lottery", ROMX
 INCLUDE "audio/music/lottery.asm"
 
+SECTION "Song - underwater", ROMX
+INCLUDE "audio/music/dive.asm"
+
 ENDSECTION

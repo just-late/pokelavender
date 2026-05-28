@@ -196,5 +196,6 @@ SongInfo:
 	song_info "Memories            (Rival's theme)", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
 	song_info "Marigold Cave", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
 	song_info "Lottery", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
+	song_info "Sea Jellies         (Underwater theme)", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
 	assert_list_length NUM_MUSIC_SONGS - 1
 	db -1 ; end
