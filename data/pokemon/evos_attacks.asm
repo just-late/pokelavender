@@ -3404,7 +3404,7 @@ ArticunoPlainEvosAttacks:
 	db 78, BRAVE_BIRD ; Sheer Cold → new move
 	db 85, ROOST
 	db 92, HURRICANE
-	db 99, AEROBLAST ; new move
+	db 99, DIVE ; new move
 	db -1 ; no more level-up moves
 
 ArticunoGalarianEvosAttacks:
@@ -3425,7 +3425,7 @@ ArticunoGalarianEvosAttacks:
 	db 78, BRAVE_BIRD ; Sheer Cold → TR move
 	db 85, RECOVER
 	db 92, HURRICANE
-	db 99, AEROBLAST ; new move
+	db 99, DIVE ; new move
 	db -1 ; no more level-up moves
 
 ZapdosPlainEvosAttacks:
@@ -5696,7 +5696,7 @@ LugiaEvosAttacks:
 	db 29, RAIN_DANCE
 	db 37, HYDRO_PUMP
 	db 43, DRAGON_PULSE ; Aeroblast → TM move
-	db 50, AEROBLAST ; Punishment → Aeroblast
+	db 50, DIVE ; Punishment → Aeroblast
 	db 57, ANCIENTPOWER
 	db 65, SAFEGUARD
 	db 71, RECOVER

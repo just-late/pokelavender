@@ -179,7 +179,7 @@ BattleAnimations::
 	fardw BattleAnim_Curse
 	fardw BattleAnim_GyroBall
 	fardw BattleAnim_EnergyBall
-	fardw BattleAnim_Aeroblast
+	fardw BattleAnim_Fly ; Dive
 	fardw BattleAnim_SeedBomb
 	fardw BattleAnim_Reversal
 	fardw BattleAnim_Astonish

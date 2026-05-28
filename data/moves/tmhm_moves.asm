@@ -81,8 +81,9 @@ TMHMMoves:
 	db SURF         ; HM03 (Ecruteak City)
 	db STRENGTH     ; HM04 (Cianwood City)
 	db WHIRLPOOL    ; HM05 (Route 42)
-	db WATERFALL    ; HM06 (Ice Path)
-	db ROCK_SMASH   ; HM07 (Blaze in Moonflower City)
+	db ROCK_SMASH   ; HM06 (Blaze in Moonflower City)
+	db DIVE         ; HM07
+	db WATERFALL    ; HM08
 	assert_table_length NUM_TMS + NUM_HMS
 	db AGILITY      ; MT01 (TODO)
 	db AQUA_TAIL    ; MT02 (Route 4)

@@ -177,7 +177,7 @@ MoveDescriptions::
 	dw CurseDescription
 	dw GyroBallDescription
 	dw EnergyBallDescription
-	dw AeroblastDescription
+	dw DiveDescription
 	dw SeedBombDescription
 	dw ReversalDescription
 	dw AstonishDescription
@@ -273,7 +273,6 @@ KarateChopDescription:
 RazorLeafDescription:
 CrabhammerDescription:
 SlashDescription:
-AeroblastDescription:
 CrossChopDescription:
 NightSlashDescription:
 ShadowClawDescription:
@@ -736,6 +735,11 @@ SolarBeamDescription:
 
 FlyDescription:
 	text "1st turn: Fly"
+	next "2nd turn: Attack"
+	done
+
+DiveDescription:
+	text "1st turn: Dive"
 	next "2nd turn: Attack"
 	done
 

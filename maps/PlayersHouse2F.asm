@@ -112,9 +112,10 @@ DebugDudeScript:
 	yesorno
 	iffalsefwd .End
 	givepoke FLYGON, PLAIN_FORM, 50, SAFE_GOGGLES
-	givepoke SWINUB, PLAIN_FORM, 50, EVERSTONE
+	givepoke GYARADOS, PLAIN_FORM, 50, EVERSTONE
 	givepoke TYPHLOSION, HISUIAN_FORM, 50, CHARCOAL
 	givetmhm HM_ROCK_SMASH
+	givetmhm HM_DIVE
 	setevent EVENT_ALWAYS_SET
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD

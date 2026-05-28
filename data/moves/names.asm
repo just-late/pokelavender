@@ -177,7 +177,7 @@ MoveNames::
 	li "CURSE"
 	li "GYRO BALL"
 	li "ENERGY BALL"
-	li "AEROBLAST"
+	li "DIVE"
 	li "SEED BOMB"
 	li "REVERSAL"
 	li "ASTONISH"
