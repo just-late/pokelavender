@@ -9,8 +9,8 @@ Route1_MapScriptHeader:
 
 	def_bg_events
 	bg_event 15, 21, BGEVENT_JUMPTEXT, Route1SignText
-	soil_event 12, 3
-	soil_event 13, 3
+;	soil_event 12, 3
+;	soil_event 13, 3
 
 	db 4 ; object events
 	person_event SPRITE_LASS, 22, 12, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC1Text, -1

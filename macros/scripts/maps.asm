@@ -77,9 +77,9 @@ MACRO bg_event
 	redef {_NUM_BG_EVENTS} += 1
 ENDM
 
-MACRO soil_event
-	bg_event \1, \2, BGEVENT_JUMPSTD, softloamysoil
-ENDM
+;MACRO soil_event
+;	bg_event \1, \2, BGEVENT_JUMPSTD, softloamysoil
+;ENDM
 
 MACRO def_object_events
 	REDEF _NUM_OBJECT_EVENTS EQUS "_NUM_OBJECT_EVENTS_\@"
@@ -197,7 +197,6 @@ ENDM
 MACRO mart_clerk_event
 	object_event \1, \2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, pokemart, \3, \4, -1
 ENDM
-
 
 MACRO trainer
 	; flag, group, id, seen text, win text, lost text, after script
