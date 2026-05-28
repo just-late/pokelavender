@@ -236,9 +236,9 @@ Music_Underwater_Ch1:
 	sound_ret
 
 .sub3:
-	volume_envelope 1, 1
 	duty_cycle 1
 	vibrato 0, 0, 0
+	volume_envelope 1, 1
 	note C#, 1
 	note D#, 1
 	volume_envelope 4, 1
@@ -383,13 +383,21 @@ Music_Underwater_Ch3:
 	octave 2
 	note C#, 9
 	octave 1
+	note_type 6, 1, 0
 	note F#, 1
+	note G_, 1
 	note G#, 1
+	note A_, 1
 	note A#, 1
+	note B_, 1
 	octave 2
 	note C#, 1
+	note D_, 1
 	note D#, 1
+	note E_, 1
+	note F_, 1
 	note F#, 1
+	note_type 12, 1, 0
 	note G#, 6
 	note D#, 9
 	note_type 6, 1, 0
@@ -472,12 +480,12 @@ Music_Underwater_Ch4:
 	toggle_noise 0
 	drum_speed 12
 .mainLoop_Ch4:
-	rest 16
-	rest 16
+	octave 5
 	toggle_noise
 	toggle_noise 6
+	rest 16
+	rest 16
 	rest 13
-	octave 5
 	drum_note 3, 14
 	rest 13
 	drum_note 3, 16
