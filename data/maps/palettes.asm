@@ -70,6 +70,7 @@ ENDM
 	special_bg_pal map,      BLOSSOM_CITY,				  PAL_TIMEOFDAY, BlossomCityPalette
 	special_bg_pal map,      GRANITE_VILLAGE,		      PAL_TIMEOFDAY, MountainPalette
 	special_bg_pal map,      CANYON_1F,		       		  PAL_TIMEOFDAY, BGCanyonPalette
+	special_bg_pal map,      JUNGLE_QUARTER,			  PAL_TIMEOFDAY, JungleQuarterPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
@@ -92,6 +93,9 @@ ENDM
 	special_bg_pal tileset,  TILESET_ICE_PATH,            PAL_SINGLE,    IcePathPalette
 	special_bg_pal tileset,  TILESET_SNOWTOP_MOUNTAIN,    PAL_TIMEOFDAY, SnowtopMountainPalette
 	db 0 ; end
+
+JungleQuarterPalette:
+INCLUDE "maps/JungleQuarter.pal"
 
 BlindingFlashPalette:
 if !DEF(MONOCHROME)

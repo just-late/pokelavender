@@ -72,7 +72,8 @@ TilesetMountainAnim::
 
 TilesetBlossom1Anim::
 TilesetBlossom2Anim::
-	dw vTiles2 tile $14, AnimateKantoWaterTile
+	dw vTiles2 tile $14, AnimateWaterTile
+	dw vTiles2 tile $35, AnimateWaterfallTile
 	dw vTiles2 tile $40, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileDown
 	dw wTileAnimBuffer, ScrollTileDown
@@ -82,7 +83,7 @@ TilesetBlossom2Anim::
 	dw vTiles2 tile $11, ScrollTileDown
 	dw vTiles2 tile $12, ScrollTileLeft
 	dw vTiles2 tile $13, ScrollTileRight
-	dw NULL,  AnimateKantoFlowerTile
+	dw NULL,  AnimateFlowerTile
 	dw vTiles2 tile $10, ScrollTileUp
 	dw vTiles2 tile $11, ScrollTileDown
 	dw vTiles2 tile $12, ScrollTileLeft
@@ -930,6 +931,34 @@ INCBIN "gfx/tilesets/kanto-flower/1.2bpp"
 INCBIN "gfx/tilesets/kanto-flower/2.2bpp"
 INCBIN "gfx/tilesets/kanto-flower/3.2bpp"
 INCBIN "gfx/tilesets/kanto-flower/1.2bpp"
+
+AnimateWaterfallTile:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, every 2 frames, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4, 1
+	add a
+	add a
+	add a
+
+	add LOW(.WaterfallTileFrames)
+	ld l, a
+	adc HIGH(.WaterfallTileFrames)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	ld hl, vTiles2 tile $35
+	jmp WriteTile
+
+.WaterfallTileFrames:
+	INCBIN "gfx/tilesets/waterfall/1.2bpp"
+	INCBIN "gfx/tilesets/waterfall/2.2bpp"
+	INCBIN "gfx/tilesets/waterfall/3.2bpp"
+	INCBIN "gfx/tilesets/waterfall/4.2bpp"
 
 LavaBubbleAnim1:
 	ld hl, sp + 0

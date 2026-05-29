@@ -19,6 +19,8 @@ BlossomCity_MapScriptHeader:
 	bg_event 11, 16, BGEVENT_JUMPTEXT, BlossomCityGameCornerSignText
 	bg_event  7,  8, BGEVENT_JUMPTEXT, BlossomCityLabSignText
 	bg_event 24, 11, BGEVENT_JUMPTEXT, BlossomCityDecorSignText
+	bg_event 27, 14, BGEVENT_JUMPTEXT, BlossomCityAcademyMainSignText
+	bg_event 32, 12, BGEVENT_JUMPTEXT, BlossomCityAcademyDormsSignText
 
     db 24 ; object events
 	object_event 12, 14, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
@@ -251,4 +253,14 @@ BlossomCityWaitingGirlText:
 
     para "He's such a"
     line "dumpy dude…"
+    done
+
+BlossomCityAcademyMainSignText:
+    text "BLOSSOM ACADEMY"
+    line "MAIN BUILDING"
+    done
+
+BlossomCityAcademyDormsSignText:
+    text "BLOSSOM ACADEMY"
+    line "DORMS"
     done

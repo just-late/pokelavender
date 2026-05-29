@@ -1046,4 +1046,8 @@ SECTION "Boat Cutscene Scripts", ROMX
 
 INCLUDE "maps/BoatCutscene.asm"
 
+SECTION "Blossom Academy Scripts", ROMX
+
+INCLUDE "maps/JungleQuarter.asm"
+
 ENDSECTION

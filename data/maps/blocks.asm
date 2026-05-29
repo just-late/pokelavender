@@ -1874,4 +1874,8 @@ SECTION "BlossomGameCorner_BlockData", ROMX
 BlossomGameCorner_BlockData:
 	INCBIN "maps/BlossomGameCorner.ablk.lz"
 
+SECTION "JungleQuarter_BlockData", ROMX
+JungleQuarter_BlockData:
+	INCBIN "maps/JungleQuarter.ablk.lz"
+
 ENDSECTION

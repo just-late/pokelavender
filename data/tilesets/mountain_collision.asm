@@ -202,7 +202,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; c9
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; ca
 	tilecoll WALL, WARP_CARPET_RIGHT, FLOOR, LADDER ; cb
-	tilecoll WATER, WATER, WALL, WALL ; cc
+	tilecoll WALL, WALL, WALL, WALL ; cc
 	tilecoll WALL, WALL, WALL, WALL ; cd
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; ce
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; cf
@@ -226,8 +226,8 @@
 	tilecoll WALL, TOP_WALL, WALL, FLOOR ; e1
 	tilecoll FLOOR, WALL, WALL, WALL ; e2
 	tilecoll WALL, WALL, WALL, WALL ; e3
-	tilecoll WALL, WALL, WALL, DOOR ; e4
-	tilecoll WALL, WALL, MART_SIGN, WALL ; e5
+	tilecoll WALL, TOP_WALL, WALL, FLOOR ; e4
+	tilecoll WALL, WALL, WALL, WALL ; e5
 	tilecoll WALL, WALL, WALL, WALL ; e6
 	tilecoll HEADBUTT_TREE, WALL, HEADBUTT_TREE, WALL ; e7
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; e8

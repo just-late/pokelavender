@@ -844,3 +844,4 @@ ENDM
 	map_attributes CanyonDepths, CANYON_DEPTHS, $5, 0
 	map_attributes Canyon1F, CANYON_1F, $5, 0
 	map_attributes BlossomGameCorner, BLOSSOM_GAME_CORNER, $0, 0
+	map_attributes JungleQuarter, JUNGLE_QUARTER, $2d, 0
