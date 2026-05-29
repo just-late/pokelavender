@@ -115,7 +115,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 72
 	tilecoll WALL, WALL, WALL, WALL ; 73
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 74
-	tilecoll WALL, WALL, WALL, WALL ; 75
+	tilecoll WATER, WATER, WATER, WATER ; 75
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 76
 	tilecoll WALL, WALL, WALL, WALL ; 77
 	tilecoll FLOOR, FLOOR, WATER, WATER ; 78
