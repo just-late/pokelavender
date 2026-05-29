@@ -16,6 +16,7 @@ and many more. Please make yourselves known.
 * FrenchOrange
 * SupahShanti
 * leParagon
+* Farore
 
 ## Cries:
 * SourApple
