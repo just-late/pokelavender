@@ -88,7 +88,7 @@ Music_Underwater_Ch1:
 	note D#, 1
 	note F#, 1
 	note G#, 1
-	note_type 6, 4, 1
+	note_type 6, 4, 8
 	note A#, 1
 	note G#, 1
 	note F#, 1
@@ -106,12 +106,61 @@ Music_Underwater_Ch1:
 	note F#, 1
 	note D#, 1
 	sound_call .sub6
-	note_type 6, 4, 1
-	sound_call .sub6
-	note_type 6, 4, 1
-	sound_call .sub6
 	note_type 6, 2, 8
+	note C#, 1
+	note D#, 1
+	volume_envelope 3, 8
+	note F#, 1
+	note G#, 1
+	volume_envelope 4, 8
+	note A#, 1
+	octave 4
+	note C#, 1
+	volume_envelope 6, 8
+	note D#, 1
+	note F#, 1
+	volume_envelope 8, 8
+	note A#, 1
+	note F#, 1
+	volume_envelope 6, 8
+	note D#, 1
+	note C#, 1
 	octave 3
+	volume_envelope 4, 8
+	note A#, 1
+	volume_envelope 3, 8
+	note G#, 1
+	volume_envelope 2, 8
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	volume_envelope 3, 8
+	note F#, 1
+	note G#, 1
+	volume_envelope 4, 8
+	note A#, 1
+	octave 4
+	volume_envelope 5, 8
+	note C#, 1
+	note D#, 1
+	volume_envelope 6, 8
+	note F#, 1
+	octave 5
+	volume_envelope 8, 8
+	note C#, 1
+	octave 4
+	volume_envelope 6, 8
+	note F#, 1
+	note D#, 1
+	volume_envelope 4, 8
+	note C#, 1
+	octave 3
+	note A#, 1
+	volume_envelope 3, 8
+	note G#, 1
+	note F#, 1
+	note D#, 1
 	note C#, 1
 	octave 2
 	note A#, 1
@@ -195,7 +244,9 @@ Music_Underwater_Ch1:
 	note_type 12, 1, 8
 	sound_call .sub7
 	note_type 12, 4, 1
-	rest 7
+	rest 6
+	volume_envelope 1, 1
+	note D#, 1
 	octave 8
 	sound_jump .mainLoop_Ch1
 
@@ -294,18 +345,23 @@ Music_Underwater_Ch1:
 	note C#, 1
 	note D#, 1
 	note F#, 1
+	volume_envelope 3, 8
 	note G#, 1
 	note A#, 1
 	octave 4
+	volume_envelope 4, 8
 	note C#, 1
 	note D#, 1
 	note F#, 1
+	volume_envelope 6, 8
 	note G#, 1
 	note F#, 1
 	note D#, 1
+	volume_envelope 4, 8
 	note C#, 1
 	octave 3
 	note A#, 1
+	volume_envelope 2, 8
 	note G#, 1
 	note F#, 1
 	note D#, 1
