@@ -30,8 +30,8 @@ Music_Underwater_Ch1:
 	volume_envelope 4, 8
 	duty_cycle 2
 	vibrato 3, 1, 2
-	note D#, 11
-	rest 2
+	note D#, 10
+	note F#, 3
 	octave 5
 	volume_envelope 1, 1
 	duty_cycle 1
@@ -289,7 +289,7 @@ Music_Underwater_Ch1:
 .sub3:
 	duty_cycle 1
 	vibrato 0, 0, 0
-	volume_envelope 1, 1
+	volume_envelope 1, 8
 	note C#, 1
 	note D#, 1
 	volume_envelope 4, 1
