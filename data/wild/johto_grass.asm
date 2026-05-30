@@ -1992,6 +1992,34 @@
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	end_grass_wildmons
 
+	def_grass_wildmons JUNGLE_QUARTER
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	wildmon LEVEL_FROM_BADGES - 1, SWABLU
+	wildmon LEVEL_FROM_BADGES - 2, EXEGGCUTE
+	wildmon LEVEL_FROM_BADGES + 0, KANGASKHAN
+	wildmon LEVEL_FROM_BADGES + 0, CHARMANDER
+	wildmon LEVEL_FROM_BADGES - 2, SWABLU
+	wildmon LEVEL_FROM_BADGES - 1, SCYTHER
+	wildmon LEVEL_FROM_BADGES - 1, PICHU
+	; day
+	wildmon LEVEL_FROM_BADGES - 1, SWABLU
+	wildmon LEVEL_FROM_BADGES - 2, EXEGGCUTE
+	wildmon LEVEL_FROM_BADGES + 0, KANGASKHAN
+	wildmon LEVEL_FROM_BADGES + 0, CHARMANDER
+	wildmon LEVEL_FROM_BADGES - 2, SWABLU
+	wildmon LEVEL_FROM_BADGES - 1, PINSIR
+	wildmon LEVEL_FROM_BADGES - 1, PICHU
+	; nite
+	wildmon LEVEL_FROM_BADGES - 1, SWABLU
+	wildmon LEVEL_FROM_BADGES - 2, EXEGGCUTE
+	wildmon LEVEL_FROM_BADGES + 0, KANGASKHAN
+	wildmon LEVEL_FROM_BADGES + 0, CHARMANDER
+	wildmon LEVEL_FROM_BADGES - 2, SWABLU
+	wildmon LEVEL_FROM_BADGES - 1, HERACROSS
+	wildmon LEVEL_FROM_BADGES - 1, PICHU
+	end_grass_wildmons
+
 	def_grass_wildmons QUIET_CAVE_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
