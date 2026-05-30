@@ -4,8 +4,8 @@ JungleQuarter_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event  6, 29, PLAYERS_HOUSE_2F, 1
-	warp_event  7, 29, PLAYERS_HOUSE_2F, 1
+	warp_event  6, 29, ACADEMY_POKECENTER, 3
+	warp_event  7, 29, ACADEMY_POKECENTER, 3
 
     def_coord_events
 

@@ -1049,5 +1049,7 @@ INCLUDE "maps/BoatCutscene.asm"
 SECTION "Blossom Academy Scripts", ROMX
 
 INCLUDE "maps/JungleQuarter.asm"
+INCLUDE "maps/MountainQuarter.asm"
+INCLUDE "maps/AcademyPokeCenter.asm"
 
 ENDSECTION

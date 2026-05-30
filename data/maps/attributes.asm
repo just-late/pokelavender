@@ -845,3 +845,5 @@ ENDM
 	map_attributes Canyon1F, CANYON_1F, $5, 0
 	map_attributes BlossomGameCorner, BLOSSOM_GAME_CORNER, $0, 0
 	map_attributes JungleQuarter, JUNGLE_QUARTER, $2d, 0
+	map_attributes MountainQuarter, MOUNTAIN_QUARTER, $0, 0
+	map_attributes AcademyPokeCenter, ACADEMY_POKECENTER, $0, 0

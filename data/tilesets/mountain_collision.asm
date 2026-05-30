@@ -164,7 +164,7 @@
 	tilecoll FLOOR, WALL, FLOOR, WALL ; a3
 	tilecoll WALL, WALL, FLOOR, WALL ; a4
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; a5
-	tilecoll WATER, WATER, WATERFALL, WATERFALL ; a6
+	tilecoll TOP_WALL, TOP_WALL, WALL, FLOOR ; a6
 	tilecoll WALL, FLOOR, WALL, WALL ; a7
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a8
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a9
@@ -234,7 +234,7 @@
 	tilecoll WALL, WALL, FLOOR, FLOOR ; e9
 	tilecoll TOP_WALL, WALL, FLOOR, WALL ; ea
 	tilecoll WALL, TOP_WALL, WALL, FLOOR ; eb
-	tilecoll WATER, WALL, WALL, WALL ; ec
+	tilecoll FLOOR, WALL, WALL, WALL ; ec
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; ed
 	tilecoll WALL, WALL, WALL, WALL ; ee
 	tilecoll TOP_WALL, WALL, FLOOR, WALL ; ef

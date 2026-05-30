@@ -1878,4 +1878,12 @@ SECTION "JungleQuarter_BlockData", ROMX
 JungleQuarter_BlockData:
 	INCBIN "maps/JungleQuarter.ablk.lz"
 
+SECTION "MountainQuarter_BlockData", ROMX
+MountainQuarter_BlockData:
+	INCBIN "maps/MountainQuarter.ablk.lz"
+
+SECTION "AcademyPokeCenter_BlockData", ROMX
+AcademyPokeCenter_BlockData:
+	INCBIN "maps/AcademyPokeCenter.ablk.lz"
+
 ENDSECTION
