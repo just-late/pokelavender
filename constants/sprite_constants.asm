@@ -214,6 +214,7 @@
 	const SPRITE_CRYS_RUN  ; d2
 	const SPRITE_CORSOLA_OW ; d3
 	const SPRITE_NIDOKING_OW ; d4
+	const SPRITE_CAMPFIRE ; d5
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

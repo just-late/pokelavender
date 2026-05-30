@@ -50,7 +50,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 31
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 32
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 33
-	tilecoll BUOY, WATER, BUOY, WATER ; 34
+	tilecoll TOP_WALL, TOP_WALL, WALL, FLOOR ; 34
 	tilecoll WATER, WATER, WATER, WATER ; 35
 	tilecoll WATER, BUOY, WATER, BUOY ; 36
 	tilecoll WALL, WALL, WALL, WALL ; 37
