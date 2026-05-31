@@ -15,6 +15,6 @@ MountainQuarter_MapScriptHeader:
 	object_event 20,  5, SPRITE_CAMPFIRE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, FireCracklingText, -1 
 
 FireCracklingText:
-    text "The fire is"
+    text "The campfire is"
     line "crackling merrily."
     done

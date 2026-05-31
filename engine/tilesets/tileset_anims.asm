@@ -107,7 +107,7 @@ TilesetPortAnim::
 
 TilesetBlossomCityAnim::
 	dw vTiles2 tile $7d, AnimateWaterTile
-	dw NULL,  DoNothing
+	dw NULL,  AnimateMovieTile1
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -959,6 +959,36 @@ AnimateWaterfallTile:
 	INCBIN "gfx/tilesets/waterfall/2.2bpp"
 	INCBIN "gfx/tilesets/waterfall/3.2bpp"
 	INCBIN "gfx/tilesets/waterfall/4.2bpp"
+
+AnimateMovieTile1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	swap a
+
+	add LOW(MovieTile1Frames)
+	ld l, a
+	adc HIGH(MovieTile1Frames)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	ld hl, vTiles2 tile $6c
+	jmp WriteTile
+
+MovieTile1Frames:
+	INCBIN "gfx/tilesets/movie-sign/1_2.2bpp"
+	INCBIN "gfx/tilesets/movie-sign/1_2.2bpp"
+	INCBIN "gfx/tilesets/movie-sign/1_2.2bpp"
+	INCBIN "gfx/tilesets/movie-sign/1_1.2bpp"
+	INCBIN "gfx/tilesets/movie-sign/1_2.2bpp"
+	INCBIN "gfx/tilesets/movie-sign/1_1.2bpp"
+	INCBIN "gfx/tilesets/movie-sign/1_2.2bpp"
+	INCBIN "gfx/tilesets/movie-sign/1_2.2bpp"
 
 LavaBubbleAnim1:
 	ld hl, sp + 0

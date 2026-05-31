@@ -8,8 +8,6 @@ BlossomCity_MapScriptHeader:
 	warp_event 12, 15, BLOSSOM_GAME_CORNER, 1
 
     def_coord_events
-;	coord_event 33, 33, 0, BlossomCityAnabelBattleTrigger1
-;	coord_event 34, 33, 0, BlossomCityAnabelBattleTrigger2
 
     def_bg_events
 	bg_event 31, 30, BGEVENT_JUMPTEXT, BlossomCitySignText
@@ -22,15 +20,15 @@ BlossomCity_MapScriptHeader:
 	bg_event 27, 14, BGEVENT_JUMPTEXT, BlossomCityAcademyMainSignText
 	bg_event 32, 12, BGEVENT_JUMPTEXT, BlossomCityAcademyDormsSignText
 
-    db 24 ; object events
+    def_object_events ; object events
 	object_event 12, 14, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
 	object_event 13, 13, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
 	object_event 14, 13, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
 	object_event 12, 13, SPRITE_DITTO_TILES_2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
-	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
-	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
-	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
-	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
+;	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
+;	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
+;	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
+;	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 	person_event SPRITE_BIRD_KEEPER, 12,  6, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC1Text, -1
 	person_event SPRITE_BURGLAR, 31, 29, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC2Text, -1
 	person_event SPRITE_BLACK_BELT, 22, 34, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC3Text, -1
@@ -45,8 +43,8 @@ BlossomCity_MapScriptHeader:
 	person_event SPRITE_POKEFAN_M, 17, 13, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityCoinCaseGuyText, -1
 	person_event SPRITE_MATRON, 28, 27, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityParkNPCText, -1,
 	pokemon_event 22, 12, WOBBUFFET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, BlossomCityWobbuffetText, -1
-	person_event SPRITE_CLERK,  9, 24, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityDollSellerText, -1
-	object_event 24, 10, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, MAGNEMITE, -1, -1, PAL_NPC_GRAY, PERSONTYPE_COMMAND, jumptext, BlossomCityMagnemiteDollText, -1
+;	person_event SPRITE_CLERK,  9, 24, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityDollSellerText, -1
+;	object_event 24, 10, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, MAGNEMITE, -1, -1, PAL_NPC_GRAY, PERSONTYPE_COMMAND, jumptext, BlossomCityMagnemiteDollText, -1
 
 BlossomCitySouvenirReceptionistScript:
     pokemart MARTTYPE_BLOSSOM_SOUVENIR, MART_BLOSSOM_SOUVENIR
