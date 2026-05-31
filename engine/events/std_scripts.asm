@@ -370,6 +370,8 @@ BugContestResultsScript:
 	clearflag ENGINE_BUG_CONTEST_TIMER
 	clearevent EVENT_WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE
 	clearevent EVENT_CONTEST_OFFICER_HAS_PRIZE
+	end
+NoopBugContest:
 	opentext
 	farwritetext ContestResults_ReadyToJudgeText
 	waitbutton
