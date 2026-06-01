@@ -117,6 +117,7 @@ DebugDudeScript:
 	givetmhm HM_ROCK_SMASH
 	givetmhm HM_DIVE
 	setevent EVENT_ALWAYS_SET
+	setevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_POKEDEX
@@ -146,6 +147,10 @@ PlayerRadioText4:
 	done
 
 DebugDudeText:
-	text "DEBUG DUDE:"
-	line "Want debug tools?"
+	nametag
+	text "DEBUG DUDE"
+	next
+	text_start
+	text "Want some debug"
+	line "tools?"
 	done

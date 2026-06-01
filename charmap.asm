@@ -16,7 +16,7 @@ ENDM
 	charmap "<NUM>",    $04
 	charmap "<PAUSE>",  $05
 	charmap "<SOUND>",  $06
-	charmap "<DAY>",    $07
+	charmap "<NAMETAG>", $07 ; New. Old:	charmap "<DAY>",    $07
 	charmap "<FAR>",    $08
 
 	; n-grams: $09 - $51 (defined below)

@@ -503,7 +503,7 @@ TextCommands::
 	dw TextCommand_DECIMAL       ; $04 <NUM>
 	dw TextCommand_PAUSE         ; $05 <PAUSE>
 	dw TextCommand_SOUND         ; $06 <SOUND>
-	dw TextCommand_DAY           ; $07 <DAY>
+	dw TextCommand_SetHigher     ; $07 <NAMETAG> New ; old: 	dw TextCommand_DAY           ; $07 <DAY>
 	dw TextCommand_FAR           ; $08 <FAR>
 	assert_table_length NGRAMS_START
 
@@ -795,3 +795,7 @@ DecompressString::
 	ldh a, [hPlaceStringCoords+1]
 	ld h, a
 	ret
+
+TextCommand_SetHigher:
+	bccoord TEXTBOX_INNERX, TEXTBOX_INNERY - 2 ; Set coordinates 2 lines higher
+	ret      

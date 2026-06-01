@@ -26,6 +26,10 @@ MACRO text_promptbutton
 	db "<WAIT>"
 ENDM
 
+MACRO nametag
+	db "<NAMETAG>"
+ENDM
+
 MACRO text_asm
 ; Start interpreting assembly code.
 	stop_compressing_text
