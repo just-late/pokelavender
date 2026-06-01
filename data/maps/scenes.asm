@@ -47,7 +47,7 @@ MapScenes::
 	scene_var KARENS_ROOM,                            wKarensRoomSceneID
 	scene_var KOGAS_ROOM,                             wKogasRoomSceneID
 	scene_var LANCES_ROOM,                            wLancesRoomSceneID
-	scene_var LAVENDER_TOWN,                          wLavenderTownSceneID
+	scene_var GRANITE_VILLAGE,						  wGraniteVillageSceneID
 	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID
 	scene_var MOUNT_MOON_SQUARE,                      wAlways0SceneID
 	scene_var MR_POKEMONS_HOUSE,                      wMrPokemonsHouseSceneID

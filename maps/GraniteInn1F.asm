@@ -4,8 +4,8 @@ GraniteInn1F_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event  7, 11, PLAYERS_HOUSE_2F, 1
-	warp_event  8, 11, PLAYERS_HOUSE_2F, 1
+	warp_event  7, 11, GRANITE_VILLAGE, 1
+	warp_event  8, 11, GRANITE_VILLAGE, 1
 
     def_coord_events
 ;	coord_event  7,  6

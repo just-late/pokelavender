@@ -4,7 +4,7 @@ GraniteVillageTrainTrack_MapScriptHeader:
     def_scene_scripts
 
     def_warp_events
-	warp_event 22, 11, PLAYERS_HOUSE_2F, 1
+	warp_event 22, 11, GRANITE_VILLAGE, 2
 	warp_event 25,  5, PLAYERS_HOUSE_2F, 1
 
     def_coord_events

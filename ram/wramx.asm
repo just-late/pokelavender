@@ -1082,7 +1082,7 @@ wKarensRoomSceneID:: db
 wKogasRoomSceneID:: db
 wPlayersHouse1FSceneID:: db
 wLancesRoomSceneID:: db
-wLavenderTownSceneID:: db
+wGraniteVillageSceneID:: db
 wMahoganyMart1FSceneID:: db
 wMahoganyTownSceneID:: db
 wMountMoon1FSceneID:: db
