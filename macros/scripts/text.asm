@@ -45,7 +45,7 @@ MACRO text_decimal
 ENDM
 
 MACRO text_pause
-; Pause for 30 frames unless A or B is pressed.
+; Pause for 30 frames.
 	stop_compressing_text
 	db "<PAUSE>"
 ENDM

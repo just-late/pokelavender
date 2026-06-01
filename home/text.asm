@@ -606,16 +606,11 @@ FinishString:
 	ret
 
 TextCommand_PAUSE::
-; wait for button press or 30 frames
+; wait for 30 frames
 	push hl
 	push bc
-	call GetJoypad
-	ldh a, [hJoyDown]
-	and A_BUTTON | B_BUTTON
-	jr nz, .done
 	ld c, 30
 	call DelayFrames
-.done
 	pop bc
 	pop hl
 	ret
