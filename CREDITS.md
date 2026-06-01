@@ -12,11 +12,12 @@ and many more. Please make yourselves known.
 * Rosie
 * Nuuk
 * FrenchOrange
-* AzureKeys, PiaCarrot
-* FrenchOrange
+* AzureKeys
+* PiaCarrot
 * SupahShanti
 * leParagon
 * Farore
+* Megaman
 
 ## Cries:
 * SourApple
@@ -37,6 +38,9 @@ and many more. Please make yourselves known.
 
 ## Battle Animations:
 * SourApple
+
+## Code:
+* dwg
 
 ## Special Thanks:
 * Rangi42 for creating the polished crystal engine. This would not have been possible without you.
