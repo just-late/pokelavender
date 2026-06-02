@@ -793,4 +793,4 @@ DecompressString::
 
 TextCommand_SetHigher:
 	bccoord TEXTBOX_INNERX, TEXTBOX_INNERY - 2 ; Set coordinates 2 lines higher
-	ret      
+	ret

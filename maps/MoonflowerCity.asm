@@ -264,6 +264,10 @@ MoonflowerPokeGearGuy_Script:
 	faceplayer
 	jumpthistext
 
+	nametag
+	text " SALESMAN "
+	next
+	text_start
 	text "You must find the"
 	line "#CLOWNS!"
 
@@ -341,6 +345,10 @@ MoonflowerMeetRivalAfterSpeechScript:
 	end
 
 MoonflowerPokeGearGuy_Text4:
+	nametag
+	text " SALESMAN "
+	next
+	text_start
 	text "This is it!"
 
 	para "The MAP CARD!"
@@ -352,6 +360,10 @@ ReceivedMapCardText:
 	done
 
 MoonflowerPokeGearGuy_Text5:
+	nametag
+	text " SALESMAN "
+	next
+	text_start
 	text "That MAP CARD,"
 	line "it shall serve"
 	cont "you well!"
@@ -361,7 +373,11 @@ MoonflowerPokeGearGuy_Text5:
 	done
 
 MoonflowerIndigoBossComeJoinUsText:
-	text "???: Ah!"
+	nametag
+	text " ??? "
+	next
+	text_start
+	text "Ah!"
 	line "Come listen."
 	
 	para "I have something"
@@ -369,6 +385,10 @@ MoonflowerIndigoBossComeJoinUsText:
 	done
 
 MoonflowerIndigoBossAreYouListeningText1:
+	nametag
+	text " ??? "
+	next
+	text_start
 	text "You people"
 	line "over here!"
 
@@ -381,6 +401,10 @@ MoonflowerIndigoBossAreYouListeningText1:
 	done
 
 MoonflowerIndigoBossAreYouListeningText2:
+	nametag
+	text " ??? "
+	next
+	text_start
 	text "And you people"
 	line "over here!"
 
@@ -393,8 +417,12 @@ MoonflowerIndigoBossAreYouListeningText2:
 	done
 
 MoonflowerIndigoBossIntroText:
-	text "???: All right."
-	line "Now, I will begin."
+	nametag
+	text " ??? "
+	next
+	text_start
+	text "All right."
+	line "Now, <PAUSE>I will begin."
 
 	para "The ATUVA REGION"
 	line "was once a place"
@@ -438,10 +466,14 @@ MoonflowerIndigoBossIntroText:
 	done
 
 MoonflowerIndigoBossMainText:
-	text "???: Now, calm"
-	line "down, calm down."
+	nametag
+	text " ??? "
+	next
+	text_start
+	text "Now, calm down,<PAUSE>"
+	line "calm down."
 
-	para "……"
+	para "…<PAUSE>…"
 
 	para "TEAM INDIGO's"
 	line "goal is to wake"
@@ -471,7 +503,7 @@ MoonflowerIndigoBossMainText:
 	cont "seek to restore"
 	cont "them."
 
-	para "……"
+	para "…<PAUSE>…"
 
 	para "That is all I"
 	line "have to say today."
@@ -481,7 +513,7 @@ MoonflowerIndigoBossMainText:
 	cont "contributing to"
 	cont "our cause."
 
-	para "Now, I will go."
+	para "Now, <PAUSE>I will go."
 	done
 
 PokeGearCampaignClown1_Script:
@@ -633,7 +665,11 @@ TeamIndigoTrigger4:
 	end
 
 IndigoGruntText:
-	text "PUNK: Hey! What?!"
+	nametag
+	text " PUNK "
+	next
+	text_start
+	text "Hey! <PAUSE>What?!"
 
 	para "What's a kid like"
 	line "you doing here?"
@@ -646,13 +682,20 @@ IndigoGruntText:
 	done
 
 DontMessWithTeamIndigoText:
-	text "PUNK: That should"
-	line "teach you not"
-	cont "to mess with"
-	cont "TEAM INDIGO!"
+	nametag
+	text " PUNK "
+	next
+	text_start
+	text "That should teach"
+	line "you not to mess"
+	cont "with TEAM INDIGO!"
 	done
 
 MoonflowerPokeGearGuy_Text1:
+	nametag
+	text " SALESMAN "
+	next
+	text_start
 	text "Hello, bonjour!"
 
 	para "Are you trainer?"
@@ -660,13 +703,17 @@ MoonflowerPokeGearGuy_Text1:
 	para "You are, just look"
 	line "at you!"
 
-	para "Now trainer…"
+	para "Now <PAUSE>trainer…"
 
 	para "I have a secret"
 	line "for you!"
 	done
 
 MoonflowerPokeGearGuy_Text2:
+	nametag
+	text " SALESMAN "
+	next
+	text_start
 	text "Oui, oui!"
 
 	para "The #GEAR is"
@@ -796,7 +843,7 @@ MoonflowerCityNPC3Text:
 	line "GYM is a hangout"
 	cont "spot for 'em!"
 
-	para "That should be so"
+	para "That should be"
 	line "easy to shut"
 	cont "down!"
 	done
@@ -835,7 +882,7 @@ MoonflowerNPC5Text:
 	para "It's full of mean"
 	line "guys at night."
 
-	para "……………"
+	para "… <PAUSE>… <PAUSE>…"
 
 	para "Why are you still"
 	line "here?"
@@ -864,6 +911,10 @@ MoonflowerRocketGuyText:
 	done
 
 MoonflowerRocketGirlText:
+	nametag
+	text " PUNK "
+	next
+	text_start
 	text "What are you-?"
 
 	para "A kid?!"
@@ -902,6 +953,7 @@ MoonflowerCityHM07Script:
 	waitbutton
 	closetext
 	showemote EMOTE_SHOCK, MOONFLOWER_BIRD_KEEPER, 30
+	turnobject MOONFLOWER_BIRD_KEEPER, LEFT
 	jumptext MoonflowerBirdKeeperAnythingGoodText
 
 .NothingText:
@@ -911,7 +963,11 @@ MoonflowerCityHM07Script:
 	done
 
 MoonflowerBirdKeeperAnythingGoodText:
-	text "GUY: WHAT?"
+	nametag
+	text "GUY"
+	next
+	text_start
+	text "WHAT?"
 
 	para "I thought there"
 	line "was maybe some"
@@ -938,16 +994,19 @@ MoonflowerSpeechGoingOnText:
 	done
 
 MoonflowerRival1Text:
-	text "???: Did you"
-	line "hear that guy's"
-	cont "speech?"
+	nametag
+	text " ??? "
+	next
+	text_start
+	text "Did you hear that"
+	line "guy's speech?"
 
 	para "I just don't"
 	line "understand it."
 
 	para "What he said"
 	line "about waking the"
-	cont "GUARDIANS…"
+	cont "GUARDIANS<PAUSE>…"
 
 	para "Well, I study"
 	line "the ancient"
@@ -957,11 +1016,15 @@ MoonflowerRival1Text:
 	line "only awaken when"
 	cont "they sense the"
 	cont "region is in"
-	cont "danger…"
+	cont "danger<PAUSE>…"
 	done
 
 MoonflowerRivalWimpText:
-	text "…I don't even"
+	nametag
+	text " ??? "
+	next
+	text_start
+	text "…<PAUSE>I don't even"
 	line "need to tell you"
 	cont "this."
 
@@ -970,7 +1033,11 @@ MoonflowerRivalWimpText:
 	done
 
 MoonflowerRival2Text:
-	text "???: What's that?"
+	nametag
+	text " ??? "
+	next
+	text_start
+	text "What's that?"
 
 	para "You're going to"
 	line "study at BLOSSOM"
@@ -980,15 +1047,18 @@ MoonflowerRival2Text:
 	line "study right now."
 	
 	para "I can't believe"
-	line "YOU got in…"
+	line "YOU got in<PAUSE>…"
 
-	para "Anyway, my name's…"
+	para "Anyway, my name's<PAUSE>…"
 	done
 
 MoonflowerRival3Text:
-	text "<RIVAL>: Still,"
-	line "you look like a"
-	cont "wimp."
+	nametag
+	text " <RIVAL> "
+	next
+	text_start
+	text "Still, <PAUSE>you look"
+	line "like a wimp."
 
 	para "Let me see if"
 	line "you're good"
@@ -997,22 +1067,30 @@ MoonflowerRival3Text:
 	done
 
 MoonflowerRivalWinText:
-	text "Huh! Are you"
+	nametag
+	text " <RIVAL> "
+	next
+	text_start
+	text "Huh! <PAUSE>Are you"
 	line "happy you won?"
 	done
 
 MoonflowerRival4Text:
-	text "…Listen."
+	nametag
+	text " <RIVAL> "
+	next
+	text_start
+	text "…<PAUSE>Listen."
 	line "You didn't win"
 	cont "because I'm weak."
 
-	para "It's my #MON's"
+	para "It's <PAUSE>my #MON's"
 	line "fault."
 
 	para "You're nothing but"
 	line "a lucky wimp."
 
-	para "…You don't get"
+	para "…<PAUSE>You don't get"
 	line "what I'm saying?"
 
 	para "Whatever."
@@ -1029,12 +1107,20 @@ MoonflowerRival4Text:
 	done
 
 MoonflowerRivalLossText:
+	nametag
+	text " <RIVAL> "
+	next
+	text_start
 	text "I knew you"
 	line "were a wimp."
 	done
 
 MoonflowerRival5Text:
-	text "…I thought so."
+	nametag
+	text " <RIVAL> "
+	next
+	text_start
+	text "…<PAUSE>I thought so."
 
 	para "I have no idea"
 	line "how you got in"
@@ -1044,13 +1130,13 @@ MoonflowerRival5Text:
 	line "checked, they took"
 	cont "in GOOD trainers."
 
-	para "People with"
+	para "People <PAUSE>with"
 	line "talent."
 
 	para "Not weaklings like"
 	line "you."
 
-	para "…You don't get"
+	para "…<PAUSE>You don't get"
 	line "what I'm saying?"
 
 	para "Whatever."
@@ -1058,7 +1144,7 @@ MoonflowerRival5Text:
 	para "Just don't get"
 	line "in my way."
 
-	para "…And don't make"
+	para "…<PAUSE>And don't make"
 	line "me tell you that"
 	cont "twice."
 
@@ -1067,6 +1153,10 @@ MoonflowerRival5Text:
 	done
 
 MoonflowerPokeGearGuy_Text3:
+	nametag
+	text " SALESMAN "
+	next
+	text_start
 	text "Aha!"
 	done
 

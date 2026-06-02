@@ -147,10 +147,7 @@ PlayerRadioText4:
 	done
 
 DebugDudeText:
-	nametag
-	text "DEBUG DUDE"
-	next
-	text_start
+	ntag " DEBUG DUDE "
 	text "Want some debug"
 	line "tools?"
 	done

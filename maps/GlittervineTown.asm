@@ -93,7 +93,7 @@ ProfAspen_Text1:
 
 	para "Let's see here…"
 
-	para "My name is ASPEN."
+	para "My name <PAUSE>is ASPEN."
 
 	para "Ah, yes."
 	
@@ -111,9 +111,9 @@ ProfAspen_Text2:
 	cont "I want you to do"
 	cont "something for me."
 
-	para "…"
+	para "…<PAUSE>…"
 
-	para "Haha! No, nothing"
+	para "Haha! <PAUSE>No, nothing"
 	line "too hard."
 
 	para "You see, many"

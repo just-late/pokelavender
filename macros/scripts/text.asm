@@ -30,6 +30,14 @@ MACRO nametag
 	db "<NAMETAG>"
 ENDM
 
+MACRO ntag
+	stop_compressing_text
+	nametag
+	text \1
+	next
+	text_start
+ENDM
+
 MACRO text_asm
 ; Start interpreting assembly code.
 	stop_compressing_text

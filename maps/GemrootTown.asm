@@ -322,18 +322,26 @@ FatGuyBulbasaurText:
 	done
 
 GemrootMomIntroText:
-	text "MOM: <PLAYER>!"
+	nametag
+	text " MOM "
+	next
+	text_start
+	text "<PLAYER>!"
 	line "Wait!"
 	done
 
 GemrootMomMainText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "Oh, is that your"
 	line "#MON from the"
 	cont "ELDER?"
 
 	para "Hmm…"
 
-	para "…Well, I'm sure"
+	para "…<PAUSE>Well, I'm sure"
 	line "it's nice."
 
 	para "Remember, you got"
@@ -354,6 +362,10 @@ GemrootMomMainText:
 	done
 
 GemrootMomByeText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "That will allow"
 	line "us to keep in"
 	cont "touch."

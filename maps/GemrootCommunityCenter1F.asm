@@ -476,8 +476,12 @@ BelongsToElderText:
     done
 
 DidntChooseMonText:
-    text "ELDER: Think it"
-    line "over carefully."
+    nametag
+    text " ELDER "
+    next
+    text_start
+    text "Think it over"
+    line "carefully."
 
     para "Your partner is"
     line "important."
@@ -488,12 +492,19 @@ TakeGrassMonText:
     done
 
 ChoseMonText:
-    text "ELDER: I think"
-    line "that's a great"
-    cont "#MON too!"
+    nametag
+    text " ELDER "
+    next
+    text_start
+    text "I think that's a"
+    line "great #MON too!"
     done
 
 ElderAdventureText:
+    nametag
+    text " ELDER "
+    next
+    text_start
     text "Remember, to"
     line "get to BLOSSOM"
     cont "ACADEMY, you'll"
@@ -524,8 +535,12 @@ ElderAdventureText:
     done
 
 ElderGemrootTraditionText:
-    text "ELDER: Good to"
-    line "see you, <PLAYER>!"
+    nametag
+    text " ELDER "
+    next
+    text_start
+    text "Good to see you,"
+    line "<PLAYER>!"
 
     para "You're probably"
     line "wondering why I"
@@ -559,16 +574,28 @@ ElderGemrootTraditionText:
     done
 
 ElderWaitPickMonText:
+    nametag
+    text " ELDER "
+    next
+    text_start
     text "Wait, <PLAYER>!"
     line "Pick a #MON."
     done
 
 ElderPickAMonText:
+    nametag
+    text " ELDER "
+    next
+    text_start
     text "Go on! Pick a"
     line "#MON."
     done
 
 ElderMagicalWorldText:
+    nametag
+    text " ELDER "
+    next
+    text_start
     text "Well <PLAYER>, the"
     line "world is a magical"
     cont "place…"

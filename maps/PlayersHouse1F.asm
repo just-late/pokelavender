@@ -151,7 +151,11 @@ MomScript:
 	end
 
 MomIntroText:
-	text "Oh, <PLAYER>!"
+	nametag
+	text " MOM "
+	next
+	text_start
+	text "Oh, <PAUSE><PLAYER>!"
 
 	para "The ELDER just"
 	line "came by asking"
@@ -169,11 +173,19 @@ MomIntroText:
 	done
 
 MomDSTText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "Is it Daylight"
 	line "Saving Time now?"
 	done
 
 MomRunningShoesText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "By the way, do"
 	line "you know how to"
 
@@ -182,6 +194,10 @@ MomRunningShoesText:
 	done
 
 MomInstructionsText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "I'll read the"
 	line "instructions."
 
@@ -195,11 +211,19 @@ MomInstructionsText:
 	done
 
 MomOutroText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "Gee, aren't they"
 	line "convenient?"
 	done
 
 MomErrandText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "So, what was Prof."
 	line "Elm's errand?"
 
@@ -214,19 +238,26 @@ MomErrandText:
 	done
 
 MomAdventureText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "Oh, is that your"
 	line "#MON from the"
 	cont "ELDER?"
 
 	para "Hmm…"
 
-	para "…Well, I'm sure"
+	para "…<PAUSE>Well, I'm sure"
 	line "it's nice."
 
-	para "By the way, I"
-	line "know you're going"
-	cont "on an adventure"
-	cont "to BLOSSOM ACADEMY."
+	para "Remember, you got"
+	line "a #MON because"
+	cont "you're going to"
+	cont "BLOSSOM ACADEMY."
+
+	para "Don't get side-"
+	line "tracked!"
 
 	para "Since you're going"
 	line "to be away from"
@@ -238,6 +269,10 @@ MomAdventureText:
 	done
 
 MomAdventureText2:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "That will allow"
 	line "us to keep in"
 	cont "touch."
@@ -249,12 +284,18 @@ MomAdventureText2:
 	line "poor mother be"
 	cont "worried sick!"
 
-	para "……"
+	para "…<PAUSE>…"
 
 	para "Goodbye, <PLAYER>!"
+	line "I'm rooting for"
+	cont "you all the way!"
 	done
 
 MomDoItText:
+	nametag
+	text " MOM "
+	next
+	text_start
 	text "<PLAYER>, do it!"
 
 	para "I'm behind you all"

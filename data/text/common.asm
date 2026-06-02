@@ -3242,7 +3242,7 @@ _BeforeYouBeginText::
 SECTION "_ElmText1", ROMX
 _ElmText1::
 	text "Hello! My name is"
-	line "DR. LAVENTON. I'm"
+	line "DR. LAVENTON. <PAUSE>I'm"
 
 	para "the director of"
 	line "BLOSSOM ACADEMY,"
