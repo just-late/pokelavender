@@ -19,7 +19,7 @@ MapScenes::
 	scene_var BRUNOS_ROOM,                            wBrunosRoomSceneID
 	scene_var BURNED_TOWER_1F,                        wBurnedTower1FSceneID
 	scene_var BURNED_TOWER_B1F,                       wBurnedTowerB1FSceneID
-	scene_var GLITTERVINE_TOWN,                       wGlittervineTownSceneID
+	scene_var MOSSHILL_TOWN,                       wGlittervineTownSceneID
 	scene_var CIANWOOD_CITY,                          wCianwoodCitySceneID
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID

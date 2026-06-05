@@ -4,8 +4,8 @@ GlittervineTrainersSchool_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event  3, 13, GLITTERVINE_TOWN, 6
-	warp_event  4, 13, GLITTERVINE_TOWN, 6
+	warp_event  3, 13, MOSSHILL_TOWN, 6
+	warp_event  4, 13, MOSSHILL_TOWN, 6
 
     def_coord_events
 

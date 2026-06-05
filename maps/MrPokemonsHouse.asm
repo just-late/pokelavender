@@ -43,7 +43,7 @@ MrPokemonsHouseTrigger0:
 	waitsfx
 	verbosegivekeyitem MYSTERY_EGG
 	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
-	blackoutmod GLITTERVINE_TOWN
+	blackoutmod MOSSHILL_TOWN
 if !DEF(DEBUG)
 	writetext MrPokemonIntroText3
 	promptbutton
@@ -132,7 +132,7 @@ MrPokemonsHouse_OakScript:
 	setevent EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
 	clearevent EVENT_PLAYERS_NEIGHBORS_HOUSE_NEIGHBOR
 	setscene $1
-	setmapscene GLITTERVINE_TOWN, $1
+	setmapscene MOSSHILL_TOWN, $1
 	specialphonecall SPECIALCALL_ROBBED
 	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELDER
 	iftruefwd .RivalTakesTurtwig

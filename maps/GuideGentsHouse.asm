@@ -4,8 +4,8 @@ GuideGentsHouse_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, GLITTERVINE_TOWN, 4
-	warp_event  3,  7, GLITTERVINE_TOWN, 4
+	warp_event  2,  7, MOSSHILL_TOWN, 4
+	warp_event  3,  7, MOSSHILL_TOWN, 4
 
 	def_coord_events
 

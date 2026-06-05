@@ -13,8 +13,8 @@ Music_Gate_Ch1:
 	octave 3
 	tempo 210
 	volume_envelope 9, 8
+	vibrato 0, 0, 0
 	duty_cycle 3
-	vibrato 4, 1, 0
 	note F_, 8
 	octave 4
 	note C#, 4
@@ -40,7 +40,6 @@ Music_Gate_Ch1:
 	rest 4
 	octave 3
 	note_type 12, 9, 8
-	vibrato 0, 0, 0
 	note F_, 4
 	note C#, 4
 	note G#, 4

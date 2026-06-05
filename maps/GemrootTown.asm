@@ -5,43 +5,34 @@ GemrootTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, GemrootTownFlyPoint
 
 	def_warp_events
-	warp_event 27, 19, PLAYERS_HOUSE_1F, 1              ; 1
+	warp_event  9,  5, PLAYERS_HOUSE_1F, 1              ; 1
 	warp_event 31, 27, ANABELS_HOUSE_1F, 2              ; 2
-	warp_event 12,  5, GEMROOT_COMMUNITY_CENTER_1F, 1   ; 3
-	warp_event 21,  9, PLAYERS_NEIGHBORS_HOUSE, 1       ; 4
-	warp_event 19, 15, GEMROOT_NICKNAME_SPEECH_HOUSE, 1 ; 5
-	warp_event  5, 13, GEMROOT_NPC_HOUSE_1, 1           ; 6
-	warp_event 21, 27, GEMROOT_NPC_HOUSE_2, 1           ; 7
+	warp_event 10, 13, GEMROOT_COMMUNITY_CENTER_1F, 1   ; 3
+	warp_event 21,  5, GEMROOT_NICKNAME_SPEECH_HOUSE, 1 ; 4
+	warp_event 21, 13, GEMROOT_NPC_HOUSE_1, 1           ; 5
 
 	def_coord_events
-	coord_event 34, 20, 0, TrainerTipsSignScript1
-	coord_event 34, 21,	0, TrainerTipsSignScript2
-	coord_event 34, 22,	0, TrainerTipsSignScript3
-;	coord_event 31, 28, 0, AnabelEventTrigger
-	coord_event 34, 20, 1, MomPokegearTrigger1
-	coord_event 34, 21, 1, MomPokegearTrigger2
-	coord_event 34, 22, 1, MomPokegearTrigger3
+	coord_event 14,  2, 0, TrainerTipsSignScript1
+	coord_event 15,  2,	0, TrainerTipsSignScript2
+	coord_event 16,  2,	0, TrainerTipsSignScript3
+	coord_event 14,  2, 1, MomPokegearTrigger1
+	coord_event 15,  2, 1, MomPokegearTrigger2
+	coord_event 16,  2, 1, MomPokegearTrigger3
 
 	def_bg_events
-	bg_event 31, 19, BGEVENT_JUMPTEXT, PlayersHouseSignText
-	bg_event 34, 27, BGEVENT_JUMPTEXT, AnabelsHouseSignText
-	bg_event 14, 13, BGEVENT_JUMPTEXT, GemrootTownSignText
-	bg_event 14,  6, BGEVENT_JUMPTEXT, CommunityCenterSignText
-	bg_event 34, 19, BGEVENT_JUMPTEXT, TrainerTipsSignText
+	bg_event  7,  5, BGEVENT_JUMPTEXT, PlayersHouseSignText
+	bg_event 15,  8, BGEVENT_JUMPTEXT, GemrootTownSignText
+	bg_event  9, 14, BGEVENT_JUMPTEXT, CommunityCenterSignText
+	bg_event 13,  1, BGEVENT_JUMPTEXT, TrainerTipsSignText
 	
-	db 9 ; object_events
-	person_event SPRITE_ANABEL, 27, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
-	person_event SPRITE_MOM, 20, 29, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
-	person_event SPRITE_HIKER, 10,  9, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AtuvaTravelerScript, -1
-	person_event SPRITE_FAT_GUY, 29, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, FatGuyTechnologyText, -1
-	person_event SPRITE_CUTE_GIRL, 24, 26, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, RiverGirlText, -1
-	person_event SPRITE_GRANNY, 19, 20, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
-	person_event SPRITE_GRAMPS,  7, 16, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
-	person_event SPRITE_FISHER, 16,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptext, FisherText, -1
-	pokemon_event 13, 29, BULBASAUR, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GREEN, FatGuyBulbasaurText, -1
+	db 5 ; object_events
+	person_event SPRITE_MOM,  6, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
+	person_event SPRITE_HIKER,  8, 26, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AtuvaTravelerScript, -1
+	person_event SPRITE_GRANNY,  7, 14, SPRITEMOVEDATA_WANDER, 0, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1
+	person_event SPRITE_GRAMPS, 14, 12, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GrampsCommunityCenterText, -1
+	person_event SPRITE_ACE_TRAINER_F, 14, 18, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GemrootAceTrainerText, -1
 
 	object_const_def
-	const GEMROOT_TOWN_ANABEL
 	const GEMROOT_TOWN_MOM
 
 GemrootTownFlyPoint:
@@ -166,48 +157,6 @@ TrainerTipsSignText:
 	cont "trouble."
 	done
 
-;AnabelEventTrigger:
-;	checkevent EVENT_ANABEL_GEMROOT_SCENE
-;	iftruefwd .End
-;	appear GEMROOT_TOWN_ANABEL
-;	playsound SFX_TACKLE
-;	turnobject PLAYER, UP
-;	applymovement PLAYER, PlayerJumpsBackMovement
-;	applyonemovement GEMROOT_TOWN_ANABEL, step_down
-;	showtext GemrootAnabelIntroText
-;	pause 5
-;	turnobject GEMROOT_TOWN_ANABEL, UP
-;	pause 10
-;	turnobject GEMROOT_TOWN_ANABEL, DOWN
-;	showtext GemrootAnabelForgotText
-;	applyonemovement GEMROOT_TOWN_ANABEL, step_up
-;	playsound SFX_ENTER_DOOR
-;	disappear GEMROOT_TOWN_ANABEL
-;	setevent EVENT_ANABEL_GEMROOT_SCENE
-;	clearevent EVENT_ANABEL_BEDROOM_SCENE
-;.End
-;	end
-
-GemrootAnabelIntroText:
-	text "ANABEL: Woah!"
-	line "I didn't expect to"
-	cont "see you there!"
-	done
-
-GemrootAnabelForgotText:
-	text "Oops! I forgot"
-	line "some things in my"
-	cont "room."
-
-	para "Be right back!"
-	done
-
-PlayerJumpsBackMovement:
-	fix_facing
-	run_step_down
-	remove_fixed_facing
-	step_end
-
 AtuvaTravelerScript:
 	faceplayer
 	checkevent EVENT_GOT_SOUVENEIR_FROM_ATUVA_TRAVELER
@@ -249,22 +198,6 @@ OldGrannyText:
 	line "adventures!"
 	done
 
-RiverGirlText:
-	text "It's so nice to"
-	line "stand and watch"
-
-	para "over the river."
-	line "Sometimes I even"
-	cont "see MAGIKARP"
-	cont "swimming by."
-	done
-
-FatGuyTechnologyText:
-    text "BULBASAUR helps"
-	line "get this place"
-	cont "HUMID!"
-	done
-
 AtuvaTraveler1Text:
 	text "Hi! I'm traveling"
 	line "the ATUVA REGION"
@@ -282,14 +215,6 @@ AtuvaTraveler2Text:
 	cont "a #MON."
 	done
 
-FisherText:
-	text "… … … …"
-	line "… … … …"
-
-	para "He's ignoring you…"
-	done
-
-
 IrresistibleSignText:
 	text "There's something"
 	line "irresistible about"
@@ -300,25 +225,17 @@ PlayersHouseSignText:
 	text "<PLAYER>'s HOUSE"
 	done
 
-AnabelsHouseSignText:
-	text "ANABEL's HOUSE"
-	done
-
 GemrootTownSignText:
 	text "GEMROOT TOWN"
 
-	para "A home to the"
-	line "roots of adventure"
+	para "A town rooted to"
+	line "the foot of a"
+	cont "mountain."
 	done
 
 CommunityCenterSignText:
 	text "GEMROOT TOWN"
 	line "COMMUNITY CENTER"
-	done
-
-FatGuyBulbasaurText:
-	text "BULBASAUR:"
-	line "Grooooarrgh…"
 	done
 
 GemrootMomIntroText:
@@ -377,9 +294,18 @@ GemrootMomByeText:
 	line "poor mother be"
 	cont "worried sick!"
 
-	para "……"
+	para "…<PAUSE>…<PAUSE>…"
 
 	para "Goodbye, <PLAYER>!"
+	done
+
+GemrootAceTrainerText:
+	text "Hi, <PLAYER>!"
+
+	para "Nice #GEAR!"
+
+	para "Did your MOM get"
+	line "it for you?"
 	done
 
 GemrootMomWalksToYou1_Movement:

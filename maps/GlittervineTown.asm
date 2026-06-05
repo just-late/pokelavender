@@ -5,28 +5,28 @@ GlittervineTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, GlittervineTownFlyPoint
 
 	def_warp_events
-	warp_event 23, 13, GLITTERVINE_MART, 2 ; 1
-	warp_event 17,  5, GLITTERVINE_POKECENTER_1F, 1 ; 2
-	warp_event 25,  5, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, 1 ; 3
-	warp_event 29,  6, ROUTE_2_GLITTERVINE_GATE, 1 ; 4
-	warp_event 29,  7, ROUTE_2_GLITTERVINE_GATE, 2 ; 5
-	warp_event 11, 13, GLITTERVINE_TRAINERS_SCHOOL, 1 ; 6
-	warp_event 11,  5, GLITTERVINE_GYM_SPEECH_HOUSE, 1 ; 7
+	warp_event 21, 13, GLITTERVINE_MART, 2 ; 1
+	warp_event 15,  5, GLITTERVINE_POKECENTER_1F, 1 ; 2
+	warp_event 23,  5, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, 1 ; 3
+	warp_event 27,  6, ROUTE_2_GLITTERVINE_GATE, 1 ; 4
+	warp_event 27,  7, ROUTE_2_GLITTERVINE_GATE, 2 ; 5
+	warp_event  9, 13, GLITTERVINE_TRAINERS_SCHOOL, 1 ; 6
+	warp_event  9,  5, GLITTERVINE_GYM_SPEECH_HOUSE, 1 ; 7
 
 	def_coord_events
-	coord_event 29,  6, 0, MeetProfAspen_Trigger1
-	coord_event 29,  7, 0, MeetProfAspen_Trigger2
+	coord_event 27,  6, 0, MeetProfAspen_Trigger1
+	coord_event 27,  7, 0, MeetProfAspen_Trigger2
 
 	def_bg_events
-	bg_event 16, 18, BGEVENT_JUMPTEXT, GlittervineTownSignText
-	bg_event 12, 14, BGEVENT_JUMPTEXT, GlittervineTrainersSchoolSignText
-	bg_event  6,  6, BGEVENT_ITEM + NUGGET, EVENT_GLITTERVINE_TOWN_HIDDEN_NUGGET
+	bg_event 14, 18, BGEVENT_JUMPTEXT, GlittervineTownSignText
+	bg_event 10, 14, BGEVENT_JUMPTEXT, GlittervineTrainersSchoolSignText
+	bg_event  4,  6, BGEVENT_ITEM + NUGGET, EVENT_MOSSHILL_TOWN_HIDDEN_NUGGET
 
 	db 3 ; object_events
-	person_event SPRITE_ELM,  6, 24, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
-	person_event SPRITE_POKEFAN_F,  7, 15, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC1Text, -1
-	person_event SPRITE_GRAMPS, 15, 14, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC2Text, -1
-	person_event SPRITE_TWIN,  9, 17, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC3Text, -1
+	person_event SPRITE_ELM,  6, 22, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
+	person_event SPRITE_POKEFAN_F,  7, 13, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC1Text, -1
+	person_event SPRITE_GRAMPS, 15, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC2Text, -1
+	person_event SPRITE_TWIN,  9, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC3Text, -1
 
 	const_def 1 ; object_constants
 	const GLITTERVINE_PROF_ASPEN
@@ -75,7 +75,7 @@ MeetProfAspen_Script:
 	disappear GLITTERVINE_PROF_ASPEN
 	special RestartMapMusic
 	setevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	setscene GLITTERVINE_TOWN, $1
+	setscene MOSSHILL_TOWN, $1
 	end
 
 .PokedexQuestionLoop

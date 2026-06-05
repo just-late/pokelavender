@@ -224,7 +224,7 @@
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons GLITTERVINE_TOWN
+	def_water_wildmons MOSSHILL_TOWN
 	db 6 percent ; encounter rate
 	wildmon 20, TENTACOOL
 	wildmon 15, TENTACOOL

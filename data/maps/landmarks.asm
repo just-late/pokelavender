@@ -7,18 +7,29 @@ ENDM
 Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark  76,  92, GemrootTownName
-	landmark  84,  88, Route1Name
-	landmark  84,  76, GlittervineTownName
-	landmark  92,  76, Route2Name
-	landmark 100,  76, MoonflowerCityName
-	landmark 100,  92, Route3Name
-	landmark 104,  91, OvercastGroveName
-	landmark 108, 100, MarigoldCaveName
-	landmark 108, 116, MarigoldPortName
-	landmark  52, 116, BlossomCityName
-	landmark 124,  68, MountainPassName
-	landmark 116,  52, GraniteVillageName
+	landmark  68,  52, GemrootTownName
+	landmark  68,  40, Route1Name
+	landmark  84,  76, MosshillTownName
+	landmark  82,  74, MosshillGroveName
+	landmark  88,  36, Route2Name
+	landmark 100,  36, MoonflowerCityName
+	landmark 112,  52, Route3Name
+	landmark 116,  54, OvercastGroveName
+	landmark 124,  60, MarigoldCaveName
+	landmark 124,  76, MarigoldPortName
+	landmark 108,  84, Route4Name
+	landmark 100,  84, PowerPlantName
+	landmark  68,  76, Route5Name
+	landmark  52,  76, WindwaterTownName
+	landmark  52,  88, Route6Name
+	landmark  52, 100, AtuvaPointName
+	landmark  72,  96, CoralCoveName
+	landmark  52,  68, Route7Name
+	landmark  52,  60, MtLavenderName
+	landmark  52,  52, Route8Name
+	landmark  52,  44, GraniteVillageName
+	landmark  36,  44, Route9Name
+	landmark  36, 116, BlossomCityName
 	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
 	landmark 100, 132, GoldenrodHarborName
@@ -77,19 +88,13 @@ Landmarks:
 	landmark  52,  76, ViridianCityName
 	landmark  52,  60, ViridianForestName
 	landmark  52,  44, PewterCityName
-	landmark  64,  44, Route3Name
 	landmark  76,  44, MtMoonName
-	landmark  92,  44, Route4Name
 	landmark 108,  36, Route24Name
 	landmark 124,  28, Route25Name
-	landmark 108,  52, Route5Name
 	landmark 114,  66, UndergroundName
 	landmark 108,  68, Route6Name
 	landmark 108,  76, VermilionCityName
 	landmark 116,  68, DiglettsCaveName
-	landmark  96,  60, Route7Name
-	landmark 124,  60, Route8Name
-	landmark 124,  44, Route9Name
 	landmark 140,  52, Route10Name
 	landmark 140,  44, RockTunnelName
 	landmark 148,  44, DimCaveName
@@ -146,10 +151,15 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 GemrootTownName:       rawchar "GEMROOT¯TOWN@"
-GlittervineTownName:   rawchar "GLITTERVINE¯TOWN@"
+MosshillTownName:      rawchar "MOSSHILL¯TOWN@"
+MosshillGroveName:	   rawchar "MOSSHILL¯GROVE@"
 MoonflowerCityName:    rawchar "MOONFLOWER¯CITY@"
 MarigoldCaveName:	   rawchar "MARIGOLD¯CAVE@"
 MarigoldPortName:      rawchar "MARIGOLD¯PORT@"
+WindwaterTownName:	   rawchar "WINDWATER¯TOWN@"
+AtuvaPointName:		   rawchar "ATUVA POINT@"
+CoralCoveName:		   rawchar "CORAL COVE@"
+MtLavenderName:		   rawchar "MT.¯LAVENDER@"
 BlossomCityName:	   rawchar "BLOSSOM¯CITY@"
 GraniteVillageName:	   rawchar "GRANITE¯VILLAGE@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
@@ -198,10 +208,10 @@ Route2Name:            rawchar "ROUTE 2@"
 Route3Name:            rawchar "ROUTE 3@"
 Route4Name:            rawchar "ROUTE 4@"
 Route5Name:            rawchar "ROUTE 5@"
-Route6Name:            rawchar "Route 6@"
-Route7Name:            rawchar "Route 7@"
-Route8Name:            rawchar "Route 8@"
-Route9Name:            rawchar "Route 9@"
+Route6Name:            rawchar "ROUTE 6@"
+Route7Name:            rawchar "ROUTE 7@"
+Route8Name:            rawchar "ROUTE 8@"
+Route9Name:            rawchar "ROUTE 9@"
 Route10Name:           rawchar "Route 10@"
 Route11Name:           rawchar "Route 11@"
 Route12Name:           rawchar "Route 12@"
@@ -238,6 +248,7 @@ Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"
 Route47Name:           rawchar "Route 47@"
 Route48Name:           rawchar "Route 48@"
+PowerPlantName:		   rawchar "POWER¯PLANT@"
 DarkCaveName:          rawchar "Dark Cave@"
 IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"

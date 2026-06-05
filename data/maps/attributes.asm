@@ -12,15 +12,15 @@ ENDM
 	connection east, Route1, ROUTE_1, -8
 
 	map_attributes Route1, ROUTE_1, $5, NORTH | WEST
-	connection north, GlittervineTown, GLITTERVINE_TOWN, 0
+	connection north, GlittervineTown, MOSSHILL_TOWN, 0
 	connection west, GemrootTown, GEMROOT_TOWN, 8
 
-	map_attributes GlittervineTown, GLITTERVINE_TOWN, $5, SOUTH | EAST
+	map_attributes GlittervineTown, MOSSHILL_TOWN, $5, SOUTH | EAST
 	connection south, Route1, ROUTE_1, 0
 	connection east, Route2, ROUTE_2, 0
 
 	map_attributes Route2, ROUTE_2, $5, WEST ; SOUTH
-	connection west, GlittervineTown, GLITTERVINE_TOWN, 0
+	connection west, GlittervineTown, MOSSHILL_TOWN, 0
 ;   connection south, MoonflowerCity, MOONFLOWER_CITY, 0
 
 	map_attributes Route3, ROUTE_3, $05, 0 ; NORTH
@@ -289,7 +289,7 @@ ENDM
 	map_attributes CherrygroveBay, CHERRYGROVE_BAY, $35, SOUTH | WEST | EAST
 	connection south, Route32Coast, ROUTE_32_COAST, 0
 	connection west, Route32, ROUTE_32, -12
-	connection east, GlittervineTown, GLITTERVINE_TOWN, 15
+	connection east, GlittervineTown, MOSSHILL_TOWN, 15
 
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, NORTH
 	connection north, CherrygroveBay, CHERRYGROVE_BAY, 0

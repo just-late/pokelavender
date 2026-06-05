@@ -24,7 +24,7 @@ SpawnPoints:
 	spawn INDIGO_PLATEAU,             11,  6
 
 	spawn GEMROOT_TOWN,               27, 20
-	spawn GLITTERVINE_TOWN,           25, 14
+	spawn MOSSHILL_TOWN,           25, 14
 	spawn MOONFLOWER_CITY,            31, 26
 	spawn ROUTE_32,                   11, 74
 	spawn MARIGOLD_PORT,              49, 10

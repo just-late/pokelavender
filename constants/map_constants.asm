@@ -503,7 +503,7 @@ ENDM
 	map_const ROUTE_1,                                    15, 26 ;  1
 	map_const ROUTE_26,                                   10, 54 ;  2
 	map_const ROUTE_27,                                   40,  9 ;  3
-	map_const GEMROOT_TOWN,                               18, 18 ;  4
+	map_const GEMROOT_TOWN,                               15, 10 ;  4
 	map_const GEMROOT_NICKNAME_SPEECH_HOUSE,               4,  4 ;  5
 	map_const GEMROOT_COMMUNITY_CENTER_1F,                12,  6 ;  6
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
@@ -541,7 +541,7 @@ ENDM
 	map_const ROUTE_30,                                   13, 27 ;  1
 	map_const ROUTE_31,                                   22,  9 ;  2
 	map_const CHERRYGROVE_BAY,                            15, 26 ;  3
-	map_const GLITTERVINE_TOWN,                           16, 10 ;  4
+	map_const MOSSHILL_TOWN,                           16, 10 ;  4
 	map_const GLITTERVINE_MART,                            6,  4 ;  5
 	map_const GLITTERVINE_POKECENTER_1F,                   6,  4 ;  6
 	map_const GLITTERVINE_GYM_SPEECH_HOUSE,                4,  4 ;  7

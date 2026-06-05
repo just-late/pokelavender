@@ -1,19 +1,30 @@
 ; Landmarks indexes (see data/maps/landmarks.asm)
 	const_def
 	const SPECIAL_MAP        ; 00
-; Johto landmarks
+; East Atuva landmarks
 	const GEMROOT_TOWN       ; 01
 	const ROUTE_1            ; 02
-	const GLITTERVINE_TOWN   ; 03
-	const ROUTE_2            ; 04
-	const MOONFLOWER_CITY    ; 05
-	const ROUTE_3            ; 06
-	const OVERCAST_GROVE     ; 07
-	const MARIGOLD_CAVE      ; 08
-	const MARIGOLD_PORT		 ; 09
-	const BLOSSOM_CITY       ; 10
-	const MOUNTAIN_PASS      ; 11
-	const GRANITE_VILLAGE    ; 12
+	const MOSSHILL_TOWN      ; 03
+	const MOSSHILL_GROVE     ; 04
+	const ROUTE_2            ; 05
+	const MOONFLOWER_CITY    ; 06
+	const ROUTE_3            ; 07
+	const OVERCAST_GROVE     ; 08
+	const MARIGOLD_CAVE      ; 09
+	const MARIGOLD_PORT		 ; 0a
+	const ROUTE_4			 ; 0b
+	const POWER_PLANT        ; 0c
+	const ROUTE_5            ; 0d
+	const WINDWATER_TOWN	 ; 0e
+	const ROUTE_6			 ; 0f
+	const ATUVA_POINT		 ; 10
+	const CORAL_COVE		 ; 11
+	const ROUTE_7			 ; 12
+	const MT_LAVENDER		 ; 13
+	const ROUTE_8			 ; 14
+	const GRANITE_VILLAGE    ; 15
+	const ROUTE_9			 ; 16
+	const BLOSSOM_CITY       ; 17
 DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07
 	const ROUTE_31           ; 05
@@ -74,17 +85,11 @@ DEF KANTO_LANDMARK EQU const_value
 	const VIRIDIAN_FOREST    ; 48
 	const PEWTER_CITY        ; 49
 	const MT_MOON            ; 4b
-	const ROUTE_4            ; 4c
 	const ROUTE_24           ; 4f
 	const ROUTE_25           ; 50
-	const ROUTE_5            ; 52
 	const UNDERGROUND        ; 53
-	const ROUTE_6            ; 54
 	const VERMILION_CITY     ; 55
 	const DIGLETTS_CAVE      ; 56
-	const ROUTE_7            ; 57
-	const ROUTE_8            ; 58
-	const ROUTE_9            ; 59
 	const ROUTE_10           ; 5a
 	const ROCK_TUNNEL        ; 5b
 	const DIM_CAVE           ; 5d
