@@ -8,12 +8,12 @@ MACRO map_attributes
 	db \4
 ENDM
 
-	map_attributes GemrootTown, GEMROOT_TOWN, $5, EAST
-	connection east, Route1, ROUTE_1, -8
+	map_attributes GemrootTown, GEMROOT_TOWN, $5, NORTH
+	connection north, Route1, ROUTE_1, 0
 
-	map_attributes Route1, ROUTE_1, $5, NORTH | WEST
-	connection north, GlittervineTown, MOSSHILL_TOWN, 0
-	connection west, GemrootTown, GEMROOT_TOWN, 8
+	map_attributes Route1, ROUTE_1, $5, SOUTH ;| EAST
+	connection south, GemrootTown, GEMROOT_TOWN, 0
+;	connection east, GlittervineTown, MOSSHILL_TOWN, 8
 
 	map_attributes GlittervineTown, MOSSHILL_TOWN, $5, SOUTH | EAST
 	connection south, Route1, ROUTE_1, 0

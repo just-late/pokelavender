@@ -1352,24 +1352,24 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 2, PIDGEY
-	wildmon 3, RATTATA
+	wildmon 3, CATERPIE
 	wildmon 2, SENTRET
 	wildmon 3, RATTATA
-	wildmon 3, SENTRET
+	wildmon 3, CATERPIE
 	wildmon 3, PIDGEY
 	wildmon 4, MAREEP
 	; day
 	wildmon 2, PIDGEY
-	wildmon 3, RATTATA
+	wildmon 3, CATERPIE
 	wildmon 2, SENTRET
-	wildmon 3, AIPOM
+	wildmon 3, CATERPIE
 	wildmon 4, SENTRET
 	wildmon 3, PIDGEY
 	wildmon 2, AIPOM
 	; nite
 	wildmon 2, HOOTHOOT
-	wildmon 3, RATTATA
-	wildmon 2, RATTATA
+	wildmon 3, CATERPIE
+	wildmon 2, CATERPIE
 	wildmon 3, SPINARAK
 	wildmon 3, HOOTHOOT
 	wildmon 2, SPINARAK
