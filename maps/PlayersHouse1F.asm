@@ -152,7 +152,7 @@ MomScript:
 
 MomIntroText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "Oh, <PAUSE><PLAYER>!"
@@ -174,7 +174,7 @@ MomIntroText:
 
 MomDSTText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "Is it Daylight"
@@ -183,7 +183,7 @@ MomDSTText:
 
 MomRunningShoesText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "By the way, do"
@@ -195,7 +195,7 @@ MomRunningShoesText:
 
 MomInstructionsText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "I'll read the"
@@ -212,7 +212,7 @@ MomInstructionsText:
 
 MomOutroText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "Gee, aren't they"
@@ -221,7 +221,7 @@ MomOutroText:
 
 MomErrandText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "So, what was Prof."
@@ -239,7 +239,7 @@ MomErrandText:
 
 MomAdventureText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "Oh, is that your"
@@ -270,7 +270,7 @@ MomAdventureText:
 
 MomAdventureText2:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "That will allow"
@@ -293,7 +293,7 @@ MomAdventureText2:
 
 MomDoItText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "<PLAYER>, do it!"

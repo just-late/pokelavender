@@ -123,6 +123,7 @@ MomPokegearTrigger2:
 	end
 
 MomPokegearTrigger3:
+	setevent EVENT_SAW_MOM_AFTER_STARTER
 	appear GEMROOT_TOWN_MOM
 	playmusic MUSIC_MOM
 	turnobject PLAYER, LEFT
@@ -240,7 +241,7 @@ CommunityCenterSignText:
 
 GemrootMomIntroText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "<PLAYER>!"
@@ -249,7 +250,7 @@ GemrootMomIntroText:
 
 GemrootMomMainText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "Oh, is that your"
@@ -280,7 +281,7 @@ GemrootMomMainText:
 
 GemrootMomByeText:
 	nametag
-	text " MOM "
+	text " AUNTIE "
 	next
 	text_start
 	text "That will allow"
@@ -304,7 +305,7 @@ GemrootAceTrainerText:
 
 	para "Nice #GEAR!"
 
-	para "Did your MOM get"
+	para "Did your AUNTIE get"
 	line "it for you?"
 	done
 
