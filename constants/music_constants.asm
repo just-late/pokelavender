@@ -193,6 +193,7 @@
 	const MUSIC_CAVE						   ; c3
 	const MUSIC_EGG_LOTTO					   ; c4
 	const MUSIC_UNDERWATER					   ; c5
+	const MUSIC_MT_LAVENDER					   ; c6
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/special_map_music.asm)

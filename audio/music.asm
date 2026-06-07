@@ -562,4 +562,7 @@ INCLUDE "audio/music/lottery.asm"
 SECTION "Song - underwater", ROMX
 INCLUDE "audio/music/dive.asm"
 
+SECTION "Song - mtlavender", ROMX
+INCLUDE "audio/music/mtlavender.asm"
+
 ENDSECTION
