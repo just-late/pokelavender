@@ -1,9 +1,9 @@
 if !DEF(MONOCHROME)
-	; BG3: land and water
-	RGB 31, 31, 31
-	RGB 00, 24, 15
-	RGB 00, 20, 12
-	RGB 00, 00, 00
+	; BG3: map
+	RGB 17, 31, 00
+	RGB 11, 23, 00
+	RGB 07, 17, 00
+	RGB 05, 10, 00
 
 	; BG4: routes and cliffs
 	RGB 31, 31, 31
