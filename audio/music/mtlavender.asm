@@ -163,6 +163,37 @@ Music_MtLavender_Ch1:
 	note G_, 2
 	sound_ret
 
+.sub10:
+	tempo 140
+	note C_, 2
+	rest 1
+	note C_, 1
+	note D#, 1
+	rest 1
+	note F#, 2
+	note C_, 2
+	rest 1
+	note C_, 1
+	note D#, 1
+	rest 1
+	note G_, 2
+	sound_ret
+
+.sub11:
+	note C_, 2
+	rest 1
+	note C_, 1
+	note D#, 1
+	rest 1
+	note F#, 2
+	note C_, 2
+	rest 1
+	note C_, 1
+	note D#, 1
+	rest 1
+	note G_, 2
+	sound_ret
+
 .sub2:
 	note C_, 2
 	rest 1
@@ -250,21 +281,6 @@ Music_MtLavender_Ch1:
 	note C_, 2
 	sound_ret
 
-.sub9:
-	note B_, 1
-	octave 3
-	note C_, 1
-	note D#, 1
-	rest 1
-	note C_, 1
-	note D#, 1
-	rest 1
-	note C_, 1
-	note D#, 1
-	rest 1
-	note C_, 1
-	sound_ret
-
 .sub8:
 	note B_, 1
 	octave 3
@@ -283,35 +299,19 @@ Music_MtLavender_Ch1:
 	note C_, 1
 	sound_ret
 
-.sub10:
-	tempo 160
-	note C_, 2
+.sub9:
+	note B_, 1
+	octave 3
+	note C_, 1
+	note D#, 1
 	rest 1
 	note C_, 1
 	note D#, 1
 	rest 1
-	note F#, 2
-	note C_, 2
-	rest 1
 	note C_, 1
 	note D#, 1
 	rest 1
-	note G_, 2
-	sound_ret
-
-.sub11:
-	note C_, 2
-	rest 1
 	note C_, 1
-	note D#, 1
-	rest 1
-	note F#, 2
-	note C_, 2
-	rest 1
-	note C_, 1
-	note D#, 1
-	rest 1
-	note G_, 2
 	sound_ret
 
 Music_MtLavender_Ch2:
@@ -709,6 +709,82 @@ Music_MtLavender_Ch3:
 	note G_, 1
 	sound_ret
 
+.sub10:
+	note B_, 1
+	octave 3
+	note C_, 2
+	rest 1
+	note C_, 2
+	rest 1
+	note C_, 2
+	rest 1
+	note C_, 2
+	sound_ret
+
+.sub11:
+	note C_, 1
+	rest 2
+	note C_, 1
+	note D#, 1
+	rest 1
+	note F#, 1
+	rest 1
+	note C_, 1
+	rest 2
+	note C_, 1
+	note D#, 1
+	rest 1
+	note G_, 1
+	sound_ret
+
+.sub12:
+	note C_, 1
+	rest 2
+	note C_, 1
+	note D#, 1
+	rest 1
+	note F#, 1
+	rest 1
+	note C_, 1
+	rest 2
+	note C_, 1
+	note D#, 1
+	rest 1
+	note G_, 1
+	sound_ret
+
+.sub13:
+	note C_, 1
+	rest 2
+	note C_, 1
+	note D#, 1
+	rest 1
+	note F#, 1
+	rest 1
+	note C_, 1
+	rest 2
+	note C_, 1
+	note D#, 1
+	rest 1
+	note G_, 1
+	sound_ret
+
+.sub14:
+	note C_, 1
+	rest 2
+	note C_, 1
+	note D#, 1
+	rest 1
+	note F#, 1
+	rest 1
+	note C_, 1
+	rest 2
+	note C_, 1
+	note D#, 1
+	rest 1
+	note G_, 1
+	sound_ret
+
 .sub2:
 	note C_, 1
 	rest 2
@@ -819,82 +895,6 @@ Music_MtLavender_Ch3:
 	note C_, 2
 	rest 1
 	note C_, 2
-	sound_ret
-
-.sub10:
-	note B_, 1
-	octave 3
-	note C_, 2
-	rest 1
-	note C_, 2
-	rest 1
-	note C_, 2
-	rest 1
-	note C_, 2
-	sound_ret
-
-.sub11:
-	note C_, 1
-	rest 2
-	note C_, 1
-	note D#, 1
-	rest 1
-	note F#, 1
-	rest 1
-	note C_, 1
-	rest 2
-	note C_, 1
-	note D#, 1
-	rest 1
-	note G_, 1
-	sound_ret
-
-.sub12:
-	note C_, 1
-	rest 2
-	note C_, 1
-	note D#, 1
-	rest 1
-	note F#, 1
-	rest 1
-	note C_, 1
-	rest 2
-	note C_, 1
-	note D#, 1
-	rest 1
-	note G_, 1
-	sound_ret
-
-.sub13:
-	note C_, 1
-	rest 2
-	note C_, 1
-	note D#, 1
-	rest 1
-	note F#, 1
-	rest 1
-	note C_, 1
-	rest 2
-	note C_, 1
-	note D#, 1
-	rest 1
-	note G_, 1
-	sound_ret
-
-.sub14:
-	note C_, 1
-	rest 2
-	note C_, 1
-	note D#, 1
-	rest 1
-	note F#, 1
-	rest 1
-	note C_, 1
-	rest 2
-	note C_, 1
-	note D#, 1
-	rest 1
-	note G_, 1
 	sound_ret
 
 Music_MtLavender_Ch4:
