@@ -678,11 +678,12 @@ ENDM
 	map_const MARIGOLD_NPC_HOUSE_1,						   4,  4 ;  6
 	map_const MARIGOLD_NPC_HOUSE_2,						   4,  4 ;  7
 	map_const MARIGOLD_BOATHOUSE,						   4,  4 ;  8
-	map_const MARIGOLD_GYM,                                5,  9 ;  9
-	map_const MARIGOLD_CAVE_1F, 						  19, 15 ; 10
-	map_const MARIGOLD_CAVE_2F,							  15, 17 ; 11
-	map_const DREAM_WORLD, 								  22, 10 ; 12
-	map_const OVERCAST_GROVE,							  17, 14 ; 13
-	map_const BOAT_CUTSCENE,							   9,  5 ; 14
+	map_const MARIGOLD_GYM,                               15, 10 ;  9
+	map_const MARIGOLD_GYM_VENT,						  14,  8 ; 10
+	map_const MARIGOLD_CAVE_1F, 						  19, 15 ; 11
+	map_const MARIGOLD_CAVE_2F,							  15, 17 ; 12
+	map_const DREAM_WORLD, 								  22, 10 ; 13
+	map_const OVERCAST_GROVE,							  17, 14 ; 14
+	map_const BOAT_CUTSCENE,							   9,  5 ; 15
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

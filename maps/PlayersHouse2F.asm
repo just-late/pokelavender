@@ -22,7 +22,7 @@ PlayersHouse2F_MapScriptHeader:
 	object_event  5,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll2, EVENT_PLAYERS_HOUSE_2F_DOLL_2
 	object_event  2,  4, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, BigDoll, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
 	person_event SPRITE_FAT_GUY, 4, 6, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, DebugDudeScript, -1
-	
+
 PlayersHouse2FInitializeRoom:
 	special ToggleDecorationsVisibility
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_8
@@ -111,9 +111,9 @@ DebugDudeScript:
 	writetext DebugDudeText
 	yesorno
 	iffalsefwd .End
-	givepoke FLYGON, PLAIN_FORM, 50, SAFE_GOGGLES
-	givepoke GYARADOS, PLAIN_FORM, 50, EVERSTONE
-	givepoke TYPHLOSION, HISUIAN_FORM, 50, CHARCOAL
+	givepoke FLYGON, PLAIN_FORM, 50, NO_ITEM
+	givepoke TORTERRA, PLAIN_FORM, 50, NO_ITEM
+	givepoke SWAMPERT, PLAIN_FORM, 50, NO_ITEM
 	givetmhm HM_ROCK_SMASH
 	givetmhm HM_DIVE
 	setevent EVENT_ALWAYS_SET
@@ -151,3 +151,9 @@ DebugDudeText:
 	text "Want some debug"
 	line "tools?"
 	done
+
+BigSnorlaxJumps:
+	jump_step_down
+	jump_step_down
+	jump_step_down
+	step_end

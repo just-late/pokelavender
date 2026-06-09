@@ -5,22 +5,27 @@ MarigoldGym_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 4, 17, MARIGOLD_PORT, 6
-	warp_event 5, 17, MARIGOLD_PORT, 6
+	warp_event 12, 19, MARIGOLD_PORT, 6
+	warp_event 13, 19, MARIGOLD_PORT, 6
+	warp_event  3,  3, MARIGOLD_GYM_VENT, 1
+	warp_event 13,  5, MARIGOLD_PORT, 1 ; falling from vent
+	warp_event  7, 11, MARIGOLD_PORT, 1 ; falling from vent
+	warp_event 12, 15, MARIGOLD_PORT, 1 ; falling from vent
+	warp_event 23, 16, MARIGOLD_PORT, 1 ; falling from vent
+
 
     def_coord_events
-	coord_event 6, 9, 0, MarigoldGymUnlockStairsScript
-
+	
     def_bg_events
 
     db 4 ; object events
-	person_event SPRITE_BILL, 1, 4, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldGymFinnScript, EVENT_BEAT_FINN
-	person_event SPRITE_BLACK_BELT, 7, 3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBlackbeltLao, -1
-	person_event SPRITE_BLACK_BELT, 6, 9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerBlackbeltAnder, -1
-	person_event SPRITE_GYM_GUY, 16, 6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldGymGuyScript, -1
+	person_event SPRITE_WALKER,  2, 13, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldGymWalkerScript, EVENT_BEAT_WALKER
+	person_event SPRITE_BLACK_BELT, 16,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBlackbeltLao, -1
+	person_event SPRITE_BLACK_BELT, 16, 27, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerBlackbeltAnder, -1
+	person_event SPRITE_GYM_GUY, 16, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldGymGuyScript, -1
 
     object_const_def
-    const MARIGOLD_GYM_FINN
+    const MARIGOLD_GYM_WALKER
 
 MarigoldGymNoop:
     end
@@ -32,46 +37,46 @@ MarigoldGymUnlockStairsScript:
     wait 10
     end
 
-MarigoldGymFinnScript:
+MarigoldGymWalkerScript:
     faceplayer
     opentext
-    checkflag ENGINE_FISTBADGE
+    checkflag ENGINE_MACHINEBADGE
     iftruefwd .FightDone
-    writetext FinnIntro
+    writetext WalkerIntro
     waitbutton
     closetext
-    winlosstext FinnWinLossText, 0
-    loadtrainer FINN, 1
+    winlosstext WalkerWinLossText, 0
+    loadtrainer WALKER, 1
     startbattle
     reloadmapafterbattle
-    setevent EVENT_BEAT_FINN
+    setevent EVENT_BEAT_WALKER
     opentext
-    writetext ReceivedFistBadgeText
+    writetext ReceivedMachineBadgeText
     playsound SFX_GET_BADGE
     waitsfx
-    setflag ENGINE_FISTBADGE
+    setflag ENGINE_MACHINEBADGE
 .FightDone:
     checkevent EVENT_GOT_TM01_DYNAMICPUNCH
-    iftrue_jumpopenedtext FinnFightDoneText
+    iftrue_jumpopenedtext WalkerFightDoneText
     setevent EVENT_BEAT_BLACKBELT_LAO
     setevent EVENT_BEAT_BLACKBELT_ANDER
-    writetext FinnFistBadgeText
+    writetext WalkerMachineBadgeText
     promptbutton
     verbosegivetmhm TM_DYNAMICPUNCH
     setevent EVENT_GOT_TM01_DYNAMICPUNCH
-    writetext FinnTMDynamicPunchText
+    writetext WalkerTMDynamicPunchText
     waitbutton
-    writetext FinnFightDoneText
+    writetext WalkerFightDoneText
     waitbutton
     closetext
-    applyonemovement MARIGOLD_GYM_FINN, step_dig
-    disappear MARIGOLD_GYM_FINN
+    applyonemovement MARIGOLD_GYM_WALKER, step_dig
+    disappear MARIGOLD_GYM_WALKER
     end
 
 MarigoldGymGuyScript:
     faceplayer
     opentext
-    checkflag ENGINE_FISTBADGE
+    checkflag ENGINE_MACHINEBADGE
     iftrue_jumpopenedtext MarigoldGymGuyWowText
     writetext MarigoldGymGuyMainText
     waitbutton
@@ -117,10 +122,10 @@ BlackbeltAnderBeatenText:
     cont "powerful."
     done
 
-FinnIntro:
+WalkerIntro:
     text "So… you made it!"
 
-    para "My name's FINN."
+    para "My name's WALKER."
     line "I learned the way"
     cont "of the fist when I"
     cont "was very young."
@@ -148,7 +153,7 @@ FinnIntro:
     cont "the fist?!"
     done
 
-FinnWinLossText:
+WalkerWinLossText:
     text "WHAT?!"
 
     para "How…"
@@ -158,12 +163,12 @@ FinnWinLossText:
     cont "all!"
     done
 
-ReceivedFistBadgeText:
+ReceivedMachineBadgeText:
     text "<PLAYER> received"
     line "the FIST BADGE."
     done
 
-FinnFistBadgeText:
+WalkerMachineBadgeText:
     text "………"
 
     para "With that badge,"
@@ -184,7 +189,7 @@ FinnFistBadgeText:
     cont "you can have it."
     done
 
-FinnTMDynamicPunchText:
+WalkerTMDynamicPunchText:
     text "TM01 contains"
     line "DYNAMIC PUNCH."
 
@@ -197,7 +202,7 @@ FinnTMDynamicPunchText:
     cont "cause confusion!"
     done
 
-FinnFightDoneText:
+WalkerFightDoneText:
     text "I am going to"
     line "leave this GYM!"
 
@@ -212,7 +217,7 @@ FinnFightDoneText:
     done
 
 MarigoldGymGuyMainText:
-    text "FINN uses"
+    text "WALKER uses"
     line "FIGHTING-TYPE"
     cont "#MON with"
     cont "powerful physical"
@@ -231,7 +236,7 @@ MarigoldGymGuyMainText:
     cont "once you go in!"
 
     para "The stairs up to"
-    line "FINN's platform"
+    line "WALKER's platform"
     cont "won't open until"
     cont "you beat all the"
     cont "trainers."

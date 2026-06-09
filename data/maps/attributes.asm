@@ -847,3 +847,4 @@ ENDM
 	map_attributes JungleQuarter, JUNGLE_QUARTER, $2d, 0
 	map_attributes MountainQuarter, MOUNTAIN_QUARTER, $0, 0
 	map_attributes AcademyPokeCenter, ACADEMY_POKECENTER, $0, 0
+	map_attributes MarigoldGymVent, MARIGOLD_GYM_VENT, $0, 0

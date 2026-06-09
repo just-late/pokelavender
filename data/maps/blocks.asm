@@ -1886,4 +1886,8 @@ SECTION "AcademyPokeCenter_BlockData", ROMX
 AcademyPokeCenter_BlockData:
 	INCBIN "maps/AcademyPokeCenter.ablk.lz"
 
+SECTION "MarigoldGymVent_BlockData", ROMX
+MarigoldGymVent_BlockData:
+	INCBIN "maps/MarigoldGymVent.ablk.lz"
+
 ENDSECTION

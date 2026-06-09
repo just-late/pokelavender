@@ -196,7 +196,7 @@ CutFunction:
 	dw .FailCut
 
 .CheckAble:
-	ld de, ENGINE_FISTBADGE
+	ld de, ENGINE_MACHINEBADGE
 	call CheckBadge
 	jr c, .nohivebadge
 	call CheckMapForSomethingToCut
@@ -1936,7 +1936,7 @@ HasCutAvailable::
 	call CheckPartyMove
 	jr c, .no
 
-	ld de, ENGINE_FISTBADGE
+	ld de, ENGINE_MACHINEBADGE
 	call CheckEngineFlag
 	jr c, .no
 
