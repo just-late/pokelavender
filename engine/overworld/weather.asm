@@ -685,8 +685,8 @@ DoSandFall:
 	add a
 	add c
 
-	; minimum rise speed is 4
-	sub 4
+	; minimum rise speed is 2
+	sub 2
 
 	; if the sprite goes offscreen, despawn it, otherwise update its y coord
 	ld hl, SPRITEOAMSTRUCT_YCOORD
@@ -744,10 +744,11 @@ DoSandFall:
 	jr .next
 
 SpawnSandDrop:
-	; 50% chance of spawning a sand drop on the right
+	; 25% chance of spawning a sand drop on the right, otherwise don't spawn
 	call Random
-	and 1
-	jr z, .spawn_on_right
+	and %11
+	ret nz
+	jr .spawn_on_right
 
 	; sprite coord is (RandomRange(0, SCREEN_WIDTH_PX + 7) + TILE_WIDTH, SCREEN_HEIGHT_PX + TILE_WIDTH)
 	ld a, SCREEN_HEIGHT_PX + TILE_WIDTH
