@@ -9,10 +9,10 @@ GraniteVillage_MapScriptHeader:
 
     def_coord_events
 	coord_event 11, 25, 0, GraniteVillageIndigoBlockerTrigger
-	coord_event 19, 18, 1, GraniteVillageInnCutsceneTrigger1
-	coord_event 19, 19, 1, GraniteVillageInnCutsceneTrigger2
-	coord_event 20, 20, 1, GraniteVillageInnCutsceneTrigger3
-	coord_event 21, 20, 1, GraniteVillageInnCutsceneTrigger4
+;	coord_event 19, 18, 1, GraniteVillageInnCutsceneTrigger1
+;	coord_event 19, 19, 1, GraniteVillageInnCutsceneTrigger2
+;	coord_event 20, 20, 1, GraniteVillageInnCutsceneTrigger3
+;	coord_event 21, 20, 1, GraniteVillageInnCutsceneTrigger4
 
     def_bg_events
 	bg_event  9, 24, BGEVENT_READ, GraniteVillageStatueScript
