@@ -2057,6 +2057,18 @@ ShakeGrass:
 .GrassObject
 	db $80, PAL_OW_COPY_BG_GREEN, SPRITEMOVEDATA_GRASS
 
+DeepSand:
+	push bc
+	ld de, .SandObject
+	call CopyTempObjectData
+	call InitTempObject
+	pop bc
+	ld de, SFX_SAND_WALK
+	jmp PlaySFX
+
+.SandObject:
+	db $80, PAL_OW_COPY_BG_BROWN, SPRITEMOVEDATA_GRASS
+
 SplashPuddle:
 	push bc
 	ld de, .PuddleObject

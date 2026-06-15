@@ -718,6 +718,8 @@ NormalStep:
 	jr z, .shake_grass
 	cp COLL_PUDDLE
 	call z, SplashPuddle
+	cp COLL_DEEP_SAND
+	call z, DeepSand
 	jr SetWalkStepType
 
 .shake_grass
