@@ -507,7 +507,7 @@ ENDM
 	map_const GEMROOT_NICKNAME_SPEECH_HOUSE,               4,  4 ;  5
 	map_const GEMROOT_COMMUNITY_CENTER_1F,                12,  6 ;  6
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  7
-	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  8
+	map_const PLAYERS_HOUSE_2F,                           10,  8 ;  8 ; debug room
 	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  9
 	map_const ANABELS_HOUSE_1F,							   6,  4 ; 10
 	map_const ANABELS_HOUSE_2F,							   4,  3 ; 11
@@ -685,5 +685,9 @@ ENDM
 	map_const DREAM_WORLD, 								  22, 10 ; 13
 	map_const OVERCAST_GROVE,							  17, 14 ; 14
 	map_const BOAT_CUTSCENE,							   9,  5 ; 15
+
+	newgroup
+	map_const SWINUB_RANCH,							 	  23, 17 ;  1
+	map_const SNOWBARK_TOWN,							  20, 17 ;  2
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

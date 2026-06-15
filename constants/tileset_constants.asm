@@ -5,6 +5,7 @@
 	const TILESET_JOHTO_OVERCAST       ; 03
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 	const TILESET_MOUNTAIN      ; 05
+	const TILESET_SNOWY
 DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_BLOSSOM                ; 06
 	const TILESET_INDIGO_PLATEAU       ; 07
@@ -57,7 +58,7 @@ DEF TILESET_LENGTH EQU 15
 	const ROOF_VIOLET    ; 1
 	const ROOF_AZALEA    ; 2
 	const ROOF_OLIVINE   ; 3
-	const ROOF_STATUE    ; 4
+	const ROOF_SNOWBARK    ; 4
 DEF NUM_ROOFS EQU const_value
 
 ; roof length (see gfx/tilesets/roofs)

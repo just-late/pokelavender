@@ -93,6 +93,7 @@ ENDM
 	special_bg_pal tileset,  TILESET_QUIET_CAVE,          PAL_SINGLE,    QuietCavePalette
 	special_bg_pal tileset,  TILESET_ICE_PATH,            PAL_SINGLE,    IcePathPalette
 	special_bg_pal tileset,  TILESET_SNOWTOP_MOUNTAIN,    PAL_TIMEOFDAY, SnowtopMountainPalette
+	special_bg_pal tileset,  TILESET_SNOWY,				  PAL_TIMEOFDAY, SnowyPalette
 	db 0 ; end
 
 JungleQuarterPalette:
@@ -171,6 +172,9 @@ endr
 	RGB_MONOCHROME_DARK
 	RGB_MONOCHROME_BLACK
 endc
+
+SnowyPalette:
+INCLUDE "gfx/tilesets/snowy.pal"
 
 IcePathPalette:
 if !DEF(MONOCHROME)

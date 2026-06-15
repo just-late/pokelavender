@@ -158,3 +158,4 @@
 	tilecoll WALL, WALL, FLOOR, WALL ; 9d
 	tilecoll WALL, WALL, FLOOR, TV ; 9e
 	tilecoll TOWN_MAP, WALL, FLOOR, FLOOR ; 9f
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a0

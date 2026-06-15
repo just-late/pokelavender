@@ -39,4 +39,5 @@ MapGroupRoofs:
 	db ROOF_VIOLET   ; 36 (Rugged Road)
 	db ROOF_AZALEA   ; 37 (Canyon)
 	db ROOF_OLIVINE  ; 38 (Marigold Port)
+	db ROOF_SNOWBARK   ; 39 (Snowbark Town)
 	assert_table_length NUM_MAP_GROUPS + 1

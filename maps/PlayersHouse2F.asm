@@ -6,22 +6,34 @@ PlayersHouse2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
-	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
+	warp_event 19,  0, SNOWTOP_MOUNTAIN_OUTSIDE, 1
+	warp_event  1,  8, GEMROOT_TOWN, 1
+	warp_event  3,  8, MOSSHILL_TOWN, 2
+	warp_event  5,  8, MOONFLOWER_CITY, 3
+	warp_event  7,  8, MARIGOLD_PORT, 1
+	warp_event  9,  8, BLOSSOM_CITY, 1
+	warp_event 11,  8, GRANITE_VILLAGE, 1
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  2,  1, BGEVENT_UP, PlayersHousePC
-	bg_event  3,  1, BGEVENT_READ, PlayersHouseRadio
-	bg_event  5,  1, BGEVENT_READ, PokemonJournalDrLaventonScript
-	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
+	bg_event 14,  1, BGEVENT_UP, PlayersHousePC
+	bg_event 15,  1, BGEVENT_READ, PlayersHouseRadio
+	bg_event 17,  1, BGEVENT_READ, PokemonJournalDrLaventonScript
+	bg_event 18,  0, BGEVENT_IFSET, PlayersHousePoster
+	bg_event 10, 12, BGEVENT_READ, DebugPosterScript
+	bg_event  0,  8, BGEVENT_JUMPTEXT, PlayersHouseGemrootText
+	bg_event  2,  8, BGEVENT_JUMPTEXT, PlayersHouseGlittervineText
+	bg_event  4,  8, BGEVENT_JUMPTEXT, PlayersHouseMoonflowerText
+	bg_event  6,  8, BGEVENT_JUMPTEXT, PlayersHouseMarigoldText
+	bg_event  8,  8, BGEVENT_JUMPTEXT, PlayersHouseBlossomText
+	bg_event 10,  8, BGEVENT_JUMPTEXT, PlayersHouseGraniteText
 
-	db 5 ; object events
-	object_event  4,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
-	object_event  4,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll1, EVENT_PLAYERS_HOUSE_2F_DOLL_1
-	object_event  5,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll2, EVENT_PLAYERS_HOUSE_2F_DOLL_2
-	object_event  2,  4, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, BigDoll, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
-	person_event SPRITE_FAT_GUY, 4, 6, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, DebugDudeScript, -1
+	db 4 ; object events
+	object_event 16,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
+	object_event 16,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll1, EVENT_PLAYERS_HOUSE_2F_DOLL_1
+	object_event 17,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll2, EVENT_PLAYERS_HOUSE_2F_DOLL_2
+	object_event 14,  4, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, BigDoll, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
 
 PlayersHouse2FInitializeRoom:
 	special ToggleDecorationsVisibility
@@ -105,26 +117,30 @@ PlayersHousePC:
 	warp NONE, 0, 0
 	end
 
-DebugDudeScript:
-	faceplayer
+DebugPosterScript:
 	opentext
-	writetext DebugDudeText
+	writetext DebugPosterTeamText
 	yesorno
-	iffalsefwd .End
-	givepoke FLYGON, PLAIN_FORM, 50, NO_ITEM
-	givepoke TORTERRA, PLAIN_FORM, 50, NO_ITEM
-	givepoke SWAMPERT, PLAIN_FORM, 50, NO_ITEM
-	givetmhm HM_ROCK_SMASH
-	givetmhm HM_DIVE
-	setevent EVENT_ALWAYS_SET
-	setevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	setflag ENGINE_POKEGEAR
-	setflag ENGINE_MAP_CARD
-	setflag ENGINE_POKEDEX
-	setflag ENGINE_PUNKBADGE
-.End:
+	iffalsefwd .NoScript
+	givepoke FLYGON, PLAIN_FORM, 50, NO_ITEM, CHERISH_BALL
+	givepoke TORTERRA, PLAIN_FORM, 50, NO_ITEM, CHERISH_BALL, WOOD_HAMMER
+	givepoke GYARADOS, PLAIN_FORM, 50, NO_ITEM, CHERISH_BALL, DRAGON_RAGE
+	givepoke VENUSAUR, MALE | PLAIN_FORM, 50, MOOMOO_MILK, ULTRA_BALL, SLUDGE_BOMB, GiftVenusaurName, GiftVenusaurOTName, 00001
+.NoScript
 	closetext
 	end
+
+GiftVenusaurOTName:
+	text "BRUCE@"
+	done
+
+GiftVenusaurName:
+	text "BRO@"
+	done
+
+DebugPosterTeamText:
+	text "Good team?"
+	done
 
 PlayerRadioText1:
 	text "Prof.Oak's #MON"
@@ -146,14 +162,26 @@ PlayerRadioText4:
 	line "#MON Channel…"
 	done
 
-DebugDudeText:
-	ntag " DEBUG DUDE "
-	text "Want some debug"
-	line "tools?"
+PlayersHouseGemrootText:
+	text "GEMROOT TOWN"
 	done
 
-BigSnorlaxJumps:
-	jump_step_down
-	jump_step_down
-	jump_step_down
-	step_end
+PlayersHouseGlittervineText:
+	text "MOSSHILL TOWN"
+	done
+
+PlayersHouseMoonflowerText:
+	text "MOONFLOWER CITY"
+	done
+
+PlayersHouseMarigoldText:
+	text "MARIGOLD PORT"
+	done
+
+PlayersHouseBlossomText:
+	text "BLOSSOM CITY"
+	done
+
+PlayersHouseGraniteText:
+	text "GRANITE VILLAGE"
+	done
