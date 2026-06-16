@@ -5748,13 +5748,13 @@ Sfx_Gravity_Ch8:
 Sfx_SandWalk:
 	channel_count 2
 	channel 5, Sfx_SandWalk_Ch5
-	channel 8, Sfx_SandWalk_Ch8
+	channel 6, Sfx_SandWalk_Ch6
 
 Sfx_SandWalk_Ch5:
 	noise_note 15, 4, 7, 0, 0, 4
 	sound_ret
 
-Sfx_SandWalk_Ch8:
+Sfx_SandWalk_Ch6:
 	noise_note 25, 5, 6, 0, 0, 2
 	sound_ret
 
