@@ -4,6 +4,7 @@ SnowbarkTown_MapScriptHeader:
     def_callbacks
 
     def_warp_events
+	warp_event 13, 15, PLAYERS_HOUSE_2F, 1
 
     def_coord_events
 

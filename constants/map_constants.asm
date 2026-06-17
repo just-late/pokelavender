@@ -654,6 +654,8 @@ ENDM
 	newgroup                                                     ; 35
 	map_const SAFFRON_CITY,                               20, 19 ;  1
 	map_const SHAMOUTI_SHRINE_RUINS,                      12, 17 ;  2
+	map_const SWINUB_RANCH,							 	  23, 17 ;  3
+	map_const SNOWBARK_TOWN,							  20, 20 ;  4
 
 	newgroup                                                     ; 36
 	map_const RUGGED_ROAD_NORTH,                          17,  9 ;  1
@@ -685,9 +687,5 @@ ENDM
 	map_const DREAM_WORLD, 								  22, 10 ; 13
 	map_const OVERCAST_GROVE,							  17, 14 ; 14
 	map_const BOAT_CUTSCENE,							   9,  5 ; 15
-
-	newgroup
-	map_const SWINUB_RANCH,							 	  23, 17 ;  1
-	map_const SNOWBARK_TOWN,							  20, 17 ;  2
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

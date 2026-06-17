@@ -12,7 +12,7 @@
 	tilecoll WALL, TALL_GRASS, WALL, TALL_GRASS ; 0b
 	tilecoll WALL, WALL, WALL, DOOR ; 0c
 	tilecoll WALL, WALL, WALL, WALL ; 0d
-	tilecoll WALL, WALL, WALL, WALL ; 0e
+	tilecoll WALL, WALL, POKECENTER_SIGN, WALL ; 0e
 	tilecoll TALL_GRASS, WALL, TALL_GRASS, WALL ; 0f
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 10
 	tilecoll FLOOR, WALL, WALL, WALL ; 11
@@ -21,7 +21,7 @@
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 14
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 15
 	tilecoll WALL, WALL, WALL, WALL ; 16
-	tilecoll FLOOR, FLOOR, WALL, WALL ; 17
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 17
 	tilecoll WALL, WALL, WALL, WALL ; 18
 	tilecoll WALL, WALL, WALL, WALL ; 19
 	tilecoll WALL, WALL, WALL, WALL ; 1a
@@ -43,7 +43,7 @@
 	tilecoll ICE, ICE, ICE, ICE ; 2a
 	tilecoll ICE, ICE, ICE, ICE ; 2b
 	tilecoll WALL, WALL, WALL, WALL ; 2c
-	tilecoll WALL, WALL, WALL, WALL ; 2d
+	tilecoll WALL, WALL, MART_SIGN, WALL ; 2d
 	tilecoll ICE, ICE, ICE, ICE ; 2e
 	tilecoll ICE, ICE, ICE, ICE ; 2f
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 30
@@ -58,43 +58,82 @@
 	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 39
 	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 3a
 	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 3b
-	tilecoll VOID, VOID, VOID, VOID ; 3c
-	tilecoll VOID, VOID, VOID, VOID ; 3d
-	tilecoll VOID, VOID, VOID, VOID ; 3e
-	tilecoll VOID, VOID, VOID, VOID ; 3f
-	tilecoll VOID, VOID, VOID, VOID ; 40
-	tilecoll VOID, VOID, VOID, VOID ; 41
-	tilecoll VOID, VOID, VOID, VOID ; 42
-	tilecoll VOID, VOID, VOID, VOID ; 43
-	tilecoll VOID, VOID, VOID, VOID ; 44
-	tilecoll VOID, VOID, VOID, VOID ; 45
-	tilecoll VOID, VOID, VOID, VOID ; 46
-	tilecoll VOID, VOID, VOID, VOID ; 47
-	tilecoll VOID, VOID, VOID, VOID ; 48
-	tilecoll VOID, VOID, VOID, VOID ; 49
-	tilecoll VOID, VOID, VOID, VOID ; 4a
-	tilecoll VOID, VOID, VOID, VOID ; 4b
-	tilecoll VOID, VOID, VOID, VOID ; 4c
-	tilecoll VOID, VOID, VOID, VOID ; 4d
-	tilecoll VOID, VOID, VOID, VOID ; 4e
-	tilecoll VOID, VOID, VOID, VOID ; 4f
-	tilecoll VOID, VOID, VOID, VOID ; 50
-	tilecoll VOID, VOID, VOID, VOID ; 51
-	tilecoll VOID, VOID, VOID, VOID ; 52
-	tilecoll VOID, VOID, VOID, VOID ; 53
-	tilecoll VOID, VOID, VOID, VOID ; 54
-	tilecoll VOID, VOID, VOID, VOID ; 55
-	tilecoll VOID, VOID, VOID, VOID ; 56
-	tilecoll VOID, VOID, VOID, VOID ; 57
-	tilecoll VOID, VOID, VOID, VOID ; 58
-	tilecoll VOID, VOID, VOID, VOID ; 59
-	tilecoll VOID, VOID, VOID, VOID ; 5a
-	tilecoll VOID, VOID, VOID, VOID ; 5b
-	tilecoll VOID, VOID, VOID, VOID ; 5c
-	tilecoll VOID, VOID, VOID, VOID ; 5d
-	tilecoll VOID, VOID, VOID, VOID ; 5e
-	tilecoll VOID, VOID, VOID, VOID ; 5f
-	tilecoll VOID, VOID, VOID, VOID ; 60
-	tilecoll VOID, VOID, VOID, VOID ; 61
-	tilecoll VOID, VOID, VOID, VOID ; 62
-	tilecoll VOID, VOID, VOID, VOID ; 63
+	tilecoll VENDING_MACHINE, WALL, TALL_GRASS, WALL ; 3c
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 3d
+	tilecoll WALL, WALL, WALL, WALL ; 3e
+	tilecoll WALL, WALL, WALL, WALL ; 3f
+	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, WALL ; 40
+	tilecoll TALL_GRASS, FLOOR, TALL_GRASS, TALL_GRASS ; 41
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 42
+	tilecoll WALL, WALL, WALL, WALL ; 43
+	tilecoll WALL, WALL, DOOR, WALL ; 44
+	tilecoll WALL, WALL, WALL, WALL ; 45
+	tilecoll FLOOR, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 46
+	tilecoll WALL, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 47
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 48
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 49
+	tilecoll WALL, WALL, DOOR, WALL ; 4a
+	tilecoll WALL, WALL, WALL, WALL ; 4b
+	tilecoll WALL, TALL_GRASS, WALL, TALL_GRASS ; 4c
+	tilecoll TALL_GRASS, WALL, TALL_GRASS, WALL ; 4d
+	tilecoll WALL, WALL, WALL, WALL ; 4e
+	tilecoll WALL, WALL, WALL, WALL ; 4f
+	tilecoll WALL, WALL, WALL, WALL ; 50
+	tilecoll WALL, WALL, WALL, WALL ; 51
+	tilecoll FLOOR, WALL, WALL, WALL ; 52
+	tilecoll WALL, WALL, WALL, WALL ; 53
+	tilecoll FLOOR, FLOOR, TALL_GRASS, TALL_GRASS ; 54
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 55
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 56
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 57
+	tilecoll ICE, ICE, ICE, ICE ; 58
+	tilecoll WALL, WALL, WALL, DOOR ; 59
+	tilecoll WALL, WALL, WALL, WALL ; 5a
+	tilecoll WALL, WALL, POKECENTER_SIGN, WALL ; 5b
+	tilecoll WALL, WALL, WALL, DOOR ; 5c
+	tilecoll WALL, WALL, WALL, WALL ; 5d
+	tilecoll WALL, WALL, WALL, WALL ; 5e
+	tilecoll WALL, WALL, MART_SIGN, WALL ; 5f
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 60
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 61
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 62
+	tilecoll WALL, WALL, WALL, WALL ; 63
+	tilecoll WALL, WALL, WALL, WALL ; 64
+	tilecoll WALL, WALL, WALL, WALL ; 65
+	tilecoll WALL, WALL, DOOR, WALL ; 66
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 67
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 68
+	tilecoll WALL, WALL, FLOOR, WALL ; 69
+	tilecoll WALL, WALL, DOOR, DOOR ; 6a
+	tilecoll WALL, WALL, WALL, FLOOR ; 6b
+	tilecoll WALL, WALL, WALL, WALL ; 6c
+	tilecoll WALL, WALL, WALL, WALL ; 6d
+	tilecoll WALL, WALL, WALL, WALL ; 6e
+	tilecoll WALL, WALL, WALL, WALL ; 6f
+	tilecoll WALL, WALL, WALL, WALL ; 70
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 71
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 72
+	tilecoll WALL, WALL, WALL, WALL ; 73
+	tilecoll WALL, WALL, WALL, WALL ; 74
+	tilecoll WALL, WALL, WALL, WALL ; 75
+	tilecoll WALL, WALL, WALL, WALL ; 76
+	tilecoll WALL, WALL, WALL, WALL ; 77
+	tilecoll WALL, WALL, WALL, WALL ; 78
+	tilecoll WALL, WALL, WALL, WALL ; 79
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 7a
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 7b
+	tilecoll WALL, WALL, DOOR, DOOR ; 7c
+	tilecoll WALL, WALL, WALL, WALL ; 7d
+	tilecoll WALL, WALL, WALL, WALL ; 7e
+	tilecoll WALL, WALL, TALL_GRASS, TALL_GRASS ; 7f
+	tilecoll WALL, WALL, WALL, WALL ; 80
+	tilecoll ICE, ICE, ICE, ICE ; 81
+	tilecoll ICE, ICE, ICE, ICE ; 82
+	tilecoll ICE, ICE, ICE, ICE ; 83
+	tilecoll ICE, ICE, ICE, ICE ; 84
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 85
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 86
+	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 87
+	tilecoll WALL, WALL, FLOOR, WALL ; 88
+	tilecoll WALL, WALL, WALL, WALL ; 89
+	tilecoll WALL, WALL, DOOR, DOOR ; 8a

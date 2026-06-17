@@ -55,12 +55,12 @@ SetCurrentWeather::
 
 .not_overcast
 	ld a, [wMapGroup]
-	cp GROUP_SNOWTOP_MOUNTAIN_OUTSIDE
+	cp GROUP_SNOWBARK_TOWN
 	jr nz, .not_snowing
 	ld a, [wMapNumber]
-	cp MAP_SNOWTOP_MOUNTAIN_OUTSIDE
+	cp MAP_SNOWBARK_TOWN
 	jr z, .snowing
-	cp MAP_SNOWTOP_MOUNTAIN_INSIDE
+	cp MAP_SWINUB_RANCH
 	jr nz, .not_snowing
 .snowing
 	ld a, OW_WEATHER_SNOW

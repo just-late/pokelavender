@@ -12,17 +12,17 @@ MarigoldPort_MapScriptHeader:
 	warp_event 61,  9, MARIGOLD_CAVE_1F, 6
 	warp_event 49,  9, MARIGOLD_POKECENTER_1F, 1
 	warp_event 43,  9, MARIGOLD_NPC_HOUSE_1, 1
-	warp_event 51, 15, MARIGOLD_NPC_HOUSE_2, 1
+	warp_event 55, 15, MARIGOLD_NPC_HOUSE_2, 1
 	warp_event 35, 21, MARIGOLD_BOATHOUSE, 1
-	warp_event 36,  9, MARIGOLD_GYM, 1
+	warp_event 42, 15, MARIGOLD_GYM, 1
 
     def_coord_events
 	coord_event 12, 16, 0, TyphlosionsQuestTrigger1
 	coord_event 13, 16, 0, TyphlosionsQuestTrigger2
 
     def_bg_events
-	bg_event 56, 12, BGEVENT_JUMPTEXT, MarigoldPortSignText
-	bg_event 38, 10, BGEVENT_JUMPTEXT, MarigoldPortGymSignText
+	bg_event 38, 10, BGEVENT_JUMPTEXT, MarigoldPortSignText
+	bg_event 44, 16, BGEVENT_JUMPTEXT, MarigoldPortGymSignText
 	bg_event 33, 21, BGEVENT_JUMPTEXT, MarigoldBoathouseSignText
 
     db 21 ; object_events
@@ -37,8 +37,8 @@ MarigoldPort_MapScriptHeader:
 	person_event SPRITE_BEACH_GUY, 10, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC4Text, -1
 	object_event 53, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
 	object_event 53, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	person_event SPRITE_FISHER, 19, 59, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldPortFisherScript, -1
-	person_event SPRITE_LASS, 13, 42, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC1Text, -1
+	person_event SPRITE_FISHER, 19, 61, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldPortFisherScript, -1
+	person_event SPRITE_LASS, 12, 37, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC1Text, -1
 	person_event SPRITE_BUG_MANIAC, 11, 46, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC2Text, -1
 	person_event SPRITE_CHILD, 16, 48, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC3Text, -1
 	person_event SPRITE_SAILOR, 20, 52, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor1Text, -1

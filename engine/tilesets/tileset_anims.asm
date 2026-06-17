@@ -33,7 +33,6 @@ TilesetGemrootAnim::
 TilesetJohto2Anim::
 TilesetJohto3Anim::
 TilesetJohto4Anim::
-TilesetSnowyAnim::
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw vTiles2 tile $1c, AnimateRainPuddleTile
 	dw vTiles2 tile $1d, AnimateRainWaterTile
@@ -57,6 +56,7 @@ TilesetSnowyAnim::
 	dw vTiles2 tile $35, ReadTileFromBuffer
 	dw NULL,  DoneTileAnimation
 
+TilesetSnowyAnim::
 TilesetMountainAnim::
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  DoNothing

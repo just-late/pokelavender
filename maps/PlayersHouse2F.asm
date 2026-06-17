@@ -13,6 +13,7 @@ PlayersHouse2F_MapScriptHeader:
 	warp_event  7,  8, MARIGOLD_PORT, 1
 	warp_event  9,  8, BLOSSOM_CITY, 1
 	warp_event 11,  8, GRANITE_VILLAGE, 1
+	warp_event 15,  8, SNOWBARK_TOWN, 1
 
 	def_coord_events
 
@@ -28,6 +29,7 @@ PlayersHouse2F_MapScriptHeader:
 	bg_event  6,  8, BGEVENT_JUMPTEXT, PlayersHouseMarigoldText
 	bg_event  8,  8, BGEVENT_JUMPTEXT, PlayersHouseBlossomText
 	bg_event 10,  8, BGEVENT_JUMPTEXT, PlayersHouseGraniteText
+	bg_event 14,  8, BGEVENT_JUMPTEXT, PlayersHouseSnowbarkText
 
 	db 4 ; object events
 	object_event 16,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
@@ -184,4 +186,8 @@ PlayersHouseBlossomText:
 
 PlayersHouseGraniteText:
 	text "GRANITE VILLAGE"
+	done
+
+PlayersHouseSnowbarkText:
+	text "SNOWBARK TOWN"
 	done
