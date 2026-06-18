@@ -1794,7 +1794,7 @@ LoadTradeScreenGFX:
 	jmp DecompressRequest2bpp
 
 SetTradeRoomBGPals:
-	farcall LoadLinkTradePalette
+	call LoadLinkTradePalette
 	farcall ApplyPals
 	jmp SetPalettes
 

@@ -72,6 +72,7 @@ ENDM
 	special_bg_pal map,		 MOUNTAIN_QUARTER,			  PAL_TIMEOFDAY, MountainPalette
 	special_bg_pal map,      CANYON_1F,		       		  PAL_TIMEOFDAY, BGCanyonPalette
 	special_bg_pal map,      JUNGLE_QUARTER,			  PAL_TIMEOFDAY, JungleQuarterPalette
+	special_bg_pal map,      OREDALE_CITY,				  PAL_TIMEOFDAY, OredaleCityPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
@@ -154,6 +155,9 @@ endc
 
 BGCanyonPalette:
 INCLUDE "gfx/tilesets/bg_canyon.pal"
+
+OredaleCityPalette:
+INCLUDE "maps/OredaleCity.pal"
 
 BattleFactoryPalette:
 if !DEF(MONOCHROME)

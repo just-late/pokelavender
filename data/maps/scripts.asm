@@ -1053,9 +1053,8 @@ INCLUDE "maps/JungleQuarter.asm"
 INCLUDE "maps/MountainQuarter.asm"
 INCLUDE "maps/AcademyPokeCenter.asm"
 
-SECTION "Snowbark Town Scripts", ROMX
+SECTION "Oredale City Scripts", ROMX
 
-INCLUDE "maps/SnowbarkTown.asm"
-INCLUDE "maps/SwinubRanch.asm"
+INCLUDE "maps/OredaleCity.asm"
 
 ENDSECTION

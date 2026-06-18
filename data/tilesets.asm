@@ -110,8 +110,8 @@ SECTION "Tileset Data - snowy", ROMX
 
 TilesetSnowyGFX0:: INCBIN "gfx/tilesets/snowy.2bpp.lz"
 TilesetSnowyGFX1:: INCBIN "gfx/tilesets/snowy.2bpp.vram0.lz"
-TilesetSnowyGFX2:: 
-	db $ff ; INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
+TilesetSnowyGFX2::
+	db $ff ;INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
 
 TilesetSnowyMeta:: INCBIN "data/tilesets/snowy_metatiles.bin.lz"
 TilesetSnowyAttr:: INCBIN "data/tilesets/snowy_attributes.bin.lz"

@@ -1890,12 +1890,8 @@ SECTION "MarigoldGymVent_BlockData", ROMX
 MarigoldGymVent_BlockData:
 	INCBIN "maps/MarigoldGymVent.ablk.lz"
 
-SECTION "SwinubRanch_BlockData", ROMX
-SwinubRanch_BlockData:
-	INCBIN "maps/SwinubRanch.ablk.lz"
-
-SECTION "SnowbarkTown_BlockData", ROMX
-SnowbarkTown_BlockData:
-	INCBIN "maps/SnowbarkTown.ablk.lz"
+SECTION "OredaleCity_BlockData", ROMX
+OredaleCity_BlockData:
+	INCBIN "maps/OredaleCity.ablk.lz"
 
 ENDSECTION

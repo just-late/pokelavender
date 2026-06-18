@@ -353,11 +353,7 @@ ENDM
 	map_attributes GraniteVillageTrainTrack, GRANITE_VILLAGE_TRAIN_TRACK, $05, SOUTH
 	connection south, GraniteVillage, GRANITE_VILLAGE, 0
 
-	map_attributes SwinubRanch, SWINUB_RANCH, $05, EAST
-	connection east, SnowbarkTown, SNOWBARK_TOWN, 0
-
-	map_attributes SnowbarkTown, SNOWBARK_TOWN, $05, WEST
-	connection west, SwinubRanch, SWINUB_RANCH, 0
+	map_attributes OredaleCity, OREDALE_CITY, $05, 0
 
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0

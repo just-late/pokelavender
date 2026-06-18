@@ -55,12 +55,12 @@ SetCurrentWeather::
 
 .not_overcast
 	ld a, [wMapGroup]
-	cp GROUP_SNOWBARK_TOWN
+	cp GROUP_OREDALE_CITY
 	jr nz, .not_snowing
 	ld a, [wMapNumber]
-	cp MAP_SNOWBARK_TOWN
+	cp MAP_OREDALE_CITY
 	jr z, .snowing
-	cp MAP_SWINUB_RANCH
+	cp MAP_ROUTE_9
 	jr nz, .not_snowing
 .snowing
 	ld a, OW_WEATHER_SNOW

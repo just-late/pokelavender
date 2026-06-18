@@ -24,7 +24,7 @@
 	const ROUTE_8			 ; 14
 	const GRANITE_VILLAGE    ; 15
 	const ROUTE_9			 ; 16
-	const SNOWBARK_TOWN      ; 17
+	const OREDALE_CITY       ; 17
 	const BLOSSOM_CITY       ; 18
 DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07

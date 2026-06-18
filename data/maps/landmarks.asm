@@ -29,7 +29,7 @@ Landmarks:
 	landmark  52,  52, Route8Name
 	landmark  52,  44, GraniteVillageName
 	landmark  36,  44, Route9Name
-	landmark  36,  28, SnowbarkTownName
+	landmark  36,  28, OredaleCityName
 	landmark  36, 116, BlossomCityName
 	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
@@ -163,7 +163,7 @@ CoralCoveName:		   rawchar "CORAL COVE@"
 MtLavenderName:		   rawchar "MT.¯LAVENDER@"
 BlossomCityName:	   rawchar "BLOSSOM¯CITY@"
 GraniteVillageName:	   rawchar "GRANITE¯VILLAGE@"
-SnowbarkTownName:	   rawchar "SNOWBARK¯TOWN@"
+OredaleCityName:	   rawchar "OREDALE¯CITY@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 OlivineCityName:       rawchar "Olivine¯City@"
 CianwoodCityName:      rawchar "Cianwood¯City@"

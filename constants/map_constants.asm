@@ -654,8 +654,7 @@ ENDM
 	newgroup                                                     ; 35
 	map_const SAFFRON_CITY,                               20, 19 ;  1
 	map_const SHAMOUTI_SHRINE_RUINS,                      12, 17 ;  2
-	map_const SWINUB_RANCH,							 	  23, 17 ;  3
-	map_const SNOWBARK_TOWN,							  20, 20 ;  4
+	map_const OREDALE_CITY,								  23, 28 ;  3
 
 	newgroup                                                     ; 36
 	map_const RUGGED_ROAD_NORTH,                          17,  9 ;  1
