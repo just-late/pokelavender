@@ -37,13 +37,14 @@ OredaleCityNPC1Text:
     done
 
 OredaleCityNPC2Text:
-    text "H-<WAIT>Hey there!"
+    text "H-<PAUSE>Hey there!"
 
-    para "H-<WAIT>H-<WAIT>Huh?"
-    line "Why a-<WAIT>am I s-<WAIT>sitting"
-    cont "out in the c-<WAIT>c-<WAIT>cold?"
+    para "H-<PAUSE>H-<PAUSE>Huh?"
+    line "Why a-<PAUSE>am I out in"
+    cont "the c-<PAUSE>c-<PAUSE>cold?" 
 
-    para "I n-<WAIT>n-<WAIT>need fresh air!"
+    para "I n-<PAUSE>n-<PAUSE>need fresh"
+    line "a-<PAUSE>air!"
     done
 
 OredaleCityNPC3Text:
@@ -51,16 +52,17 @@ OredaleCityNPC3Text:
     line "working in the"
     cont "mine."
 
-    para "Even with the fancy"
-    line "machines, it still"
-    cont "exhausts me!"
+    para "Even with the new"
+    line "machines we got,"
+    cont "it's still hard"
+    cont "work."
     done
 
 OredaleCityNPC4Text:
     text "I got my snowboard"
     line "at the SKI SHOP."
 
-    para "After I rode it,"
+    para "After I tried it,"
     line "I came back in to"
     cont "tell them…"
 
@@ -69,11 +71,11 @@ OredaleCityNPC4Text:
     done
 
 OredaleMuseumSignText:
-    text "OREDALE SPACE"
-    line "MUSUEM"
+    text "OREDALE MUSEUM"
 
     para "Learn about the"
-    line "past and future!"
+    line "ancient past of"
+    cont "the ATUVA REGION!"
     done
 
 CobbMainBuildingSignText:

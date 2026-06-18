@@ -108,10 +108,8 @@ TilesetBlossom2Coll:: INCBIN "data/tilesets/indigo_plateau_collision.bin.lz"
 
 SECTION "Tileset Data - snowy", ROMX
 
-TilesetSnowyGFX0:: INCBIN "gfx/tilesets/snowy.2bpp.lz"
-TilesetSnowyGFX1:: INCBIN "gfx/tilesets/snowy.2bpp.vram0.lz"
-TilesetSnowyGFX2::
-	db $ff ;INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
+TilesetSnowyGFX0:: INCBIN "gfx/tilesets/snowy.2bpp.vram0.lz"
+TilesetSnowyGFX1:: INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
 
 TilesetSnowyMeta:: INCBIN "data/tilesets/snowy_metatiles.bin.lz"
 TilesetSnowyAttr:: INCBIN "data/tilesets/snowy_attributes.bin.lz"
@@ -503,6 +501,8 @@ TilesetJohto2GFX2:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram1.lz"
 TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
 
 TilesetBlossomCityGFX2:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram1.lz"
+
+TilesetSnowyGFX2:: INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
 
 TilesetMountainGFX2::
 TilesetJohto4GFX2::
