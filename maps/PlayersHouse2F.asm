@@ -128,6 +128,11 @@ DebugPosterScript:
 	givepoke TORTERRA, PLAIN_FORM, 50, NO_ITEM, CHERISH_BALL, WOOD_HAMMER
 	givepoke GYARADOS, PLAIN_FORM, 50, NO_ITEM, CHERISH_BALL, DRAGON_RAGE
 	givepoke VENUSAUR, MALE | PLAIN_FORM, 50, MOOMOO_MILK, ULTRA_BALL, SLUDGE_BOMB, GiftVenusaurName, GiftVenusaurOTName, 00001
+	givekeyitem GBC_SOUNDS
+	givekeyitem WAILMER_PAIL
+	setflag ENGINE_POKEDEX
+	setflag ENGINE_POKEGEAR
+	setflag ENGINE_MAP_CARD
 .NoScript
 	closetext
 	end
