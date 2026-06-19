@@ -12,28 +12,33 @@ OredaleCity_MapScriptHeader:
 	bg_event  9, 14, BGEVENT_JUMPTEXT, OredaleMuseumSignText
 	bg_event 27, 16, BGEVENT_JUMPTEXT, CobbMainBuildingSignText
 	bg_event 20, 35, BGEVENT_JUMPTEXT, OredaleSkiShopSignText
-	bg_event 17, 48, BGEVENT_JUMPTEXT, OredaleOfficesSignText
+	bg_event 17, 48, BGEVENT_JUMPTEXT, OredaleGymSignText
 	bg_event 35, 52, BGEVENT_JUMPTEXT, OredaleMineSignText
+	bg_event 11, 38, BGEVENT_JUMPTEXT, OredaleCitySignText
 
-    db 4 ; object events
+    db 14 ; object events
 	person_event SPRITE_SUPER_NERD, 15, 38, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC1Text, -1
 	person_event SPRITE_ACE_TRAINER_F, 27, 28, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC2Text, -1
-	person_event SPRITE_ENGINEER, 25, 16, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC3Text, -1
-	person_event SPRITE_BOARDER, 37, 17, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC4Text, -1 
-;	person_event , 16, 31
-;	person_event , 16, 30
+	person_event SPRITE_ENGINEER, 25, 17, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC3Text, -1
+	person_event SPRITE_BOARDER, 37, 17, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC4Text, -1
+	person_event SPRITE_OFFICER, 16, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCobbBuildingGuard1, -1
+	person_event SPRITE_OFFICER, 16, 30, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCobbBuildingGuard2, -1
+	person_event SPRITE_BOARDER, 22, 10, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC5Text, -1
+	person_event SPRITE_ENGINEER, 49, 29, SPRITEMOVEDATA_WANDER, 1, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC6Text, -1
+	person_event SPRITE_OFFICER, 52, 36, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleMineGuard, -1
+	person_event SPRITE_ACE_TRAINER_F, 49, 21, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC7Text, -1
+	person_event SPRITE_FAT_GUY, 17, 35, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC8Text, -1
+	person_event SPRITE_SKIER, 35, 23, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC9Text, -1
+	keyitemball_event 36, 11, CARD_KEY, EVENT_OREDALE_CITY_COBB_ID
 
 OredaleCityNPC1Text:
-    text "Those guards are"
-    line "blocking the main"
-    cont "door to the COBB"
-    cont "BUILDING,"
+    text "U<PAUSE>u<PAUSE>ugh!"
 
-    para "but anyone who"
-    line "wanted could just"
-    cont "sneak through the"
-    cont "hole in that"
-    cont "fence."
+    para "I'll DIE if I"
+    line "can't figure out"
+    cont "what item is on"
+    cont "the other side of"
+    cont "that fence."
     done
 
 OredaleCityNPC2Text:
@@ -70,6 +75,107 @@ OredaleCityNPC4Text:
     line "stick to skis!"
     done
 
+OredaleCityNPC5Text:
+    text "These days, both"
+    line "the COBB BUILDING"
+    cont "and the MINE are"
+    cont "always closed."
+
+    para "Just a few months"
+    line "ago, they offered"
+    cont "tours daily for"
+    cont "visitors!"
+
+    para "I wonder what's"
+    line "changed…"
+    done
+
+OredaleCityNPC6Text:
+    text "I work on the"
+    line "power generators"
+    cont "for the mine."
+
+    para "We have a lot of"
+    line "big machines,"
+
+    para "so we have to have"
+    line "a good source of"
+    cont "energy for 'em."
+    done
+
+OredaleCobbBuildingGuard1:
+    text "Sorry, kid."
+
+    para "The COBB BUILDING's"
+    line "not open to the"
+    cont "public right now."
+
+    para "I can only let"
+    line "you in if you have"
+    cont "a COBB ID."
+    done
+
+OredaleCobbBuildingGuard2:
+    text "Please don't"
+    line "loiter around."
+
+    para "I can't let folks"
+    line "who don't work at"
+    cont "COBB CORP. in to"
+    cont "the building."
+    done
+
+OredaleMineGuard:
+    text "Sorry, kid."
+
+    para "The OREDALE MINE"
+    line "is closed to the"
+    cont "public right now."
+
+    para "It says it on the"
+    line "sign! Buzz off!"
+    done
+
+OredaleCityNPC7Text:
+    text "Believe it or"
+    line "not, the OREDALE"
+    cont "GYM specializes"
+    cont "in BUG-TYPES!"
+
+    para "It's not what"
+    line "you'd expect for"
+    cont "a gym way out in"
+    cont "the cold."
+    done
+
+OredaleCityNPC8Text:
+    text "I've lost my"
+    line "COBB ID!"
+
+    para "Now they won't"
+    line "let me into"
+    cont "the building!"
+    
+    para "How am I going"
+    line "to get to work"
+    cont "now?"
+    done
+
+OredaleCityNPC9Text:
+    text "The SKI SHOP is"
+    line "great!"
+
+    para "It's so cozy"
+    line "inside!"
+
+    para "…<PAUSE>…<PAUSE>What?"
+
+    para "Why am I outside?"
+    line "Uhh…<PAUSE>…"
+
+    para "Good question!"
+    done
+
 OredaleMuseumSignText:
     text "OREDALE MUSEUM"
 
@@ -94,10 +200,11 @@ OredaleSkiShopSignText:
     cont "equipment here!"
     done
 
-OredaleOfficesSignText:
-    text "OREDALE OFFICES"
+OredaleGymSignText:
+    text "OREDALE GYM"
 
-    para "NOW HIRING!"
+;   para "LEADER:"
+;   line "BUG TRAINER"
     done
 
 OredaleMineSignText:
@@ -105,4 +212,11 @@ OredaleMineSignText:
 
     para "NOT open to the"
     line "public!"
+    done
+
+OredaleCitySignText:
+    text "OREDALE CITY"
+
+    para "A home to industry"
+    line "and prosperity."
     done

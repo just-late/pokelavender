@@ -606,10 +606,10 @@ FinishString:
 	ret
 
 TextCommand_PAUSE::
-; wait for 30 frames
+; wait for 10 frames
 	push hl
 	push bc
-	ld c, 30
+	ld c, 10
 	call DelayFrames
 	pop bc
 	pop hl

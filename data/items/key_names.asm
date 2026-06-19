@@ -18,7 +18,7 @@ KeyItemNames::
 	li "“VEGETABLES”"
 	li "GO-GOGGLES"
 	li "RED SCALE"
-	li "CARD KEY"
+	li "COBB ID"
 	li "BASEMENT KEY"
 	li "LOST ITEM"
 	li "MACHINE PART"
