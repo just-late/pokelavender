@@ -78,7 +78,7 @@ OredaleCityNPC4Text:
 OredaleCityNPC5Text:
     text "These days, both"
     line "the COBB BUILDING"
-    cont "and the MINE are"
+    cont "and the mine are"
     cont "always closed."
 
     para "Just a few months"
@@ -91,16 +91,16 @@ OredaleCityNPC5Text:
     done
 
 OredaleCityNPC6Text:
-    text "I work on the"
-    line "power generators"
-    cont "for the mine."
+    text "I used to work"
+    line "at the train"
+    cont "station,"
 
-    para "We have a lot of"
-    line "big machines,"
+    para "but ever since"
+    line "they shut it down"
+    cont "last year,"
 
-    para "so we have to have"
-    line "a good source of"
-    cont "energy for 'em."
+    para "I've been working"
+    line "in the mine."
     done
 
 OredaleCobbBuildingGuard1:
@@ -131,9 +131,6 @@ OredaleMineGuard:
     para "The OREDALE MINE"
     line "is closed to the"
     cont "public right now."
-
-    para "It says it on the"
-    line "sign! Buzz off!"
     done
 
 OredaleCityNPC7Text:
