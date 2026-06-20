@@ -9,11 +9,11 @@
 	tilecoll WALL, WALL, WALL, WALL ; 08
 	tilecoll WALL, WALL, WALL, WALL ; 09
 	tilecoll WALL, WALL, WALL, WALL ; 0a
-	tilecoll WALL, TALL_GRASS, WALL, TALL_GRASS ; 0b
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 0b
 	tilecoll WALL, WALL, WALL, DOOR ; 0c
 	tilecoll WALL, WALL, WALL, WALL ; 0d
 	tilecoll WALL, WALL, POKECENTER_SIGN, WALL ; 0e
-	tilecoll TALL_GRASS, WALL, TALL_GRASS, WALL ; 0f
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 0f
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 10
 	tilecoll FLOOR, WALL, WALL, WALL ; 11
 	tilecoll WALL, FLOOR, WALL, WALL ; 12
