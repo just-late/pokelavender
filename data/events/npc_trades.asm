@@ -72,4 +72,12 @@ NPCTrades:
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_DEF_UP_ATK_DOWN,   DREAM_BALL,   CHARCOAL
 	dw 08922
 	rawchar "Jeeves@@", $00
+; NPC_TRADE_LEO
+	db TRADE_DIALOGSET_COLLECTOR
+	dp SKARMORY					; wants
+	dp SWABLU, NO_FORM | FEMALE ; gives
+	rawchar "BLUEBELL@@@"
+	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,  DREAM_BALL, SOOTHE_BELL
+	dw 32498
+	rawchar "LEO@@@@@", $00
 	assert_table_length NUM_NPC_TRADES
