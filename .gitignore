@@ -64,3 +64,6 @@ deploy.sh
 
 # extras
 *.zip
+
+# gimp saved files
+*.xcf
