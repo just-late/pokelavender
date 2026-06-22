@@ -16,7 +16,7 @@ OredaleCity_MapScriptHeader:
 	bg_event 35, 52, BGEVENT_JUMPTEXT, OredaleMineSignText
 	bg_event 11, 38, BGEVENT_JUMPTEXT, OredaleCitySignText
 
-    db 14 ; object events
+    db 15 ; object events
 	person_event SPRITE_SUPER_NERD, 15, 38, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC1Text, -1
 	person_event SPRITE_ACE_TRAINER_F, 27, 28, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC2Text, -1
 	person_event SPRITE_ENGINEER, 25, 17, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC3Text, -1
@@ -29,7 +29,7 @@ OredaleCity_MapScriptHeader:
 	person_event SPRITE_ACE_TRAINER_F, 49, 21, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC7Text, -1
 	person_event SPRITE_FAT_GUY, 17, 35, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC8Text, -1
 	person_event SPRITE_SKIER, 35, 23, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC9Text, -1
-	keyitemball_event 36, 11, CARD_KEY, EVENT_OREDALE_CITY_COBB_ID
+    keyitemball_event 36, 11, CARD_KEY, EVENT_OREDALE_CITY_COBB_ID
 
 OredaleCityNPC1Text:
     text "U<PAUSE>u<PAUSE>ugh!"
