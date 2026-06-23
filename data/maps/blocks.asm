@@ -11,6 +11,7 @@ CianwoodPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
 ShamoutiPokeCenter1F_BlockData:
 Route3PokeCenter1F_BlockData:
+OredalePokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
 PokeCenter2F_BlockData:
@@ -626,9 +627,9 @@ SECTION "BellchimeTrail_BlockData", ROMX
 BellchimeTrail_BlockData:
 	INCBIN "maps/BellchimeTrail.ablk.lz"
 
-SECTION "TinTower1F_BlockData", ROMX
-TinTower1F_BlockData:
-	INCBIN "maps/TinTower1F.ablk.lz"
+SECTION "OredaleTradeHouse_BlockData", ROMX
+OredaleTradeHouse_BlockData:
+	INCBIN "maps/OredaleHouse.ablk.lz"
 
 SECTION "TinTower2F_BlockData", ROMX
 TinTower2F_BlockData:

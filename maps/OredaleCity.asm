@@ -4,7 +4,8 @@ OredaleCity_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 13, 23, PLAYERS_HOUSE_2F, 8
+	warp_event 13, 23, OREDALE_POKECENTER_1F, 1
+    warp_event 13, 31, OREDALE_TRADE_HOUSE, 1
 
     def_coord_events
 

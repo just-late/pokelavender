@@ -358,8 +358,8 @@ ENDM
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
 	map_attributes SproutTower3F, SPROUT_TOWER_3F, $0, 0
-	map_attributes TinTower1F, TIN_TOWER_1F, $0, 0
-	map_attributes TinTower2F, TIN_TOWER_2F, $0, 0
+	map_attributes OredaleTradeHouse, OREDALE_TRADE_HOUSE, $0, 0
+	map_attributes OredalePokeCenter1F, OREDALE_POKECENTER_1F, $0, 0
 	map_attributes TinTower3F, TIN_TOWER_3F, $0, 0
 	map_attributes TinTower4F, TIN_TOWER_4F, $0, 0
 	map_attributes TinTower5F, TIN_TOWER_5F, $0, 0

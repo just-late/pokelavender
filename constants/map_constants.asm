@@ -48,8 +48,8 @@ ENDM
 	map_const SPROUT_TOWER_1F,                             8,  8 ;  1
 	map_const SPROUT_TOWER_2F,                             8,  8 ;  2
 	map_const SPROUT_TOWER_3F,                             8,  8 ;  3
-	map_const TIN_TOWER_1F,                                8,  8 ;  4
-	map_const TIN_TOWER_2F,                                8,  8 ;  5
+	map_const OREDALE_TRADE_HOUSE,                         4,  4 ;  4
+	map_const OREDALE_POKECENTER_1F,                       6,  4 ;  5
 	map_const TIN_TOWER_3F,                                8,  8 ;  6
 	map_const TIN_TOWER_4F,                                8,  8 ;  7
 	map_const TIN_TOWER_5F,                                8,  8 ;  8

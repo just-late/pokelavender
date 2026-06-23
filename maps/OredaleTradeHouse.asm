@@ -4,10 +4,10 @@ OredaleTradeHouse_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event  3,  7, OREDALE_CITY, 
-	warp_event  4,  7, OREDALE_CITY,
+	warp_event  3,  7, OREDALE_CITY, 2
+	warp_event  4,  7, OREDALE_CITY, 2
 
-    def_coord_evnts
+    def_coord_events
 
     def_bg_events
 

@@ -318,8 +318,6 @@ INCLUDE "maps/BellchimeTrail.asm"
 
 SECTION "Tin Tower Scripts", ROMX
 
-INCLUDE "maps/TinTower1F.asm"
-INCLUDE "maps/TinTower2F.asm"
 INCLUDE "maps/TinTower3F.asm"
 INCLUDE "maps/TinTower4F.asm"
 INCLUDE "maps/TinTower5F.asm"
@@ -1056,5 +1054,7 @@ INCLUDE "maps/AcademyPokeCenter.asm"
 SECTION "Oredale City Scripts", ROMX
 
 INCLUDE "maps/OredaleCity.asm"
+INCLUDE "maps/OredaleTradeHouse.asm"
+INCLUDE "maps/OredalePokeCenter1F.asm"
 
 ENDSECTION

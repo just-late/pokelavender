@@ -4,7 +4,6 @@ TinTower3F_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  8, 14, TIN_TOWER_2F, 1
 	warp_event 14,  2, TIN_TOWER_4F, 2
 
 	def_coord_events

@@ -80,4 +80,12 @@ NPCTrades:
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,  CHERISH_BALL, SOOTHE_BELL
 	dw 32498
 	rawchar "LEO@@@@@", $00
+; NPC_TRADE_SKYLAR
+	db TRADE_DIALOGSET_GIRL
+	dp STEELIX, NO_FORM             ; wants
+	dp BUTTERFREE, NO_FORM | FEMALE ; gives
+	rawchar "MONARCH@@@@"
+	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_ATK_DOWN, DREAM_BALL, FOCUS_BAND
+	dw 00010
+	rawchar "SKYLAR@@", $00
 	assert_table_length NUM_NPC_TRADES

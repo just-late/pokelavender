@@ -1,33 +1,5 @@
 ; Johto Pokémon in grass
 
-	def_grass_wildmons TIN_TOWER_2F
-	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
-	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
-	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, GASTLY
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
-	end_grass_wildmons
-
 	def_grass_wildmons TIN_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
