@@ -634,3 +634,6 @@ NidokingOWSpriteGFX:: INCBIN "gfx/sprites/nidoking.2bpp.lz"
 
 SECTION "CampfireSpriteGFX", ROMX
 CampfireSpriteGFX:: INCBIN "gfx/sprites/fire.2bpp.lz"
+
+SECTION "SentretSpriteGFX", ROMX
+SentretSpriteGFX:: INCBIN "gfx/sprites/sentret.2bpp.lz"
