@@ -189,3 +189,4 @@
 	tilecoll FLOOR, WALL, FLOOR, WALL ; bc
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; bd
 	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; be
+	tilecoll WALL, WALL, WALL, WALL ; bf
