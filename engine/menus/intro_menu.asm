@@ -571,8 +571,8 @@ ProfElmSpeech:
 	farcall Special_SetDayOfWeek
 	ld hl, BeforeYouBeginSpeech
 	call PrintText
-	ld hl, wInitialOptions
-	res COLOR_VARY_OPT, [hl]
+;	ld hl, wInitialOptions
+;	res COLOR_VARY_OPT, [hl]
 	ld c, 31
 	call FadeToBlack
 	call ClearTileMap
