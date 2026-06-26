@@ -47,7 +47,7 @@
 	tilecoll ICE, ICE, ICE, ICE ; 2e
 	tilecoll ICE, ICE, ICE, ICE ; 2f
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 30
-	tilecoll WALL, TALL_GRASS, WALL, TALL_GRASS ; 31
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 31
 	tilecoll ICE, ICE, ICE, ICE ; 32
 	tilecoll ICE, ICE, ICE, ICE ; 33
 	tilecoll WALL, FLOOR, WALL, WALL ; 34

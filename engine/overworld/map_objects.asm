@@ -2047,6 +2047,11 @@ SpawnEmote:
 	db $80, PAL_OW_EMOTE_BLACK, SPRITEMOVEDATA_EMOTE
 
 ShakeGrass:
+	ld a, [wMapGroup]
+	cp GROUP_OREDALE_CITY
+	jr z, DeepSnow
+	cp GROUP_GRANITE_VILLAGE
+	jr z, DeepSand
 	push bc
 	ld de, .GrassObject
 	call CopyTempObjectData
@@ -2067,7 +2072,19 @@ DeepSand:
 	jmp PlaySFX
 
 .SandObject:
-	db $80, PAL_OW_COPY_BG_BROWN, SPRITEMOVEDATA_GRASS
+	db $80, PAL_OW_COPY_BG_BROWN, SPRITEMOVEDATA_PUDDLE
+
+DeepSnow:
+	push bc
+	ld de, .SnowObject
+	call CopyTempObjectData
+	call InitTempObject
+	pop bc
+	ld de, SFX_SAND_WALK
+	jmp PlaySFX
+
+.SnowObject:
+	db $80, PAL_OW_COPY_BG_WATER, SPRITEMOVEDATA_PUDDLE
 
 SplashPuddle:
 	push bc

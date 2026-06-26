@@ -663,7 +663,7 @@ Movement_fast_jump_step_left:
 Movement_fast_jump_step_right:
 	ld a, STEP_BIKE << 2 | RIGHT
 Movement_jump_step:
-	jr JumpStep ; no-optimize stub jump
+	jp JumpStep ; no-optimize stub jump
 
 Movement_turn_step_down:
 	ld a, OW_DOWN
@@ -718,8 +718,10 @@ NormalStep:
 	jr z, .shake_grass
 	cp COLL_PUDDLE
 	call z, SplashPuddle
-	cp COLL_DEEP_SAND
-	call z, DeepSand
+;	cp COLL_DEEP_SAND
+;	call z, DeepSand
+;	cp COLL_DEEP_SNOW
+;	call z, DeepSnow
 	jr SetWalkStepType
 
 .shake_grass
