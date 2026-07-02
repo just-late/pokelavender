@@ -637,3 +637,6 @@ CampfireSpriteGFX:: INCBIN "gfx/sprites/fire.2bpp.lz"
 
 SECTION "SentretSpriteGFX", ROMX
 SentretSpriteGFX:: INCBIN "gfx/sprites/sentret.2bpp.lz"
+
+SECTION "RancidGuitarSpriteGFX", ROMX
+RancidGuitarSpriteGFX:: INCBIN "gfx/sprites/rancid.2bpp.lz"

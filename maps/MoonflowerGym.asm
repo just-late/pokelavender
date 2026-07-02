@@ -13,20 +13,17 @@ MoonflowerGym_MapScriptHeader:
 	bg_event  0,  9, BGEVENT_READ, MoonflowerGymStatue
 	bg_event  0, 10, BGEVENT_READ, MoonflowerGymStatue
 
-	db 14 ; object_events
-	person_event SPRITE_BIKER, 12, 12, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
-	person_event SPRITE_FAT_GUY, 12, 13, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
+	db 10 ; object_events
+	person_event SPRITE_BIKER, 10,  5, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
+	person_event SPRITE_FAT_GUY,  9, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
 	person_event SPRITE_FALKNER, 3,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, MoonflowerGymRancidScript, -1
-	person_event SPRITE_PIDGEOTTO_SIDE,  3,  8, SPRITEMOVEDATA_MICROPHONE, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MoonflowerGymMicrophoneText, -1
 	person_event SPRITE_ROCKER, 10,  7, SPRITEMOVEDATA_STANDING_LEFT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGuitarist_mClyde, -1
-	person_event SPRITE_BATTLE_GIRL,  6,  6, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGuitarist_fJanet, -1
+	person_event SPRITE_BATTLE_GIRL,  7,  6, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGuitarist_fJanet, -1
 	person_event SPRITE_GYM_GUY,  9,  1, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, -1
 	person_event SPRITE_FAT_GUY, 11,  8, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC1Text, -1
 	person_event SPRITE_FISHER,  7,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC2Text, -1
 	person_event SPRITE_COOL_DUDE,  6,  4, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC3Text, -1
 	person_event SPRITE_FAT_GUY,  9,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptext, MoonflowerGymNPC4Text, -1
-	person_event SPRITE_POKEFAN_F,  8, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC5Text, -1
-	person_event SPRITE_POKEFAN_M,  9, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC6Text, -1
 
 	object_const_def
 	const MOONFLOWER_BARFIGHT_BIKER
@@ -289,23 +286,6 @@ MoonflowerGymNPC4Text:
 	text "Yeah, yeah."
 
 	para "Put it on my tab."
-	done
-
-MoonflowerGymNPC5Text:
-	text "I came here for a"
-	line "date."
-
-	para "I wasn't expecting"
-	line "this!"
-	done
-
-MoonflowerGymNPC6Text:
-	text "I come here every"
-	line "night with my"
-	cont "girlfriend."
-
-	para "Don't tell her how"
-	line "big my tab is!"
 	done
 
 MoonflowerBarFightBikerMovement:

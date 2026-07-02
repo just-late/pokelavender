@@ -25,10 +25,6 @@ MoonflowerCity_MapScriptHeader:
 	coord_event 3, 21, 1, TeamIndigoTrigger2
 	coord_event 4, 21, 1, TeamIndigoTrigger3
 	coord_event 5, 21, 1, TeamIndigoTrigger4
-	coord_event 12, 26, 2, MoonflowerIndigoSpeechOnTop1
-	coord_event 13, 26, 2, MoonflowerIndigoSpeechOnTop2
-	coord_event 15, 28, 2, MoonflowerIndigoSpeechOnRight1
-	coord_event 15, 29, 2, MoonflowerIndigoSpeechOnRight2
 
 	def_bg_events
 	bg_event 29, 13, BGEVENT_JUMPTEXT, MoonflowerCitySignText
@@ -41,7 +37,7 @@ MoonflowerCity_MapScriptHeader:
 	bg_event 25, 17, BGEVENT_JUMPTEXT, MoonflowerForRentSignText
 	bg_event 28, 23, BGEVENT_READ, MoonflowerCityHM07Script
 
-	db 20 ; object_events
+	db 8 ; object_events
 	person_event SPRITE_GENTLEMAN,  8, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerPokeGearGuy_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
 	person_event SPRITE_FIREBREATHER, 15, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown1_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
 	person_event SPRITE_FIREBREATHER, 19, 11, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, PokeGearCampaignClown2_Script, EVENT_POKEGEAR_CAMPAIGN_IN_MOONFLOWER
@@ -49,20 +45,6 @@ MoonflowerCity_MapScriptHeader:
 	person_event SPRITE_FAT_GUY, 23, 3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC7Text, EVENT_BEAT_RANCID
 	person_event SPRITE_ROCKET_GIRL, 22, 4, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerRocketGirlText, EVENT_BEAT_RANCID
 	person_event SPRITE_BIRD_KEEPER, 21, 31, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC6Text, EVENT_GOT_HM07_ROCK_SMASH
-	person_event SPRITE_GIOVANNI, 28, 12, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_YOUNGSTER, 30, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_BUG_CATCHER, 31, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_LASS, 30, 14, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_CUTE_GIRL, 30, 11, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_GRANNY, 31, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_GRAMPS, 29, 10, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_ROCKET, 28, 14, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_RIVAL, 28, 10, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, 0, EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	person_event SPRITE_GRAMPS, 22, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC1Text, -1
-	person_event SPRITE_CHILD, 10, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC2Text, -1
-	person_event SPRITE_YOUNGSTER, 24, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC3Text, -1
-	person_event SPRITE_SCHOOLBOY, 19, 20, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerCityNPC4Text, -1
-	person_event SPRITE_BIKER, 28, 24, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerNPC5Text, -1
 	pokemon_event 6, 26, RATICATE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MoonflowerCitySignText, -1
 
 	const_def 1 ; object constants
@@ -73,15 +55,6 @@ MoonflowerCity_MapScriptHeader:
 	const INDIGO_FAT_GUY
 	const INDIGO_GRUNT2
 	const MOONFLOWER_BIRD_KEEPER
-	const MOONFLOWER_INDIGO_BOSS
-	const MOONFLOWER_SPEECH_BLOCKER_1 ; YOUNGSTER
-	const MOONFLOWER_SPEECH_BLOCKER_2 ; BUG_CATCHER
-	const MOONFLOWER_SPEECH_BLOCKER_3 ; LASS
-	const MOONFLOWER_SPEECH_BLOCKER_4 ; CUTE_GIRL
-	const MOONFLOWER_SPEECH_BLOCKER_5 ; GRANNY
-	const MOONFLOWER_SPEECH_BLOCKER_6 ; GRAMPS
-	const MOONFLOWER_SPEECH_BLOCKER_7 ; GRUNT
-	const MOONFLOWER_CITY_RIVAL ; RIVAL
 
 MoonflowerCityFlyPoint:
 	setflag ENGINE_FLYPOINT_VIOLET
@@ -117,102 +90,6 @@ PokeGearGuy_SceneScript:
 	setscene $1
 	special RestartMapMusic
 	end
-
-MoonflowerIndigoSpeechOnTop1:
-	opentext
-	writetext MoonflowerSpeechGoingOnText
-	waitbutton
-	closetext
-	applyonemovement PLAYER, fix_facing
-	applyonemovement PLAYER, step_up
-	applyonemovement PLAYER, remove_fixed_facing
-	end
-
-MoonflowerIndigoSpeechOnTop2:
-	opentext
-	writetext MoonflowerSpeechGoingOnText
-	waitbutton
-	closetext
-	applyonemovement PLAYER, fix_facing
-	applyonemovement PLAYER, step_up
-	applyonemovement PLAYER, remove_fixed_facing
-	end
-	
-MoonflowerIndigoSpeechOnRight1:
-	turnobject PLAYER, LEFT
-	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
-	turnobject MOONFLOWER_INDIGO_BOSS, RIGHT
-	opentext
-	writetext MoonflowerIndigoBossComeJoinUsText
-	waitbutton
-	closetext
-	applyonemovement PLAYER, step_down
-	turnobject PLAYER, LEFT
-	sjumpfwd MoonflowerIndigoSpeechScript
-
-MoonflowerIndigoSpeechOnRight2:
-	turnobject PLAYER, LEFT
-	showemote EMOTE_SHOCK, MOONFLOWER_INDIGO_BOSS, 15
-	turnobject MOONFLOWER_INDIGO_BOSS, RIGHT
-	opentext
-	writetext MoonflowerIndigoBossComeJoinUsText
-	waitbutton
-	closetext
-MoonflowerIndigoSpeechScript:
-	applyonemovement MOONFLOWER_INDIGO_BOSS, slow_step_left
-	turnobject MOONFLOWER_INDIGO_BOSS, DOWN
-	pause 5
-	showtext MoonflowerIndigoBossAreYouListeningText1
-	applyonemovement MOONFLOWER_INDIGO_BOSS, slow_step_right
-	applyonemovement MOONFLOWER_INDIGO_BOSS, slow_step_right
-	turnobject MOONFLOWER_INDIGO_BOSS, DOWN
-	pause 5
-	showtext MoonflowerIndigoBossAreYouListeningText2
-	pause 10
-	playmusic MUSIC_NATIONAL_PARK
-	opentext
-	writetext MoonflowerIndigoBossIntroText
-	waitbutton
-	closetext
-	showemote EMOTE_SHOCK, MOONFLOWER_SPEECH_BLOCKER_1, 10
-	showemote EMOTE_QUESTION, MOONFLOWER_SPEECH_BLOCKER_5, 15
-	turnobject MOONFLOWER_SPEECH_BLOCKER_4, UP
-	pause 5
-	turnobject MOONFLOWER_SPEECH_BLOCKER_2, RIGHT
-	pause 10
-	applyonemovement MOONFLOWER_INDIGO_BOSS, slow_step_left
-	turnobject MOONFLOWER_INDIGO_BOSS, DOWN
-	opentext
-	writetext MoonflowerIndigoBossMainText
-	waitbutton
-	closetext
-	turnobject MOONFLOWER_SPEECH_BLOCKER_2, UP
-	pause 5
-	turnobject MOONFLOWER_SPEECH_BLOCKER_5, LEFT
-	showemote EMOTE_SHOCK, MOONFLOWER_SPEECH_BLOCKER_5, 15
-	pause 10
-	showemote EMOTE_SLEEP, MOONFLOWER_SPEECH_BLOCKER_7, 10
-	pause 10
-	turnobject MOONFLOWER_SPEECH_BLOCKER_7, DOWN
-	applymovement MOONFLOWER_INDIGO_BOSS, MoonflowerIndigoBossLeaves_Movement
-	disappear MOONFLOWER_INDIGO_BOSS
-	showemote EMOTE_SHOCK, MOONFLOWER_SPEECH_BLOCKER_7, 10
-	applymovement MOONFLOWER_SPEECH_BLOCKER_7, MoonflowerIndigoGruntLeaves_Movement
-	disappear MOONFLOWER_SPEECH_BLOCKER_7
-	setscene $3
-	setevent EVENT_MOONFLOWER_CITY_INDIGO_BLOCKERS
-	pause 10
-	special Special_FadeBlackQuickly
-	special Special_ReloadSpritesNoPalettes
-	disappear MOONFLOWER_SPEECH_BLOCKER_1
-	disappear MOONFLOWER_SPEECH_BLOCKER_2
-	disappear MOONFLOWER_SPEECH_BLOCKER_3
-	disappear MOONFLOWER_SPEECH_BLOCKER_4
-	disappear MOONFLOWER_SPEECH_BLOCKER_5
-	disappear MOONFLOWER_SPEECH_BLOCKER_6
-	special Special_FadeInQuickly
-	special RestartMapMusic
-	sjumpfwd MoonflowerMeetRivalAfterSpeechScript
 
 MoonflowerPokeGearGuy_Script:
 	checkevent EVENT_GOT_POKEGEAR_QUESTION1
@@ -274,75 +151,6 @@ MoonflowerPokeGearGuy_Script:
 	para "Ask you questions"
 	line "they will!"
 	done
-
-MoonflowerMeetRivalAfterSpeechScript:
-	applymovement MOONFLOWER_CITY_RIVAL, MoonflowerCityRivalWalksToYou_Movement
-	turnobject PLAYER, LEFT
-	playmusic MUSIC_RIVAL_ENCOUNTER
-	opentext
-	writetext MoonflowerRival1Text
-	waitbutton
-	closetext
-	turnobject MOONFLOWER_CITY_RIVAL, DOWN
-	pause 15
-	opentext
-	writetext MoonflowerRivalWimpText
-	waitbutton
-	closetext
-	showemote EMOTE_SHOCK, MOONFLOWER_CITY_RIVAL, 15
-	turnobject MOONFLOWER_CITY_RIVAL, RIGHT
-	opentext
-	writetext MoonflowerRival2Text
-	promptbutton
-	special SpecialNameRival
-	opentext
-	writetext MoonflowerRival3Text
-	waitbutton
-	closetext
-	winlosstext MoonflowerRivalWinText, MoonflowerRivalLossText
-	loadtrainer RIVAL0, 1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
-	startbattle
-    dontrestartmapmusic
-    reloadmap
-    special DeleteSavedMusic
-    playmusic MUSIC_RIVAL_AFTER
-    iftruefwd .AfterYourDefeat
-    sjumpfwd .AfterVictorious
-	
-.AfterYourDefeat:
-	setevent EVENT_BEAT_RIVAL_IN_MOONFLOWER
-	playmusic MUSIC_RIVAL_AFTER
-	opentext
-	writetext MoonflowerRival5Text
-	waitbutton
-	closetext
-	playsound SFX_TACKLE
-	applyonemovement PLAYER, fix_facing
-	applyonemovement PLAYER, jump_step_right
-	applyonemovement PLAYER, remove_fixed_facing
-	applymovement MOONFLOWER_CITY_RIVAL, MoonflowerCityRivalLeaves_Movement
-	disappear MOONFLOWER_CITY_RIVAL
-	special RestartMapMusic
-	special HealPartyEvenForNuzlocke
-	end
-
-.AfterVictorious:
-	setevent EVENT_BEAT_RIVAL_IN_MOONFLOWER
-	playmusic MUSIC_RIVAL_AFTER
-	opentext
-	writetext MoonflowerRival4Text
-	waitbutton
-	closetext
-	playsound SFX_TACKLE
-	applyonemovement PLAYER, fix_facing
-	applyonemovement PLAYER, jump_step_right
-	applyonemovement PLAYER, remove_fixed_facing
-	applymovement MOONFLOWER_CITY_RIVAL, MoonflowerCityRivalLeaves_Movement
-	disappear MOONFLOWER_CITY_RIVAL
-	special RestartMapMusic
-	special HealPartyEvenForNuzlocke
-	end
 
 MoonflowerPokeGearGuy_Text4:
 	nametag
