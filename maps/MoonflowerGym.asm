@@ -1,7 +1,9 @@
 MoonflowerGym_MapScriptHeader:
 	def_scene_scripts
+	scene_script MoonflowerGymConcertScene
 
 	def_callbacks
+	callback MAPCALLBACK_OBJECTS, ConcertPlayerSubstitute
 
 	def_warp_events
 	warp_event  4, 13, MOONFLOWER_CITY, 2
@@ -13,7 +15,8 @@ MoonflowerGym_MapScriptHeader:
 	bg_event  0,  9, BGEVENT_READ, MoonflowerGymStatue
 	bg_event  0, 10, BGEVENT_READ, MoonflowerGymStatue
 
-	db 10 ; object_events
+	db 11 ; object_events
+	person_event SPRITE_MOM, -3, -3, SPRITEMOVEDATA_PLACEHOLDER_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, DoNothingScript, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	person_event SPRITE_BIKER, 10,  5, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
 	person_event SPRITE_FAT_GUY,  9, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
 	person_event SPRITE_FALKNER, 3,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, MoonflowerGymRancidScript, -1
@@ -26,8 +29,60 @@ MoonflowerGym_MapScriptHeader:
 	person_event SPRITE_FAT_GUY,  9,  3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptext, MoonflowerGymNPC4Text, -1
 
 	object_const_def
+	const MOONFLOWER_GYM_PLAYER
 	const MOONFLOWER_BARFIGHT_BIKER
 	const MOONFLOWER_BARFIGHT_FAT_GUY
+
+MoonflowerGymConcertScene:
+	sdefer MoonflowerGymConcertScript
+	end
+
+ConcertPlayerSubstitute:
+	checkevent EVENT_RANCID_CONCERT
+	iftruefwd .finished
+	callasm .PreparePlayerSubstitute
+	appear MOONFLOWER_GYM_PLAYER
+.finished
+	endcallback
+
+.PreparePlayerSubstitute:
+	ld a, [wPlayerGender]
+	ld b, SPRITE_CHRIS
+	and a ; PLAYER_MALE
+	jr z, .got_gender
+	ld b, SPRITE_KRIS
+	dec a ; PLAYER_FEMALE
+	jr z, .got_gender
+	; PLAYER_ENBY
+	ld b, SPRITE_CRYS
+.got_gender
+	ld a, [wPlayerState]
+	cp PLAYER_BIKE
+	jr nz, .got_sprite
+	assert SPRITE_CHRIS + 1 == SPRITE_CHRIS_BIKE
+	assert SPRITE_KRIS + 1 == SPRITE_KRIS_BIKE
+	assert SPRITE_CRYS + 1 == SPRITE_CRYS_BIKE
+	inc b
+.got_sprite
+	ld a, b
+	farcall LoadSpriteAsMapObject1
+	ld a, [wXCoord]
+	ld [wSavedXCoord], a
+	add 4
+	ld d, a
+	ld a, [wYCoord]
+	add 4
+	ld e, a
+	ld b, MOONFLOWER_GYM_PLAYER
+	farjp CopyDECoordsToMapObject
+
+MoonflowerGymConcertScript:
+;	playmusic MUSIC_CHAMPION_BATTLE_BW
+	applyonemovement PLAYER, hide_object
+	applyonemovement PLAYER, step_up
+	applyonemovement PLAYER, step_up
+	setscene $1
+	end
 
 MoonflowerGymRancidScript:
 	faceplayer

@@ -2435,6 +2435,8 @@
 ; Tide Events
 	const EVENT_MARIGOLD_PORT_HIGH_TIDE
 	const EVENT_MARIGOLD_PORT_BEACH_ITEM
+; Gym Leader encounter events
+	const EVENT_RANCID_CONCERT
 
 	const_next $8ff
 DEF NUM_EVENTS EQU const_value ; 2303
