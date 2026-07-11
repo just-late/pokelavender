@@ -19,5 +19,5 @@ SongOrigins:
 	li "M02"
 	li "Prism"
 	li "Undertale"
-	li "Lavender"
+	li "Lav OST"
 	assert_list_length NUM_SONG_ORIGINS

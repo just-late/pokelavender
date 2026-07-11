@@ -565,4 +565,7 @@ INCLUDE "audio/music/dive.asm"
 SECTION "Song - mtlavender", ROMX
 INCLUDE "audio/music/mtlavender.asm"
 
+SECTION "Song - oredalecity", ROMX
+INCLUDE "audio/music/oredalecity.asm"
+
 ENDSECTION

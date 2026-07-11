@@ -194,4 +194,5 @@ Music:
 	dba Music_EggLottery
 	dba Music_Underwater
 	dba Music_MtLavender
+	dba Music_OredaleCity
 	assert_table_length NUM_MUSIC_SONGS
