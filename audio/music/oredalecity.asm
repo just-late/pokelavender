@@ -6,13 +6,13 @@ Music_OredaleCity:
 	channel 4, Music_OredaleCity_Ch4
 
 Music_OredaleCity_Ch1:
-	tempo 256
 	volume 7, 7
-	note_type 12, 15, 8
-	rest 1
+	note_type 12, 3, 8
 	octave 5
-	volume_envelope 1, 8
+	tempo 128
 	duty_cycle 2
+	note A#, 1
+	volume_envelope 1, 8
 	note A#, 1
 	note A#, 1
 	rest 1
@@ -47,9 +47,7 @@ Music_OredaleCity_Ch1:
 	note A#, 2
 	volume_envelope 1, 8
 	note A#, 2
-	volume_envelope 1, 8
 	note A#, 1
-	volume_envelope 1, 8
 	note A#, 1
 	volume_envelope 2, 8
 	note A#, 2
@@ -70,13 +68,10 @@ Music_OredaleCity_Ch1:
 	volume_envelope 1, 8
 	note D#, 2
 	note C#, 2
-	volume_envelope 1, 8
 	note F#, 2
 	note D#, 2
-	volume_envelope 1, 8
 	note F#, 2
 	rest 10
-	volume_envelope 1, 8
 	sound_call .sub2
 	rest 10
 	sound_call .sub2
@@ -209,11 +204,8 @@ Music_OredaleCity_Ch1:
 	note D#, 2
 	volume_envelope 1, 8
 	note C#, 2
-	volume_envelope 1, 8
 	note F#, 2
-	volume_envelope 1, 8
 	note D#, 2
-	volume_envelope 1, 8
 	note F#, 2
 	sound_ret
 
@@ -380,10 +372,21 @@ Music_OredaleCity_Ch1:
 	sound_ret
 
 Music_OredaleCity_Ch2:
-	note_type 12, 15, 8
-	rest 16
-	rest 16
-	rest 12
+	note_type 12, 3, 8
+	octave 4
+	note D#, 2
+	note C#, 2
+	note F#, 2
+	note D#, 2
+	note G#, 2
+	rest 10
+	note D#, 2
+	note C#, 2
+	note F#, 2
+	note D#, 2
+	note A#, 2
+	octave 8
+	rest 14
 .mainLoop_ch2:
 	octave 2
 	volume_envelope 7, 8
@@ -400,18 +403,14 @@ Music_OredaleCity_Ch2:
 	note F#, 2
 	note B_, 2
 	octave 4
-	volume_envelope 1, 8
 	note D#, 2
 	note F#, 2
-	volume_envelope 1, 8
 	note G#, 2
 	rest 10
 	octave 3
-	volume_envelope 1, 8
 	note F#, 2
 	note B_, 2
 	octave 4
-	volume_envelope 1, 8
 	note D#, 2
 	volume_envelope 2, 8
 	note G#, 2
@@ -420,7 +419,6 @@ Music_OredaleCity_Ch2:
 	rest 10
 	octave 3
 	note F#, 2
-	volume_envelope 1, 8
 	note B_, 2
 	octave 4
 	volume_envelope 2, 8
@@ -451,11 +449,8 @@ Music_OredaleCity_Ch2:
 	volume_envelope 1, 8
 	note B_, 1
 	octave 4
-	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note F#, 1
-	volume_envelope 1, 8
 	note A#, 1
 	octave 5
 	volume_envelope 2, 8
@@ -472,18 +467,13 @@ Music_OredaleCity_Ch2:
 	note D#, 1
 	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note D#, 1
 	octave 4
 	note A#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	note G#, 1
-	volume_envelope 1, 8
 	note A#, 1
-	volume_envelope 1, 8
 	note D#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	octave 3
 	sound_call .sub3
@@ -500,14 +490,10 @@ Music_OredaleCity_Ch2:
 	transpose 0, 2
 	note F#, 1
 	note G#, 1
-	volume_envelope 1, 8
 	note B_, 1
 	octave 4
-	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note F#, 1
-	volume_envelope 1, 8
 	note A#, 1
 	octave 5
 	volume_envelope 2, 8
@@ -524,18 +510,13 @@ Music_OredaleCity_Ch2:
 	note D#, 1
 	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note D#, 1
 	octave 4
 	note A#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	note G#, 1
-	volume_envelope 1, 8
 	note A#, 1
-	volume_envelope 1, 8
 	note D#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	octave 3
 	sound_call .sub5
@@ -589,14 +570,10 @@ Music_OredaleCity_Ch2:
 	note F#, 1
 	volume_envelope 1, 8
 	note G#, 1
-	volume_envelope 1, 8
 	note B_, 1
 	octave 4
-	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note F#, 1
-	volume_envelope 1, 8
 	note A#, 1
 	octave 5
 	volume_envelope 2, 8
@@ -613,18 +590,13 @@ Music_OredaleCity_Ch2:
 	note D#, 1
 	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note D#, 1
 	octave 4
 	note A#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	note G#, 1
-	volume_envelope 1, 8
 	note A#, 1
-	volume_envelope 1, 8
 	note D#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	sound_ret
 
@@ -635,11 +607,8 @@ Music_OredaleCity_Ch2:
 	volume_envelope 1, 8
 	note B_, 1
 	octave 4
-	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note F#, 1
-	volume_envelope 1, 8
 	note A#, 1
 	octave 5
 	volume_envelope 2, 8
@@ -656,18 +625,13 @@ Music_OredaleCity_Ch2:
 	note D#, 1
 	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note D#, 1
 	octave 4
 	note A#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	note G#, 1
-	volume_envelope 1, 8
 	note A#, 1
-	volume_envelope 1, 8
 	note D#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	sound_ret
 
@@ -677,11 +641,8 @@ Music_OredaleCity_Ch2:
 	volume_envelope 1, 8
 	note B_, 1
 	octave 4
-	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note F#, 1
-	volume_envelope 1, 8
 	note A#, 1
 	octave 5
 	volume_envelope 2, 8
@@ -698,18 +659,13 @@ Music_OredaleCity_Ch2:
 	note D#, 1
 	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note D#, 1
 	octave 4
 	note A#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	note G#, 1
-	volume_envelope 1, 8
 	note A#, 1
-	volume_envelope 1, 8
 	note D#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	sound_ret
 
@@ -719,11 +675,8 @@ Music_OredaleCity_Ch2:
 	volume_envelope 1, 8
 	note B_, 1
 	octave 4
-	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note F#, 1
-	volume_envelope 1, 8
 	note A#, 1
 	octave 5
 	volume_envelope 2, 8
@@ -740,18 +693,13 @@ Music_OredaleCity_Ch2:
 	note D#, 1
 	volume_envelope 1, 8
 	note C#, 1
-	volume_envelope 1, 8
 	note D#, 1
 	octave 4
 	note A#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	note G#, 1
-	volume_envelope 1, 8
 	note A#, 1
-	volume_envelope 1, 8
 	note D#, 1
-	volume_envelope 1, 8
 	note F#, 1
 	sound_ret
 
@@ -1144,37 +1092,49 @@ Music_OredaleCity_Ch4:
 	sound_jump .mainLoop_ch4
 
 .sub1:
-	drum_note 1, 4
-	drum_note 3, 2
-	drum_note 1, 4
-	drum_note 3, 2
-	drum_note 1, 2
-	drum_note 1, 2
 	octave 5
+	drum_note 12, 4
+	octave 6
+	drum_note 3, 2
+	octave 5
+	drum_note 12, 4
+	octave 6
+	drum_note 3, 2
+	octave 5
+	drum_note 12, 2
+	drum_note 12, 2
 	drum_note 8, 2
 	drum_note 8, 2
 	sound_ret
 
 .sub2:
-	drum_note 1, 4
-	drum_note 3, 2
-	drum_note 1, 4
-	drum_note 3, 2
-	drum_note 1, 2
-	drum_note 1, 2
 	octave 5
+	drum_note 12, 4
+	octave 6
+	drum_note 3, 2
+	octave 5
+	drum_note 12, 4
+	octave 6
+	drum_note 3, 2
+	octave 5
+	drum_note 12, 2
+	drum_note 12, 2
 	drum_note 8, 2
 	drum_note 8, 2
 	sound_ret
 
 .sub3:
-	drum_note 1, 4
-	drum_note 3, 2
-	drum_note 1, 4
-	drum_note 3, 2
-	drum_note 1, 2
-	drum_note 1, 2
 	octave 5
+	drum_note 12, 4
+	octave 6
+	drum_note 3, 2
+	octave 5
+	drum_note 12, 4
+	octave 6
+	drum_note 3, 2
+	octave 5
+	drum_note 12, 2
+	drum_note 12, 2
 	drum_note 8, 2
 	drum_note 8, 2
 	sound_ret
@@ -1186,6 +1146,6 @@ Music_OredaleCity_Ch4:
 	drum_note 3, 2
 	octave 5
 	drum_note 8, 2
+	drum_note 12, 2
 	octave 6
-	drum_note 1, 2
 	sound_ret
