@@ -184,6 +184,7 @@ Music_OredaleCity_Ch1:
 .sub1:
 	octave 4
 	volume_envelope 3, 8
+	transpose 0, 0
 	note D#, 2
 	note C#, 2
 	note F#, 2
@@ -368,6 +369,7 @@ Music_OredaleCity_Ch1:
 	volume_envelope 4, 8
 	note D#, 2
 	volume_envelope 3, 8
+	vibrato 2, 1, 2
 	note C#, 2
 	sound_ret
 
@@ -557,6 +559,7 @@ Music_OredaleCity_Ch2:
 .sub1:
 	octave 3
 	volume_envelope 3, 8
+	transpose 0, 0
 	note F#, 2
 	note B_, 2
 	octave 4
@@ -862,6 +865,7 @@ Music_OredaleCity_Ch3:
 
 .sub1:
 	volume_envelope 1, 0
+	transpose 0, 0
 	note G#, 10
 	volume_envelope 3, 1
 	note G#, 2
