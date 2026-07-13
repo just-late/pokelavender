@@ -134,7 +134,7 @@ DebugPosterScript:
 	givekeyitem WAILMER_PAIL
 	setflag ENGINE_POKEDEX
 	setflag ENGINE_POKEGEAR
-	setflag ENGINE_MAP_CARD
+	setflag ENGINE_MAP_CARD	
 .NoScript
 	closetext
 	end

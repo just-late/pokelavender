@@ -19,10 +19,10 @@ MoonflowerGym_MapScriptHeader:
 	person_event SPRITE_MOM, -3, -3, SPRITEMOVEDATA_PLACEHOLDER_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, DoNothingScript, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	person_event SPRITE_BIKER, 10,  5, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
 	person_event SPRITE_FAT_GUY,  9, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
+	person_event SPRITE_GYM_GUY,  9,  1, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, -1
 	person_event SPRITE_FALKNER, 3,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, MoonflowerGymRancidScript, -1
 	person_event SPRITE_ROCKER, 10,  7, SPRITEMOVEDATA_STANDING_LEFT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGuitarist_mClyde, -1
 	person_event SPRITE_BATTLE_GIRL,  7,  6, SPRITEMOVEDATA_STANDING_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGuitarist_fJanet, -1
-	person_event SPRITE_GYM_GUY,  9,  1, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, MoonflowerGymGuyScript, -1
 	person_event SPRITE_FAT_GUY, 11,  8, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC1Text, -1
 	person_event SPRITE_FISHER,  7,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC2Text, -1
 	person_event SPRITE_COOL_DUDE,  6,  4, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerGymNPC3Text, -1
@@ -32,6 +32,7 @@ MoonflowerGym_MapScriptHeader:
 	const MOONFLOWER_GYM_PLAYER
 	const MOONFLOWER_BARFIGHT_BIKER
 	const MOONFLOWER_BARFIGHT_FAT_GUY
+	const MOONFLOWER_GYM_GUY
 
 MoonflowerGymConcertScene:
 	sdefer MoonflowerGymConcertScript
@@ -78,6 +79,15 @@ ConcertPlayerSubstitute:
 
 MoonflowerGymConcertScript:
 ;	playmusic MUSIC_CHAMPION_BATTLE_BW
+	applymovement MOONFLOWER_GYM_GUY, MoonflowerGymGuyWalksToYou
+	turnobject PLAYER, LEFT
+	opentext
+	writetext MoonflowerGymConcertGoingOn
+	waitbutton
+	closetext
+	pause 5
+	turnobject PLAYER, RIGHT
+	pause 5
 	applyonemovement PLAYER, hide_object
 	applyonemovement PLAYER, step_up
 	applyonemovement PLAYER, step_up
@@ -343,6 +353,21 @@ MoonflowerGymNPC4Text:
 	para "Put it on my tab."
 	done
 
+MoonflowerGymConcertGoingOn:
+	text "Oh!"
+
+	para "There's a concert"
+	line "going on right"
+	cont "now,"
+
+	para "so no one can have"
+	line "battles."
+
+	para "Why don't you"
+	line "stick around for"
+	cont "the music?"
+	done
+
 MoonflowerBarFightBikerMovement:
 	fast_step_right
 	fix_facing
@@ -357,4 +382,13 @@ MoonflowerBarFightFatGuyMovement:
 	fast_step_right
 	remove_fixed_facing
 	turn_head_left
+	step_end
+
+MoonflowerGymGuyWalksToYou:
+	step_down
+	step_down
+	step_down
+	step_right
+	step_down
+	step_right
 	step_end
