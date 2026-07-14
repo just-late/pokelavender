@@ -640,3 +640,6 @@ SentretSpriteGFX:: INCBIN "gfx/sprites/sentret.2bpp.lz"
 
 SECTION "RancidGuitarSpriteGFX", ROMX
 RancidGuitarSpriteGFX:: INCBIN "gfx/sprites/rancid.2bpp.lz"
+
+SECTION "SwinubOWSpriteGFX", ROMX
+SwinubOWSpriteGFX:: INCBIN "gfx/sprites/swinub.2bpp.lz"

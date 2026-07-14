@@ -5,7 +5,7 @@ OredaleCity_MapScriptHeader:
 
     def_warp_events
 	warp_event 13, 23, OREDALE_POKECENTER_1F, 1
-    warp_event 13, 31, OREDALE_TRADE_HOUSE, 1
+	warp_event 13, 31, OREDALE_TRADE_HOUSE, 1
 
     def_coord_events
 
@@ -17,11 +17,16 @@ OredaleCity_MapScriptHeader:
 	bg_event 35, 52, BGEVENT_JUMPTEXT, OredaleMineSignText
 	bg_event 11, 38, BGEVENT_JUMPTEXT, OredaleCitySignText
 
-    db 15 ; object events
+    db 14 ; object events
+	person_event SPRITE_SWINUB_OW, 17,  8, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredaleCitySwinub1Script, EVENT_SWINUB_1_FOUND
+	person_event SPRITE_SWINUB_OW, 35, 16, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredaleCitySwinub2Script, EVENT_SWINUB_2_FOUND
+	person_event SPRITE_SWINUB_OW, 23, 32, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredaleCitySwinub3Script, EVENT_SWINUB_3_FOUND
+	person_event SPRITE_SWINUB_OW, 18, 21, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredaleCitySwinub4Script, EVENT_SWINUB_4_FOUND
+	person_event SPRITE_SWINUB_OW, 24, 13, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredaleCitySwinub5Script, EVENT_SWINUB_5_FOUND
 	person_event SPRITE_SUPER_NERD, 15, 38, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC1Text, -1
 	person_event SPRITE_ACE_TRAINER_F, 27, 28, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC2Text, -1
 	person_event SPRITE_ENGINEER, 25, 17, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC3Text, -1
-	person_event SPRITE_BOARDER, 37, 17, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC4Text, -1
+	person_event SPRITE_BOARDER, 29, 30, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC4Text, -1
 	person_event SPRITE_OFFICER, 16, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCobbBuildingGuard1, -1
 	person_event SPRITE_OFFICER, 16, 30, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCobbBuildingGuard2, -1
 	person_event SPRITE_BOARDER, 22, 10, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC5Text, -1
@@ -30,7 +35,52 @@ OredaleCity_MapScriptHeader:
 	person_event SPRITE_ACE_TRAINER_F, 49, 21, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC7Text, -1
 	person_event SPRITE_FAT_GUY, 17, 35, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC8Text, -1
 	person_event SPRITE_SKIER, 35, 23, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleCityNPC9Text, -1
-    keyitemball_event 36, 11, CARD_KEY, EVENT_OREDALE_CITY_COBB_ID
+	keyitemball_event 36, 12, CARD_KEY, EVENT_OREDALE_CITY_COBB_ID
+;	itemball_event 17, 31
+;	itemball_event  8, 33
+
+    const_def 1 ; object constants
+    const OREDALE_SWINUB_1
+;    const OREDALE_SWINUB_2
+ ;   const OREDALE_SWINUB_3
+  ;  const OREDALE_SWINUB_4
+   ; const OREDALE_SWINUB_5
+
+; Swinub 1
+OredaleCitySwinub1Script:
+    readvar VAR_FACING
+    ifequalfwd DOWN, PlayerDown1
+    turnobject OREDALE_SWINUB_1, UP
+    pause 15
+    turnobject OREDALE_SWINUB_1, DOWN
+    pause 15
+    turnobject OREDALE_SWINUB_1, LEFT
+    cry SWINUB
+    showemote EMOTE_SHOCK, OREDALE_SWINUB_1, 15
+OredaleSwinub1RunsScript:
+    turnobject OREDALE_SWINUB_1, DOWN
+    applymovement OREDALE_SWINUB_1, OredaleSwinub1Leaves_Movement
+    setevent EVENT_SWINUB_1_FOUND
+    disappear OREDALE_SWINUB_1
+    end
+
+PlayerDown1:
+    turnobject OREDALE_SWINUB_1, LEFT
+    pause 15
+    turnobject OREDALE_SWINUB_1, RIGHT
+    pause 15 
+    turnobject OREDALE_SWINUB_1, UP
+    cry SWINUB
+    showemote EMOTE_SHOCK, OREDALE_SWINUB_1, 15
+    sjump OredaleSwinub1RunsScript
+
+OredaleSwinub1Leaves_Movement:
+    jump_step_down
+    jump_step_down
+    jump_step_down
+    step_end
+
+; Swinub 2
 
 OredaleCityNPC1Text:
     text "U<PAUSE>u<PAUSE>ugh!"
