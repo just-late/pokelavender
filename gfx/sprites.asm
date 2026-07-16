@@ -643,3 +643,6 @@ RancidGuitarSpriteGFX:: INCBIN "gfx/sprites/rancid.2bpp.lz"
 
 SECTION "SwinubOWSpriteGFX", ROMX
 SwinubOWSpriteGFX:: INCBIN "gfx/sprites/swinub.2bpp.lz"
+
+SECTION "TwinSnowySpriteGFX", ROMX
+TwinSnowySpriteGFX:: INCBIN "gfx/sprites/twin_snowy.2bpp.lz"

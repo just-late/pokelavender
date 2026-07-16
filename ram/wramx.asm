@@ -1050,7 +1050,7 @@ wRoute39RuggedRoadGateSceneID:: db
 wRuggedRoadSouthSceneID:: db
 wSnowtopMountainOutsideSceneID:: db
 wBattleTowerOutsideSceneID:: db
-wBellchimeTrailSceneID:: db
+wOredaleCitySceneID:: db
 wBrunosRoomSceneID:: db
 wBurnedTower1FSceneID:: db
 wBurnedTowerB1FSceneID:: db

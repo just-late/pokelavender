@@ -177,6 +177,11 @@ InitialEvents:
 	dw EVENT_CHRIS_IN_NAVEL_ROCK
 	dw EVENT_KRIS_IN_NAVEL_ROCK
 	dw EVENT_CRYS_IN_NAVEL_ROCK
+	dw EVENT_SWINUB_1_FOUND
+	dw EVENT_SWINUB_2_FOUND
+	dw EVENT_SWINUB_3_FOUND
+	dw EVENT_SWINUB_4_FOUND
+	dw EVENT_SWINUB_QUEST_FINISHED
 	dw EVENT_ALWAYS_SET
 	dw EVENT_INITIALIZED_EVENTS
 	dw -1
@@ -196,5 +201,5 @@ DEF varspriteaddr EQUS "wVariableSprites - SPRITE_VARS +"
 	dwb varspriteaddr SPRITE_JANINE_IMPERSONATOR, SPRITE_CUTE_GIRL
 	dwb wGoldenrodCitySceneID, $1
 	dwb wBattleTowerOutsideSceneID, $1
-	dwb wBellchimeTrailSceneID, $1
+;	dwb wBellchimeTrailSceneID, $1
 	dw -1

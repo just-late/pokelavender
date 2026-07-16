@@ -15,7 +15,7 @@ MapScenes::
 	scene_var BATTLE_TOWER_ELEVATOR,                  wAlways0SceneID
 	scene_var BATTLE_TOWER_HALLWAY,                   wAlways0SceneID
 	scene_var BATTLE_TOWER_OUTSIDE,                   wBattleTowerOutsideSceneID
-	scene_var BELLCHIME_TRAIL,                        wBellchimeTrailSceneID
+	scene_var OREDALE_CITY,                        wOredaleCitySceneID
 	scene_var BRUNOS_ROOM,                            wBrunosRoomSceneID
 	scene_var BURNED_TOWER_1F,                        wBurnedTower1FSceneID
 	scene_var BURNED_TOWER_B1F,                       wBurnedTowerB1FSceneID
