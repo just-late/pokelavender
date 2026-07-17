@@ -50,7 +50,7 @@ ENDM
 	map_const SPROUT_TOWER_3F,                             8,  8 ;  3
 	map_const OREDALE_TRADE_HOUSE,                         4,  4 ;  4
 	map_const OREDALE_POKECENTER_1F,                       6,  4 ;  5
-	map_const TIN_TOWER_3F,                                8,  8 ;  6
+	map_const ROUTE_8_OBSERVATION_DECK,                    5,  5 ;  6
 	map_const TIN_TOWER_4F,                                8,  8 ;  7
 	map_const TIN_TOWER_5F,                                8,  8 ;  8
 	map_const TIN_TOWER_6F,                                8,  8 ;  9

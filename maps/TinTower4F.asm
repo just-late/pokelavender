@@ -5,7 +5,6 @@ TinTower4F_MapScriptHeader:
 
 	def_warp_events
 	warp_event  0,  4, TIN_TOWER_5F, 2
-	warp_event 14,  2, TIN_TOWER_3F, 2
 	warp_event  0, 14, TIN_TOWER_5F, 3
 	warp_event 15, 15, TIN_TOWER_5F, 4
 

@@ -360,7 +360,7 @@ ENDM
 	map_attributes SproutTower3F, SPROUT_TOWER_3F, $0, 0
 	map_attributes OredaleTradeHouse, OREDALE_TRADE_HOUSE, $0, 0
 	map_attributes OredalePokeCenter1F, OREDALE_POKECENTER_1F, $0, 0
-	map_attributes TinTower3F, TIN_TOWER_3F, $0, 0
+	map_attributes Route8ObservationDeck, ROUTE_8_OBSERVATION_DECK, $0, 0
 	map_attributes TinTower4F, TIN_TOWER_4F, $0, 0
 	map_attributes TinTower5F, TIN_TOWER_5F, $0, 0
 	map_attributes TinTower6F, TIN_TOWER_6F, $0, 0

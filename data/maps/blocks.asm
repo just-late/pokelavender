@@ -631,8 +631,11 @@ SECTION "OredaleTradeHouse_BlockData", ROMX
 OredaleTradeHouse_BlockData:
 	INCBIN "maps/OredaleHouse.ablk.lz"
 
-SECTION "TinTower3F_BlockData", ROMX
-TinTower3F_BlockData:
+SECTION "Route8ObservationDeck_BlockData", ROMX
+Route8ObservationDeck_BlockData:
+	INCBIN "maps/Route8ObservationDeck.ablk.lz"
+
+SECTION "TinTower4F_BlockData", ROMX
 TinTower4F_BlockData:
 TinTower5F_BlockData:
 TinTower6F_BlockData:

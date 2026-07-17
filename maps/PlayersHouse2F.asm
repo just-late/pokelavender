@@ -14,6 +14,7 @@ PlayersHouse2F_MapScriptHeader:
 	warp_event  9,  8, BLOSSOM_CITY, 1
 	warp_event 11,  8, GRANITE_VILLAGE, 1
 	warp_event 15,  8, OREDALE_CITY, 1
+	warp_event 17,  8, ROUTE_8_OBSERVATION_DECK, 1
 
 	def_coord_events
 

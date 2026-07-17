@@ -902,6 +902,7 @@ INCLUDE "maps/Route6UndergroundEntrance.asm"
 INCLUDE "maps/Route7.asm"
 INCLUDE "maps/Route7SaffronGate.asm"
 INCLUDE "maps/Route8.asm"
+INCLUDE "maps/Route8ObservationDeck.asm"
 INCLUDE "maps/Route8SaffronGate.asm"
 
 
