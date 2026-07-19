@@ -595,38 +595,6 @@ NationalPark_BlockData:
 NationalParkBugContest_BlockData:
 	INCBIN "maps/NationalPark.ablk.lz"
 
-SECTION "EcruteakGym_BlockData", ROMX
-EcruteakGym_BlockData:
-	INCBIN "maps/EcruteakGym.ablk.lz"
-
-SECTION "EcruteakCity_BlockData", ROMX
-EcruteakCity_BlockData:
-	INCBIN "maps/EcruteakCity.ablk.lz"
-
-SECTION "EcruteakHouse_BlockData", ROMX
-EcruteakHouse_BlockData:
-	INCBIN "maps/EcruteakHouse.ablk.lz"
-
-SECTION "DanceTheatre_BlockData", ROMX
-DanceTheatre_BlockData:
-	INCBIN "maps/DanceTheatre.ablk.lz"
-
-SECTION "WiseTriosRoom_BlockData", ROMX
-WiseTriosRoom_BlockData:
-	INCBIN "maps/WiseTriosRoom.ablk.lz"
-
-SECTION "EcruteakShrineOutside_BlockData", ROMX
-EcruteakShrineOutside_BlockData:
-	INCBIN "maps/EcruteakShrineOutside.ablk.lz"
-
-SECTION "EcruteakShrineInside_BlockData", ROMX
-EcruteakShrineInside_BlockData:
-	INCBIN "maps/EcruteakShrineInside.ablk.lz"
-
-SECTION "BellchimeTrail_BlockData", ROMX
-BellchimeTrail_BlockData:
-	INCBIN "maps/BellchimeTrail.ablk.lz"
-
 SECTION "OredaleTradeHouse_BlockData", ROMX
 OredaleTradeHouse_BlockData:
 	INCBIN "maps/OredaleHouse.ablk.lz"
@@ -661,6 +629,14 @@ OlivineCity_BlockData:
 OlivineCityRoute35CoastDual_BlockData:
 OlivineCafe_BlockData:
 OlivinePort_BlockData:
+BellchimeTrail_BlockData:
+EcruteakShrineInside_BlockData:
+EcruteakShrineOutside_BlockData:
+WiseTriosRoom_BlockData:
+DanceTheatre_BlockData:
+EcruteakHouse_BlockData:
+EcruteakCity_BlockData:
+EcruteakGym_BlockData:
 	INCBIN "maps/TinTower3F.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX

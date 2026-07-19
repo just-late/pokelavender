@@ -68,7 +68,7 @@ ENDM
 	special_bg_pal map,      EMBEDDED_TOWER,              PAL_SINGLE,    EmbeddedTowerPalette
 	special_bg_pal map,      OVERCAST_GROVE,			  PAL_TIMEOFDAY, OvercastBGPalette
 	special_bg_pal map,      BLOSSOM_CITY,				  PAL_TIMEOFDAY, BlossomCityPalette
-	special_bg_pal map,      GRANITE_VILLAGE,		      PAL_TIMEOFDAY, MountainPalette
+	special_bg_pal map,      GRANITE_VILLAGE,		      PAL_TIMEOFDAY, SandstormPalette
 	special_bg_pal map,		 MOUNTAIN_QUARTER,			  PAL_TIMEOFDAY, MountainPalette
 	special_bg_pal map,      CANYON_1F,		       		  PAL_TIMEOFDAY, BGCanyonPalette
 	special_bg_pal map,      JUNGLE_QUARTER,			  PAL_TIMEOFDAY, JungleQuarterPalette
@@ -100,6 +100,9 @@ ENDM
 
 Route8ObservationDeckPalette:
 INCLUDE "maps/Route8ObservationDeck.pal"
+
+SandstormPalette:
+INCLUDE "maps/sandstorm.pal"
 
 JungleQuarterPalette:
 INCLUDE "maps/JungleQuarter.pal"

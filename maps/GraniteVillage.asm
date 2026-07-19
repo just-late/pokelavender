@@ -9,17 +9,17 @@ GraniteVillage_MapScriptHeader:
 
     def_coord_events
 	coord_event 11, 25, 0, GraniteVillageIndigoBlockerTrigger
-;	coord_event 19, 18, 1, GraniteVillageInnCutsceneTrigger1
-;	coord_event 19, 19, 1, GraniteVillageInnCutsceneTrigger2
-;	coord_event 20, 20, 1, GraniteVillageInnCutsceneTrigger3
-;	coord_event 21, 20, 1, GraniteVillageInnCutsceneTrigger4
+	coord_event 19, 18, 1, GraniteVillageInnCutsceneTrigger1
+	coord_event 19, 19, 1, GraniteVillageInnCutsceneTrigger2
+	coord_event 20, 20, 1, GraniteVillageInnCutsceneTrigger3
+	coord_event 21, 20, 1, GraniteVillageInnCutsceneTrigger4
 
     def_bg_events
 	bg_event  9, 24, BGEVENT_READ, GraniteVillageStatueScript
 	bg_event 12, 24, BGEVENT_READ, GraniteVillageStatueScript
 	bg_event  5, 18, BGEVENT_JUMPTEXT, GraniteVillageHanasHouseSignText
 	bg_event 12, 20, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
-	bg_event 13, 20, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
+	bg_event 12, 19, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
 	bg_event 12, 21, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
 	bg_event 13, 21, BGEVENT_JUMPTEXT, GraniteVillagePinkStoneText
 	bg_event  8, 17, BGEVENT_JUMPTEXT, GraniteVillageSignText
@@ -27,11 +27,11 @@ GraniteVillage_MapScriptHeader:
 	bg_event 23, 17, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
 
     db 8 ; object_events
-	person_event SPRITE_RIVAL, 20, 14, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_IN_GRANITE_VILLAGE
-	person_event SPRITE_CUTE_GIRL, 19, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_GRANITE_VILLAGE_GREET_SCENE
+	person_event SPRITE_RIVAL, 20, 14, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
+	person_event SPRITE_CUTE_GIRL, 19, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GraniteVillageNPC1Text, -1
 	person_event SPRITE_ROCKET, 25, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, GraniteVillageIndigoGruntScript, EVENT_INDIGO_BLOCK_GRANITE_VILLAGE
 	person_event SPRITE_ROCKET_GIRL, 17, 21, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
-	person_event SPRITE_GRANNY, 12,  9, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_GRANNY, 12, 13, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_GRAMPS, 19, 35, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_HIKER, 14, 25, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_DRAGON_TAMER, 10, 12, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
@@ -43,7 +43,7 @@ GraniteVillage_MapScriptHeader:
     const GRANITE_VILLAGE_GRUNT_2
 
 GraniteVillageIndigoBlockerTrigger:
-    setscene GRANITE_VILLAGE, $1
+    setscene $1
     playmusic MUSIC_ROCKET_ENCOUNTER
     turnobject GRANITE_VILLAGE_GRUNT_1, RIGHT
     showemote EMOTE_SHOCK, GRANITE_VILLAGE_GRUNT_1, 30
@@ -258,6 +258,17 @@ GraniteVillageInnGruntWinLossText:
 
 GraniteVillageInnGruntTextPostBattle:
     text "We've got trouble!"
+    done
+
+GraniteVillageNPC1Text:
+    text "Dust storms can"
+    line "get pretty bad up"
+    cont "here."
+
+    para "When they rise,"
+    line "it can be hard to"
+    cont "see even right in"
+    cont "front of you!"
     done
 
 GraniteVillageStatueText1:
