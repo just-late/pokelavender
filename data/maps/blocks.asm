@@ -474,127 +474,6 @@ SECTION "GoldenrodGym_BlockData", ROMX
 GoldenrodGym_BlockData:
 	INCBIN "maps/GoldenrodGym.ablk.lz"
 
-SECTION "GoldenrodCity_BlockData", ROMX
-GoldenrodCity_BlockData:
-	INCBIN "maps/GoldenrodCity.ablk.lz"
-
-SECTION "GoldenrodBikeShop_BlockData", ROMX
-GoldenrodBikeShop_BlockData:
-	INCBIN "maps/GoldenrodBikeShop.ablk.lz"
-
-SECTION "GoldenrodFlowerShop_BlockData", ROMX
-GoldenrodFlowerShop_BlockData:
-	INCBIN "maps/GoldenrodFlowerShop.ablk.lz"
-
-SECTION "GoldenrodGameCorner_BlockData", ROMX
-GoldenrodGameCorner_BlockData:
-	INCBIN "maps/GoldenrodGameCorner.ablk.lz"
-
-SECTION "GoldenrodMagnetTrainStation_BlockData", ROMX
-GoldenrodMagnetTrainStation_BlockData:
-	INCBIN "maps/GoldenrodMagnetTrainStation.ablk.lz"
-
-SECTION "DayCare_BlockData", ROMX
-DayCare_BlockData:
-	INCBIN "maps/DayCare.ablk.lz"
-
-SECTION "GoldenrodHarbor_BlockData", ROMX
-GoldenrodHarbor_BlockData:
-	INCBIN "maps/GoldenrodHarbor.ablk.lz"
-
-SECTION "GoldenrodDeptStore1F_BlockData", ROMX
-GoldenrodDeptStore1F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore1F.ablk.lz"
-
-SECTION "GoldenrodDeptStore2F_BlockData", ROMX
-GoldenrodDeptStore2F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore2F.ablk.lz"
-
-SECTION "GoldenrodDeptStore3F_BlockData", ROMX
-GoldenrodDeptStore3F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore3F.ablk.lz"
-
-SECTION "GoldenrodDeptStore4F_BlockData", ROMX
-GoldenrodDeptStore4F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore4F.ablk.lz"
-
-SECTION "GoldenrodDeptStore5F_BlockData", ROMX
-GoldenrodDeptStore5F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore5F.ablk.lz"
-
-SECTION "GoldenrodDeptStore6F_BlockData", ROMX
-GoldenrodDeptStore6F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore6F.ablk.lz"
-
-SECTION "GoldenrodDeptStoreB1F_BlockData", ROMX
-GoldenrodDeptStoreB1F_BlockData:
-	INCBIN "maps/GoldenrodDeptStoreB1F.ablk.lz"
-
-SECTION "GoldenrodDeptStoreElevator_BlockData", ROMX
-GoldenrodDeptStoreElevator_BlockData:
-	INCBIN "maps/GoldenrodDeptStoreElevator.ablk.lz"
-
-SECTION "GoldenrodDeptStoreRoof_BlockData", ROMX
-GoldenrodDeptStoreRoof_BlockData:
-	INCBIN "maps/GoldenrodDeptStoreRoof.ablk.lz"
-
-SECTION "RadioTower1F_BlockData", ROMX
-RadioTower1F_BlockData:
-	INCBIN "maps/RadioTower1F.ablk.lz"
-
-SECTION "RadioTower2F_BlockData", ROMX
-RadioTower2F_BlockData:
-	INCBIN "maps/RadioTower2F.ablk.lz"
-
-SECTION "RadioTower3F_BlockData", ROMX
-RadioTower3F_BlockData:
-	INCBIN "maps/RadioTower3F.ablk.lz"
-
-SECTION "RadioTower4F_BlockData", ROMX
-RadioTower4F_BlockData:
-	INCBIN "maps/RadioTower4F.ablk.lz"
-
-SECTION "RadioTower5F_BlockData", ROMX
-RadioTower5F_BlockData:
-	INCBIN "maps/RadioTower5F.ablk.lz"
-
-SECTION "UndergroundWarehouse_BlockData", ROMX
-UndergroundWarehouse_BlockData:
-	INCBIN "maps/UndergroundWarehouse.ablk.lz"
-
-SECTION "UndergroundPathSwitchRoomEntrances_BlockData", ROMX
-UndergroundPathSwitchRoomEntrances_BlockData:
-	INCBIN "maps/UndergroundPathSwitchRoomEntrances.ablk.lz"
-
-SECTION "GoldenrodMuseum1F_BlockData", ROMX
-GoldenrodMuseum1F_BlockData:
-	INCBIN "maps/GoldenrodMuseum1F.ablk.lz"
-
-SECTION "GoldenrodMuseum2F_BlockData", ROMX
-GoldenrodMuseum2F_BlockData:
-	INCBIN "maps/GoldenrodMuseum2F.ablk.lz"
-
-SECTION "WarehouseEntrance_BlockData", ROMX
-WarehouseEntrance_BlockData:
-	INCBIN "maps/WarehouseEntrance.ablk.lz"
-
-SECTION "MagnetTunnelEast_BlockData", ROMX
-MagnetTunnelEast_BlockData:
-	INCBIN "maps/MagnetTunnelEast.ablk.lz"
-
-SECTION "MagnetTunnelWest_BlockData", ROMX
-MagnetTunnelWest_BlockData:
-	INCBIN "maps/MagnetTunnelWest.ablk.lz"
-
-SECTION "MagnetTunnelInside_BlockData", ROMX
-MagnetTunnelInside_BlockData:
-	INCBIN "maps/MagnetTunnelInside.ablk.lz"
-
-SECTION "NationalPark_BlockData", ROMX
-NationalPark_BlockData:
-NationalParkBugContest_BlockData:
-	INCBIN "maps/NationalPark.ablk.lz"
-
 SECTION "OredaleTradeHouse_BlockData", ROMX
 OredaleTradeHouse_BlockData:
 	INCBIN "maps/OredaleHouse.ablk.lz"
@@ -637,6 +516,37 @@ DanceTheatre_BlockData:
 EcruteakHouse_BlockData:
 EcruteakCity_BlockData:
 EcruteakGym_BlockData:
+NationalPark_BlockData:
+NationalParkBugContest_BlockData:
+MagnetTunnelInside_BlockData:
+MagnetTunnelWest_BlockData:
+MagnetTunnelEast_BlockData:
+WarehouseEntrance_BlockData:
+GoldenrodMuseum2F_BlockData:
+GoldenrodMuseum1F_BlockData:
+UndergroundPathSwitchRoomEntrances_BlockData:
+UndergroundWarehouse_BlockData:
+RadioTower5F_BlockData:
+RadioTower4F_BlockData:
+RadioTower3F_BlockData:
+RadioTower2F_BlockData:
+RadioTower1F_BlockData:
+GoldenrodDeptStoreRoof_BlockData:
+GoldenrodDeptStoreElevator_BlockData:
+GoldenrodDeptStoreB1F_BlockData:
+GoldenrodDeptStore6F_BlockData:
+GoldenrodDeptStore5F_BlockData:
+GoldenrodDeptStore4F_BlockData:
+GoldenrodDeptStore3F_BlockData:
+GoldenrodDeptStore2F_BlockData:
+GoldenrodDeptStore1F_BlockData:
+GoldenrodHarbor_BlockData:
+DayCare_BlockData:
+GoldenrodMagnetTrainStation_BlockData:
+GoldenrodGameCorner_BlockData:
+GoldenrodFlowerShop_BlockData:
+GoldenrodBikeShop_BlockData:
+GoldenrodCity_BlockData:
 	INCBIN "maps/TinTower3F.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX
