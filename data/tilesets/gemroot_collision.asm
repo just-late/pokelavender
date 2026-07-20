@@ -5,7 +5,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 04
 	tilecoll WALL, WALL, WALL, WALL ; 05
 	tilecoll LADDER, LADDER, LADDER, LADDER ; 06
-	tilecoll WHIRLPOOL, BUOY, WATER, BUOY ; 07
+	tilecoll WALL, WALL, WALL, WALL ; 07
 	tilecoll WALL, WALL, WALL, WALL ; 08
 	tilecoll WALL, WALL, WALL, WALL ; 09
 	tilecoll WALL, WALL, WALL, WALL ; 0a
@@ -97,11 +97,11 @@
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 60
 	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, HEADBUTT_TREE, HEADBUTT_TREE ; 61
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 62
-	tilecoll WATER, WATER, WATERFALL, WATERFALL ; 63
+	tilecoll WALL, FLOOR, WALL, WALL ; 63
 	tilecoll WALL, FLOOR, WALL, HEADBUTT_TREE ; 64
 	tilecoll FLOOR, FLOOR, HEADBUTT_TREE, HEADBUTT_TREE ; 65
 	tilecoll FLOOR, WALL, HEADBUTT_TREE, WALL ; 66
-	tilecoll WATER, WATER, WATERFALL, WATERFALL ; 67
+	tilecoll WALL, WALL, WALL, WALL ; 67
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 68
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 69
 	tilecoll WALL, TOP_WALL, WALL, FLOOR ; 6a
@@ -132,7 +132,7 @@
 	tilecoll WALL, WALL, FLOOR, WALL ; 83
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 84
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 85
-	tilecoll WALL, WALL, BUOY, BUOY ; 86
+	tilecoll WALL, WALL, WALL, WALL ; 86
 	tilecoll WATER, BUOY, WATER, BUOY ; 87
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 88
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 89
@@ -161,7 +161,7 @@
 	tilecoll WALL, TOP_WALL, WALL, FLOOR ; a0
 	tilecoll HEADBUTT_TREE, FLOOR, HEADBUTT_TREE, FLOOR ; a1
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a2
-	tilecoll FLOOR, WALL, FLOOR, WALL ; a3
+	tilecoll WALL, WALL, WALL, WALL ; a3
 	tilecoll WARP_CARPET_UP, WARP_CARPET_UP, FLOOR, FLOOR ; a4
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; a5
 	tilecoll WALL, WALL, WALL, WALL ; a6
@@ -206,8 +206,8 @@
 	tilecoll WALL, WALL, WALL, WALL ; cd
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; ce
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; cf
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d0
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d1
+	tilecoll FLOOR, WALL, WALL, WALL ; d0
+	tilecoll WALL, WALL, WALL, DOOR ; d1
 	tilecoll WALL, WALL, WALL, WALL ; d2
 	tilecoll WALL, WALL, WALL, WALL ; d3
 	tilecoll WALL, WALL, WALL, WALL ; d4
