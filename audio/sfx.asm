@@ -5758,4 +5758,43 @@ Sfx_SandWalk_Ch6:
 	noise_note 25, 5, 6, 0, 0, 2
 	sound_ret
 
+Sfx_BFlat:
+	channel_count 1
+	channel 2, Sfx_BFlat_Ch2
+
+Sfx_BFlat_Ch2:
+	stereo_panning TRUE, FALSE
+	vibrato 18, 2, 3
+	duty_cycle 2
+	note_type 12, 9, 7
+	octave 3
+	note A#, 4
+	sound_ret
+
+Sfx_AFlat:
+	channel_count 1
+	channel 2, Sfx_AFlat_Ch2
+
+Sfx_AFlat_Ch2:
+	stereo_panning TRUE, FALSE
+	vibrato 18, 2, 3
+	duty_cycle 2
+	note_type 12, 9, 7
+	octave 3
+	note G#, 4
+	sound_ret
+
+Sfx_GFlat:
+	channel_count 1
+	channel 2, Sfx_AFlat_Ch2
+
+Sfx_GFlat_Ch2:
+	stereo_panning TRUE, FALSE
+	vibrato 18, 2, 3
+	duty_cycle 2
+	note_type 12, 9, 7
+	octave 3
+	note F#, 4
+	sound_ret
+
 ENDSECTION

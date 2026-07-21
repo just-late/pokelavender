@@ -174,3 +174,6 @@ SpecialsPointers::
 	add_special ShowTMHMIcon
 	add_special FixPlayerEVsAndStats
 	add_special FadeInPalettes_EnableDynNoApply
+
+; Lavender
+	add_special Special_Piano

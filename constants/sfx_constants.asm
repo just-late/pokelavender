@@ -216,4 +216,7 @@
 	const SFX_STAT_DOWN                   ; d3
 	const SFX_GRAVITY                     ; d4
 	const SFX_SAND_WALK					  ; d5
+	const SFX_B_FLAT					  ; d6
+	const SFX_A_FLAT					  ; d7
+	const SFX_G_FLAT					  ; d8
 DEF NUM_SFX EQU const_value

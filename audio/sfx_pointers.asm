@@ -217,4 +217,7 @@ SFX:
 	fardw Sfx_StatDown
 	fardw Sfx_Gravity
 	fardw Sfx_SandWalk
+	fardw Sfx_BFlat
+	fardw Sfx_AFlat
+	fardw Sfx_GFlat
 	assert_table_length NUM_SFX

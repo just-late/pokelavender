@@ -495,3 +495,34 @@ BillBoxSwitchCheck:
 	ld a, b
 	ldh [hScriptVar], a
 	ret
+
+Special_Piano:
+; Plays the piano
+PianoLoop:
+	cp A_BUTTON
+	jr z, .PlayBFlat
+	cp SELECT
+	jr z, .PlayAFlat
+	cp START
+	jr z, .PlayGFlat
+	cp B_BUTTON
+	jr z, .Quit
+	jr PianoLoop
+
+.PlayBFlat
+	ld de, SFX_B_FLAT
+	call PlaySFX
+	jr PianoLoop
+
+.PlayAFlat
+	ld de, SFX_A_FLAT
+	call PlaySFX
+	jr PianoLoop
+
+.PlayGFlat
+	ld de, SFX_G_FLAT
+	call PlaySFX
+	jr PianoLoop
+
+.Quit
+	ret
