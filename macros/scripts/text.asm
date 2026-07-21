@@ -68,7 +68,7 @@ ENDM
 MACRO text_today
 ; Print the weekday.
 	stop_compressing_text
-	db "<DAY>"
+	db "DAY"
 ENDM
 
 MACRO text_far
