@@ -179,7 +179,7 @@ ENDM
 	map_const GRANITE_INN_1F,							   9,  6 ;  3
 
 	newgroup                                                     ;  8
-	map_const BLOSSOM_CITY,								  20, 24 ;  1
+	map_const BLOSSOM_CITY,								  27, 24 ;  1
 	map_const BLOSSOM_GAME_CORNER,						  11,  7 ;  2
 	map_const JUNGLE_QUARTER,							  19, 16 ;  3
 	map_const MOUNTAIN_QUARTER, 						  15, 22 ;  4

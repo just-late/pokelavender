@@ -187,3 +187,5 @@
 	tilecoll WALL, FLOOR, WALL, STAIRS_LEFT_UP ; ba
 	tilecoll FLOOR, STAIRS_RIGHT_DOWN, FLOOR, FLOOR ; bb
 	tilecoll WALL, WALL, WALL, WALL ; bc
+	tilecoll WALL, WALL, WALL, WATER ; bd
+	tilecoll WALL, WATER, WATER, WATER ; be
