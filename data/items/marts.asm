@@ -43,6 +43,7 @@ Marts:
 	dw BattleFactoryMart2
 	dw BattleFactoryMart3
 	dw BlossomSouvenirShop
+	dw OredaleMart
 	assert_table_length NUM_MARTS
 
 GlittervineMart:
@@ -527,4 +528,18 @@ BlossomSouvenirShop:
 	db BLUESKY_MAIL
 	db SUN_STONE
 	db PREMIER_BALL
+	db -1
+
+OredaleMart:
+	db 10 ; # items
+	db FAST_BALL
+	db QUICK_BALL
+	db POTION
+	db SUPER_POTION
+	db ANTIDOTE
+	db PARALYZEHEAL
+	db AWAKENING
+	db BURN_HEAL
+	db ICE_HEAL
+	db REVIVE
 	db -1

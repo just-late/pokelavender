@@ -275,7 +275,7 @@ KeyItemDescriptions:
 	dw VegetablesDesc
 	dw GoGogglesDesc
 	dw RedScaleDesc
-	dw CardKeyDesc
+	dw RustyKeyDesc
 	dw BasementKeyDesc
 	dw LostItemDesc
 	dw MachinePartDesc
@@ -1570,9 +1570,9 @@ RedScaleDesc:
 	next "red Gyarados."
 	done
 
-CardKeyDesc:
-	text "Opens shutters in"
-	next "the Radio Tower."
+RustyKeyDesc:
+	text "An old copper key."
+	next "Might be useful."
 	done
 
 BasementKeyDesc:

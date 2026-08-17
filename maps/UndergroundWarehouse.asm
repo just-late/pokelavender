@@ -72,18 +72,18 @@ GenericTrainerGruntM15:
 	done
 
 GoldenrodUndergroundWarehouseDirectorScript:
-	checkevent EVENT_RECEIVED_CARD_KEY
+	checkevent EVENT_RECEIVED_RUSTY_KEY
 	iftrue_jumptextfaceplayer DirectorAfterText
 	faceplayer
 	opentext
 	writetext DirectorIntroText
 	promptbutton
-	verbosegivekeyitem CARD_KEY
-	setevent EVENT_RECEIVED_CARD_KEY
+	verbosegivekeyitem RUSTY_KEY
+	setevent EVENT_RECEIVED_RUSTY_KEY
 	setevent EVENT_WAREHOUSE_LAYOUT_1
 	clearevent EVENT_WAREHOUSE_LAYOUT_2
 	clearevent EVENT_WAREHOUSE_LAYOUT_3
-	writetext DirectorCardKeyText
+	writetext DirectorRustyKeyText
 	promptbutton
 	jumpopenedtext DirectorAfterText
 
@@ -145,7 +145,7 @@ DirectorIntroText:
 	line "Card Key."
 	done
 
-DirectorCardKeyText:
+DirectorRustyKeyText:
 	text "Director: Use that"
 	line "to open the shut-"
 	cont "ters on 3F."

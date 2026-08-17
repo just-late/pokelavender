@@ -277,7 +277,7 @@ KeyItemIconPointers:
 	dba VegetablesIcon
 	dba GoGogglesIcon
 	dba RedScaleIcon
-	dba CardKeyIcon
+	dba RustyKeyIcon
 	dba BasementKeyIcon
 	dba LostItemIcon
 	dba MachinePartIcon

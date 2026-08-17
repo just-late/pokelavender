@@ -644,7 +644,7 @@ DEF NUM_WINGS EQU const_value
 	const VEGETABLES   ; 0f
 	const GO_GOGGLES   ; 10
 	const RED_SCALE    ; 11
-	const CARD_KEY     ; 12
+	const RUSTY_KEY     ; 12
 	const BASEMENT_KEY ; 13
 	const LOST_ITEM    ; 14
 	const MACHINE_PART ; 15
@@ -673,7 +673,7 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_BASEMENT_KEY
 	const NAM_BICYCLE
 	const NAM_BLUE_CARD
-	const NAM_CARD_KEY
+	const NAM_RUSTY_KEY
 	const NAM_CATCH_CHARM
 	const NAM_CLEAR_BELL
 	const NAM_COIN_CASE

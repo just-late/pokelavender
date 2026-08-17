@@ -1,4 +1,4 @@
-_CardKey:
+_RustyKey:
 ; Are we even in the right map to use this?
 	ld a, [wMapGroup]
 	cp GROUP_RADIO_TOWER_3F
@@ -19,7 +19,7 @@ _CardKey:
 	cp 2 + 4
 	jr nz, .nope
 ; Let's use the Card Key.
-	ld hl, .CardKeyScript
+	ld hl, .RustyKeyScript
 	call QueueScript
 	ld a, TRUE
 	ld [wItemEffectSucceeded], a
@@ -30,6 +30,6 @@ _CardKey:
 	ld [wItemEffectSucceeded], a
 	ret
 
-.CardKeyScript:
+.RustyKeyScript:
 	closetext
-	farsjump CardKeySlotScript
+	farsjump RustyKeySlotScript

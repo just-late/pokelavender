@@ -299,7 +299,7 @@ KeyItemEffects:
 	dw IsntTheTimeMessage ; VEGETABLES
 	dw IsntTheTimeMessage ; GO_GOGGLES
 	dw IsntTheTimeMessage ; RED_SCALE
-	dw CardKey            ; CARD_KEY
+	dw RustyKey            ; RUSTY_KEY
 	dw BasementKey        ; BASEMENT_KEY
 	dw IsntTheTimeMessage ; LOST_ITEM
 	dw IsntTheTimeMessage ; MACHINE_PART
@@ -2505,8 +2505,8 @@ PPRestoredText:
 SquirtBottle:
 	farjp _Squirtbottle
 
-CardKey:
-	farjp _CardKey
+RustyKey:
+	farjp _RustyKey
 
 BasementKey:
 	farjp _BasementKey

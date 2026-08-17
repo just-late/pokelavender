@@ -25,11 +25,11 @@ GoldenrodDeptStoreB1F_MapScriptHeader:
 	pokemon_event  7,  7, MACHOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, GoldenrodDeptStoreB1FMachokeText, -1
 
 GoldenRodDeptStoreB1FClearBoxesCallback:
-	checkevent EVENT_RECEIVED_CARD_KEY
-	iftruefwd .GotCardKey
+	checkevent EVENT_RECEIVED_RUSTY_KEY
+	iftruefwd .GotRustyKey
 	sjumpfwd .Continue
 
-.GotCardKey:
+.GotRustyKey:
 	changeblock 16, 4, $d
 	; fallthrough
 

@@ -410,7 +410,7 @@ FinishedAntheaQuest:
     opentext
     writetext AntheaThankYouText
     promptbutton
-    verbosegivekeyitem CARD_KEY ; rusty key placeholder
+    verbosegivekeyitem RUSTY_KEY ; rusty key placeholder
     writetext AntheaGoodbyeText
     waitbutton
     closetext
@@ -574,7 +574,7 @@ OredaleCobbBuildingGuard1:
 
     para "I can only let"
     line "you in if you have"
-    cont "a COBB ID."
+    cont "a RUSTY KEY."
     done
 
 OredaleCobbBuildingGuard2:

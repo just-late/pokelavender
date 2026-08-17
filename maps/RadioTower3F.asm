@@ -2,7 +2,7 @@ RadioTower3F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, CardKeyShutterCallback
+	callback MAPCALLBACK_TILES, RustyKeyShutterCallback
 
 	def_warp_events
 	warp_event  0,  0, RADIO_TOWER_2F, 1
@@ -14,7 +14,7 @@ RadioTower3F_MapScriptHeader:
 	def_bg_events
 	bg_event  3,  0, BGEVENT_JUMPTEXT, RadioTower3FPersonnelSignText
 	bg_event  9,  0, BGEVENT_JUMPTEXT, RadioTower3FPokemonMusicSignText
-	bg_event 14,  2, BGEVENT_UP, CardKeySlotScript
+	bg_event 14,  2, BGEVENT_UP, RustyKeySlotScript
 
 	def_object_events
 	object_event  7,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, RadioTower3FSuperNerdText, EVENT_RADIO_TOWER_CIVILIANS_AFTER
@@ -25,8 +25,8 @@ RadioTower3F_MapScriptHeader:
 	object_event 16,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM9, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event  9,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerRocketScientistMarc, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 
-CardKeyShutterCallback:
-	checkevent EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
+RustyKeyShutterCallback:
+	checkevent EVENT_USED_THE_RUSTY_KEY_IN_THE_RADIO_TOWER
 	iftruefwd .Change
 	endcallback
 
@@ -45,7 +45,7 @@ RadioTower3FCooltrainerFScript:
 	iftrue_jumptextfaceplayer RadioTower3FCooltrainerFYouWereMarvelousText
 	checkevent EVENT_CLEARED_RADIO_TOWER
 	iftruefwd .NoRockets
-	checkevent EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
+	checkevent EVENT_USED_THE_RUSTY_KEY_IN_THE_RADIO_TOWER
 	iftrue_jumptextfaceplayer RadioTower3FCooltrainerFIsDirectorSafeText
 	jumpthistextfaceplayer
 
@@ -115,21 +115,21 @@ GenericTrainerRocketScientistMarc:
 	cont "I need from here."
 	done
 
-CardKeySlotScript::
+RustyKeySlotScript::
 	opentext
-	writetext RadioTower3FCardKeySlotText
+	writetext RadioTower3FRustyKeySlotText
 	waitbutton
-	checkevent EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
-	iftruefwd .UsedCardKey
-	checkkeyitem CARD_KEY
-	iftruefwd .HaveCardKey
-.UsedCardKey:
+	checkevent EVENT_USED_THE_RUSTY_KEY_IN_THE_RADIO_TOWER
+	iftruefwd .UsedRustyKey
+	checkkeyitem RUSTY_KEY
+	iftruefwd .HaveRustyKey
+.UsedRustyKey:
 	endtext
 
-.HaveCardKey:
-	writetext InsertedTheCardKeyText
+.HaveRustyKey:
+	writetext InsertedTheRustyKeyText
 	waitbutton
-	setevent EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
+	setevent EVENT_USED_THE_RUSTY_KEY_IN_THE_RADIO_TOWER
 	playsound SFX_ENTER_DOOR
 	changeblock 14, 2, $2a
 	changeblock 14, 4, $1
@@ -259,12 +259,12 @@ RocketScientistMarcBeatenText:
 	line "too lightly!"
 	done
 
-RadioTower3FCardKeySlotText:
+RadioTower3FRustyKeySlotText:
 	text "It's the Card Key"
 	line "slot."
 	done
 
-InsertedTheCardKeyText:
+InsertedTheRustyKeyText:
 	text "<PLAYER> inserted"
 	line "the Card Key."
 	done

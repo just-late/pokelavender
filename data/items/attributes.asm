@@ -559,7 +559,7 @@ KeyItemAttributes:
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
 ; RED SCALE
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
-; CARD KEY
+; RUSTY KEY
 	key_item_attribute 0, ITEMMENU_CLOSE, ITEMMENU_NOUSE
 ; BASEMENT KEY
 	key_item_attribute 0, ITEMMENU_CLOSE, ITEMMENU_NOUSE

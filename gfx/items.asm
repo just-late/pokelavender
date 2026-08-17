@@ -734,8 +734,8 @@ GoGogglesIcon:: INCBIN "gfx/items/go_goggles.2bpp.lz"
 SECTION "RedScaleIcon", ROMX
 RedScaleIcon:: INCBIN "gfx/items/red_scale.2bpp.lz"
 
-SECTION "CardKeyIcon", ROMX
-CardKeyIcon:: INCBIN "gfx/items/card_key.2bpp.lz"
+SECTION "RustyKeyIcon", ROMX
+RustyKeyIcon:: INCBIN "gfx/items/rusty_key.2bpp.lz"
 
 SECTION "BasementKeyIcon", ROMX
 BasementKeyIcon:: INCBIN "gfx/items/basement_key.2bpp.lz"
