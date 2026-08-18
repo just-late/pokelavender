@@ -500,7 +500,7 @@ TilesetJohto2GFX2:: INCBIN "gfx/tilesets/moonflower.atuva.2bpp.vram1.lz"
 
 TilesetJohto3GFX2:: INCBIN "gfx/tilesets/johto_overcast.atuva.2bpp.vram1.lz"
 
-TilesetBlossomCityGFX2:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram1.lz"
+TilesetBlossomCityGFX2:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram2.lz"
 
 TilesetSnowyGFX2:: INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
 
