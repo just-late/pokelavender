@@ -203,3 +203,4 @@
 	tilecoll WALL, WALL, WALL, WALL ; ca
 	tilecoll WALL, WALL, WALL, WALL ; cb
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; cc
+	tilecoll WALL, WALL, FLOOR, FLOOR ; cd
