@@ -504,6 +504,8 @@ TilesetBlossomCityGFX2:: INCBIN "gfx/tilesets/blossom_city.2bpp.vram2.lz"
 
 TilesetSnowyGFX2:: INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
 
+TilesetMartGFX2:: INCBIN "gfx/tilesets/mart.2bpp.vram2.lz"
+
 TilesetMountainGFX2::
 TilesetJohto4GFX2::
 TilesetBlossom1GFX2::
@@ -516,7 +518,6 @@ TilesetHouse2GFX2::
 TilesetHouse3GFX2::
 TilesetPokeCenterGFX2::
 TilesetPokeComGFX2::
-TilesetMartGFX2::
 TilesetGateGFX2::
 TilesetGym1GFX2::
 TilesetGym2GFX2::
