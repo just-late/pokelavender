@@ -195,4 +195,5 @@ Music:
 	dba Music_Underwater
 	dba Music_MtLavender
 	dba Music_OredaleCity
+	dba Music_CountBubbasRevenge
 	assert_table_length NUM_MUSIC_SONGS

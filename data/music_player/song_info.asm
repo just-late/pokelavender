@@ -199,5 +199,6 @@ SongInfo:
 	song_info "Sea Jellies         (Underwater theme)", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
 	song_info "Mt. Lavender", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
 	song_info "Oredale City", ORIGIN_LAVENDER, COMPOSER_JUST_LATE, COMPOSER_NONE
+	song_info "Count Bubba's Revenge", ORIGIN_BIG_PHAT_BAND, COMPOSER_GORDONGOODWIN, COMPOSER_JUST_LATE
 	assert_list_length NUM_MUSIC_SONGS - 1
 	db -1 ; end

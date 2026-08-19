@@ -29,4 +29,5 @@ SongArtists:
 	li "Toby Fox"
 	li "ShinkoNetCavy,      ShockSlayer"
 	li "JustLate"
+	li "Gordon Goodwin"
 	assert_list_length NUM_SONG_ARTISTS

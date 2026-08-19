@@ -568,4 +568,7 @@ INCLUDE "audio/music/mtlavender.asm"
 SECTION "Song - oredalecity", ROMX
 INCLUDE "audio/music/oredalecity.asm"
 
+SECTION "Song - countbubbasrevenge", ROMX
+INCLUDE "audio/music/countbubbasrevenge.asm"
+
 ENDSECTION

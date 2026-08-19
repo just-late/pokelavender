@@ -20,4 +20,5 @@ SongOrigins:
 	li "Prism"
 	li "Undertale"
 	li "Lav OST"
+	li "BPB"
 	assert_list_length NUM_SONG_ORIGINS
