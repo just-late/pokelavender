@@ -531,7 +531,6 @@ RadioTower4F_BlockData:
 RadioTower3F_BlockData:
 RadioTower2F_BlockData:
 RadioTower1F_BlockData:
-GoldenrodDeptStoreRoof_BlockData:
 GoldenrodDeptStoreElevator_BlockData:
 GoldenrodDeptStoreB1F_BlockData:
 GoldenrodDeptStore6F_BlockData:
@@ -552,6 +551,10 @@ GoldenrodCity_BlockData:
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
 	INCBIN "maps/BattleTower1F.ablk.lz"
+
+SECTION "BlossomDeptStoreRoof_BlockData", ROMX
+BlossomDeptStoreRoof_BlockData:
+	INCBIN "maps/BlossomDeptStoreRoof.ablk.lz"
 
 SECTION "BattleTower2F_BlockData", ROMX
 BattleTower2F_BlockData:

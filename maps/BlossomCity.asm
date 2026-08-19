@@ -6,6 +6,7 @@ BlossomCity_MapScriptHeader:
     def_warp_events
 	warp_event 15, 27, PLAYERS_HOUSE_2F, 1
 	warp_event 18, 15, BLOSSOM_GAME_CORNER, 1
+    warp_event 28,  7, BLOSSOM_DEPT_STORE_ROOF, 1
 
     def_coord_events
 

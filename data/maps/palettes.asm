@@ -31,7 +31,6 @@ ENDM
 	special_bg_pal map,      CINNABAR_LAB,                PAL_SINGLE,    CinnabarLabPalette  
 	special_bg_pal map,      MOONFLOWER_CITY,             PAL_TIMEOFDAY, MoonflowerEcruteakPalette
 	special_bg_pal map,      MURKY_SWAMP,                 PAL_SINGLE,    MurkySwampPalette
-	special_bg_pal map,      GOLDENROD_DEPT_STORE_ROOF,   PAL_TIMEOFDAY, GoldenrodDeptStoreRoofPalette
 	special_bg_pal map,      GOLDENROD_MUSEUM_1F,         PAL_SINGLE,    GoldenrodMuseumPalette
 	special_bg_pal map,      GOLDENROD_MUSEUM_2F,         PAL_SINGLE,    GoldenrodMuseumPalette
 	special_bg_pal map,      MAGNET_TUNNEL_INSIDE,        PAL_SINGLE,    MagnetTunnelPalette
@@ -73,7 +72,7 @@ ENDM
 	special_bg_pal map,      CANYON_1F,		       		  PAL_TIMEOFDAY, BGCanyonPalette
 	special_bg_pal map,      JUNGLE_QUARTER,			  PAL_TIMEOFDAY, JungleQuarterPalette
 	special_bg_pal map,      OREDALE_CITY,				  PAL_TIMEOFDAY, OredaleCityPalette
-	special_bg_pal map,      ROUTE_8_OBSERVATION_DECK,    PAL_SINGLE,    Route8ObservationDeckPalette
+	special_bg_pal map,      BLOSSOM_DEPT_STORE_ROOF,     PAL_TIMEOFDAY, BlossomDeptStoreRoofPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
@@ -98,8 +97,8 @@ ENDM
 	special_bg_pal tileset,  TILESET_SNOWY,				  PAL_TIMEOFDAY, SnowyPalette
 	db 0 ; end
 
-Route8ObservationDeckPalette:
-INCLUDE "maps/Route8ObservationDeck.pal"
+BlossomDeptStoreRoofPalette:
+INCLUDE "maps/BlossomDeptStoreRoof.pal"
 
 SandstormPalette:
 INCLUDE "maps/sandstorm.pal"

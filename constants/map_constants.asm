@@ -242,7 +242,7 @@ ENDM
 	map_const GOLDENROD_DEPT_STORE_5F,                     8,  4 ; 19
 	map_const GOLDENROD_DEPT_STORE_6F,                     8,  4 ; 20
 	map_const GOLDENROD_DEPT_STORE_ELEVATOR,               2,  2 ; 21
-	map_const GOLDENROD_DEPT_STORE_ROOF,                   8,  6 ; 22
+	map_const BLOSSOM_DEPT_STORE_ROOF,                    14,  8 ; 22
 	map_const GOLDENROD_GAME_CORNER,                      10,  7 ; 23
 	map_const GOLDENROD_POKECOM_CENTER_1F,                16,  8 ; 24
 	map_const GOLDENROD_POKECOM_CENTER_OFFICE,             6,  4 ; 25

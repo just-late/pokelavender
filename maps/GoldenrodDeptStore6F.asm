@@ -6,7 +6,6 @@ GoldenrodDeptStore6F_MapScriptHeader:
 	def_warp_events
 	warp_event 15,  0, GOLDENROD_DEPT_STORE_5F, 2
 	warp_event  2,  0, GOLDENROD_DEPT_STORE_ELEVATOR, 1
-	warp_event 13,  0, GOLDENROD_DEPT_STORE_ROOF, 1
 
 	def_coord_events
 

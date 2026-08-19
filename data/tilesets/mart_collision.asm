@@ -46,7 +46,7 @@
 	tilecoll FLOOR, MART_SHELF, COUNTER, COUNTER ; 2d
 	tilecoll COUNTER, FLOOR, COUNTER, COUNTER ; 2e
 	tilecoll WALL, STAIRCASE, FLOOR, FLOOR ; 2f
-	tilecoll WALL, WALL, WALL, WALL ; 30
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 30
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 31
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 32
 	tilecoll WALL, FLOOR, WALL, WALL ; 33
@@ -110,3 +110,5 @@
 	tilecoll WALL, WALL, WALL, WALL ; 6d
 	tilecoll WALL, WALL, WALL, WALL ; 6e
 	tilecoll WALL, WALL, WALL, WALL ; 6f
+	tilecoll WALL, WALL, WALL, WALL ; 70
+	tilecoll WALL, WALL, WALL, WALL ; 71

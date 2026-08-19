@@ -262,7 +262,7 @@ INCLUDE "maps/GoldenrodDeptStore5F.asm"
 INCLUDE "maps/GoldenrodDeptStore6F.asm"
 INCLUDE "maps/GoldenrodDeptStoreB1F.asm"
 INCLUDE "maps/GoldenrodDeptStoreElevator.asm"
-INCLUDE "maps/GoldenrodDeptStoreRoof.asm"
+INCLUDE "maps/BlossomDeptStoreRoof.asm"
 
 
 SECTION "Radio Tower Scripts", ROMX
