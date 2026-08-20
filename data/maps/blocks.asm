@@ -556,6 +556,10 @@ SECTION "BlossomDeptStoreRoof_BlockData", ROMX
 BlossomDeptStoreRoof_BlockData:
 	INCBIN "maps/BlossomDeptStoreRoof.ablk.lz"
 
+SECTION "BlossomDeptStoreRoofNight_BlockData", ROMX
+BlossomDeptStoreRoofNight_BlockData:
+	INCBIN "maps/BlossomDeptStoreRoofNight.ablk.lz"
+
 SECTION "BattleTower2F_BlockData", ROMX
 BattleTower2F_BlockData:
 	INCBIN "maps/BattleTower2F.ablk.lz"
