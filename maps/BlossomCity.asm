@@ -4,46 +4,46 @@ BlossomCity_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 15, 27, PLAYERS_HOUSE_2F, 1
-	warp_event 18, 15, BLOSSOM_GAME_CORNER, 1
-    warp_event 28,  7, BLOSSOM_DEPT_STORE_ROOF, 1
+	warp_event 15, 33, PLAYERS_HOUSE_2F, 1
+	warp_event 18, 21, BLOSSOM_GAME_CORNER, 1
+	warp_event 28, 13, BLOSSOM_DEPT_STORE_ROOF, 1
 
     def_coord_events
 
     def_bg_events
-	bg_event 37, 30, BGEVENT_JUMPTEXT, BlossomCitySignText
-	bg_event 30, 29, BGEVENT_JUMPTEXT, BlossomCityParkSignText
-	bg_event 28, 32, BGEVENT_JUMPTEXT, BlossomCityPressSignText
-	bg_event 28, 15, BGEVENT_JUMPTEXT, BlossomCitySouvenirShopSignText
-	bg_event 17, 16, BGEVENT_JUMPTEXT, BlossomCityGameCornerSignText
-	bg_event 13,  8, BGEVENT_JUMPTEXT, BlossomCityLabSignText
-	bg_event 30, 11, BGEVENT_JUMPTEXT, BlossomCityDecorSignText
-	bg_event 33, 14, BGEVENT_JUMPTEXT, BlossomCityAcademyMainSignText
-	bg_event 38, 12, BGEVENT_JUMPTEXT, BlossomCityAcademyDormsSignText
+	bg_event 37, 36, BGEVENT_JUMPTEXT, BlossomCitySignText
+	bg_event 30, 35, BGEVENT_JUMPTEXT, BlossomCityParkSignText
+	bg_event 28, 38, BGEVENT_JUMPTEXT, BlossomCityPressSignText
+	bg_event 28, 21, BGEVENT_JUMPTEXT, BlossomCitySouvenirShopSignText
+	bg_event 17, 22, BGEVENT_JUMPTEXT, BlossomCityGameCornerSignText
+	bg_event 13, 14, BGEVENT_JUMPTEXT, BlossomCityLabSignText
+	bg_event 30, 17, BGEVENT_JUMPTEXT, BlossomCityDecorSignText
+	bg_event 33, 20, BGEVENT_JUMPTEXT, BlossomCityAcademyMainSignText
+	bg_event 38, 18, BGEVENT_JUMPTEXT, BlossomCityAcademyDormsSignText
 
     def_object_events ; object events
-	object_event 18, 14, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
-	object_event 19, 13, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
-	object_event 20, 13, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
-	object_event 18, 13, SPRITE_DITTO_TILES_2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
+	object_event 18, 20, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
+	object_event 19, 19, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
+	object_event 20, 19, SPRITE_DITTO_TILES, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
+	object_event 18, 19, SPRITE_DITTO_TILES_2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_DITTO, PERSONTYPE_SCRIPT, 0, 0, -1
 ;	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 ;	object_event 37, 41, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 ;	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
 ;	object_event 19, 42, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCitySailboatText, -1
-	person_event SPRITE_BIRD_KEEPER, 12, 12, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC1Text, -1
-	person_event SPRITE_BURGLAR, 31, 35, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC2Text, -1
-	person_event SPRITE_BLACK_BELT, 22, 40, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC3Text, -1
-	person_event SPRITE_BEAUTY, 33, 24, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC4Text, -1
-	person_event SPRITE_BEACH_GUY, 19, 10, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC5Text, -1
-	person_event SPRITE_CUTE_GIRL, 15, 29, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityWaitingGirlText, -1,
-	person_event SPRITE_YOUNGSTER, 14, 29, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptext, BlossomCityOrderingGuyText, -1,
-	person_event SPRITE_RECEPTIONIST, 14, 27, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, BlossomCitySouvenirReceptionistScript, -1
-	person_event SPRITE_BUG_CATCHER, 15, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityLineNPC1Text, -1
-	person_event SPRITE_COWGIRL, 15, 30, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityLineNPC2Text, -1,
-	person_event SPRITE_CLERK, 13, 27, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityClerkSoldOutText, -1
-	person_event SPRITE_POKEFAN_M, 17, 19, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityCoinCaseGuyText, -1
-	person_event SPRITE_MATRON, 28, 33, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityParkNPCText, -1,
-	pokemon_event 28, 12, WOBBUFFET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, BlossomCityWobbuffetText, -1
+	person_event SPRITE_BIRD_KEEPER, 18, 12, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC1Text, -1
+	person_event SPRITE_BURGLAR, 37, 35, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC2Text, -1
+	person_event SPRITE_BLACK_BELT, 28, 40, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC3Text, -1
+	person_event SPRITE_BEAUTY, 39, 24, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC4Text, -1
+	person_event SPRITE_BEACH_GUY, 25, 10, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC5Text, -1
+	person_event SPRITE_CUTE_GIRL, 21, 29, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityWaitingGirlText, -1,
+	person_event SPRITE_YOUNGSTER, 20, 29, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptext, BlossomCityOrderingGuyText, -1,
+	person_event SPRITE_RECEPTIONIST, 20, 27, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, BlossomCitySouvenirReceptionistScript, -1
+	person_event SPRITE_BUG_CATCHER, 21, 31, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityLineNPC1Text, -1
+	person_event SPRITE_COWGIRL, 21, 30, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityLineNPC2Text, -1,
+	person_event SPRITE_CLERK, 19, 27, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityClerkSoldOutText, -1
+	person_event SPRITE_POKEFAN_M, 23, 19, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityCoinCaseGuyText, -1
+	person_event SPRITE_MATRON, 34, 33, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityParkNPCText, -1,
+	pokemon_event 28, 18, WOBBUFFET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, BlossomCityWobbuffetText, -1
 ;	person_event SPRITE_CLERK,  9, 24, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityDollSellerText, -1
 ;	object_event 24, 10, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, MAGNEMITE, -1, -1, PAL_NPC_GRAY, PERSONTYPE_COMMAND, jumptext, BlossomCityMagnemiteDollText, -1
 

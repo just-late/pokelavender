@@ -34,22 +34,25 @@ GetOvercastIndex::
 
 .stormy_beach_goldenrod_city_route_34:
 ; Stormy Beach, Goldenrod City, Magnet Tunnel West, Route 34, Route 34 Coast
+	ld a, [wMapGroup]
+	cp GROUP_OVERCAST_GROVE
+	jr nz, .not_overcast
 	ld a, [wMapNumber]
 ; Stormy Beach is always overcast
-	cp MAP_STORMY_BEACH
-	jr z, .overcast_stormy_beach
-	cp MAP_ROUTE_34_COAST
-	jr z, .maybe_stormy_beach
-	cp MAP_ROUTE_34
-	jr z, .maybe_stormy_beach
-	cp MAP_MAGNET_TUNNEL_WEST
-	jr z, .maybe_stormy_beach
-	cp MAP_GOLDENROD_CITY
-	jr nz, .not_overcast
+	cp MAP_OVERCAST_GROVE
+	jr z, .overcast_grove
+;	cp MAP_ROUTE_34_COAST
+;	jr z, .maybe_stormy_beach
+;	cp MAP_ROUTE_34
+;	jr z, .maybe_stormy_beach
+;	cp MAP_MAGNET_TUNNEL_WEST
+;	jr z, .maybe_stormy_beach
+;	cp MAP_GOLDENROD_CITY
+;	jr nz, .not_overcast
 .maybe_stormy_beach
 ; Only overcast while Team Rocket is present
 	eventflagcheck EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
 	jr nz, .not_overcast
-.overcast_stormy_beach
+.overcast_grove
 	ld a, STORMY_BEACH_OVERCAST
 	ret
