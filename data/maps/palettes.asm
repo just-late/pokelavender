@@ -98,7 +98,7 @@ ENDM
 	db 0 ; end
 
 BlossomDeptStoreRoofPalette:
-INCLUDE "maps/DeptStoreViewOvercast.pal"
+INCLUDE "maps/BlossomDeptStoreRoof.pal"
 
 SandstormPalette:
 INCLUDE "maps/sandstorm.pal"

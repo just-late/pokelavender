@@ -6,6 +6,7 @@ Drumkits:
 	dr Drumkit4
 	dr Drumkit5
 	dr Drumkit6
+	dr Drumkit7
 
 Drumkit0:
 	dr Drum00
@@ -105,6 +106,20 @@ Drumkit6:
 	dr HiHat4
 	dr Drum00
 	dr Snare15
+Drumkit7:
+	dr Drum00
+	dr Snare1
+	dr Snare2
+	dr Snare3
+	dr Snare4
+	dr Drum05
+	dr Triangle1
+	dr Timpani
+	dr Kick2
+	dr Snare5
+	dr Snare6
+	dr Snare7
+	dr HiHat2
 
 Drum00:
 	noise_note 32, 1, 1, 0
@@ -274,6 +289,12 @@ Crash1:
 	noise_note 32, 6, 5, 18
 	sound_ret
 
+Wave:
+	noise_note 36, 2, 8, 33
+	noise_note 32, 3, 7, 18
+	noise_note 28, 1, 8, 3
+	sound_ret
+
 Kick3:
 	noise_note 32, 6, 8, 107
 	noise_note 32, 5, 1, 0
@@ -287,8 +308,7 @@ Snare15:
 	noise_note 32, 4, 3, 51
 	sound_ret
 
-Wave:
-	noise_note 36, 2, 8, 33
-	noise_note 32, 3, 7, 18
-	noise_note 28, 1, 8, 3
+Timpani:
+	noise_note 16, 12, 7, 138
+	noise_note 32, 9, 4, 169
 	sound_ret
