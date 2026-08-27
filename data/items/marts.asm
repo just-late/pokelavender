@@ -22,7 +22,7 @@ Marts:
 	dw ViridianMart
 	dw PewterMart
 	dw MtMoonMart
-	dw LavenderMart
+	dw GameCornerDrinksMart
 	dw VermilionMart
 	dw Celadon2FMart1
 	dw Celadon2FMart2
@@ -307,17 +307,12 @@ MtMoonMart:
 	db PORTRAITMAIL
 	db -1
 
-LavenderMart:
-	db 9 ; # items
-	db GREAT_BALL
-	db HEAL_BALL
-	db POTION
-	db SUPER_POTION
-	db MAX_REPEL
-	db ANTIDOTE
-	db PARALYZEHEAL
-	db AWAKENING
-	db BURN_HEAL
+GameCornerDrinksMart:
+	db 4 ; # items
+	db LEMONADE
+	db SODA_POP
+	db FRESH_WATER
+	db MOOMOO_MILK
 	db -1
 
 VermilionMart:

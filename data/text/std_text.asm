@@ -347,7 +347,7 @@ GymStatue_ThreeWinningTrainersText:
 
 CoinVendor_WelcomeText:
 	text "Welcome to the"
-	line "Game Corner."
+	line "GAME CORNER."
 	done
 
 CoinVendor_NoCoinCaseText:
@@ -355,7 +355,7 @@ CoinVendor_NoCoinCaseText:
 	line "coins?"
 
 	para "Oh, you don't have"
-	line "a Coin Case for"
+	line "a COIN CASE for"
 	cont "your coins."
 	done
 

@@ -328,6 +328,20 @@ TilesetWarehouseAnim::
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
+TilesetBarAnim::
+	dw NULL, AnimateSlotsTile1
+	dw NULL, AnimateSlotsTile2
+	dw NULL, AnimateSlotsTile3
+	dw NULL, AnimateSlotsTile4
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  StandingTileFrame8
+	dw NULL,  DoneTileAnimation
+
 TilesetHouse1Anim::
 TilesetHouse2Anim::
 TilesetPokeCenterAnim::
@@ -351,7 +365,6 @@ TilesetDecorAnim::
 TilesetMuseumAnim::
 TilesetHotelAnim::
 TilesetBattleFactoryAnim::
-TilesetBarAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -991,6 +1004,122 @@ MovieTile1Frames:
 	INCBIN "gfx/tilesets/movie-sign/1_2.2bpp"
 	INCBIN "gfx/tilesets/movie-sign/1_2.2bpp"
 
+AnimateSlotsTile1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	swap a
+
+	add LOW(SlotTile1Frames)
+	ld l, a
+	adc HIGH(SlotTile1Frames)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	ld hl, vTiles2 tile $25
+	jmp WriteTile
+
+SlotTile1Frames:
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+
+AnimateSlotsTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	swap a
+
+	add LOW(SlotTile2Frames)
+	ld l, a
+	adc HIGH(SlotTile2Frames)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	ld hl, vTiles2 tile $26
+	jmp WriteTile
+
+SlotTile2Frames:
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+
+AnimateSlotsTile3:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	swap a
+
+	add LOW(SlotTile3Frames)
+	ld l, a
+	adc HIGH(SlotTile3Frames)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	ld hl, vTiles2 tile $27
+	jmp WriteTile
+
+SlotTile3Frames:
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+
+AnimateSlotsTile4:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4
+	swap a
+
+	add LOW(SlotTile3Frames)
+	ld l, a
+	adc HIGH(SlotTile3Frames)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	ld hl, vTiles2 tile $35
+	jmp WriteTile
+
+SlotTile4Frames:
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_1.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	INCBIN "gfx/tilesets/game-corner/slot_sign_2.2bpp"
+	
 LavaBubbleAnim1:
 	ld hl, sp + 0
 	ld b, h

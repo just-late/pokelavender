@@ -13,6 +13,7 @@
 	const MARTTYPE_BLUECARD
 	const MARTTYPE_BP
 	const MARTTYPE_BLOSSOM_SOUVENIR
+	const MARTTYPE_SHADY
 
 ; Marts indexes (see data/items/marts.asm)
 	const_def
@@ -38,7 +39,7 @@
 	const MART_VIRIDIAN
 	const MART_PEWTER
 	const MART_MT_MOON
-	const MART_LAVENDER
+	const MART_GAMECORNER_DRINKS
 	const MART_VERMILION
 	const MART_CELADON_2F_1
 	const MART_CELADON_2F_2

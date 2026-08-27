@@ -34,3 +34,26 @@
 	tilecoll WALL, WALL, WALL, WALL ; 21
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 22
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 23
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 24
+	tilecoll COUNTER, FLOOR, COUNTER, FLOOR ; 25
+	tilecoll WALL, WALL, COUNTER, FLOOR ; 26
+	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 27
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 28
+	tilecoll WALL, WALL, FLOOR, WALL ; 29
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 2a
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 2b
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 2c
+	tilecoll WALL, WALL, WALL, FLOOR ; 2d
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 2e
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 2f
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 30
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 31
+	tilecoll WALL, WALL, COUNTER, FLOOR ; 32
+	tilecoll WALL, WALL, WALL, WALL ; 33
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 34
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 35
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 36
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 37
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 38
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 39
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 3a

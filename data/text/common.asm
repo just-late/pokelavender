@@ -4111,6 +4111,18 @@ _BlossomSouvenirComeAgainText::
 	line "again!"
 	done
 
+SECTION "_ShadyMartWelcomeText", ROMX
+_ShadyMartWelcomeText::
+	text "Hey kid… want"
+	line "some booze?"
+	done
+
+SECTION "_ShadyMartComeAgainText", ROMX
+_ShadyMartComeAgainText::
+	text "Keep this quiet,"
+	line "kid…"
+	done
+
 SECTION "Text_ExcuseMeYoureNotReady", ROMX
 Text_ExcuseMeYoureNotReady::
 	text "Excuse me."

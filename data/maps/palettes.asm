@@ -73,6 +73,7 @@ ENDM
 	special_bg_pal map,      JUNGLE_QUARTER,			  PAL_TIMEOFDAY, JungleQuarterPalette
 	special_bg_pal map,      OREDALE_CITY,				  PAL_TIMEOFDAY, OredaleCityPalette
 	special_bg_pal map,      BLOSSOM_DEPT_STORE_ROOF,     PAL_TIMEOFDAY, BlossomDeptStoreRoofPalette
+	special_bg_pal map,		 BLOSSOM_GAME_CORNER,		  PAL_SINGLE,    GameCornerPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
@@ -86,7 +87,6 @@ ENDM
 	special_bg_pal tileset,  TILESET_POKECOM_CENTER,      PAL_SINGLE,    PokeComPalette
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_GATE,                PAL_SINGLE,    GatePalette
-	special_bg_pal tileset,  TILESET_GAME_CORNER,         PAL_SINGLE,    GameCornerPalette
 	special_bg_pal tileset,  TILESET_HOTEL,               PAL_SINGLE,    HotelPalette
 	special_bg_pal tileset,  TILESET_BATTLE_TOWER_INSIDE, PAL_SINGLE,    BattleTowerPalette
 	special_bg_pal tileset,  TILESET_BATTLE_FACTORY,      PAL_SINGLE,    BattleFactoryPalette
@@ -638,7 +638,7 @@ endc
 
 GameCornerPalette:
 if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/game_corner.pal"
+INCLUDE "maps/BlossomGameCorner.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

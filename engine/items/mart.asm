@@ -34,6 +34,7 @@ OpenMartDialog::
 	dw BlueCardMart
 	dw BTMart
 	dw BlossomSouvenirMart
+	dw ShadyMart
 
 MartDialog:
 	xor a ; MARTTYPE_STANDARD, STANDARDMART_HOWMAYIHELPYOU
@@ -175,6 +176,15 @@ BlossomSouvenirMart:
 	call MartTextbox
 	call BuyMenu
 	ld hl, Text_BlossomSouvenir_ComeAgain
+	jmp MartTextbox
+
+ShadyMart:
+	call FarReadMart
+	call LoadStandardMenuHeader
+	ld hl, Text_ShadyMart_Welcome
+	call MartTextbox
+	call BuyMenu
+	ld hl, Text_ShadyMart_ComeAgain
 	jmp MartTextbox
 
 LoadMartPointer:
@@ -1367,6 +1377,14 @@ Text_BlossomSouvenir_Welcome:
 Text_BlossomSouvenir_ComeAgain:
 	; Okay… please come again!
 	text_far _BlossomSouvenirComeAgainText
+	text_end
+
+Text_ShadyMart_Welcome:
+	text_far _ShadyMartWelcomeText
+	text_end
+
+Text_ShadyMart_ComeAgain:
+	text_far _ShadyMartComeAgainText
 	text_end
 
 Text_BTMart_HowMayIHelpYou:

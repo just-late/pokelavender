@@ -180,7 +180,7 @@ ENDM
 
 	newgroup                                                     ;  8
 	map_const BLOSSOM_CITY,								  27, 27 ;  1
-	map_const BLOSSOM_GAME_CORNER,						  11,  7 ;  2
+	map_const BLOSSOM_GAME_CORNER,						   7,  4 ;  2
 	map_const JUNGLE_QUARTER,							  19, 16 ;  3
 	map_const MOUNTAIN_QUARTER, 						  15, 22 ;  4
 	map_const ACADEMY_POKECENTER, 						  11,  7 ;  5

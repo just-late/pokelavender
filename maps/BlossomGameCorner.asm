@@ -4,225 +4,105 @@ BlossomGameCorner_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event  3, 13, BLOSSOM_CITY, 2
-	warp_event  2, 13, BLOSSOM_CITY, 2
+	warp_event  5,  7, BLOSSOM_CITY, 2
+	warp_event  4,  7, BLOSSOM_CITY, 2
 
     def_coord_events
     
     def_bg_events
-;	bg_event 15, 10, BGEVENT_READ, BlossomGameCornerCardFlipScript
-;	bg_event 14, 11, BGEVENT_READ, BlossomGameCornerCardFlipScript
-;	bg_event 15,  6, BGEVENT_READ, BlossomGameCornerCardFlipScript
-;	bg_event 15,  7, BGEVENT_READ, BlossomGameCornerCardFlipScript
-;	bg_event 14,  7, BGEVENT_READ, BlossomGameCornerCardFlipScript
-;	bg_event 14,  9, BGEVENT_READ, BlossomGameCornerCardFlipScript
-	bg_event  4,  7, BGEVENT_READ, BlossomGameCornerEggLotteryTier1Script
-	bg_event  5,  7, BGEVENT_READ, BlossomGameCornerEggLotteryTier2Script
-	bg_event  6,  7, BGEVENT_READ, BlossomGameCornerEggLotteryTier3Script
-	bg_event  7,  7, BGEVENT_READ, BlossomGameCornerEggLotteryTier4Script
-	bg_event  4, 11, BGEVENT_READ, BlossomGameCornerEggLotteryTier1Script
-	bg_event  5, 11, BGEVENT_READ, BlossomGameCornerEggLotteryTier2Script
-	bg_event  6, 11, BGEVENT_READ, BlossomGameCornerEggLotteryTier3Script
-	bg_event  7, 11, BGEVENT_READ, BlossomGameCornerEggLotteryTier4Script
-
-    db 10 ; object events
-
-BlossomGameCornerEggLotteryTier1Script:
-	checkkeyitem COIN_CASE
-	iffalsefwd CantPlayScript
-    opentext
-    writetext PlayBasicEggLotteryText
-    special Special_DisplayCoinCaseBalance
-    yesorno
-    iftruefwd PlayEggLottery1Script
-	closetext
-	end
-
-PlayEggLottery1Script:
-    playsound SFX_TRANSACTION
-    takecoins 1000
-	waitsfx
-	writetext EggLotteryRollingText
-    playmusic MUSIC_EGG_LOTTO
-	wait 22
-	random $5
-	ifequalfwd $0, .Rattata
-	ifequalfwd $1, .Sentret
-	ifequalfwd $2, .Pidgey
-	ifequalfwd $3, .Caterpie
-	ifequalfwd $4, .Munchlax
-	giveegg PORYGON
-	getmonname PORYGON, $0
-	sjumpfwd EggLottoFinished_JackPot
-
-.Rattata
-	giveegg RATTATA
-	getmonname RATTATA, $0
-	sjumpfwd EggLottoFinished
-
-.Sentret
-	giveegg SENTRET
-	getmonname SENTRET, $0
-	sjumpfwd EggLottoFinished
-
-.Pidgey
-	giveegg PIDGEY
-	getmonname PIDGEY, $0
-	sjumpfwd EggLottoFinished
-
-.Caterpie
-	giveegg CATERPIE
-	getmonname CATERPIE, $0
-	sjumpfwd EggLottoFinished
-
-.Munchlax
-	giveegg MUNCHLAX
-	getmonname MUNCHLAX, $0
-	sjumpfwd EggLottoFinished_JackPot
-
-BlossomGameCornerEggLotteryTier2Script:
-	checkkeyitem COIN_CASE
-	iffalsefwd CantPlayScript
-    opentext
-	writetext PlayTier2EggLotteryText
-	special Special_DisplayCoinCaseBalance
-	yesorno
-	iftruefwd PlayEggLottery2Script
-	closetext
-	end
-
-PlayEggLottery2Script:
-    playsound SFX_TRANSACTION
-    takecoins 2000
-	waitsfx
-	writetext EggLotteryRollingText
-    playmusic MUSIC_EGG_LOTTO
-	wait 22
-	random $5
-	ifequalfwd $0, .Spinarak
-	ifequalfwd $1, .Pichu
-	ifequalfwd $2, .Trapinch
-	ifequalfwd $3, .Rattata
-	ifequalfwd $4, .Scyther
-	giveegg HERACROSS
-	getmonname HERACROSS, $0
-	sjumpfwd EggLottoFinished_JackPot
-
-.Spinarak
-	giveegg SPINARAK
-	getmonname SPINARAK, $0
-	sjumpfwd EggLottoFinished
-
-.Pichu
-	giveegg PICHU
-	getmonname PICHU, $0
-	sjumpfwd EggLottoFinished_NotBad
-
-.Trapinch
-	giveegg TRAPINCH
-	getmonname TRAPINCH, $0
-	sjumpfwd EggLottoFinished_NotBad
-
-.Rattata
-	giveegg RATTATA
-	getmonname RATTATA, $0
-	sjumpfwd EggLottoFinished
-
-.Scyther
-	giveegg SCYTHER
-	getmonname SCYTHER, $0
-	sjumpfwd EggLottoFinished_JackPot
-
-BlossomGameCornerEggLotteryTier3Script:
-	checkkeyitem COIN_CASE
-	iffalsefwd CantPlayScript
-    end
-
-BlossomGameCornerEggLotteryTier4Script:
-	checkkeyitem COIN_CASE
-	iffalsefwd CantPlayScript
-    end
-
-EggLottoFinished:
-	writetext EggLottoGotEggText
-	waitbutton
-	closetext
-	end
-
-EggLottoFinished_JackPot:
-	writetext EggLottoGotJackPotText
-	waitbutton
-	closetext
-	end
-
-EggLottoFinished_NotBad:
-	writetext EggLottoNotBadText
-	waitbutton
-	closetext
-	end
-
-CantPlayScript:
-	jumpthistext
-
-.CantPlayText
-	text "You can't play"
-	line "without a COIN"
-	cont "CASE!"
-	done
-
-PlayBasicEggLotteryText:
-	text "Play BASIC EGG"
-	line "LOTTERY for 1000"
-	cont "coins?"
-	done
-
-EggLotteryRollingText:
-	text "ROLLING…"
-	done
-
-EggLottoGotEggText:
-	text "You got a"
-	line ""
-	text_ram wStringBuffer3
-	text " EGG!"
-
-	para "Better luck"
-	line "next time…"
-	done
-
-EggLottoGotJackPotText:
-	text "You got a"
-	line ""
-	text_ram wStringBuffer3
-	text " EGG!"
+	bg_event  9,  6, BGEVENT_READ, BlossomGameCornerCardFlipScript
+;	bg_event  8,  1, BGEVENT_READ, BlossomGameCornerPianoLoScript
+;	bg_event  9,  1, BGEVENT_READ, BlossomGameCornerPianoHiScript
+	bg_event 13,  6, BGEVENT_READ, BlossomGameCornerSlotsScript
+	bg_event 13,  5, BGEVENT_READ, BlossomGameCornerLuckySlotsScript
+	bg_event 13,  4, BGEVENT_READ, BlossomGameCornerSlotsScript
+	bg_event  5,  3, BGEVENT_READ, BlossomGameCornerCoolerScript
 	
-	para "Wow, that's a"
-	line "jackpot!"
+
+    db 7 ; object events
+	person_event SPRITE_SAILOR,  4,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GameCornerBartenderScript, -1
+	person_event SPRITE_BURGLAR,  1,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_ROCKER,  6,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_FAT_GUY,  5, 12, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << DAY) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_POKEFAN_F,  1, 13, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
+	person_event SPRITE_BIRD_KEEPER,  6, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_BEAUTY,  5,  3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+
+	object_const_def
+	const GAMECORNER_BARTENDER
+
+GameCornerBartenderScript:
+	checkkeyitem COIN_CASE
+	iftruefwd .CoinShop
+	showtext BartenderCoinCaseText
+	verbosegivekeyitem COIN_CASE
+	end
+
+.CoinShop:
+	jumpstd gamecornercoinvendor
+	end
+
+BlossomGameCornerCoolerScript:
+	showemote EMOTE_SHOCK, GAMECORNER_BARTENDER, 15
+	showtext BartenderCoolerText1
+	applymovement PLAYER, GameCornerWalksToCounter_Movement
+	showtext BartenderCoolerText2
+	end
+
+BlossomGameCornerBoozeSellerScript:
+	pokemart MARTTYPE_SHADY, MART_GAMECORNER_DRINKS
+	end
+
+BlossomGameCornerCardFlipScript:
+	refreshscreen
+	special Special_CardFlip
+	endtext
+
+BlossomGameCornerSlotsScript:
+	random 6
+	ifequalfwd 0, BlossomGameCornerLuckySlotsScript
+	refreshscreen
+	setval FALSE
+	special Special_SlotMachine
+	endtext
+
+BlossomGameCornerLuckySlotsScript:
+	refreshscreen
+	setval TRUE
+	special Special_SlotMachine
+	endtext
+
+BartenderCoinCaseText:
+	text "Welcome to"
+	line "MEOWTH's PLACE."
+
+	para "You'll need a"
+	line "COIN CASE if you"
+	cont "want to play."
+
+	para "Here,"
+	line "on the house."
 	done
 
-EggLottoNotBadText:
-	text "You got a"
-	line ""
-	text_ram wStringBuffer3
-	text " EGG!"
-	
-	para "Not bad!"
+BartenderCoolerText1:
+	text "Woah, kid!"
 	done
 
-PlayTier2EggLotteryText:
-	text "Play PRIME EGG"
-	line "LOTTERY for 2000"
-	cont "coins?"
+BartenderCoolerText2:
+	text "That cooler's got"
+	line "all the booze in"
+	cont "this place!"
+
+	para "I may not be the"
+	line "most law-abiding"
+	cont "guy out there,"
+
+	para "but I'm not about"
+	line "to let some kid"
+	cont "drink that stuff!"
 	done
 
-PlayTier3EggLotteryText:
-	text "Play EPIC EGG"
-	line "LOTTERY for 3000"
-	cont "coins?"
-	done
-
-PlayTier4EggLotteryText:
-	text "Play MYSTIC EGG"
-	line "LOTTERY for 5000"
-	cont "coins?"
-	done
+GameCornerWalksToCounter_Movement:
+	step_left
+	step_left
+	step_end

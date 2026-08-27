@@ -12,7 +12,7 @@ LavenderMart_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	mart_clerk_event  1,  3, MARTTYPE_STANDARD, MART_LAVENDER
+	mart_clerk_event  1,  3, MARTTYPE_STANDARD, MART_GAMECORNER_DRINKS
 	object_event  6,  6, SPRITE_HIKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, LavenderMartPokefanMText, -1
 	object_event  9,  2, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, LavenderMartRockerText, -1
 
