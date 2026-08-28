@@ -34,7 +34,6 @@ Tilesets::
 	tileset TilesetLab
 	tileset TilesetFacility
 	tileset TilesetMansion
-	tileset TilesetGameCorner
 	tileset TilesetDecor
 	tileset TilesetMuseum
 	tileset TilesetHotel
@@ -297,16 +296,6 @@ TilesetMansionAttr:: INCBIN "data/tilesets/celadon_mansion_attributes.bin.lz"
 TilesetMansionColl:: INCBIN "data/tilesets/celadon_mansion_collision.bin.lz"
 
 
-SECTION "Tileset Data - game_corner", ROMX
-
-TilesetGameCornerGFX0:: INCBIN "gfx/tilesets/game_corner.2bpp.vram0.lz"
-TilesetGameCornerGFX1:: INCBIN "gfx/tilesets/game_corner.2bpp.vram1.lz"
-
-TilesetGameCornerMeta:: INCBIN "data/tilesets/game_corner_metatiles.bin.lz"
-TilesetGameCornerAttr:: INCBIN "data/tilesets/game_corner_attributes.bin.lz"
-TilesetGameCornerColl:: INCBIN "data/tilesets/game_corner_collision.bin.lz"
-
-
 SECTION "Tileset Data - home_decor_store", ROMX
 
 TilesetDecorGFX0:: INCBIN "gfx/tilesets/home_decor_store.2bpp.vram0.lz"
@@ -526,7 +515,6 @@ TilesetPortGFX2::
 TilesetLabGFX2::
 TilesetFacilityGFX2::
 TilesetMansionGFX2::
-TilesetGameCornerGFX2::
 TilesetDecorGFX2::
 TilesetMuseumGFX2::
 TilesetHotelGFX2::

@@ -350,7 +350,6 @@ TilesetLabAnim::
 TilesetFacilityAnim::
 TilesetMartAnim::
 TilesetMansionAnim::
-TilesetGameCornerAnim::
 TilesetHouse3Anim::
 TilesetGym2Anim::
 TilesetGym3Anim::
