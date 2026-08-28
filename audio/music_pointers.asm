@@ -9,7 +9,6 @@ Music:
 	dba Music_Mom
 	dba Music_ElmsLab
 	dba Music_LyraEncounterHGSS
-	dba Music_RivalBattleXY
 	dba Music_LyraDepartureHGSS
 	dba Music_Route29
 	dba Music_JohtoWildBattle
@@ -106,7 +105,6 @@ Music:
 	dba Music_CeladonCity
 	dba Music_GameCornerDPPt
 	dba Music_CanalaveCityDPPt
-	dba Music_BicycleXY
 	dba Music_Route12
 	dba Music_PokeFluteChannel
 	dba Music_Route209DPPt
@@ -129,7 +127,6 @@ Music:
 	dba Music_CinnabarIslandHGSS
 	dba Music_CinnabarMansionRBY
 	dba Music_TrainerBattleDPPt
-	dba Music_ScaryHouseXY
 	dba Music_EternaForestDPPt
 	dba Music_MountChimneyRSE
 	dba Music_MountPyreRSE
@@ -138,7 +135,6 @@ Music:
 	dba Music_BattleFactoryRSE
 	dba Music_TrainerBattleBW
 	dba Music_FrontierBrainBattleRSE
-	dba Music_ZinniaEncounterORAS
 	dba Music_Route205DPPt
 	dba Music_SurfRSE
 	dba Music_BicycleRSE
@@ -147,19 +143,13 @@ Music:
 	dba Music_TrainerBattleSM
 	dba Music_Route203DPPt
 	dba Music_WhiteTreehollowWhite2
-	dba Music_LaverreCityXY
 	dba Music_Route101RSE
 	dba Music_EverGrandeCityRSE
 	dba Music_OreburghGateDPPt
 	dba Music_Route12BW
 	dba Music_RoadToReversalMountainB2W2
-	dba Music_ZinniaBattleORAS
-	dba Music_WallyEncounterORAS
-	dba Music_WallyBattleORAS
 	dba Music_SpikyEaredPichuHGSS
 	dba Music_MotherBeastBattleSM
-	dba Music_FrostCavernXY
-	dba Music_PowerPlantXY
 	dba Music_ReversalMountainWhite2
 	dba Music_MeteorFallsRSE
 	dba Music_LugiasSong2000_NoIntro
@@ -169,11 +159,9 @@ Music:
 	dba Music_CeruleanCaveRBY
 	dba Music_MewtwoBattleStadium
 	dba Music_AbandonedShipRSE
-	dba Music_KantoLegendBattleXY
 	dba Music_GymLeaderBattleRSE
 	dba Music_GymLeaderBattleDPPt
 	dba Music_GymLeaderBattleBW
-	dba Music_GymLeaderBattleXY
 	dba Music_GymLeaderBattleSwSh
 	dba Music_GymLeaderBattleGo
 	dba Music_EliteFourBattleBW
@@ -185,11 +173,8 @@ Music:
 	dba Music_ChampionBattleB2W2
 	dba Music_Credits
 	dba Music_PostCredits
-	dba Music_TitleScreenXY
 	dba Music_VerdanturfTown
 	dba Music_MarineTubeB2W2
-	dba Music_LegendaryBattleXY
-	dba Music_RivalsTheme
 	dba Music_Cave
 	dba Music_EggLottery
 	dba Music_Underwater

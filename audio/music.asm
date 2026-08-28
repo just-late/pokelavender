@@ -481,48 +481,6 @@ INCLUDE "audio/music/b2w2/whitetreehollow.asm"
 SECTION "Song - b2w2/marinetube", ROMX
 INCLUDE "audio/music/b2w2/marinetube.asm"
 
-SECTION "Song - xy/bicycle", ROMX
-INCLUDE "audio/music/xy/bicycle.asm"
-
-SECTION "Song - xy/frostcavern", ROMX
-INCLUDE "audio/music/xy/frostcavern.asm"
-
-SECTION "Song - xy/gymleaderbattle", ROMX
-INCLUDE "audio/music/xy/gymleaderbattle.asm"
-
-SECTION "Song - xy/kantolegendbattle", ROMX
-INCLUDE "audio/music/xy/kantolegendbattle.asm"
-
-SECTION "Song - xy/laverrecity", ROMX
-INCLUDE "audio/music/xy/laverrecity.asm"
-
-SECTION "Song - xy/powerplant", ROMX
-INCLUDE "audio/music/xy/powerplant.asm"
-
-SECTION "Song - xy/rivalbattle", ROMX
-INCLUDE "audio/music/xy/rivalbattle.asm"
-
-SECTION "Song - xy/titlescreen", ROMX
-INCLUDE "audio/music/xy/titlescreen.asm"
-
-SECTION "Song - xy/scaryhouse", ROMX
-INCLUDE "audio/music/xy/scaryhouse.asm"
-
-SECTION "Song - xy/legendarybattle", ROMX
-INCLUDE "audio/music/xy/legendarybattle.asm"
-
-SECTION "Song - oras/wallybattle", ROMX
-INCLUDE "audio/music/oras/wallybattle.asm"
-
-SECTION "Song - oras/wallyencounter", ROMX
-INCLUDE "audio/music/oras/wallyencounter.asm"
-
-SECTION "Song - oras/zinniabattle", ROMX
-INCLUDE "audio/music/oras/zinniabattle.asm"
-
-SECTION "Song - oras/zinniaencounter", ROMX
-INCLUDE "audio/music/oras/zinniaencounter.asm"
-
 SECTION "Song - sm/elitefourbattle", ROMX
 INCLUDE "audio/music/sm/elitefourbattle.asm"
 
@@ -549,9 +507,6 @@ INCLUDE "audio/music/stadium/mewtwobattle.asm"
 
 SECTION "Song - m02/lugiassong", ROMX
 INCLUDE "audio/music/m02/lugiassong.asm"
-
-SECTION "Song - rivalstheme", ROMX
-INCLUDE "audio/music/rivalstheme.asm"
 
 SECTION "Song - cave", ROMX
 INCLUDE "audio/music/cave.asm"

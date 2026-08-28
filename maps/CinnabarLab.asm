@@ -106,7 +106,7 @@ CinnabarLabCelebiEventScript:
 	cry MEWTWO
 	waitsfx
 	closetext
-	playmusic MUSIC_KANTO_LEGEND_BATTLE_XY
+	playmusic MUSIC_OREDALE_CITY
 	pause 15
 	playsound SFX_SWORDS_DANCE
 	callasm BlindingFlash

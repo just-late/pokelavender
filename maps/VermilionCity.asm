@@ -94,7 +94,7 @@ LawrenceIntroScript:
 	applymovement VERMILIONCITY_LAWRENCE, LawrenceWalkAroundLeftMovementData
 	turnobject PLAYER, RIGHT
 .continue
-	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
+	playmusic MUSIC_OREDALE_CITY
 	showtext LawrenceIntroText
 	applymovement VERMILIONCITY_LAWRENCE, LawrenceWalkAwayMovementData
 	disappear VERMILIONCITY_LAWRENCE

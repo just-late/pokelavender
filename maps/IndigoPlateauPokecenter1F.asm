@@ -146,7 +146,7 @@ PlateauRivalBattleTrigger2:
 	opentext
 	writetext PlateauLyraText1
 	waitbutton
-	playmusic MUSIC_WALLY_BATTLE_ORAS
+	playmusic MUSIC_OREDALE_CITY
 	writetext PlateauLyraText2
 	waitbutton
 	closetext

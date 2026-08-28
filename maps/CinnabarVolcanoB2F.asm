@@ -62,7 +62,7 @@ CinnabarVolcanoB2FLawrenceEncounterScript:
 	turnobject CINNABARVOLCANOB2F_LAWRENCE, UP
 	turnobject PLAYER, DOWN
 .continue
-	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
+	playmusic MUSIC_OREDALE_CITY
 	showtext CinnabarVolcanoB2FLawrenceSpeechText
 	turnobject CINNABARVOLCANOB2F_LAWRENCE, UP
 	opentext

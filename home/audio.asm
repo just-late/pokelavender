@@ -401,7 +401,7 @@ GetMapMusic_MaybeSpecial::
 	jr GetPlayerStateMusic
 
 GetCyclingRoadMusic:
-	ld e, MUSIC_BICYCLE_XY
+	ld e, MUSIC_BICYCLE_RSE
 	ld a, [wPlayerState]
 	cp PLAYER_BIKE
 	ret z
@@ -417,7 +417,7 @@ GetBugCatchingContestMusic:
 GetPlayerStateMusic:
 	ld a, [wPlayerState]
 	cp PLAYER_TAUROS
-	ld e, MUSIC_BICYCLE_XY
+	ld e, MUSIC_BICYCLE_RB
 	ret z
 	cp PLAYER_SURF_PIKA
 	ld e, MUSIC_SURFING_PIKACHU

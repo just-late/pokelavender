@@ -405,75 +405,6 @@ SECTION "RuinsOfAlphOmanyteWordRoom_BlockData", ROMX
 RuinsOfAlphOmanyteWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphOmanyteWordRoom.ablk.lz"
 
-SECTION "SinjohRuins_BlockData", ROMX
-SinjohRuins_BlockData:
-	INCBIN "maps/SinjohRuins.ablk.lz"
-
-SECTION "MystriStage_BlockData", ROMX
-MystriStage_BlockData:
-	INCBIN "maps/MystriStage.ablk.lz"
-
-SECTION "SinjohRuinsHouse_BlockData", ROMX
-SinjohRuinsHouse_BlockData:
-	INCBIN "maps/SinjohRuinsHouse.ablk.lz"
-
-SECTION "UnionCave1F_BlockData", ROMX
-UnionCave1F_BlockData:
-GiovannisCave_BlockData:
-	INCBIN "maps/UnionCave1F.ablk.lz"
-
-SECTION "UnionCaveB1FNorth_BlockData", ROMX
-UnionCaveB1FNorth_BlockData:
-	INCBIN "maps/UnionCaveB1FNorth.ablk.lz"
-
-SECTION "UnionCaveB1FSouth_BlockData", ROMX
-UnionCaveB1FSouth_BlockData:
-	INCBIN "maps/UnionCaveB1FSouth.ablk.lz"
-
-SECTION "UnionCaveB2F_BlockData", ROMX
-UnionCaveB2F_BlockData:
-	INCBIN "maps/UnionCaveB2F.ablk.lz"
-
-SECTION "SlowpokeWellEntrance_BlockData", ROMX
-SlowpokeWellEntrance_BlockData:
-	INCBIN "maps/SlowpokeWellEntrance.ablk.lz"
-
-SECTION "SlowpokeWellB1F_BlockData", ROMX
-SlowpokeWellB1F_BlockData:
-	INCBIN "maps/SlowpokeWellB1F.ablk.lz"
-
-SECTION "SlowpokeWellB2F_BlockData", ROMX
-SlowpokeWellB2F_BlockData:
-	INCBIN "maps/SlowpokeWellB2F.ablk.lz"
-
-SECTION "IlexForest_BlockData", ROMX
-IlexForest_BlockData:
-	INCBIN "maps/IlexForest.ablk.lz"
-
-SECTION "MurkySwamp_BlockData", ROMX
-MurkySwamp_BlockData:
-	INCBIN "maps/MurkySwamp.ablk.lz"
-
-SECTION "StormyBeach_BlockData", ROMX
-StormyBeach_BlockData:
-	INCBIN "maps/StormyBeach.ablk.lz"
-
-SECTION "Route34Coast_BlockData", ROMX
-Route34Coast_BlockData:
-	INCBIN "maps/Route34Coast.ablk.lz"
-
-SECTION "GoldenrodPokecomCenter1F_BlockData", ROMX
-GoldenrodPokecomCenter1F_BlockData:
-	INCBIN "maps/GoldenrodPokecomCenter1F.ablk.lz"
-
-SECTION "GoldenrodPokecomCenterOffice_BlockData", ROMX
-GoldenrodPokecomCenterOffice_BlockData:
-	INCBIN "maps/GoldenrodPokecomCenterOffice.ablk.lz"
-
-SECTION "GoldenrodGym_BlockData", ROMX
-GoldenrodGym_BlockData:
-	INCBIN "maps/GoldenrodGym.ablk.lz"
-
 SECTION "OredaleTradeHouse_BlockData", ROMX
 OredaleTradeHouse_BlockData:
 	INCBIN "maps/OredaleHouse.ablk.lz"
@@ -546,6 +477,24 @@ GoldenrodGameCorner_BlockData:
 GoldenrodFlowerShop_BlockData:
 GoldenrodBikeShop_BlockData:
 GoldenrodCity_BlockData:
+GoldenrodGym_BlockData:
+GoldenrodPokecomCenterOffice_BlockData:
+GoldenrodPokecomCenter1F_BlockData:
+Route34Coast_BlockData:
+StormyBeach_BlockData:
+MurkySwamp_BlockData:
+IlexForest_BlockData:
+SlowpokeWellB2F_BlockData:
+SlowpokeWellB1F_BlockData:
+SlowpokeWellEntrance_BlockData:
+UnionCaveB2F_BlockData:
+UnionCaveB1FSouth_BlockData:
+UnionCaveB1FNorth_BlockData:
+UnionCave1F_BlockData:
+GiovannisCave_BlockData:
+SinjohRuinsHouse_BlockData:
+MystriStage_BlockData:
+SinjohRuins_BlockData:
 	INCBIN "maps/TinTower3F.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX

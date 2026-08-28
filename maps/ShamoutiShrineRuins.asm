@@ -24,7 +24,7 @@ ShamoutiShrineRuins_MapScriptHeader:
 ShamoutiShrineRuinsLawrenceScript:
 	special Special_FadeOutMusic
 	pause 15
-	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
+	playmusic MUSIC_OREDALE_CITY
 	showtextfaceplayer .SeenText
 	winlosstext .BeatenText, 0
 	setlasttalked SHAMOUTISHRINERUINS_LAWRENCE
@@ -33,7 +33,7 @@ ShamoutiShrineRuinsLawrenceScript:
 	dontrestartmapmusic
 	reloadmapafterbattle
 	special DeleteSavedMusic
-	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
+	playmusic MUSIC_OREDALE_CITY
 	opentext
 	writetext .AfterText
 	promptbutton

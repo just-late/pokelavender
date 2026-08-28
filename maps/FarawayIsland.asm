@@ -81,7 +81,7 @@ FarawayIslandSailorScript:
 FarawayIslandLawrenceScript:
 	special Special_FadeOutMusic
 	pause 15
-	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
+	playmusic MUSIC_OREDALE_CITY
 	faceplayer
 	opentext
 	writetext FarawayIslandLawrenceText1
@@ -98,7 +98,7 @@ FarawayIslandLawrenceScript:
 	reloadmapafterbattle
 	faceplayer
 	special DeleteSavedMusic
-	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
+	playmusic MUSIC_OREDALE_CITY
 	showtext FarawayIslandLawrenceText2
 	pause 15
 	playsound SFX_WARP_TO

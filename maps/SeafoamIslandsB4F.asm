@@ -77,7 +77,7 @@ SeafoamIslandsB4FLawrenceEncounterScript:
 	applymovement SEAFOAMISLANDSB4F_LAWRENCE, SeafoamIslandsB4FMovementData_LawrenceApproach
 	applymovement SEAFOAMISLANDSB4F_LAWRENCE, SeafoamIslandsB4FMovementData_LawrenceContinueLeft
 .continue
-	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
+	playmusic MUSIC_OREDALE_CITY
 	showtext SeafoamIslandsB4FLawrenceSpeechText
 	turnobject SEAFOAMISLANDSB4F_LAWRENCE, UP
 	opentext
