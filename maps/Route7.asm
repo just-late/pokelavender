@@ -4,19 +4,19 @@ Route7_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 15,  6, ROUTE_7_SAFFRON_GATE, 1
-	warp_event 15,  7, ROUTE_7_SAFFRON_GATE, 2
+	warp_event 15, 10, ROUTE_7_SAFFRON_GATE, 1
+	warp_event 15, 11, ROUTE_7_SAFFRON_GATE, 2
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  5, 13, BGEVENT_JUMPTEXT, Route7UndergroundPathSignText
-	bg_event  6, 11, BGEVENT_JUMPTEXT, Route7LockedDoorText
+	bg_event  5, 17, BGEVENT_JUMPTEXT, Route7UndergroundPathSignText
+	bg_event  6, 15, BGEVENT_JUMPTEXT, Route7LockedDoorText
 
 	def_object_events
-	object_event  1,  0, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route7Snorlax, EVENT_ROUTE_8_SNORLAX
-	object_event 15, 11, SPRITE_BREEDER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerBreederCarlene, -1
-	itemball_event 16,  1, MENTAL_HERB, 1, EVENT_ROUTE_7_MENTAL_HERB
+	object_event  1,  4, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route7Snorlax, EVENT_ROUTE_8_SNORLAX
+	object_event 15, 15, SPRITE_BREEDER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerBreederCarlene, -1
+	itemball_event 16,  5, MENTAL_HERB, 1, EVENT_ROUTE_7_MENTAL_HERB
 
 	object_const_def
 	const ROUTE7_BIG_SNORLAX
