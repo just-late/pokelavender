@@ -17,9 +17,6 @@ Tilesets::
 	tileset TilesetSnowy
 	tileset TilesetBlossom1
 	tileset TilesetBlossom2
-	tileset TilesetShamouti
-	tileset TilesetValencia
-	tileset TilesetFaraway
 	tileset TilesetHouse1
 	tileset TilesetHouse2
 	tileset TilesetHouse3
@@ -114,16 +111,6 @@ TilesetSnowyMeta:: INCBIN "data/tilesets/snowy_metatiles.bin.lz"
 TilesetSnowyAttr:: INCBIN "data/tilesets/snowy_attributes.bin.lz"
 TilesetSnowyColl:: INCBIN "data/tilesets/snowy_collision.bin.lz"
 
-
-SECTION "Tileset Data - shamouti_island", ROMX
-
-TilesetShamoutiGFX0:: INCBIN "gfx/tilesets/shamouti_island.2bpp.vram0.lz"
-TilesetShamoutiGFX1:: INCBIN "gfx/tilesets/shamouti_island.2bpp.vram1.lz"
-
-TilesetShamoutiMeta:: INCBIN "data/tilesets/shamouti_island_metatiles.bin.lz"
-TilesetShamoutiAttr:: INCBIN "data/tilesets/shamouti_island_attributes.bin.lz"
-TilesetShamoutiColl:: INCBIN "data/tilesets/shamouti_island_collision.bin.lz"
-
 	
 SECTION "Tileset Data - mountain", ROMX
 
@@ -134,26 +121,6 @@ TilesetMountainGFX1:: INCBIN "gfx/tilesets/mountain.2bpp.vram1.lz"
 TilesetMountainMeta:: INCBIN "data/tilesets/mountain_metatiles.bin.lz" 
 TilesetMountainAttr:: INCBIN "data/tilesets/mountain_attributes.bin.lz"
 TilesetMountainColl:: INCBIN "data/tilesets/mountain_collision.bin.lz"
-
-
-SECTION "Tileset Data - valencia_island", ROMX
-
-TilesetValenciaGFX0:: INCBIN "gfx/tilesets/valencia_island.2bpp.vram0.lz"
-TilesetValenciaGFX1:: INCBIN "gfx/tilesets/valencia_island.2bpp.vram1.lz"
-
-TilesetValenciaMeta:: INCBIN "data/tilesets/valencia_island_metatiles.bin.lz"
-TilesetValenciaAttr:: INCBIN "data/tilesets/valencia_island_attributes.bin.lz"
-TilesetValenciaColl:: INCBIN "data/tilesets/valencia_island_collision.bin.lz"
-
-
-SECTION "Tileset Data - faraway_island", ROMX
-
-TilesetFarawayGFX0:: INCBIN "gfx/tilesets/faraway_island.2bpp.vram0.lz"
-TilesetFarawayGFX1:: INCBIN "gfx/tilesets/faraway_island.2bpp.vram1.lz"
-
-TilesetFarawayMeta:: INCBIN "data/tilesets/faraway_island_metatiles.bin.lz"
-TilesetFarawayAttr:: INCBIN "data/tilesets/faraway_island_attributes.bin.lz"
-TilesetFarawayColl:: INCBIN "data/tilesets/faraway_island_collision.bin.lz"
 
 
 SECTION "Tileset Data - johto_house", ROMX
@@ -499,9 +466,6 @@ TilesetMountainGFX2::
 TilesetJohto4GFX2::
 TilesetBlossom1GFX2::
 TilesetBlossom2GFX2::
-TilesetShamoutiGFX2::
-TilesetValenciaGFX2::
-TilesetFarawayGFX2::
 TilesetHouse1GFX2::
 TilesetHouse2GFX2::
 TilesetHouse3GFX2::

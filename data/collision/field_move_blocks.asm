@@ -7,9 +7,9 @@ CutGrassBlockPointers:
 	dbw TILESET_INDIGO_PLATEAU, .indigo_plateau
 	dbw TILESET_PARK, .park
 	dbw TILESET_FOREST, .forest
-	dbw TILESET_SHAMOUTI_ISLAND, .shamouti_island
-	dbw TILESET_VALENCIA_ISLAND, .valencia_island
-	dbw TILESET_FARAWAY_ISLAND, .faraway_island
+;	dbw TILESET_SHAMOUTI_ISLAND, .shamouti_island
+;	dbw TILESET_VALENCIA_ISLAND, .valencia_island
+;	dbw TILESET_FARAWAY_ISLAND, .faraway_island
 	db -1
 
 ; Which meta tile are we facing, and which should we replace it with?

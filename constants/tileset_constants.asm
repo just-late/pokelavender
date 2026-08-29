@@ -9,9 +9,6 @@
 DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_BLOSSOM                ; 06
 	const TILESET_INDIGO_PLATEAU       ; 07
-	const TILESET_SHAMOUTI_ISLAND      ; 08
-	const TILESET_VALENCIA_ISLAND      ; 09
-	const TILESET_FARAWAY_ISLAND       ; 0a
 	const TILESET_JOHTO_HOUSE          ; 0b
 	const TILESET_BLOSSOM_HOUSE          ; 0c
 	const TILESET_TRADITIONAL_HOUSE    ; 0d
