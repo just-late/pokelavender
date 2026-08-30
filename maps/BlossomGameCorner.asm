@@ -13,23 +13,29 @@ BlossomGameCorner_MapScriptHeader:
 	bg_event  9,  6, BGEVENT_READ, BlossomGameCornerCardFlipScript
 ;	bg_event  8,  1, BGEVENT_READ, BlossomGameCornerPianoLoScript
 ;	bg_event  9,  1, BGEVENT_READ, BlossomGameCornerPianoHiScript
+	bg_event  9,  1, BGEVENT_LEFT, BlossomGameCornerBehindPianoScript
 	bg_event 13,  6, BGEVENT_READ, BlossomGameCornerSlotsScript
 	bg_event 13,  5, BGEVENT_READ, BlossomGameCornerLuckySlotsScript
 	bg_event 13,  4, BGEVENT_READ, BlossomGameCornerSlotsScript
 	bg_event  5,  3, BGEVENT_READ, BlossomGameCornerCoolerScript
 	
 
-    db 7 ; object events
+    db 9 ; object events
 	person_event SPRITE_SAILOR,  4,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GameCornerBartenderScript, -1
 	person_event SPRITE_BURGLAR,  1,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_ROCKER,  6,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_FAT_GUY,  5, 12, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << DAY) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_ROCKER,  6,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC1Text, -1
+	person_event SPRITE_FAT_GUY,  5, 12, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << DAY) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC2Text, -1
 	person_event SPRITE_POKEFAN_F,  1, 13, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
 	person_event SPRITE_BIRD_KEEPER,  6, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_BEAUTY,  5,  3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_DITTO_TILES_2,  6,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, BlossomGameCornerCardFlipScript, -1
+	person_event SPRITE_DITTO_TILES_2,  1, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
 
 	object_const_def
 	const GAMECORNER_BARTENDER
+
+BlossomGameCornerBehindPianoScript:
+	jumptext GameCornerPianoGraffitiText
 
 GameCornerBartenderScript:
 	checkkeyitem COIN_CASE
@@ -100,6 +106,32 @@ BartenderCoolerText2:
 	para "but I'm not about"
 	line "to let some kid"
 	cont "drink that stuff!"
+	done
+
+BlossomGameCornerNPC1Text:
+	text "Want to play CARD"
+	line "FLIP with us?"
+
+	para "We're just one"
+	line "person short."
+	done
+
+BlossomGameCornerNPC2Text:
+	text "Come on, kid!"
+
+	para "We need one more"
+	line "person for this"
+	
+	para "game so I can keep"
+	line "my winning streak"
+	cont "going!"
+	done
+
+GameCornerPianoGraffitiText:
+	text "There's graffiti"
+	line "on the piano…"
+
+	para "“PRET was here!”"
 	done
 
 GameCornerWalksToCounter_Movement:
