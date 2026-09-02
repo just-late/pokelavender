@@ -462,9 +462,10 @@ TilesetSnowyGFX2:: INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
 
 TilesetMartGFX2:: INCBIN "gfx/tilesets/mart.2bpp.vram2.lz"
 
+TilesetBlossom1GFX2:: INCBIN "gfx/tilesets/blossom.mainland.2bpp.vram2.lz"
+
 TilesetMountainGFX2::
 TilesetJohto4GFX2::
-TilesetBlossom1GFX2::
 TilesetBlossom2GFX2::
 TilesetHouse1GFX2::
 TilesetHouse2GFX2::

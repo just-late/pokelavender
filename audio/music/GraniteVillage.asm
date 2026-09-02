@@ -14,11 +14,12 @@ Music_GraniteVillage_Ch1:
 	duty_cycle 1
 	transpose 1, 0
 	tempo 227
-	volume_envelope 8, 8
+	volume_envelope 5, 8
 	note B_, 2
 	octave 3
 	note G_, 2
-	note G_, 4
+	note E_, 2
+	note D_, 2
 	note F#, 2
 	note E_, 2
 	note D_, 2
@@ -69,29 +70,29 @@ Music_GraniteVillage_Ch2:
 	note_type 12, 15, 8
 .mainLoop:
 	octave 3
-	volume_envelope 8, 5
 	duty_cycle 1
 	transpose 0, 0
+	volume_envelope 5, 7
+	vibrato 2, 2, 4
 	note D_, 4
 	note B_, 4
 	note A_, 2
 	note G_, 2
 	note F#, 2
 	note G_, 2
-	note F#, 1
-	note E_, 1
 	note F#, 2
-	note D_, 2
-	note E_, 2
+	note D_, 4
+	note F#, 2
 	note A_, 1
 	rest 1
 	note B_, 6
 	note B_, 2
+	note A_, 4
+	note F#, 2
 	note A_, 2
 	note F#, 2
+	note G_, 2
 	note B_, 2
-	note A_, 4
-	note F#, 4
 	note G_, 4
 	note G_, 4
 	note A_, 1
