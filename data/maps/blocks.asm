@@ -497,6 +497,9 @@ MystriStage_BlockData:
 SinjohRuins_BlockData:
 	INCBIN "maps/TinTower3F.ablk.lz"
 
+WarehouseTown_BlockData:
+	INCBIN "maps/WarehouseTown.ablk.lz"
+
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
 	INCBIN "maps/BattleTower1F.ablk.lz"

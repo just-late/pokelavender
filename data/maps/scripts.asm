@@ -1058,4 +1058,8 @@ INCLUDE "maps/OredaleCity.asm"
 INCLUDE "maps/OredaleTradeHouse.asm"
 INCLUDE "maps/OredalePokeCenter1F.asm"
 
+SECTION "Warehouse Town Scripts", ROMX
+
+INCLUDE "maps/WarehouseTown.asm"
+
 ENDSECTION

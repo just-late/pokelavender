@@ -17,7 +17,8 @@ and many more. Please make yourselves known.
 * SupahShanti
 * leParagon
 * Farore
-* Megaman
+* Megaman-Omega
+* PokeWilds
 
 ## Cries:
 * SourApple
@@ -40,6 +41,7 @@ and many more. Please make yourselves known.
 * SourApple
 
 ## Code:
+* Narishma-GB
 * dwg
 
 ## Special Thanks:

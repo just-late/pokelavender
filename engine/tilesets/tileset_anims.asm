@@ -76,19 +76,13 @@ TilesetBlossom2Anim::
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw vTiles2 tile $35, AnimateWaterfallTile
 	dw vTiles2 tile $40, WriteTileToBuffer
-	dw wTileAnimBuffer, ScrollTileDown
-	dw wTileAnimBuffer, ScrollTileDown
-	dw wTileAnimBuffer, ScrollTileDown
-	dw vTiles2 tile $40, ReadTileFromBuffer
-	dw vTiles2 tile $10, ScrollTileUp
-	dw vTiles2 tile $11, ScrollTileDown
-	dw vTiles2 tile $12, ScrollTileLeft
-	dw vTiles2 tile $13, ScrollTileRight
 	dw NULL,  AnimateFlowerTile
-	dw vTiles2 tile $10, ScrollTileUp
-	dw vTiles2 tile $11, ScrollTileDown
-	dw vTiles2 tile $12, ScrollTileLeft
-	dw vTiles2 tile $13, ScrollTileRight
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 

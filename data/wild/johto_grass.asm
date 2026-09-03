@@ -2188,4 +2188,32 @@
 	wildmon LEVEL_FROM_BADGES + 3, SNEASEL, HISUIAN_FORM
 	end_grass_wildmons
 
+	def_grass_wildmons WAREHOUSE_TOWN
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	; day
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	; nite
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	wildmon 1, MAGIKARP
+	end_grass_wildmons
+
 	db -1 ; end

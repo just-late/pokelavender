@@ -646,3 +646,6 @@ SwinubOWSpriteGFX:: INCBIN "gfx/sprites/swinub.2bpp.lz"
 
 SECTION "TwinSnowySpriteGFX", ROMX
 TwinSnowySpriteGFX:: INCBIN "gfx/sprites/twin_snowy.2bpp.lz"
+
+SECTION "MachampSlumberGFX", ROMX
+MachampSlumberGFX:: INCBIN "gfx/sprites/machamp_slumber.2bpp.lz"

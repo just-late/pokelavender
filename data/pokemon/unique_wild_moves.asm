@@ -73,4 +73,5 @@ UniqueWildMoves:
 	unique_moves LIGHTNING_ISLAND, ELECTRODE,  SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ROUTE_23,         GYARADOS,   POWER_WHIP   ; Sw/Sh TR move
 	unique_moves ROUTE_49,         PARASECT,   CONFUSE_RAY  ; Prism tutor move
+;	unique_moves WAREHOUSE_TOWN,   MAGIKARP,   DRAGON_RAGE  ; event move
 	db -1

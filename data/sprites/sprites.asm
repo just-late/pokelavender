@@ -224,4 +224,5 @@ SpriteHeaders:
 	overworld_sprite RancidGuitarSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite SwinubOWSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite TwinSnowySpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite MachampSlumberGFX, STANDING_SPRITE, PAL_OW_GRAY
 	assert_table_length NUM_OVERWORLD_SPRITES

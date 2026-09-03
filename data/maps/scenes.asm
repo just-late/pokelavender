@@ -102,4 +102,5 @@ MapScenes::
 	scene_var MARIGOLD_GYM,							  wMarigoldGymSceneID
 	scene_var MARIGOLD_CAVE_1F,						  wMarigoldCave1FSceneID
 	scene_var CANYON_DEPTHS,					      wCanyonDepthsSceneID
+	scene_var WAREHOUSE_TOWN,						  wAlways0SceneID
 	db -1

@@ -355,6 +355,8 @@ ENDM
 
 	map_attributes OredaleCity, OREDALE_CITY, $05, 0
 
+	map_attributes WarehouseTown, WAREHOUSE_TOWN, $43, 0
+
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
 	map_attributes SproutTower3F, SPROUT_TOWER_3F, $0, 0

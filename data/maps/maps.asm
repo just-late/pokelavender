@@ -53,6 +53,7 @@ MapGroupPointers::
 	dw MapGroup36
 	dw MapGroup37
 	dw MapGroup38
+	dw MapGroup39
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup1:
@@ -717,3 +718,4 @@ MapGroup38:
 	map BoatCutscene, TILESET_GEMROOT, ROUTE, SIGN_WOOD, MARIGOLD_PORT, MUSIC_NONE, 0, PALETTE_AUTO
 
 MapGroup39:
+	map WarehouseTown, TILESET_BLOSSOM, TOWN, SIGN_WOOD, ROUTE_1, MUSIC_CANALAVE_CITY_DPPT, 0, PALETTE_AUTO

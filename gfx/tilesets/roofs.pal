@@ -37,6 +37,7 @@ if !DEF(MONOCHROME)
 	RGB  21,21,21, 13,13,13,  11,11,19, 07,07,12,  18,16,16, 11,10,10  ; Rugged Road
 	RGB  24,18,07, 20,15,03,  12,09,15, 08,04,05,  25,20,00, 25,11,00  ; Ecruteak Shrine Outside
 	RGB  28,18,05, 20,10,00,  13,10,14, 09,06,09,  24,13,02, 13,06,03  ; Marigold Port
+	RGB  18,14,14, 16,10,10,  11,07,12, 08,05,08,  18,12,12, 14,08,08  ; Warehouse Town
 else
 rept NUM_MAP_GROUPS + 1
 	MONOCHROME_RGB_TWO
