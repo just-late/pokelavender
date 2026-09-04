@@ -71,8 +71,7 @@ TilesetMountainAnim::
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-TilesetBlossom1Anim::
-TilesetBlossom2Anim::
+TilesetHighwayAnim::
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw vTiles2 tile $35, AnimateWaterfallTile
 	dw vTiles2 tile $40, WriteTileToBuffer

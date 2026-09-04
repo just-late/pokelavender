@@ -15,8 +15,7 @@ Tilesets::
 	tileset TilesetJohto4
 	tileset TilesetMountain
 	tileset TilesetSnowy
-	tileset TilesetBlossom1
-	tileset TilesetBlossom2
+	tileset TilesetHighway
 	tileset TilesetHouse1
 	tileset TilesetHouse2
 	tileset TilesetHouse3
@@ -87,19 +86,12 @@ TilesetJohto4Coll:: INCBIN "data/tilesets/battle_tower_outside_collision.bin.lz"
 
 SECTION "Tileset Data - kanto (2)", ROMX
 
-TilesetBlossom1GFX0::
-TilesetBlossom2GFX0:: INCBIN "gfx/tilesets/mainland.2bpp.lz"
-TilesetBlossom1GFX1:: INCBIN "gfx/tilesets/blossom.mainland.2bpp.lz"
+TilesetHighwayGFX0:: INCBIN "gfx/tilesets/highway.2bpp.vram0.lz"
+TilesetHighwayGFX1:: INCBIN "gfx/tilesets/highway.2bpp.vram1.lz"
 
-TilesetBlossom2GFX1:: INCBIN "gfx/tilesets/indigo_plateau.mainland.2bpp.lz"
-
-TilesetBlossom1Meta:: INCBIN "data/tilesets/blossom_metatiles.bin.lz"
-TilesetBlossom1Attr:: INCBIN "data/tilesets/blossom_attributes.bin.lz"
-TilesetBlossom1Coll:: INCBIN "data/tilesets/blossom_collision.bin.lz"
-
-TilesetBlossom2Meta:: INCBIN "data/tilesets/indigo_plateau_metatiles.bin.lz"
-TilesetBlossom2Attr:: INCBIN "data/tilesets/indigo_plateau_attributes.bin.lz"
-TilesetBlossom2Coll:: INCBIN "data/tilesets/indigo_plateau_collision.bin.lz"
+TilesetHighwayMeta:: INCBIN "data/tilesets/highway_metatiles.bin.lz"
+TilesetHighwayAttr:: INCBIN "data/tilesets/highway_attributes.bin.lz"
+TilesetHighwayColl:: INCBIN "data/tilesets/highway_collision.bin.lz"
 
 
 SECTION "Tileset Data - snowy", ROMX
@@ -462,11 +454,10 @@ TilesetSnowyGFX2:: INCBIN "gfx/tilesets/snowy.2bpp.vram1.lz"
 
 TilesetMartGFX2:: INCBIN "gfx/tilesets/mart.2bpp.vram2.lz"
 
-TilesetBlossom1GFX2:: INCBIN "gfx/tilesets/blossom.mainland.2bpp.vram2.lz"
+TilesetHighwayGFX2:: INCBIN "gfx/tilesets/highway.2bpp.vram2.lz"
 
 TilesetMountainGFX2::
 TilesetJohto4GFX2::
-TilesetBlossom2GFX2::
 TilesetHouse1GFX2::
 TilesetHouse2GFX2::
 TilesetHouse3GFX2::

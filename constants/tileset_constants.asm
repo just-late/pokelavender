@@ -7,8 +7,7 @@
 	const TILESET_MOUNTAIN      ; 05
 	const TILESET_SNOWY
 DEF NO_ROOF_TILESETS EQU const_value
-	const TILESET_BLOSSOM                ; 06
-	const TILESET_INDIGO_PLATEAU       ; 07
+	const TILESET_HIGHWAY                ; 06
 	const TILESET_JOHTO_HOUSE          ; 0b
 	const TILESET_BLOSSOM_HOUSE          ; 0c
 	const TILESET_TRADITIONAL_HOUSE    ; 0d
