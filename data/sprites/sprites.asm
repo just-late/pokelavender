@@ -225,4 +225,5 @@ SpriteHeaders:
 	overworld_sprite SwinubOWSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite TwinSnowySpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite MachampSlumberGFX, STANDING_SPRITE, PAL_OW_GRAY
+	overworld_sprite MakuhitaOWSpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
 	assert_table_length NUM_OVERWORLD_SPRITES

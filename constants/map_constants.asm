@@ -688,6 +688,6 @@ ENDM
 	map_const BOAT_CUTSCENE,							   9,  5 ; 15
 
 	newgroup
-	map_const WAREHOUSE_TOWN,							  17, 18 ;  1
+	map_const WAREHOUSE_TOWN,							  17, 23 ;  1
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

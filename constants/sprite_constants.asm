@@ -220,6 +220,7 @@
 	const SPRITE_SWINUB_OW ; d8
 	const SPRITE_TWIN_SNOWY
 	const SPRITE_MACHAMP_SLUMBER
+	const SPRITE_MAKUHITA_OW
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

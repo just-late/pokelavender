@@ -38,7 +38,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 25
 	tilecoll WALL, WALL, WALL, WALL ; 26
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 27
-	tilecoll WALL, FLOOR, FLOOR, WALL ; 28
+	tilecoll WALL, WALL, WALL, WALL ; 28
 	tilecoll WALL, FLOOR, FLOOR, WALL ; 29
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 2a
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 2b
@@ -81,7 +81,7 @@
 	tilecoll WATER, WATER, WATER, WATER ; 50
 	tilecoll WALL, WALL, WALL, WALL ; 51
 	tilecoll WALL, WALL, WALL, WALL ; 52
-	tilecoll WALL, FLOOR, WALL, FLOOR ; 53
+	tilecoll WALL, WALL, WALL, WALL ; 53
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 54
 	tilecoll WALL, WALL, WALL, WALL ; 55
 	tilecoll WALL, WALL, WALL, WALL ; 56
@@ -92,7 +92,7 @@
 	tilecoll LEDGE_DOWN_RIGHT, WALL, WALL, WALL ; 5b
 	tilecoll WALL, WALL, WALL, WALL ; 5c
 	tilecoll WALL, WALL, WALL, WALL ; 5d
-	tilecoll WALL, FLOOR, POKECENTER_SIGN, FLOOR ; 5e
+	tilecoll WALL, WALL, POKECENTER_SIGN, WALL ; 5e
 	tilecoll WALL, WALL, MART_SIGN, WALL ; 5f
 	tilecoll WALL, WALL, WALL, WALL ; 60
 	tilecoll FLOOR, WARP_CARPET_RIGHT, FLOOR, WARP_CARPET_RIGHT ; 61
@@ -166,3 +166,6 @@
 	tilecoll WALL, WALL, WALL, WALL ; a5
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; a6
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a7
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a8
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a9
+	tilecoll FLOOR, WALL, WALL, WALL ; aa
