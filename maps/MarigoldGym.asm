@@ -5,8 +5,8 @@ MarigoldGym_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 12, 19, MARIGOLD_PORT, 6
-	warp_event 13, 19, MARIGOLD_PORT, 6
+	warp_event  4, 19, MARIGOLD_PORT, 6
+	warp_event  5, 19, MARIGOLD_PORT, 6
 	warp_event  3,  3, MARIGOLD_GYM_VENT, 1
 	warp_event 13,  5, MARIGOLD_PORT, 1 ; falling from vent
 	warp_event  7, 11, MARIGOLD_PORT, 1 ; falling from vent
@@ -20,9 +20,9 @@ MarigoldGym_MapScriptHeader:
 
     db 4 ; object events
 	person_event SPRITE_WALKER,  2, 13, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldGymWalkerScript, EVENT_BEAT_WALKER
-	person_event SPRITE_BLACK_BELT, 16,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBlackbeltLao, -1
-	person_event SPRITE_BLACK_BELT, 16, 27, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerBlackbeltAnder, -1
-	person_event SPRITE_GYM_GUY, 16, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldGymGuyScript, -1
+	person_event SPRITE_BLACK_BELT, 15,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBlackbeltLao, -1
+	person_event SPRITE_BLACK_BELT, 13, 13, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerBlackbeltAnder, -1
+	person_event SPRITE_GYM_GUY, 16,  3, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldGymGuyScript, -1
 
     object_const_def
     const MARIGOLD_GYM_WALKER
