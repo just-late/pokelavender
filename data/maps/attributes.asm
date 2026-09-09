@@ -248,17 +248,14 @@ ENDM
 	connection south, Route12North, ROUTE_12_NORTH, 0
 	connection west, Route8, ROUTE_8, 0
 
-	map_attributes VermilionCity, VERMILION_CITY, $43, NORTH | EAST
-	connection north, Route6, ROUTE_6, 3
+	map_attributes VermilionCity, VERMILION_CITY, $43, EAST
 	connection east, Route11, ROUTE_11, 5
 
-	map_attributes Route6, ROUTE_6, $f, NORTH | SOUTH
-	connection north, SaffronCity, SAFFRON_CITY, -3
-	connection south, VermilionCity, VERMILION_CITY, -3
+	map_attributes Route6, ROUTE_6, $f, WEST ; | EAST
+	connection west, WarehouseTown, WAREHOUSE_TOWN, -1
 
-	map_attributes SaffronCity, SAFFRON_CITY, $f, NORTH | SOUTH | WEST | EAST
+	map_attributes SaffronCity, SAFFRON_CITY, $f, NORTH | WEST | EAST
 	connection north, Route5, ROUTE_5, 5
-	connection south, Route6, ROUTE_6, 3
 	connection west, Route7, ROUTE_7, 6
 	connection east, Route8, ROUTE_8, 4
 
@@ -355,7 +352,8 @@ ENDM
 
 	map_attributes OredaleCity, OREDALE_CITY, $05, 0
 
-	map_attributes WarehouseTown, WAREHOUSE_TOWN, $43, 0
+	map_attributes WarehouseTown, WAREHOUSE_TOWN, $43, EAST
+	connection east, Route6, ROUTE_6, 1
 
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0

@@ -180,7 +180,7 @@ ENDM
 
 	newgroup                                                     ;  8
 	map_const BLOSSOM_CITY,								  27, 27 ;  1
-	map_const BLOSSOM_GAME_CORNER,						   7,  4 ;  2
+	map_const BLOSSOM_GAME_CORNER,						   7,  7 ;  2
 	map_const JUNGLE_QUARTER,							  19, 16 ;  3
 	map_const MOUNTAIN_QUARTER, 						  15, 22 ;  4
 	map_const ACADEMY_POKECENTER, 						  11,  7 ;  5
@@ -258,7 +258,6 @@ ENDM
 	map_const MAGNET_TUNNEL_INSIDE,                       23, 18 ; 35
 
 	newgroup                                                     ; 12
-	map_const ROUTE_6,                                    15, 16 ;  1
 	map_const ROUTE_11,                                   26,  9 ;  2
 	map_const VERMILION_CITY,                             20, 20 ;  3
 	map_const VERMILION_HOUSE_FISHING_SPEECH_HOUSE,        4,  4 ;  4
@@ -688,6 +687,7 @@ ENDM
 	map_const BOAT_CUTSCENE,							   9,  5 ; 15
 
 	newgroup
-	map_const WAREHOUSE_TOWN,							  17, 23 ;  1
+	map_const WAREHOUSE_TOWN,							  15, 23 ;  1
+	map_const ROUTE_6,									  35, 16 ;  2
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

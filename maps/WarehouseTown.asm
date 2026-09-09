@@ -4,8 +4,8 @@ WarehouseTown_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 27,  6, PLAYERS_HOUSE_2F, 1
-	warp_event 27,  7, PLAYERS_HOUSE_2F, 1
+	warp_event 27,  6, ROUTE_6, 1
+	warp_event 27,  7, ROUTE_6, 2
 	warp_event  9,  7, PLAYERS_HOUSE_2F, 1
 
     def_coord_events
