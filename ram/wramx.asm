@@ -1044,7 +1044,7 @@ wFarfetchdPosition:: db
 
 ; map triggers
 wAlways0SceneID:: db
-wRoute2GlittervineGateSceneID:: db
+wRoute2MosshillGateSceneID:: db
 wBattleFacilitySceneID:: db
 wRoute39RuggedRoadGateSceneID:: db
 wRuggedRoadSouthSceneID:: db
@@ -1054,7 +1054,7 @@ wOredaleCitySceneID:: db
 wBrunosRoomSceneID:: db
 wBurnedTower1FSceneID:: db
 wBurnedTowerB1FSceneID:: db
-wGlittervineTownSceneID:: db
+wMosshillTownSceneID:: db
 wCianwoodCitySceneID:: db
 wCinnabarLabSceneID:: db
 wColosseumSceneID:: db

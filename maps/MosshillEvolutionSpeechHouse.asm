@@ -1,4 +1,4 @@
-GlittervineEvolutionSpeechHouse_MapScriptHeader:
+MosshillEvolutionSpeechHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -12,9 +12,9 @@ GlittervineEvolutionSpeechHouse_MapScriptHeader:
 	def_bg_events
 
 	db 1 ; object_events
-	person_event SPRITE_CUTE_GIRL,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptext, GlittervineEvolutionSpeechHouseNPC1Text, -1
+	person_event SPRITE_CUTE_GIRL,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptext, MosshillEvolutionSpeechHouseNPC1Text, -1
 
-GlittervineEvolutionSpeechHouseNPC1Text:
+MosshillEvolutionSpeechHouseNPC1Text:
 	text "Did you know that"
 	line "when #MON gain"
 	

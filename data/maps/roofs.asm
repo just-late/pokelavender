@@ -26,7 +26,7 @@ MapGroupRoofs:
 	db -1            ; 23
 	db ROOF_AZALEA   ; 24 (Gemroot Town)
 	db -1            ; 25
-	db ROOF_AZALEA   ; 26 (Glittervine Town)
+	db ROOF_AZALEA   ; 26 (Mosshill Town)
 	db -1            ; 27
 	db -1            ; 28
 	db ROOF_OLIVINE  ; 29 (Goldenrod Harbor)

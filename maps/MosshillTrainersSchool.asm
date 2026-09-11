@@ -1,4 +1,4 @@
-GlittervineTrainersSchool_MapScriptHeader:
+MosshillTrainersSchool_MapScriptHeader:
     def_scene_scripts
 
     def_callbacks
@@ -10,24 +10,24 @@ GlittervineTrainersSchool_MapScriptHeader:
     def_coord_events
 
     def_bg_events
-	bg_event  0,  1, BGEVENT_READ, GlittervineAcademyBookshelf
-	bg_event  1,  1, BGEVENT_READ, GlittervineAcademyBookshelf
-	bg_event  6,  1, BGEVENT_READ, GlittervineAcademyBookshelf
-	bg_event  7,  1, BGEVENT_READ, GlittervineAcademyBookshelf
-	bg_event  3,  0, BGEVENT_READ, GlittervineAcademyBlackboard
-	bg_event  4,  0, BGEVENT_READ, GlittervineAcademyBlackboard
+	bg_event  0,  1, BGEVENT_READ, MosshillAcademyBookshelf
+	bg_event  1,  1, BGEVENT_READ, MosshillAcademyBookshelf
+	bg_event  6,  1, BGEVENT_READ, MosshillAcademyBookshelf
+	bg_event  7,  1, BGEVENT_READ, MosshillAcademyBookshelf
+	bg_event  3,  0, BGEVENT_READ, MosshillAcademyBlackboard
+	bg_event  4,  0, BGEVENT_READ, MosshillAcademyBlackboard
 
     db 6 ; object_events
-	person_event SPRITE_TEACHER,  2,  3, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineAcademyNPC1Text, -1
-	person_event SPRITE_SCHOOLBOY,  5,  2, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineAcademyNPC2Text, -1
-	person_event SPRITE_SCHOOLGIRL,  5,  4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineAcademyNPC3Text, -1
-	person_event SPRITE_TWIN,  7,  4, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, GlittervineAcademyNPC4Text, -1
-	person_event SPRITE_SCHOOLBOY,  7,  3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineAcademyNPC5Text, -1
-	person_event SPRITE_SCHOOLGIRL,  9,  4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineAcademyNPC6Text, -1
+	person_event SPRITE_TEACHER,  2,  3, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillAcademyNPC1Text, -1
+	person_event SPRITE_SCHOOLBOY,  5,  2, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillAcademyNPC2Text, -1
+	person_event SPRITE_SCHOOLGIRL,  5,  4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillAcademyNPC3Text, -1
+	person_event SPRITE_TWIN,  7,  4, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MosshillAcademyNPC4Text, -1
+	person_event SPRITE_SCHOOLBOY,  7,  3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillAcademyNPC5Text, -1
+	person_event SPRITE_SCHOOLGIRL,  9,  4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillAcademyNPC6Text, -1
 
-GlittervineAcademyBlackboard:
+MosshillAcademyBlackboard:
     opentext
-    writetext GlittervineAcademyBlackboardText
+    writetext MosshillAcademyBlackboardText
     .Loop:
     loadmenu .MenuHeader
     _2dmenu
@@ -40,27 +40,27 @@ GlittervineAcademyBlackboard:
     endtext
 
 .Poison:
-    writetext GlittervineAcademyPoisonText
+    writetext MosshillAcademyPoisonText
     waitbutton
     sjump .Loop
 
 .Paralysis:
-    writetext GlittervineAcademyParalysisText
+    writetext MosshillAcademyParalysisText
     waitbutton
     sjump .Loop
 
 .Sleep:
-    writetext GlittervineAcademySleepText
+    writetext MosshillAcademySleepText
     waitbutton
     sjump .Loop
 
 .Burn:
-    writetext GlittervineAcademyBurnText
+    writetext MosshillAcademyBurnText
     waitbutton
     sjump .Loop
 
 .Freeze:
-    writetext GlittervineAcademyFreezeText
+    writetext MosshillAcademyFreezeText
     waitbutton
     sjump .Loop
 
@@ -75,7 +75,7 @@ GlittervineAcademyBlackboard:
     dn 3, 2 ; rows, columns
     db 5 ; spacing
     dba .Text
-    dbw BANK(GlittervineAcademyBlackboard), 0
+    dbw BANK(MosshillAcademyBlackboard), 0
 
 
 .Text:
@@ -86,14 +86,14 @@ GlittervineAcademyBlackboard:
 	db "Frz@"
 	db "Quit@"
 
-GlittervineAcademyBookshelf:
+MosshillAcademyBookshelf:
     jumpthistext
 
     text "It's full of books"
     line "about #MON."
     done
 
-GlittervineAcademyNPC1Text:
+MosshillAcademyNPC1Text:
     text "Hi, <PLAYER>!"
     
     para "Headed to BLOSSOM"
@@ -106,7 +106,7 @@ GlittervineAcademyNPC1Text:
     cont "all!"
     done
 
-GlittervineAcademyNPC2Text:
+MosshillAcademyNPC2Text:
     text "I'm taking notes"
     line "on the TEACHER's"
     cont "lecture."
@@ -116,7 +116,7 @@ GlittervineAcademyNPC2Text:
     cont "blackboard too…"
     done
 
-GlittervineAcademyNPC3Text:
+MosshillAcademyNPC3Text:
     text "I can't wait to"
     line "pass this class!"
 
@@ -126,7 +126,7 @@ GlittervineAcademyNPC3Text:
     cont "after this."
     done
 
-GlittervineAcademyNPC4Text:
+MosshillAcademyNPC4Text:
     text "…And did you know"
     line "LIZ has a crush on"
     cont "TIMOTHY?"
@@ -140,7 +140,7 @@ GlittervineAcademyNPC4Text:
     cont "gossiping."
     done
 
-GlittervineAcademyNPC5Text:
+MosshillAcademyNPC5Text:
     text "It sure is hard"
     line "to focus with her"
     cont "around."
@@ -149,7 +149,7 @@ GlittervineAcademyNPC5Text:
     line "gossip!"
     done
 
-GlittervineAcademyNPC6Text:
+MosshillAcademyNPC6Text:
     text "I like to sit in"
     line "the back where I"
     cont "can watch"
@@ -159,7 +159,7 @@ GlittervineAcademyNPC6Text:
     line "creepy?"
     done
 
-GlittervineAcademyBlackboardText:
+MosshillAcademyBlackboardText:
     text "The blackboard"
     line "describes #MON"
 
@@ -167,7 +167,7 @@ GlittervineAcademyBlackboardText:
     line "battle."
     done
     
-GlittervineAcademyPoisonText:
+MosshillAcademyPoisonText:
     text "If POISONED, a"
     line "#MON steadily"
     cont "loses HP."
@@ -182,7 +182,7 @@ GlittervineAcademyPoisonText:
     line "ANTIDOTE."
     done
     
-GlittervineAcademyParalysisText:
+MosshillAcademyParalysisText:
     text "PARALYSIS reduces"
     line "speed and may"
     cont "prevent movement."
@@ -192,7 +192,7 @@ GlittervineAcademyParalysisText:
     cont "a PARLYZEHEAL."
     done
     
-GlittervineAcademySleepText:
+MosshillAcademySleepText:
     text "If asleep, your"
     line "#MON can't make"
     cont "a move."
@@ -205,7 +205,7 @@ GlittervineAcademySleepText:
     line "an AWAKENING."
     done
     
-GlittervineAcademyBurnText:
+MosshillAcademyBurnText:
     text "A BURN steadily"
     line "consumes HP."
     
@@ -219,7 +219,7 @@ GlittervineAcademyBurnText:
     line "the cure."
     done
     
-GlittervineAcademyFreezeText:
+MosshillAcademyFreezeText:
     text "If your #MON is"
     line "frozen, it can't"
     cont "do a thing."

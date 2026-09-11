@@ -1,7 +1,7 @@
-Route2GlittervineGate_MapScriptHeader:
+Route2MosshillGate_MapScriptHeader:
     def_scene_scripts
     scene_script SpecialCallMomWorriedScene
-    scene_script Route2GlittervineGate_Noop
+    scene_script Route2MosshillGate_Noop
 
     def_callbacks
 
@@ -16,17 +16,17 @@ Route2GlittervineGate_MapScriptHeader:
     def_bg_events
 
     db 1 ; object_events
-    person_event SPRITE_OFFICER,  2,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, Route2GlittervineGateNPC1Text, -1 
+    person_event SPRITE_OFFICER,  2,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, Route2MosshillGateNPC1Text, -1 
 
 SpecialCallMomWorriedScene:
     specialphonecall SPECIALCALL_WORRIED
 	setscene $1
     end
 
-Route2GlittervineGate_Noop:
+Route2MosshillGate_Noop:
     end
 
-Route2GlittervineGateNPC1Text:
+Route2MosshillGateNPC1Text:
     text "Out there's ROUTE"
     line "2."
 

@@ -1,7 +1,7 @@
 Marts:
 	table_width 2, Marts
-	dw GlittervineMart
-	dw GlittervineMartAfterDex
+	dw MosshillMart
+	dw MosshillMartAfterDex
 	dw MoonflowerMart
 	dw AzaleaMart
 	dw Goldenrod2FMart1
@@ -46,7 +46,7 @@ Marts:
 	dw OredaleMart
 	assert_table_length NUM_MARTS
 
-GlittervineMart:
+MosshillMart:
 	db 4 ; # items
 	db POTION
 	db ANTIDOTE
@@ -54,7 +54,7 @@ GlittervineMart:
 	db AWAKENING
 	db -1
 
-GlittervineMartAfterDex:
+MosshillMartAfterDex:
 	db 6 ; # items
 	db POKE_BALL
 	db HEAL_BALL

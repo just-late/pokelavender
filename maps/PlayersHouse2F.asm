@@ -26,7 +26,7 @@ PlayersHouse2F_MapScriptHeader:
 	bg_event 18,  0, BGEVENT_IFSET, PlayersHousePoster
 	bg_event 10, 12, BGEVENT_READ, DebugPosterScript
 	bg_event  0,  8, BGEVENT_JUMPTEXT, PlayersHouseGemrootText
-	bg_event  2,  8, BGEVENT_JUMPTEXT, PlayersHouseGlittervineText
+	bg_event  2,  8, BGEVENT_JUMPTEXT, PlayersHouseMosshillText
 	bg_event  4,  8, BGEVENT_JUMPTEXT, PlayersHouseMoonflowerText
 	bg_event  6,  8, BGEVENT_JUMPTEXT, PlayersHouseMarigoldText
 	bg_event  8,  8, BGEVENT_JUMPTEXT, PlayersHouseBlossomText
@@ -177,7 +177,7 @@ PlayersHouseGemrootText:
 	text "GEMROOT TOWN"
 	done
 
-PlayersHouseGlittervineText:
+PlayersHouseMosshillText:
 	text "MOSSHILL TOWN"
 	done
 

@@ -1,4 +1,4 @@
-GlittervinePokeCenter1F_MapScriptHeader:
+MosshillPokeCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -15,11 +15,11 @@ GlittervinePokeCenter1F_MapScriptHeader:
 
 	def_object_events ; db didn't work here
 	pc_nurse_event  5, 1
-	person_event SPRITE_TEACHER,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GlittervinePokeCenter1FNPC1Script, -1
-	person_event SPRITE_HIKER,  1,  8, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC2Text, -1
-	person_event SPRITE_GENTLEMAN, 6, 11, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC3Text, -1
-	person_event SPRITE_LADY,  4,  9, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervinePokeCenter1FNPC4Text, -1
-	pokemon_event  6,  1, SNUBBULL, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, GlittervinePokeCenter1FSnubbullText, -1
+	person_event SPRITE_TEACHER,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MosshillPokeCenter1FNPC1Script, -1
+	person_event SPRITE_HIKER,  1,  8, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillPokeCenter1FNPC2Text, -1
+	person_event SPRITE_GENTLEMAN, 6, 11, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillPokeCenter1FNPC3Text, -1
+	person_event SPRITE_LADY,  4,  9, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillPokeCenter1FNPC4Text, -1
+	pokemon_event  6,  1, SNUBBULL, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, MosshillPokeCenter1FSnubbullText, -1
 
 PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
@@ -45,7 +45,7 @@ PokemonJournalRedScript:
 	line "a big thank you!"
 	done
 
-GlittervinePokeCenter1FNPC1Script:
+MosshillPokeCenter1FNPC1Script:
 	checkflag ENGINE_MAP_CARD
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
@@ -71,7 +71,7 @@ GlittervinePokeCenter1FNPC1Script:
 	para "That's nice."
 	done
 
-GlittervinePokeCenter1FNPC2Text:
+MosshillPokeCenter1FNPC2Text:
 	text "These PCs are"
 	line "great."
 
@@ -80,13 +80,13 @@ GlittervinePokeCenter1FNPC2Text:
 	cont "#MON BOX."
 	done
 
-GlittervinePokeCenter1FNPC3Text:
+MosshillPokeCenter1FNPC3Text:
 	text "That PC is free"
 	line "for any trainer"
 	cont "to use."
 	done
 
-GlittervinePokeCenter1FNPC4Text:
+MosshillPokeCenter1FNPC4Text:
 	text "#MON JOURNAL"
 	line "has such fascin-"
 	cont "ating stories!"
@@ -101,6 +101,6 @@ GlittervinePokeCenter1FNPC4Text:
 	line "a subscription."
 	done
 
-GlittervinePokeCenter1FSnubbullText:
+MosshillPokeCenter1FSnubbullText:
 	text "Graooragh!"
 	done

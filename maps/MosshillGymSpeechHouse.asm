@@ -1,4 +1,4 @@
-GlittervineGymSpeechHouse_MapScriptHeader:
+MosshillGymSpeechHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -12,10 +12,10 @@ GlittervineGymSpeechHouse_MapScriptHeader:
 	def_bg_events
 
 	db 2 ; object_events
-	person_event SPRITE_GRAMPS,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineGymSpeechHouseNPC1Text, -1
-	person_event SPRITE_GRANNY,  5,  5, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineGymSpeechHouseNPC2Text, -1
+	person_event SPRITE_GRAMPS,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillGymSpeechHouseNPC1Text, -1
+	person_event SPRITE_GRANNY,  5,  5, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillGymSpeechHouseNPC2Text, -1
 
-GlittervineGymSpeechHouseNPC1Text:
+MosshillGymSpeechHouseNPC1Text:
 	text "The best of"
 	line "trainers test"
 	
@@ -31,7 +31,7 @@ GlittervineGymSpeechHouseNPC1Text:
 	cont "in my day."
 	done
 
-GlittervineGymSpeechHouseNPC2Text:
+MosshillGymSpeechHouseNPC2Text:
 	text "Of course, the"
 	line "time came when he"
 	cont "had to battle me."

@@ -141,7 +141,7 @@ GenericTrainerHikerTony:
 
 CherrygroveBayFisherText:
 	text "I can watch"
-	line "Glittervine Town"
+	line "Mosshill Town"
 
 	para "from afar while"
 	line "I fish."

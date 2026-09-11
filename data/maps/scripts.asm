@@ -1,6 +1,6 @@
 SECTION "Pokemon Center Scripts 1", ROMX
 
-INCLUDE "maps/GlittervinePokeCenter1F.asm"
+INCLUDE "maps/MosshillPokeCenter1F.asm"
 INCLUDE "maps/MoonflowerPokeCenter1F.asm"
 INCLUDE "maps/MarigoldPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
@@ -84,18 +84,18 @@ INCLUDE "maps/PlayersHouse2F.asm"
 INCLUDE "maps/AnabelsHouse1F.asm"
 INCLUDE "maps/AnabelsHouse2F.asm"
 
-SECTION "Glittervine Scripts", ROMX
+SECTION "Mosshill Scripts", ROMX
 
-INCLUDE "maps/GlittervineTown.asm"
-INCLUDE "maps/GlittervineMart.asm"
-INCLUDE "maps/GlittervineEvolutionSpeechHouse.asm"
-INCLUDE "maps/GlittervineGymSpeechHouse.asm"
-INCLUDE "maps/GlittervineTrainersSchool.asm"
+INCLUDE "maps/MosshillTown.asm"
+INCLUDE "maps/MosshillMart.asm"
+INCLUDE "maps/MosshillEvolutionSpeechHouse.asm"
+INCLUDE "maps/MosshillGymSpeechHouse.asm"
+INCLUDE "maps/MosshillTrainersSchool.asm"
 INCLUDE "maps/GuideGentsHouse.asm"
 INCLUDE "maps/MrPokemonsHouse.asm"
 
 
-SECTION "Glittervine Bay Scripts", ROMX
+SECTION "Mosshill Bay Scripts", ROMX
 
 INCLUDE "maps/CherrygroveBay.asm"
 INCLUDE "maps/Route32Coast.asm"
@@ -883,7 +883,7 @@ SECTION "Routes 1-3 Scripts", ROMX
 INCLUDE "maps/Route1.asm"
 INCLUDE "maps/Route1ViridianGate.asm"
 INCLUDE "maps/Route2Gate.asm"
-INCLUDE "maps/Route2GlittervineGate.asm"
+INCLUDE "maps/Route2MosshillGate.asm"
 INCLUDE "maps/Route2.asm"
 INCLUDE "maps/Route2NuggetSpeechHouse.asm"
 INCLUDE "maps/Route2MoonflowerGate.asm"

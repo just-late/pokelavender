@@ -94,7 +94,7 @@ TMHMMoves:
 	db DEFENSE_CURL ; MT07 (Mount Mortar)
 	db DOUBLE_EDGE  ; MT08 (Safari Zone)
 	db DREAM_EATER  ; MT09 (Viridian City)
-	db EARTH_POWER  ; MT10 (Glittervine Bay)
+	db EARTH_POWER  ; MT10 (Mosshill Bay)
 	db ENDURE       ; MT11 (Warm Beach)
 	db FIRE_PUNCH   ; MT12 (Goldenrod City)
 	db HEADBUTT     ; MT13 (Ilex Forest)

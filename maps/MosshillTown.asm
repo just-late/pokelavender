@@ -1,37 +1,37 @@
-GlittervineTown_MapScriptHeader:
+MosshillTown_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, GlittervineTownFlyPoint
+	callback MAPCALLBACK_NEWMAP, MosshillTownFlyPoint
 
 	def_warp_events
-	warp_event 21, 13, GLITTERVINE_MART, 2 ; 1
-	warp_event 15,  5, GLITTERVINE_POKECENTER_1F, 1 ; 2
-	warp_event 23,  5, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, 1 ; 3
-	warp_event 27,  6, ROUTE_2_GLITTERVINE_GATE, 1 ; 4
-	warp_event 27,  7, ROUTE_2_GLITTERVINE_GATE, 2 ; 5
-	warp_event  9, 13, GLITTERVINE_TRAINERS_SCHOOL, 1 ; 6
-	warp_event  9,  5, GLITTERVINE_GYM_SPEECH_HOUSE, 1 ; 7
+	warp_event 21, 15, GLITTERVINE_MART, 2 ; 1
+	warp_event 15,  7, GLITTERVINE_POKECENTER_1F, 1 ; 2
+	warp_event 23,  7, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, 1 ; 3
+	warp_event 27,  8, ROUTE_2_GLITTERVINE_GATE, 1 ; 4
+	warp_event 27,  9, ROUTE_2_GLITTERVINE_GATE, 2 ; 5
+	warp_event  9, 15, GLITTERVINE_TRAINERS_SCHOOL, 1 ; 6
+	warp_event  9,  7, GLITTERVINE_GYM_SPEECH_HOUSE, 1 ; 7
 
 	def_coord_events
-	coord_event 27,  6, 0, MeetProfAspen_Trigger1
-	coord_event 27,  7, 0, MeetProfAspen_Trigger2
+	coord_event 27,  8, 0, MeetProfAspen_Trigger1
+	coord_event 27,  9, 0, MeetProfAspen_Trigger2
 
 	def_bg_events
-	bg_event 14, 18, BGEVENT_JUMPTEXT, GlittervineTownSignText
-	bg_event 10, 14, BGEVENT_JUMPTEXT, GlittervineTrainersSchoolSignText
-	bg_event  4,  6, BGEVENT_ITEM + NUGGET, EVENT_MOSSHILL_TOWN_HIDDEN_NUGGET
+	bg_event 14, 20, BGEVENT_JUMPTEXT, MosshillTownSignText
+	bg_event 10, 16, BGEVENT_JUMPTEXT, MosshillTrainersSchoolSignText
+	bg_event  4,  8, BGEVENT_ITEM + NUGGET, EVENT_MOSSHILL_TOWN_HIDDEN_NUGGET
 
 	db 3 ; object_events
-	person_event SPRITE_ELM,  6, 22, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
-	person_event SPRITE_POKEFAN_F,  7, 13, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC1Text, -1
-	person_event SPRITE_GRAMPS, 15, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC2Text, -1
-	person_event SPRITE_TWIN,  9, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineNPC3Text, -1
+	person_event SPRITE_ELM,  8, 22, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
+	person_event SPRITE_POKEFAN_F,  9, 13, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillNPC1Text, -1
+	person_event SPRITE_GRAMPS, 17, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillNPC2Text, -1
+	person_event SPRITE_TWIN, 11, 15, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillNPC3Text, -1
 
 	const_def 1 ; object_constants
 	const GLITTERVINE_PROF_ASPEN
 
-GlittervineTownFlyPoint:
+MosshillTownFlyPoint:
 	setflag ENGINE_FLYPOINT_GLITTERVINE
 	endcallback
 
@@ -187,7 +187,7 @@ PokedexQuestion_Text:
 	line "me?"
 	done
 
-GlittervineNPC1Text:
+MosshillNPC1Text:
 	text "Hello!"
 	
 	para "Are you new here?"
@@ -198,7 +198,7 @@ GlittervineNPC1Text:
 	cont "GLITTERVINE TOWN."
 	done
 
-GlittervineNPC2Text:
+MosshillNPC2Text:
 	text "I moved here when"
 	line "I was 17 years"
 	cont "old."
@@ -211,7 +211,7 @@ GlittervineNPC2Text:
 	cont "built yet!"
 	done
 
-GlittervineNPC3Text:
+MosshillNPC3Text:
 	text "I go to the"
 	line "#MON TRAINER's"
 	cont "school everyday."
@@ -221,16 +221,16 @@ GlittervineNPC3Text:
 	cont "MAREEP!"
 	done
 
-GlittervineBennysHouseSignText:
+MosshillBennysHouseSignText:
 	text "BENNY's HOUSE"
 	done
 
-GlittervineTrainersSchoolSignText:
+MosshillTrainersSchoolSignText:
 	text "GLITTERVINE"
 	line "TRAINER's SCHOOL"
 	done
 
-GlittervineTownSignText:
+MosshillTownSignText:
 	text "GLITTERVINE TOWN"
 
 	para "A quiet, humble"

@@ -279,7 +279,7 @@ Route30CooltrainerFText:
 Route30SignText:
 	text "Route 30"
 
-	para "Glittervine Town -"
+	para "Mosshill Town -"
 	line "Moonflower City"
 	done
 

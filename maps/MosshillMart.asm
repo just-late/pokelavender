@@ -1,4 +1,4 @@
-GlittervineMart_MapScriptHeader:
+MosshillMart_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -12,11 +12,11 @@ GlittervineMart_MapScriptHeader:
 	def_bg_events
 
 	db 3 ; object_events
-	person_event SPRITE_CLERK,  3,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GlittervineMartClerkScript, -1
-	person_event SPRITE_COOL_DUDE,  6,  7, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GlittervineMartNPC1Script, -1
-	person_event SPRITE_CUTE_GIRL,  5,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GlittervineMartNPC2Text, -1
+	person_event SPRITE_CLERK,  3,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MosshillMartClerkScript, -1
+	person_event SPRITE_COOL_DUDE,  6,  7, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MosshillMartNPC1Script, -1
+	person_event SPRITE_CUTE_GIRL,  5,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillMartNPC2Text, -1
 
-GlittervineMartClerkScript:
+MosshillMartClerkScript:
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftruefwd .AfterDex
 	pokemart MARTTYPE_STANDARD, MART_GLITTERVINE
@@ -24,9 +24,9 @@ GlittervineMartClerkScript:
 .AfterDex:
 	pokemart MARTTYPE_STANDARD, MART_GLITTERVINE_DEX
 
-GlittervineMartNPC1Script:
+MosshillMartNPC1Script:
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftrue_jumptextfaceplayer GlittervineMartNPC1Text_PokeBallsInStock
+	iftrue_jumptextfaceplayer MosshillMartNPC1Text_PokeBallsInStock
 	jumpthistextfaceplayer
 
 	text "They're fresh out"
@@ -36,14 +36,14 @@ GlittervineMartNPC1Script:
 	line "more of them?"
 	done
 
-GlittervineMartNPC1Text_PokeBallsInStock:
+MosshillMartNPC1Text_PokeBallsInStock:
 	text "# BALLS are in"
 	line "stock! I wonder"
 	cont "what held them"
 	cont "up."
 	done
 
-GlittervineMartNPC2Text:
+MosshillMartNPC2Text:
 	text "When I was walking"
 	line "in the grass, a"
 

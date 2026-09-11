@@ -14,7 +14,7 @@
     Route 1,
     Route 2,
     Gemroot Town,
-    Glittervine Town,
+    Mosshill Town,
     Moonflower City,
     Blossom City,
     Cave Theme,

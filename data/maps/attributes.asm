@@ -11,16 +11,16 @@ ENDM
 	map_attributes GemrootTown, GEMROOT_TOWN, $5, NORTH
 	connection north, Route1, ROUTE_1, 0
 
-	map_attributes Route1, ROUTE_1, $5, SOUTH ;| EAST
+	map_attributes Route1, ROUTE_1, $5, NORTH | SOUTH
+	connection north, MosshillTown, MOSSHILL_TOWN, 0
 	connection south, GemrootTown, GEMROOT_TOWN, 0
-;	connection east, GlittervineTown, MOSSHILL_TOWN, 8
 
-	map_attributes GlittervineTown, MOSSHILL_TOWN, $5, SOUTH | EAST
+	map_attributes MosshillTown, MOSSHILL_TOWN, $5, SOUTH | EAST
 	connection south, Route1, ROUTE_1, 0
 	connection east, Route2, ROUTE_2, 0
 
 	map_attributes Route2, ROUTE_2, $5, WEST ; SOUTH
-	connection west, GlittervineTown, MOSSHILL_TOWN, 0
+	connection west, MosshillTown, MOSSHILL_TOWN, 0
 ;   connection south, MoonflowerCity, MOONFLOWER_CITY, 0
 
 	map_attributes Route3, ROUTE_3, $05, 0 ; NORTH
@@ -286,7 +286,7 @@ ENDM
 	map_attributes CherrygroveBay, CHERRYGROVE_BAY, $35, SOUTH | WEST | EAST
 	connection south, Route32Coast, ROUTE_32_COAST, 0
 	connection west, Route32, ROUTE_32, -12
-	connection east, GlittervineTown, MOSSHILL_TOWN, 15
+	connection east, MosshillTown, MOSSHILL_TOWN, 15
 
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, NORTH
 	connection north, CherrygroveBay, CHERRYGROVE_BAY, 0
@@ -743,16 +743,16 @@ ENDM
 	map_attributes SaffronBookSpeechHouse, SAFFRON_BOOK_SPEECH_HOUSE, $0, 0
 	map_attributes SaffronOrreSpeechHouse, SAFFRON_ORRE_SPEECH_HOUSE, $0, 0
 	map_attributes SaffronRichSpeechHouse, SAFFRON_RICH_SPEECH_HOUSE, $0, 0
-	map_attributes GlittervineMart, GLITTERVINE_MART, $0, 0
-	map_attributes GlittervinePokeCenter1F, GLITTERVINE_POKECENTER_1F, $0, 0
-	map_attributes GlittervineGymSpeechHouse, GLITTERVINE_GYM_SPEECH_HOUSE, $0, 0
-	map_attributes GlittervineTrainersSchool, GLITTERVINE_TRAINERS_SCHOOL, $0, 0
+	map_attributes MosshillMart, GLITTERVINE_MART, $0, 0
+	map_attributes MosshillPokeCenter1F, GLITTERVINE_POKECENTER_1F, $0, 0
+	map_attributes MosshillGymSpeechHouse, GLITTERVINE_GYM_SPEECH_HOUSE, $0, 0
+	map_attributes MosshillTrainersSchool, GLITTERVINE_TRAINERS_SCHOOL, $0, 0
 	map_attributes GuideGentsHouse, GUIDE_GENTS_HOUSE, $0, 0
-	map_attributes GlittervineEvolutionSpeechHouse, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, $0, 0
+	map_attributes MosshillEvolutionSpeechHouse, GLITTERVINE_EVOLUTION_SPEECH_HOUSE, $0, 0
 	map_attributes Route30BerrySpeechHouse, ROUTE_30_BERRY_SPEECH_HOUSE, $0, 0
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $0, 0
 	map_attributes Route3MoonflowerGate, ROUTE_3_MOONFLOWER_GATE, $0, 0
-	map_attributes Route2GlittervineGate, ROUTE_2_GLITTERVINE_GATE, $0, 0
+	map_attributes Route2MosshillGate, ROUTE_2_GLITTERVINE_GATE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
 	map_attributes PewterMuseumOfScience1F, PEWTER_MUSEUM_OF_SCIENCE_1F, $0, 0
 	map_attributes PewterMuseumOfScience2F, PEWTER_MUSEUM_OF_SCIENCE_2F, $0, 0

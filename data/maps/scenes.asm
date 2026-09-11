@@ -6,7 +6,7 @@ MACRO scene_var
 ENDM
 
 MapScenes::
-	scene_var ROUTE_2_GLITTERVINE_GATE,				  wRoute2GlittervineGateSceneID
+	scene_var ROUTE_2_GLITTERVINE_GATE,				  wRoute2MosshillGateSceneID
 	scene_var BATTLE_FACTORY_1F,                      wBattleFacilitySceneID
 	scene_var BATTLE_FACTORY_BATTLE_ROOM,             wAlways0SceneID
 	scene_var BATTLE_FACTORY_HALLWAY,                 wAlways0SceneID
@@ -19,7 +19,7 @@ MapScenes::
 	scene_var BRUNOS_ROOM,                            wBrunosRoomSceneID
 	scene_var BURNED_TOWER_1F,                        wBurnedTower1FSceneID
 	scene_var BURNED_TOWER_B1F,                       wBurnedTowerB1FSceneID
-	scene_var MOSSHILL_TOWN,                       wGlittervineTownSceneID
+	scene_var MOSSHILL_TOWN,                       wMosshillTownSceneID
 	scene_var CIANWOOD_CITY,                          wCianwoodCitySceneID
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID

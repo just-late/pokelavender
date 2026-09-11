@@ -495,7 +495,7 @@ Route31SignText:
 	text "Route 31"
 
 	para "Moonflower City -"
-	line "Glittervine Town"
+	line "Mosshill Town"
 	done
 
 DarkCaveSignText:

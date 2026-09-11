@@ -1,6 +1,6 @@
 SECTION "Special Map Blockdata", ROMX
 
-GlittervinePokeCenter1F_BlockData:
+MosshillPokeCenter1F_BlockData:
 MoonflowerPokeCenter1F_BlockData:
 MarigoldPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
@@ -30,7 +30,7 @@ CinnabarPokeCenter1F_BlockData:
 KantoPokeCenter2F_BlockData:
 	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
 
-GlittervineMart_BlockData:
+MosshillMart_BlockData:
 MoonflowerMart_BlockData:
 EcruteakMart_BlockData:
 OlivineMart_BlockData:
@@ -68,7 +68,7 @@ SafariZoneFuchsiaGate_BlockData:
 Route12Gate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate1F.ablk.lz"
 
-Route2GlittervineGate_BlockData:
+Route2MosshillGate_BlockData:
 Route36MoonflowerGate_BlockData:
 IlexForestAzaleaGate_BlockData:
 GoldenrodHarborGate_BlockData:
@@ -181,8 +181,8 @@ EusinesHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
 SECTION "PlayersNeighborsHouse_BlockData:", ROMX
-GlittervineGymSpeechHouse_BlockData:
-GlittervineEvolutionSpeechHouse_BlockData:
+MosshillGymSpeechHouse_BlockData:
+MosshillEvolutionSpeechHouse_BlockData:
 PlayersNeighborsHouse_BlockData:
 GemrootNPCHouse2_BlockData:
 	INCBIN "maps/House1.ablk.lz"
@@ -242,13 +242,13 @@ SECTION "AnabelsHouse2F_BlockData", ROMX
 AnabelsHouse2F_BlockData:
 	INCBIN "maps/AnabelsHouse2F.ablk.lz"
 
-SECTION "GlittervineTown_BlockData", ROMX
-GlittervineTown_BlockData:
-	INCBIN "maps/GlittervineTown.ablk.lz"
+SECTION "MosshillTown_BlockData", ROMX
+MosshillTown_BlockData:
+	INCBIN "maps/MosshillTown.ablk.lz"
 
-SECTION "GlittervineTrainersSchool_BlockData", ROMX
-GlittervineTrainersSchool_BlockData:
-	INCBIN "maps/GlittervineTrainersSchool.ablk.lz"
+SECTION "MosshillTrainersSchool_BlockData", ROMX
+MosshillTrainersSchool_BlockData:
+	INCBIN "maps/MosshillTrainersSchool.ablk.lz"
 
 SECTION "MrPokemonsHouse_BlockData", ROMX
 MrPokemonsHouse_BlockData:

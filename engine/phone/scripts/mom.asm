@@ -41,7 +41,7 @@ MomPhoneInTown:
 	sjumpfwd MomSavingMoney
 
 .cherrygrove
-	farwritetext MomPhoneGlittervineText
+	farwritetext MomPhoneMosshillText
 	promptbutton
 	sjumpfwd MomSavingMoney
 
