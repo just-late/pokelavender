@@ -103,3 +103,29 @@
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 66
 	tilecoll WALL, ELEVATOR_BUTTON, FLOOR, FLOOR ; 67
 	tilecoll DOOR, WALL, FLOOR, FLOOR ; 68
+	tilecoll WALL, WALL, WALL, WALL ; 69
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 6a
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 6b
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 6c
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 6d
+	tilecoll WALL, WALL, WALL, WALL ; 6e
+	tilecoll WALL, WALL, WALL, WALL ; 6f
+	tilecoll FLOOR, WALL, WALL, FLOOR ; 70
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 71
+	tilecoll WARP_CARPET_DOWN, WARP_CARPET_DOWN, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 72
+	tilecoll FLOOR, WALL, WALL, WALL ; 73
+	tilecoll WALL, WALL, WALL, WALL ; 74
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 75
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 76
+	tilecoll WALL, WALL, WALL, WALL ; 77
+	tilecoll WALL, WALL, WALL, WALL ; 78
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 79
+	tilecoll WALL, WALL, WALL, WALL ; 7a
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 7b
+	tilecoll FLOOR, WALL, WALL, WALL ; 7c
+	tilecoll WALL, WALL, WALL, WALL ; 7d
+	tilecoll WALL, WALL, WALL, WALL ; 7e
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 7f
+	tilecoll WALL, WALL, WALL, FLOOR ; 80
+	tilecoll DOOR, WALL, FLOOR, FLOOR ; 81
+	tilecoll WALL, WALL, FLOOR, WALL ; 82
