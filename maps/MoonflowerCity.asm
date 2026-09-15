@@ -391,7 +391,7 @@ PokeGearCampaignClown2_Script:
 	end
 
 TeamIndigoTrigger1:
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject INDIGO_GRUNT1, UP
 	pause 5
 	showemote EMOTE_SHOCK, INDIGO_GRUNT1, 30
@@ -411,7 +411,7 @@ TeamIndigoTrigger1:
 	end
 
 TeamIndigoTrigger2:
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject INDIGO_GRUNT1, UP
 	pause 5
 	showemote EMOTE_SHOCK, INDIGO_GRUNT1, 30
@@ -432,7 +432,7 @@ TeamIndigoTrigger2:
 	end
 
 TeamIndigoTrigger3:
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject INDIGO_GRUNT2, UP
 	pause 5
 	showemote EMOTE_SHOCK, INDIGO_GRUNT2, 30
@@ -452,7 +452,7 @@ TeamIndigoTrigger3:
 	end
 
 TeamIndigoTrigger4:
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject INDIGO_GRUNT2, UP
 	pause 5
 	showemote EMOTE_SHOCK, INDIGO_GRUNT2, 30

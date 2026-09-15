@@ -32,7 +32,7 @@
 	const MUSIC_RUINS_OF_ALPH_INTERIOR         ; 1d
 	const MUSIC_RUINS_OF_ALPH_RADIO            ; 1e
 	const MUSIC_AZALEA_TOWN                    ; 1f
-	const MUSIC_ROCKET_ENCOUNTER               ; 20
+	const MUSIC_GRUNT_ENCOUNTER               ; 20
 	const MUSIC_ROCKET_BATTLE                  ; 21
 	const MUSIC_ROUTE_36                       ; 22
 	const MUSIC_RIVAL_ENCOUNTER                ; 23
@@ -73,7 +73,6 @@
 	const MUSIC_LAKE_OF_RAGE_ROCKET_RADIO      ; 46
 	const MUSIC_ROCKET_HIDEOUT                 ; 47
 	const MUSIC_POKEMANIAC_ENCOUNTER           ; 48
-	const MUSIC_ROCKET_OVERTURE                ; 49
 	const MUSIC_DARK_CAVE                      ; 4a
 	const MUSIC_DRAGONS_DEN                    ; 4b
 	const MUSIC_CLAIR                          ; 4c

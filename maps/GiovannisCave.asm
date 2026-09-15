@@ -44,7 +44,7 @@ GiovannisCaveCelebiEventScript:
 	showtext GiovannisCaveLyraQuestionsText
 	showemote EMOTE_SHOCK, GIOVANNISCAVE_LYRA, 15
 	showtext GiovannisCaveLyraRecognizesGiovanniText
-	playmusic MUSIC_ROCKET_OVERTURE
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject GIOVANNISCAVE_LYRA, UP
 	turnobject GIOVANNISCAVE_GIOVANNI, UP
 	showtext GiovannisCaveBroadcastText

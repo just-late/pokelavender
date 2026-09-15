@@ -75,7 +75,7 @@ CinnabarLabCelebiEventScript:
 	showtext CinnabarLabContinueTestingText
 	applyonemovement PLAYER, slow_step_up
 	showemote EMOTE_SHOCK, CINNABARLAB_GIOVANNI, 15
-	playmusic MUSIC_ROCKET_OVERTURE
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject CINNABARLAB_GIOVANNI, DOWN
 	showtext CinnabarLabGiovanniWhoAreYouText
 	applymovement CINNABARLAB_GIOVANNI, CinnabarLabGiovanniStepAsideMovementData

@@ -104,7 +104,7 @@ RocketBaseBossFScript:
 	showemote EMOTE_SHOCK, PLAYER, 15
 	applymovement PLAYER, RocketBasePlayerApproachesBossFMovement
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	applymovement TEAMROCKETBASEB2F_ARIANA, RocketBaseBossFApproachesPlayerMovement
 	turnobject PLAYER, UP
 	applymovement TEAMROCKETBASEB2F_PETREL, RocketBaseGruntApproachesPlayerMovement

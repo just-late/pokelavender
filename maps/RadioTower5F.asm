@@ -36,7 +36,7 @@ FakeDirectorScript:
 	showtext FakeDirectorTextBefore1
 	applymovement RADIOTOWER5F_DIRECTOR, FakeDirectorMovement
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	showtext FakeDirectorTextBefore2
 	applymovement RADIOTOWER5F_DIRECTOR, FakeDirectorSpinMovement
 	appear RADIOTOWER5F_PETREL
@@ -80,7 +80,7 @@ GenericTrainerAriana1:
 
 RadioTower5FRocketBossTrigger:
 	applymovement PLAYER, RadioTower5FPlayerTwoStepsLeftMovement
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject RADIOTOWER5F_ARCHER, RIGHT
 	showtext RadioTower5FRocketBossBeforeText
 	winlosstext RadioTower5FRocketBossWinText, 0

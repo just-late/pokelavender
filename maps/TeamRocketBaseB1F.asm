@@ -79,7 +79,7 @@ SecurityCamera1a:
 	iftrue NoSecurityCamera
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 19, 2
 	appear TEAMROCKETBASEB1F_ROCKET1
 	turnobject PLAYER, LEFT
@@ -89,7 +89,7 @@ SecurityCamera1a:
 	scall PlaySecurityCameraSounds
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 19, 2
 	appear TEAMROCKETBASEB1F_ROCKET1
 	applymovement TEAMROCKETBASEB1F_ROCKET1, SecurityCameraMovement1
@@ -106,7 +106,7 @@ SecurityCamera1b:
 	iftrue NoSecurityCamera
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 19, 3
 	appear TEAMROCKETBASEB1F_ROCKET1
 	turnobject PLAYER, LEFT
@@ -116,7 +116,7 @@ SecurityCamera1b:
 	scall PlaySecurityCameraSounds
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 19, 3
 	appear TEAMROCKETBASEB1F_ROCKET1
 	applymovement TEAMROCKETBASEB1F_ROCKET1, SecurityCameraMovement1
@@ -133,7 +133,7 @@ SecurityCamera2a:
 	iftrue NoSecurityCamera
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 4, 7
 	appear TEAMROCKETBASEB1F_ROCKET1
 	turnobject PLAYER, LEFT
@@ -143,7 +143,7 @@ SecurityCamera2a:
 	scall PlaySecurityCameraSounds
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject PLAYER, RIGHT
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 12, 5
 	appear TEAMROCKETBASEB1F_ROCKET1
@@ -161,7 +161,7 @@ SecurityCamera2b:
 	iftrue NoSecurityCamera
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 4, 8
 	appear TEAMROCKETBASEB1F_ROCKET1
 	turnobject PLAYER, LEFT
@@ -171,7 +171,7 @@ SecurityCamera2b:
 	scall PlaySecurityCameraSounds
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject PLAYER, RIGHT
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 12, 5
 	appear TEAMROCKETBASEB1F_ROCKET1
@@ -189,7 +189,7 @@ SecurityCamera3a:
 	iftrue NoSecurityCamera
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 19, 6
 	appear TEAMROCKETBASEB1F_ROCKET1
 	turnobject PLAYER, LEFT
@@ -199,7 +199,7 @@ SecurityCamera3a:
 	scall PlaySecurityCameraSounds
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject PLAYER, RIGHT
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 25, 11
 	appear TEAMROCKETBASEB1F_ROCKET1
@@ -217,7 +217,7 @@ SecurityCamera3b:
 	iftruefwd NoSecurityCamera
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 19, 7
 	appear TEAMROCKETBASEB1F_ROCKET1
 	turnobject PLAYER, LEFT
@@ -227,7 +227,7 @@ SecurityCamera3b:
 	scall PlaySecurityCameraSounds
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject PLAYER, RIGHT
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 25, 12
 	appear TEAMROCKETBASEB1F_ROCKET1
@@ -245,7 +245,7 @@ SecurityCamera4:
 	iftruefwd NoSecurityCamera
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 17, 16
 	appear TEAMROCKETBASEB1F_ROCKET1
 	turnobject PLAYER, LEFT
@@ -255,7 +255,7 @@ SecurityCamera4:
 	scall PlaySecurityCameraSounds
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject PLAYER, RIGHT
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 25, 11
 	appear TEAMROCKETBASEB1F_ROCKET1
@@ -273,7 +273,7 @@ SecurityCamera5:
 	iftruefwd NoSecurityCamera
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 3, 16
 	appear TEAMROCKETBASEB1F_ROCKET1
 	turnobject PLAYER, LEFT
@@ -283,7 +283,7 @@ SecurityCamera5:
 	scall PlaySecurityCameraSounds
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject PLAYER, RIGHT
 	moveobject TEAMROCKETBASEB1F_ROCKET1, 14, 16
 	appear TEAMROCKETBASEB1F_ROCKET1

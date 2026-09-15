@@ -41,8 +41,8 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; fisher
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_HIKER_ENCOUNTER ; hiker
-	db MUSIC_ROCKET_ENCOUNTER ; gruntm
-	db MUSIC_ROCKET_ENCOUNTER ; gruntf
+	db MUSIC_GRUNT_ENCOUNTER ; gruntm
+	db MUSIC_GRUNT_ENCOUNTER ; gruntf
 	db MUSIC_HIKER_ENCOUNTER ; pokefanm
 	db MUSIC_BEAUTY_ENCOUNTER ; pokefanf
 	db MUSIC_OFFICER_ENCOUNTER ; officerm
@@ -86,7 +86,7 @@ TrainerEncounterMusic:
 	db MUSIC_POKEMANIAC_ENCOUNTER ; burglar
 	db MUSIC_POKEMANIAC_ENCOUNTER ; pi
 	db MUSIC_POKEMANIAC_ENCOUNTER ; scientist
-	db MUSIC_ROCKET_ENCOUNTER ; rocket_scientist
+	db MUSIC_GRUNT_ENCOUNTER ; rocket_scientist
 	db MUSIC_HIKER_ENCOUNTER ; boarder
 	db MUSIC_BEAUTY_ENCOUNTER ; skier
 	db MUSIC_HIKER_ENCOUNTER ; blackbelt_t
@@ -112,8 +112,8 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; ace_duo
 	db MUSIC_HIKER_ENCOUNTER ; veteranm
 	db MUSIC_HIKER_ENCOUNTER ; veteranf
-	db MUSIC_ROCKET_ENCOUNTER ; proton
-	db MUSIC_ROCKET_ENCOUNTER ; petrel
-	db MUSIC_ROCKET_ENCOUNTER ; archer
-	db MUSIC_ROCKET_ENCOUNTER ; ariana
+	db MUSIC_GRUNT_ENCOUNTER ; proton
+	db MUSIC_GRUNT_ENCOUNTER ; petrel
+	db MUSIC_GRUNT_ENCOUNTER ; archer
+	db MUSIC_GRUNT_ENCOUNTER ; ariana
 	assert_table_length ARIANA + 1

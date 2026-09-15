@@ -44,7 +44,7 @@ GraniteVillage_MapScriptHeader:
 
 GraniteVillageIndigoBlockerTrigger:
     setscene $1
-    playmusic MUSIC_ROCKET_ENCOUNTER
+    playmusic MUSIC_GRUNT_ENCOUNTER
     turnobject GRANITE_VILLAGE_GRUNT_1, RIGHT
     showemote EMOTE_SHOCK, GRANITE_VILLAGE_GRUNT_1, 30
     showtext IndigoGruntStopRightThereText
@@ -67,7 +67,7 @@ GraniteVillageIndigoGruntScript:
     end
 
 GraniteVillageInnCutsceneTrigger1:
-    playmusic MUSIC_ROCKET_ENCOUNTER
+    playmusic MUSIC_GRUNT_ENCOUNTER
     playsound SFX_ENTER_DOOR
     appear GRANITE_VILLAGE_GRUNT_2
     applyonemovement GRANITE_VILLAGE_GRUNT_2, step_down
@@ -96,7 +96,7 @@ GraniteVillageInnCutsceneTrigger1:
     end
 
 GraniteVillageInnCutsceneTrigger2:
-    playmusic MUSIC_ROCKET_ENCOUNTER
+    playmusic MUSIC_GRUNT_ENCOUNTER
     playsound SFX_ENTER_DOOR
     appear GRANITE_VILLAGE_GRUNT_2
     applyonemovement GRANITE_VILLAGE_GRUNT_2, step_down
@@ -124,7 +124,7 @@ GraniteVillageInnCutsceneTrigger2:
     end
 
 GraniteVillageInnCutsceneTrigger3:
-    playmusic MUSIC_ROCKET_ENCOUNTER
+    playmusic MUSIC_GRUNT_ENCOUNTER
     playsound SFX_ENTER_DOOR
     appear GRANITE_VILLAGE_GRUNT_2
     applyonemovement GRANITE_VILLAGE_GRUNT_2, step_down
@@ -152,7 +152,7 @@ GraniteVillageInnCutsceneTrigger3:
     end
 
 GraniteVillageInnCutsceneTrigger4:
-    playmusic MUSIC_ROCKET_ENCOUNTER
+    playmusic MUSIC_GRUNT_ENCOUNTER
     playsound SFX_ENTER_DOOR
     appear GRANITE_VILLAGE_GRUNT_2
     applyonemovement GRANITE_VILLAGE_GRUNT_2, step_down

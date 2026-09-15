@@ -102,7 +102,7 @@ RocketBaseBoss:
 	pause 30
 	showemote EMOTE_SHOCK, TEAMROCKETBASEB3F_PETREL, 15
 	special SaveMusic
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	turnobject TEAMROCKETBASEB3F_PETREL, DOWN
 	showtext ExecutiveM4BeforeText
 	applyonemovement TEAMROCKETBASEB3F_PETREL, step_down

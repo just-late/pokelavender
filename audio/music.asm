@@ -75,9 +75,8 @@ INCLUDE "audio/music/ruinsofalphradio.asm"
 SECTION "Song - azaleatown", ROMX
 INCLUDE "audio/music/azaleatown.asm"
 
-SECTION "Song - lookrocket + rockettheme", ROMX
-INCLUDE "audio/music/lookrocket.asm"
-INCLUDE "audio/music/rockettheme.asm"
+SECTION "Song - lookgrunt", ROMX
+INCLUDE "audio/music/lookgrunt.asm"
 
 SECTION "Song - rocketbattle", ROMX
 INCLUDE "audio/music/rocketbattle.asm"

@@ -32,7 +32,7 @@ Music:
 	dba Music_RuinsOfAlphInterior
 	dba Music_RuinsOfAlphRadio
 	dba Music_AzaleaTown
-	dba Music_LookRocket
+	dba Music_EncounterGrunt
 	dba Music_RocketBattle
 	dba Music_Route36
 	dba Music_LookRival
@@ -73,7 +73,6 @@ Music:
 	dba Music_LakeOfRageRocketRadio
 	dba Music_RocketHideout
 	dba Music_LookPokemaniac
-	dba Music_RocketTheme
 	dba Music_DarkCave
 	dba Music_DragonsDen
 	dba Music_Clair

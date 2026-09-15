@@ -30,7 +30,7 @@ Route43GateTrigger0:
 	end
 
 .RocketTakeover:
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_GRUNT_ENCOUNTER
 	readvar VAR_FACING
 	ifequalfwd DOWN, RocketScript_Southbound
 	ifequalfwd UP, RocketScript_Northbound
