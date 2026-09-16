@@ -226,4 +226,8 @@ SpriteHeaders:
 	overworld_sprite TwinSnowySpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite MachampSlumberGFX, STANDING_SPRITE, PAL_OW_GRAY
 	overworld_sprite MakuhitaOWSpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
+	overworld_sprite PlaneHeads1SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
+	overworld_sprite PlaneHeads2SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
+	overworld_sprite PlaneHeads3SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
+	overworld_sprite PlaneHeads4SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	assert_table_length NUM_OVERWORLD_SPRITES

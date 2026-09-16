@@ -75,6 +75,7 @@ ENDM
 	special_bg_pal map,      BLOSSOM_DEPT_STORE_ROOF,     PAL_TIMEOFDAY, BlossomDeptStoreRoofPalette
 	special_bg_pal map,		 BLOSSOM_GAME_CORNER,		  PAL_SINGLE,    GameCornerPalette
 	special_bg_pal map,		 MARIGOLD_GYM,				  PAL_SINGLE,    MarigoldGymPalette
+	special_bg_pal map,		 AIRPLANE_HALLWAY,			  PAL_SINGLE,    AirplaneHallwayPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
@@ -97,6 +98,9 @@ ENDM
 
 BlossomDeptStoreRoofPalette:
 INCLUDE "maps/BlossomDeptStoreRoof.pal"
+
+AirplaneHallwayPalette:
+INCLUDE "maps/AirplaneHallway.pal"
 
 SandstormPalette:
 INCLUDE "maps/sandstorm.pal"

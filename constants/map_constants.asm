@@ -684,7 +684,7 @@ ENDM
 	map_const MARIGOLD_CAVE_2F,							  15, 17 ; 12
 	map_const DREAM_WORLD, 								  22, 10 ; 13
 	map_const OVERCAST_GROVE,							  17, 14 ; 14
-	map_const BOAT_CUTSCENE,							   9,  5 ; 15
+	map_const AIRPLANE_HALLWAY,							   3,  8 ;  3
 
 	newgroup
 	map_const WAREHOUSE_TOWN,							  15, 23 ;  1

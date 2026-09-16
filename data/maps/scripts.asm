@@ -1042,9 +1042,9 @@ SECTION "Grove Scripts", ROMX
 
 INCLUDE "maps/OvercastGrove.asm"
 
-SECTION "Boat Cutscene Scripts", ROMX
+SECTION "Airplane Scripts", ROMX
 
-INCLUDE "maps/BoatCutscene.asm"
+INCLUDE "maps/AirplaneHallway.asm"
 
 SECTION "Blossom Academy Scripts", ROMX
 

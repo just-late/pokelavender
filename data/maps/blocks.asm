@@ -497,6 +497,9 @@ MystriStage_BlockData:
 SinjohRuins_BlockData:
 	INCBIN "maps/TinTower3F.ablk.lz"
 
+AirplaneHallway_BlockData:
+	INCBIN "maps/AirplaneHallway.ablk.lz"
+
 WarehouseTown_BlockData:
 	INCBIN "maps/WarehouseTown.ablk.lz"
 
@@ -1627,10 +1630,6 @@ BattleFactoryHallway_BlockData:
 SECTION "BattleFactoryBattleRoom_BlockData", ROMX
 BattleFactoryBattleRoom_BlockData:
 	INCBIN "maps/BattleFactoryBattleRoom.ablk.lz"
-
-SECTION "BoatCutscene_BlockData", ROMX
-BoatCutscene_BlockData:
-	INCBIN "maps/BoatCutscene.ablk.lz"
 
 SECTION "CanyonDepths_BlockData", ROMX
 CanyonDepths_BlockData:

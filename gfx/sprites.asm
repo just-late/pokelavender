@@ -652,3 +652,15 @@ MachampSlumberGFX:: INCBIN "gfx/sprites/machamp_slumber.2bpp.lz"
 
 SECTION "MakuhitaOWSpriteGFX", ROMX
 MakuhitaOWSpriteGFX:: INCBIN "gfx/sprites/makuhita_ow.2bpp.lz"
+
+SECTION "PlaneHeads1SpriteGFX", ROMX
+PlaneHeads1SpriteGFX:: INCBIN "gfx/sprites/plane_heads_1.2bpp.lz"
+
+SECTION "PlaneHeads2SpriteGFX", ROMX
+PlaneHeads2SpriteGFX:: INCBIN "gfx/sprites/plane_heads_2.2bpp.lz"
+
+SECTION "PlaneHeads3SpriteGFX", ROMX
+PlaneHeads3SpriteGFX:: INCBIN "gfx/sprites/plane_heads_3.2bpp.lz"
+
+SECTION "PlaneHeads4SpriteGFX", ROMX
+PlaneHeads4SpriteGFX:: INCBIN "gfx/sprites/plane_heads_4.2bpp.lz"

@@ -221,6 +221,10 @@
 	const SPRITE_TWIN_SNOWY
 	const SPRITE_MACHAMP_SLUMBER
 	const SPRITE_MAKUHITA_OW
+	const SPRITE_PLANE_HEADS_1
+	const SPRITE_PLANE_HEADS_2
+	const SPRITE_PLANE_HEADS_3
+	const SPRITE_PLANE_HEADS_4
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

@@ -842,7 +842,6 @@ ENDM
 	map_attributes DreamWorld, DREAM_WORLD, $45, 0
 	map_attributes OvercastGrove, OVERCAST_GROVE, $5, 0
 	map_attributes GraniteInn1F, GRANITE_INN_1F, $0, 0
-	map_attributes BoatCutscene, BOAT_CUTSCENE, $35, 0
 	map_attributes CanyonDepths, CANYON_DEPTHS, $5, 0
 	map_attributes Canyon1F, CANYON_1F, $5, 0
 	map_attributes BlossomGameCorner, BLOSSOM_GAME_CORNER, $0, 0
@@ -850,3 +849,4 @@ ENDM
 	map_attributes MountainQuarter, MOUNTAIN_QUARTER, $0, 0
 	map_attributes AcademyPokeCenter, ACADEMY_POKECENTER, $0, 0
 	map_attributes MarigoldGymVent, MARIGOLD_GYM_VENT, $0, 0
+	map_attributes AirplaneHallway, AIRPLANE_HALLWAY, $0, 0
