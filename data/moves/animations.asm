@@ -3542,14 +3542,15 @@ BattleAnim_Struggle:
 	anim_ret
 
 BattleAnim_MudFlood:
-	anim_setobjpal PAL_BATTLE_OB_BROWN, PAL_BTLCUSTOM_BROWN
-	anim_1gfx ANIM_GFX_BUBBLE
+	anim_setobjpal PAL_BATTLE_OB_BROWN, PAL_BTLCUSTOM_WATER
+	anim_2gfx ANIM_GFX_BUBBLE, ANIM_GFX_WATER
 	anim_bgeffect ANIM_BG_SURF, $0, $0, $0
-	anim_obj ANIM_OBJ_SURF,  11, 0,  13, 0, $8
+	anim_obj ANIM_OBJ_SURF, 88, 104, $8
 .loop
 	anim_sound 0, 1, SFX_SURF
-	anim_wait 112
-	anim_loop 1, .loop
+	anim_wait 32
+	anim_obj ANIM_OBJ_RAIN, 128, 27, $0
+	anim_loop 4, .loop
 	anim_incobj 1
 	anim_wait 56
 	anim_ret
