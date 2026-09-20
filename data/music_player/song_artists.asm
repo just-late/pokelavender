@@ -30,4 +30,5 @@ SongArtists:
 	li "ShinkoNetCavy,      ShockSlayer"
 	li "JustLate"
 	li "Gordon Goodwin"
+	li "Earth, Wind & Fire"
 	assert_list_length NUM_SONG_ARTISTS

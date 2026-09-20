@@ -44,6 +44,7 @@ DEF NUM_MP_EDIT_FIELDS EQU const_value
 	const ORIGIN_UNDERTALE ; 12
 	const ORIGIN_LAVENDER  ; 13
 	const ORIGIN_BIG_PHAT_BAND ; 14
+	const ORIGIN_DEMIX	   ; 15
 DEF NUM_SONG_ORIGINS EQU const_value
 
 ; SongArtists indexes (see data/music_player/song_artists.asm)
@@ -78,4 +79,5 @@ DEF NUM_SONG_ORIGINS EQU const_value
 	const COMPOSER_SHINKONETCAVY_SHOCKSLAYER     ; 1b
 	const COMPOSER_JUST_LATE					 ; 1c
 	const COMPOSER_GORDONGOODWIN				 ; 1d
+	const COMPOSER_EARTHWINDFIRE				 ; 1e
 DEF NUM_SONG_ARTISTS EQU const_value

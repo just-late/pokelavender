@@ -180,6 +180,7 @@
 	const MUSIC_MT_LAVENDER					   ; c6
 	const MUSIC_OREDALE_CITY				   ; c7
 	const MUSIC_COUNT_BUBBAS_REVENGE           ; c8
+	const MUSIC_SEPTEMBER					   ; c9
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/special_map_music.asm)

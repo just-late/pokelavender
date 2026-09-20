@@ -21,4 +21,5 @@ SongOrigins:
 	li "Undertale"
 	li "Lav OST"
 	li "BPB"
+	li "Demix"
 	assert_list_length NUM_SONG_ORIGINS

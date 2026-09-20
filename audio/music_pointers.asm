@@ -180,4 +180,5 @@ Music:
 	dba Music_MtLavender
 	dba Music_OredaleCity
 	dba Music_CountBubbasRevenge
+	dba Music_September
 	assert_table_length NUM_MUSIC_SONGS
