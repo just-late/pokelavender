@@ -3242,33 +3242,36 @@ _BeforeYouBeginText::
 SECTION "_ElmText1", ROMX
 _ElmText1::
 	text "Hello! My name is"
-	line "DR. LAVENTON. <PAUSE>I'm"
+	line "PROFESSOR BAOBAB."
 
-	para "the director of"
-	line "BLOSSOM ACADEMY,"
-	cont "in BLOSSOM CITY."
+	para "I'm a #MON"
+	line "PROFESSOR here in"
+	cont "the ATUVA REGION."
 	prompt
 
 SECTION "_ElmText2", ROMX
 _ElmText2::
-	text "Here at BLOSSOM"
-	line "ACADEMY we study"
-	cont "magnificent"
-	cont "creatures that we"
-	cont "call #MON.@"
+	text "In ATUVA,"
+	line "thousands of"
+	cont "#MON migrate"
+	cont "across the land"
+	cont "every year.@"
 	text_end
 
 SECTION "_ElmText4", ROMX
 _ElmText4::
-	text "Some #MON like"
-	line "to battle,"
+	text "Some #MON migrate"
+	line "for food,"
 
-	para "and others help"
-	line "humans out with"
-	cont "tasks,"
+	para "and others make"
+	line "the journey to"
+	cont "escape cold or"
+	cont "hot temperatures."
 
-	para "like my partner"
-	line "AMPHAROS."
+	para "There are many"
+	line "other reasons for"
+	cont "the migration,"
+	cont "though.@"
 	prompt
 
 SECTION "_ElmText5", ROMX
@@ -3277,10 +3280,9 @@ _ElmText5::
 	line "everything about"
 	cont "#MON yet."
 
-	para "That's why you're"
-	line "coming to BLOSSOM"
-	cont "ACADEMY, to study"
-	cont "them."
+	para "That's why I"
+	line "study them in the"
+	cont "field every day!"
 
 	para "Now, enough about"
 	line "me. Tell me about"

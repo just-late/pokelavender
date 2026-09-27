@@ -601,10 +601,10 @@ if !DEF(DEBUG)
 	call FadeToWhite
 	call ClearTileMap
 
-	ld a, LOW(AMPHAROS)
+	ld a, LOW(DONPHAN)
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
-	ld a, HIGH(AMPHAROS) << MON_EXTSPECIES_F
+	ld a, HIGH(DONPHAN) << MON_EXTSPECIES_F
 	ld [wCurForm], a
 	ld [wTempMonForm], a
 	call GetBaseData
@@ -679,12 +679,12 @@ ElmText1:
 ElmText2:
 	text_far _ElmText2
 	text_asm
-;	xor a
-;	ld [wStereoPanningMask], a
-;	ld [wCryTracks], a
-;	ld de, AMPHAROS ;- 1
-;	call PlayCryHeader
-;	call WaitSFX
+	xor a
+	ld [wStereoPanningMask], a
+	ld [wCryTracks], a
+	ld de, DONPHAN - 1
+	call PlayCryHeader
+	call WaitSFX
 	ld hl, ElmText3
 	ret
 
