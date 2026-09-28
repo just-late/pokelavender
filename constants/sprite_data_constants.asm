@@ -50,6 +50,16 @@ ENDM
 	ow_npc_pal_const CORSOLA		   ; 13
 	ow_npc_pal_const RAIN              ; 14
 	ow_npc_pal_const SAND              ; 15
+	ow_npc_pal_const RED_TONE_2		   ; 16
+	ow_npc_pal_const BLUE_TONE_2	   ; 17
+	ow_npc_pal_const GREEN_TONE_2	   ; 18
+	ow_npc_pal_const PURPLE_TONE_2	   ; 19
+	ow_npc_pal_const PINK_TONE_2	   ; 20
+	ow_npc_pal_const RED_TONE_3		   ; 21
+	ow_npc_pal_const BLUE_TONE_3	   ; 22
+	ow_npc_pal_const GREEN_TONE_3	   ; 23
+	ow_npc_pal_const PURPLE_TONE_3	   ; 25
+	ow_npc_pal_const PINK_TONE_3	   ; 26
 DEF NUM_OW_TIME_OF_DAY_PALS EQU const_value
 ; SingleObjectPals indexes (see gfx/overworld/npc_single_object.pal)
 	ow_npc_pal_const EMOTE_GRAY        ; 16
