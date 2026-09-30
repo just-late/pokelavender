@@ -3542,7 +3542,8 @@ BattleAnim_Struggle:
 	anim_ret
 
 BattleAnim_MudFlood:
-	anim_setobjpal PAL_BATTLE_OB_BROWN, PAL_BTLCUSTOM_WATER
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_BROWN
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_WATER
 	anim_2gfx ANIM_GFX_BUBBLE, ANIM_GFX_WATER
 	anim_bgeffect ANIM_BG_SURF, $0, $0, $0
 	anim_obj ANIM_OBJ_SURF, 88, 104, $8
