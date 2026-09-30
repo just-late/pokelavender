@@ -76,5 +76,7 @@
 ; gen 3+
 	const CRY_CHATOT
 	const CRY_GOOMY
+	const CRY_SLIGOO
+	const CRY_GOODRA
 
 DEF NUM_CRIES EQU const_value

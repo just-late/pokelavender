@@ -72,4 +72,6 @@ Cries:
 	fardw Cry_Donphan
 	fardw Cry_Chatot
 	fardw Cry_Goomy
+	fardw Cry_sligoo
+	fardw Cry_goodra
 	assert_table_length NUM_CRIES
