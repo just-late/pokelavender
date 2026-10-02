@@ -2446,7 +2446,7 @@
 ; Gym Leader encounter events
 	const EVENT_RANCID_CONCERT
 ; Atuva Hidden Items
-	const EVENT_WAREHOUSE_TOWN_HIDDEN_ULTRA_BALL
+	const EVENT_LOCOVINE_TOWN_HIDDEN_ULTRA_BALL
 
 	const_next $8ff
 DEF NUM_EVENTS EQU const_value ; 2303

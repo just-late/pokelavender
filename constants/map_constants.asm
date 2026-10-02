@@ -687,7 +687,7 @@ ENDM
 	map_const AIRPLANE_HALLWAY,							   3,  8 ;  3
 
 	newgroup
-	map_const WAREHOUSE_TOWN,							  16, 19 ;  1
-	map_const ROUTE_6,									  35, 16 ;  2
+	map_const LOCOVINE_TOWN,							  15, 19 ;  1
+	map_const ROUTE_6,									  23, 26 ;  2
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

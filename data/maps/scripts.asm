@@ -1060,6 +1060,6 @@ INCLUDE "maps/OredalePokeCenter1F.asm"
 
 SECTION "Warehouse Town Scripts", ROMX
 
-INCLUDE "maps/WarehouseTown.asm"
+INCLUDE "maps/LocovineTown.asm"
 
 ENDSECTION

@@ -2188,7 +2188,7 @@
 	wildmon LEVEL_FROM_BADGES + 3, SNEASEL, HISUIAN_FORM
 	end_grass_wildmons
 
-	def_grass_wildmons WAREHOUSE_TOWN
+	def_grass_wildmons LOCOVINE_TOWN
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 1, MAGIKARP

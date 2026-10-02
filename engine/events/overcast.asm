@@ -1,7 +1,7 @@
 GetOvercastIndex::
 ; Some maps are overcast, depending on certain conditions
 	ld a, [wMapGroup]
-	cp GROUP_WAREHOUSE_TOWN ; GROUP_WAREHOUSE_TOWN
+	cp GROUP_LOCOVINE_TOWN ; GROUP_LOCOVINE_TOWN
 	jr z, .lake_of_rage_route_43
 	cp GROUP_STORMY_BEACH ; GROUP_GOLDENROD_CITY, GROUP_MAGNET_TUNNEL_WEST, GROUP_ROUTE_34, GROUP_ROUTE_34_COAST
 	jr z, .stormy_beach_goldenrod_city_route_34
@@ -12,9 +12,9 @@ GetOvercastIndex::
 .lake_of_rage_route_43:
 ; Lake of Rage and Route 43
 	ld a, [wMapNumber]
-	cp MAP_WAREHOUSE_TOWN
+	cp MAP_LOCOVINE_TOWN
 	jr z, .lake_of_rage
-	cp MAP_ROUTE_43
+	cp MAP_ROUTE_7
 	jr nz, .not_overcast
 .lake_of_rage
 ; Always overcast until civilians appear (Team Rocket beaten)

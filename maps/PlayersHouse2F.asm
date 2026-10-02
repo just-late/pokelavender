@@ -11,7 +11,7 @@ PlayersHouse2F_MapScriptHeader:
 	warp_event  3,  8, MOSSHILL_TOWN, 2
 	warp_event  5,  8, MOONFLOWER_CITY, 3
 	warp_event  7,  8, MARIGOLD_PORT, 1
-	warp_event  9,  8, WAREHOUSE_TOWN, 1
+	warp_event  9,  8, LOCOVINE_TOWN, 1
 	warp_event 11,  8, GRANITE_VILLAGE, 1
 	warp_event 15,  8, OREDALE_CITY, 1
 	warp_event 17,  8, BLOSSOM_GAME_CORNER, 1

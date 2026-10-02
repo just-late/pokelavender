@@ -3,7 +3,7 @@ Marts:
 	dw MosshillMart
 	dw MosshillMartAfterDex
 	dw MoonflowerMart
-	dw AzaleaMart
+	dw LocovineMart
 	dw Goldenrod2FMart1
 	dw Goldenrod2FMart2
 	dw Goldenrod2FMart2Eevee
@@ -79,11 +79,11 @@ MoonflowerMart:
 	db FLOWER_MAIL
 	db -1
 
-AzaleaMart:
+LocovineMart:
 	db 10 ; # items
-	db CHARCOAL
+	db MIRACLE_SEED
 	db POKE_BALL
-	db NET_BALL
+	db REPEAT_BALL
 	db POTION
 	db SUPER_POTION
 	db ESCAPE_ROPE

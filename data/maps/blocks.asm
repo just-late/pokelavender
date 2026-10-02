@@ -500,8 +500,8 @@ SinjohRuins_BlockData:
 AirplaneHallway_BlockData:
 	INCBIN "maps/AirplaneHallway.ablk.lz"
 
-WarehouseTown_BlockData:
-	INCBIN "maps/WarehouseTown.ablk.lz"
+LocovineTown_BlockData:
+	INCBIN "maps/LocovineTown.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:

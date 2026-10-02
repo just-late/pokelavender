@@ -252,7 +252,7 @@ ENDM
 	connection east, Route11, ROUTE_11, 5
 
 	map_attributes Route6, ROUTE_6, $f, WEST ; | EAST
-	connection west, WarehouseTown, WAREHOUSE_TOWN, -1
+	connection west, LocovineTown, LOCOVINE_TOWN, 0
 
 	map_attributes SaffronCity, SAFFRON_CITY, $f, NORTH | WEST | EAST
 	connection north, Route5, ROUTE_5, 5
@@ -352,8 +352,8 @@ ENDM
 
 	map_attributes OredaleCity, OREDALE_CITY, $05, 0
 
-	map_attributes WarehouseTown, WAREHOUSE_TOWN, $43, EAST
-	connection east, Route6, ROUTE_6, 1
+	map_attributes LocovineTown, LOCOVINE_TOWN, $43, EAST
+	connection east, Route6, ROUTE_6, 0
 
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
