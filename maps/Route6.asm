@@ -12,7 +12,7 @@ Route6_MapScriptHeader:
 	def_bg_events
 ;	bg_event
 
-	def_object_events
+	db 17
 	object_event  3,  1, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route6PokefanMText, EVENT_ROUTE_5_6_POKEFAN_M_BLOCKS_UNDERGROUND_PATH
 	object_event  2,  1, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerPokefanmRex, -1
 	object_event  1,  1, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerPokefanmAllan, -1
@@ -21,6 +21,20 @@ Route6_MapScriptHeader:
 	object_event 2, 0, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerYoungsterChaz, -1
 	object_event 3, 0, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGuitaristfWanda, -1
 	object_event 4, 0, SPRITE_OFFICER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 1, OfficerfJennyScript, -1
+	person_event SPRITE_DONPHAN_OW, 11, 17, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+	person_event SPRITE_DONPHAN_OW, 10, 19, SPRITEMOVEDATA_WANDER, 2, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+	person_event SPRITE_DONPHAN_OW,  9, 16, SPRITEMOVEDATA_WANDER, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+	person_event SPRITE_DONPHAN_OW, 26, 12, SPRITEMOVEDATA_WANDER, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+	person_event SPRITE_DONPHAN_OW, 24, 19, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+	person_event SPRITE_DONPHAN_OW, 20, 16, SPRITEMOVEDATA_WANDER, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+	person_event SPRITE_DONPHAN_OW, 22, 15, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+	person_event SPRITE_DONPHAN_OW, 20, 21, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+	person_event SPRITE_DONPHAN_OW, 28, 11, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Route6DonphanScript, EVENT_MIGRATION_STAGE_1_ENDS
+
+Route6DonphanScript:
+	faceplayer
+	cry DONPHAN
+	jumptext Route6DonphanText
 
 GenericTrainerPokefanmRex:
 	generictrainer POKEFANM, REX, EVENT_BEAT_POKEFANM_REX, PokefanmRexSeenText, PokefanmRexBeatenText
@@ -207,4 +221,10 @@ Route6AdvancedTipsSignText:
 	para "can swap their"
 	line "item with the"
 	cont "opponent!"
+	done
+
+Route6DonphanText:
+	text "The DONPHAN"
+	line "huffed out a"
+	cont "greeting."
 	done

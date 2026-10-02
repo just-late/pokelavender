@@ -230,4 +230,5 @@ SpriteHeaders:
 	overworld_sprite PlaneHeads2SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite PlaneHeads3SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite PlaneHeads4SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
+	overworld_sprite DonphanOWGFX, WALKING_SPRITE, PAL_OW_GRAY
 	assert_table_length NUM_OVERWORLD_SPRITES
