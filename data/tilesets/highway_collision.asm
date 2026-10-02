@@ -174,7 +174,7 @@
 	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; ad
 	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; ae
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; af
-	tilecoll WALL, WALL, WARP_CARPET_UP, WARP_CARPET_UP ; b0
+	tilecoll FLOOR, WALL, WALL, WALL ; b0
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; b1
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; b2
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; b3
