@@ -2248,11 +2248,11 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER
-	db "Chaz@"
+	db "CHAZ@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 54, SANDSHREW
-	dbp 55, RATICATE
+	dbp 15, HOOTHOOT
+	dbp 18, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER
@@ -2969,19 +2969,19 @@ TwinsGroup:
 	db -1 ; end
 
 	; TWINS
-	db "Day & Dani@"
+	db "DAY & DANI@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 51, PIKACHU
-	dbp 51, PIKACHU
+	dbp 16, MARILL
+	dbp 16, PIKACHU
 	db -1 ; end
 
 	; TWINS
-	db "Day & Dani@"
+	db "DAY & DANI@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 51, PIKACHU
-	dbp 51, PIKACHU
+	dbp 16, MARILL
+	dbp 16, PIKACHU
 	db -1 ; end
 
 	; TWINS
@@ -4382,18 +4382,18 @@ PokefanMGroup:
 	db -1 ; end
 
 	; POKEFANM
-	db "Rex@"
+	db "REX@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 53, PHANPY
+	dbp 18, PHANPY
 		db SITRUS_BERRY
 	db -1 ; end
 
 	; POKEFANM
-	db "Allan@"
+	db "ALLAN@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 53, TEDDIURSA
+	dbp 18, TEDDIURSA
 		db SITRUS_BERRY
 	db -1 ; end
 
@@ -8320,12 +8320,12 @@ GuitaristFGroup:
 	db -1 ; end
 
 	; GUITARISTF
-	db "Wanda@"
+	db "WANDA@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 53, MAGNEMITE
-	dbp 54, ELECTRODE
-	dbp 55, MAGNETON
+	dbp 14, MAGNEMITE
+	dbp 15, MAGNEMITE
+	dbp 16, MAGNEMITE
 	db -1 ; end
 
 	; GUITARISTF
