@@ -4,32 +4,32 @@ BlossomGameCorner_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event  5, 13, BLOSSOM_CITY, 2
-	warp_event  4, 13, BLOSSOM_CITY, 2
+	warp_event  5, 11, BLOSSOM_CITY, 2
+	warp_event  4, 11, BLOSSOM_CITY, 2
 
     def_coord_events
     
     def_bg_events
-	bg_event  9, 12, BGEVENT_READ, BlossomGameCornerCardFlipScript
+	bg_event  9, 10, BGEVENT_READ, BlossomGameCornerCardFlipScript
 ;	bg_event  8,  1, BGEVENT_READ, BlossomGameCornerPianoLoScript
 ;	bg_event  9,  1, BGEVENT_READ, BlossomGameCornerPianoHiScript
-	bg_event  7,  3, BGEVENT_LEFT, BlossomGameCornerBehindPianoScript
-	bg_event 13, 12, BGEVENT_READ, BlossomGameCornerSlotsScript
-	bg_event 13, 11, BGEVENT_READ, BlossomGameCornerLuckySlotsScript
+	bg_event  7,  1, BGEVENT_LEFT, BlossomGameCornerBehindPianoScript
 	bg_event 13, 10, BGEVENT_READ, BlossomGameCornerSlotsScript
-	bg_event  2, 10, BGEVENT_READ, GameCornerBartenderScript
+	bg_event 13,  9, BGEVENT_READ, BlossomGameCornerLuckySlotsScript
+	bg_event 13,  8, BGEVENT_READ, BlossomGameCornerSlotsScript
+	bg_event  2,  8, BGEVENT_READ, GameCornerBartenderScript
 	
 
     db 9 ; object events
-	person_event SPRITE_GRUNT_2, 10,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameCornerGruntScript, -1
-	person_event SPRITE_BURGLAR,  6,  6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_ROCKER, 12,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC1Text, -1
-	person_event SPRITE_FAT_GUY, 11, 12, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << DAY) | (1 << NITE), PAL_NPC_BLUE_TONE_3, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC2Text, -1
-	person_event SPRITE_POKEFAN_F,  8,  8, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
-	person_event SPRITE_BIRD_KEEPER, 12, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_TONE_2, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_BEAUTY, 11,  3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PINK_TONE_3, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_DITTO_TILES_2, 12,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, BlossomGameCornerCardFlipScript, -1
-	person_event SPRITE_DITTO_TILES_2,  8,  7, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
+	person_event SPRITE_GRUNT_2,  8,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameCornerGruntScript, -1
+	person_event SPRITE_BURGLAR,  4,  6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_ROCKER, 10,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC1Text, -1
+	person_event SPRITE_FAT_GUY,  9, 12, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << DAY) | (1 << NITE), PAL_NPC_BLUE_TONE_3, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC2Text, -1
+	person_event SPRITE_POKEFAN_F,  6,  8, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
+	person_event SPRITE_BIRD_KEEPER, 10, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_TONE_2, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_BEAUTY,  9,  3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PINK_TONE_3, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_DITTO_TILES_2, 10,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, BlossomGameCornerCardFlipScript, -1
+	person_event SPRITE_DITTO_TILES_2,  6,  7, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
 
 	object_const_def
 	const GAMECORNER_BARTENDER
