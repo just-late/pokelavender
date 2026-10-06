@@ -10,7 +10,6 @@ Route6_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event
 
 	db 17
 	object_event  8,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokefanmRex, -1

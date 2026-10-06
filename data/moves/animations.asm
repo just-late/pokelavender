@@ -6317,17 +6317,17 @@ BattleAnim_StatDown:
 	anim_incbgeffect ANIM_BG_FADE_MON_TO_BLACK_REPEATING
 	anim_ret
 
-BattleAnim_Gamble:
-	anim_2gfx ANIM_GFX_ANGELS, ANIM_GFX_HIT
-	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GREEN
-	anim_sound 0, 0, SFX_SLOT_MACHINE_START
-	anim_obj ANIM_OBJ_IN_NIGHTMARE, 6, 3, 11, 6, $0
-	anim_wait 50
-	anim_sound 0, 0, SFX_DAMAGE
-	anim_obj ANIM_OBJ_PUNCH_SHAKE, 128, 51, $43
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $c0, $1, $0
-	anim_wait 40
-	anim_ret
+;BattleAnim_Gamble:
+;	anim_2gfx ANIM_GFX_ANGELS, ANIM_GFX_HIT
+;	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GREEN
+;	anim_sound 0, 0, SFX_SLOT_MACHINE_START
+;	anim_obj ANIM_OBJ_IN_NIGHTMARE, 6, 3, 11, 6, $0
+;	anim_wait 50
+;	anim_sound 0, 0, SFX_DAMAGE
+;	anim_obj ANIM_OBJ_PUNCH_SHAKE, 128, 51, $43
+;	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $c0, $1, $0
+;	anim_wait 40
+;	anim_ret
 
 ; ================================
 ; unused animations below here

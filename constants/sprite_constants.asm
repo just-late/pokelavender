@@ -226,6 +226,7 @@
 	const SPRITE_PLANE_HEADS_3
 	const SPRITE_PLANE_HEADS_4
 	const SPRITE_DONPHAN_OW
+	const SPRITE_GRUNT_2
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

@@ -667,3 +667,6 @@ PlaneHeads4SpriteGFX:: INCBIN "gfx/sprites/plane_heads_4.2bpp.lz"
 
 SECTION "DonphanOWGFX", ROMX
 DonphanOWGFX:: INCBIN "gfx/sprites/donphan_ow.2bpp.lz"
+
+SECTION "Grunt2GFX", ROMX
+Grunt2GFX:: INCBIN "gfx/sprites/grunt_2.2bpp.lz"

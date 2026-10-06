@@ -17,12 +17,11 @@ BlossomGameCorner_MapScriptHeader:
 	bg_event 13, 12, BGEVENT_READ, BlossomGameCornerSlotsScript
 	bg_event 13, 11, BGEVENT_READ, BlossomGameCornerLuckySlotsScript
 	bg_event 13, 10, BGEVENT_READ, BlossomGameCornerSlotsScript
-	bg_event  5,  9, BGEVENT_READ, BlossomGameCornerCoolerScript
-	bg_event  4,  8, BGEVENT_READ, OldFlyerScript
+	bg_event  2, 10, BGEVENT_READ, GameCornerBartenderScript
 	
 
     db 9 ; object events
-	person_event SPRITE_SAILOR, 10,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE_TONE_2, PERSONTYPE_SCRIPT, 0, GameCornerBartenderScript, -1
+	person_event SPRITE_GRUNT_2, 10,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameCornerGruntScript, -1
 	person_event SPRITE_BURGLAR,  6,  6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_ROCKER, 12,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC1Text, -1
 	person_event SPRITE_FAT_GUY, 11, 12, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << DAY) | (1 << NITE), PAL_NPC_BLUE_TONE_3, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC2Text, -1
@@ -34,6 +33,14 @@ BlossomGameCorner_MapScriptHeader:
 
 	object_const_def
 	const GAMECORNER_BARTENDER
+
+GameCornerGruntScript:
+	faceplayer
+	opentext
+	writetext GameCornerGruntNothingShadyText
+	waitbutton
+	closetext
+	end
 
 BlossomGameCornerBehindPianoScript:
 	jumptext GameCornerPianoGraffitiText
@@ -47,13 +54,6 @@ GameCornerBartenderScript:
 
 .CoinShop:
 	jumpstd gamecornercoinvendor
-	end
-
-BlossomGameCornerCoolerScript:
-	showemote EMOTE_SHOCK, GAMECORNER_BARTENDER, 15
-	showtext BartenderCoolerText1
-	applymovement PLAYER, GameCornerWalksToCounter_Movement
-	showtext BartenderCoolerText2
 	end
 
 BlossomGameCornerBoozeSellerScript:
@@ -92,7 +92,7 @@ OldFlyerScript:
 
 BartenderCoinCaseText:
 	text "Welcome to"
-	line "MEOWTH's PLACE."
+	line "BLUE NOTE CORNER."
 
 	para "You'll need a"
 	line "COIN CASE if you"
@@ -100,24 +100,6 @@ BartenderCoinCaseText:
 
 	para "Here,"
 	line "on the house."
-	done
-
-BartenderCoolerText1:
-	text "Woah, kid!"
-	done
-
-BartenderCoolerText2:
-	text "That cooler's got"
-	line "all the booze in"
-	cont "this place!"
-
-	para "I may not be the"
-	line "most law-abiding"
-	cont "guy out there,"
-
-	para "but I'm not about"
-	line "to let some kid"
-	cont "drink that stuff!"
 	done
 
 BlossomGameCornerNPC1Text:
@@ -167,8 +149,23 @@ OldFlyerText:
 	line "will take place"
 	cont "ONLY at 9:00 PM,"
 
-	para "8/20/1932, NEXT"
-	line "SATURDAY NIGHT.”"
+	para "8/20/1943, NEXT"
+	line "FRIDAY NIGHT.”"
+	done
+
+GameCornerGruntNothingShadyText:
+	ntag " PUNK "
+	text "Huh?"
+
+	para "Ain't nothin'"
+	line "shady goin' on,"
+	cont "kiddo!"
+
+	para "You can just…"
+	line "…uh… move along!"
+
+	para "Yeah, mind your"
+	line "own business!"
 	done
 
 GameCornerWalksToCounter_Movement:
