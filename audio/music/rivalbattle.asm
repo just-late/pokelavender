@@ -368,11 +368,7 @@ Music_RivalBattle_Ch1:
 	note D_, 2
 	volume_envelope 5, 8
 	note D#, 2
-	volume_envelope 4, 8
-	note D_, 1
-	volume_envelope 5, 8
-	note D_, 1
-	volume_envelope 6, 8
+	note D_, 2
 	note C_, 1
 	volume_envelope 9, 8
 	note C_, 7
@@ -653,10 +649,8 @@ Music_RivalBattle_Ch2:
 	note D_, 16
 	note D#, 16
 	note D#, 16
-	octave 3
 	duty_cycle 3
 	note C_, 16
-	octave 4
 	note A#, 1
 	rest 1
 	note G_, 1
