@@ -1,10 +1,10 @@
-Music_BattleRival:
+Music_RivalBattle:
 	channel_count 3
-	channel 1, Music_BattleRival_Ch1
-	channel 2, Music_BattleRival_Ch2
-	channel 3, Music_BattleRival_Ch3
+	channel 1, Music_RivalBattle_Ch1
+	channel 2, Music_RivalBattle_Ch2
+	channel 3, Music_RivalBattle_Ch3
 
-Music_BattleRival_Ch1:
+Music_RivalBattle_Ch1:
 	volume 7, 7
 	note_type 12, 7, 7
 	octave 4
@@ -386,7 +386,7 @@ Music_BattleRival_Ch1:
 	note C_, 1
 	sound_ret
 
-Music_BattleRival_Ch2:
+Music_RivalBattle_Ch2:
 	note_type 12, 14, 8
 	octave 5
 	transpose 0, 0
@@ -737,7 +737,7 @@ Music_BattleRival_Ch2:
 	note C_, 12
 	sound_ret
 
-Music_BattleRival_Ch3:
+Music_RivalBattle_Ch3:
 	note_type 12, 1, 0
 	octave 2
 	note C_, 2
