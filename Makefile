@@ -1,6 +1,6 @@
 NAME := pokelav
 MODIFIERS :=
-VERSION := in-progress
+VERSION := demo-1
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
 EXTENSION := gbc
