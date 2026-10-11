@@ -334,7 +334,7 @@ Music_BattleRival_Ch1:
 	note F_, 2
 	note D#, 2
 	note_type 12, 15, 8
-	sound_loop 0, .mainLoop
+	sound_jump .mainLoop
 
 .sub1:
 	note C_, 1
@@ -722,7 +722,7 @@ Music_BattleRival_Ch2:
 	note D_, 2
 	note G_, 2
 	note_type 12, 15, 8
-	sound_loop 0, .mainLoop
+	sound_jump .mainLoop
 
 .sub2:
 	note A#, 2
@@ -1090,7 +1090,7 @@ Music_BattleRival_Ch3:
 	sound_call .sub11
 	note_type 12, 1, 0
 	octave 2
-	sound_loop 0, .mainLoop
+	sound_jump .mainLoop
 
 .sub1:
 	note C_, 2
