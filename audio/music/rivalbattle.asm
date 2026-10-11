@@ -30,7 +30,8 @@ Music_RivalBattle_Ch1:
 	rest 16
 	rest 16
 	rest 4
-	octave 2
+	octave 4
+	volume_envelope 11, 8
 	note D_, 2
 	note D#, 2
 	note F_, 2
@@ -39,9 +40,15 @@ Music_RivalBattle_Ch1:
 	note D#, 2
 	note F_, 2
 	note A#, 2
-	note G_, 12
-	rest 16
-	rest 3
+	note G_, 16
+	note F_, 1
+	rest 1
+	note F_, 1
+	rest 1
+	note F_, 1
+	rest 1
+	note G_, 4
+	rest 5
 	octave 3
 	note_type 6, 5, 8
 	note G_, 1
@@ -105,7 +112,7 @@ Music_RivalBattle_Ch1:
 	note C_, 1
 	volume_envelope 10, 8
 	note C_, 1
-	volume_envelope 12, 8
+	volume_envelope 14, 8
 	note C_, 9
 	volume_envelope 10, 8
 	note C_, 1
@@ -116,26 +123,22 @@ Music_RivalBattle_Ch1:
 	volume_envelope 4, 8
 	note C_, 1
 	octave 3
-	volume_envelope 5, 8
+	volume_envelope 8, 8
 	note A#, 2
 	octave 4
-	volume_envelope 7, 8
-	note C_, 2
-	volume_envelope 9, 8
-	note D_, 2
 	volume_envelope 10, 8
+	note C_, 2
+	volume_envelope 12, 8
+	note D_, 2
 	note F_, 2
-	volume_envelope 9, 8
 	note G_, 2
-	volume_envelope 7, 8
+	volume_envelope 10, 8
 	note D#, 2
-	volume_envelope 5, 8
+	volume_envelope 9, 8
 	note F_, 2
-	volume_envelope 4, 8
+	volume_envelope 8, 8
 	note G_, 1
-	volume_envelope 5, 8
 	note G_, 1
-	volume_envelope 6, 8
 	note C_, 1
 	volume_envelope 9, 8
 	note C_, 7
@@ -165,10 +168,11 @@ Music_RivalBattle_Ch1:
 	note G#, 2
 	note F_, 2
 	note C_, 1
-	note C_, 1
-	volume_envelope 10, 8
+	volume_envelope 8, 3
 	note C_, 1
 	volume_envelope 12, 8
+	note C_, 1
+	volume_envelope 14, 8
 	note C_, 9
 	volume_envelope 10, 8
 	note C_, 1
@@ -179,35 +183,34 @@ Music_RivalBattle_Ch1:
 	volume_envelope 4, 8
 	note C_, 1
 	octave 3
-	volume_envelope 5, 8
+	volume_envelope 7, 8
 	note A#, 2
 	octave 4
-	volume_envelope 7, 8
+	volume_envelope 9, 8
 	note C_, 2
-	volume_envelope 9, 8
+	volume_envelope 11, 8
 	note D_, 2
-	volume_envelope 10, 8
 	note F_, 2
-	volume_envelope 9, 8
 	note A#, 2
-	volume_envelope 7, 8
+	volume_envelope 9, 8
 	note G_, 2
+	volume_envelope 11, 8
 	note D#, 2
-	volume_envelope 4, 8
+	volume_envelope 8, 8
 	note F_, 1
-	volume_envelope 5, 8
+	volume_envelope 9, 8
 	note F_, 1
-	volume_envelope 6, 8
+	volume_envelope 11, 8
+	note G_, 1
+	volume_envelope 13, 8
+	note G_, 7
+	volume_envelope 10, 8
 	note G_, 1
 	volume_envelope 9, 8
-	note G_, 7
+	note G_, 1
 	volume_envelope 8, 8
 	note G_, 1
-	volume_envelope 7, 8
-	note G_, 1
 	volume_envelope 6, 8
-	note G_, 1
-	volume_envelope 5, 8
 	note G_, 1
 	note_type 12, 11, 8
 	rest 16
@@ -261,14 +264,20 @@ Music_RivalBattle_Ch1:
 	octave 4
 	note C_, 4
 	note D_, 16
+	volume_envelope 12, 8
 	note D_, 16
 	note D#, 16
+	volume_envelope 13, 8
 	note D#, 16
+	volume_envelope 14, 8
 	note F_, 16
 	note F_, 16
+	volume_envelope 15, 8
 	note G_, 16
 	note G_, 16
 	octave 5
+	duty_cycle 1
+	volume_envelope 13, 8
 	note C_, 1
 	octave 4
 	rest 1
@@ -333,7 +342,6 @@ Music_RivalBattle_Ch1:
 	note G_, 2
 	note F_, 2
 	note D#, 2
-	note_type 12, 15, 8
 	sound_jump .mainLoop
 
 .sub1:
@@ -353,26 +361,23 @@ Music_RivalBattle_Ch1:
 	volume_envelope 4, 8
 	note C_, 1
 	octave 3
-	volume_envelope 5, 8
+	volume_envelope 7, 8
 	note A#, 2
 	octave 4
-	volume_envelope 7, 8
+	volume_envelope 9, 8
 	note C_, 2
-	volume_envelope 9, 8
+	volume_envelope 11, 8
 	note D_, 2
-	volume_envelope 10, 8
 	note F_, 2
+	note D#, 2
+	volume_envelope 10, 8
+	note D_, 2
 	volume_envelope 9, 8
 	note D#, 2
-	volume_envelope 7, 8
-	note D_, 2
-	volume_envelope 5, 8
-	note D#, 2
+	volume_envelope 8, 8
 	note D_, 2
 	note C_, 1
-	volume_envelope 9, 8
 	note C_, 7
-	volume_envelope 8, 8
 	note C_, 1
 	volume_envelope 7, 8
 	note C_, 1
@@ -444,12 +449,27 @@ Music_RivalBattle_Ch2:
 	octave 1
 	sound_call .sub2
 	rest 4
-	octave 1
-	sound_call .sub2
-	note_type 12, 7, 8
-	rest 16
-	rest 4
+	volume_envelope 8, 8
+	octave 3
+	note A#, 2
 	octave 4
+	note C_, 2
+	note D_, 2
+	note D#, 2
+	note D_, 2
+	note C_, 2
+	note D_, 2
+	note D#, 2
+	note C_, 16
+	note_type 12, 7, 8
+	note D_, 1
+	rest 1
+	note D_, 1
+	rest 1
+	note D_, 1
+	rest 1
+	note D#, 4
+	rest 6
 	note D#, 4
 	rest 2
 	note D#, 4
@@ -639,17 +659,22 @@ Music_RivalBattle_Ch2:
 	rest 2
 	note G_, 2
 	rest 4
+	volume_envelope 9, 8
 	note G_, 6
+	volume_envelope 10, 8
 	note A#, 16
 	note A#, 16
 	octave 4
+	volume_envelope 11, 8
 	note C_, 16
 	note C_, 16
 	note D_, 16
+	volume_envelope 12, 8
 	note D_, 16
+	volume_envelope 13, 8
 	note D#, 16
 	note D#, 16
-	duty_cycle 3
+	volume_envelope 11, 8
 	note C_, 16
 	note A#, 1
 	rest 1
@@ -688,6 +713,7 @@ Music_RivalBattle_Ch2:
 	rest 1
 	note A#, 1
 	rest 1
+	duty_cycle 1
 	note C_, 4
 	note D#, 1
 	note F_, 1
@@ -719,6 +745,7 @@ Music_RivalBattle_Ch2:
 	sound_jump .mainLoop
 
 .sub2:
+	volume_envelope 8, 8
 	note A#, 2
 	octave 2
 	note C_, 2
@@ -732,7 +759,7 @@ Music_RivalBattle_Ch2:
 	sound_ret
 
 Music_RivalBattle_Ch3:
-	note_type 12, 1, 0
+	note_type 12, 1, 4
 	octave 2
 	note C_, 2
 	note G_, 2
@@ -759,18 +786,24 @@ Music_RivalBattle_Ch3:
 	sound_call .sub1
 	octave 1
 	sound_call .sub2
-	note C_, 2
+	octave 3
+	note C_, 1
+	octave 2
+	rest 1
 	note G_, 2
 	note C_, 2
 	note G_, 2
-	note C_, 2
+	octave 3
+	note C_, 1
+	octave 2
+	rest 1
 	note G_, 2
-	note_type 12, 1, 0
+	note_type 12, 1, 4
 	note C_, 2
 	note G_, 2
 	octave 1
 	sound_call .sub2
-	note_type 12, 1, 0
+	note_type 12, 1, 4
 	note C_, 2
 	note G_, 2
 	note C_, 2
@@ -825,6 +858,7 @@ Music_RivalBattle_Ch3:
 	note_type 12, 1, 0
 	rest 1
 	octave 1
+	volume_envelope 1, 4
 	note G#, 1
 	octave 2
 	rest 1
@@ -936,6 +970,7 @@ Music_RivalBattle_Ch3:
 	note_type 12, 1, 0
 	rest 3
 	octave 1
+	volume_envelope 1, 4
 	note G#, 1
 	rest 1
 	note G#, 1
@@ -1010,6 +1045,7 @@ Music_RivalBattle_Ch3:
 	note_type 12, 1, 0
 	rest 2
 	octave 1
+	volume_envelope 1, 4
 	note G#, 2
 	octave 2
 	rest 2
@@ -1087,17 +1123,25 @@ Music_RivalBattle_Ch3:
 	sound_jump .mainLoop
 
 .sub1:
-	note C_, 2
+	octave 3
+	volume_envelope 1, 4
+	note C_, 1
+	rest 1
+	octave 2
 	note G_, 2
 	note C_, 2
 	note G_, 2
-	note C_, 2
+	octave 3
+	note C_, 1
+	octave 2
+	rest 1
 	note G_, 2
 	note C_, 2
 	note G_, 2
 	sound_ret
 
 .sub10:
+	volume_envelope 1, 4
 	note C_, 2
 	note G_, 2
 	note C_, 2
@@ -1125,6 +1169,7 @@ Music_RivalBattle_Ch3:
 	sound_ret
 
 .sub11:
+	volume_envelope 1, 4
 	note C_, 2
 	note G_, 2
 	note C_, 2
@@ -1136,16 +1181,16 @@ Music_RivalBattle_Ch3:
 	sound_ret
 
 .sub2:
-	note A#, 2
 	octave 2
+	note A#, 1
+	rest 1
 	note F_, 2
 	octave 1
 	note A#, 2
 	octave 2
 	note F_, 2
-	octave 1
-	note A#, 2
-	octave 2
+	note A#, 1
+	rest 1
 	note F_, 2
 	octave 1
 	note A#, 2
@@ -1193,6 +1238,7 @@ Music_RivalBattle_Ch3:
 	sound_ret
 
 .sub4:
+	volume_envelope 1, 4
 	note A#, 1
 	octave 2
 	rest 1
@@ -1216,6 +1262,7 @@ Music_RivalBattle_Ch3:
 	sound_ret
 
 .sub5:
+	volume_envelope 1, 4
 	note G#, 1
 	rest 1
 	octave 2
@@ -1239,6 +1286,8 @@ Music_RivalBattle_Ch3:
 	sound_ret
 
 .sub6:
+	octave 2
+	volume_envelope 1, 4
 	note C_, 1
 	rest 1
 	note G_, 1
@@ -1257,6 +1306,7 @@ Music_RivalBattle_Ch3:
 	sound_ret
 
 .sub7:
+	volume_envelope 1, 4
 	note A#, 1
 	rest 1
 	octave 2
@@ -1280,6 +1330,7 @@ Music_RivalBattle_Ch3:
 	sound_ret
 
 .sub8:
+	volume_envelope 1, 4
 	note C_, 1
 	rest 1
 	note C_, 1
