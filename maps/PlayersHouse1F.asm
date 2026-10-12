@@ -151,63 +151,47 @@ MomScript:
 	end
 
 MomIntroText:
-	nametag
-	text " AUNTIE "
-	next
-	text_start
+	ntag " AUNTIE "
 	text "Oh, <PAUSE><PLAYER>!"
 
-	para "The ELDER just"
-	line "came by asking"
-	cont "for you!"
+	para "You're still here?"
 
-	para "He said you"
-	line "should meet him"
-	cont "in the COMMUNITY"
-	cont "CENTER."
+	para "Don't you remember?"
+	line "Today is the day"
+	
+	para "PROF. BAOBAB is"
+	line "giving you a"
+	cont "#MON!"
 
-	para "That's in town."
-	line "You already knew"
-	cont "that, though,"
-	cont "right?"
+	para "You'd better be"
+	line "on your way."
 	done
 
 MomDSTText:
-	nametag
-	text " AUNTIE "
-	next
-	text_start
-	text "Is it Daylight"
-	line "Saving Time now?"
+;	ntag " AUNTIE "
+	text "By the way,"
+	line "is it Daylight"
+	cont "Saving Time now?"
 	done
 
 MomRunningShoesText:
-	nametag
-	text " AUNTIE "
-	next
-	text_start
-	text "By the way, do"
-	line "you know how to"
-
-	para "use your new"
-	line "RUNNING SHOES?"
+;	ntag " AUNTIE "
+	text "Do you remember"
+	line "how to use your"
+	cont "new RUNNING SHOES?"
 	done
 
 MomInstructionsText:
-	nametag
-	text " AUNTIE "
-	next
-	text_start
+;	nametag
+;	text " AUNTIE "
+;	next
+;	text_start
 	text "I'll read the"
 	line "instructions."
 
 	para "Just hold down the"
-	line "B Button to run,"
+	line "B BUTTON to run,"
 	cont "indoors or out."
-
-	para "Or use the OPTION"
-	line "to always run, and"
-	cont "hold B to walk."
 	done
 
 MomOutroText:
