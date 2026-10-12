@@ -4,74 +4,78 @@ GemrootCommunityCenter1F_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event 17, 11, GEMROOT_TOWN, 3  ; 1
-	warp_event 18, 11, GEMROOT_TOWN, 3  ; 2
+	warp_event  1,  8, GEMROOT_TOWN, 3  ; 1
+	warp_event  2,  8, GEMROOT_TOWN, 3  ; 2
 
     def_coord_events
-	coord_event 17,  5, 0, PlayerWalksToAnabel1
-	coord_event 18,  5, 0, PlayerWalksToAnabel2
-	coord_event 17,  4, 0, PickYourMonScript
-	coord_event 18,  4, 0, PickYourMonScript
-;	coord_event 17,  4, 1, AnabelChallengeTrigger1
-;	coord_event 18,  4, 1, AnabelChallengeTrigger2
+	coord_event  4,  3, 0, PlayerWalksToTaylor1
+	coord_event  4,  4, 0, PlayerWalksToTaylor2
+    coord_event  4,  5, 0, PlayerWalksToTaylor3
+	coord_event  3,  3, 1, PickYourMonScript
+	coord_event  3,  2, 1, PickYourMonScript
+    coord_event  3,  4, 1, PickYourMonScript
+    coord_event  3,  5, 1, PickYourMonScript
+	coord_event  3,  2, 2, TaylorChallengeTrigger1
+	coord_event  3,  3, 2, TaylorChallengeTrigger2
+  ;  coord_event  3,  4, 1, TaylorChallengeTrigger3
+   ; coord_event  3,  5, 1, TaylorChallengeTrigger4
 
     def_bg_events
-	bg_event 12,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event 13,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event 14,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event 15,  5, BGEVENT_JUMPTEXT, GemrootCommunityFoodText
-	bg_event 21,  8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
-	bg_event 22,  8, BGEVENT_JUMPTEXT, GemrootAncientMuralText
-	bg_event 20,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event 21,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event 22,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
-	bg_event 23,  5, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 12,  1, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 13,  1, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
+	bg_event 14,  1, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 
-    db 7 ; object events
-	person_event SPRITE_ELDER,  1, 19, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GemrootElderScript, -1
-	object_event 16,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
-	object_event 17,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
-	object_event 18,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
-	person_event SPRITE_ANABEL,  3, 16, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, GemrootAnabelScript, EVENT_ANABEL_IN_COMMUNITYCENTER
-	person_event SPRITE_SAGE,  6, 21, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterSageText, -1
-	person_event SPRITE_POKEFAN_F,  6, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, CommunityCenterLadyText, -1
+    db 5 ; object events
+	person_event SPRITE_OAK,  2,  7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GemrootElderScript, -1
+	object_event  6,  4, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
+	object_event  7,  4, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
+	object_event  8,  4, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
+	person_event SPRITE_RIVAL,  2,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, GemrootTaylorScript, EVENT_TAYLOR_IN_COMMUNITYCENTER
 
     object_const_def
     const GEMROOT_COMMUNITYCENTER_ELDER
     const GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
     const GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
     const GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
-    const GEMROOT_COMMUNITYCENTER_ANABEL
+    const GEMROOT_COMMUNITYCENTER_TAYLOR
 
-PlayerWalksToAnabel1:
-;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+PlayerWalksToTaylor1:
+;   checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
 ;   iftruefwd .skip
-;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
-    applyonemovement PLAYER, step_up
-    applyonemovement PLAYER, step_up
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+;   turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
+    applyonemovement PLAYER, step_right
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
     sjumpfwd GemrootElderGivesMonScript
 .skip
     end
 
-PlayerWalksToAnabel2:
-;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+PlayerWalksToTaylor2:
+;   checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
 ;   iftruefwd .skip
-;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+;   turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
+    applyonemovement PLAYER, step_right
     applyonemovement PLAYER, step_up
+    turnobject PLAYER, RIGHT
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
+    sjumpfwd GemrootElderGivesMonScript
+.skip
+    end
+
+PlayerWalksToTaylor3:
     applyonemovement PLAYER, step_up
-    applyonemovement PLAYER, step_left
-    turnobject PLAYER, UP
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+    applyonemovement PLAYER, step_right
+    applyonemovement PLAYER, step_up
+    turnobject PLAYER, RIGHT
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
     sjumpfwd GemrootElderGivesMonScript
 .skip
     end
 
 PickYourMonScript:
-;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
 ;   iftruefwd .skip
     showtext ElderWaitPickMonText
-    applyonemovement PLAYER, step_up
+    applyonemovement PLAYER, step_right
 .skip
     end
 
@@ -90,27 +94,27 @@ GemrootElderGivesMonScript:
     turnobject GEMROOT_COMMUNITYCENTER_ELDER, DOWN
     end
 
-AnabelChallengeTrigger1:
+TaylorChallengeTrigger1:
     playmusic MUSIC_RIVAL_ENCOUNTER
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
     applyonemovement PLAYER, run_step_right
     turnobject PLAYER, LEFT
-    showtext AnabelChallengeText
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
-    sjumpfwd AnabelChallengeScript
+    showtext TaylorChallengeText
+    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_down
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
+    sjumpfwd TaylorChallengeScript
 
-AnabelChallengeTrigger2:
+TaylorChallengeTrigger2:
     playmusic MUSIC_LYRA_ENCOUNTER_HGSS
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
     turnobject PLAYER, LEFT
-    showtext AnabelChallengeText
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
-AnabelChallengeScript:
-    winlosstext CommunityCenterAnabelWinText, CommunityCenterAnabelLossText
+    showtext TaylorChallengeText
+    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_right
+    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_down
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
+TaylorChallengeScript:
+    winlosstext CommunityCenterTaylorWinText, CommunityCenterTaylorLossText
     checkevent EVENT_GOT_MUDKIP_FROM_ELDER
     iftruefwd .Mudkip
     checkevent EVENT_GOT_TURTWIG_FROM_ELDER
@@ -148,41 +152,41 @@ AnabelChallengeScript:
     sjumpfwd .AfterVictorious
 
 .AfterYourDefeat
-    showtext AnabelIKnewItText
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
-    showtext AnabelThanksForTheMonText
-    applymovement GEMROOT_COMMUNITYCENTER_ANABEL, AnabelLeavesMovement
-    disappear GEMROOT_COMMUNITYCENTER_ANABEL
+    showtext TaylorIKnewItText
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, UP
+    showtext TaylorThanksForTheMonText
+    applymovement GEMROOT_COMMUNITYCENTER_TAYLOR, TaylorLeavesMovement
+    disappear GEMROOT_COMMUNITYCENTER_TAYLOR
     setscene $2
-    setevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    setevent EVENT_ANABEL_MOSSHILL_TOWN
+    setevent EVENT_TAYLOR_IN_COMMUNITYCENTER
+    setevent EVENT_TAYLOR_MOSSHILL_TOWN
     special HealPartyEvenForNuzlocke
     setmapscene GEMROOT_TOWN, $1
     special RestartMapMusic
     end
 
 .AfterVictorious
-    showtext AnabelGoodJobText
-    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
-    showtext AnabelThanksForTheMonText
-    applymovement GEMROOT_COMMUNITYCENTER_ANABEL, AnabelLeavesMovement
-    disappear GEMROOT_COMMUNITYCENTER_ANABEL
+    showtext TaylorGoodJobText
+    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, UP
+    showtext TaylorThanksForTheMonText
+    applymovement GEMROOT_COMMUNITYCENTER_TAYLOR, TaylorLeavesMovement
+    disappear GEMROOT_COMMUNITYCENTER_TAYLOR
     setscene $2
-    setevent EVENT_ANABEL_IN_COMMUNITYCENTER
-    setevent EVENT_ANABEL_MOSSHILL_TOWN
+    setevent EVENT_TAYLOR_IN_COMMUNITYCENTER
+    setevent EVENT_TAYLOR_MOSSHILL_TOWN
     special HealPartyEvenForNuzlocke
     setmapscene GEMROOT_TOWN, $1
     special RestartMapMusic
     end
 
-AnabelChallengeText:
-    text "ANABEL: <PLAYER>!"
+TaylorChallengeText:
+    text "TAYLOR: <PLAYER>!"
     line "Let's have a battle"
 
     para "with our #MON!"
     done
 
-CommunityCenterAnabelWinText:
+CommunityCenterTaylorWinText:
     text "Wow, <PLAYER>! I'll"
     line "keep training my"
 
@@ -190,18 +194,18 @@ CommunityCenterAnabelWinText:
     line "stronger!"
     done
 
-CommunityCenterAnabelLossText:
+CommunityCenterTaylorLossText:
     text "I'll training my"
     line "#MON and get"
     cont "even stronger!"
     done
 
-AnabelIKnewItText:
+TaylorIKnewItText:
     text "<PLAYER>! I knew"
     line "I could beat you!"
     done
 
-AnabelGoodJobText:
+TaylorGoodJobText:
     text "Good job,"
     line "<PLAYER>! For your"
     cont "first battle, that"
@@ -209,7 +213,7 @@ AnabelGoodJobText:
     para "was intense!"
     done
 
-AnabelThanksForTheMonText:
+TaylorThanksForTheMonText:
     text "And MR.ELDER?"
     line "Thanks so much for"
 
@@ -218,7 +222,7 @@ AnabelThanksForTheMonText:
     cont "great!"
     done
 
-AnabelLeavesMovement:
+TaylorLeavesMovement:
     step_down
     step_down
     step_down
@@ -230,7 +234,7 @@ AnabelLeavesMovement:
 GemrootElderScript:
     faceplayer
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
-    iffalsefwd .FindAnabel
+    iffalsefwd .FindTaylor
     iftruefwd .GotMon
     opentext
     writetext ElderPickAMonText
@@ -245,17 +249,17 @@ GemrootElderScript:
     closetext
     end
 
-.FindAnabel
+.FindTaylor
     opentext
-    writetext ElderFindAnabelText
+    writetext ElderFindTaylorText
     waitbutton
     closetext
     end
 
-ElderFindAnabelText:
+ElderFindTaylorText:
     text "Hi, <PLAYER>."
     line "Can you find"
-    cont "ANABEL for me?"
+    cont "TAYLOR for me?"
 
     para "I want to get"
     line "started on giving"
@@ -265,15 +269,15 @@ ElderFindAnabelText:
     line "without her."
     done
 
-GemrootAnabelScript:
+GemrootTaylorScript:
     faceplayer
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
-    iftrue_jumptext AnabelCutePokemonText
+    iftrue_jumptext TaylorCutePokemonText
     jumptext ElderPickAMonText
     end
 
 FirePokeBallScript:
-;   checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;   checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
 ;   iftruefwd .ItsAPokemonScript3
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
@@ -296,16 +300,16 @@ FirePokeBallScript:
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;   applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_right
+;   applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_up
 ;   opentext
-;   writetext AnabelTakesMudkipText
+;   writetext TaylorTakesMudkipText
 ;   waitbutton
 ;   closetext
 ;   disappear GEMROOT_COMMUNITYCENTER_WATER_POKEBALL
-;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-;   turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+;   applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_down
+;   applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_left
+;   turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, UP
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -330,13 +334,13 @@ TakeFireMonText:
     text "Take CYNDAQUIL?"
     done
 
-AnabelTakesMudkipText:
-    text "ANABEL: Then I'll"
+TaylorTakesMudkipText:
+    text "TAYLOR: Then I'll"
     line "take MUDKIP!"
     done
 
 WaterPokeBallScript:
-;    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;    checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
 ;   iftruefwd .ItsAPokemonScript2
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
@@ -359,18 +363,18 @@ WaterPokeBallScript:
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-;   applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_right
-;  applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_right
+;   applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_right
+;  applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_up
 ;    opentext
-;    writetext AnabelTakesTurtwigText
+;    writetext TaylorTakesTurtwigText
 ;    waitbutton
 ;    closetext
 ;    disappear GEMROOT_COMMUNITYCENTER_GRASS_POKEBALL
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_left
-;    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, UP
+;    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_down
+;    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_left
+;    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_left
+;    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, UP
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -395,13 +399,13 @@ TakeWaterMonText:
     text "Take MUDKIP?"
     done
 
-AnabelTakesTurtwigText:
-    text "ANABEL: Then I'll"
+TaylorTakesTurtwigText:
+    text "TAYLOR: Then I'll"
     line "take TURTWIG!"
     done
 
 GrassPokeBallScript:
-;    checkevent EVENT_ANABEL_IN_COMMUNITYCENTER
+;    checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
 ;    iftruefwd .ItsAPokemonScript1
     checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
     iftrue_jumptext BelongsToElderText
@@ -424,15 +428,15 @@ GrassPokeBallScript:
     setevent EVENT_GOT_A_POKEMON_FROM_ELDER
     closetext
     turnobject PLAYER, DOWN
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_up
+;    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_up
 ;    opentext
-;    writetext AnabelTakesCyndaquilText
+;    writetext TaylorTakesCyndaquilText
 ;    waitbutton
 ;    waitbutton
 ;    closetext
 ;    disappear GEMROOT_COMMUNITYCENTER_FIRE_POKEBALL
-;    applyonemovement GEMROOT_COMMUNITYCENTER_ANABEL, step_down
-;    turnobject GEMROOT_COMMUNITYCENTER_ANABEL, RIGHT
+;    applyonemovement GEMROOT_COMMUNITYCENTER_TAYLOR, step_down
+;    turnobject GEMROOT_COMMUNITYCENTER_TAYLOR, RIGHT
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_down
     applyonemovement GEMROOT_COMMUNITYCENTER_ELDER, slow_step_left
@@ -458,12 +462,12 @@ ItsAPokemonText:
     cont "the ELDER." 
     done   
 
-AnabelTakesCyndaquilText:
-    text "ANABEL: Then I'll"
+TaylorTakesCyndaquilText:
+    text "TAYLOR: Then I'll"
     line "take CYNDAQUIL!"
     done
 
-AnabelCutePokemonText:
+TaylorCutePokemonText:
     text "I think your"
     line "#MON is cute,"
     cont "too!"

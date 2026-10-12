@@ -13,8 +13,8 @@ AnabelsHouse2F_MapScriptHeader:
 	bg_event 0, 0, BGEVENT_JUMPTEXT, AnabelBedroomPosterText
 
     db 2 ; object_events
-	person_event SPRITE_ANABEL,  2,  6, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_ANABEL_BEDROOM_SCENE
-	person_event SPRITE_ANABEL,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, AnabelScript, EVENT_ANABEL_AT_HOME
+	person_event SPRITE_ANABEL,  2,  6, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, 0, EVENT_TAYLOR_BEDROOM_SCENE
+	person_event SPRITE_ANABEL,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, AnabelScript, EVENT_TAYLOR_AT_HOME
 
     object_const_def
     const BEDROOM_SCENE_ANABEL
@@ -48,7 +48,7 @@ AnabelBedroomSceneScript:
     playsound SFX_ENTER_DOOR
     waitsfx
     setscene $1
-    clearevent EVENT_ANABEL_IN_COMMUNITYCENTER
+    clearevent EVENT_TAYLOR_IN_COMMUNITYCENTER
     end
 
 AnabelBedroomSceneText1:
