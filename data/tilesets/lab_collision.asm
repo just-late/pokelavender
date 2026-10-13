@@ -59,3 +59,5 @@
 	tilecoll WARP_CARPET_DOWN, FLOOR, WALL, WALL ; 3a
 	tilecoll WALL, WALL, BOOKSHELF, WALL ; 3b
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 3c
+	tilecoll WALL, WALL, WALL, WALL ; 3d
+	tilecoll WALL, WALL, WALL, WALL ; 3e
