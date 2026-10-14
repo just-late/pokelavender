@@ -6317,16 +6317,24 @@ BattleAnim_StatDown:
 	anim_incbgeffect ANIM_BG_FADE_MON_TO_BLACK_REPEATING
 	anim_ret
 
-;BattleAnim_Gamble:
-;	anim_2gfx ANIM_GFX_ANGELS, ANIM_GFX_HIT
-;	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GREEN
-;	anim_sound 0, 0, SFX_SLOT_MACHINE_START
-;	anim_obj ANIM_OBJ_IN_NIGHTMARE, 6, 3, 11, 6, $0
-;	anim_wait 50
-;	anim_sound 0, 0, SFX_DAMAGE
-;	anim_obj ANIM_OBJ_PUNCH_SHAKE, 128, 51, $43
-;	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $c0, $1, $0
-;	anim_wait 40
+;BattleAnim_Dustdevil:
+;	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_BERRY
+;	anim_2gfx ANIM_GFX_HURRICANE, ANIM_GFX_POWDER
+;	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $90, $4, $10
+;	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $4, $0
+;	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
+;	anim_obj ANIM_OBJ_HURRICANE, 132, 56, $38
+;	anim_obj ANIM_OBJ_SANDSTORM, 11, 0, 0, 0, $0
+;	anim_wait 8
+;	anim_obj ANIM_OBJ_SANDSTORM, 9, 0, 0, 0, $1
+;	anim_wait 8
+;	anim_obj ANIM_OBJ_SANDSTORM, 7, 0, 0, 0, $2
+;	anim_wait 4
+;.loop
+;	anim_sound 0, 1, SFX_THUNDER
+;	anim_wait 4
+;	anim_loop 18, .loop
+;	anim_wait 24
 ;	anim_ret
 
 ; ================================
