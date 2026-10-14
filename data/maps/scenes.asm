@@ -99,7 +99,6 @@ MapScenes::
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	scene_var YELLOW_FOREST,                          wYellowForestSceneID
 	scene_var MARIGOLD_PORT,						  wMarigoldPortSceneID
-	scene_var MARIGOLD_GYM,							  wMarigoldGymSceneID
 	scene_var MARIGOLD_CAVE_1F,						  wMarigoldCave1FSceneID
 	scene_var CANYON_DEPTHS,					      wCanyonDepthsSceneID
 ;	scene_var LOCOVINE_TOWN,						  wAlways0SceneID

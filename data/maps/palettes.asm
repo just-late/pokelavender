@@ -74,7 +74,6 @@ ENDM
 	special_bg_pal map,      OREDALE_CITY,				  PAL_TIMEOFDAY, OredaleCityPalette
 	special_bg_pal map,      BLOSSOM_DEPT_STORE_ROOF,     PAL_TIMEOFDAY, BlossomDeptStoreRoofPalette
 	special_bg_pal map,		 BLOSSOM_GAME_CORNER,		  PAL_SINGLE,    GameCornerPalette
-	special_bg_pal map,		 MARIGOLD_GYM,				  PAL_SINGLE,    MarigoldGymPalette
 	special_bg_pal map,		 AIRPLANE_HALLWAY,			  PAL_SINGLE,    AirplaneHallwayPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette

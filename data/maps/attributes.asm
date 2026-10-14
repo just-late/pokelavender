@@ -836,7 +836,6 @@ ENDM
 	map_attributes MarigoldNPCHouse1, MARIGOLD_NPC_HOUSE_1, $0, 0
 	map_attributes MarigoldNPCHouse2, MARIGOLD_NPC_HOUSE_2, $0, 0
 	map_attributes MarigoldBoathouse, MARIGOLD_BOATHOUSE, $0, 0
-	map_attributes MarigoldGym, MARIGOLD_GYM, $0, 0
 	map_attributes MarigoldCave1F, MARIGOLD_CAVE_1F, $9, 0
 	map_attributes MarigoldCave2F, MARIGOLD_CAVE_2F, $9, 0
 	map_attributes DreamWorld, DREAM_WORLD, $45, 0
@@ -848,5 +847,4 @@ ENDM
 	map_attributes JungleQuarter, JUNGLE_QUARTER, $2d, 0
 	map_attributes MountainQuarter, MOUNTAIN_QUARTER, $0, 0
 	map_attributes AcademyPokeCenter, ACADEMY_POKECENTER, $0, 0
-	map_attributes MarigoldGymVent, MARIGOLD_GYM_VENT, $0, 0
 	map_attributes AirplaneHallway, AIRPLANE_HALLWAY, $0, 0

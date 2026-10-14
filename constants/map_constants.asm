@@ -673,13 +673,11 @@ ENDM
 	map_const ROUTE_3_MOONFLOWER_GATE,                     5,  4 ;  1
 	map_const ROUTE_3,                                    22, 26 ;  2
 	map_const ROUTE_3_POKECENTER_1F,                       6,  4 ;  3
-	map_const MARIGOLD_PORT,						      36, 14 ;  4
+	map_const MARIGOLD_PORT,						      27, 14 ;  4
 	map_const MARIGOLD_POKECENTER_1F, 					   6,  4 ;  5
 	map_const MARIGOLD_NPC_HOUSE_1,						   4,  4 ;  6
 	map_const MARIGOLD_NPC_HOUSE_2,						   4,  4 ;  7
 	map_const MARIGOLD_BOATHOUSE,						   4,  4 ;  8
-	map_const MARIGOLD_GYM,                               15, 10 ;  9
-	map_const MARIGOLD_GYM_VENT,						  14,  8 ; 10
 	map_const MARIGOLD_CAVE_1F, 						  19, 15 ; 11
 	map_const MARIGOLD_CAVE_2F,							  15, 17 ; 12
 	map_const DREAM_WORLD, 								  22, 10 ; 13

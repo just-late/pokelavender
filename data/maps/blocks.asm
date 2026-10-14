@@ -303,14 +303,6 @@ SECTION "MarigoldPort_BlockData", ROMX
 MarigoldPort_BlockData:
 	INCBIN "maps/MarigoldPort.ablk.lz"
 
-SECTION "MarigoldPortLowTide_BlockData", ROMX
-MarigoldPortLowTide_BlockData:
-	INCBIN "maps/MarigoldPortLowTide.ablk.lz"
-
-SECTION "MarigoldGym_BlockData", ROMX
-MarigoldGym_BlockData:
-	INCBIN "maps/MarigoldGym.ablk.lz"
-
 SECTION "MarigoldCave1F_BlockData", ROMX
 MarigoldCave1F_BlockData:
 	INCBIN "maps/MarigoldCave1F.ablk.lz"
@@ -1654,10 +1646,6 @@ MountainQuarter_BlockData:
 SECTION "AcademyPokeCenter_BlockData", ROMX
 AcademyPokeCenter_BlockData:
 	INCBIN "maps/AcademyPokeCenter.ablk.lz"
-
-SECTION "MarigoldGymVent_BlockData", ROMX
-MarigoldGymVent_BlockData:
-	INCBIN "maps/MarigoldGymVent.ablk.lz"
 
 SECTION "OredaleCity_BlockData", ROMX
 OredaleCity_BlockData:

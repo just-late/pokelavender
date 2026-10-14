@@ -5,51 +5,43 @@ MarigoldPort_MapScriptHeader:
 
     def_callbacks
 	callback MAPCALLBACK_NEWMAP, MarigoldPortFlyPoint
-	callback MAPCALLBACK_TILES, MarigoldPortTideCallback
 	callback MAPCALLBACK_OBJECTS, CameronCallback
 
     def_warp_events
-	warp_event 61,  9, MARIGOLD_CAVE_1F, 6
-	warp_event 49,  9, MARIGOLD_POKECENTER_1F, 1
-	warp_event 43,  9, MARIGOLD_NPC_HOUSE_1, 1
-	warp_event 55, 15, MARIGOLD_NPC_HOUSE_2, 1
-	warp_event 35, 21, MARIGOLD_BOATHOUSE, 1
-	warp_event 42, 15, MARIGOLD_GYM, 1
+	warp_event 29,  9, MARIGOLD_POKECENTER_1F, 1
+	warp_event 31, 15, MARIGOLD_NPC_HOUSE_1, 1
+	warp_event 23,  9, MARIGOLD_NPC_HOUSE_2, 1
 
     def_coord_events
-	coord_event 12, 16, 0, TyphlosionsQuestTrigger1
-	coord_event 13, 16, 0, TyphlosionsQuestTrigger2
+	coord_event 10, 16, 0, TyphlosionsQuestTrigger1
+	coord_event 11, 16, 0, TyphlosionsQuestTrigger2
 
     def_bg_events
-	bg_event 38, 10, BGEVENT_JUMPTEXT, MarigoldPortSignText
-	bg_event 44, 16, BGEVENT_JUMPTEXT, MarigoldPortGymSignText
-	bg_event 33, 21, BGEVENT_JUMPTEXT, MarigoldBoathouseSignText
+	bg_event 20, 10, BGEVENT_JUMPTEXT, MarigoldPortSignText
 
     db 21 ; object_events
-	person_event SPRITE_BILL, 16, 32, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldPortCameronScript, EVENT_MARIGOLD_PORT_PHOTO
-	person_event SPRITE_SAILOR, 19, 11, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
-	person_event SPRITE_SAILOR, 22, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
-	person_event SPRITE_OFFICER, 12, 17, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
-	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	person_event SPRITE_CUTE_GIRL, 19, 65, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortGirlText, -1
-	pokemon_event 64, 19, FURRET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MarigoldPortFurretText, -1
-	person_event SPRITE_BEACH_GUY, 10, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC4Text, -1
-	object_event 53, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	object_event 53, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	person_event SPRITE_FISHER, 19, 61, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldPortFisherScript, -1
-	person_event SPRITE_LASS, 12, 37, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC1Text, -1
-	person_event SPRITE_BUG_MANIAC, 11, 46, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC2Text, -1
-	person_event SPRITE_CHILD, 16, 48, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC3Text, -1
-	person_event SPRITE_SAILOR, 20, 52, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor1Text, -1
-	person_event SPRITE_SAILOR, 19, 53, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor2Text, -1
-	pokemon_event 51, 19, MACHOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, MarigoldPortMachokeText, -1
-	object_event 32, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	object_event 32, 25, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	object_event 10, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
-	person_event SPRITE_CHILD, 16, 25, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortBeachKidText, EVENT_MARIGOLD_PORT_HIGH_TIDE
-	person_event SPRITE_TWIN, 18, 19, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortBeachKid2Text, EVENT_MARIGOLD_PORT_HIGH_TIDE
+	person_event SPRITE_BILL, 18, 39, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldPortCameronScript, EVENT_MARIGOLD_PORT_PHOTO
+	person_event SPRITE_SAILOR, 19,  9, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
+	person_event SPRITE_SAILOR, 22, 10, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, 0, EVENT_DID_BLAZE_QUEST
+	person_event SPRITE_OFFICER, 12, 15, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
+	object_event  8, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event  8, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	person_event SPRITE_CUTE_GIRL, 19, 47, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortGirlText, -1
+	pokemon_event 46, 19, FURRET, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MarigoldPortFurretText, -1
+	person_event SPRITE_BEACH_GUY, 14, 22, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC4Text, -1
+	object_event 35, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 35, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	person_event SPRITE_FISHER, 19, 43, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldPortFisherScript, -1
+	person_event SPRITE_LASS, 14, 40, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC1Text, -1
+	person_event SPRITE_BUG_MANIAC, 11, 32, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC2Text, -1
+	person_event SPRITE_CHILD, 16, 30, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortNPC3Text, -1
+	person_event SPRITE_SAILOR, 20, 34, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor1Text, -1
+	person_event SPRITE_SAILOR, 19, 35, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPortSailor2Text, -1
+	pokemon_event 33, 19, MACHOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, MarigoldPortMachokeText, -1
+	object_event 43, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event 43, 23, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event  8, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
+	object_event  8, 22, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, PERSONTYPE_COMMAND, jumptext, MarigoldPortSailboatText, -1
 
 	object_const_def
 	const MARIGOLD_PORT_CAMERON
@@ -79,19 +71,6 @@ CameronCallback:
 
 .CameronAppears:
 	appear MARIGOLD_PORT_CAMERON
-	endcallback
-
-MarigoldPortTideCallback:
-	checktime (1 << MORN) | (1 << EVE)
-	iftruefwd .LowTide
-	changemapblocks MarigoldPort_BlockData
-	setevent EVENT_MARIGOLD_PORT_HIGH_TIDE
-	clearevent EVENT_MARIGOLD_PORT_BEACH_ITEM
-	endcallback
-
-.LowTide:
-	changemapblocks MarigoldPortLowTide_BlockData
-	clearevent EVENT_MARIGOLD_PORT_HIGH_TIDE 
 	endcallback
 
 TyphlosionsQuestTrigger1:
