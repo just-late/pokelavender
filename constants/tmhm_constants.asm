@@ -108,7 +108,6 @@ ENDM
 	add_hm STRENGTH     ; $4d
 	add_hm WHIRLPOOL    ; $4e
 	add_hm ROCK_SMASH   ; $4f
-	add_hm DIVE         ; $50
 	add_hm WATERFALL    ; $51
 DEF NUM_HMS = __tmhm_value__ - NUM_TMS - 1
 

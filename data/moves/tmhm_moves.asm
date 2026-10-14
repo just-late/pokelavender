@@ -76,14 +76,13 @@ TMHMMoves:
 	db GYRO_BALL    ; TM73 (Magnet Tunnel)
 	db SWORDS_DANCE ; TM74 (Celadon Dept. Store)
 	assert_table_length NUM_TMS
-	db CUT          ; HM01 (Ilex Forest)
-	db FLY          ; HM02 (Cianwood City)
-	db SURF         ; HM03 (Ecruteak City)
-	db STRENGTH     ; HM04 (Cianwood City)
-	db WHIRLPOOL    ; HM05 (Route 42)
-	db ROCK_SMASH   ; HM06 (Blaze in Moonflower City)
-	db DIVE         ; HM07
-	db WATERFALL    ; HM08
+	db CUT          ; HM01 TODO DEMO
+	db FLY          ; HM02 TODO
+	db SURF         ; HM03 TODO DEMO (?)
+	db STRENGTH     ; HM04 TODO DEMO
+	db WHIRLPOOL    ; HM05 TODO
+	db ROCK_SMASH   ; HM06 TODO DEMO
+	db WATERFALL    ; HM07 TODO
 	assert_table_length NUM_TMS + NUM_HMS
 	db AGILITY      ; MT01 (TODO)
 	db AQUA_TAIL    ; MT02 (Route 4)

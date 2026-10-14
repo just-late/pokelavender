@@ -3721,25 +3721,24 @@ BattleAnim_Conversion:
 	anim_wait 128
 	anim_ret
 
-BattleAnim_Aeroblast:
-	anim_2gfx ANIM_GFX_BEAM, ANIM_GFX_AEROBLAST
-	anim_bgp $1b
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $50, $4, $10
-	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_sound 0, 0, SFX_AEROBLAST
-	anim_obj ANIM_OBJ_AEROBLAST,   9, 0,  11, 0, $0
-	anim_wait 32
-	anim_sound 0, 0, SFX_HYPER_BEAM
-	anim_obj ANIM_OBJ_BEAM,  10, 0,  10, 4, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_HYPER_BEAM
-	anim_obj ANIM_OBJ_BEAM,  12, 0,   9, 4, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_HYPER_BEAM
-	anim_obj ANIM_OBJ_BEAM,  14, 0,   8, 4, $0
-	anim_obj ANIM_OBJ_BEAM_TIP,  15, 6,   7, 6, $0
-	anim_wait 48
-	anim_bgp $e4
+BattleAnim_DustDevil:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_BERRY
+	anim_2gfx ANIM_GFX_HURRICANE, ANIM_GFX_POWDER
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $90, $4, $10
+	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $4, $0
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
+	anim_obj ANIM_OBJ_HURRICANE, 132, 56, $38
+	anim_obj ANIM_OBJ_SANDSTORM, 11, 0, 0, 0, $0
+	anim_wait 8
+	anim_obj ANIM_OBJ_SANDSTORM, 9, 0, 0, 0, $1
+	anim_wait 8
+	anim_obj ANIM_OBJ_SANDSTORM, 7, 0, 0, 0, $2
+	anim_wait 4
+.loop
+	anim_sound 0, 1, SFX_THUNDER
+	anim_wait 4
+	anim_loop 18, .loop
+	anim_wait 24
 	anim_ret
 
 BattleAnim_SeedBomb:
@@ -6316,26 +6315,6 @@ BattleAnim_StatDown:
 	anim_wait 8
 	anim_incbgeffect ANIM_BG_FADE_MON_TO_BLACK_REPEATING
 	anim_ret
-
-;BattleAnim_Dustdevil:
-;	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_BERRY
-;	anim_2gfx ANIM_GFX_HURRICANE, ANIM_GFX_POWDER
-;	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $90, $4, $10
-;	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $4, $0
-;	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
-;	anim_obj ANIM_OBJ_HURRICANE, 132, 56, $38
-;	anim_obj ANIM_OBJ_SANDSTORM, 11, 0, 0, 0, $0
-;	anim_wait 8
-;	anim_obj ANIM_OBJ_SANDSTORM, 9, 0, 0, 0, $1
-;	anim_wait 8
-;	anim_obj ANIM_OBJ_SANDSTORM, 7, 0, 0, 0, $2
-;	anim_wait 4
-;.loop
-;	anim_sound 0, 1, SFX_THUNDER
-;	anim_wait 4
-;	anim_loop 18, .loop
-;	anim_wait 24
-;	anim_ret
 
 ; ================================
 ; unused animations below here

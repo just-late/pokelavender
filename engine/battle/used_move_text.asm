@@ -124,7 +124,7 @@ MoveTable:
 	db MUD_FLOOD
 	db THIEF
 	db CURSE
-	db DIVE
+	db DUST_DEVIL
 	db REVERSAL
 	db PROTECT
 	db MACH_PUNCH

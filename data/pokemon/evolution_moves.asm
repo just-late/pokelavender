@@ -247,7 +247,7 @@ EvolutionMoves::
 	db NO_MOVE      ; SUICUNE
 	db NO_MOVE      ; LARVITAR
 	db DEFENSE_CURL ; PUPITAR
-	db STOMP        ; TYRANITAR
+	db DUST_DEVIL   ; TYRANITAR
 	db NO_MOVE      ; LUGIA
 	db NO_MOVE      ; HO_OH
 	db NO_MOVE      ; CELEBI

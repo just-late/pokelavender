@@ -177,7 +177,7 @@ MoveDescriptions::
 	dw CurseDescription
 	dw GyroBallDescription
 	dw EnergyBallDescription
-	dw DiveDescription
+	dw DustDevilDescription
 	dw SeedBombDescription
 	dw ReversalDescription
 	dw AstonishDescription
@@ -397,6 +397,7 @@ BlizzardDescription:
 	next "freeze the foe."
 	done
 
+DustDevilDescription:
 PsybeamDescription:
 ConfusionDescription:
 DizzyPunchDescription:
@@ -735,11 +736,6 @@ SolarBeamDescription:
 
 FlyDescription:
 	text "1st turn: Fly"
-	next "2nd turn: Attack"
-	done
-
-DiveDescription:
-	text "1st turn: Dive"
 	next "2nd turn: Attack"
 	done
 

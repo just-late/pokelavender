@@ -177,7 +177,7 @@ MoveNames::
 	li "CURSE"
 	li "GYRO BALL"
 	li "ENERGY BALL"
-	li "DIVE"
+	li "DUST DEVIL"
 	li "SEED BOMB"
 	li "REVERSAL"
 	li "ASTONISH"

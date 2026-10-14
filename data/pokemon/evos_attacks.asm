@@ -3404,7 +3404,6 @@ ArticunoPlainEvosAttacks:
 	db 78, BRAVE_BIRD ; Sheer Cold → new move
 	db 85, ROOST
 	db 92, HURRICANE
-	db 99, DIVE ; new move
 	db -1 ; no more level-up moves
 
 ArticunoGalarianEvosAttacks:
@@ -3425,7 +3424,6 @@ ArticunoGalarianEvosAttacks:
 	db 78, BRAVE_BIRD ; Sheer Cold → TR move
 	db 85, RECOVER
 	db 92, HURRICANE
-	db 99, DIVE ; new move
 	db -1 ; no more level-up moves
 
 ZapdosPlainEvosAttacks:
@@ -5665,7 +5663,7 @@ PupitarEvosAttacks:
 
 TyranitarEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, STOMP ; evolution move
+	db 1, DUST_DEVIL ; evolution move
 	db 1, LOW_KICK ; HGSS tutor move
 	db 1, DRAGONBREATH ; GSC TM move
 	db 1, TACKLE ; Sw/Sh move
@@ -5681,6 +5679,7 @@ TyranitarEvosAttacks:
 	db 41, ANCIENTPOWER ; Payback → HGSS tutor move
 	db 47, CRUNCH
 	db 54, EARTHQUAKE
+	db 57, DUST_DEVIL
 	db 63, STONE_EDGE
 	db 73, OUTRAGE ; Hyper Beam → HGSS tutor move
 	db 82, HYPER_BEAM
@@ -5696,7 +5695,6 @@ LugiaEvosAttacks:
 	db 29, RAIN_DANCE
 	db 37, HYDRO_PUMP
 	db 43, DRAGON_PULSE ; Aeroblast → TM move
-	db 50, DIVE ; Punishment → Aeroblast
 	db 57, ANCIENTPOWER
 	db 65, SAFEGUARD
 	db 71, RECOVER
