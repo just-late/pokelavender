@@ -113,7 +113,7 @@ Drumkit7:
 	dr Snare3
 	dr Snare4
 	dr Drum05
-	dr Triangle1
+	dr Timpani2
 	dr Timpani
 	dr Kick2
 	dr Snare5
@@ -311,4 +311,9 @@ Snare15:
 Timpani:
 	noise_note 16, 12, 7, 138
 	noise_note 32, 9, 4, 169
+	sound_ret
+
+Timpani2:
+	noise_note 16, 15, 7, 98
+	noise_note 32, 12, 4, 169
 	sound_ret
