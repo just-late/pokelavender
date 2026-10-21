@@ -7,30 +7,28 @@ ENDM
 Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark  68,  52, GemrootTownName
-	landmark  68,  40, Route1Name
-	landmark  84,  76, MosshillTownName
-	landmark  82,  74, MosshillGroveName
-	landmark  88,  36, Route2Name
-	landmark 100,  36, MoonflowerCityName
-	landmark 112,  52, Route3Name
-	landmark 116,  54, OvercastGroveName
-	landmark 124,  60, MarigoldCaveName
-	landmark 124,  76, MarigoldPortName
-	landmark 108,  84, Route4Name
-	landmark 100,  84, PowerPlantName
-	landmark  68,  76, Route5Name
-	landmark  52,  76, WindwaterTownName
-	landmark  52,  88, Route6Name
-	landmark  52, 100, AtuvaPointName
-	landmark  72,  96, CoralCoveName
-	landmark  52,  68, Route7Name
-	landmark  52,  60, MtLavenderName
-	landmark  52,  52, Route8Name
-	landmark  52,  44, GraniteVillageName
-	landmark  36,  44, Route9Name
-	landmark  36,  28, OredaleCityName
-	landmark  36, 116, BlossomCityName
+	landmark  68,  60, GemrootTownName
+	landmark  68,  44, Route1Name
+	landmark  84,  44, MosshillTownName
+	landmark  96,  44, Route2Name
+	landmark 108,  44, MoonflowerCityName
+	landmark 124,  60, Route3Name
+	landmark 126,  62, OvercastGroveName
+	landmark 124,  84, MarigoldPortName
+	landmark 112,  84, Route4Name
+	landmark 100,  84, MarigoldCaveName
+	landmark  84,  88, Route5Name
+	landmark  68,  84, LocovineTownName
+	landmark  52, 100, Route6Name
+	landmark  52, 116, StormyShoreName
+	landmark  52,  76, Route7Name
+	landmark  52,  68, WindsweptPeakName
+	landmark  44,  68, WindsweptPassName
+	landmark  36,  68, GraniteVillageName
+	landmark  36,  56, Route8Name
+	landmark  36,  44, OredaleCityName
+	landmark  40,  84, Route9Name
+	landmark  28,  84, BlossomCityName
 	assert_table_length KANTO_LANDMARK
 	landmark 108, 124, RadioTowerName
 	landmark 100, 132, GoldenrodHarborName
@@ -157,13 +155,13 @@ MosshillGroveName:	   rawchar "MOSSHILL¯GROVE@"
 MoonflowerCityName:    rawchar "MOONFLOWER¯CITY@"
 MarigoldCaveName:	   rawchar "MARIGOLD¯CAVE@"
 MarigoldPortName:      rawchar "MARIGOLD¯PORT@"
-WindwaterTownName:	   rawchar "WINDWATER¯TOWN@"
-AtuvaPointName:		   rawchar "ATUVA POINT@"
-CoralCoveName:		   rawchar "CORAL COVE@"
-MtLavenderName:		   rawchar "MT.¯LAVENDER@"
+LocovineTownName:	   rawchar "LOCOVINE¯TOWN@"
+StormyShoreName:	   rawchar "STORMY¯SHORE@"
+WindsweptPeakName:	   rawchar "WINDSWEPT¯PEAK@"
 BlossomCityName:	   rawchar "BLOSSOM¯CITY@"
 GraniteVillageName:	   rawchar "GRANITE¯VILLAGE@"
 OredaleCityName:	   rawchar "OREDALE¯CITY@"
+WindsweptPassName:	   rawchar "WINDSWEPT¯PASS@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 OlivineCityName:       rawchar "Olivine¯City@"
 CianwoodCityName:      rawchar "Cianwood¯City@"

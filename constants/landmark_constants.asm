@@ -5,26 +5,24 @@
 	const GEMROOT_TOWN       ; 01
 	const ROUTE_1            ; 02
 	const MOSSHILL_TOWN      ; 03
-	const MOSSHILL_GROVE     ; 04
 	const ROUTE_2            ; 05
 	const MOONFLOWER_CITY    ; 06
 	const ROUTE_3            ; 07
 	const OVERCAST_GROVE     ; 08
-	const MARIGOLD_CAVE      ; 09
 	const MARIGOLD_PORT		 ; 0a
 	const ROUTE_4			 ; 0b
-	const POWER_PLANT        ; 0c
+	const MARIGOLD_CAVE      ; 09
 	const ROUTE_5            ; 0d
-	const WINDWATER_TOWN	 ; 0e
+	const LOCOVINE_TOWN 	 ; 0e
 	const ROUTE_6			 ; 0f
-	const ATUVA_POINT		 ; 10
-	const CORAL_COVE		 ; 11
-	const ROUTE_7			 ; 12
-	const MT_LAVENDER		 ; 13
-	const ROUTE_8			 ; 14
-	const GRANITE_VILLAGE    ; 15
-	const ROUTE_9			 ; 16
-	const OREDALE_CITY       ; 17
+	const STORMY_SHORE       ; 10
+	const ROUTE_7			 ; 11
+	const WINDSWEPT_PEAK     ; 12
+	const WINDSWEPT_PASS	 ; 13
+	const GRANITE_VILLAGE    ; 14
+	const ROUTE_8			 ; 15
+	const OREDALE_CITY       ; 16
+	const ROUTE_9			 ; 17
 	const BLOSSOM_CITY       ; 18
 DEF KANTO_LANDMARK EQU const_value
 	const SPROUT_TOWER       ; 07
