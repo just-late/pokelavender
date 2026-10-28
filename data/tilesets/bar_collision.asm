@@ -39,7 +39,7 @@
 	tilecoll WALL, WALL, COUNTER, FLOOR ; 26
 	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 27
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 28
-	tilecoll WALL, WALL, FLOOR, WALL ; 29
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 29
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 2a
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 2b
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 2c
