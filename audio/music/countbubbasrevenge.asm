@@ -648,13 +648,19 @@ Music_BattleTheCount_Ch3:
 	octave 2
 	sound_call .sub1
 	note F_, 8
-	note F#, 8
-	note G_, 8
+	note F#, 6
+	rest 2
+	note G_, 6
+	rest 2
+	note A#, 6
+	rest 2
+	note A_, 6
+	rest 2
 	note A#, 8
-	note A_, 8
-	note A#, 8
-	note G#, 8
-	note G_, 8
+	note G#, 6
+	rest 2
+	note G_, 6
+	rest 2
 	note F_, 8
 	note D#, 8
 	note D_, 8
@@ -797,16 +803,24 @@ Music_BattleTheCount_Ch3:
 	sound_jump .mainLoop
 
 .sub1:
-	note A#, 4
+	volume_envelope 1, 0
+	note A#, 3
+	rest 1
 	note G#, 4
-	note G_, 4
-	note F_, 4
-	note_type 6, 1, 0
-	note D#, 5
-	note D#, 3
-	note F_, 5
 	note G_, 3
-	note F_, 8
+	rest 1
+	note F_, 2
+	rest 2
+	note_type 6, 1, 0
+	note D#, 4
+	rest 1
+	note D#, 3
+	note F_, 4
+	rest 1
+	note G_, 2
+	rest 1
+	note F_, 6
+	rest 2
 	note D#, 8
 	sound_ret
 
