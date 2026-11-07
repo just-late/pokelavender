@@ -10,7 +10,7 @@ GemrootCommunityCenter1F_MapScriptHeader:
     def_coord_events
 	coord_event  4,  4, 0, PlayerWalksToTaylor1
 	coord_event  4,  5, 0, PlayerWalksToTaylor2
-	coord_event  5,  4, 1, PickYourMonScript
+	coord_event  4,  4, 1, PickYourMonScript
 	coord_event  5,  5, 1, PickYourMonScript
 
     def_bg_events
@@ -18,12 +18,13 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	bg_event 13,  1, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 	bg_event 14,  1, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 
-    db 5 ; object events
+    db 6 ; object events
 	person_event SPRITE_OAK,  4,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GemrootElderScript, -1
 	object_event  6,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
 	object_event  7,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
 	object_event  8,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
-	person_event SPRITE_RIVAL,  3,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, GemrootTaylorScript, EVENT_TAYLOR_IN_COMMUNITYCENTER
+	person_event SPRITE_RIVAL,  3,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, GemrootTaylorScript, EVENT_GOT_A_POKEMON_FROM_ELDER
+	person_event SPRITE_LYRA,  5,  5, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE_TONE_2, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOT_A_POKEMON_FROM_ELDER
 
     object_const_def
     const GEMROOT_LAB_BAOBAB
@@ -31,11 +32,9 @@ GemrootCommunityCenter1F_MapScriptHeader:
     const GEMROOT_LAB_WATER_POKEBALL
     const GEMROOT_LAB_GRASS_POKEBALL
     const GEMROOT_LAB_TAYLOR
+    const GEMROOT_LAB_IZZY
 
 PlayerWalksToTaylor1:
-;   checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
-;   iftruefwd .skip
-;   turnobject GEMROOT_LAB_TAYLOR, RIGHT
     special Special_FadeOutMusic
     playmusic MUSIC_SHOW_ME_AROUND
     applyonemovement PLAYER, step_right
@@ -45,13 +44,10 @@ PlayerWalksToTaylor1:
     end
 
 PlayerWalksToTaylor2:
-;   checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
-;   iftruefwd .skip
-;   turnobject GEMROOT_LAB_TAYLOR, RIGHT
     special Special_FadeOutMusic
     playmusic MUSIC_SHOW_ME_AROUND
-    applyonemovement PLAYER, step_right
     applyonemovement PLAYER, step_up
+    applyonemovement PLAYER, step_right
     turnobject PLAYER, RIGHT
     turnobject GEMROOT_LAB_TAYLOR, RIGHT
     sjumpfwd GemrootElderGivesMonScript
@@ -410,6 +406,9 @@ TaylorChallengeScript:
 
 BaobabPackageRequest:
     pause 5
+    applyonemovement GEMROOT_LAB_BAOBAB, step_down
+    turnobject GEMROOT_LAB_BAOBAB, LEFT
+    turnobject PLAYER, RIGHT
     showtext BaobabNeverChangesText
     pause 2
     showemote EMOTE_SHOCK, GEMROOT_LAB_BAOBAB, 15
@@ -430,6 +429,8 @@ LabCheckStarterPackage:
 LabPackageFinalScript:
     turnobject GEMROOT_LAB_BAOBAB, LEFT
     verbosegivekeyitem GS_BALL
+    waitbutton
+    closetext
 ;    opentext
  ;   writetext BaobabMarigoldPortInstructionsText
     end
@@ -701,8 +702,8 @@ ElderGemrootTraditionText:
     cont "get started."
 
     para "As I am sure"
-    line "you and TAYLOR"
-    cont "here are aware,"
+    line "you three kids"
+    cont "are aware,"
 
     para "many hundreds"
     line "of #MON make a"
@@ -740,10 +741,10 @@ ElderGemrootTraditionText:
 
 GemrootTaylorNoFairText:
     ntag " TAYLOR "
-    text "What?<PAUSE> I was here"
-    line "first!"
+    text "What?<PAUSE> <PLAYER>"
+    line "got here late!"
 
-    para "Why does <PLAYER>"
+    para "Why should they"
     line "get to pick first?"
     done
 
