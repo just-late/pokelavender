@@ -304,8 +304,8 @@ PokemonBodyData:
 	body_data  20,  820, WINGS,		   GREEN  ; FLYGON
 	body_data   7,  230, BIPEDAL,	   BLUE   ; CROAGUNK
 	body_data  13,  444, BIPEDAL,      BLUE   ; TOXICROAK
-	body_data   3,   40, QUADRUPED,	   YELLOW ; KOTORA
-	body_data   8,  120, QUADRUPED,    YELLOW ; RAITORA
+	body_data   3,   80, QUADRUPED,	   YELLOW ; KOTORA
+	body_data  10,  160, QUADRUPED,    YELLOW ; RAITORA
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

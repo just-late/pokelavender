@@ -2971,7 +2971,7 @@ RaitoraPokedexEntry::
 	db   "Male RAITORA will"
 	next "engage in serious"
 	next "wrestling matches"
-	page "to show offeir"
+	page "to show off their"
 	next "strength to the"
 	next "females.@"
 

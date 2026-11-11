@@ -22,6 +22,7 @@ and many more. Please make yourselves known.
 * Ferropexola
 * Gold 97 reforged
 * Oom
+* SourApple
 
 ## Cries:
 * SourApple
@@ -48,6 +49,6 @@ and many more. Please make yourselves known.
 * dwg
 
 ## Special Thanks:
-* Rangi42 for creating the polished crystal engine. This would not have been possible without you.
+* Rangi42 and co. for creating the polished crystal engine. This would not have been possible without you.
 * pret for the pokecrystal disassembly, wiki, and loads of tutorials.
 * Game Freak for creating Pokémon Crystal. Please support the official releases!
