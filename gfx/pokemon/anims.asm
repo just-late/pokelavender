@@ -247,6 +247,8 @@ VibravaAnimation:    INCLUDE "gfx/pokemon/vibrava/anim.asm"
 FlygonAnimation:     INCLUDE "gfx/pokemon/flygon/anim.asm"
 CroagunkAnimation:   INCLUDE "gfx/pokemon/croagunk/anim.asm"
 ToxicroakAnimation:  INCLUDE "gfx/pokemon/toxicroak/anim.asm"
+KotoraAnimation:     INCLUDE "gfx/pokemon/kotora/anim.asm"
+RaitoraAnimation:    INCLUDE "gfx/pokemon/raitora/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

@@ -2955,6 +2955,26 @@ ToxicroakPokedexEntry::
 	next "for greater potent-"
 	next "cy.@"
 
+SECTION "KotoraPokedexEntry", ROMX
+KotoraPokedexEntry::
+	db "Spherical@"
+	db   "Possibly the most"
+	next "marketable #MON"
+	next "there is, KOTORA"
+	page "has been made into"
+	next "dozens of stuffed"
+	next "dolls and toys.@"       
+
+SECTION "RaitoraPokedexEntry", ROMX
+RaitoraPokedexEntry::
+	db "Competitive@"
+	db   "Male RAITORA will"
+	next "engage in serious"
+	next "wrestling matches"
+	page "to show offeir"
+	next "strength to the"
+	next "females.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

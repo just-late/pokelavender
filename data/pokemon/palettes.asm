@@ -605,6 +605,10 @@ INCLUDE "gfx/pokemon/croagunk/normal.pal"
 INCLUDE "gfx/pokemon/croagunk/shiny.pal"
 INCLUDE "gfx/pokemon/toxicroak/normal.pal"
 INCLUDE "gfx/pokemon/toxicroak/shiny.pal"
+INCLUDE "gfx/pokemon/kotora/normal.pal"
+INCLUDE "gfx/pokemon/kotora/shiny.pal"
+INCLUDE "gfx/pokemon/raitora/normal.pal"
+INCLUDE "gfx/pokemon/raitora/shiny.pal"
 	assert_table_length NUM_SPECIES + 1
 
 INCLUDE "gfx/pokemon/gyarados_red/normal.pal"

@@ -301,6 +301,8 @@ OverworldMonIconColors::
 	iconpal GREEN, RED ; FLYGON
 	iconpal ORANGE, BLUE ; CROAGUNK
 	iconpal ORANGE, BLUE ; TOXICROAK
+	iconpal WHITE, YELLOW ; KOTORA
+	iconpal WHITE, YELLOW ; RAITORA
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

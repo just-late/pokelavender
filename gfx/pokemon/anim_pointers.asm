@@ -297,6 +297,8 @@ AnimationPointers:
 	dw FlygonAnimation
 	dw CroagunkAnimation
 	dw ToxicroakAnimation
+	dw KotoraAnimation
+	dw RaitoraAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

@@ -1018,5 +1018,11 @@ CroagunkEggMoves:
 	db VENOSHOCK ; new
 	db $ff
 
+KotoraEggMoves:
+	db PLAY_ROUGH
+	db THUNDER
+	db RAIN_DANCE
+	db $ff
+
 NoEggMoves:
 	db $ff

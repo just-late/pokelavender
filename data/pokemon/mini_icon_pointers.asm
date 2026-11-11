@@ -301,6 +301,8 @@ MiniIconPointers:
 	mini_icon Flygon
 	mini_icon Croagunk
 	mini_icon Croagunk
+	mini_icon Snorlax ; Kotora placeholder
+	mini_icon Snorlax ; Raitora placeholder
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

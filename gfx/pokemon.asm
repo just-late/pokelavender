@@ -1537,6 +1537,14 @@ SECTION "Toxicroak Pics", ROMX
 ToxicroakFrontpic: INCBIN "gfx/pokemon/toxicroak/front.animated.2bpp.lz"
 ToxicroakBackpic:  INCBIN "gfx/pokemon/toxicroak/back.2bpp.lz"
 
+SECTION "Kotora Pics", ROMX
+KotoraFrontpic: INCBIN "gfx/pokemon/kotora/front.animated.2bpp.lz"
+KotoraBackpic: INCBIN "gfx/pokemon/kotora/back.2bpp.lz"
+
+SECTION "Raitora Pics", ROMX
+RaitoraFrontpic: INCBIN "gfx/pokemon/raitora/front.animated.2bpp.lz"
+RaitoraBackpic: INCBIN "gfx/pokemon/raitora/back.2bpp.lz"
+
 SECTION "SneaselPlain Pics", ROMX
 SneaselPlainFrontpic: INCBIN "gfx/pokemon/sneasel_plain/front.animated.2bpp.lz"
 SneaselPlainBackpic:  INCBIN "gfx/pokemon/sneasel_plain/back.2bpp.lz"

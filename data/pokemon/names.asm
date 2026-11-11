@@ -298,4 +298,6 @@ PokemonNames::
 	rawchar "FLYGON@@@@"
 	rawchar "CROAGUNK@@"
 	rawchar "TOXICROAK@"
+	rawchar "KOTORA@@@@"
+	rawchar "RAITORA@@@"
 	assert_table_length NUM_SPECIES + 1

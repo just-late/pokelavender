@@ -297,6 +297,8 @@ FramesPointers:
 	dw FlygonFrames
 	dw CroagunkFrames
 	dw ToxicroakFrames
+	dw KotoraFrames
+	dw RaitoraFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

@@ -124,6 +124,7 @@ AlphabeticalPokedexOrder:
 	dp KINGLER
 	dp KLEAVOR
 	dp KOFFING
+	dp KOTORA
 	dp KRABBY
 	dp LANTURN
 	dp LAPRAS
@@ -211,6 +212,7 @@ AlphabeticalPokedexOrder:
 	dp QWILFISH
 	dp RAICHU
 	dp RAIKOU
+	dp RAITORA
 	dp RAPIDASH
 	dp RATICATE
 	dp RATTATA

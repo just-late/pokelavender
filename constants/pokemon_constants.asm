@@ -319,6 +319,8 @@
 	const FLYGON     ; 127
 	const CROAGUNK   ; 128
 	const TOXICROAK  ; 129
+	const KOTORA	 ; 12a
+	const RAITORA    ; 12b
 DEF NUM_SPECIES EQU const_value - 1 ; 124
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

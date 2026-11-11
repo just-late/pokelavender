@@ -297,6 +297,8 @@ BitmasksPointers:
 	dw FlygonBitmasks
 	dw CroagunkBitmasks
 	dw ToxicroakBitmasks
+	dw SnorlaxBitmasks ; kotora temp
+	dw SnorlaxBitmasks ; raitora temp
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

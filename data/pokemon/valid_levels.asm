@@ -298,4 +298,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  45, 100 ; Flygon
 	db   1,  40 ; Croagunk
 	db  37, 100 ; Toxicroak
+	db   1,  34 ; Kotora
+	db  35, 100 ; Raitora
 	assert_table_length NUM_SPECIES

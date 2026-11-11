@@ -301,6 +301,8 @@ PokemonPicPointers::
 	pics Flygon
 	pics Croagunk
 	pics Toxicroak
+	pics Kotora
+	pics Raitora
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

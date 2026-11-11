@@ -298,6 +298,8 @@ PokedexDataPointerTable:
 	dba FlygonPokedexEntry
 	dba CroagunkPokedexEntry
 	dba ToxicroakPokedexEntry
+	dba KotoraPokedexEntry
+	dba RaitoraPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

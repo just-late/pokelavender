@@ -126,8 +126,8 @@ DebugPosterScript:
 	writetext DebugPosterTeamText
 	yesorno
 	iffalsefwd .NoScript
-	givepoke FLYGON, PLAIN_FORM, 50, NO_ITEM, CHERISH_BALL
-	givepoke TYRANITAR, PLAIN_FORM, 60, NO_ITEM, CHERISH_BALL, DUST_DEVIL
+	givepoke KOTORA, PLAIN_FORM, 15, NO_ITEM, POKE_BALL
+	givepoke RAITORA, PLAIN_FORM, 35, NO_ITEM, POKE_BALL, WILD_CHARGE
 	givekeyitem GBC_SOUNDS
 	givekeyitem WAILMER_PAIL
 	setflag ENGINE_POKEDEX

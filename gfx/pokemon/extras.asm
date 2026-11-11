@@ -246,6 +246,8 @@ VibravaAnimationExtra:    INCLUDE "gfx/pokemon/vibrava/anim_idle.asm"
 FlygonAnimationExtra:     INCLUDE "gfx/pokemon/flygon/anim_idle.asm"
 CroagunkAnimationExtra:   INCLUDE "gfx/pokemon/croagunk/anim_idle.asm"
 ToxicroakAnimationExtra:  INCLUDE "gfx/pokemon/toxicroak/anim_idle.asm"
+KotoraAnimationExtra:     INCLUDE "gfx/pokemon/kotora/anim_idle.asm"
+RaitoraAnimationExtra:    INCLUDE "gfx/pokemon/raitora/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

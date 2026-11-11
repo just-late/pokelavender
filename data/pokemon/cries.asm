@@ -303,4 +303,6 @@ PokemonCries::
 	mon_cry CRY_KRABBY,      $cda,  $132 ; Flygon SourApple
 	mon_cry CRY_DIGLETT,    -$133,  $125 ; Croagunk Ax6
 	mon_cry CRY_SLOWKING,    $002,  $2c6 ; Toxicroak Ax6
+	mon_cry CRY_RAIKOU,	     $020,  $0e1 ; Kotora
+	mon_cry CRY_DUNSPARCE,	 $049,  $0e1 ; Raitora
 	assert_table_length NUM_SPECIES

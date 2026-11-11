@@ -47,9 +47,8 @@ NewPokedexOrder:
 	dp IGGLYBUFF
 	dp JIGGLYPUFF
 	dp WIGGLYTUFF
-	dp GOOMY
-	dp TOGETIC
-	dp TOGEKISS
+	dp KOTORA
+	dp RAITORA
 	dp SANDSHREW
 	dp SANDSLASH
 	dp EKANS
@@ -292,6 +291,9 @@ NewPokedexOrder:
 	dp LARVITAR
 	dp PUPITAR
 	dp TYRANITAR
+	dp GOOMY
+	dp TOGETIC
+	dp TOGEKISS
 	dp LUGIA
 	dp HO_OH
 	dp MEWTWO

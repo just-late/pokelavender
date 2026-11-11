@@ -297,6 +297,8 @@ EggMovePointers::
 	dw NoEggMoves			  ; Flygon
 	dw CroagunkEggMoves		  ; Croagunk
 	dw NoEggMoves			  ; Toxicroak
+	dw KotoraEggMoves		  ; Kotora
+	dw NoEggMoves			  ; Raitora
 	assert_table_length NUM_SPECIES
 
 	dw NoEggMoves                ; Gyarados (Red Form)

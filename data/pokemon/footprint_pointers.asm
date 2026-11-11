@@ -297,6 +297,8 @@ FootprintPointers::
 	dw FlygonFootprint
 	dw CroagunkFootprint
 	dw ToxicroakFootprint
+	dw SnorlaxFootprint ; Kotora temp
+	dw SnorlaxFootprint ; Raitora temp
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

@@ -332,6 +332,8 @@ INCLUDE "data/pokemon/base_stats/vibrava.asm"
 INCLUDE "data/pokemon/base_stats/flygon.asm"
 INCLUDE "data/pokemon/base_stats/croagunk.asm"
 INCLUDE "data/pokemon/base_stats/toxicroak.asm"
+INCLUDE "data/pokemon/base_stats/kotora.asm"
+INCLUDE "data/pokemon/base_stats/raitora.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

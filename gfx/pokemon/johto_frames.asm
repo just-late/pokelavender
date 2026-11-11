@@ -135,6 +135,8 @@ VibravaFrames:    INCLUDE "gfx/pokemon/vibrava/frames.asm"
 FlygonFrames:     INCLUDE "gfx/pokemon/flygon/frames.asm"
 CroagunkFrames:   INCLUDE "gfx/pokemon/croagunk/frames.asm"
 ToxicroakFrames:  INCLUDE "gfx/pokemon/toxicroak/frames.asm"
+KotoraFrames:     INCLUDE "gfx/pokemon/kotora/frames.asm"
+RaitoraFrames:    INCLUDE "gfx/pokemon/raitora/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

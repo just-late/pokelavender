@@ -297,6 +297,8 @@ EvolutionMoves::
 	db SANDSTORM	; FLYGON
 	db NO_MOVE		; CROAGUNK
 	db NO_MOVE  	; TOXICROAK
+	db NO_MOVE		; KOTORA
+	db WILD_CHARGE	; RAITORA
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

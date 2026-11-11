@@ -6582,6 +6582,47 @@ ToxicroakEvosAttacks: ; based on gen 4 set
 	db 54, CRUNCH
 	db -1  ; no more level-up moves
 
+KotoraEvosAttacks: ; new learnset based on SW97
+	evo_data EVOLVE_LEVEL, 35, RAITORA
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db 1, LEER
+	db 6, THUNDER_WAVE
+	db 11, THUNDERSHOCK
+	db 14, QUICK_ATTACK
+	db 16, BITE
+	db 19, ROAR
+	db 24, PURSUIT
+	db 30, SCARY_FACE
+	db 35, THUNDERBOLT
+	db 40, AGILITY
+	db 43, CRUNCH
+	db 46, VOLT_SWITCH
+	db 50, SCREECH
+	db 54, TAKE_DOWN
+	db -1 ; no more level-up moves
+
+RaitoraEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, WILD_CHARGE ; evolution move
+	db 1, TACKLE
+	db 1, LEER
+	db 6, THUNDER_WAVE
+	db 12, THUNDERSHOCK
+	db 16, QUICK_ATTACK
+	db 20, BITE
+	db 25, ROAR
+	db 30, PURSUIT
+	db 33, SCARY_FACE
+	db 35, THUNDERBOLT
+	db 40, AGILITY
+	db 45, CRUNCH
+	db 49, VOLT_SWITCH
+	db 53, SCREECH
+	db 56, TAKE_DOWN
+	db 60, THUNDER
+	db -1 ; no more level-up moves
+
 EggEvosAttacks::
 	db -1 ; no more evolutions
 	db -1 ; no more level-up moves

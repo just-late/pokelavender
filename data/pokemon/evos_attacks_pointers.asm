@@ -301,6 +301,8 @@ EvosAttacksPointers::
 	dw FlygonEvosAttacks
 	dw CroagunkEvosAttacks
 	dw ToxicroakEvosAttacks
+	dw KotoraEvosAttacks
+	dw RaitoraEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
