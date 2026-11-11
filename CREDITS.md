@@ -19,6 +19,9 @@ and many more. Please make yourselves known.
 * Farore
 * Megaman-Omega
 * PokeWilds
+* Ferropexola
+* Gold 97 reforged
+* Oom
 
 ## Cries:
 * SourApple
