@@ -231,8 +231,8 @@ PokemonBodyData:
 	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
 	body_data   4,   12, WINGS,        BLUE   ; SWABLU
 	body_data  11,  206, WINGS,        BLUE   ; ALTARIA
-	body_data   9,  160, WINGS,        RED    ; DELIBIRD
-	body_data  21, 2200, WINGS,        PURPLE ; MANTINE
+	body_data  10,  750, HEAD_LEGS,    WHITE  ; WOLFRUNT
+	body_data  20, 2230, HEAD_LEGS,	   WHITE  ; WARWOLF
 	body_data  17,  505, WINGS,        GRAY   ; SKARMORY
 	body_data   6,  108, QUADRUPED,    BLACK  ; HOUNDOUR
 	body_data  14,  350, QUADRUPED,    BLACK  ; HOUNDOOM
@@ -293,7 +293,7 @@ PokemonBodyData:
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
-	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
+	body_data  25,  605, FINS,         BLUE   ; NUMBPUFF
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
@@ -304,8 +304,8 @@ PokemonBodyData:
 	body_data  20,  820, WINGS,		   GREEN  ; FLYGON
 	body_data   7,  230, BIPEDAL,	   BLUE   ; CROAGUNK
 	body_data  13,  444, BIPEDAL,      BLUE   ; TOXICROAK
-	body_data   3,   80, QUADRUPED,	   YELLOW ; KOTORA
-	body_data  10,  160, QUADRUPED,    YELLOW ; RAITORA
+	body_data   3,   80, HEAD_LEGS,	   YELLOW ; KOTORA
+	body_data  10,  200, QUADRUPED,    YELLOW ; RAITORA
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

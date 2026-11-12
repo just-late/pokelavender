@@ -224,8 +224,8 @@ EggMovePointers::
 	dw CorsolaPlainEggMoves   ; Corsola
 	dw SwabluEggMoves         ; Swablu
 	dw NoEggMoves             ; Altaria
-	dw DelibirdEggMoves       ; Delibird
-	dw NoEggMoves             ; Mantine
+	dw WolfruntEggMoves		  ; Wolfrunt
+	dw NoEggMoves			  ; Warwolf
 	dw SkarmoryEggMoves       ; Skarmory
 	dw HoundourEggMoves       ; Houndour
 	dw NoEggMoves             ; Houndoom
@@ -286,7 +286,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Kleavor
 	dw NoEggMoves             ; Ursaluna
 	dw NoEggMoves             ; Sneasler
-	dw NoEggMoves             ; Overqwil
+	dw NoEggMoves             ; Numbpuff
 	dw NoEggMoves             ; Dudunsparce
 	dw NoEggMoves             ; Farigiraf
 	dw NoEggMoves             ; Clodsire

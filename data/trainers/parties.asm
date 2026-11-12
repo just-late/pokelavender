@@ -119,7 +119,7 @@ JackyGroup:
 	dbp 60, MAGNETON
 		db EVIOLITE
 		db THUNDERBOLT, FLASH_CANNON, THUNDER_WAVE, LIGHT_SCREEN
-	dbp 60, OVERQWIL
+	dbp 60, NUMBPUFF
 		db LEFTOVERS
 		db EXPLOSION, POISON_JAB, TOXIC_SPIKES, DARK_PULSE
 	dbp 60, TOGETIC
@@ -3248,7 +3248,7 @@ FisherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp LEVEL_FROM_BADGES + 0, GOLDEEN
-	dbp LEVEL_FROM_BADGES + 2, MANTINE
+	dbp LEVEL_FROM_BADGES + 2, NUMBPUFF
 	db -1 ; end
 
 	; FISHER
@@ -3261,7 +3261,7 @@ FisherGroup:
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp LEVEL_FROM_BADGES + 5, MAGIKARP, MALE | MAGIKARP_TIGER_FORM
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp LEVEL_FROM_BADGES + 5, MANTINE, MALE
+	dbp LEVEL_FROM_BADGES + 5, NUMBPUFF, MALE
 		db ABILITY_1 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -3326,7 +3326,7 @@ FisherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 60, LANTURN
-	dbp 56, MANTINE
+	dbp 56, NUMBPUFF
 	db -1 ; end
 
 	; FISHER
@@ -4365,7 +4365,7 @@ PokefanMGroup:
 	db "Colin@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 49, DELIBIRD
+	dbp 49, WARWOLF
 		db SITRUS_BERRY
 	db -1 ; end
 
@@ -7156,7 +7156,7 @@ SwimmerMGroup:
 	db "Frank@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 6, MANTINE
+	dbp LEVEL_FROM_BADGES + 6, NUMBPUFF
 	db -1 ; end
 
 	; SWIMMERM
@@ -7448,7 +7448,7 @@ SwimmerFGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp LEVEL_FROM_BADGES + 1, SWABLU
-	dbp LEVEL_FROM_BADGES + 3, MANTINE
+	dbp LEVEL_FROM_BADGES + 3, NUMBPUFF
 	db -1 ; end
 
 	; SWIMMERF
@@ -7493,7 +7493,7 @@ SwimmerFGroup:
 	db "Woda@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 57, MANTINE
+	dbp 57, NUMBPUFF
 	dbp 57, ALTARIA
 	db -1 ; end
 
@@ -7504,7 +7504,7 @@ SwimmerFGroup:
 	dbp 53, SWABLU
 	dbp 53, SWABLU
 	dbp 53, SWABLU
-	dbp 55, MANTINE
+	dbp 55, NUMBPUFF
 	db -1 ; end
 
 	; SWIMMERF
@@ -10790,7 +10790,7 @@ MarlonGroup:
 		ev_spread 200 Spe
 	dbp 34, BLASTOISE
 		ev_spread 200 HP
-	dbp 35, MANTINE
+	dbp 35, NUMBPUFF
 		ev_spread 200 Def
 	dbp 34, STARMIE
 		ev_spread 200 SAt
@@ -10807,7 +10807,7 @@ MarlonGroup:
 		ev_spread 68 SAt, 252 Spe
 	dbp 58, BLASTOISE
 		ev_spread 252 HP, 68 SAt
-	dbp 59, MANTINE
+	dbp 59, NUMBPUFF
 		ev_spread 68 HP, 252 Def
 	dbp 58, STARMIE
 		ev_spread 252 SAt, 68 Spe
@@ -10823,7 +10823,7 @@ MarlonGroup:
 	dbp 72, QUAGSIRE
 	dbp 75, TENTACRUEL
 	dbp 73, BLASTOISE
-	dbp 74, MANTINE
+	dbp 74, NUMBPUFF
 	dbp 73, STARMIE
 	dbp 72, CLOYSTER
 	db -1 ; end
@@ -10981,7 +10981,7 @@ PiersGroup:
 	; party
 	; TODO: movesets, etc
 	dbp LEVEL_FROM_BADGES + 12, HONCHKROW, MALE
-	dbp LEVEL_FROM_BADGES + 16, OVERQWIL, MALE
+	dbp LEVEL_FROM_BADGES + 16, NUMBPUFF, MALE
 	dbp LEVEL_FROM_BADGES + 16, MUK, MALE | ALOLAN_FORM
 	dbp LEVEL_FROM_BADGES + 14, PERSIAN, MALE | ALOLAN_FORM
 if DEF(FAITHFUL)

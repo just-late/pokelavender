@@ -224,8 +224,8 @@ AnimationPointers:
 	dw CorsolaPlainAnimation
 	dw SwabluAnimation
 	dw AltariaAnimation
-	dw DelibirdAnimation
-	dw MantineAnimation
+	dw WolfruntAnimation
+	dw WarwolfAnimation
 	dw SkarmoryAnimation
 	dw HoundourAnimation
 	dw HoundoomAnimation
@@ -286,7 +286,7 @@ AnimationPointers:
 	dw KleavorAnimation
 	dw UrsalunaAnimation
 	dw SneaslerAnimation
-	dw OverqwilAnimation
+	dw NumbpuffAnimation
 	dw DudunsparceTwoSegmentAnimation
 	dw FarigirafAnimation
 	dw ClodsireAnimation

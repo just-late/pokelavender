@@ -1,0 +1,18 @@
+	db  90, 100, 100,  65,  85,  65 ; 505 BST
+	;   hp  atk  def  spd  sat  sdf
+
+    db WATER, ELECTRIC ; type
+    db 35 ; catch rate
+    db 190 ; base exp
+    db NO_ITEM, POISON_BARB ; items
+    dn GENDER_F75, HATCH_MEDIUM_SLOW ; gender ratio
+
+    abilities_for NUMBPUFF, STATIC, UNAWARE, LIQUID_OOZE
+    db GROWTH_MEDIUM_FAST ; growth rate
+    dn EGG_WATER_2, EGG_WATER_2
+
+    ev_yield 3 SDf
+
+    ; tm/hm learnset
+    tmhm CURSE, TOXIC, VENOSHOCK, HIDDEN_POWER, PROTECT, THUNDERBOLT, THUNDER, RETURN, DOUBLE_TEAM, SUBSTITUTE, REST, ATTRACT, SCALD, THUNDER_WAVE, EXPLOSION, VOLT_SWITCH, SURF, WHIRLPOOL, WATERFALL, AGILITY, AQUA_TAIL, BATON_PASS, ROLLOUT, SKILL_SWAP, SWAGGER, ZAP_CANNON, ZEN_HEADBUTT
+    ; end

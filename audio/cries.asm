@@ -166,12 +166,6 @@ Cry_Entei:
 	channel 6, Cry_Entei_Ch6
 	channel 8, Cry_Entei_Ch8
 
-Cry_Mantine:
-	channel_count 3
-	channel 5, Cry_Mantine_Ch5
-	channel 6, Cry_Mantine_Ch6
-	channel 8, Cry_Mantine_Ch8
-
 Cry_Entei_Ch5:
 	pitch_sweep 15, -7
 	duty_cycle_pattern 1, 2, 0, 3
@@ -668,37 +662,31 @@ Cry_Typhlosion_Ch8:
 
 Cry_Natu_Ch5:
 	duty_cycle_pattern 3, 1, 3, 2
-Cry_Mantine_branch_f32e9:
 Cry_Remoraid_branch_f32e9:
 	square_note 4, 15, 8, 1969
 	square_note 4, 15, 8, 1968
 	square_note 4, 4, 8, 1967
-Cry_Mantine_branch_f32f5:
 	square_note 4, 15, 8, 1970
 	square_note 4, 15, 8, 1971
 	square_note 4, 4, 8, 1972
 	sound_ret
 
-Cry_Mantine_branch_f3302:
 Cry_Natu_Ch6:
 Cry_Remoraid_Ch6:
 	duty_cycle_pattern 3, 3, 0, 2
 	square_note 4, 15, 8, 1970
 	square_note 4, 15, 8, 1969
 	square_note 4, 2, 8, 1968
-Cry_Mantine_branch_f3310:
 	square_note 4, 15, 8, 1972
 	square_note 4, 15, 8, 1974
 	square_note 4, 4, 8, 1976
 	sound_ret
 
-Cry_Mantine_branch_f331d:
 Cry_Natu_Ch8:
 Cry_Remoraid_Ch8:
 	noise_note 4, 8, 8, 5
 	noise_note 4, 8, 8, 4
 	noise_note 4, 3, 8, 3
-Cry_Mantine_branch_f3326:
 	noise_note 4, 8, 8, 5
 	noise_note 4, 8, 8, 4
 	noise_note 4, 8, 7, 4
@@ -712,22 +700,6 @@ Cry_Teddiursa_Ch8:
 Cry_Remoraid_Ch5:
 	duty_cycle 0
 	sound_jump Cry_Remoraid_branch_f32e9
-
-Cry_Mantine_Ch5:
-	duty_cycle 0
-	sound_call Cry_Mantine_branch_f32e9
-	sound_call Cry_Mantine_branch_f32f5
-	sound_ret
-
-Cry_Mantine_Ch6:
-	sound_call Cry_Mantine_branch_f3302
-	sound_call Cry_Mantine_branch_f3310
-	sound_ret
-
-Cry_Mantine_Ch8:
-	sound_call Cry_Mantine_branch_f331d
-	sound_call Cry_Mantine_branch_f3326
-	sound_ret
 
 Cry_Ampharos_Ch5:
 	duty_cycle_pattern 3, 1, 3, 2

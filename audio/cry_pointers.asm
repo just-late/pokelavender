@@ -59,7 +59,6 @@ Cries:
 	fardw Cry_Ledyba
 	fardw Cry_Entei
 	fardw Cry_Wooper
-	fardw Cry_Mantine
 	fardw Cry_Typhlosion
 	fardw Cry_Natu
 	fardw Cry_Teddiursa

@@ -732,13 +732,13 @@ SECTION "Altaria Pics", ROMX
 AltariaFrontpic: INCBIN "gfx/pokemon/altaria/front.animated.2bpp.lz"
 AltariaBackpic:  INCBIN "gfx/pokemon/altaria/back.2bpp.lz"
 
-SECTION "Delibird Pics", ROMX
-DelibirdFrontpic: INCBIN "gfx/pokemon/delibird/front.animated.2bpp.lz"
-DelibirdBackpic:  INCBIN "gfx/pokemon/delibird/back.2bpp.lz"
+SECTION "Wolfrunt Pics", ROMX
+WolfruntFrontpic: INCBIN "gfx/pokemon/wolfrunt/front.animated.2bpp.lz"
+WolfruntBackpic:  INCBIN "gfx/pokemon/wolfrunt/back.2bpp.lz"
 
-SECTION "Mantine Pics", ROMX
-MantineFrontpic: INCBIN "gfx/pokemon/mantine/front.animated.2bpp.lz"
-MantineBackpic:  INCBIN "gfx/pokemon/mantine/back.2bpp.lz"
+SECTION "Warwolf Pics", ROMX
+WarwolfFrontpic: INCBIN "gfx/pokemon/warwolf/front.animated.2bpp.lz"
+WarwolfBackpic:  INCBIN "gfx/pokemon/warwolf/back.2bpp.lz"
 
 SECTION "Skarmory Pics", ROMX
 SkarmoryFrontpic: INCBIN "gfx/pokemon/skarmory/front.animated.2bpp.lz"
@@ -1491,9 +1491,9 @@ SECTION "QwilfishHisuian Pics", ROMX
 QwilfishHisuianFrontpic: INCBIN "gfx/pokemon/qwilfish_hisuian/front.animated.2bpp.lz"
 QwilfishHisuianBackpic:  INCBIN "gfx/pokemon/qwilfish_hisuian/back.2bpp.lz"
 
-SECTION "Overqwil Pics", ROMX
-OverqwilFrontpic: INCBIN "gfx/pokemon/overqwil/front.animated.2bpp.lz"
-OverqwilBackpic:  INCBIN "gfx/pokemon/overqwil/back.2bpp.lz"
+SECTION "Numbpuff Pics", ROMX
+NumbpuffFrontpic: INCBIN "gfx/pokemon/numbpuff/front.animated.2bpp.lz"
+NumbpuffBackpic:  INCBIN "gfx/pokemon/numbpuff/back.2bpp.lz"
 
 SECTION "Dudunsparce Pics", ROMX
 DudunsparceTwoSegmentFrontpic:   INCBIN "gfx/pokemon/dudunsparce_two_segment/front.animated.2bpp.lz"

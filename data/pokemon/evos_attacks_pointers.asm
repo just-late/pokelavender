@@ -228,8 +228,8 @@ EvosAttacksPointers::
 	dw CorsolaPlainEvosAttacks
 	dw SwabluEvosAttacks
 	dw AltariaEvosAttacks
-	dw DelibirdEvosAttacks
-	dw MantineEvosAttacks
+	dw WolfruntEvosAttacks
+	dw WarwolfEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks
@@ -290,7 +290,7 @@ EvosAttacksPointers::
 	dw KleavorEvosAttacks
 	dw UrsalunaEvosAttacks
 	dw SneaslerEvosAttacks
-	dw OverqwilEvosAttacks
+	dw NumbpuffEvosAttacks
 	dw DudunsparceEvosAttacks
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks

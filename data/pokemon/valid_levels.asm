@@ -225,8 +225,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1, 100 ; Corsola
 	db   1,  24 ; Swablu
 	db  25, 100 ; Altaria
-	db   1, 100 ; Delibird
-	db   1, 100 ; Mantine
+	db   1,  44 ; Wolfrunt
+	db  45, 100 ; Warwolf
 	db  10, 100 ; Skarmory
 	db   1,  23 ; Houndour
 	db  24, 100 ; Houndoom
@@ -287,7 +287,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Kleavor
 	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
-	db  33, 100 ; Overqwil
+	db  40, 100 ; Numbpuff
 	db  32, 100 ; Dudunsparce
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire

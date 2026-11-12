@@ -1127,16 +1127,6 @@ AltariaMini::     INCBIN "gfx/minis/altaria.2bpp.lz"
 AltariaMiniMask:: INCBIN "gfx/minis/altaria_mask.1bpp.lz"
 AltariaIcon::     INCBIN "gfx/icons/altaria.2bpp.lz"
 
-SECTION "Delibird Mini Icon", ROMX
-DelibirdMini::     INCBIN "gfx/minis/delibird.2bpp.lz"
-DelibirdMiniMask:: INCBIN "gfx/minis/delibird_mask.1bpp.lz"
-DelibirdIcon::     INCBIN "gfx/icons/delibird.2bpp.lz"
-
-SECTION "Mantine Mini Icon", ROMX
-MantineMini::     INCBIN "gfx/minis/mantine.2bpp.lz"
-MantineMiniMask:: INCBIN "gfx/minis/mantine_mask.1bpp.lz"
-MantineIcon::     INCBIN "gfx/icons/mantine.2bpp.lz"
-
 SECTION "Skarmory Mini Icon", ROMX
 SkarmoryMini::     INCBIN "gfx/minis/skarmory.2bpp.lz"
 SkarmoryMiniMask:: INCBIN "gfx/minis/skarmory_mask.1bpp.lz"
@@ -1431,11 +1421,6 @@ SECTION "Sneasler Mini Icon", ROMX
 SneaslerMini::     INCBIN "gfx/minis/sneasler.2bpp.lz"
 SneaslerMiniMask:: INCBIN "gfx/minis/sneasler_mask.1bpp.lz"
 SneaslerIcon::     INCBIN "gfx/icons/sneasler.2bpp.lz"
-
-SECTION "Overqwil Mini Icon", ROMX
-OverqwilMini::     INCBIN "gfx/minis/overqwil.2bpp.lz"
-OverqwilMiniMask:: INCBIN "gfx/minis/overqwil_mask.1bpp.lz"
-OverqwilIcon::     INCBIN "gfx/icons/overqwil.2bpp.lz"
 
 SECTION "DudunsparceTwoSegment Mini Icon", ROMX
 DudunsparceTwoSegmentMini::     INCBIN "gfx/minis/dudunsparce_two_segment.2bpp.lz"

@@ -228,8 +228,8 @@ OverworldMonIconColors::
 	iconpal PINK, AZURE ; CORSOLA
 	iconpal BLUE, GRAY ; SWABLU
 	iconpal RED, TEAL ; ALTARIA
-	iconpal RED, PINK ; DELIBIRD
-	iconpal BLUE, WHITE ; MANTINE
+	iconpal WHITE, GRAY ; WOLFRUNT
+	iconpal WHITE, GRAY ; WARWOLF
 	iconpal GRAY, GREEN ; SKARMORY
 	iconpal RED, GRAY ; HOUNDOUR
 	iconpal RED, GRAY ; HOUNDOOM
@@ -290,7 +290,7 @@ OverworldMonIconColors::
 	iconpal BROWN, GREEN ; KLEAVOR
 	iconpal BROWN, RED ; URSALUNA
 	iconpal RED, BROWN ; SNEASLER
-	iconpal PURPLE, BLUE ; OVERQWIL
+	iconpal YELLOW, BLUE ; NUMBPUFF
 	iconpal AZURE, RED ; DUDUNSPARCE
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE

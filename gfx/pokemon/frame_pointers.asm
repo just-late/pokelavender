@@ -224,8 +224,8 @@ FramesPointers:
 	dw CorsolaPlainFrames
 	dw SwabluFrames
 	dw AltariaFrames
-	dw DelibirdFrames
-	dw MantineFrames
+	dw WolfruntFrames
+	dw WarwolfFrames
 	dw SkarmoryFrames
 	dw HoundourFrames
 	dw HoundoomFrames
@@ -286,7 +286,7 @@ FramesPointers:
 	dw KleavorFrames
 	dw UrsalunaFrames
 	dw SneaslerFrames
-	dw OverqwilFrames
+	dw NumbpuffFrames
 	dw DudunsparceTwoSegmentFrames
 	dw FarigirafFrames
 	dw ClodsireFrames

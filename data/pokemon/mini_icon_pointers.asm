@@ -228,8 +228,8 @@ MiniIconPointers:
 	mini_icon Corsola
 	mini_icon Swablu
 	mini_icon Altaria
-	mini_icon Delibird
-	mini_icon Mantine
+	mini_icon Snorlax ; wolfrunt placeholder
+	mini_icon Snorlax ; warwolf placeholder
 	mini_icon Skarmory
 	mini_icon Houndour
 	mini_icon Houndoom
@@ -290,7 +290,7 @@ MiniIconPointers:
 	mini_icon Kleavor
 	mini_icon Ursaluna
 	mini_icon Sneasler
-	mini_icon Overqwil
+	mini_icon Qwilfish ; Numbpuff placeholder
 	mini_icon DudunsparceTwoSegment
 	mini_icon Farigiraf
 	mini_icon Clodsire

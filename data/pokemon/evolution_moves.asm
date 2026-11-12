@@ -224,8 +224,8 @@ EvolutionMoves::
 	db NO_MOVE      ; CORSOLA
 	db NO_MOVE      ; SWABLU
 	db WOOD_HAMMER    ; ALTARIA
-	db NO_MOVE      ; DELIBIRD
-	db NO_MOVE      ; MANTINE
+	db NO_MOVE      ; WOLFRUNT
+	db NO_MOVE      ; WARWOLF
 	db NO_MOVE      ; SKARMORY
 	db NO_MOVE      ; HOUNDOUR
 	db NO_MOVE      ; HOUNDOOM
@@ -286,7 +286,7 @@ EvolutionMoves::
 	db ROCK_THROW   ; KLEAVOR
 	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
-	db NO_MOVE      ; OVERQWIL
+	db NO_MOVE      ; NUMBPUFF
 	db NO_MOVE      ; DUDUNSPARCE
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE

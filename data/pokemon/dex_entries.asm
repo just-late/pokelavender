@@ -2246,25 +2246,25 @@ AltariaPokedexEntry::
 	next "It sings a lovely"
 	next "soprano.@"
 
-SECTION "DelibirdPokedexEntry", ROMX
-DelibirdPokedexEntry::
-	db "Delivery@"
-	db   "It always carries"
-	next "its food with it,"
-	next "wherever it goes."
-	page "If attacked, it"
-	next "throws its food at"
-	next "the opponent.@"
+SECTION "WolfruntPokedexEntry", ROMX
+WolfruntPokedexEntry::
+	db "Hunter@"
+	db   "The fur that"
+	next "surrounds its body"
+	next "is an outer cover"
+	page "that conceals its"
+	next "true form, which"
+	next "is never seen.@"
 
-SECTION "MantinePokedexEntry", ROMX
-MantinePokedexEntry::
-	db "Kite@"
-	db   "It swims along"
-	next "freely, eating"
-	next "things that swim"
-	page "into its mouth."
-	next "Its whole body is"
-	next "very coarse.@"
+SECTION "WarwolfPokedexEntry", ROMX
+WarwolfPokedexEntry::
+	db "Tribe@"
+	db   "WARWOLF hunt in"
+	next "tribes, hiding in"
+	next "the bright white"
+	page "snow. When looking"
+	next "through the cloak"
+	next "it shows no face.@"
 
 SECTION "SkarmoryPokedexEntry", ROMX
 SkarmoryPokedexEntry::
@@ -2845,15 +2845,15 @@ SneaslerPokedexEntry::
 	next "solitude, it does"
 	next "not form packs.@"
 
-SECTION "OverqwilPokedexEntry", ROMX
-OverqwilPokedexEntry::
-	db "Pin Cluster@"
-	db   "Its spikes and sa-"
-	next "vage temperament"
-	next "have earned it the"
-	page "name Sea Fiend."
-	next "It slurps poison"
-	next "to nourish itself.@"
+SECTION "NumbpuffPokedexEntry", ROMX
+NumbpuffPokedexEntry::
+	db "Balloon@"
+	db   "The spines on its"
+	next "body emit electric"
+	next "shocks that can be"
+	page "used to immobilize"
+	next "foes much larger"
+	next "than its own size.@"
 
 SECTION "DudunsparcePokedexEntry", ROMX
 DudunsparcePokedexEntry::

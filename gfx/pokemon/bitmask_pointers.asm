@@ -224,8 +224,8 @@ BitmasksPointers:
 	dw CorsolaPlainBitmasks
 	dw SwabluBitmasks
 	dw AltariaBitmasks
-	dw DelibirdBitmasks
-	dw MantineBitmasks
+	dw SnorlaxBitmasks ; wolfrunt temp
+	dw SnorlaxBitmasks ; warwolf temp
 	dw SkarmoryBitmasks
 	dw HoundourBitmasks
 	dw HoundoomBitmasks
@@ -286,7 +286,7 @@ BitmasksPointers:
 	dw KleavorBitmasks
 	dw UrsalunaBitmasks
 	dw SneaslerBitmasks
-	dw OverqwilBitmasks
+	dw SnorlaxBitmasks ; numbpuff temp
 	dw DudunsparceTwoSegmentBitmasks
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks

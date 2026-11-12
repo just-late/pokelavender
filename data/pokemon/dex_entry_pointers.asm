@@ -225,8 +225,8 @@ PokedexDataPointerTable:
 	dba CorsolaPlainPokedexEntry
 	dba SwabluPokedexEntry
 	dba AltariaPokedexEntry
-	dba DelibirdPokedexEntry
-	dba MantinePokedexEntry
+	dba WolfruntPokedexEntry
+	dba WarwolfPokedexEntry
 	dba SkarmoryPokedexEntry
 	dba HoundourPokedexEntry
 	dba HoundoomPokedexEntry
@@ -287,7 +287,7 @@ PokedexDataPointerTable:
 	dba KleavorPokedexEntry
 	dba UrsalunaPokedexEntry
 	dba SneaslerPokedexEntry
-	dba OverqwilPokedexEntry
+	dba NumbpuffPokedexEntry
 	dba DudunsparcePokedexEntry
 	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry

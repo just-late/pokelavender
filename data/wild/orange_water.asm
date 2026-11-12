@@ -24,8 +24,8 @@
 	def_water_wildmons SHAMOUTI_COAST
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 2, TENTACRUEL
-	wildmon LEVEL_FROM_BADGES + 0, MANTINE
-	wildmon LEVEL_FROM_BADGES - 2, SWABLU
+	wildmon LEVEL_FROM_BADGES + 0, QWILFISH
+	wildmon LEVEL_FROM_BADGES - 2, QWILFISH
 	end_water_wildmons
 
 	def_water_wildmons ROCKY_BEACH

@@ -246,8 +246,8 @@
 	const CORSOLA    ; de
 	const SWABLU     ; df
 	const ALTARIA    ; e0
-	const DELIBIRD   ; e1
-	const MANTINE    ; e2
+	const WOLFRUNT   ; e1
+	const WARWOLF    ; e2
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4
 	const HOUNDOOM   ; e5
@@ -308,7 +308,7 @@
 	const KLEAVOR    ; 11c
 	const URSALUNA   ; 11d
 	const SNEASLER   ; 11e
-	const OVERQWIL   ; 11f
+	const NUMBPUFF   ; 11f
 	const DUDUNSPARCE ; 120
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122

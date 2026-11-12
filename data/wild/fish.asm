@@ -240,7 +240,7 @@ ENDM
 	fishentry  40 percent,     TENTACRUEL, 40
 	fishentry  70 percent,     SEADRA,     40
 	fishentry  90 percent + 1, QWILFISH,   HISUIAN_FORM,   40
-	fishentry 100 percent,     OVERQWIL,   40
+	fishentry 100 percent,     DRATINI,    40
 
 FishItems:
 	db PEARL

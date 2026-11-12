@@ -228,8 +228,8 @@ PokemonPicPointers::
 	pics CorsolaPlain
 	pics Swablu
 	pics Altaria
-	pics Delibird
-	pics Mantine
+	pics Wolfrunt
+	pics Warwolf
 	pics Skarmory
 	pics Houndour
 	pics Houndoom
@@ -290,7 +290,7 @@ PokemonPicPointers::
 	pics Kleavor
 	pics Ursaluna
 	pics Sneasler
-	pics Overqwil
+	pics Numbpuff
 	pics DudunsparceTwoSegment
 	pics Farigiraf
 	pics Clodsire

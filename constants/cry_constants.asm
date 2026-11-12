@@ -61,7 +61,6 @@
 	const CRY_LEDYBA
 	const CRY_ENTEI
 	const CRY_WOOPER
-	const CRY_MANTINE
 	const CRY_TYPHLOSION
 	const CRY_NATU
 	const CRY_TEDDIURSA

@@ -224,8 +224,8 @@ FootprintPointers::
 	dw CorsolaFootprint
 	dw SwabluFootprint
 	dw AltariaFootprint
-	dw DelibirdFootprint
-	dw MantineFootprint
+	dw WolfruntFootprint
+	dw WarwolfFootprint
 	dw SkarmoryFootprint
 	dw HoundourFootprint
 	dw HoundoomFootprint
@@ -286,7 +286,7 @@ FootprintPointers::
 	dw KleavorFootprint
 	dw UrsalunaFootprint
 	dw SneaslerFootprint
-	dw OverqwilFootprint
+	dw NumbpuffFootprint
 	dw DudunsparceFootprint
 	dw FarigirafFootprint
 	dw ClodsireFootprint
@@ -297,8 +297,8 @@ FootprintPointers::
 	dw FlygonFootprint
 	dw CroagunkFootprint
 	dw ToxicroakFootprint
-	dw SnorlaxFootprint ; Kotora temp
-	dw SnorlaxFootprint ; Raitora temp
+	dw KotoraFootprint ; Kotora temp
+	dw RaitoraFootprint ; Raitora temp
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

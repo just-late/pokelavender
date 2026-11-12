@@ -55,14 +55,13 @@ LaprasFootprint::
 MagcargoFootprint::
 MagikarpFootprint::
 MagnezoneFootprint::
-MantineFootprint::
 MantykeFootprint::
 MetapodFootprint::
 MisdreavusFootprint::
 MismagiusFootprint::
 MukFootprint::
 OnixFootprint::
-OverqwilFootprint::
+NumbpuffFootprint::
 PinecoFootprint::
 PupitarFootprint::
 QwilfishFootprint::
@@ -243,7 +242,8 @@ UrsaringFootprint:: INCBIN "gfx/footprints/ursaring.1bpp.lz"
 SwinubFootprint:: INCBIN "gfx/footprints/swinub.1bpp.lz"
 PiloswineFootprint:: INCBIN "gfx/footprints/piloswine.1bpp.lz"
 AltariaFootprint:: INCBIN "gfx/footprints/altaria.1bpp.lz"
-DelibirdFootprint:: INCBIN "gfx/footprints/delibird.1bpp.lz"
+WolfruntFootprint:: INCBIN "gfx/footprints/wolfrunt.1bpp.lz"
+WarwolfFootprint:: INCBIN "gfx/footprints/warwolf.1bpp.lz"
 SkarmoryFootprint:: INCBIN "gfx/footprints/skarmory.1bpp.lz"
 HoundourFootprint:: INCBIN "gfx/footprints/houndour.1bpp.lz"
 HoundoomFootprint:: INCBIN "gfx/footprints/houndoom.1bpp.lz"
@@ -303,4 +303,5 @@ VibravaFootprint:: INCBIN "gfx/footprints/vibrava.1bpp.lz"
 FlygonFootprint:: INCBIN "gfx/footprints/flygon.1bpp.lz"
 CroagunkFootprint:: INCBIN "gfx/footprints/croagunk.1bpp.lz"
 ToxicroakFootprint:: INCBIN "gfx/footprints/toxicroak.1bpp.lz"
-
+KotoraFootprint:: INCBIN "gfx/footprints/kotora.1bpp.lz"
+RaitoraFootprint:: INCBIN "gfx/footprints/raitora.1bpp.lz"

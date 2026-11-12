@@ -719,10 +719,10 @@
 	wildmon 32, GOLBAT
 	wildmon 34, VULPIX, ALOLAN_FORM
 	; nite
-	wildmon 30, DELIBIRD
+	wildmon 30, WOLFRUNT
 	wildmon 31, ZUBAT
 	wildmon 32, GOLBAT
-	wildmon 33, DELIBIRD
+	wildmon 33, WOLFRUNT
 	wildmon 34, GOLBAT
 	wildmon 32, GOLBAT
 	wildmon 32, GOLBAT
@@ -747,10 +747,10 @@
 	wildmon 35, VULPIX, ALOLAN_FORM
 	wildmon 32, JYNX
 	; nite
-	wildmon 32, DELIBIRD
+	wildmon 32, WOLFRUNT
 	wildmon 33, ZUBAT
 	wildmon 33, GOLBAT
-	wildmon 34, DELIBIRD
+	wildmon 34, WOLFRUNT
 	wildmon 35, GOLBAT
 	wildmon 33, GOLBAT
 	wildmon 32, SNEASEL
@@ -775,10 +775,10 @@
 	wildmon 32, JYNX
 	wildmon 34, JYNX
 	; nite
-	wildmon 33, DELIBIRD
+	wildmon 33, WOLFRUNT
 	wildmon 34, ZUBAT
 	wildmon 34, GOLBAT
-	wildmon 35, DELIBIRD
+	wildmon 35, WOLFRUNT
 	wildmon 35, GOLBAT
 	wildmon 32, SNEASEL
 	wildmon 34, SNEASEL
@@ -803,10 +803,10 @@
 	wildmon 32, JYNX
 	wildmon 34, JYNX
 	; nite
-	wildmon 33, DELIBIRD
+	wildmon 33, WOLFRUNT
 	wildmon 34, ZUBAT
 	wildmon 34, GOLBAT
-	wildmon 35, DELIBIRD
+	wildmon 35, WOLFRUNT
 	wildmon 35, GOLBAT
 	wildmon 32, SNEASEL
 	wildmon 34, SNEASEL
@@ -831,7 +831,7 @@
 	wildmon 34, JYNX
 	wildmon 36, JYNX
 	; nite
-	wildmon 34, DELIBIRD
+	wildmon 34, WOLFRUNT
 	wildmon 35, ZUBAT
 	wildmon 35, GOLBAT
 	wildmon 35, GOLBAT
@@ -2166,7 +2166,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, SWINUB
 	wildmon LEVEL_FROM_BADGES + 1, SWINUB
 	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
+	wildmon LEVEL_FROM_BADGES - 1, WOLFRUNT
 	wildmon LEVEL_FROM_BADGES + 0, STANTLER
 	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 3, SNEASEL, HISUIAN_FORM
@@ -2174,7 +2174,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, SWINUB
 	wildmon LEVEL_FROM_BADGES + 1, SWINUB
 	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
+	wildmon LEVEL_FROM_BADGES - 1, WOLFRUNT
 	wildmon LEVEL_FROM_BADGES + 0, STANTLER
 	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 3, SNEASEL, HISUIAN_FORM
@@ -2182,7 +2182,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, SWINUB
 	wildmon LEVEL_FROM_BADGES + 1, SWINUB
 	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
+	wildmon LEVEL_FROM_BADGES - 1, WOLFRUNT
 	wildmon LEVEL_FROM_BADGES + 0, STANTLER
 	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 3, SNEASEL, HISUIAN_FORM

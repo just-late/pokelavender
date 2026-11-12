@@ -851,15 +851,12 @@ SwabluEggMoves:
 	db DRAGON_DANCE ; Tail Wind = new move
 	db $ff
 
-DelibirdEggMoves:
-	db AURORA_BEAM
-	db DESTINY_BOND
-	db ICE_PUNCH
-	db ICY_WIND
-	db QUICK_ATTACK
-	db RAPID_SPIN
-	db SPLASH
-	db $ff
+WolfruntEggMoves:
+	db COUNTER
+	db OUTRAGE
+	db PURSUIT
+	db SCREECH
+	db -1 ; end
 
 SkarmoryEggMoves:
 	db DRILL_PECK

@@ -4858,6 +4858,7 @@ GranbullEvosAttacks:
 	db -1 ; no more level-up moves
 
 QwilfishPlainEvosAttacks:
+	evo_data EVOLVE_ITEM, THUNDERSTONE, NUMBPUFF
 	db -1 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, SPIKES
@@ -4881,7 +4882,6 @@ QwilfishPlainEvosAttacks:
 	db -1 ; no more level-up moves
 
 QwilfishHisuianEvosAttacks:
-	evo_data EVOLVE_LEVEL, 33, OVERQWIL
 	db -1 ; no more evolutions
 	db 1, AQUA_JET ; Water Gun → SV TM move
 	db 1, SPIKES
@@ -5213,45 +5213,42 @@ AltariaEvosAttacks:
 	db 60, PERISH_SONG
 	db -1 ; no more level-up moves
 
-DelibirdEvosAttacks:
+WolfruntEvosAttacks:
+	db EVOLVE_HOLDING, RAZOR_CLAW, TR_EVENITE, WARWOLF
 	db -1 ; no more evolutions
-; based on Gen V Chatot
-	db 1, PECK
-	db 5, GROWL
-	db 9, PAY_DAY ; Mirror Move → new move
-	db 13, SING
-	db 17, ICY_WIND
-	db 21, WING_ATTACK
-	db 25, HAIL
-	db 29, DRILL_PECK
-	db 33, AURORA_BEAM
-	db 37, BODY_SLAM
-	db 41, ROOST
-	db 45, FLY
-	db 49, BELLY_DRUM
-	db 53, HURRICANE
-	db 57, BLIZZARD
+	db 1, TACKLE
+	db 1, LEER
+	db 7, DOUBLE_SLAP
+	db 11, FURY_STRIKES
+	db 15, LOW_KICK
+	db 21, SCARY_FACE
+	db 25, ICY_WIND
+	db 29, SCREECH
+	db 35, SLASH
+	db 39, CONFUSE_RAY
+	db 43, SWORDS_DANCE
+	db 49, BLIZZARD
+	db 53, REVERSAL
 	db -1 ; no more level-up moves
 
-MantineEvosAttacks:
-	db -1 ; no more evolutions
-	db 1, GUST ; event move
+WarwolfEvosAttacks:
+	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, WATER_GUN ; Bubble → similar move
-	db 3, SUPERSONIC
-	db 7, BUBBLE_BEAM
-	db 11, CONFUSE_RAY
-	db 14, WING_ATTACK
-	db 16, HEADBUTT
-	db 19, WATER_PULSE
-	db 23, AQUA_JET ; Wide Guard → new move
-	db 27, TAKE_DOWN
-	db 32, AGILITY
-	db 36, AIR_SLASH
-	db 39, ROOST ; Aqua Ring → similar move
-	db 46, MIRROR_COAT ; Bounce → Dream World move
-	db 49, HYDRO_PUMP
-	db -1 ; no more level-up moves
+	db 1, LEER
+	db 7, DOUBLE_SLAP
+	db 11, FURY_STRIKES
+	db 15, LOW_KICK
+	db 21, SCARY_FACE
+	db 25, ICY_WIND
+	db 29, SCREECH
+	db 31, ICE_PUNCH
+	db 38, SLASH
+	db 43, CONFUSE_RAY
+	db 48, SWORDS_DANCE
+	db 54, BLIZZARD
+	db 59, REVERSAL
+	db 68, GIGA_IMPACT
+	db 0 ; no more level-up moves
 
 SkarmoryEvosAttacks:
 	db -1 ; no more evolutions
@@ -5897,7 +5894,6 @@ MunchlaxEvosAttacks:
 	db -1 ; no more level-up moves
 
 MantykeEvosAttacks:
-	evo_data EVOLVE_PARTY, SWABLU, MANTINE
 	db -1 ; no more evolutions
 	db 1, GUST ; event move
 	db 1, TACKLE
@@ -6390,27 +6386,22 @@ SneaslerEvosAttacks:
 	db 50, GUNK_SHOT ; SV TM move
 	db -1 ; no more level-up moves
 
-OverqwilEvosAttacks:
+NumbpuffEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, AQUA_JET ; Water Gun → SV TM move
 	db 1, SPIKES
 	db 1, TACKLE
 	db 1, POISON_STING
-	db 5, DEFENSE_CURL ; Harden → TM move
-	db 9, MINIMIZE
-	db 13, PIN_MISSILE
-	db 17, ROLLOUT
-	db 21, TOXIC_SPIKES
-	db 25, PAIN_SPLIT ; Stockpile + Spit Up → HGSS move tutor
-	db 29, REVERSAL ; Revenge → Sw/Sh move
-	db 33, WATER_PULSE ; Brine → TM move
-	db 37, CRUNCH ; Dark Pulse → SV TM move
-	db 41, TAKE_DOWN
-	db 45, AQUA_TAIL
-	db 49, POISON_JAB
-	db 53, DESTINY_BOND
-	db 57, EXPLOSION ; Self-Destruct → similar move
-	db 60, DOUBLE_EDGE ; Fell Stinger → event move
+	db 5, WATER_GUN
+	db 9, DEFENSE_CURL
+	db 13, THUNDER_WAVE
+	db 23, SPARK
+	db 28, EXPLOSION
+	db 34, TOXIC_SPIKES
+	db 37, PIN_MISSILE
+	db 40, DESTINY_BOND
+	db 48, HYDRO_PUMP
+	db 55, THUNDERBOLT
+	db 60, THUNDER
 	db -1 ; no more level-up moves
 
 DudunsparceEvosAttacks:

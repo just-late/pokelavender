@@ -128,6 +128,9 @@ DebugPosterScript:
 	iffalsefwd .NoScript
 	givepoke KOTORA, PLAIN_FORM, 15, NO_ITEM, POKE_BALL
 	givepoke RAITORA, PLAIN_FORM, 35, NO_ITEM, POKE_BALL, WILD_CHARGE
+	givepoke NUMBPUFF, PLAIN_FORM, 35
+	givepoke WOLFRUNT, PLAIN_FORM, 15
+	givepoke WARWOLF, PLAIN_FORM, 45, RAZOR_CLAW
 	givekeyitem GBC_SOUNDS
 	givekeyitem WAILMER_PAIL
 	setflag ENGINE_POKEDEX

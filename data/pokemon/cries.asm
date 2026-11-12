@@ -230,8 +230,8 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Corsola
 	mon_cry CRY_TOGETIC,     $010,  $017 ; Swablu FrostedGeulleisia
 	mon_cry CRY_NIDORAN_M,   $045,  $155 ; Altaria SourApple
-	mon_cry CRY_TEDDIURSA,   $002,  $06a ; Delibird
-	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantine
+	mon_cry CRY_GIRAFARIG,   $09b,  $06a ; Wolfrunt
+	mon_cry CRY_TEDDIURSA,  -$115,  $10f ; Warwolf
 	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; Skarmory
 	mon_cry CRY_CYNDAQUIL,   $039,  $140 ; Houndour
 	mon_cry CRY_TOTODILE,   -$10a,  $100 ; Houndoom
@@ -268,7 +268,7 @@ PokemonCries::
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mime Jr.
 	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Happiny
 	mon_cry CRY_GRIMER,      $055,  $081 ; Munchlax
-	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantyke
+	mon_cry CRY_GRIMER,    -$0be,  $0f0 ; Mantyke temp until mantyke is removed
 	mon_cry CRY_WOOPER,      $053,  $0af ; Weavile
 	mon_cry CRY_METAPOD,     $020,  $140 ; Magnezone
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickilicky
@@ -292,7 +292,7 @@ PokemonCries::
 	mon_cry CRY_CATERPIE,    $000,  $100 ; Kleavor
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaluna
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasler
-	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Overqwil
+	mon_cry CRY_SLOWKING,    $014,  $108 ; Numbpuff
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire

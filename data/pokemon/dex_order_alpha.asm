@@ -43,7 +43,6 @@ AlphabeticalPokedexOrder:
 	dp CUBONE
 	dp CURSOLA
 	dp CYNDAQUIL
-	dp DELIBIRD
 	dp DEWGONG
 	dp DIGLETT
 	dp DITTO
@@ -148,7 +147,6 @@ AlphabeticalPokedexOrder:
 	dp MAGNEZONE
 	dp MAMOSWINE
 	dp MANKEY
-	dp MANTINE
 	dp MANTYKE
 	dp MAREEP
 	dp MARILL
@@ -177,12 +175,12 @@ AlphabeticalPokedexOrder:
 	dp NIDORINO
 	dp NINETALES
 	dp NOCTOWL
+	dp NUMBPUFF
 	dp ODDISH
 	dp OMANYTE
 	dp OMASTAR
 	dp ONIX
 	dp ORANGURU
-	dp OVERQWIL
 	dp PARAS
 	dp PARASECT
 	dp PERRSERKER
@@ -285,12 +283,14 @@ AlphabeticalPokedexOrder:
 	dp VOLTORB
 	dp VULPIX
 	dp WARTORTLE
+	dp WARWOLF
 	dp WEAVILE
 	dp WEEDLE
 	dp WEEPINBELL
 	dp WEEZING
 	dp WIGGLYTUFF
 	dp WOBBUFFET
+	dp WOLFRUNT
 	dp WOOPER
 	dp WYNAUT
 	dp WYRDEER

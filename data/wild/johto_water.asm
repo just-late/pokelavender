@@ -185,8 +185,8 @@
 	def_water_wildmons ROUTE_41
 	db 3 percent ; encounter rate
 	wildmon 20, TENTACOOL
-	wildmon 20, MANTINE
-	wildmon 20, SWABLU
+	wildmon 20, QWILFISH
+	wildmon 20, MAGIKARP
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_43
@@ -241,8 +241,8 @@
 	def_water_wildmons CIANWOOD_CITY
 	db 6 percent ; encounter rate
 	wildmon 20, TENTACOOL
-	wildmon 20, MANTINE
-	wildmon 20, SWABLU
+	wildmon 20, QWILFISH
+	wildmon 20, MAGIKARP
 	end_water_wildmons
 
 	def_water_wildmons GOLDENROD_CITY
