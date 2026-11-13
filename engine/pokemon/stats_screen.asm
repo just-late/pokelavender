@@ -554,8 +554,8 @@ StatsScreen_LoadGFX:
 	ret
 
 .Status_Type:
-	text "Status/"
-	next "Type/"
+	text "STATUS/"
+	next "TYPE/"
 	done
 
 .OK_str:
@@ -568,21 +568,21 @@ StatsScreen_LoadGFX:
 	done
 
 .Rental_OT:
-	text  "Rental"
+	text  "RENTAL"
 	next1 "#MON"
 	done
 
 .ExpPointStr:
-	db "Exp.Points@"
+	db "EXP.POINTS@"
 
 .LevelUpStr:
-	db "Level Up@"
+	db "LEVEL UP@"
 
 .ToStr:
-	db "to@"
+	db "TO@"
 
 .PkrsStr:
-	db "#rus@"
+	db "#RUS@"
 
 .GreenPage:
 	ld de, .Item
@@ -616,13 +616,13 @@ StatsScreen_LoadGFX:
 	jmp GetItemName
 
 .Item:
-	db "Item@"
+	db "ITEM@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "Moves@"
+	db "MOVES@"
 
 .BluePage:
 	hlcoord 0, 9
@@ -679,7 +679,7 @@ StatsScreen_LoadGFX:
 	farjp PrintNature
 
 .NatureString:
-	db "Nature/@"
+	db "NATURE/@"
 
 .OrangePage:
 ; Fourth stats page code by TPP Anniversary Crystal 251
@@ -717,7 +717,7 @@ StatsScreen_LoadGFX:
 	farjp PrintAbilityDescription
 
 .AbilityString:
-	db "Ability/@"
+	db "ABILITY/@"
 
 .AbilityTiles:
 	; $3f = bold H
@@ -732,7 +732,7 @@ TN_PrintToD:
 	farjp PlaceCaughtTimeOfDayString
 
 .caughtat
-	db "Met/@"
+	db "MET/@"
 
 TN_PrintLocation:
 	farcall BT_InRentalMode
@@ -753,10 +753,10 @@ TN_PrintLocation:
 	ret
 
 .battle_factory
-	db "Battle Factory@"
+	db "BATTLE FACTORY@"
 
 .event
-	db "Event #MON@"
+	db "EVENT #MON@"
 
 TN_PrintLV:
 	ld a, [wTempMonCaughtLevel]
@@ -788,13 +788,13 @@ TN_PrintLV:
 	ret
 
 .str_level
-	db "at <LV>@"
+	db "AT <LV>@"
 
 .str_hatched
-	db "from Egg@"
+	db "FROM EGG@"
 
 .str_traded
-	db "by trade@"
+	db "BY TRADE@"
 
 TN_PrintCharacteristics:
 	; b = value of best DV, c = index of best DV
@@ -1012,7 +1012,7 @@ EggStatsScreen:
 	jmp PlaySFX
 
 EggString:
-	text "Egg"
+	text "EGG"
 	next "OT/?????"
 	next "<ID>№.?????"
 	done
