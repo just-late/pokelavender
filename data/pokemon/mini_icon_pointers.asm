@@ -228,8 +228,8 @@ MiniIconPointers:
 	mini_icon Corsola
 	mini_icon Swablu
 	mini_icon Altaria
-	mini_icon Snorlax ; wolfrunt placeholder
-	mini_icon Snorlax ; warwolf placeholder
+	mini_icon Wolfrunt
+	mini_icon Warwolf
 	mini_icon Skarmory
 	mini_icon Houndour
 	mini_icon Houndoom

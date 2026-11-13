@@ -134,19 +134,9 @@ DebugPosterScript:
 	givekeyitem GBC_SOUNDS
 	givekeyitem WAILMER_PAIL
 	setflag ENGINE_POKEDEX
-	setflag ENGINE_POKEGEAR
-	setflag ENGINE_MAP_CARD	
 .NoScript
 	closetext
 	end
-
-GiftVenusaurOTName:
-	text "BRUCE@"
-	done
-
-GiftVenusaurName:
-	text "BRO@"
-	done
 
 DebugPosterTeamText:
 	text "Good team?"
@@ -197,5 +187,5 @@ PlayersHouseGraniteText:
 	done
 
 PlayersHouseSnowbarkText:
-	text "SNOWBARK TOWN"
+	text "OREDALE CITY"
 	done

@@ -224,8 +224,8 @@ BitmasksPointers:
 	dw CorsolaPlainBitmasks
 	dw SwabluBitmasks
 	dw AltariaBitmasks
-	dw SnorlaxBitmasks ; wolfrunt temp
-	dw SnorlaxBitmasks ; warwolf temp
+	dw WolfruntBitmasks
+	dw WarwolfBitmasks
 	dw SkarmoryBitmasks
 	dw HoundourBitmasks
 	dw HoundoomBitmasks
@@ -286,7 +286,7 @@ BitmasksPointers:
 	dw KleavorBitmasks
 	dw UrsalunaBitmasks
 	dw SneaslerBitmasks
-	dw SnorlaxBitmasks ; numbpuff temp
+	dw NumbpuffBitmasks
 	dw DudunsparceTwoSegmentBitmasks
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
@@ -297,8 +297,8 @@ BitmasksPointers:
 	dw FlygonBitmasks
 	dw CroagunkBitmasks
 	dw ToxicroakBitmasks
-	dw SnorlaxBitmasks ; kotora temp
-	dw SnorlaxBitmasks ; raitora temp
+	dw KotoraBitmasks
+	dw RaitoraBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

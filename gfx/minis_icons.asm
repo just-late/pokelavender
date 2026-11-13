@@ -1127,6 +1127,16 @@ AltariaMini::     INCBIN "gfx/minis/altaria.2bpp.lz"
 AltariaMiniMask:: INCBIN "gfx/minis/altaria_mask.1bpp.lz"
 AltariaIcon::     INCBIN "gfx/icons/altaria.2bpp.lz"
 
+SECTION "Wolfrunt Mini Icon", ROMX
+WolfruntMini::     INCBIN "gfx/minis/wolfrunt_mini.2bpp.lz"
+WolfruntMiniMask:: INCBIN "gfx/minis/wolfrunt_mask.1bpp.lz"
+WolfruntIcon::     INCBIN "gfx/icons/wolfrunt.2bpp.lz"
+
+SECTION "Warwolf Mini Icon", ROMX
+WarwolfMini::     INCBIN "gfx/minis/warwolf_mini.2bpp.lz"
+WarwolfMiniMask:: INCBIN "gfx/minis/warwolf_mask.1bpp.lz"
+WarwolfIcon::     INCBIN "gfx/icons/warwolf.2bpp.lz"
+
 SECTION "Skarmory Mini Icon", ROMX
 SkarmoryMini::     INCBIN "gfx/minis/skarmory.2bpp.lz"
 SkarmoryMiniMask:: INCBIN "gfx/minis/skarmory_mask.1bpp.lz"
