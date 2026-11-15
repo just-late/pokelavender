@@ -505,10 +505,10 @@ GetTimeOfDayString:
 	ld de, NITE_String
 	ret
 
-NITE_String: db "Night@"
-MORN_String: db "Morning@"
-DAY_String:  db "Day@"
-EVE_String:  db "Evening@"
+NITE_String: db "NIGHT@"
+MORN_String: db "MORNING@"
+DAY_String:  db "DAY@"
+EVE_String:  db "EVENING"
 
 PlaceCaughtTimeOfDayString::
 	and CAUGHT_TIME_MASK
