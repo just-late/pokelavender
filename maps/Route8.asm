@@ -279,6 +279,8 @@ VendingMachineNotEnoughMoneyText:
 VendingMachineNevermelticeText:
 	text "Clang!"
 	
+	para "Huh?"
+	
 	para "…That's not a"
 	line "SODA POP!"
 	done
