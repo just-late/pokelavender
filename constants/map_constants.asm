@@ -653,7 +653,7 @@ ENDM
 	map_const SAFFRON_CITY,                               20, 19 ;  1
 	map_const SHAMOUTI_SHRINE_RUINS,                      12, 17 ;  2
 	map_const OREDALE_CITY,								  28, 28 ;  3
-	map_const ROUTE_8,                                    27, 21 ;  1
+	map_const ROUTE_8,                                    30, 21 ;  1
 
 	newgroup                                                     ; 36
 	map_const RUGGED_ROAD_NORTH,                          17,  9 ;  1

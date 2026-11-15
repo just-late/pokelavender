@@ -2048,10 +2048,10 @@ SpawnEmote:
 
 ShakeGrass:
 	ld a, [wMapGroup]
-	cp GROUP_OREDALE_CITY
+	cp GROUP_ROUTE_8
 	jr z, DeepSnow
-	cp GROUP_GRANITE_VILLAGE
-	jr z, DeepSand
+;	cp GROUP_GRANITE_VILLAGE
+;	jr z, DeepSand
 	push bc
 	ld de, .GrassObject
 	call CopyTempObjectData
