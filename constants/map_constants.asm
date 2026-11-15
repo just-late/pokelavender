@@ -343,7 +343,6 @@ ENDM
 	map_const LUCKY_ISLAND,                               23, 17 ; 21
 
 	newgroup                                                     ; 18
-	map_const ROUTE_8,                                    26, 11 ;  1
 	map_const ROUTE_8_SAFFRON_GATE,                        5,  4 ;  2
 	map_const ROUTE_10_SOUTH,                             10,  9 ;  3
 	map_const ROUTE_12_NORTH,                             10,  9 ;  4
@@ -654,6 +653,7 @@ ENDM
 	map_const SAFFRON_CITY,                               20, 19 ;  1
 	map_const SHAMOUTI_SHRINE_RUINS,                      12, 17 ;  2
 	map_const OREDALE_CITY,								  28, 28 ;  3
+	map_const ROUTE_8,                                    27, 21 ;  1
 
 	newgroup                                                     ; 36
 	map_const RUGGED_ROAD_NORTH,                          17,  9 ;  1

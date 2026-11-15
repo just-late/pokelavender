@@ -6,6 +6,8 @@ OredaleCity_MapScriptHeader:
     def_warp_events
 	warp_event 13, 23, OREDALE_POKECENTER_1F, 1
 	warp_event 13, 31, OREDALE_TRADE_HOUSE, 1
+	warp_event 10, 47, ROUTE_8, 1
+	warp_event 11, 47, ROUTE_8, 1
 
     def_coord_events
 	coord_event 10, 41, 0, OredaleSwinubQuestEvent_Left

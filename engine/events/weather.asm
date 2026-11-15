@@ -60,7 +60,7 @@ SetCurrentWeather::
 	ld a, [wMapNumber]
 	cp MAP_OREDALE_CITY
 	jr z, .snowing
-	cp MAP_ROUTE_9
+	cp MAP_ROUTE_8
 	jr nz, .not_snowing
 .snowing
 	ld a, OW_WEATHER_SNOW

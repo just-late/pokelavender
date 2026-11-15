@@ -69,7 +69,7 @@
 	tilecoll WALL, WALL, DOOR, WALL ; 44
 	tilecoll WALL, WALL, WALL, WALL ; 45
 	tilecoll FLOOR, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 46
-	tilecoll WALL, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 47
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 47
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 48
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 49
 	tilecoll WALL, WALL, WALL, WALL ; 4a
@@ -202,9 +202,9 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; c9
 	tilecoll WALL, WALL, WALL, WALL ; ca
 	tilecoll WALL, WALL, WALL, WALL ; cb
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; cc
+	tilecoll VENDING_MACHINE, WALL, FLOOR, FLOOR ; cc
 	tilecoll WALL, WALL, FLOOR, FLOOR ; cd
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ce
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; cf
-	tilecoll FLOOR, WALL, FLOOR, FLOOR ; d0
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d1
+	tilecoll FLOOR, FLOOR, WALL, WALL ; ce
+	tilecoll WALL, WALL, WALL, WALL ; cf
+	tilecoll TALL_GRASS, TALL_GRASS, FLOOR, FLOOR ; d0
+	tilecoll FLOOR, WALL, FLOOR, WALL ; d1
