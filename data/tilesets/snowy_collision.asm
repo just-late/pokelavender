@@ -192,7 +192,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; bf
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; c0
 	tilecoll LEDGE_DOWN, LEDGE_DOWN, FLOOR, FLOOR ; c1
-	tilecoll WALL, WALL, WALL, WALL ; c2
+	tilecoll WALL, WALL, FLOOR, FLOOR ; c2
 	tilecoll WALL, WALL, WALL, WALL ; c3
 	tilecoll FLOOR, FLOOR, WALL, WALL ; c4
 	tilecoll FLOOR, FLOOR, WALL, WALL ; c5
