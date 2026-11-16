@@ -420,34 +420,6 @@
 	wildmon 51, WIGGLYTUFF
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_8
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 48, PIDGEOTTO
-	wildmon 51, ARBOK, ARBOK_KANTO_FORM
-	wildmon 53, VULPIX
-	wildmon 53, GROWLITHE
-	wildmon 53, JIGGLYPUFF
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
-	; day
-	wildmon 48, PIDGEOTTO
-	wildmon 51, ARBOK, ARBOK_KANTO_FORM
-	wildmon 53, VULPIX
-	wildmon 53, GROWLITHE
-	wildmon 53, JIGGLYPUFF
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
-	; nite
-	wildmon 48, PERSIAN
-	wildmon 51, NOCTOWL
-	wildmon 53, KADABRA
-	wildmon 53, HAUNTER
-	wildmon 53, VULPIX
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_9
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
