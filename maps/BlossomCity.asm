@@ -21,7 +21,7 @@ BlossomCity_MapScriptHeader:
 	bg_event 33, 20, BGEVENT_JUMPTEXT, BlossomCityAcademyMainSignText
 	bg_event 38, 18, BGEVENT_JUMPTEXT, BlossomCityAcademyDormsSignText
 
-    def_object_events ; object events
+    db 14 ; object events
 	person_event SPRITE_BIRD_KEEPER, 18, 12, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC1Text, -1
 	person_event SPRITE_BURGLAR, 37, 35, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC2Text, -1
 	person_event SPRITE_BLACK_BELT, 28, 40, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomCityNPC3Text, -1
