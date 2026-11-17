@@ -16,7 +16,7 @@ BlossomGameCorner_MapScriptHeader:
 	bg_event 13,  8, BGEVENT_READ, BlossomGameCornerSlotsScript
 	
 
-    db 9 ; object events
+    def_object_events
 	person_event SPRITE_GRUNT_2,  8,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameCornerGruntScript, -1
 	person_event SPRITE_BURGLAR,  4,  6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_ROCKER, 10,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC1Text, -1

@@ -26,7 +26,7 @@ GraniteVillage_MapScriptHeader:
 	bg_event 22, 17, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
 	bg_event 23, 17, BGEVENT_JUMPTEXT, GraniteVillageInnSignText
 
-    db 8 ; object_events
+    def_object_events
 	person_event SPRITE_RIVAL, 20, 14, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
 	person_event SPRITE_CUTE_GIRL, 19, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, GraniteVillageNPC1Text, -1
 	person_event SPRITE_ROCKET, 25, 10, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_TONE_2, PERSONTYPE_SCRIPT, 0, GraniteVillageIndigoGruntScript, EVENT_INDIGO_BLOCK_GRANITE_VILLAGE

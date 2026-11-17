@@ -15,7 +15,7 @@ GraniteVillageTrainTrack_MapScriptHeader:
 
     def_bg_events
 
-    db 0 ; object events
+    def_object_events
 
 GraniteVillageTrainTracksDontKeepWalkingScript:
     showtext TrainTracksDontKeepWalkingText
