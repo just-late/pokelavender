@@ -97,10 +97,10 @@ NamingScreen:
 .Player:
 	farcall _GetPlayerIcon
 	ld a, [wPlayerGender]
-	ld c, SPRITE_ANIM_INDEX_PURPLE_WALK
+	ld c, SPRITE_ANIM_INDEX_BLUE_WALK
 	and a ; PLAYER_MALE
 	jr z, .got_player_walk
-	ld c, SPRITE_ANIM_INDEX_PINK_WALK
+	ld c, SPRITE_ANIM_INDEX_RED_WALK
 	dec a ; PLAYER_FEMALE
 	jr z, .got_player_walk
 	; PLAYER_ENBY
