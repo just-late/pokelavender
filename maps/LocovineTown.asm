@@ -15,7 +15,7 @@ LocovineTown_MapScriptHeader:
 	bg_event 18, 11, BGEVENT_JUMPTEXT, LocovineTownSignText
 	bg_event  6, 15, BGEVENT_ITEM + ULTRA_BALL, EVENT_LOCOVINE_TOWN_HIDDEN_ULTRA_BALL
 
-    db 15 ; object events
+    def_object_events
 	person_event SPRITE_CLERK, 6, 16, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, LocovineTownMartClerk, -1
 	person_event SPRITE_FISHER, 19, 16, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, LocovineTownNPC1Text, -1
 	person_event SPRITE_CHILD, 11, 21, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1

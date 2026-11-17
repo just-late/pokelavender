@@ -10,7 +10,7 @@ MoonflowerNPCApartment32F_MapScriptHeader:
 
     def_bg_events
 
-    db 2 ; object events
+    def_object_events
 	person_event SPRITE_GENTLEMAN,  4,  2, SPRITEMOVEDATA_WANDER, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment2FGentlemanText, -1
     pokemon_event 3, 4, GROWLITHE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, MoonflowerApartment2FGrowlitheText, -1
 

@@ -14,7 +14,7 @@ OvercastGrove_MapScriptHeader:
     def_bg_events
 	bg_event 14, 24, BGEVENT_JUMPTEXT, OvercastGroveSignText
 
-    db 3 ; object events
+    def_object_events
 	person_event SPRITE_BUG_CATCHER, 16, 11, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OvercastGroveBugCatcherText, -1
 	person_event SPRITE_CUTE_GIRL, 21, 15, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, OvercastGroveLassText, -1
 	person_event SPRITE_YOUNGSTER, 16, 22, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, OvercastGroveYoungsterText, -1

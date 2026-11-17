@@ -11,5 +11,5 @@ OredaleTradeHouse_MapScriptHeader:
 
     def_bg_events
 
-    db 1 ; object events
+    def_object_events
 	person_event SPRITE_HIKER,  3,  2, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, trade, NPC_TRADE_LEO, -1

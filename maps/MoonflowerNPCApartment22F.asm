@@ -10,7 +10,7 @@ MoonflowerNPCApartment22F_MapScriptHeader:
 
     def_bg_events
 
-    db 1 ; object events
+    def_object_events
     person_event SPRITE_POKEFAN_M, 4, 3, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment2FPokeFanMText, -1
     
 MoonflowerApartment2FPokeFanMText:

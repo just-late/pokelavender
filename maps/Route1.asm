@@ -12,7 +12,7 @@ Route1_MapScriptHeader:
 ;	soil_event 12, 3
 ;	soil_event 13, 3
 
-	db 3 ; object events
+	def_object_events
 	person_event SPRITE_LASS, 19, 11, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC1Text, -1
 	person_event SPRITE_SCHOOLBOY,  6, 13, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, Route1NPC2Text, -1
 	cuttree_event  9,  9, EVENT_ROUTE_1_CUT_TREE 

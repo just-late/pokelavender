@@ -11,7 +11,7 @@ MarigoldNPCHouse2_MapScriptHeader:
 
     def_bg_events
 
-    db 1 ; object events
+    def_object_events
 	person_event SPRITE_GENTLEMAN,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldNameRaterScript, -1
 
 MarigoldNameRaterScript:

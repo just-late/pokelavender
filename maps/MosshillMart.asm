@@ -11,7 +11,7 @@ MosshillMart_MapScriptHeader:
 
 	def_bg_events
 
-	db 3 ; object_events
+	def_object_events
 	person_event SPRITE_CLERK,  3,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MosshillMartClerkScript, -1
 	person_event SPRITE_COOL_DUDE,  6,  7, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MosshillMartNPC1Script, -1
 	person_event SPRITE_CUTE_GIRL,  5,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillMartNPC2Text, -1

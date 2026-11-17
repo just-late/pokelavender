@@ -18,7 +18,7 @@ MarigoldGym_MapScriptHeader:
 	
     def_bg_events
 
-    db 4 ; object events
+    def_object_events
 	person_event SPRITE_WALKER,  2, 13, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MarigoldGymWalkerScript, EVENT_BEAT_WALKER
 	person_event SPRITE_BLACK_BELT, 15,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBlackbeltLao, -1
 	person_event SPRITE_BLACK_BELT, 13, 13, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerBlackbeltAnder, -1

@@ -11,7 +11,7 @@ GemrootNPCHouse1_MapScriptHeader:
 
 	def_bg_events
 
-	db 3
+	def_object_events
 	object_event  3,  4, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, AncientBookScript, -1 
 	person_event SPRITE_HIKER,  3,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, TravelingBrothersText, -1
 	pokemon_event  2,  4, PIDGEOT, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, PidgeotCryText, -1

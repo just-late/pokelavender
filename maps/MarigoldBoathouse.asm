@@ -12,7 +12,7 @@ MarigoldBoathouse_MapScriptHeader:
     def_bg_events
     bg_event 2, 3, BGEVENT_READ, MarigoldBoathouseBoatmanScript
 
-    db 3 ; object_events
+    def_object_events
 	person_event SPRITE_FISHER,  2,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MarigoldBoathouseBoatmanScript, -1
     person_event SPRITE_POKEFAN_F, 5, 5, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldBoathouseNPC1Text, -1
     person_event SPRITE_CHILD,  5, 4, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, MarigoldBoathouseNPC2Text, -1

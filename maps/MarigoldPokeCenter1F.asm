@@ -12,7 +12,7 @@ MarigoldPokeCenter1F_MapScriptHeader:
 
     def_bg_events
 
-    db 3 ; object events
+    def_object_events
     pc_nurse_event 5, 1
     person_event SPRITE_SAILOR, 4, 9, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldPokeCenter1FSailorText, -1
     pokemon_event 8, 4, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MarigoldPokeCenter1FMeowthText, -1

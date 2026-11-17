@@ -11,7 +11,7 @@ MosshillEvolutionSpeechHouse_MapScriptHeader:
 
 	def_bg_events
 
-	db 1 ; object_events
+	def_object_events
 	person_event SPRITE_CUTE_GIRL,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptext, MosshillEvolutionSpeechHouseNPC1Text, -1
 
 MosshillEvolutionSpeechHouseNPC1Text:

@@ -12,7 +12,7 @@ MoonflowerBikeShop_MapScriptHeader:
 
     def_bg_events
 
-    db 2 ; object_events
+    def_object_events
 	person_event SPRITE_BIRD_KEEPER,  2,  7, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MoonflowerBikeShopNPC1Script, -1
 	person_event SPRITE_BIKER,  6,  3, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerBikeShopNPC2Text, -1
 

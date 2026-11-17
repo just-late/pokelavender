@@ -20,7 +20,7 @@ MarigoldGymVent_MapScriptHeader:
 	bg_event 13, 15, BGEVENT_READ, MarigoldGymVentGrate3
 	bg_event 25, 15, BGEVENT_READ, MarigoldGymVentGrate4
 
-    db 1 ; object events
+    def_object_events
 	itemball_event 10, 15, METAL_COAT, 1, EVENT_MARIGOLD_GYM_VENT_METAL_COAT
 
 MarigoldGymVentGrate1:

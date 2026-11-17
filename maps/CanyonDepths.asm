@@ -34,7 +34,7 @@ CanyonDepths_MapScriptHeader:
 
     def_bg_events
 
-    db 1 ; object events
+    def_object_events
 
 CanyonDepthsBridgeOverheadTrigger:
 	callasm CanyonDepths_OverheadBridgeAsm

@@ -10,7 +10,7 @@ BoatCutscene_MapScriptHeader:
 
     def_bg_events
 
-    db 2 ; object events
+    def_object_events
 	object_event  8,  5, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, -1
 	object_event  8,  5, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, -1
 

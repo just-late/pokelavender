@@ -17,7 +17,7 @@ PlayersHouse1F_MapScriptHeader:
 	bg_event  3,  1, BGEVENT_JUMPTEXT, PlayersHouse1FStoveText
 	bg_event  7,  1, BGEVENT_UP, PlayersHouse1FTVScript
 
-	db 5 ; object_events
+	def_object_events
 	person_event SPRITE_MOM, 4,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
 	person_event SPRITE_MOM, 2,  3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << MORN), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
 	person_event SPRITE_MOM, 4,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << DAY), 0, PERSONTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2

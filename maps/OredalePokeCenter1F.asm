@@ -12,7 +12,7 @@ OredalePokeCenter1F_MapScriptHeader:
     def_bg_events
 ;	bg_event 10,  1
 
-    db 5 ; object events
+    def_object_events
 	pc_nurse_event 5, 1
 	person_event SPRITE_BOARDER,  5,  3, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredalePokeCenter1FBoarderScript, -1
 	person_event SPRITE_HIKER,  4,  8, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptext, OredalePokeCenter1FHikerText, -1

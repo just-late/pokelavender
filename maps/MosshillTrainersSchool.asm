@@ -17,7 +17,7 @@ MosshillTrainersSchool_MapScriptHeader:
 	bg_event  3,  0, BGEVENT_READ, MosshillAcademyBlackboard
 	bg_event  4,  0, BGEVENT_READ, MosshillAcademyBlackboard
 
-    db 6 ; object_events
+    def_object_events
 	person_event SPRITE_TEACHER,  2,  3, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillAcademyNPC1Text, -1
 	person_event SPRITE_SCHOOLBOY,  5,  2, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillAcademyNPC2Text, -1
 	person_event SPRITE_SCHOOLGIRL,  5,  4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillAcademyNPC3Text, -1

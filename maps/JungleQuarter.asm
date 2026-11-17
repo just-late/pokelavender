@@ -15,7 +15,7 @@ JungleQuarter_MapScriptHeader:
 	bg_event 24,  9, BGEVENT_JUMPTEXT, JungleQuarterHugeWaterfallText
 	bg_event 25,  9, BGEVENT_JUMPTEXT, JungleQuarterHugeWaterfallText
 
-    db 1 ; object events
+    def_object_events
 
 JungleQuarterHugeWaterfallText:
     text "Wow! It's a huge"

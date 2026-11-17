@@ -33,7 +33,7 @@ PlayersHouse2F_MapScriptHeader:
 	bg_event 10,  8, BGEVENT_JUMPTEXT, PlayersHouseGraniteText
 	bg_event 14,  8, BGEVENT_JUMPTEXT, PlayersHouseSnowbarkText
 
-	db 4 ; object events
+	def_object_events
 	object_event 16,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
 	object_event 16,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll1, EVENT_PLAYERS_HOUSE_2F_DOLL_1
 	object_event 17,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, Doll2, EVENT_PLAYERS_HOUSE_2F_DOLL_2

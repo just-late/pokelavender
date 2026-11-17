@@ -11,7 +11,7 @@ MarigoldNPCHouse1_MapScriptHeader:
 
     def_bg_events
 
-    db 1 ; object events
+    def_object_events
     person_event SPRITE_HIKER, 3, 2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MarigoldNPCHouse1HikerText, -1
 
 MarigoldNPCHouse1HikerText:

@@ -25,7 +25,7 @@ GemrootTown_MapScriptHeader:
 	bg_event  9, 14, BGEVENT_JUMPTEXT, CommunityCenterSignText
 	bg_event 13,  1, BGEVENT_JUMPTEXT, TrainerTipsSignText
 	
-	db 5 ; object_events
+	def_object_events
 	person_event SPRITE_MOM,  6, 14, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, 0, EVENT_ALWAYS_SET
 	person_event SPRITE_HIKER,  8, 26, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, AtuvaTravelerScript, -1
 	person_event SPRITE_GRANNY,  7, 14, SPRITEMOVEDATA_WANDER, 0, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, OldGrannyText, -1

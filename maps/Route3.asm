@@ -18,7 +18,7 @@ Route3_MapScriptHeader:
 	bg_event 15, 11, BGEVENT_JUMPTEXT, Route3SignText
 	bg_event 35, 43, BGEVENT_ITEM + MOON_STONE, EVENT_ROUTE_3_HIDDEN_MOON_STONE
 
-	db 7 ; object events
+	def_object_events
 	person_event SPRITE_BUG_CATCHER,  8, 22, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, Route3BugCatcherText, -1
 	object_event 26, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerYoungsterRegis, -1
 	object_event 28, 33, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerYoungsterJimmy, -1

@@ -22,7 +22,7 @@ OredaleMuseum1F_MapScriptHeader:
 ;	bg_event  8,  5
 ;	bg_event 12,  5
 
-    db 1 ; object events
+    def_object_events
 	person_event SPRITE_CLERK,  7, 18, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, OredaleMuseum1FClerkText, -1
 ;	person_event SPRITE_POKEFAN_M,  6,  8
 ;	person_event SPRITE_TWIN,  6,  9

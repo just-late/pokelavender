@@ -10,7 +10,7 @@ OredaleMuseum2F_MapScriptHeader:
 
     def_bg_events
 
-    db 4 ; object events
+    def_object_events
 	person_event SPRITE_INDIGO_M,  2, 12, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_INDIGO_F,  2, 13, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_INDIGO_M,  2, 14, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1

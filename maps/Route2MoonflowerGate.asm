@@ -13,7 +13,7 @@ Route2MoonflowerGate_MapScriptHeader:
 
     def_bg_events
 
-    db 1 ; object events
+    def_object_events
     person_event SPRITE_OFFICER,  4,  0, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, Route2MoonflowerGate_NPC1Text, -1
 
 Route2MoonflowerGate_NPC1Text:

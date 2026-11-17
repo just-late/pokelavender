@@ -12,7 +12,7 @@ MoonflowerNPCApartment31F_MapScriptHeader:
 
     def_bg_events
 
-    db 3 ; object events
+    def_object_events
 	person_event SPRITE_SAILOR,  5,  6, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment1FSailor1Text, -1
 	person_event SPRITE_SAILOR,  4,  3, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment1FSailor2Text, -1
     pokemon_event 4, 4, MACHAMP, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, MoonflowerApartment1FMachampText, -1

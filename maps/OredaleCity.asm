@@ -21,7 +21,7 @@ OredaleCity_MapScriptHeader:
 	bg_event 35, 52, BGEVENT_JUMPTEXT, OredaleMineSignText
 	bg_event 11, 38, BGEVENT_JUMPTEXT, OredaleCitySignText
 
-    db 19 ; object events
+    def_object_events
 	person_event SPRITE_SWINUB_OW, 17,  8, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredaleCitySwinub1Script, EVENT_SWINUB_1_FOUND
 	person_event SPRITE_SWINUB_OW, 34, 17, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredaleCitySwinub2Script, EVENT_SWINUB_2_FOUND
 	person_event SPRITE_SWINUB_OW, 23, 32, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OredaleCitySwinub3Script, EVENT_SWINUB_3_FOUND

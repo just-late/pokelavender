@@ -12,7 +12,7 @@ MoonflowerNPCApartment21F_MapScriptHeader:
 
     def_bg_events
 
-    db 2 ; object events
+    def_object_events
 	person_event SPRITE_COWGIRL, 4, 3, SPRITEMOVEDATA_WANDER, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment1FCowgirlText, -1
 	pokemon_event  5,  5, TAUROS, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MoonflowerApartment1FTaurosText, -1
 

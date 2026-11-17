@@ -11,7 +11,7 @@ MoonflowerNPCApartment12F_MapScriptHeader:
     def_bg_events
     bg_event 7, 3, BGEVENT_JUMPTEXT, MoonflowerApartment2FRadioMusicText
 
-    db 2 ; object_events
+    def_object_events
 	person_event SPRITE_BATTLE_GIRL,  4,  6, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptext, MoonflowerApartment2FLassText, -1
 	person_event SPRITE_ROCKER,  4,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment2FRockerText, -1
 

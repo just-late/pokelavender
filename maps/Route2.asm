@@ -13,7 +13,7 @@ Route2_MapScriptHeader:
 
 	def_bg_events
 
-	db 8 ; object_events
+	def_object_events
 	itemball_event 30, 43, POKE_BALL, 1, EVENT_ROUTE_2_POKE_BALL
 	itemball_event 29, 17, ANTIDOTE, 1, EVENT_ROUTE_2_ANTIDOTE
 	fruittree_event 16,  4, FRUITTREE_ROUTE_2_1, ORAN_BERRY, PAL_NPC_BLUE

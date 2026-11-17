@@ -10,7 +10,7 @@ AirplaneHallway_MapScriptHeader:
 
     def_bg_events
 
-    db 10 ; object events
+    def_object_events
 ;	person_event SPRITE_OFFICER,  1,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, AirplaneGuardText, -1
 	person_event SPRITE_BEAUTY, 12,  2, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, AirplaneFlightAttendantText, -1
 	person_event SPRITE_BEAUTY, 12,  3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, AirplaneFlightAttendantText, -1

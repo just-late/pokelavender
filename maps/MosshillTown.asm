@@ -22,7 +22,7 @@ MosshillTown_MapScriptHeader:
 	bg_event 10, 16, BGEVENT_JUMPTEXT, MosshillTrainersSchoolSignText
 	bg_event  4,  8, BGEVENT_ITEM + NUGGET, EVENT_MOSSHILL_TOWN_HIDDEN_NUGGET
 
-	db 3 ; object_events
+	def_object_events
 	person_event SPRITE_ELM,  8, 22, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ALWAYS_SET
 	person_event SPRITE_POKEFAN_F,  9, 13, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillNPC1Text, -1
 	person_event SPRITE_GRAMPS, 17, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, MosshillNPC2Text, -1

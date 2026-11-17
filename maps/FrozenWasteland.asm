@@ -11,7 +11,7 @@ FrozenWasteland_MapScriptHeader:
     def_bg_events
 	bg_event  6, 16, BGEVENT_JUMPTEXT, FrozenWastelandsSignText
 
-    db 0 ; object events
+    def_object_events
 
 FrozenWastelandsSignText:
     text "WARNING!!"

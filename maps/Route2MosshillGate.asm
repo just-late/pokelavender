@@ -15,7 +15,7 @@ Route2MosshillGate_MapScriptHeader:
 
     def_bg_events
 
-    db 1 ; object_events
+    def_object_events
     person_event SPRITE_OFFICER,  2,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, Route2MosshillGateNPC1Text, -1 
 
 SpecialCallMomWorriedScene:

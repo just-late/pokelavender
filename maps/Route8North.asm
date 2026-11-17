@@ -9,6 +9,6 @@ Route8North_MapScriptHeader:
     
     def_bg_events
 
-    db 2 ; object events
+    def_object_events
 	person_event SPRITE_YOUNGSTER, 29, 18, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_HIKER, 14, 12, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1

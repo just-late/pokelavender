@@ -18,7 +18,7 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	bg_event 13,  1, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 	bg_event 14,  1, BGEVENT_JUMPTEXT, GemrootHistoryBooksText
 
-    db 6 ; object events
+    def_object_events
 	person_event SPRITE_OAK,  4,  9, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, GemrootElderScript, -1
 	object_event  6,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, PERSONTYPE_SCRIPT, 0, FirePokeBallScript, EVENT_FIRE_POKEBALL_IN_COMMUNITYCENTER
 	object_event  7,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER

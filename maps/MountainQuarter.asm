@@ -11,7 +11,7 @@ MountainQuarter_MapScriptHeader:
 
     def_bg_events
 
-    db 1 ; object events
+    def_object_events
 	object_event 20,  5, SPRITE_CAMPFIRE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, FireCracklingText, -1 
 
 FireCracklingText:

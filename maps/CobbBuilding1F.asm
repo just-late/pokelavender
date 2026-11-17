@@ -14,7 +14,7 @@ CobbBuilding1F_MapScriptHeader:
 	bg_event  7,  2, BGEVENT_JUMPTEXT, CobbBuilding1FFounderText
 	bg_event 14,  9, BGEVENT_JUMPTEXT, CobbBuilding1FMachineExampleText
 
-    db 5  ; object events
+    def_object_events
 	person_event SPRITE_RECEPTIONIST,  3,  3, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1,  PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, CobbBuilding1FReceptionistText, -1
 	person_event SPRITE_GENTLEMAN,  8,  6, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_COMMAND, jumptextfaceplayer, CobbBuilding1FNPC1Text, -1
 	person_event SPRITE_SCIENTIST,  5, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptext, CobbBuilding1FNPC2Text, -1

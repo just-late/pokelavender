@@ -11,7 +11,7 @@ GemrootNPCHouse2_MapScriptHeader:
 
 	def_bg_events
 
-	db 1 ; object_events
+	def_object_events
 	person_event SPRITE_MATRON,  3,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptext, GemrootHouse2MatronText, -1
 
 GemrootHouse2MatronText:

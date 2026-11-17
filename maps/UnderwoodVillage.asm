@@ -19,7 +19,7 @@ UnderwoodVillage_MapScriptHeader:
 	bg_event 12, 15, BGEVENT_JUMPTEXT, UnderwoodVillageSignText
 	bg_event 32, 16, BGEVENT_JUMPTEXT, UnderwoodVillageEldersHouseSignText
 
-    db 3 ; object events
+    def_object_events
 	person_event SPRITE_MOM,  9, 34, SPRITEMOVEDATA_PLACEHOLDER_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, DoNothingScript, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	person_event SPRITE_FARFETCH_D, 16, 31, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_ROCKET, 16, 30, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_SAVED_UNDERWOOD

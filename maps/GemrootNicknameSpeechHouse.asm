@@ -11,7 +11,7 @@ GemrootNicknameSpeechHouse_MapScriptHeader:
 
 	def_bg_events
 
-	db 4 ; object_events
+	def_object_events
 	person_event SPRITE_POKEFAN_F, 4,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, GemrootNicknameSpeechHousePokefanFText, -1
 	person_event SPRITE_TWIN, 4,  5, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, GemrootNicknameSpeechHouseTwinText, -1
 	pokemon_event  5,  2, MUNCHLAX, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, MuncheeText, -1

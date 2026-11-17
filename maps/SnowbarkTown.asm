@@ -10,6 +10,6 @@ SnowbarkTown_MapScriptHeader:
 
     def_bg_events
 
-    db 2 ; object events
+    def_object_events
 	person_event SPRITE_SKIER, 11, 20, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_GRANNY, 17,  8, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 6, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1

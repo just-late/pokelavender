@@ -15,7 +15,7 @@ MoonflowerGym_MapScriptHeader:
 	bg_event  0,  9, BGEVENT_READ, MoonflowerGymStatue
 	bg_event  0, 10, BGEVENT_READ, MoonflowerGymStatue
 
-	db 11 ; object_events
+	def_object_events
 	person_event SPRITE_MOM, -3, -3, SPRITEMOVEDATA_PLACEHOLDER_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, DoNothingScript, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	person_event SPRITE_BIKER, 10,  5, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1
 	person_event SPRITE_FAT_GUY,  9, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, MoonflowerBarFightScript, -1

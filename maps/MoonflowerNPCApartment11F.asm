@@ -12,7 +12,7 @@ MoonflowerNPCApartment11F_MapScriptHeader:
 
     def_bg_events
 
-    db 3 ; object events
+    def_object_events
     person_event SPRITE_HIKER, 4, 3, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment1FHikerText, -1
     person_event SPRITE_BREEDER, 4, 0, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment1FWomanText, -1
     person_event SPRITE_CHILD, 5, 7, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, MoonflowerApartment1FChildText, -1

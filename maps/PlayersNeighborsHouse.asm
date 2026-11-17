@@ -11,7 +11,7 @@ PlayersNeighborsHouse_MapScriptHeader:
 
 	def_bg_events
 
-	db 4 ; object_events
+	def_object_events
 	person_event SPRITE_GRAMPS,  4,  5, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PINK, PERSONTYPE_COMMAND, jumptextfaceplayer, GrampsPokemonText, -1
 	person_event SPRITE_GRANNY,  3,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, NeighborAdventureScript, -1
 	person_event SPRITE_CHILD,  4,  2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_COMMAND, jumptextfaceplayer, GrowUpProfText, -1
