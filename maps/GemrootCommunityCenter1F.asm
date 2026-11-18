@@ -24,7 +24,6 @@ GemrootCommunityCenter1F_MapScriptHeader:
 	object_event  7,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, PERSONTYPE_SCRIPT, 0, WaterPokeBallScript, EVENT_WATER_POKEBALL_IN_COMMUNITYCENTER
 	object_event  8,  1, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, PERSONTYPE_SCRIPT, 0, GrassPokeBallScript, EVENT_GRASS_POKEBALL_IN_COMMUNITYCENTER
 	person_event SPRITE_RIVAL,  3,  5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, GemrootTaylorScript, EVENT_GOT_A_POKEMON_FROM_ELDER
-	person_event SPRITE_LYRA,  5,  5, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE_TONE_2, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOT_A_POKEMON_FROM_ELDER
 
     object_const_def
     const GEMROOT_LAB_BAOBAB
@@ -32,7 +31,6 @@ GemrootCommunityCenter1F_MapScriptHeader:
     const GEMROOT_LAB_WATER_POKEBALL
     const GEMROOT_LAB_GRASS_POKEBALL
     const GEMROOT_LAB_TAYLOR
-    const GEMROOT_LAB_IZZY
 
 PlayerWalksToTaylor1:
     special Special_FadeOutMusic
@@ -132,11 +130,14 @@ ElderFindTaylorText:
     done
 
 GemrootTaylorScript:
-    faceplayer
-    checkevent EVENT_GOT_A_POKEMON_FROM_ELDER
-    iftrue_jumptext TaylorCutePokemonText
-    jumptext ElderPickAMonText
+    jumptextfaceplayer TaylorPickAMonText
     end
+
+TaylorPickAMonText:
+    ntag " TAYLOR "
+    text "Pick a #MON"
+    line "already!"
+    done
 
 FirePokeBallScript:
 ;   checkevent EVENT_TAYLOR_IN_COMMUNITYCENTER
@@ -657,12 +658,6 @@ TaylorTakesCyndaquilText:
     line "stronger."
     done
 
-TaylorCutePokemonText:
-    text "I think your"
-    line "#MON is cute,"
-    cont "too!"
-    done
-
 BelongsToElderText:
     text "It's a #MON"
     line "that belongs to"
@@ -702,7 +697,7 @@ ElderGemrootTraditionText:
     cont "get started."
 
     para "As I am sure"
-    line "you three kids"
+    line "you two kids"
     cont "are aware,"
 
     para "many hundreds"
@@ -763,7 +758,7 @@ GemrootTaylorSuperEffectiveText:
 
 ElderWaitPickMonText:
     nametag
-    text " ELDER "
+    text " BAOBAB "
     next
     text_start
     text "Wait, <PLAYER>!"
@@ -772,7 +767,7 @@ ElderWaitPickMonText:
 
 ElderPickAMonText:
     nametag
-    text " ELDER "
+    text " BAOBAB "
     next
     text_start
     text "Go on! Pick a"

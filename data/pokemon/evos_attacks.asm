@@ -3754,7 +3754,7 @@ MudkipEvosAttacks: ; based on gen 7 learnset
 	db -1 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
-	db 4, WATER_GUN
+	db 7, WATER_GUN
 	db 9, MUD_SLAP
 	db 12, FORESIGHT
 	db 17, COUNTER ; Bide → similar move

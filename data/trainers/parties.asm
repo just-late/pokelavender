@@ -1411,7 +1411,7 @@ Rival1Group:
 
 	; For EV spreads, keep continuity until pre-E4 (need Surf to lose EVs).
 	; RIVAL1_1
-	db "ANABEL@"
+	db "TAYLOR@"
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, TURTWIG
@@ -1419,7 +1419,7 @@ Rival1Group:
 	db -1 ; end
 
 	; RIVAL1_2
-	db "ANABEL@"
+	db "TAYLOR@"
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, CYNDAQUIL
@@ -1427,7 +1427,7 @@ Rival1Group:
 	db -1 ; end
 
 	; RIVAL1_3
-	db "ANABEL@"
+	db "TAYLOR@"
 	db TRAINERTYPE_ITEM
 	; party
 	dbp 5, MUDKIP
@@ -1435,7 +1435,7 @@ Rival1Group:
 	db -1 ; end
 
 	; RIVAL1
-	db "ANABEL@"
+	db "TAYLOR@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
 	dbp 20, HAUNTER
