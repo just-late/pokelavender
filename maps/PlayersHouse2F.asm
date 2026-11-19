@@ -126,11 +126,10 @@ DebugPosterScript:
 	writetext DebugPosterTeamText
 	yesorno
 	iffalsefwd .NoScript
-	givepoke KOTORA, PLAIN_FORM, 15, NO_ITEM
+	givepoke KOTORA, 15
 	givekeyitem GBC_SOUNDS
 	givekeyitem WAILMER_PAIL
 	setflag ENGINE_POKEDEX
-	setflag ENGINE_POKEGEAR
 .NoScript
 	closetext
 	end
