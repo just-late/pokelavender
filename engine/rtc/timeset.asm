@@ -508,7 +508,7 @@ GetTimeOfDayString:
 NITE_String: db "NIGHT@"
 MORN_String: db "MORNING@"
 DAY_String:  db "DAY@"
-EVE_String:  db "EVENING"
+EVE_String:  db "EVENING@"
 
 PlaceCaughtTimeOfDayString::
 	and CAUGHT_TIME_MASK
