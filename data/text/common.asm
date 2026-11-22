@@ -3260,13 +3260,13 @@ _ElmText2::
 
 SECTION "_ElmText4", ROMX
 _ElmText4::
-	text "Some #MON migrate"
-	line "for food,"
-
-	para "and others make"
+	text "Some #MON make"
 	line "the journey to"
-	cont "escape cold or"
-	cont "hot temperatures."
+	cont "breed,"
+
+	para "and others migrate"
+	line "as they raise"
+	cont "their young."
 
 	para "There are many"
 	line "other reasons for"
