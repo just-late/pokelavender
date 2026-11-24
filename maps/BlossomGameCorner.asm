@@ -4,8 +4,8 @@ BlossomGameCorner_MapScriptHeader:
     def_callbacks
 
     def_warp_events
-	warp_event  5, 11, BLOSSOM_CITY, 2
-	warp_event  4, 11, BLOSSOM_CITY, 2
+	warp_event  5, 11, BLOSSOM_CITY_SOUTH, 1
+	warp_event  4, 11, BLOSSOM_CITY_SOUTH, 1
 
     def_coord_events
     

@@ -129,7 +129,19 @@ ENDM
 	map_attributes Route43, ROUTE_43, $5, NORTH
 	connection north, LakeOfRage, LAKE_OF_RAGE, -5
 
-	map_attributes BlossomCity, BLOSSOM_CITY, $31, 0
+	map_attributes BlossomCity, BLOSSOM_CITY, $01, SOUTH | WEST
+	connection south, BlossomCitySouth, BLOSSOM_CITY_SOUTH, 0
+	connection west, BlossomCityWest, BLOSSOM_CITY_WEST, 0
+
+	map_attributes BlossomCityWest, BLOSSOM_CITY_WEST, $01, SOUTH | EAST
+	connection south, BlossomCityDocks, BLOSSOM_CITY_DOCKS, 0
+	connection east, BlossomCity, BLOSSOM_CITY, 0
+
+	map_attributes BlossomCityDocks, BLOSSOM_CITY_DOCKS, $7b, NORTH
+	connection north, BlossomCityWest, BLOSSOM_CITY_WEST, 0
+
+	map_attributes BlossomCitySouth, BLOSSOM_CITY_SOUTH, $7b, NORTH
+	connection north, BlossomCity, BLOSSOM_CITY, 0
 
 	map_attributes PewterCity, PEWTER_CITY, $f, EAST
 	connection east, Route3, ROUTE_3, 5
@@ -844,7 +856,4 @@ ENDM
 	map_attributes CanyonDepths, CANYON_DEPTHS, $5, 0
 	map_attributes Canyon1F, CANYON_1F, $5, 0
 	map_attributes BlossomGameCorner, BLOSSOM_GAME_CORNER, $0, 0
-	map_attributes JungleQuarter, JUNGLE_QUARTER, $2d, 0
-	map_attributes MountainQuarter, MOUNTAIN_QUARTER, $0, 0
-	map_attributes AcademyPokeCenter, ACADEMY_POKECENTER, $0, 0
 	map_attributes AirplaneHallway, AIRPLANE_HALLWAY, $0, 0

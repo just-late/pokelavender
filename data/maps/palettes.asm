@@ -66,11 +66,9 @@ ENDM
 	special_bg_pal map,      MYSTRI_STAGE,                PAL_SINGLE,    MystriStagePalette
 	special_bg_pal map,      EMBEDDED_TOWER,              PAL_SINGLE,    EmbeddedTowerPalette
 	special_bg_pal map,      OVERCAST_GROVE,			  PAL_TIMEOFDAY, OvercastBGPalette
-	special_bg_pal map,      BLOSSOM_CITY,				  PAL_TIMEOFDAY, BlossomCityPalette
 	special_bg_pal map,      GRANITE_VILLAGE,		      PAL_TIMEOFDAY, MountainPalette
 	special_bg_pal map,		 LOCOVINE_TOWN,			  PAL_TIMEOFDAY, OvercastBGPalette
 	special_bg_pal map,      CANYON_1F,		       		  PAL_TIMEOFDAY, BGCanyonPalette
-	special_bg_pal map,      JUNGLE_QUARTER,			  PAL_TIMEOFDAY, JungleQuarterPalette
 	special_bg_pal map,      OREDALE_CITY,				  PAL_TIMEOFDAY, OredaleCityPalette
 	special_bg_pal map,      BLOSSOM_DEPT_STORE_ROOF,     PAL_TIMEOFDAY, BlossomDeptStoreRoofPalette
 	special_bg_pal map,		 BLOSSOM_GAME_CORNER,		  PAL_SINGLE,    GameCornerPalette
@@ -1044,25 +1042,6 @@ endc
 WhirlIslandsPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/whirl_islands.pal"
-else
-rept 4
-	MONOCHROME_RGB_FOUR_NIGHT
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-	MONOCHROME_RGB_FOUR_NIGHT
-	MONOCHROME_RGB_FOUR_NIGHT
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-BlossomCityPalette:
-if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/blossom_city.pal" 
 else
 rept 4
 	MONOCHROME_RGB_FOUR_NIGHT

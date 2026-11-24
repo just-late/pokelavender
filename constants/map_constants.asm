@@ -179,11 +179,11 @@ ENDM
 	map_const GRANITE_INN_1F,							   9,  6 ;  3
 
 	newgroup                                                     ;  8
-	map_const BLOSSOM_CITY,								  27, 27 ;  1
+	map_const BLOSSOM_CITY,								  21, 17 ;  1
 	map_const BLOSSOM_GAME_CORNER,						   7,  6 ;  2
-	map_const JUNGLE_QUARTER,							  19, 16 ;  3
-	map_const MOUNTAIN_QUARTER, 						  15, 22 ;  4
-	map_const ACADEMY_POKECENTER, 						  11,  7 ;  5
+	map_const BLOSSOM_CITY_WEST,						  15, 17 ;  3
+	map_const BLOSSOM_CITY_DOCKS,						  15, 14 ;  4
+	map_const BLOSSOM_CITY_SOUTH,						  21, 19 ;  5
 
 	newgroup                                                     ;  9
 	map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE,             4,  4 ;  1

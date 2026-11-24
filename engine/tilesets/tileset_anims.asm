@@ -100,15 +100,16 @@ TilesetPortAnim::
 	dw NULL,  DoneTileAnimation
 
 TilesetBlossomCityAnim::
-	dw vTiles2 tile $7d, AnimateWaterTile
-	dw NULL,  AnimateMovieTile1
+	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
+	dw NULL,  AnimateFlowerTile
+	dw WhirlpoolFrames1, AnimateWhirlpoolTile
+	dw WhirlpoolFrames2, AnimateWhirlpoolTile
+	dw WhirlpoolFrames3, AnimateWhirlpoolTile
+	dw WhirlpoolFrames4, AnimateWhirlpoolTile
 	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation

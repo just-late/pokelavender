@@ -1635,17 +1635,17 @@ SECTION "BlossomGameCorner_BlockData", ROMX
 BlossomGameCorner_BlockData:
 	INCBIN "maps/BlossomGameCorner.ablk.lz"
 
-SECTION "JungleQuarter_BlockData", ROMX
-JungleQuarter_BlockData:
-	INCBIN "maps/JungleQuarter.ablk.lz"
+SECTION "BlossomCityWest_BlockData", ROMX
+BlossomCityWest_BlockData:
+	INCBIN "maps/BlossomCityWest.ablk.lz"
 
-SECTION "MountainQuarter_BlockData", ROMX
-MountainQuarter_BlockData:
-	INCBIN "maps/MountainQuarter.ablk.lz"
+SECTION "BlossomCityDocks_BlockData", ROMX
+BlossomCityDocks_BlockData:
+	INCBIN "maps/BlossomCityDocks.ablk.lz"
 
-SECTION "AcademyPokeCenter_BlockData", ROMX
-AcademyPokeCenter_BlockData:
-	INCBIN "maps/AcademyPokeCenter.ablk.lz"
+SECTION "BlossomCitySouth_BlockData", ROMX
+BlossomCitySouth_BlockData:
+	INCBIN "maps/BlossomCitySouth.ablk.lz"
 
 SECTION "OredaleCity_BlockData", ROMX
 OredaleCity_BlockData:

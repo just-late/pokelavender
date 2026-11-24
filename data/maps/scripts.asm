@@ -140,6 +140,9 @@ SECTION "Blossom City Scripts", ROMX
 
 INCLUDE "maps/BlossomCity.asm"
 INCLUDE "maps/BlossomGameCorner.asm"
+INCLUDE "maps/BlossomCityWest.asm"
+INCLUDE "maps/BlossomCityDocks.asm"
+INCLUDE "maps/BlossomCitySouth.asm"
 
 SECTION "Granite Village Scripts", ROMX
 
@@ -1043,12 +1046,6 @@ INCLUDE "maps/OvercastGrove.asm"
 SECTION "Airplane Scripts", ROMX
 
 INCLUDE "maps/AirplaneHallway.asm"
-
-SECTION "Blossom Academy Scripts", ROMX
-
-INCLUDE "maps/JungleQuarter.asm"
-INCLUDE "maps/MountainQuarter.asm"
-INCLUDE "maps/AcademyPokeCenter.asm"
 
 SECTION "Oredale City Scripts", ROMX
 
