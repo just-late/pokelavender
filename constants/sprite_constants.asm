@@ -207,8 +207,6 @@
 	const SPRITE_GARDENIA ; cb
 	const SPRITE_CHRIS_RUN ; cc
 	const SPRITE_KRIS_RUN ; cd
-	const SPRITE_DITTO_TILES ; ce
-	const SPRITE_DITTO_TILES_2 ; cf
 	const SPRITE_TAUROS_OW ; d0
 	const SPRITE_INNKEEPER ; d1
 	const SPRITE_CRYS_RUN  ; d2
@@ -221,12 +219,12 @@
 	const SPRITE_TWIN_SNOWY
 	const SPRITE_MACHAMP_SLUMBER
 	const SPRITE_MAKUHITA_OW
-	const SPRITE_PLANE_HEADS_1
-	const SPRITE_PLANE_HEADS_2
-	const SPRITE_PLANE_HEADS_3
-	const SPRITE_PLANE_HEADS_4
 	const SPRITE_DONPHAN_OW
 	const SPRITE_GRUNT_2
+	const SPRITE_GRAFFITI_1
+	const SPRITE_GRAFFITI_2
+	const SPRITE_GRAFFITI_3
+	const SPRITE_GRAFFITI_4
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

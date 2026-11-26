@@ -16,7 +16,7 @@ BlossomGameCorner_MapScriptHeader:
 	bg_event 13,  8, BGEVENT_READ, BlossomGameCornerSlotsScript
 	
 
-    db 9 ; object events
+    db 6 ; object events
 	person_event SPRITE_GRUNT_2,  8,  1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, GameCornerGruntScript, -1
 	person_event SPRITE_BURGLAR,  4,  6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_ROCKER, 10,  8, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, BlossomGameCornerNPC1Text, -1
@@ -24,8 +24,6 @@ BlossomGameCorner_MapScriptHeader:
 ;	person_event SPRITE_POKEFAN_F,  6,  8, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
 	person_event SPRITE_BIRD_KEEPER, 10, 10, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_TONE_2, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_BEAUTY,  9,  3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_DITTO_TILES_2, 10,  9, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, BlossomGameCornerCardFlipScript, -1
-;	person_event SPRITE_DITTO_TILES_2,  6,  7, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, BlossomGameCornerBoozeSellerScript, -1
 
 	object_const_def
 	const GAMECORNER_BARTENDER

@@ -216,3 +216,6 @@
 	tilecoll LEFT_WALL, FLOOR, LEFT_WALL, FLOOR ; d7
 	tilecoll FLOOR, FLOOR, BOTTOM_WALL, BOTTOM_WALL ; d8
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d9
+	tilecoll FLOOR, WALL, FLOOR, WALL ; da
+	tilecoll WALL, WALL, WALL, WALL ; db
+	tilecoll WALL, WALL, WALL, WALL ; dc

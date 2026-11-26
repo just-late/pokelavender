@@ -46,7 +46,6 @@ ENDM
 	ow_npc_pal_const KEY_ITEM          ; 0f (green)
 	ow_npc_pal_const MARLON            ; 10
 	ow_npc_pal_const SAILBOAT          ; 11
-	ow_npc_pal_const BLUE_DITTO        ; 12
 	ow_npc_pal_const CORSOLA		   ; 13
 	ow_npc_pal_const RAIN              ; 14
 	ow_npc_pal_const SAND              ; 15
@@ -60,6 +59,10 @@ ENDM
 	ow_npc_pal_const GREEN_TONE_3	   ; 23
 	ow_npc_pal_const PURPLE_TONE_3	   ; 25
 	ow_npc_pal_const PINK_TONE_3	   ; 26
+	ow_npc_pal_const ODDISH_G	   	   ; 27
+	ow_npc_pal_const KOTORA_G	       ; 38
+	ow_npc_pal_const DMCA_G		       ; 29
+	ow_npc_pal_const DITTO_G	       ; 30
 DEF NUM_OW_TIME_OF_DAY_PALS EQU const_value
 ; SingleObjectPals indexes (see gfx/overworld/npc_single_object.pal)
 	ow_npc_pal_const EMOTE_GRAY        ; 16

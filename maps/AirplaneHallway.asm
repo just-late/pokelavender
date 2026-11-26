@@ -14,15 +14,6 @@ AirplaneHallway_MapScriptHeader:
 ;	person_event SPRITE_OFFICER,  1,  2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, AirplaneGuardText, -1
 	person_event SPRITE_BEAUTY, 12,  2, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, AirplaneFlightAttendantText, -1
 	person_event SPRITE_BEAUTY, 12,  3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_COMMAND, jumptextfaceplayer, AirplaneFlightAttendantText, -1
-	person_event SPRITE_PLANE_HEADS_1,  6,  1, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, PERSONTYPE_COMMAND, jumptextfaceplayer, AirplaneArtistText, -1
-	person_event SPRITE_PLANE_HEADS_1,  6,  0, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_PLANE_HEADS_2,  4,  1, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptextfaceplayer, AirplaneFatGuyText, -1
-	person_event SPRITE_PLANE_HEADS_2,  8,  0, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_PLANE_HEADS_2,  5,  0, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_PLANE_HEADS_3,  7,  5, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptext, AirplaneGruntWhisperText, -1
-	person_event SPRITE_PLANE_HEADS_3,  7,  4, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, PERSONTYPE_COMMAND, jumptext, AirplaneGruntWhisperText, -1
-	person_event SPRITE_PLANE_HEADS_4,  5,  4, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, AirplaneGuardOnBreakScript, -1
-;    person_event SPRITE_PLANE_HEADS_4,  
 
 AirplaneGuardOnBreakScript:
     turnobject LAST_TALKED, DOWN

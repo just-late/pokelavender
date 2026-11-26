@@ -181,4 +181,5 @@ Music:
 	dba Music_OredaleCity
 	dba Music_CountBubbasRevenge
 	dba Music_September
+	dba Music_BlossomCity
 	assert_table_length NUM_MUSIC_SONGS

@@ -528,4 +528,7 @@ INCLUDE "audio/music/countbubbasrevenge.asm"
 SECTION "Song - september", ROMX
 INCLUDE "audio/music/september.asm"
 
+SECTION "Song - blossomcity", ROMX
+INCLUDE "audio/music/blossomcity.asm"
+
 ENDSECTION

@@ -611,12 +611,6 @@ ChrisRunSpriteGFX:: INCBIN "gfx/sprites/chris_run.2bpp.lz"
 SECTION "KrisRunSpriteGFX", ROMX
 KrisRunSpriteGFX:: INCBIN "gfx/sprites/kris_run.2bpp.lz"
 
-SECTION "DittoTilesSpriteGFX", ROMX
-DittoTilesSpriteGFX:: INCBIN "gfx/sprites/ditto_tiles.2bpp.lz"
-
-SECTION "DittoTiles2SpriteGFX", ROMX
-DittoTiles2SpriteGFX:: INCBIN "gfx/sprites/ditto_tiles_2.2bpp.lz"
-
 SECTION "TaurosOWSpriteGFX", ROMX
 TaurosOWSpriteGFX:: INCBIN "gfx/sprites/tauros.2bpp.lz"
 
@@ -653,20 +647,20 @@ MachampSlumberGFX:: INCBIN "gfx/sprites/machamp_slumber.2bpp.lz"
 SECTION "MakuhitaOWSpriteGFX", ROMX
 MakuhitaOWSpriteGFX:: INCBIN "gfx/sprites/makuhita_ow.2bpp.lz"
 
-SECTION "PlaneHeads1SpriteGFX", ROMX
-PlaneHeads1SpriteGFX:: INCBIN "gfx/sprites/plane_heads_1.2bpp.lz"
-
-SECTION "PlaneHeads2SpriteGFX", ROMX
-PlaneHeads2SpriteGFX:: INCBIN "gfx/sprites/plane_heads_2.2bpp.lz"
-
-SECTION "PlaneHeads3SpriteGFX", ROMX
-PlaneHeads3SpriteGFX:: INCBIN "gfx/sprites/plane_heads_3.2bpp.lz"
-
-SECTION "PlaneHeads4SpriteGFX", ROMX
-PlaneHeads4SpriteGFX:: INCBIN "gfx/sprites/plane_heads_4.2bpp.lz"
-
 SECTION "DonphanOWGFX", ROMX
 DonphanOWGFX:: INCBIN "gfx/sprites/donphan_ow.2bpp.lz"
 
 SECTION "Grunt2GFX", ROMX
 Grunt2GFX:: INCBIN "gfx/sprites/grunt_2.2bpp.lz"
+
+SECTION "Graffiti1GFX", ROMX
+Graffiti1GFX:: INCBIN "gfx/sprites/graffiti_1.2bpp.lz"
+
+SECTION "Graffiti2GFX", ROMX
+Graffiti2GFX:: INCBIN "gfx/sprites/graffiti_2.2bpp.lz"
+
+SECTION "Graffiti3GFX", ROMX
+Graffiti3GFX:: INCBIN "gfx/sprites/graffiti_3.2bpp.lz"
+
+SECTION "Graffiti4GFX", ROMX
+Graffiti4GFX:: INCBIN "gfx/sprites/graffiti_4.2bpp.lz"

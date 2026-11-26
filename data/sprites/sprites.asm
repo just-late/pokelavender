@@ -212,8 +212,6 @@ SpriteHeaders:
 	overworld_sprite GardeniaSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite ChrisRunSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KrisRunSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite DittoTilesSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE_DITTO
-	overworld_sprite DittoTiles2SpriteGFX, STANDING_SPRITE, PAL_OW_BLUE_DITTO
 	overworld_sprite TaurosOWSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite InnkeeperSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite CrysRunSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
@@ -226,10 +224,10 @@ SpriteHeaders:
 	overworld_sprite TwinSnowySpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite MachampSlumberGFX, STANDING_SPRITE, PAL_OW_GRAY
 	overworld_sprite MakuhitaOWSpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
-	overworld_sprite PlaneHeads1SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
-	overworld_sprite PlaneHeads2SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
-	overworld_sprite PlaneHeads3SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
-	overworld_sprite PlaneHeads4SpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite DonphanOWGFX, WALKING_SPRITE, PAL_OW_GRAY
 	overworld_sprite Grunt2GFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite Graffiti1GFX, STANDING_SPRITE, PAL_OW_ODDISH_G
+	overworld_sprite Graffiti2GFX, STANDING_SPRITE, PAL_OW_DMCA_G
+	overworld_sprite Graffiti3GFX, STANDING_SPRITE, PAL_OW_DITTO_G
+	overworld_sprite Graffiti4GFX, STANDING_SPRITE, PAL_OW_DITTO_G
 	assert_table_length NUM_OVERWORLD_SPRITES
