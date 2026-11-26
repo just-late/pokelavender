@@ -72,13 +72,13 @@ ENDM
 	special_bg_pal map,      OREDALE_CITY,				  PAL_TIMEOFDAY, OredaleCityPalette
 	special_bg_pal map,      BLOSSOM_DEPT_STORE_ROOF,     PAL_TIMEOFDAY, BlossomDeptStoreRoofPalette
 	special_bg_pal map,		 BLOSSOM_GAME_CORNER,		  PAL_SINGLE,    GameCornerPalette
-	special_bg_pal map,		 AIRPLANE_HALLWAY,			  PAL_SINGLE,    AirplaneHallwayPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DIM_CAVE,                    PAL_SINGLE,    DimCavePalette
 	special_bg_pal landmark, SCARY_CAVE,                  PAL_SINGLE,    ScaryCavePalette
 	special_bg_pal landmark, CINNABAR_VOLCANO,            PAL_SINGLE,    CinnabarVolcanoPalette
+	special_bg_pal landmark, BLOSSOM_CITY,				  PAL_TIMEOFDAY, BlossomCityPalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_POKECOM_CENTER,      PAL_SINGLE,    PokeComPalette
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -93,11 +93,11 @@ ENDM
 	special_bg_pal tileset,  TILESET_SNOWY,				  PAL_TIMEOFDAY, SnowyPalette
 	db 0 ; end
 
+BlossomCityPalette:
+INCLUDE "gfx/tilesets/blossom_city.pal"
+
 BlossomDeptStoreRoofPalette:
 INCLUDE "maps/BlossomDeptStoreRoof.pal"
-
-AirplaneHallwayPalette:
-INCLUDE "maps/AirplaneHallway.pal"
 
 SandstormPalette:
 INCLUDE "maps/sandstorm.pal"
