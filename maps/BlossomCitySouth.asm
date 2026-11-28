@@ -10,12 +10,12 @@ BlossomCitySouth_MapScriptHeader:
 
     def_bg_events
 
-    db 19 ; object events
+    db 20 ; object events
 	person_event SPRITE_BIKER,  5,  8, SPRITEMOVEDATA_WANDER, 0, 4, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_BIKER, 19, 26, SPRITEMOVEDATA_WANDER, 2, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_CUTE_GIRL,  2, 23, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_LASS,  2, 22, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
-	person_event SPRITE_YOUNGSTER,  8, 17, SPRITEMOVEDATA_WANDER, 2, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_YOUNGSTER,  8, 17, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_GREEN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_CHILD, 13, 31, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_SAILOR, 20, 11, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_SAILOR, 21, 16, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
@@ -23,6 +23,7 @@ BlossomCitySouth_MapScriptHeader:
 	person_event SPRITE_SAILOR, 24, 36, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_PURPLE, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_BLACK_BELT, 25,  7, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << MORN) | (1 << DAY) | (1 << EVE), 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	person_event SPRITE_BLACK_BELT, 20,  6, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, (1 << MORN) | (1 << DAY) | (1 << EVE), 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
+	person_event SPRITE_FAT_GUY,  8, 26, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, PERSONTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 37, 29, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_TOP, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCityDocksSailboatText, -1 ; shared with maps/BlossomCityDocks.asm
 	object_event 37, 29, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, -1, 0, PERSONTYPE_COMMAND, jumptext, BlossomCityDocksSailboatText, -1
 	object_event 21,  7, SPRITE_GRAFFITI_2, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, DoNothingScript, -1
